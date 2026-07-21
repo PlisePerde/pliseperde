@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   verification: {
     google: "nqWwFE2E710n1sOZY32SHixMuJ860LFuJZV7biitAqo",
+    other: {
+      "msvalidate.01": "BING_VERIFICATION_CODE_BURAYA",
+      "yandex-verification": "YANDEX_VERIFICATION_CODE_BURAYA",
+    },
   },
   title: {
     default: "Plise Perde | Özel Ölçü Üretim | Hızlı Teslimat - 2 Yıl Garanti",
@@ -14,13 +18,7 @@ export const metadata: Metadata = {
   },
   description:
     "Plise Perde özel ölçü üretim, ücretsiz keşif, ücretsiz ölçülendirme ve ücretsiz montaj hizmetiyle FENETRE kalitesini yaşam alanlarınıza taşır.",
-  keywords: [
-    "plise perde",
-    "plise perde modelleri",
-    "plise perde fiyatları",
-    "plise perde üreticisi",
-    "plise perde satın al",
-  ],
+  keywords: ["plise perde"],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   publisher: siteConfig.name,

@@ -5,11 +5,43 @@ import JsonLd, { createBreadcrumbJsonLd, createWebPageSchema } from "@/component
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Hizmet Bölgeleri — Türkiye Geneli Plise Perde" },
+  title: { absolute: "Plise Perde Hizmet Bölgeleri — 81 İl, Türkiye Geneli" },
   description:
-    "İstanbul, Ankara, İzmir, Bursa, Antalya ve 23 şehirde plise perde üretici hizmeti. Ücretsiz keşif, profesyonel montaj.",
+    "Plise perde Türkiye geneli hizmet bölgeleri: 81 ilde ücretsiz keşif, profesyonel montaj, video keşif ve kargo ile teslimat. İstanbul, Ankara, İzmir, Bursa ve tüm şehirlerde plise perde hizmeti.",
   alternates: { canonical: "/hizmet-bolgeleri/" },
+  keywords: ["hizmet bölgeleri"],
+  openGraph: {
+    title: "Plise Perde Hizmet Bölgeleri — 81 İl, Türkiye Geneli",
+    description:
+      "81 ilde plise perde hizmeti: ücretsiz keşif, profesyonel montaj, video keşif ve kargo ile teslimat.",
+    url: "/hizmet-bolgeleri/",
+  },
 };
+
+const priorityCities = [
+  "İstanbul", "Kocaeli", "Sakarya", "Yalova", "Düzce",
+  "Bilecik", "Bursa", "Balıkesir", "Çanakkale",
+];
+
+const otherCities = [
+  "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray",
+  "Amasya", "Ankara", "Antalya", "Ardahan", "Artvin",
+  "Aydın", "Bartın", "Batman", "Bayburt", "Bingöl",
+  "Bitlis", "Bolu", "Burdur", "Çankırı", "Çorum",
+  "Denizli", "Diyarbakır", "Edirne", "Elazığ", "Erzincan",
+  "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane",
+  "Hakkari", "Hatay", "Iğdır", "Isparta", "İzmir",
+  "Kahramanmaraş", "Karabük", "Karaman", "Kars", "Kastamonu",
+  "Kayseri", "Kilis", "Kırıkkale", "Kırklareli", "Kırşehir",
+  "Konya", "Kütahya", "Malatya", "Manisa", "Mardin",
+  "Mersin", "Muğla", "Muş", "Nevşehir", "Niğde",
+  "Ordu", "Osmaniye", "Rize", "Samsun", "Siirt",
+  "Sinop", "Sivas", "Şanlıurfa", "Şırnak", "Tekirdağ",
+  "Tokat", "Trabzon", "Tunceli", "Uşak", "Van",
+  "Yozgat", "Zonguldak",
+];
+
+const allCities = [...priorityCities, ...otherCities];
 
 export default function HizmetBolgeleriPage() {
   const breadcrumb = ["Ana Sayfa", "Hizmet Bölgeleri"];
@@ -20,41 +52,102 @@ export default function HizmetBolgeleriPage() {
         schemas={[
           createBreadcrumbJsonLd(breadcrumb),
           createWebPageSchema({
-            name: "Hizmet Bölgeleri",
-            description: "Türkiye geneli plise perde hizmet bölgeleri.",
+            name: "Plise Perde Hizmet Bölgeleri — 81 İl",
+            description:
+              "Türkiye'nin 81 ilinde plise perde hizmeti: ücretsiz keşif, profesyonel montaj, video keşif ve kargo ile teslimat.",
             url: "/hizmet-bolgeleri",
           }),
+          {
+            "@context": "https://schema.org",
+            "@type": "ServiceArea",
+            name: "Plise Perde Hizmet Bölgesi",
+            description:
+              "Türkiye'nin 81 ilinde plise perde üretim, keşif, montaj ve teslimat hizmeti.",
+            provider: {
+              "@type": "Organization",
+              name: "Plise Perde",
+              url: "https://pliseperde.com",
+              telephone: "+905403363873",
+            },
+            areaServed: {
+              "@type": "Country",
+              name: "Türkiye",
+            },
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Plise Perde Hizmetleri",
+              itemListElement: allCities.map((city) => ({
+                "@type": "Offer",
+                itemOffered: {
+                  "@type": "Service",
+                  name: `${city} Plise Perde Hizmeti`,
+                  areaServed: {
+                    "@type": "City",
+                    name: city,
+                  },
+                },
+              })),
+            },
+          },
         ]}
       />
       <PageHeading
         breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmet Bölgeleri", url: "/hizmet-bolgeleri/" }]}
-        title="Hizmet Bölgeleri — Türkiye Geneli Plise Perde"
-        description="İstanbul merkezli üretim tesisimizden Türkiye'nin 23 şehrine plise perde hizmeti veriyoruz. Her şehirde ücretsiz keşif ve profesyonel montaj imkanı sunuyoruz."
-        highlight="23 şehir · Ücretsiz keşif · Profesyonel montaj"
+        title="Plise Perde Hizmet Bölgeleri — 81 İl, Türkiye Geneli"
+        description="Pendik İstanbul merkezli üretim tesisimizden Türkiye'nin 81 iline plise perde hizmeti veriyoruz. Marmara Bölgesi'nde ücretsiz yerinde keşif ve montaj, diğer şehirlerde video keşif ve kargo ile teslimat seçenekleri mevcuttur."
+        highlight="81 il · Ücretsiz keşif · Profesyonel montaj · Video keşif · Kargo ile teslimat"
       />
       <div className="mx-auto max-w-[1536px] px-4 md:px-6">
-        <section className="py-6 md:py-8 space-y-6">
+        <section className="py-6 md:py-8 space-y-8">
           <section className="prose prose-sm max-w-none">
             <p className="text-sm md:text-base text-brand-text-light leading-relaxed">
-              Pendik İstanbul merkezli üretim tesisimizden tüm Türkiye&apos;ye plise perde hizmeti veriyoruz.
-              İstanbul&apos;da ücretsiz yerinde keşif ve montaj, diğer şehirlerde video keşif ve kargo ile teslimat seçenekleri mevcuttur.
+              Pendik İstanbul merkezli üretim tesisimizden <strong>tüm Türkiye&apos;ye plise perde hizmeti</strong>{" "}veriyoruz. Marmara Bölgesi&apos;nde (İstanbul, Kocaeli, Sakarya, Yalova, Düzce, Bilecik, Bursa, Balıkesir, Çanakkale){" "}<strong>ücretsiz yerinde keşif ve aynı gün montaj</strong>{" "}yapıyoruz.
+              Diğer şehirlerde <strong>video keşif</strong> ile ölçü alıp, <strong>kargo ile gönderim</strong> yapıyoruz.
             </p>
             <p className="text-sm md:text-base text-brand-text-light leading-relaxed">
-              İstanbul&apos;un tüm ilçelerinde (Pendik, Kartal, Maltepe, Tuzla, Ataşehir, Kadıköy ve daha fazlası) ücretsiz keşif ve aynı gün montaj yapıyoruz.
-              İstanbul dışındaki şehirlerde video keşif ile ölçü alıp, kargo ile gönderim yapıyoruz.
+              Tüm 81 ilde plise perde üretim, keşif, montaj ve after-sales hizmeti sunuyoruz.
+              İstanbul&apos;un 39 ilçesinin tamamında yerinde keşif ve montaj yapıyoruz.
+              Anadolu ve Trakya&apos;nın tüm şehirlerinde kargo ile teslimat ve video destek ile montaj sağlıyoruz.
             </p>
           </section>
-          <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-            {["İstanbul", "Ankara", "İzmir", "Bursa", "Antalya", "Konya", "Gaziantep", "Eskişehir", "Adana", "Samsun", "Kayseri", "Mersin", "Trabzon", "Diyarbakır", "Kocaeli", "Yalova", "Sakarya"].map((city) => (
-              <article
-                key={city}
-                className="flex items-center justify-between p-4 bg-white border border-brand-border rounded-lg"
-              >
-                <span className="text-sm font-medium text-brand-text">
-                  {city}
-                </span>
-              </article>
-            ))}
+
+          <section>
+            <h2 className="text-lg font-semibold text-brand-text mb-4">Tüm Hizmet Verilen İller — 81 İl</h2>
+            <p className="text-sm text-brand-text-light mb-4">
+              Türkiye&apos;nin 81 ilinde plise perde hizmeti. Video keşif ve kargo ile teslimat.
+            </p>
+            <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-9 gap-3">
+              {allCities.map((city) => (
+                <article
+                  key={city}
+                  className="flex items-center justify-between p-4 bg-white border border-brand-border rounded-lg"
+                >
+                  <span className="text-sm font-medium text-brand-text">
+                    {city}
+                  </span>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="bg-brand-bg rounded-lg p-6">
+            <h2 className="text-lg font-semibold text-brand-text mb-3">Hizmet Tipleri</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="bg-white rounded-lg p-4 border border-brand-border">
+                <h3 className="text-sm font-semibold text-brand mb-2">Yerinde Keşif & Montaj</h3>
+                <p className="text-sm text-brand-text-light">
+                  İstanbul, Kocaeli, Sakarya, Yalova, Düzce, Bilecik, Bursa, Balıkesir, Çanakkale.
+                  Ücretsiz yerinde keşif, aynı gün montaj.
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-4 border border-brand-border">
+                <h3 className="text-sm font-semibold text-brand mb-2">Video Keşif & Kargo</h3>
+                <p className="text-sm text-brand-text-light">
+                  Türkiye&apos;nin diğer 72 ilinde video keşif ile ölçü alma,
+                  kargo ile teslimat ve video destekli montaj.
+                </p>
+              </div>
+            </div>
           </section>
         </section>
       </div>

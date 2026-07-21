@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Politikalarımız",
   description: "Plise Perde politikaları. İade, ödeme, teslimat, garanti, gizlilik, KVKK politikaları.",
   alternates: { canonical: "/politikalarimiz/" },
+  keywords: ["politikalarımız"],
 };
 
 const policies = [

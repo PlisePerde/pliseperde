@@ -64,7 +64,7 @@ app.post("/api/contact", async (req, res) => {
   }
 });
 
-app.use(express.static(path.join(__dirname, "out")));
+app.use(express.static(path.join(__dirname, "out"), { dotfiles: "allow" }));
 
 app.get("/{*path}", (req, res) => {
   const reqPath = Array.isArray(req.params.path) ? req.params.path.join("/") : req.params.path;

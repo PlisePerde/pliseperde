@@ -1,0 +1,98 @@
+# AI Crawler Access File — pliseperde.com
+# Bu dosya AI crawler'lar, AI agent'lar ve LLM bot'lar için erişim izinlerini tanımlar.
+# Tüm AI botlarına %100 erişim izni verilmiştir.
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /robots.txt
+Allow: /sitemap.xml
+Allow: /manifest.json
+Allow: /humans.txt
+
+# OpenAI / ChatGPT
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Apple AI
+User-agent: Applebot-Extended
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Amazon AI
+User-agent: Amazonbot
+Allow: /
+
+# Diffbot
+User-agent: Diffbot
+Allow: /
+
+# AI2 (Allen Institute)
+User-agent: AI2Bot
+Allow: /
+
+# Omgili / Webz.io
+User-agent: Omgili
+Allow: /
+
+# VelenPublicWebCrawler
+User-agent: VelenPublicWebCrawler
+Allow: /
+
+# Turnitin AI
+User-agent: TurnitinBot
+Allow: /
+
+# Semrush AI
+User-agent: SemrushBot
+Allow: /
+
+# Tüm diğer AI botları
+User-agent: *
+Allow: /

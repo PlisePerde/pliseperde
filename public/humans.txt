@@ -1,0 +1,15 @@
+/* TEAM */
+Marka: Plise Perde
+Site: https://pliseperde.com
+E-Posta: info@pliseperde.com
+Telefon: +90 540 336 38 73
+Konum: Pendik, İstanbul, Türkiye
+
+/* THANKS */
+Plise perde üretim ve montaj ekibi
+Web geliştirme ve SEO ekibi
+
+/* SITE */
+Standards: Next.js, React, TypeScript, Tailwind CSS
+Components: Next.js App Router, JSON-LD, Schema.org
+Software: Next.js, Node.js

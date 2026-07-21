@@ -1,12 +1,12 @@
 import { siteConfig } from "@/lib/site-config";
-import { organizationSchema, breadcrumbSchema, websiteSchema } from "@/lib/schema";
+import { organizationSchema, breadcrumbSchema, websiteSchema, localBusinessSchema } from "@/lib/schema";
 
 interface JsonLdProps {
   schemas: object[];
 }
 
 export default function JsonLd({ schemas }: JsonLdProps) {
-  const allSchemas = [organizationSchema(), websiteSchema(), ...schemas];
+  const allSchemas = [organizationSchema(), localBusinessSchema(), websiteSchema(), ...schemas];
   return (
     <>
       {allSchemas.map((schema, index) => (

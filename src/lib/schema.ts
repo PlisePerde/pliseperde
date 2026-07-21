@@ -26,8 +26,11 @@ export function localBusinessSchema() {
     "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
     "@id": `${siteConfig.url}/#localbusiness`,
     name: siteConfig.name,
-    image: `${siteConfig.url}/storefront.jpg`,
+    image: `${siteConfig.url}/og-image.webp`,
+    url: siteConfig.url,
     telephone: siteConfig.phone,
+    email: siteConfig.email,
+    priceRange: siteConfig.priceRange,
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.address.street,
@@ -41,13 +44,18 @@ export function localBusinessSchema() {
       latitude: siteConfig.geo.latitude,
       longitude: siteConfig.geo.longitude,
     },
-    priceRange: siteConfig.priceRange,
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: siteConfig.openingHours.days,
       opens: siteConfig.openingHours.opens,
       closes: siteConfig.openingHours.closes,
     },
+    areaServed: {
+      "@type": "Country",
+      name: "Türkiye",
+    },
+    sameAs: Object.values(siteConfig.social),
+    parentOrganization: { "@id": `${siteConfig.url}/#organization` },
   };
 }
 

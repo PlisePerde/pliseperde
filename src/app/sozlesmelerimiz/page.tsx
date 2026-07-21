@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Sözleşmelerimiz",
   description: "Plise Perde sözleşmeleri. Sipariş, üyelik, montaj, mesafeli satış sözleşmeleri.",
   alternates: { canonical: "/sozlesmelerimiz/" },
+  keywords: ["sözleşmelerimiz"],
 };
 
 const contracts = [

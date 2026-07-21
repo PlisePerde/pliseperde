@@ -97,7 +97,7 @@ export const sitePages: PageEntry[] = [
   { slug: "surdurulebilirlik", title: "Sürdürülebilirlik", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Sürdürülebilirlik"] },
   { slug: "cocuk-guvenligi", title: "Çocuk Güvenliği", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Çocuk Güvenliği"] },
   { slug: "galeri", title: "Galeri", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Galeri"] },
-  { slug: "sss", title: "SSS", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "SSS"] },
+  { slug: "sikca-sorulan-sorular", title: "SSS", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "SSS"] },
   { slug: "musteri-yorumlari", title: "Müşteri Yorumları", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Müşteri Yorumları"] },
 
   // İletişim

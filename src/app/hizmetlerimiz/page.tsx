@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: { absolute: "Hizmetlerimiz — Plise Perde Hizmetleri" },
   description:
     "Montaj, ölçü alma, ücretsiz keşif, temizlik, fiyat hesaplama, enerji tasarrufu, yedek parça, tamir hizmetleri.",
+  keywords: ["hizmetlerimiz"],
   alternates: { canonical: "/hizmetlerimiz/" },
 };
 

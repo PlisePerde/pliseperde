@@ -1,0 +1,44 @@
+{
+  "schema_version": "v1",
+  "name": "Plise Perde",
+  "description": "İstanbul merkezli premium plise perde üreticisi. Özel ölçü üretim, ücretsiz keşif, profesyonel montaj, 81 il hizmet bölgesi, 2 yıl garanti.",
+  "url": "https://pliseperde.com",
+  "contact": {
+    "email": "info@pliseperde.com",
+    "phone": "+905403363873",
+    "whatsapp": "https://wa.me/905403363873"
+  },
+  "address": {
+    "street": "Esenyalı Mah. Edebali Cad. No:13/C",
+    "district": "Pendik",
+    "city": "İstanbul",
+    "postalCode": "34903",
+    "country": "TR"
+  },
+  "capabilities": [
+    "plise perde üretim",
+    "ücretsiz keşif",
+    "profesyonel montaj",
+    "video keşif",
+    "kargo ile teslimat",
+    "81 il hizmet"
+  ],
+  "products": [
+    "tül plise perde",
+    "güneşlik plise perde",
+    "yarı karartma plise perde",
+    "tam karartma plise perde",
+    "honeycomb perde",
+    "gece gündüz plise perde",
+    "motorlu plise perde",
+    "vidasız plise perde",
+    "kancalı plise perde",
+    "plise perde sineklik"
+  ],
+  "content_sources": [
+    "https://pliseperde.com/llms.txt",
+    "https://pliseperde.com/llms-full.txt",
+    "https://pliseperde.com/sitemap.xml"
+  ],
+  "language": "tr-TR"
+}

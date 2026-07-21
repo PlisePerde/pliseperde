@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: { absolute: "Plise Perde Modelleri — Tüm Modeller" },
   description:
     "Plise perde modelleri: düz, blackout, gece gündüz, desenli, baskılı. Her mekan ve ihtiyaç için uygun plise perde modeli. 2 yıl garanti.",
+  keywords: ["plise perde modelleri"],
   alternates: { canonical: "/plise-perde-modelleri/" },
 };
 

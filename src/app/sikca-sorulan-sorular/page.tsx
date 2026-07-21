@@ -2,10 +2,10 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "SSS — Plise Perde Sıkça Sorulan Sorular",
+  title: "Sıkça Sorulan Sorular — Plise Perde SSS",
   description:
     "Plise perde sıkça sorulan sorular. Fiyat, montaj, modeller, garanti, temizlik hakkında merak edilen her şey.",
-  slug: "sss",
+  slug: "sikca-sorulan-sorular",
 });
 
 export default function SSSPage() {
@@ -13,8 +13,8 @@ export default function SSSPage() {
     <PageTemplate
       title="SSS — Sıkça Sorulan Sorular"
       description="Plise perde sıkça sorulan sorular. Fiyat, montaj, modeller, garanti, temizlik hakkında merak edilen her şey."
-      slug="sss"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "SSS", url: "/sss" }]}
+      slug="sikca-sorulan-sorular"
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "SSS", url: "/sikca-sorulan-sorular" }]}
       h1="SSS — Plise Perde Sıkça Sorulan Sorular"
       intro="Plise perde hakkında en sık sorulan soruları ve cevaplarını bu sayfada topladık. Fiyat, montaj, modeller, garanti, temizlik ve kullanım hakkında merak ettiğiniz her şeyi bulabilirsiniz. Aradığınız soruyu bulamazsanız WhatsApp'tan bize ulaşın, en kısa sürede yanıtlayalım."
       schemaType="article"

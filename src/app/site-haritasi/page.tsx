@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Site Haritası",
   description: "Plise Perde site haritası. Tüm sayfalar ve kategoriler.",
   alternates: { canonical: "/site-haritasi/" },
+  keywords: ["site haritası"],
 };
 
 export default function SiteHaritasiPage() {

@@ -10,6 +10,7 @@ interface GenerateMetadataParams {
   ogImageWidth?: number;
   ogImageHeight?: number;
   type?: "website" | "article";
+  keywords?: string[];
 }
 
 export function generatePageMetadata({
@@ -21,15 +22,19 @@ export function generatePageMetadata({
   ogImageWidth = 1200,
   ogImageHeight = 630,
   type = "website",
+  keywords: extraKeywords = [],
 }: GenerateMetadataParams): Metadata {
   const fullTitle = title.includes("Plise Perde") ? title : `${title} — Plise Perde`;
   const canonical = slug === "" ? "/" : `/${slug}/`;
   const url = `${siteConfig.url}${slug === "" ? "" : `/${slug}/`}`;
   const imageAlt = ogImageAlt || fullTitle;
+  const titleKeyword = title.replace(/—.*$/, "").trim().toLowerCase();
+  const keywords = [titleKeyword, ...extraKeywords];
 
   return {
     title: { absolute: fullTitle },
     description,
+    keywords,
     alternates: {
       canonical,
     },

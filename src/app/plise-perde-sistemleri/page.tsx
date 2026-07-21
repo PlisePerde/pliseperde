@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: { absolute: "Plise Perde Sistemleri — Tüm Sistemler" },
   description:
     "Plise perde sistemleri: vidalı, vidasız, yapışkanlı, kancalı, portray, braketli montaj. Her pencere tipine uygun plise perde montaj sistemi.",
+  keywords: ["plise perde sistemleri"],
   alternates: { canonical: "/plise-perde-sistemleri/" },
 };
 

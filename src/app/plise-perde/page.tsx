@@ -6,6 +6,7 @@ export const metadata: Metadata = generatePageMetadata({
   description:
     "Plise perde özel ölçü üretim. Tül, güneşlik, karartma kumaş seçenekleri. 2 yıl garanti, ücretsiz keşif, profesyonel montaj. Türkiye geneli hizmet.",
   slug: "plise-perde",
+  keywords: ["plise perdeler"],
 });
 
 export default function PlisePerdePage() {
