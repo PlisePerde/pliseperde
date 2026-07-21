@@ -149,7 +149,12 @@ export const footerColumns: FooterColumn[] = [
   {
     title: "Hizmet Bölgeleri",
     links: [
-      { label: "Hizmet Bölgeleri", href: "/hizmet-bolgeleri" },
+      { label: "Tüm Şehirler", href: "/hizmet-bolgeleri" },
+      { label: "İstanbul Plise Perde", href: "/istanbul-plise-perde" },
+      { label: "Ankara Plise Perde", href: "/ankara-plise-perde" },
+      { label: "İzmir Plise Perde", href: "/izmir-plise-perde" },
+      { label: "Bursa Plise Perde", href: "/bursa-plise-perde" },
+      { label: "Antalya Plise Perde", href: "/antalya-plise-perde" },
     ],
   },
   {

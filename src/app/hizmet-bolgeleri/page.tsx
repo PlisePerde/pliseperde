@@ -1,7 +1,9 @@
+import Link from "next/link";
 import PageLayout from "@/components/PageLayout";
 import PageHeading from "@/components/PageHeading";
 import CTASection from "@/components/CTASection";
 import JsonLd, { createBreadcrumbJsonLd, createWebPageSchema } from "@/components/JsonLd";
+import { cities } from "@/data/cities";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -18,29 +20,8 @@ export const metadata: Metadata = {
   },
 };
 
-const priorityCities = [
-  "İstanbul", "Kocaeli", "Sakarya", "Yalova", "Düzce",
-  "Bilecik", "Bursa", "Balıkesir", "Çanakkale",
-];
-
-const otherCities = [
-  "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray",
-  "Amasya", "Ankara", "Antalya", "Ardahan", "Artvin",
-  "Aydın", "Bartın", "Batman", "Bayburt", "Bingöl",
-  "Bitlis", "Bolu", "Burdur", "Çankırı", "Çorum",
-  "Denizli", "Diyarbakır", "Edirne", "Elazığ", "Erzincan",
-  "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane",
-  "Hakkari", "Hatay", "Iğdır", "Isparta", "İzmir",
-  "Kahramanmaraş", "Karabük", "Karaman", "Kars", "Kastamonu",
-  "Kayseri", "Kilis", "Kırıkkale", "Kırklareli", "Kırşehir",
-  "Konya", "Kütahya", "Malatya", "Manisa", "Mardin",
-  "Mersin", "Muğla", "Muş", "Nevşehir", "Niğde",
-  "Ordu", "Osmaniye", "Rize", "Samsun", "Siirt",
-  "Sinop", "Sivas", "Şanlıurfa", "Şırnak", "Tekirdağ",
-  "Tokat", "Trabzon", "Tunceli", "Uşak", "Van",
-  "Yozgat", "Zonguldak",
-];
-
+const priorityCities = cities.filter((c) => c.priority);
+const otherCities = cities.filter((c) => !c.priority);
 const allCities = [...priorityCities, ...otherCities];
 
 export default function HizmetBolgeleriPage() {
@@ -80,11 +61,12 @@ export default function HizmetBolgeleriPage() {
                 "@type": "Offer",
                 itemOffered: {
                   "@type": "Service",
-                  name: `${city} Plise Perde Hizmeti`,
+                  name: `${city.name} Plise Perde Hizmeti`,
                   areaServed: {
                     "@type": "City",
-                    name: city,
+                    name: city.name,
                   },
+                  url: `https://pliseperde.com/${city.slug}`,
                 },
               })),
             },
@@ -118,14 +100,15 @@ export default function HizmetBolgeleriPage() {
             </p>
             <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-9 gap-3">
               {allCities.map((city) => (
-                <article
-                  key={city}
-                  className="flex items-center justify-between p-4 bg-white border border-brand-border rounded-lg"
+                <Link
+                  key={city.slug}
+                  href={`/${city.slug}`}
+                  className="flex items-center justify-between p-4 bg-white border border-brand-border rounded-lg hover:border-brand hover:shadow-sm transition-all"
                 >
                   <span className="text-sm font-medium text-brand-text">
-                    {city}
+                    {city.name}
                   </span>
-                </article>
+                </Link>
               ))}
             </div>
           </section>

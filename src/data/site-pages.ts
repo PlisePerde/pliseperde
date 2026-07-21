@@ -1,9 +1,18 @@
+import { cities } from "@/data/cities";
+
 export interface PageEntry {
   slug: string;
   title: string;
   category: string;
   breadcrumb: string[];
 }
+
+const cityPages: PageEntry[] = cities.map((city) => ({
+  slug: city.slug,
+  title: `${city.name} Plise Perde`,
+  category: "Hizmet Bölgeleri",
+  breadcrumb: ["Ana Sayfa", "Hizmet Bölgeleri", `${city.name} Plise Perde`],
+}));
 
 export const sitePages: PageEntry[] = [
   // Ana Sayfa
@@ -79,6 +88,7 @@ export const sitePages: PageEntry[] = [
 
   // Hizmet Bölgeleri
   { slug: "hizmet-bolgeleri", title: "Hizmet Bölgeleri", category: "Hizmet Bölgeleri", breadcrumb: ["Ana Sayfa", "Hizmet Bölgeleri"] },
+  ...cityPages,
 
   // Referanslarımız
   { slug: "referanslarimiz", title: "Referanslarımız", category: "Referanslarımız", breadcrumb: ["Ana Sayfa", "Referanslarımız"] },
