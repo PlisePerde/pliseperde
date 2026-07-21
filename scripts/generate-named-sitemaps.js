@@ -221,17 +221,19 @@ const standardSitemaps = ["pages", "models", "services", "regions", "comparisons
 
 standardSitemaps.forEach((name) => {
   const content = generateStandardSitemap(name, sitemaps[name]);
-  const filePath = path.join(OUT_DIR, `sitemap-${name}.xml`);
-  fs.writeFileSync(filePath, content);
+  fs.writeFileSync(path.join(OUT_DIR, `sitemap-${name}.xml`), content);
+  fs.writeFileSync(path.join(PUBLIC_DIR, `sitemap-${name}.xml`), content);
   console.log(`Generated: sitemap-${name}.xml (${sitemaps[name].length} URLs)`);
 });
 
 const imageContent = generateImageSitemap(sitemaps.images);
 fs.writeFileSync(path.join(OUT_DIR, "sitemap-images.xml"), imageContent);
+fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap-images.xml"), imageContent);
 console.log("Generated: sitemap-images.xml");
 
 const videoContent = generateVideoSitemap(sitemaps.videos);
 fs.writeFileSync(path.join(OUT_DIR, "sitemap-videos.xml"), videoContent);
+fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap-videos.xml"), videoContent);
 console.log("Generated: sitemap-videos.xml");
 
 console.log("All named sitemaps generated successfully.");

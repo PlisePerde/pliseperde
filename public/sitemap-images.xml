@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://pliseperde.com/honeycomb-perde/</loc>
+    <image:image>
+      <image:loc>https://pliseperde.com/images/honeycomb-perde-salon.webp</image:loc>
+      <image:title>Honeycomb Perde — Salon</image:title>
+      <image:caption>Honeycomb petek yapısı ile enerji tasarrufu sağlayan perde</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://pliseperde.com/images/honeycomb-perde-detay.webp</image:loc>
+      <image:title>Honeycomb Perde — Detay</image:title>
+      <image:caption>Petek yapı detay görünümü</image:caption>
+    </image:image>
+  </url>
+</urlset>
