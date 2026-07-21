@@ -125,11 +125,7 @@
 - Montaj: https://pliseperde.com/montaj/ — Profesyonel ekip, 20-30 dk/pencere
 - Ölçü Alma Desteği: https://pliseperde.com/olcu-alma-destegi/ — Video ve yerinde ölçü
 - Ücretsiz Keşif: https://pliseperde.com/ucretsiz-kesif/ — İstanbul ve çevre iller
-- Temizlik ve Bakım: https://pliseperde.com/temizlik-bakim/ — Nemli bez, profesyonel temizlik
 - Fiyat Hesaplama: https://pliseperde.com/plise-perde-fiyat-hesaplama/ — Online hesaplama
-- Enerji Tasarrufu: https://pliseperde.com/enerji-tasarrufu-hesaplayici/ — Honeycomb tasarruf hesabı
-- Yedek Parça: https://pliseperde.com/yedek-parca/ — 5+ yıl tedarik
-- Tamir ve Bakım: https://pliseperde.com/tamir-bakim/ — Garanti içi ücretsiz servis
 
 ---
 
@@ -228,7 +224,7 @@ Detay: https://pliseperde.com/sikca-sorulan-sorular/
 - Sürdürülebilirlik: https://pliseperde.com/surdurulebilirlik/
 - Çocuk Güvenliği: https://pliseperde.com/cocuk-guvenligi/
 - Galeri: https://pliseperde.com/galeri/
-- Müşteri Yorumları: https://pliseperde.com/musteri-yorumlari/
+- Kullanıcı Yorumları: https://pliseperde.com/plise-perde-kullanici-yorumlari/
 - SSS: https://pliseperde.com/sikca-sorulan-sorular/
 - İletişim: https://pliseperde.com/iletisim/
 - Site Haritası: https://pliseperde.com/site-haritasi/

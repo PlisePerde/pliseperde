@@ -74,11 +74,9 @@ export const sitePages: PageEntry[] = [
   { slug: "montaj", title: "Montaj", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Montaj"] },
   { slug: "olcu-alma-destegi", title: "Ölçü Alma Desteği", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Ölçü Alma Desteği"] },
   { slug: "ucretsiz-kesif", title: "Ücretsiz Keşif", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Ücretsiz Keşif"] },
-  { slug: "temizlik-bakim", title: "Temizlik ve Bakım", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Temizlik ve Bakım"] },
-  { slug: "plise-perde-fiyat-hesaplama", title: "Fiyat Hesaplama", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Fiyat Hesaplama"] },
-  { slug: "enerji-tasarrufu-hesaplayici", title: "Enerji Tasarrufu Hesaplayıcı", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Enerji Tasarrufu"] },
-  { slug: "yedek-parca", title: "Yedek Parça", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Yedek Parça"] },
-  { slug: "tamir-bakim", title: "Tamir ve Bakım", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Tamir ve Bakım"] },
+
+  // Fiyat Hesaplama (Bağımsız)
+  { slug: "plise-perde-fiyat-hesaplama", title: "Fiyat Hesaplama", category: "Fiyat Hesaplama", breadcrumb: ["Ana Sayfa", "Fiyat Hesaplama"] },
 
   // Hizmet Bölgeleri
   { slug: "hizmet-bolgeleri", title: "Hizmet Bölgeleri", category: "Hizmet Bölgeleri", breadcrumb: ["Ana Sayfa", "Hizmet Bölgeleri"] },
@@ -98,7 +96,7 @@ export const sitePages: PageEntry[] = [
   { slug: "cocuk-guvenligi", title: "Çocuk Güvenliği", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Çocuk Güvenliği"] },
   { slug: "galeri", title: "Galeri", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Galeri"] },
   { slug: "sikca-sorulan-sorular", title: "SSS", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "SSS"] },
-  { slug: "musteri-yorumlari", title: "Müşteri Yorumları", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Müşteri Yorumları"] },
+  { slug: "plise-perde-kullanici-yorumlari", title: "Plise Perde Kullanıcı Yorumları", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Kullanıcı Yorumları"] },
 
   // İletişim
   { slug: "iletisim", title: "İletişim", category: "İletişim", breadcrumb: ["Ana Sayfa", "İletişim"] },

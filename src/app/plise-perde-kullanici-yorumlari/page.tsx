@@ -2,20 +2,20 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Müşteri Yorumları — Plise Perde Değerlendirmeler",
+  title: "Plise Perde Kullanıcı Yorumları — Müşteri Değerlendirmeler",
   description:
-    "Plise perde müşteri yorumları ve değerlendirmeleri. Gerçek müşteri deneyimleri, memnuniyet oranı, proje örnekleri.",
-  slug: "musteri-yorumlari",
+    "Plise perde kullanıcı yorumları ve değerlendirmeleri. Gerçek müşteri deneyimleri, memnuniyet oranı, proje örnekleri.",
+  slug: "plise-perde-kullanici-yorumlari",
 });
 
 export default function MusteriYorumlariPage() {
   return (
     <PageTemplate
-      title="Müşteri Yorumları"
-      description="Plise perde müşteri yorumları ve değerlendirmeleri. Gerçek müşteri deneyimleri, memnuniyet oranı."
-      slug="musteri-yorumlari"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "Müşteri Yorumları", url: "/musteri-yorumlari" }]}
-      h1="Müşteri Yorumları — Plise Perde Değerlendirmeler"
+      title="Plise Perde Kullanıcı Yorumları"
+      description="Plise perde kullanıcı yorumları ve değerlendirmeleri. Gerçek müşteri deneyimleri, memnuniyet oranı."
+      slug="plise-perde-kullanici-yorumlari"
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "Kullanıcı Yorumları", url: "/plise-perde-kullanici-yorumlari" }]}
+      h1="Plise Perde Kullanıcı Yorumları — Müşteri Değerlendirmeler"
       intro="Müşteri yorumları, hizmet kalitemizin en önemli göstergesidir. 2022'den beri binlerce müşteriye hizmet verdik ve %97 memnuniyet oranı elde ettik. Aşağıda gerçek müşterilerimizin deneyimlerini ve değerlendirmelerini bulabilirsiniz. Her yorum, gerçek bir müşteri tarafından yapılmıştır. Siz de deneyiminizi paylaşmak için WhatsApp'tan bize ulaşabilirsiniz."
       schemaType="article"
       schemaData={{

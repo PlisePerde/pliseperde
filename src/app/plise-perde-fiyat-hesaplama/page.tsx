@@ -14,7 +14,7 @@ export default function FiyatHesaplamaPage() {
       title="Fiyat Hesaplama"
       description="Plise perde fiyat hesaplama aracı. Pencere ölçüsü, model ve montaj tipi seçerek net fiyat hesaplayın."
       slug="plise-perde-fiyat-hesaplama"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz" }, { name: "Fiyat Hesaplama", url: "/plise-perde-fiyat-hesaplama" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Fiyat Hesaplama", url: "/plise-perde-fiyat-hesaplama" }]}
       h1="Plise Perde Fiyat Hesaplama"
       intro="Plise perde fiyat hesaplama aracı ile pencere ölçünüzü, model tercihinizi ve montaj tipini seçerek tahmini fiyat öğrenebilirsiniz. Hesaplama sonucu bir tahmindir, net fiyat ücretsiz keşif sonrası belirlenir. Fiyat; pencere genişliği, yüksekliği, kumaş tipi ve montaj seçeneğine göre değişir."
       schemaType="service"

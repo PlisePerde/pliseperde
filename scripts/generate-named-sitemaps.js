@@ -65,7 +65,7 @@ const sitemaps = {
     { slug: "cocuk-guvenligi", priority: 0.6, changefreq: "yearly" },
     { slug: "galeri", priority: 0.5, changefreq: "monthly" },
     { slug: "sss", priority: 0.6, changefreq: "monthly" },
-    { slug: "musteri-yorumlari", priority: 0.6, changefreq: "monthly" },
+    { slug: "plise-perde-kullanici-yorumlari", priority: 0.6, changefreq: "monthly" },
   ],
   models: [
     { slug: "vidali-plise-perde", priority: 0.7, changefreq: "monthly" },
@@ -76,10 +76,6 @@ const sitemaps = {
     { slug: "montaj", priority: 0.8, changefreq: "monthly" },
     { slug: "olcu-alma-destegi", priority: 0.8, changefreq: "monthly" },
     { slug: "ucretsiz-kesif", priority: 0.8, changefreq: "monthly" },
-    { slug: "temizlik-bakim", priority: 0.7, changefreq: "monthly" },
-    { slug: "enerji-tasarrufu-hesaplayici", priority: 0.7, changefreq: "monthly" },
-    { slug: "yedek-parca", priority: 0.7, changefreq: "monthly" },
-    { slug: "tamir-bakim", priority: 0.7, changefreq: "monthly" },
   ],
   regions: [
     { slug: "istanbul-plise-perde", priority: 0.8, changefreq: "monthly" },

@@ -18,7 +18,7 @@ export const navItems: NavItem[] = [
       { label: "Sürdürülebilirlik", href: "/surdurulebilirlik" },
       { label: "Çocuk Güvenliği", href: "/cocuk-guvenligi" },
       { label: "SSS", href: "/sikca-sorulan-sorular" },
-      { label: "Müşteri Yorumları", href: "/musteri-yorumlari" },
+      { label: "Kullanıcı Yorumları", href: "/plise-perde-kullanici-yorumlari" },
     ],
   },
   {
@@ -28,11 +28,6 @@ export const navItems: NavItem[] = [
       { label: "Montaj", href: "/montaj" },
       { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi" },
       { label: "Ücretsiz Keşif", href: "/ucretsiz-kesif" },
-      { label: "Temizlik ve Bakım", href: "/temizlik-bakim" },
-      { label: "Fiyat Hesaplama", href: "/plise-perde-fiyat-hesaplama" },
-      { label: "Enerji Tasarrufu", href: "/enerji-tasarrufu-hesaplayici" },
-      { label: "Yedek Parça", href: "/yedek-parca" },
-      { label: "Tamir ve Bakım", href: "/tamir-bakim" },
     ],
   },
   {
@@ -141,7 +136,7 @@ export const footerColumns: FooterColumn[] = [
       { label: "Sürdürülebilirlik", href: "/surdurulebilirlik" },
       { label: "Çocuk Güvenliği", href: "/cocuk-guvenligi" },
       { label: "SSS", href: "/sikca-sorulan-sorular" },
-      { label: "Müşteri Yorumları", href: "/musteri-yorumlari" },
+      { label: "Kullanıcı Yorumları", href: "/plise-perde-kullanici-yorumlari" },
     ],
   },
   {
@@ -150,11 +145,6 @@ export const footerColumns: FooterColumn[] = [
       { label: "Montaj", href: "/montaj" },
       { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi" },
       { label: "Ücretsiz Keşif", href: "/ucretsiz-kesif" },
-      { label: "Temizlik ve Bakım", href: "/temizlik-bakim" },
-      { label: "Fiyat Hesaplama", href: "/plise-perde-fiyat-hesaplama" },
-      { label: "Enerji Tasarrufu", href: "/enerji-tasarrufu-hesaplayici" },
-      { label: "Yedek Parça", href: "/yedek-parca" },
-      { label: "Tamir ve Bakım", href: "/tamir-bakim" },
     ],
   },
   {

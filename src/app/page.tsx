@@ -35,9 +35,7 @@ const serviceCards = [
   { label: "Montaj", href: "/montaj", icon: Wrench, desc: "Profesyonel montaj hizmeti" },
   { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi", icon: Calculator, desc: "Ücretsiz ölçü danışmanlığı" },
   { label: "Ücretsiz Keşif", href: "/ucretsiz-kesif", icon: Phone, desc: "Yerinde keşif ve teklif" },
-  { label: "Temizlik ve Bakım", href: "/temizlik-bakim", icon: Shield, desc: "Perde temizlik ve bakım" },
   { label: "Fiyat Hesaplama", href: "/plise-perde-fiyat-hesaplama", icon: Calculator, desc: "Online fiyat hesaplama" },
-  { label: "Enerji Tasarrufu", href: "/enerji-tasarrufu-hesaplayici", icon: Truck, desc: "Enerji tasarruf hesaplayıcı" },
 ];
 
 const features = [

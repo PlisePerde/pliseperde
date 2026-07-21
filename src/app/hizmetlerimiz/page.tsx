@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: { absolute: "Hizmetlerimiz — Plise Perde Hizmetleri" },
   description:
-    "Montaj, ölçü alma, ücretsiz keşif, temizlik, fiyat hesaplama, enerji tasarrufu, yedek parça, tamir hizmetleri.",
+    "Montaj, ölçü alma, ücretsiz keşif ve fiyat hesaplama hizmetleri.",
   keywords: ["hizmetlerimiz"],
   alternates: { canonical: "/hizmetlerimiz/" },
 };
