@@ -234,3 +234,23 @@ fs.writeFileSync(path.join(OUT_DIR, "sitemap-videos.xml"), videoContent);
 console.log("Generated: sitemap-videos.xml");
 
 console.log("All named sitemaps generated successfully.");
+
+const indexEntries = [
+  "sitemap-0.xml",
+  "sitemap-pages.xml",
+  "sitemap-models.xml",
+  "sitemap-services.xml",
+  "sitemap-regions.xml",
+  "sitemap-comparisons.xml",
+  "sitemap-legal.xml",
+  "sitemap-images.xml",
+  "sitemap-videos.xml",
+];
+
+const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${indexEntries.map((f) => `  <sitemap><loc>https://pliseperde.com/${f}</loc><lastmod>${new Date().toISOString()}</lastmod></sitemap>`).join("\n")}
+</sitemapindex>`;
+
+fs.writeFileSync(path.join(OUT_DIR, "sitemap.xml"), sitemapIndex);
+console.log("Updated: sitemap.xml (index with all named sitemaps)");
