@@ -1,0 +1,175 @@
+type NavChild = {
+  label: string;
+  href: string;
+};
+
+type NavItem = {
+  label: string;
+  href: string | null;
+  children?: NavChild[];
+};
+
+export const navItems: NavItem[] = [
+  {
+    label: "Kurumsal",
+    href: null,
+    children: [
+      { label: "Hakkımızda", href: "/hakkimizda" },
+      { label: "Sürdürülebilirlik", href: "/surdurulebilirlik" },
+      { label: "Çocuk Güvenliği", href: "/cocuk-guvenligi" },
+      { label: "SSS", href: "/sss" },
+      { label: "Müşteri Yorumları", href: "/musteri-yorumlari" },
+    ],
+  },
+  {
+    label: "Hizmetlerimiz",
+    href: "/hizmetlerimiz",
+    children: [
+      { label: "Montaj", href: "/montaj" },
+      { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi" },
+      { label: "Ücretsiz Keşif", href: "/ucretsiz-kesif" },
+      { label: "Temizlik ve Bakım", href: "/temizlik-bakim" },
+      { label: "Fiyat Hesaplama", href: "/plise-perde-fiyat-hesaplama" },
+      { label: "Enerji Tasarrufu", href: "/enerji-tasarrufu-hesaplayici" },
+      { label: "Yedek Parça", href: "/yedek-parca" },
+      { label: "Tamir ve Bakım", href: "/tamir-bakim" },
+    ],
+  },
+  {
+    label: "Ürünlerimiz",
+    href: "/urunlerimiz",
+    children: [
+      { label: "Plise Perde", href: "/plise-perde" },
+      { label: "Honeycomb Plise Perde", href: "/honeycomb-perde" },
+      { label: "Düet Plise Perde", href: "/duet-perde" },
+      { label: "Plise Perde Aparatları", href: "/plise-perde-aparatlari" },
+      { label: "Plise Perde Yedek Parça", href: "/plise-perde-yedek-parca" },
+    ],
+  },
+  {
+    label: "Modellerimiz",
+    href: "/plise-perde-modelleri",
+    children: [
+      { label: "Düz Plise Perde", href: "/duz-plise-perde" },
+      { label: "Blackout Plise Perde", href: "/blackout-plise-perde" },
+      { label: "Gece Gündüz Plise Perde", href: "/gece-gunduz-plise-perde" },
+      { label: "Desenli Plise Perde", href: "/desenli-plise-perde" },
+      { label: "Baskılı Plise Perde", href: "/basili-plise-perde" },
+    ],
+  },
+  {
+    label: "Sistemlerimiz",
+    href: "/plise-perde-sistemleri",
+    children: [
+      { label: "Vidalı Plise Perde", href: "/vidali-plise-perde" },
+      { label: "Vidasız Plise Perde", href: "/vidasiz-plise-perde" },
+      { label: "Yapışkanlı Plise Perde", href: "/yapiskanli-plise-perde" },
+      { label: "Kancalı Plise Perde", href: "/kancali-plise-perde" },
+      { label: "Portray Plise Perde", href: "/portray-plise-perde" },
+      { label: "Braketli Plise Perde", href: "/braketli-plise-perde" },
+      { label: "Motorlu Plise Perde", href: "/motorlu-plise-perde" },
+    ],
+  },
+  {
+    label: "Çeşitlerimiz",
+    href: "/plise-perde-cesitleri",
+  },
+  {
+    label: "Özellikler",
+    href: "/plise-perde-ozellikleri",
+  },
+  {
+    label: "Fiyatlarımız",
+    href: "/plise-perde-fiyatlari",
+  },
+  {
+    label: "Kullanım Alanları",
+    href: "/plise-perde-kullanim-alanlari",
+    children: [
+      { label: "Mutfak", href: "/mutfak-plise-perde" },
+      { label: "Salon", href: "/salon-plise-perde" },
+      { label: "Yatak Odası", href: "/yatak-odasi-plise-perde" },
+      { label: "Çocuk Odası", href: "/cocuk-odasi-plise-perde" },
+      { label: "Genç Odası", href: "/genc-odasi-plise-perde" },
+      { label: "Çalışma Odası", href: "/calisma-odasi-plise-perde" },
+      { label: "Banyo ve WC", href: "/banyo-wc-plise-perde" },
+      { label: "Cam Balkon", href: "/cam-balkon-plise-perde" },
+      { label: "Villa", href: "/villa-plise-perde" },
+      { label: "Karavan", href: "/karavan-plise-perde" },
+      { label: "Tekne ve Yat", href: "/tekne-plise-perde" },
+      { label: "Prefabrik Ev", href: "/prefabrik-ev-plise-perde" },
+      { label: "Ofis", href: "/ofis-plise-perde" },
+      { label: "Mağaza", href: "/magaza-plise-perde" },
+      { label: "Kafe ve Restoran", href: "/kafe-restoran-plise-perde" },
+      { label: "Otel", href: "/otel-plise-perde" },
+      { label: "Spor Salonu", href: "/spor-salonu-plise-perde" },
+      { label: "Çatı Katı", href: "/cati-kati-plise-perde" },
+      { label: "Hastane", href: "/hastane-plise-perde" },
+      { label: "Klinik", href: "/klinik-plise-perde" },
+      { label: "Anaokulu", href: "/anaokulu-plise-perde" },
+      { label: "Laboratuvar", href: "/laboratuvar-plise-perde" },
+    ],
+  },
+  {
+    label: "Referanslar",
+    href: "/referanslarimiz",
+  },
+  {
+    label: "Galeri",
+    href: "/galeri",
+  },
+  {
+    label: "Hizmet Bölgeleri",
+    href: "/hizmet-bolgeleri",
+  },
+  {
+    label: "İletişim",
+    href: "/iletisim",
+  },
+];
+
+type FooterColumn = {
+  title: string;
+  links: NavChild[];
+};
+
+export const footerColumns: FooterColumn[] = [
+  {
+    title: "Kurumsal",
+    links: [
+      { label: "Hakkımızda", href: "/hakkimizda" },
+      { label: "Sürdürülebilirlik", href: "/surdurulebilirlik" },
+      { label: "Çocuk Güvenliği", href: "/cocuk-guvenligi" },
+      { label: "SSS", href: "/sss" },
+      { label: "Müşteri Yorumları", href: "/musteri-yorumlari" },
+    ],
+  },
+  {
+    title: "Hizmetlerimiz",
+    links: [
+      { label: "Montaj", href: "/montaj" },
+      { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi" },
+      { label: "Ücretsiz Keşif", href: "/ucretsiz-kesif" },
+      { label: "Temizlik ve Bakım", href: "/temizlik-bakim" },
+      { label: "Fiyat Hesaplama", href: "/plise-perde-fiyat-hesaplama" },
+      { label: "Enerji Tasarrufu", href: "/enerji-tasarrufu-hesaplayici" },
+      { label: "Yedek Parça", href: "/yedek-parca" },
+      { label: "Tamir ve Bakım", href: "/tamir-bakim" },
+    ],
+  },
+  {
+    title: "Hizmet Bölgeleri",
+    links: [
+      { label: "Hizmet Bölgeleri", href: "/hizmet-bolgeleri" },
+    ],
+  },
+  {
+    title: "Karşılaştırmalar",
+    links: [
+      { label: "Plise vs Zebra", href: "/plise-perde-vs-zebra-perde" },
+      { label: "Plise vs Jaluzi", href: "/plise-perde-vs-jaluzi-perde" },
+      { label: "Plise vs Stor", href: "/plise-perde-vs-stor-perde" },
+      { label: "Plise vs Tül", href: "/plise-perde-vs-tul-perde" },
+    ],
+  },
+];

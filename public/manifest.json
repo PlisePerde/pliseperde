@@ -1,0 +1,80 @@
+{
+  "name": "Plise Perde — Özel Ölçü Üretim",
+  "short_name": "Plise Perde",
+  "description": "Plise perde üreticisi. Tül, güneşlik, karartma, honeycomb, motorlu plise perde modelleri. Ücretsiz keşif, profesyonel montaj, 2 yıl garanti.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#83bd81",
+  "lang": "tr-TR",
+  "dir": "ltr",
+  "categories": ["shopping", "home", "business"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Plise Perde — Ana Sayfa"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Plise Perde — Ürün Sayfası"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Fiyat Hesaplama",
+      "short_name": "Fiyat",
+      "description": "Plise perde fiyat hesaplama",
+      "url": "/fiyat-hesaplama/",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ücretsiz Keşif",
+      "short_name": "Keşif",
+      "description": "Ücretsiz keşif talep et",
+      "url": "/ucretsiz-kesif/",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Modeller",
+      "short_name": "Modeller",
+      "description": "Plise perde modelleri",
+      "url": "/urunler/",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
