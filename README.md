@@ -106,36 +106,36 @@ src/app/
 ## Kullanım Alanları (22 Alt Sayfa)
 
 ### Ev Kullanımı
-- [Mutfak Plise Perde](https://pliseperde.com/mutfak-plise-perde) — Nem dayanımlı, yağ buharı koruması
-- [Salon Plise Perde](https://pliseperde.com/salon-plise-perde) — Geniş pencere, ışık-gizlilik dengesi
-- [Yatak Odası Plise Perde](https://pliseperde.com/yatak-odasi-plise-perde) — Tam karartma, kesintisiz uyku
-- [Çocuk Odası Plise Perde](https://pliseperde.com/cocuk-odasi-plise-perde) — İp mekanizması yok, çocuk güvenliği
-- [Çalışma Odası Plise Perde](https://pliseperde.com/calisma-odasi-plise-perde) — Ekran parlaması önleme
-- [Banyo ve WC Plise Perde](https://pliseperde.com/banyo-wc-plise-perde) — Nem dayanımlı, tam gizlilik
-- [Genç Odası Plise Perde](https://pliseperde.com/genc-odasi-plise-perde) — Modern tasarım, renk seçenekleri
+- [Mutfak Plise Perde](https://pliseperde.com/mutfak-plise-perde/) — Nem dayanımlı, yağ buharı koruması
+- [Salon Plise Perde](https://pliseperde.com/salon-plise-perde/) — Geniş pencere, ışık-gizlilik dengesi
+- [Yatak Odası Plise Perde](https://pliseperde.com/yatak-odasi-plise-perde/) — Tam karartma, kesintisiz uyku
+- [Çocuk Odası Plise Perde](https://pliseperde.com/cocuk-odasi-plise-perde/) — İp mekanizması yok, çocuk güvenliği
+- [Çalışma Odası Plise Perde](https://pliseperde.com/calisma-odasi-plise-perde/) — Ekran parlaması önleme
+- [Banyo ve WC Plise Perde](https://pliseperde.com/banyo-wc-plise-perde/) — Nem dayanımlı, tam gizlilik
+- [Genç Odası Plise Perde](https://pliseperde.com/genc-odasi-plise-perde/) — Modern tasarım, renk seçenekleri
 
 ### Özel Yaşam Alanları
-- [Cam Balkon Plise Perde](https://pliseperde.com/cam-balkon-plise-perde) — Kanat bazlı ölçü, rüzgar dayanımı
-- [Villa Plise Perde](https://pliseperde.com/villa-plise-perde) — Yüksek pencere, çatı penceresi, motorlu
+- [Cam Balkon Plise Perde](https://pliseperde.com/cam-balkon-plise-perde/) — Kanat bazlı ölçü, rüzgar dayanımı
+- [Villa Plise Perde](https://pliseperde.com/villa-plise-perde/) — Yüksek pencere, çatı penceresi, motorlu
 
 ### Mobil ve Alternatif Yaşam
-- [Karavan Plise Perde](https://pliseperde.com/karavan-plise-perde) — Yapışkanlı montaj, sarsıntı dayanımı
-- [Tekne ve Yat Plise Perde](https://pliseperde.com/tekne-plise-perde) — Tuzlu su dayanımı, eğimli pencere
-- [Prefabrik Ev Plise Perde](https://pliseperde.com/prefabrik-ev-plise-perde) — Hafif yapı, ısı yalıtımı
+- [Karavan Plise Perde](https://pliseperde.com/karavan-plise-perde/) — Yapışkanlı montaj, sarsıntı dayanımı
+- [Tekne ve Yat Plise Perde](https://pliseperde.com/tekne-plise-perde/) — Tuzlu su dayanımı, eğimli pencere
+- [Prefabrik Ev Plise Perde](https://pliseperde.com/prefabrik-ev-plise-perde/) — Hafif yapı, ısı yalıtımı
 
 ### Ticari Kullanım
-- [Ofis Plise Perde](https://pliseperde.com/ofis-plise-perde) — Ekran parlaması önleme, profesyonel
-- [Mağaza Plise Perde](https://pliseperde.com/magaza-plise-perde) — Vitrin UV koruma, ürün renk koruması
-- [Kafe ve Restoran Plise Perde](https://pliseperde.com/kafe-restoran-plise-perde) — Atmosfer kontrolü, dekoratif
-- [Otel Plise Perde](https://pliseperde.com/otel-plise-perde) — Blackout, motorlu, toplu proje
-- [Spor Salonu Plise Perde](https://pliseperde.com/spor-salonu-plise-perde) — Nem dayanımlı, geniş pencere
-- [Çatı Katı Plise Perde](https://pliseperde.com/cati-kati-plise-perde) — Çatı penceresi, honeycomb ısı yalıtımı
+- [Ofis Plise Perde](https://pliseperde.com/ofis-plise-perde/) — Ekran parlaması önleme, profesyonel
+- [Mağaza Plise Perde](https://pliseperde.com/magaza-plise-perde/) — Vitrin UV koruma, ürün renk koruması
+- [Kafe ve Restoran Plise Perde](https://pliseperde.com/kafe-restoran-plise-perde/) — Atmosfer kontrolü, dekoratif
+- [Otel Plise Perde](https://pliseperde.com/otel-plise-perde/) — Blackout, motorlu, toplu proje
+- [Spor Salonu Plise Perde](https://pliseperde.com/spor-salonu-plise-perde/) — Nem dayanımlı, geniş pencere
+- [Çatı Katı Plise Perde](https://pliseperde.com/cati-kati-plise-perde/) — Çatı penceresi, honeycomb ısı yalıtımı
 
 ### Kurumsal Kullanım
-- [Hastane Plise Perde](https://pliseperde.com/hastane-plise-perde) — Anti-bakteriyel, hijyenik, tam karartma
-- [Klinik Plise Perde](https://pliseperde.com/klinik-plise-perde) — Muayene gizlilik, bekleme ışık kontrolü
-- [Anaokulu Plise Perde](https://pliseperde.com/anaokulu-plise-perde) — Çocuk güvenliği, renkli, eğlenceli
-- [Laboratuvar Plise Perde](https://pliseperde.com/laboratuvar-plise-perde) — Kimyasal dayanımlı, toz geçirmez
+- [Hastane Plise Perde](https://pliseperde.com/hastane-plise-perde/) — Anti-bakteriyel, hijyenik, tam karartma
+- [Klinik Plise Perde](https://pliseperde.com/klinik-plise-perde/) — Muayene gizlilik, bekleme ışık kontrolü
+- [Anaokulu Plise Perde](https://pliseperde.com/anaokulu-plise-perde/) — Çocuk güvenliği, renkli, eğlenceli
+- [Laboratuvar Plise Perde](https://pliseperde.com/laboratuvar-plise-perde/) — Kimyasal dayanımlı, toz geçirmez
 
 ---
 
