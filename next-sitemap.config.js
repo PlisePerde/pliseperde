@@ -1,7 +1,7 @@
 module.exports = {
   siteUrl: "https://pliseperde.com",
   generateRobotsTxt: true,
-  generateIndexSitemap: true,
+  generateIndexSitemap: false,
   changefreq: "monthly",
   priority: 0.7,
   sitemapSize: 5000,

@@ -4,6 +4,7 @@ const path = require("path");
 const SITE_URL = "https://pliseperde.com";
 const TODAY = new Date().toISOString().split("T")[0];
 const OUT_DIR = path.join(process.cwd(), "out");
+const PUBLIC_DIR = path.join(process.cwd(), "public");
 
 const sitemaps = {
   pages: [
@@ -253,4 +254,5 @@ ${indexEntries.map((f) => `  <sitemap><loc>https://pliseperde.com/${f}</loc><las
 </sitemapindex>`;
 
 fs.writeFileSync(path.join(OUT_DIR, "sitemap.xml"), sitemapIndex);
+fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap.xml"), sitemapIndex);
 console.log("Updated: sitemap.xml (index with all named sitemaps)");
