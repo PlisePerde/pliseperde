@@ -57,7 +57,6 @@ export const sitePages: PageEntry[] = [
   { slug: "villa-plise-perde", title: "Villa Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Villa"] },
   { slug: "karavan-plise-perde", title: "Karavan Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Karavan"] },
   { slug: "tekne-plise-perde", title: "Tekne ve Yat Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Tekne ve Yat"] },
-  { slug: "cati-kati-plise-perde", title: "Çatı Katı Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Çatı Katı"] },
   { slug: "magaza-plise-perde", title: "Mağaza Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Mağaza"] },
   { slug: "ofis-plise-perde", title: "Ofis Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Ofis"] },
   { slug: "kafe-restoran-plise-perde", title: "Kafe ve Restoran Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Kafe ve Restoran"] },

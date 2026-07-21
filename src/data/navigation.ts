@@ -98,7 +98,6 @@ export const navItems: NavItem[] = [
       { label: "Kafe ve Restoran", href: "/kafe-restoran-plise-perde" },
       { label: "Otel", href: "/otel-plise-perde" },
       { label: "Spor Salonu", href: "/spor-salonu-plise-perde" },
-      { label: "Çatı Katı", href: "/cati-kati-plise-perde" },
       { label: "Hastane", href: "/hastane-plise-perde" },
       { label: "Klinik", href: "/klinik-plise-perde" },
       { label: "Anaokulu", href: "/anaokulu-plise-perde" },

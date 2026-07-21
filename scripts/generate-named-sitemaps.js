@@ -44,7 +44,6 @@ const sitemaps = {
     { slug: "villa-plise-perde", priority: 0.7, changefreq: "monthly" },
     { slug: "karavan-plise-perde", priority: 0.7, changefreq: "monthly" },
     { slug: "tekne-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "cati-kati-plise-perde", priority: 0.7, changefreq: "monthly" },
     { slug: "magaza-plise-perde", priority: 0.7, changefreq: "monthly" },
     { slug: "ofis-plise-perde", priority: 0.7, changefreq: "monthly" },
     { slug: "kafe-restoran-plise-perde", priority: 0.7, changefreq: "monthly" },
@@ -239,7 +238,6 @@ console.log("Generated: sitemap-videos.xml");
 console.log("All named sitemaps generated successfully.");
 
 const indexEntries = [
-  "sitemap-0.xml",
   "sitemap-pages.xml",
   "sitemap-models.xml",
   "sitemap-services.xml",

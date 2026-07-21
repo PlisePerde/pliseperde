@@ -36,7 +36,6 @@ export default function PlisePerdeKullanimAlanlariPage() {
           "/karavan-plise-perde/",
           "/villa-plise-perde/",
           "/tekne-plise-perde/",
-          "/cati-kati-plise-perde/",
           "/kafe-restoran-plise-perde/",
           "/otel-plise-perde/",
           "/hastane-plise-perde/",
@@ -150,10 +149,6 @@ export default function PlisePerdeKullanimAlanlariPage() {
               <h3 class="text-sm font-semibold text-brand-text mb-1">Spor Salonu</h3>
               <p class="text-xs text-brand-text-light">Nem dayanımlı, hafif, geniş pencere için motorlu seçenek.</p>
             </a>
-            <a href="/cati-kati-plise-perde/" class="block border border-brand-border rounded-lg p-4 hover:border-brand hover:shadow-md transition-all">
-              <h3 class="text-sm font-semibold text-brand-text mb-1">Çatı Katı</h3>
-              <p class="text-xs text-brand-text-light">Çatı penceresi, eğimli montaj, honeycomb ile ısı yalıtımı.</p>
-            </a>
           </div>`,
         },
         {
@@ -223,10 +218,6 @@ export default function PlisePerdeKullanimAlanlariPage() {
         {
           question: "Ofis için hangi plise perde önerilir?",
           answer: "Ofis için güneşlik plise perde önerilir. Ekran parlamasını önler, profesyonel görünüm sağlar. Toplantı odası için karartma modeli eklenebilir. Detay için /ofis-plise-perde/ sayfasını inceleyin.",
-        },
-        {
-          question: "Çatı penceresine plise perde takılır mı?",
-          answer: "Evet, çatı penceresine honeycomb plise perde takılır. Eğimli pencerede vidalı montaj ile sabitlenir. Honeycomb modeli ısı yalıtımı ile çatı penceresinde avantaj sağlar. Detay için /cati-kati-plise-perde/ sayfasını inceleyin.",
         },
       ]}
     />
