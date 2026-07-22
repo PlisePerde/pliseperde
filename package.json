@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/generate-named-sitemaps.js && cp public/robots.txt out/",
+    "postbuild": "node scripts/generate-named-sitemaps.js",
     "start": "next start",
     "lint": "eslint"
   },
