@@ -189,13 +189,13 @@ export default function ReferanslarimizPage() {
                     role="listitem"
                     itemScope
                     itemType="https://schema.org/Organization"
-                    className="group flex flex-col items-center justify-center p-0 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                    className="group flex flex-col items-center justify-center p-2 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
                   >
                     <meta itemProp="name" content={p.name} />
                     <meta itemProp="description" content={`${p.name} (${p.country}) — Plise Perde ${p.role}i ve yurtdışı iş ortağı`} />
                     <meta itemProp="knowsAbout" content="Plise Perde, Honeycomb Perde, Düet Perde" />
                     <link itemProp="url" href={`https://pliseperde.com/referanslarimiz`} />
-                    <div className="relative w-full h-20 md:h-24 flex items-center justify-center">
+                    <div className="relative w-full h-24 md:h-28 flex items-center justify-center">
                       <Image
                         src={p.logo}
                         alt={`${p.name} (${p.country}) — Plise Perde Bayii ve İş Ortağı`}
@@ -241,12 +241,12 @@ export default function ReferanslarimizPage() {
                     role="listitem"
                     itemScope
                     itemType="https://schema.org/Organization"
-                    className="group flex flex-col items-center justify-center p-0 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                    className="group flex flex-col items-center justify-center p-2 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
                   >
                     <meta itemProp="name" content={ref.name} />
                     <meta itemProp="description" content={`${ref.name} — Plise Perde kurumsal müşterisi ve referansı`} />
                     <link itemProp="url" href={`https://pliseperde.com/referanslarimiz`} />
-                    <div className="relative w-full h-20 md:h-24 flex items-center justify-center">
+                    <div className="relative w-full h-24 md:h-28 flex items-center justify-center">
                       <Image
                         src={ref.logo}
                         alt={`${ref.name} — Plise Perde Kurumsal Müşterisi`}
