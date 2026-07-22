@@ -72,6 +72,9 @@ Plise Perde, İstanbul Pendik'te faaliyet gösteren premium plise perde üretici
 - [Sürdürülebilirlik](https://pliseperde.com/surdurulebilirlik/)
 - [Çocuk Güvenliği](https://pliseperde.com/cocuk-guvenligi/)
 - [Galeri](https://pliseperde.com/galeri/)
+  - 51 uygulama fotoğrafı: 21 Plise Perde, 12 Honeycomb Perde, 18 Düet Perde
+  - Kategoriler: salon, yatak odası, cam balkon, mutfak, ofis, banyo, villa, çocuk odası, çalışma odası, kış bahçesi, fransız balkon
+  - Tüm görseller 1400x1400px WebP formatında, Schema.org ImageGallery + ImageObject structured data ile işaretli
 - [Sıkça Sorulan Sorular](https://pliseperde.com/sikca-sorulan-sorular/)
 - [Plise Perde Bayilik](https://pliseperde.com/plise-perde-bayilik/)
 - [Site Haritası](https://pliseperde.com/site-haritasi/)

@@ -1,12 +1,19 @@
-type NavChild = {
+export type NavChild = {
   label: string;
   href: string;
+  children?: NavChild[];
 };
 
-type NavItem = {
+export type NavGroup = {
+  title: string;
+  items: NavChild[];
+};
+
+export type NavItem = {
   label: string;
   href: string | null;
   children?: NavChild[];
+  groups?: NavGroup[];
 };
 
 export const navItems: NavItem[] = [
@@ -78,28 +85,48 @@ export const navItems: NavItem[] = [
   {
     label: "Kullanım Alanları",
     href: "/plise-perde-kullanim-alanlari",
-    children: [
-      { label: "Mutfak", href: "/mutfak-plise-perde" },
-      { label: "Salon", href: "/salon-plise-perde" },
-      { label: "Yatak Odası", href: "/yatak-odasi-plise-perde" },
-      { label: "Çocuk Odası", href: "/cocuk-odasi-plise-perde" },
-      { label: "Genç Odası", href: "/genc-odasi-plise-perde" },
-      { label: "Çalışma Odası", href: "/calisma-odasi-plise-perde" },
-      { label: "Banyo ve WC", href: "/banyo-wc-plise-perde" },
-      { label: "Cam Balkon", href: "/cam-balkon-plise-perde" },
-      { label: "Villa", href: "/villa-plise-perde" },
-      { label: "Karavan", href: "/karavan-plise-perde" },
-      { label: "Tekne ve Yat", href: "/tekne-plise-perde" },
-      { label: "Prefabrik Ev", href: "/prefabrik-ev-plise-perde" },
-      { label: "Ofis", href: "/ofis-plise-perde" },
-      { label: "Mağaza", href: "/magaza-plise-perde" },
-      { label: "Kafe ve Restoran", href: "/kafe-restoran-plise-perde" },
-      { label: "Otel", href: "/otel-plise-perde" },
-      { label: "Spor Salonu", href: "/spor-salonu-plise-perde" },
-      { label: "Hastane", href: "/hastane-plise-perde" },
-      { label: "Klinik", href: "/klinik-plise-perde" },
-      { label: "Anaokulu", href: "/anaokulu-plise-perde" },
-      { label: "Laboratuvar", href: "/laboratuvar-plise-perde" },
+    groups: [
+      {
+        title: "Konut",
+        items: [
+          { label: "Mutfak", href: "/mutfak-plise-perde" },
+          { label: "Salon", href: "/salon-plise-perde" },
+          { label: "Yatak Odası", href: "/yatak-odasi-plise-perde" },
+          { label: "Çocuk Odası", href: "/cocuk-odasi-plise-perde" },
+          { label: "Genç Odası", href: "/genc-odasi-plise-perde" },
+          { label: "Çalışma Odası", href: "/calisma-odasi-plise-perde" },
+          { label: "Banyo ve WC", href: "/banyo-wc-plise-perde" },
+          { label: "Cam Balkon", href: "/cam-balkon-plise-perde" },
+          { label: "Villa", href: "/villa-plise-perde" },
+          { label: "Prefabrik Ev", href: "/prefabrik-ev-plise-perde" },
+        ],
+      },
+      {
+        title: "Ticari",
+        items: [
+          { label: "Ofis", href: "/ofis-plise-perde" },
+          { label: "Mağaza", href: "/magaza-plise-perde" },
+          { label: "Kafe ve Restoran", href: "/kafe-restoran-plise-perde" },
+          { label: "Otel", href: "/otel-plise-perde" },
+          { label: "Spor Salonu", href: "/spor-salonu-plise-perde" },
+        ],
+      },
+      {
+        title: "Sağlık & Eğitim",
+        items: [
+          { label: "Hastane", href: "/hastane-plise-perde" },
+          { label: "Klinik", href: "/klinik-plise-perde" },
+          { label: "Anaokulu", href: "/anaokulu-plise-perde" },
+          { label: "Laboratuvar", href: "/laboratuvar-plise-perde" },
+        ],
+      },
+      {
+        title: "Araç",
+        items: [
+          { label: "Karavan", href: "/karavan-plise-perde" },
+          { label: "Tekne ve Yat", href: "/tekne-plise-perde" },
+        ],
+      },
     ],
   },
   {

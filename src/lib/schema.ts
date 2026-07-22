@@ -65,7 +65,6 @@ export function websiteSchema() {
     "@type": "WebSite",
     "@id": `${siteConfig.url}/#website`,
     name: siteConfig.name,
-    alternateName: siteConfig.domain,
     url: siteConfig.url,
     inLanguage: "tr-TR",
     publisher: {

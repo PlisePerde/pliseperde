@@ -326,3 +326,42 @@ export function createCollectionPageSchema(data: {
     })),
   };
 }
+
+export function createImageGallerySchema(data: {
+  name: string;
+  description: string;
+  url: string;
+  images: {
+    src: string;
+    alt: string;
+    caption?: string;
+    description?: string;
+    width?: number;
+    height?: number;
+  }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ImageGallery",
+    name: data.name,
+    description: data.description,
+    url: `${siteConfig.url}${data.url}`,
+    inLanguage: "tr-TR",
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    image: data.images.map((img) => ({
+      "@type": "ImageObject",
+      url: `${siteConfig.url}${img.src}`,
+      contentUrl: `${siteConfig.url}${img.src}`,
+      name: img.alt,
+      caption: img.caption || img.alt,
+      description: img.description || img.caption || img.alt,
+      inLanguage: "tr-TR",
+      creator: { "@id": `${siteConfig.url}/#organization` },
+      copyrightHolder: { "@id": `${siteConfig.url}/#organization` },
+      ...(img.width && img.height
+        ? { width: { "@type": "QuantitativeValue", value: img.width, unitCode: "E37" },
+            height: { "@type": "QuantitativeValue", value: img.height, unitCode: "E37" } }
+        : {}),
+    })),
+  };
+}
