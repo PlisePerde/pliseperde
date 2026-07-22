@@ -13,8 +13,8 @@ import JsonLd, {
   createItemListSchema,
 } from "@/components/JsonLd";
 import { generatePageMetadata } from "@/lib/seo";
-import { references, referenceStats } from "@/data/references";
-import { CheckCircle, Building, Calendar, ThumbsUp } from "lucide-react";
+import { partners, customers, allReferences, referenceStats } from "@/data/references";
+import { CheckCircle, Building, Calendar, ThumbsUp, Globe } from "lucide-react";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Referanslarımız — Plise Perde Projeleri ve Kurumsal Müşterilerimiz",
@@ -89,11 +89,24 @@ export default function ReferanslarimizPage() {
       datePublished: "2022-01-01",
     }),
     createItemListSchema({
-      name: "Plise Perde Kurumsal Referanslar",
+      name: "Plise Perde Yurtdışı Bayileri ve İş Ortakları",
       description:
-        "Otel, ofis, okul, hastane, konut, perakende, telekom, havayolu, bankacılık ve eğitim sektörlerinde Plise Perde montajı yapan kurumsal müşterilerimiz ve iş ortaklarımız.",
+        "Hunter Douglas, Benthin, MHZ Hachtel, Luxaflex, Neher, Warema, Cosiflor, Erfal, JYSK ve Kadeco gibi yurtdışı firmalar Plise Perde bayileri ve düzenli iş ortaklarıdır. Bu firmalara haftalık olarak bitmiş plise perde, honeycomb perde ve düet perde ürünleri tedarik edilmektedir.",
       url: "/referanslarimiz/",
-      items: references.map((ref) => ({
+      items: partners.map((p) => ({
+        name: p.name,
+        description: `${p.name} (${p.country}) — Plise Perde'nin ${p.role}i ve yurtdışı iş ortağı. Düzenli olarak plise perde, honeycomb perde ve düet perde ürünleri tedarik edilen bayi firmadır.`,
+        logo: p.logo,
+        sector: p.role,
+        location: p.country,
+      })),
+    }),
+    createItemListSchema({
+      name: "Plise Perde Kurumsal Müşterileri",
+      description:
+        "Otel, ofis, okul, hastane, konut, perakende, telekom, havayolu, bankacılık ve eğitim sektörlerinde Plise Perde montajı yapılan kurumsal müşterilerimiz.",
+      url: "/referanslarimiz/",
+      items: customers.map((ref) => ({
         name: ref.name,
         description: `${ref.name} — Plise Perde kurumsal müşterisi ve referansı. Plise perde, honeycomb perde ve düet perde uygulamaları.`,
         logo: ref.logo,
@@ -149,15 +162,80 @@ export default function ReferanslarimizPage() {
             </div>
           </ScrollReveal>
 
-          {/* Logo Grid */}
+          {/* Partners — Yurtdışı Bayiler */}
           <ScrollReveal className="mb-10">
-            <section aria-label="Kurumsal referans logoları">
+            <section aria-label="Yurtdışı bayiler ve iş ortakları">
+              <div className="flex items-center gap-3 mb-4">
+                <Globe size={24} className="text-brand" />
+                <h2 className="text-lg md:text-xl font-semibold text-brand-text">
+                  Yurtdışı Bayilerimiz ve İş Ortaklarımız
+                </h2>
+              </div>
+              <p className="text-sm text-brand-text-light leading-relaxed mb-5">
+                Yurtdışında faaliyet gösteren <strong>Hunter Douglas, Benthin, MHZ Hachtel, Luxaflex,
+                Neher, Warema, Cosiflor, Erfal, JYSK ve Kadeco</strong> gibi firmalar Plise Perde'nin
+                düzenli bayileri ve iş ortaklarıdır. Bu firmalara her hafta bitmiş plise perde, honeycomb
+                perde ve düet perde ürünleri tedarik edilmektedir. <em>Üretici olarak doğrudan bayi
+                ilişkisi</em> ile çalışıyoruz.
+              </p>
+              <div
+                className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-4"
+                role="list"
+                aria-label="Yurtdışı bayi logoları"
+              >
+                {partners.map((p) => (
+                  <figure
+                    key={p.name}
+                    role="listitem"
+                    itemScope
+                    itemType="https://schema.org/Organization"
+                    className="group flex flex-col items-center justify-center p-4 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                  >
+                    <meta itemProp="name" content={p.name} />
+                    <meta itemProp="description" content={`${p.name} (${p.country}) — Plise Perde ${p.role}i ve yurtdışı iş ortağı`} />
+                    <meta itemProp="knowsAbout" content="Plise Perde, Honeycomb Perde, Düet Perde" />
+                    <link itemProp="url" href={`https://pliseperde.com/referanslarimiz`} />
+                    <div className="relative w-full h-16 md:h-20 flex items-center justify-center">
+                      <Image
+                        src={p.logo}
+                        alt={`${p.name} (${p.country}) — Plise Perde Bayii ve İş Ortağı`}
+                        width={320}
+                        height={160}
+                        className="object-contain w-full h-full opacity-70 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300"
+                        sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+                        loading="lazy"
+                        itemProp="logo"
+                      />
+                    </div>
+                    <figcaption className="sr-only">
+                      {p.name} — {p.country} — Plise Perde {p.role}i ve yurtdışı iş ortağı
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+          </ScrollReveal>
+
+          {/* Customers — Kurumsal Müşteriler */}
+          <ScrollReveal className="mb-10">
+            <section aria-label="Kurumsal müşteri logoları">
+              <div className="flex items-center gap-3 mb-4">
+                <Building size={24} className="text-brand" />
+                <h2 className="text-lg md:text-xl font-semibold text-brand-text">
+                  Kurumsal Müşterilerimiz
+                </h2>
+              </div>
+              <p className="text-sm text-brand-text-light leading-relaxed mb-5">
+                <strong>Telekom, perakende, sağlık, e-ticaret, havayolu, bankacılık, belediye ve
+                eğitim</strong> sektörlerinden 36+ kurumsal müşteri ile çalışıyoruz. Her sektörde özel
+                ihtiyaçlara yönelik plise perde çözümleri sunuyoruz.
+              </p>
               <div
                 className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-4"
                 role="list"
                 aria-label="Kurumsal müşteri logoları"
               >
-                {references.map((ref) => (
+                {customers.map((ref) => (
                   <figure
                     key={ref.name}
                     role="listitem"
