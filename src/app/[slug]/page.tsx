@@ -195,8 +195,6 @@ async function BlogPostView({ slug }: { slug: string }) {
       <div className="bg-gradient-to-br from-brand-bg via-brand-bg to-brand-light/10 border-b border-brand-border">
         <div className="mx-auto max-w-[1536px] px-4 md:px-6">
           <div className="py-8 md:py-12">
-            <Breadcrumb items={breadcrumb} />
-
             <h1 className="text-2xl md:text-4xl font-bold text-brand-text mb-4 leading-tight">
               {post.title}
             </h1>
@@ -205,7 +203,9 @@ async function BlogPostView({ slug }: { slug: string }) {
               {post.description}
             </p>
 
-            <div className="flex flex-wrap items-center gap-4 text-xs text-brand-text-light">
+            <Breadcrumb items={breadcrumb} />
+
+            <div className="flex flex-wrap items-center gap-4 text-xs text-brand-text-light mt-4">
               <span className="flex items-center gap-1.5">
                 <User size={14} className="text-brand" />
                 {post.author}
