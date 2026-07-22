@@ -104,8 +104,9 @@ export const sitePages: PageEntry[] = [
   { slug: "surdurulebilirlik", title: "Sürdürülebilirlik", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Sürdürülebilirlik"] },
   { slug: "cocuk-guvenligi", title: "Çocuk Güvenliği", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Çocuk Güvenliği"] },
   { slug: "galeri", title: "Galeri", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Galeri"] },
-  { slug: "sikca-sorulan-sorular", title: "SSS", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "SSS"] },
+  { slug: "sikca-sorulan-sorular", title: "Sıkça Sorulan Sorular", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Sıkça Sorulan Sorular"] },
   { slug: "plise-perde-kullanici-yorumlari", title: "Plise Perde Kullanıcı Yorumları", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Kullanıcı Yorumları"] },
+  { slug: "plise-perde-bayilik", title: "Plise Perde Bayilik", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Bayilik"] },
 
   // İletişim
   { slug: "iletisim", title: "İletişim", category: "İletişim", breadcrumb: ["Ana Sayfa", "İletişim"] },
@@ -135,6 +136,15 @@ export const sitePages: PageEntry[] = [
   { slug: "iade-ve-degisim", title: "İade ve Değişim", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "İade ve Değişim"] },
   { slug: "gizlilik-politikasi", title: "Gizlilik Politikası", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Gizlilik Politikası"] },
   { slug: "kvkk-aydinlatma-metni", title: "KVKK Aydınlatma Metni", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "KVKK Aydınlatma Metni"] },
+
+  // Blog
+  { slug: "blog", title: "Blog", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog"] },
+  { slug: "plise-perde-nedir", title: "Plise Perde Nedir?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Nedir?"] },
+  { slug: "plise-perde-nasil-yapilir", title: "Plise Perde Nasıl Yapılır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Nasıl Yapılır?"] },
+  { slug: "plise-perde-olcusu-nasil-alinir", title: "Plise Perde Ölçüsü Nasıl Alınır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Ölçüsü Nasıl Alınır?"] },
+  { slug: "plise-perde-montaji-nasil-yapilir", title: "Plise Perde Montajı Nasıl Yapılır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Montajı Nasıl Yapılır?"] },
+  { slug: "plise-perde-nasil-cikarilir", title: "Plise Perde Nasıl Çıkarılır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Nasıl Çıkarılır?"] },
+  { slug: "plise-perde-temizligi-nasil-yapilir", title: "Plise Perde Temizliği Nasıl Yapılır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Temizliği Nasıl Yapılır?"] },
 
   // Site Haritası
   { slug: "site-haritasi", title: "Site Haritası", category: "Site Haritası", breadcrumb: ["Ana Sayfa", "Site Haritası"] },

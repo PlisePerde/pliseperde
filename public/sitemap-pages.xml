@@ -301,6 +301,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://pliseperde.com/plise-perde-bayilik/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://pliseperde.com/plise-perde-fiyat-hesaplama/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -355,7 +361,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://pliseperde.com/plise-perde-nedir-avantajlari-nelerdir/</loc>
+    <loc>https://pliseperde.com/plise-perde-nedir/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pliseperde.com/plise-perde-nasil-yapilir/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pliseperde.com/plise-perde-olcusu-nasil-alinir/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -367,19 +385,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pliseperde.com/salon-icin-plise-perde-secimi/</loc>
+    <loc>https://pliseperde.com/plise-perde-nasil-cikarilir/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pliseperde.com/plise-perde-temizligi-ve-bakimi/</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pliseperde.com/akilli-plise-perde-sistemleri/</loc>
+    <loc>https://pliseperde.com/plise-perde-temizligi-nasil-yapilir/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

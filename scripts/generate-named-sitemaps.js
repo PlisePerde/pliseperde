@@ -277,34 +277,52 @@ ${urls}
 </urlset>`;
 }
 
-if (!fs.existsSync(OUT_DIR)) {
-  console.error("out/ directory not found. Run 'next build' first.");
-  process.exit(1);
+const hasOutDir = fs.existsSync(OUT_DIR);
+
+function writeSitemap(filename, content) {
+  fs.writeFileSync(path.join(PUBLIC_DIR, filename), content);
+  if (hasOutDir) {
+    fs.writeFileSync(path.join(OUT_DIR, filename), content);
+  }
 }
 
 const standardSitemaps = ["pages", "models", "services", "regions", "comparisons", "legal"];
 
 standardSitemaps.forEach((name) => {
   const content = generateStandardSitemap(name, sitemaps[name]);
-  fs.writeFileSync(path.join(OUT_DIR, `sitemap-${name}.xml`), content);
-  fs.writeFileSync(path.join(PUBLIC_DIR, `sitemap-${name}.xml`), content);
+  writeSitemap(`sitemap-${name}.xml`, content);
   console.log(`Generated: sitemap-${name}.xml (${sitemaps[name].length} URLs)`);
 });
 
+// Blog sitemap — blog page + individual blog posts
+const blogPosts = sitemaps.pages.filter((p) =>
+  p.slug.startsWith("plise-perde-nedir") ||
+  p.slug.startsWith("plise-perde-nasil") ||
+  p.slug.startsWith("plise-perde-olcusu") ||
+  p.slug.startsWith("plise-perde-montaji") ||
+  p.slug.startsWith("plise-perde-temizligi")
+);
+const blogSitemapPages = [
+  { slug: "blog", priority: 0.8, changefreq: "weekly" },
+  ...blogPosts,
+];
+const blogContent = generateStandardSitemap("blog", blogSitemapPages);
+writeSitemap("sitemap-blog.xml", blogContent);
+console.log(`Generated: sitemap-blog.xml (${blogSitemapPages.length} URLs)`);
+
 const imageContent = generateImageSitemap(sitemaps.images);
-fs.writeFileSync(path.join(OUT_DIR, "sitemap-images.xml"), imageContent);
-fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap-images.xml"), imageContent);
+writeSitemap("sitemap-images.xml", imageContent);
 console.log("Generated: sitemap-images.xml");
 
 const videoContent = generateVideoSitemap(sitemaps.videos);
-fs.writeFileSync(path.join(OUT_DIR, "sitemap-videos.xml"), videoContent);
-fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap-videos.xml"), videoContent);
+writeSitemap("sitemap-videos.xml", videoContent);
 console.log("Generated: sitemap-videos.xml");
 
 console.log("All named sitemaps generated successfully.");
 
 const indexEntries = [
   "sitemap-pages.xml",
+  "sitemap-blog.xml",
   "sitemap-models.xml",
   "sitemap-services.xml",
   "sitemap-regions.xml",
@@ -319,6 +337,5 @@ const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
 ${indexEntries.map((f) => `  <sitemap><loc>https://pliseperde.com/${f}</loc><lastmod>${new Date().toISOString()}</lastmod></sitemap>`).join("\n")}
 </sitemapindex>`;
 
-fs.writeFileSync(path.join(OUT_DIR, "sitemap.xml"), sitemapIndex);
-fs.writeFileSync(path.join(PUBLIC_DIR, "sitemap.xml"), sitemapIndex);
+writeSitemap("sitemap.xml", sitemapIndex);
 console.log("Updated: sitemap.xml (index with all named sitemaps)");

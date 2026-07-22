@@ -278,6 +278,28 @@ Detay: https://pliseperde.com/sikca-sorulan-sorular/
 
 ---
 
+## BAYİLİK
+
+- Bayilik Başvuru Formu: https://pliseperde.com/plise-perde-bayilik/
+- Bayilik şartları: Showroom (30m²+), ilk sipariş 15.000 TL, en az 1 personel
+- Bayilik avantajları: Üretici fiyatı (%30-%60 kar marjı), bölge garantisi, ücretsiz eğitim
+- Sipariş üzerine üretim — stok zorunluluğu yok
+- 2 günlük ücretsiz montaj eğitimi (Pendik üretim tesisi)
+
+---
+
+## BLOG YAZILARI
+
+- Blog Ana Sayfa: https://pliseperde.com/blog/
+- Plise Perde Nedir?: https://pliseperde.com/plise-perde-nedir/
+- Plise Perde Nasıl Yapılır?: https://pliseperde.com/plise-perde-nasil-yapilir/
+- Plise Perde Ölçüsü Nasıl Alınır?: https://pliseperde.com/plise-perde-olcusu-nasil-alinir/
+- Plise Perde Montajı Nasıl Yapılır?: https://pliseperde.com/plise-perde-montaji-nasil-yapilir/
+- Plise Perde Nasıl Çıkarılır?: https://pliseperde.com/plise-perde-nasil-cikarilir/
+- Plise Perde Temizliği Nasıl Yapılır?: https://pliseperde.com/plise-perde-temizligi-nasil-yapilir/
+
+---
+
 ## AI VE ARAMA MOTORU ERİŞİMİ
 
 - llms.txt (özet): https://pliseperde.com/llms.txt

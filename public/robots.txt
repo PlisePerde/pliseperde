@@ -116,6 +116,7 @@ Allow: /
 
 User-agent: *
 Allow: /
+Allow: /sitemap*.xml
 Disallow: /admin/
 Disallow: /api/
 Disallow: /404
@@ -128,6 +129,7 @@ Crawl-delay: 1
 # --- Sitemap Referansları ---
 Sitemap: https://pliseperde.com/sitemap.xml
 Sitemap: https://pliseperde.com/sitemap-pages.xml
+Sitemap: https://pliseperde.com/sitemap-blog.xml
 Sitemap: https://pliseperde.com/sitemap-models.xml
 Sitemap: https://pliseperde.com/sitemap-services.xml
 Sitemap: https://pliseperde.com/sitemap-regions.xml

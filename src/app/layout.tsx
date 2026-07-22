@@ -7,10 +7,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   verification: {
     google: "nqWwFE2E710n1sOZY32SHixMuJ860LFuJZV7biitAqo",
-    other: {
-      "msvalidate.01": "BING_VERIFICATION_CODE_BURAYA",
-      "yandex-verification": "YANDEX_VERIFICATION_CODE_BURAYA",
-    },
   },
   title: {
     default: "Plise Perde | Özel Ölçü Üretim | Hızlı Teslimat - 2 Yıl Garanti",
