@@ -1,110 +1,56 @@
 export interface Reference {
   name: string;
   logo: string;
-  sector: string;
-  projectCount?: string;
-  description: string;
-  url?: string;
-  location?: string;
 }
 
-export interface ReferenceSector {
-  id: string;
-  label: string;
-  icon: string;
-  description: string;
-  references: Reference[];
-}
-
-export const referenceSectors: ReferenceSector[] = [
-  {
-    id: "otel-konaklama",
-    label: "Otel & Konaklama",
-    icon: "hotel",
-    description:
-      "5 yıldızlı oteller, butik oteller ve konaklama tesisleri için toplu plise perde üretimi ve montajı. Motorlu modeller, blackout kumaş ve özel ölçü üretim konusunda uzmanız.",
-    references: [
-      {
-        name: "Örnek Otel",
-        logo: "/logos/ornek-otel.webp",
-        sector: "Otel & Konaklama",
-        projectCount: "180 oda",
-        description: "180 oda için motorlu plise perde üretimi ve montajı.",
-        location: "İstanbul",
-      },
-    ],
-  },
-  {
-    id: "ofis-plaza",
-    label: "Ofis & Plaza",
-    icon: "building",
-    description:
-      "Plaza ofis katları, çalışma alanları ve toplantı odaları için güneşlik plise perde çözümleri. Profesyonel montaj ve toplu proje indirimleri.",
-    references: [
-      {
-        name: "Örnek Plaza",
-        logo: "/logos/ornek-plaza.webp",
-        sector: "Ofis & Plaza",
-        projectCount: "85+ ofis",
-        description: "Plaza katları için güneşlik plise perde uygulaması.",
-        location: "İstanbul",
-      },
-    ],
-  },
-  {
-    id: "egitim",
-    label: "Eğitim Kurumları",
-    icon: "school",
-    description:
-      "Okullar, üniversiteler ve eğitim kurumları için çocuk güvenliği sertifikalı, dayanıklı plise perde modelleri. Kordsuz sistemler ile güvenli kullanım.",
-    references: [
-      {
-        name: "Örnek Okul",
-        logo: "/logos/ornek-okul.webp",
-        sector: "Eğitim",
-        projectCount: "45+ sınıf",
-        description: "Sınıflar için kordsuz güvenli plise perde montajı.",
-        location: "Ankara",
-      },
-    ],
-  },
-  {
-    id: "saglik",
-    label: "Sağlık Kurumları",
-    icon: "heart-pulse",
-    description:
-      "Hastaneler, klinikler ve sağlık kurumları için hijyenik kumaş ve tam karartma özellikli plise perde çözümleri. Anti-bakteriyel kumaş seçenekleri.",
-    references: [
-      {
-        name: "Örnek Hastane",
-        logo: "/logos/ornek-hastane.webp",
-        sector: "Sağlık",
-        projectCount: "30+ oda",
-        description: "Hasta odaları için blackout hijyenik plise perde.",
-        location: "İzmir",
-      },
-    ],
-  },
-  {
-    id: "konut-site",
-    label: "Konut Siteleri",
-    icon: "home",
-    description:
-      "Toplu konut projeleri ve siteler için standart plise perde modelleri. Toplu indirim avantajları ve öncelikli montaj hizmeti.",
-    references: [
-      {
-        name: "Örnek Site",
-        logo: "/logos/ornek-site.webp",
-        sector: "Konut",
-        projectCount: "200+ daire",
-        description: "Site ortak alanları ve daireler için toplu plise perde.",
-        location: "İstanbul",
-      },
-    ],
-  },
+export const references: Reference[] = [
+  { name: "Türk Telekom", logo: "/logos/turk-telekom.webp" },
+  { name: "A101", logo: "/logos/a101.webp" },
+  { name: "Acıbadem Sağlık Grubu", logo: "/logos/acibadem-saglik-grubu.webp" },
+  { name: "Amazon", logo: "/logos/amazon.webp" },
+  { name: "Aselsan", logo: "/logos/aselsan.webp" },
+  { name: "Benthin", logo: "/logos/benthin.webp" },
+  { name: "BİM", logo: "/logos/bim.webp" },
+  { name: "Bol", logo: "/logos/bol.webp" },
+  { name: "Cosiflor", logo: "/logos/cosiflor.webp" },
+  { name: "Enka", logo: "/logos/enka.webp" },
+  { name: "Erfal", logo: "/logos/erfal.webp" },
+  { name: "Espressolab", logo: "/logos/espressolab.webp" },
+  { name: "Garanti Bankası", logo: "/logos/garanti-bankasi.webp" },
+  { name: "Gebze Belediyesi", logo: "/logos/gebze-belediyesi.webp" },
+  { name: "Hepsiburada", logo: "/logos/hepsiburada.webp" },
+  { name: "Honeywell", logo: "/logos/honeywell.webp" },
+  { name: "Hunter Douglas", logo: "/logos/hunter-douglas.webp" },
+  { name: "IKEA", logo: "/logos/ikea.webp" },
+  { name: "İstanbul Büyükşehir Belediyesi", logo: "/logos/istanbul-buyuksehir-belediyesi.webp" },
+  { name: "JYSK", logo: "/logos/jysk.webp" },
+  { name: "Kadeco", logo: "/logos/kadeco.webp" },
+  { name: "Kocaeli Büyükşehir Belediyesi", logo: "/logos/kocaeli-buyuksehir-belediyesi.webp" },
+  { name: "Luxaflex", logo: "/logos/luxaflex.webp" },
+  { name: "Maersk", logo: "/logos/maersk.webp" },
+  { name: "Medicana", logo: "/logos/medicana.webp" },
+  { name: "Medipol", logo: "/logos/medipol.webp" },
+  { name: "Memorial", logo: "/logos/memorial.webp" },
+  { name: "MHZ Hachtel", logo: "/logos/mhz-hachtel.webp" },
+  { name: "Migros", logo: "/logos/migros.webp" },
+  { name: "Neher", logo: "/logos/neher.webp" },
+  { name: "Nevada Coffee", logo: "/logos/nevada-coffee.webp" },
+  { name: "Opet", logo: "/logos/opet.webp" },
+  { name: "Pegasus", logo: "/logos/pegasus.webp" },
+  { name: "Pendik Belediyesi", logo: "/logos/pendik-belediyesi.webp" },
+  { name: "Petkim", logo: "/logos/petkim.webp" },
+  { name: "San Deco", logo: "/logos/san-deco.webp" },
+  { name: "Socar", logo: "/logos/socar.webp" },
+  { name: "Trendyol", logo: "/logos/trendyol.webp" },
+  { name: "Tüpraş", logo: "/logos/tupras.webp" },
+  { name: "Turkcell", logo: "/logos/turkcell.webp" },
+  { name: "Turkish Airlines", logo: "/logos/turkish-airlines.webp" },
+  { name: "Türkiye İş Bankası", logo: "/logos/turkiye-is-bankasi.webp" },
+  { name: "Tuzla Belediyesi", logo: "/logos/tuzla-belediyesi.webp" },
+  { name: "Vestel", logo: "/logos/vestel.webp" },
+  { name: "Warema", logo: "/logos/warema.webp" },
+  { name: "Yıldız Teknik Üniversitesi", logo: "/logos/yildiz-teknik-universitesi.webp" },
 ];
-
-export const allReferences: Reference[] = referenceSectors.flatMap((s) => s.references);
 
 export const referenceStats = [
   { label: "Tamamlanan Proje", value: "2000+", icon: "check-circle" },

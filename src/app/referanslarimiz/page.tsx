@@ -13,8 +13,8 @@ import JsonLd, {
   createItemListSchema,
 } from "@/components/JsonLd";
 import { generatePageMetadata } from "@/lib/seo";
-import { referenceSectors, allReferences, referenceStats } from "@/data/references";
-import { CheckCircle, Building, Calendar, ThumbsUp, Hotel, School, HeartPulse, Home } from "lucide-react";
+import { references, referenceStats } from "@/data/references";
+import { CheckCircle, Building, Calendar, ThumbsUp } from "lucide-react";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Referanslarımız — Plise Perde Projeleri ve Kurumsal Müşterilerimiz",
@@ -34,14 +34,6 @@ export const metadata: Metadata = generatePageMetadata({
     "kurumsal perde montaj",
   ],
 });
-
-const sectorIcons: Record<string, React.ReactNode> = {
-  hotel: <Hotel size={24} />,
-  building: <Building size={24} />,
-  school: <School size={24} />,
-  "heart-pulse": <HeartPulse size={24} />,
-  home: <Home size={24} />,
-};
 
 const statIcons: Record<string, React.ReactNode> = {
   "check-circle": <CheckCircle size={28} />,
@@ -101,13 +93,10 @@ export default function ReferanslarimizPage() {
       description:
         "Otel, ofis, okul, hastane ve konut projelerinde plise perde montajı yapan kurumsal müşterilerimiz.",
       url: "/referanslarimiz/",
-      items: allReferences.map((ref) => ({
+      items: references.map((ref) => ({
         name: ref.name,
-        description: ref.description,
+        description: `${ref.name} — Plise Perde kurumsal müşterisi`,
         logo: ref.logo,
-        sector: ref.sector,
-        location: ref.location,
-        url: ref.url,
       })),
     }),
     createFAQSchema(faqItems),
@@ -160,60 +149,41 @@ export default function ReferanslarimizPage() {
             </div>
           </ScrollReveal>
 
-          {/* Sector sections with logos */}
-          {referenceSectors.map((sector, sIndex) => (
-            <ScrollReveal key={sector.id} className="mb-10" delay={sIndex * 50}>
-              <section aria-label={`${sector.label} referansları`}>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="text-brand">{sectorIcons[sector.icon]}</div>
-                  <h2 className="text-lg md:text-xl font-semibold text-brand-text">
-                    {sector.label}
-                  </h2>
-                </div>
-                <p className="text-sm text-brand-text-light leading-relaxed mb-5">
-                  {sector.description}
-                </p>
-
-                {/* Logo grid */}
-                <div
-                  className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4"
-                  role="list"
-                  aria-label={`${sector.label} logo galerisi`}
-                >
-                  {sector.references.map((ref) => (
-                    <figure
-                      key={ref.name}
-                      role="listitem"
-                      className="group flex flex-col items-center justify-center p-4 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
-                    >
-                      <div className="relative w-full h-16 md:h-20 flex items-center justify-center mb-2">
-                        <Image
-                          src={ref.logo}
-                          alt={`${ref.name} — Plise Perde Projesi`}
-                          width={160}
-                          height={80}
-                          className="object-contain w-full h-full opacity-60 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300"
-                          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 16vw"
-                          loading="lazy"
-                        />
-                      </div>
-                      <figcaption className="text-center">
-                        <p className="text-xs md:text-sm font-medium text-brand-text line-clamp-1">
-                          {ref.name}
-                        </p>
-                        {ref.projectCount && (
-                          <p className="text-xs text-brand-text-light mt-0.5">{ref.projectCount}</p>
-                        )}
-                        {ref.location && (
-                          <p className="text-xs text-brand-text-light/70 mt-0.5">{ref.location}</p>
-                        )}
-                      </figcaption>
-                    </figure>
-                  ))}
-                </div>
-              </section>
-            </ScrollReveal>
-          ))}
+          {/* Logo Grid */}
+          <ScrollReveal className="mb-10">
+            <section aria-label="Kurumsal referans logoları">
+              <div
+                className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-4"
+                role="list"
+                aria-label="Kurumsal müşteri logoları"
+              >
+                {references.map((ref) => (
+                  <figure
+                    key={ref.name}
+                    role="listitem"
+                    className="group flex flex-col items-center justify-center p-4 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                  >
+                    <div className="relative w-full h-16 md:h-20 flex items-center justify-center">
+                      <Image
+                        src={ref.logo}
+                        alt={`${ref.name} — Plise Perde Kurumsal Müşterisi`}
+                        width={320}
+                        height={160}
+                        className="object-contain w-full h-full opacity-50 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300"
+                        sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+                        loading="lazy"
+                      />
+                    </div>
+                    <figcaption className="text-center mt-2">
+                      <p className="text-xs md:text-sm font-medium text-brand-text line-clamp-1">
+                        {ref.name}
+                      </p>
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+          </ScrollReveal>
 
           {/* Why choose us */}
           <ScrollReveal className="mb-10">
