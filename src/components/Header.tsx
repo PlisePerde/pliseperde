@@ -33,6 +33,7 @@ export default function Header() {
                 height={42}
                 priority
                 className="h-9 w-auto"
+                style={{ width: "auto", height: "2.25rem" }}
               />
             </Link>
             <div className="hidden md:block h-8 w-px bg-brand-border" />

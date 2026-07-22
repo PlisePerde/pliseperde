@@ -17,9 +17,10 @@ export const navItems: NavItem[] = [
       { label: "Hakkımızda", href: "/hakkimizda" },
       { label: "Sürdürülebilirlik", href: "/surdurulebilirlik" },
       { label: "Çocuk Güvenliği", href: "/cocuk-guvenligi" },
-      { label: "SSS", href: "/sikca-sorulan-sorular" },
+      { label: "Sıkça Sorulan Sorular", href: "/sikca-sorulan-sorular" },
       { label: "Kullanıcı Yorumları", href: "/plise-perde-kullanici-yorumlari" },
       { label: "Referanslarımız", href: "/referanslarimiz" },
+      { label: "Plise Perde Bayilik", href: "/plise-perde-bayilik" },
     ],
   },
   {
@@ -131,8 +132,9 @@ export const footerColumns: FooterColumn[] = [
       { label: "Hakkımızda", href: "/hakkimizda" },
       { label: "Sürdürülebilirlik", href: "/surdurulebilirlik" },
       { label: "Çocuk Güvenliği", href: "/cocuk-guvenligi" },
-      { label: "SSS", href: "/sikca-sorulan-sorular" },
+      { label: "Sıkça Sorulan Sorular", href: "/sikca-sorulan-sorular" },
       { label: "Kullanıcı Yorumları", href: "/plise-perde-kullanici-yorumlari" },
+      { label: "Plise Perde Bayilik", href: "/plise-perde-bayilik" },
     ],
   },
   {

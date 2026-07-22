@@ -58,6 +58,7 @@ const sitemaps = {
     { slug: "hizmet-bolgeleri", priority: 0.9, changefreq: "monthly" },
     { slug: "referanslarimiz", priority: 0.8, changefreq: "monthly" },
     { slug: "iletisim", priority: 0.7, changefreq: "yearly" },
+    { slug: "plise-perde-bayilik", priority: 0.8, changefreq: "monthly" },
     { slug: "plise-perde-fiyat-hesaplama", priority: 0.9, changefreq: "weekly" },
     { slug: "site-haritasi", priority: 0.6, changefreq: "weekly" },
     { slug: "hakkimizda", priority: 0.7, changefreq: "yearly" },

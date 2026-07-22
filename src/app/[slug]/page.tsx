@@ -1,6 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+
+function slugifyHeading(heading: string): string {
+  return heading
+    .toLowerCase()
+    .replace(/ı/g, "i").replace(/ş/g, "s").replace(/ğ/g, "g")
+    .replace(/ü/g, "u").replace(/ö/g, "o").replace(/ç/g, "c")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+}
 import {
   Calendar,
   Clock,
@@ -10,6 +20,7 @@ import {
 import PageLayout from "@/components/PageLayout";
 import CTASection from "@/components/CTASection";
 import Breadcrumb from "@/components/Breadcrumb";
+import BlogSidebar from "@/components/BlogSidebar";
 import JsonLd, {
   createBreadcrumbJsonLd,
   createBlogPostingSchema,
@@ -123,6 +134,7 @@ async function BlogPostView({ slug }: { slug: string }) {
   if (!post) notFound();
 
   const relatedPosts = getRelatedBlogPosts(post.slug, post.category, 3);
+  const otherPosts = getAllBlogPosts().filter((p) => p.slug !== post.slug).slice(0, 5);
 
   const breadcrumb = [
     { name: "Ana Sayfa", url: "/" },
@@ -149,6 +161,20 @@ async function BlogPostView({ slug }: { slug: string }) {
 
   if (post.faq && post.faq.length > 0) {
     schemas.push(createFAQSchema(post.faq));
+  }
+
+  if (post.sections.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: "İçindekiler",
+      itemListElement: post.sections.map((section, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: section.heading,
+        url: `${siteConfig.url}/${post.slug}/#${slugifyHeading(section.heading)}`,
+      })),
+    });
   }
 
   return (
@@ -191,7 +217,8 @@ async function BlogPostView({ slug }: { slug: string }) {
       </div>
 
       <div className="mx-auto max-w-[1536px] px-4 md:px-6">
-        <article className="py-8 md:py-12">
+        <div className="flex gap-8 py-8 md:py-12">
+          <article className="flex-1 min-w-0">
           {post.image && (
             <div className="mb-8">
               <img
@@ -205,40 +232,46 @@ async function BlogPostView({ slug }: { slug: string }) {
             </div>
           )}
           {post.sections.length > 0 && (
-            <nav className="mb-8 p-5 bg-brand-bg border border-brand-border rounded-lg">
+            <nav className="mb-8 p-5 bg-brand-bg border border-brand-border rounded-lg lg:hidden" aria-label="İçindekiler">
               <h2 className="text-sm font-semibold text-brand-text mb-3">
                 İçindekiler
               </h2>
               <ol className="space-y-1.5">
-                {post.sections.map((section, index) => (
-                  <li key={index}>
-                    <a
-                      href={`#bolum-${index + 1}`}
-                      className="text-sm text-brand hover:text-brand-dark transition-colors flex items-start gap-2"
-                    >
-                      <span className="text-brand-text-light font-medium">
-                        {index + 1}.
-                      </span>
-                      <span>{section.heading}</span>
-                    </a>
-                  </li>
-                ))}
+                {post.sections.map((section, index) => {
+                  const sectionId = slugifyHeading(section.heading);
+                  return (
+                    <li key={index}>
+                      <a
+                        href={`#${sectionId}`}
+                        className="text-sm text-brand hover:text-brand-dark transition-colors flex items-start gap-2"
+                      >
+                        <span className="text-brand-text-light font-medium">
+                          {index + 1}.
+                        </span>
+                        <span>{section.heading}</span>
+                      </a>
+                    </li>
+                  );
+                })}
               </ol>
             </nav>
           )}
 
           <div className="space-y-8">
-            {post.sections.map((section, index) => (
-              <section key={index} id={`bolum-${index + 1}`}>
-                <h2 className="text-xl md:text-2xl font-semibold text-brand-text mb-3 leading-tight">
-                  {section.heading}
-                </h2>
-                <p
-                  className="text-sm md:text-base text-brand-text-light leading-relaxed [&_a]:text-brand [&_a]:underline [&_a]:hover:text-brand-dark"
-                  dangerouslySetInnerHTML={{ __html: section.content }}
-                />
-              </section>
-            ))}
+            {post.sections.map((section, index) => {
+              const sectionId = slugifyHeading(section.heading);
+              return (
+                <section key={index} id={sectionId}>
+                  <h2 className="text-xl md:text-2xl font-semibold text-brand-text mb-3 leading-tight">
+                    {section.heading}
+                  </h2>
+                  <p
+                    className="text-sm md:text-base text-brand-text-light leading-relaxed [&_a]:text-brand [&_a]:underline [&_a]:hover:text-brand-dark"
+                    dangerouslySetInnerHTML={{ __html: section.content }}
+                  />
+                </section>
+              );
+            })}
           </div>
 
           {post.faq && post.faq.length > 0 && (
@@ -274,6 +307,9 @@ async function BlogPostView({ slug }: { slug: string }) {
             </Link>
           </div>
         </article>
+
+        <BlogSidebar currentPost={post} otherPosts={otherPosts} />
+        </div>
       </div>
 
       {relatedPosts.length > 0 && (

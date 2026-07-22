@@ -17,6 +17,7 @@ export default function Footer() {
               width={140}
               height={38}
               className="h-8 w-auto mb-2"
+              style={{ width: "auto", height: "2rem" }}
             />
             <p className="text-sm text-brand-text-light leading-relaxed mb-3">
               2022&apos;den beri plise perde üreticisi. İstanbul merkezli,
