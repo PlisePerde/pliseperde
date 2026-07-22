@@ -91,11 +91,11 @@ export default function ReferanslarimizPage() {
     createItemListSchema({
       name: "Plise Perde Kurumsal Referanslar",
       description:
-        "Otel, ofis, okul, hastane ve konut projelerinde plise perde montajı yapan kurumsal müşterilerimiz.",
+        "Otel, ofis, okul, hastane, konut, perakende, telekom, havayolu, bankacılık ve eğitim sektörlerinde Plise Perde montajı yapan kurumsal müşterilerimiz ve iş ortaklarımız.",
       url: "/referanslarimiz/",
       items: references.map((ref) => ({
         name: ref.name,
-        description: `${ref.name} — Plise Perde kurumsal müşterisi`,
+        description: `${ref.name} — Plise Perde kurumsal müşterisi ve referansı. Plise perde, honeycomb perde ve düet perde uygulamaları.`,
         logo: ref.logo,
       })),
     }),
@@ -161,8 +161,13 @@ export default function ReferanslarimizPage() {
                   <figure
                     key={ref.name}
                     role="listitem"
+                    itemScope
+                    itemType="https://schema.org/Organization"
                     className="group flex flex-col items-center justify-center p-4 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
                   >
+                    <meta itemProp="name" content={ref.name} />
+                    <meta itemProp="description" content={`${ref.name} — Plise Perde kurumsal müşterisi ve referansı`} />
+                    <link itemProp="url" href={`https://pliseperde.com/referanslarimiz`} />
                     <div className="relative w-full h-16 md:h-20 flex items-center justify-center">
                       <Image
                         src={ref.logo}
@@ -172,12 +177,11 @@ export default function ReferanslarimizPage() {
                         className="object-contain w-full h-full opacity-50 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300"
                         sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
                         loading="lazy"
+                        itemProp="logo"
                       />
                     </div>
-                    <figcaption className="text-center mt-2">
-                      <p className="text-xs md:text-sm font-medium text-brand-text line-clamp-1">
-                        {ref.name}
-                      </p>
+                    <figcaption className="sr-only">
+                      {ref.name} — Plise Perde kurumsal müşterisi
                     </figcaption>
                   </figure>
                 ))}

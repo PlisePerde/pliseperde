@@ -395,9 +395,27 @@ export function createItemListSchema(data: {
         name: item.name,
         description: item.description,
         ...(item.url ? { url: item.url } : {}),
-        ...(item.logo ? { logo: { "@type": "ImageObject", url: `${siteConfig.url}${item.logo}` } } : {}),
+        ...(item.logo
+          ? {
+              logo: {
+                "@type": "ImageObject",
+                url: `${siteConfig.url}${item.logo}`,
+                contentUrl: `${siteConfig.url}${item.logo}`,
+                inLanguage: "tr-TR",
+                copyrightHolder: { "@id": `${siteConfig.url}/#organization` },
+              },
+            }
+          : {}),
         ...(item.sector ? { knowsAbout: item.sector } : {}),
-        ...(item.location ? { address: { "@type": "PostalAddress", addressLocality: item.location } } : {}),
+        ...(item.location
+          ? { address: { "@type": "PostalAddress", addressLocality: item.location } }
+          : {}),
+        sponsor: { "@id": `${siteConfig.url}/#organization` },
+        subjectOf: {
+          "@type": "WebPage",
+          url: `${siteConfig.url}${data.url}`,
+          name: "Plise Perde Referansları",
+        },
       },
     })),
   };
