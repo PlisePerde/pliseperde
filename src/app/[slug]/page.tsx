@@ -144,7 +144,7 @@ async function BlogPostView({ slug }: { slug: string }) {
   const post = getBlogPostBySlug(slug);
   if (!post) notFound();
 
-  const relatedPosts = getRelatedBlogPosts(post.slug, post.category, 3);
+  const relatedPosts = getRelatedBlogPosts(post.slug, 3);
   const otherPosts = getAllBlogPosts().filter((p) => p.slug !== post.slug).slice(0, 5);
 
   const breadcrumb = [

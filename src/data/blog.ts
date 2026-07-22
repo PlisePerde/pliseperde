@@ -1,9 +1,3 @@
-export type BlogCategory = {
-  slug: string;
-  name: string;
-  description: string;
-};
-
 export type BlogPostSection = {
   heading: string;
   content: string;
@@ -13,7 +7,6 @@ export type BlogPost = {
   slug: string;
   title: string;
   description: string;
-  category: string;
   author: string;
   datePublished: string;
   dateModified?: string;
@@ -26,40 +19,12 @@ export type BlogPost = {
   imageAlt?: string;
 };
 
-export const blogCategories: BlogCategory[] = [
-  {
-    slug: "plise-perde-rehberi",
-    name: "Plise Perde Rehberi",
-    description:
-      "Plise perde nedir, nasıl seçilir, hangi model hangi mekan için uygundur? Kapsamlı rehber yazılarımızı burada bulabilirsiniz.",
-  },
-  {
-    slug: "dekorasyon-ipuclari",
-    name: "Dekorasyon İpuçları",
-    description:
-      "Ev ve ofis dekorasyonunda plise perde kullanımı, renk seçimi, mekan uyumu ve iç mimari önerileri.",
-  },
-  {
-    slug: "montaj-ve-bakim",
-    name: "Montaj & Bakım",
-    description:
-      "Plise perde montaj adımları, bakım ipuçları, temizlik yöntemleri ve uzun ömürlü kullanım için pratik bilgiler.",
-  },
-  {
-    slug: "sektor-haberleri",
-    name: "Sektör Haberleri",
-    description:
-      "Perde sektörü gelişmeleri, yeni teknolojiler, akıllı perde sistemleri ve sektör trendleri hakkında güncel yazılar.",
-  },
-];
-
 export const blogPosts: BlogPost[] = [
   {
     slug: "plise-perde-nedir",
     title: "Plise Perde Nedir?",
     description:
       "Plise perde nedir, nasıl çalışır, hangi malzemelerden üretilir? Uzman gözüyle plise perde teknolojisini, tarihçesini ve avantajlarını tüm detaylarıyla anlatıyoruz.",
-    category: "plise-perde-rehberi",
     author: "Plise Perde Uzmanı",
     datePublished: "2026-07-10",
     readingTime: 8,
@@ -104,7 +69,6 @@ export const blogPosts: BlogPost[] = [
     title: "Plise Perde Nasıl Yapılır?",
     description:
       "Plise perde üretim süreci adım adım: kumaş hazırlama, kıvrımlama, profil kesimi, kordon montajı ve kalite kontrol. Profesyonel üretim teknikleri.",
-    category: "plise-perde-rehberi",
     author: "Plise Perde Üretim Uzmanı",
     datePublished: "2026-07-13",
     readingTime: 9,
@@ -128,7 +92,6 @@ export const blogPosts: BlogPost[] = [
     title: "Plise Perde Ölçüsü Nasıl Alınır?",
     description:
       "Cam içi ve cam çıtası üstü plise perde ölçüsü nasıl alınır? Hangi araçlar gerekir? Hangi noktalara dikkat edilmeli? Profesyonel ölçü alma rehberi.",
-    category: "montaj-ve-bakim",
     author: "Plise Perde Ölçü Alma Uzmanı",
     datePublished: "2026-07-16",
     readingTime: 7,
@@ -152,7 +115,6 @@ export const blogPosts: BlogPost[] = [
     title: "Plise Perde Montajı Nasıl Yapılır?",
     description:
       "Vidalı ve yapışkanlı plise perde montajı adım adım. Hangi araçlar gerekir? Hangi sırada monte edilir? Profesyonel montaj teknikleri ve dikkat edilmesi gerekenler.",
-    category: "montaj-ve-bakim",
     author: "Plise Perde Montaj Ekibi",
     datePublished: "2026-07-19",
     readingTime: 10,
@@ -177,7 +139,6 @@ export const blogPosts: BlogPost[] = [
     title: "Plise Perde Nasıl Çıkarılır?",
     description:
       "Vidalı ve yapışkanlı plise perde nasıl çıkarılır? Temizlik, değişim veya taşınma için perdeyi güvenle sökme rehberi. Her sistem için adım adım çıkarma işlemi.",
-    category: "montaj-ve-bakim",
     author: "Plise Perde Servis Ekibi",
     datePublished: "2026-07-22",
     readingTime: 6,
@@ -200,7 +161,6 @@ export const blogPosts: BlogPost[] = [
     title: "Plise Perde Temizliği Nasıl Yapılır?",
     description:
       "Plise perde nasıl temizlenir ve nasıl yıkanır? Günlük bakımdan derin temizliğe, kumaş türüne göre yıkama yöntemlerinden sıkça yapılan hatalara kadar kapsamlı temizlik rehberi.",
-    category: "montaj-ve-bakim",
     author: "Plise Perde Bakım Uzmanı",
     datePublished: "2026-07-25",
     readingTime: 7,
@@ -234,37 +194,15 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return blogPosts.find((post) => post.slug === slug);
 }
 
-export function getBlogPostsByCategory(categorySlug: string): BlogPost[] {
-  return blogPosts
-    .filter((post) => post.category === categorySlug)
-    .sort(
-      (a, b) =>
-        new Date(b.datePublished).getTime() -
-        new Date(a.datePublished).getTime()
-    );
-}
-
 export function getFeaturedBlogPosts(): BlogPost[] {
   return blogPosts.filter((post) => post.featured);
 }
 
-export function getBlogCategoryBySlug(
-  slug: string
-): BlogCategory | undefined {
-  return blogCategories.find((cat) => cat.slug === slug);
-}
-
 export function getRelatedBlogPosts(
   slug: string,
-  category: string,
   limit: number = 3
 ): BlogPost[] {
   return blogPosts
-    .filter((post) => post.slug !== slug && post.category === category)
+    .filter((post) => post.slug !== slug)
     .slice(0, limit);
-}
-
-export function getBlogCategoryName(slug: string): string {
-  const cat = blogCategories.find((c) => c.slug === slug);
-  return cat ? cat.name : slug;
 }

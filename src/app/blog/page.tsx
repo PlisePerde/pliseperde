@@ -17,7 +17,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Blog — Plise Perde Rehberi, Dekorasyon & Montaj İpuçları",
   description:
-    "Plise perde hakkında her şey. Rehberler, dekorasyon ipuçları, montaj ve bakım bilgileri, sektör haberleri. Uzman görüşleri ile plise perde dünyasını keşfedin.",
+    "Plise perde hakkında her şey. Uzman rehberleri, montaj ve bakım bilgileri, dekorasyon ipuçları. Plise perde dünyasını keşfedin.",
   keywords: [
     "plise perde blog",
     "plise perde rehberi",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Blog — Plise Perde Rehberi, Dekorasyon & Montaj İpuçları",
     description:
-      "Plise perde hakkında her şey. Rehberler, dekorasyon ipuçları, montaj ve bakım bilgileri, sektör haberleri.",
+      "Plise perde hakkında her şey. Uzman rehberleri, montaj ve bakım bilgileri, dekorasyon ipuçları.",
     url: `${siteConfig.url}/blog/`,
     type: "website",
     locale: "tr_TR",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Blog — Plise Perde Rehberi, Dekorasyon & Montaj İpuçları",
     description:
-      "Plise perde hakkında her şey. Rehberler, dekorasyon ipuçları, montaj ve bakım bilgileri.",
+      "Plise perde hakkında her şey. Uzman rehberleri, montaj ve bakım bilgileri, dekorasyon ipuçları.",
     images: ["/og-image.webp"],
   },
 };
@@ -83,8 +83,7 @@ export default function BlogPage() {
       <PageHeading
         breadcrumb={breadcrumb}
         title="Blog — Plise Perde Rehberi & İpuçları"
-        description="Plise perde hakkında bilmeniz gereken her şey. Uzman rehberleri, dekorasyon önerileri, montaj ve bakım ipuçları, sektör haberleri ve daha fazlası."
-        highlight="Rehberler · Dekorasyon · Montaj & Bakım · Sektör Haberleri"
+        description="Plise perde hakkında bilmeniz gereken her şey. Uzman rehberleri, dekorasyon önerileri, montaj ve bakım ipuçları ve daha fazlası."
       />
 
       <div className="mx-auto max-w-[1536px] px-4 md:px-6">
