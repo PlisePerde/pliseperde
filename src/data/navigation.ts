@@ -74,10 +74,6 @@ export const navItems: NavItem[] = [
     href: "/plise-perde-ozellikleri",
   },
   {
-    label: "Fiyatlarımız",
-    href: "/plise-perde-fiyatlari",
-  },
-  {
     label: "Kullanım Alanları",
     href: "/plise-perde-kullanim-alanlari",
     children: [

@@ -105,11 +105,11 @@ export default function Header() {
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-2">
             <Link
-              href="/plise-perde-fiyat-hesaplama"
+              href="/plise-perde-fiyatlari"
               className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
             >
               <Calculator size={16} />
-              Fiyat Hesapla
+              Fiyatlarımız
             </Link>
           </div>
 
@@ -171,12 +171,12 @@ export default function Header() {
             ))}
             <div className="pt-2">
               <Link
-                href="/plise-perde-fiyat-hesaplama"
+                href="/plise-perde-fiyatlari"
                 className="flex items-center justify-center gap-1.5 px-3 py-2 text-sm font-medium bg-brand text-white rounded-md"
                 onClick={() => setMobileOpen(false)}
               >
                 <Calculator size={16} />
-                Fiyat Hesapla
+                Fiyatlarımız
               </Link>
             </div>
           </nav>
