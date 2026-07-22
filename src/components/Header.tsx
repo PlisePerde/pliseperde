@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { Menu, X, Calculator, Phone, ChevronRight } from "lucide-react";
+import { Menu, X, Calculator, Phone, ChevronRight, Tag } from "lucide-react";
 import { navItems } from "@/data/navigation";
 import { usePathname } from "next/navigation";
 
@@ -106,8 +106,9 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-2">
             <Link
               href="/plise-perde-fiyatlari"
-              className="flex items-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium"
+              className="flex items-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium hover:bg-brand/20"
             >
+              <Tag size={16} />
               Fiyatlarımız
             </Link>
             <Link
@@ -178,9 +179,10 @@ export default function Header() {
             <div className="pt-2 space-y-2">
               <Link
                 href="/plise-perde-fiyatlari"
-                className="flex items-center justify-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium"
+                className="flex items-center justify-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium hover:bg-brand/20"
                 onClick={() => setMobileOpen(false)}
               >
+                <Tag size={16} />
                 Fiyatlarımız
               </Link>
               <Link
