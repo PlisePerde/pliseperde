@@ -2,6 +2,8 @@ export type NavChild = {
   label: string;
   href: string;
   children?: NavChild[];
+  image?: string;
+  description?: string;
 };
 
 export type NavGroup = {
@@ -14,6 +16,7 @@ export type NavItem = {
   href: string | null;
   children?: NavChild[];
   groups?: NavGroup[];
+  megaWithImages?: boolean;
 };
 
 export const navItems: NavItem[] = [
@@ -42,12 +45,13 @@ export const navItems: NavItem[] = [
   {
     label: "Ürünlerimiz",
     href: "/urunlerimiz",
+    megaWithImages: true,
     children: [
-      { label: "Plise Perde", href: "/plise-perde" },
-      { label: "Honeycomb Plise Perde", href: "/honeycomb-perde" },
-      { label: "Düet Plise Perde", href: "/duet-perde" },
-      { label: "Plise Perde Aparatları", href: "/plise-perde-aparatlari" },
-      { label: "Plise Perde Yedek Parça", href: "/plise-perde-yedek-parca" },
+      { label: "Plise Perde", href: "/plise-perde", description: "Klasik plise perde modelleri" },
+      { label: "Honeycomb Plise Perde", href: "/honeycomb-perde", description: "Petek hücreli enerji tasarruflu" },
+      { label: "Düet Plise Perde", href: "/duet-perde", description: "Çift katmanlı gece gündüz" },
+      { label: "Plise Perde Aparatları", href: "/plise-perde-aparatlari", description: "Tüm plise perde aparatları" },
+      { label: "Plise Perde Yedek Parça", href: "/plise-perde-yedek-parca", description: "Orijinal yedek parçalar" },
     ],
   },
   {

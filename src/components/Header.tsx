@@ -36,7 +36,7 @@ export default function Header() {
     (item.children && item.children.length > 0) || !!item.groups;
 
   const isMegaMenu = (item: NavItem) =>
-    !!item.groups || (item.children ? item.children.length > 6 : false);
+    !!item.groups || !!item.megaWithImages || (item.children ? item.children.length > 6 : false);
 
   const getMegaColumns = (item: NavItem) => {
     if (item.groups) return item.groups.length;
@@ -110,11 +110,50 @@ export default function Header() {
                 )}
                 {hasSubmenu(item) && openDropdown === item.label && (
                   isMegaMenu(item) ? (
-                    <div
-                      className="absolute top-full left-0 mt-px bg-white border border-brand-border rounded-lg shadow-xl py-3 px-4"
-                      style={{ width: `${getMegaColumns(item) * 180}px`, minWidth: "480px" }}
-                    >
-                      {item.groups ? (
+                    item.megaWithImages ? (
+                      <div className="absolute top-full left-0 mt-px bg-white border border-brand-border rounded-lg shadow-xl p-4" style={{ width: "920px" }}>
+                        <div className="grid grid-cols-5 gap-3">
+                          {item.children!.map((child) => (
+                            <Link
+                              key={child.href}
+                              href={child.href}
+                              className={`group flex flex-col rounded-lg border transition-all overflow-hidden ${
+                                isActive(child.href)
+                                  ? "border-brand bg-brand-bg"
+                                  : "border-brand-border hover:border-brand hover:shadow-md"
+                              }`}
+                            >
+                              <div className="relative w-full aspect-[4/3] bg-gradient-to-br from-brand-bg to-brand-light/20 flex items-center justify-center">
+                                {child.image ? (
+                                  <Image
+                                    src={child.image}
+                                    alt={child.label}
+                                    fill
+                                    className="object-cover"
+                                    sizes="180px"
+                                  />
+                                ) : (
+                                  <span className="text-sm font-medium text-brand-text-light">
+                                    Plise Perde
+                                  </span>
+                                )}
+                              </div>
+                              <div className="p-2 text-center">
+                                <span className="text-sm font-medium text-brand-text group-hover:text-brand transition-colors block">
+                                  {child.label}
+                                </span>
+                                {child.description && (
+                                  <span className="text-xs text-brand-text-light mt-0.5 block">
+                                    {child.description}
+                                  </span>
+                                )}
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    ) : item.groups ? (
+                      <div className="absolute top-full left-0 mt-px bg-white border border-brand-border rounded-lg shadow-xl py-3 px-4" style={{ width: `${item.groups.length * 180}px`, minWidth: "480px" }}>
                         <div className="grid gap-x-6" style={{ gridTemplateColumns: `repeat(${item.groups.length}, 1fr)` }}>
                           {item.groups.map((group) => (
                             <div key={group.title}>
@@ -139,7 +178,9 @@ export default function Header() {
                             </div>
                           ))}
                         </div>
-                      ) : (
+                      </div>
+                    ) : (
+                      <div className="absolute top-full left-0 mt-px bg-white border border-brand-border rounded-lg shadow-xl py-3 px-4" style={{ width: `${getMegaColumns(item) * 180}px`, minWidth: "480px" }}>
                         <div className="grid gap-x-6" style={{ gridTemplateColumns: `repeat(${getMegaColumns(item)}, 1fr)` }}>
                           {item.children!.map((child) => (
                             <Link
@@ -155,8 +196,8 @@ export default function Header() {
                             </Link>
                           ))}
                         </div>
-                      )}
-                    </div>
+                      </div>
+                    )
                   ) : (
                     <div className="absolute top-full left-0 mt-px min-w-[220px] bg-white border border-brand-border rounded-lg shadow-xl py-2">
                       {item.children!.map((child) => {
