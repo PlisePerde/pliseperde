@@ -87,8 +87,8 @@ export default async function CityPage({
       slug={city.slug}
       breadcrumb={[
         { name: "Ana Sayfa", url: "/" },
-        { name: "Hizmet Bölgeleri", url: "/hizmet-bolgeleri" },
-        { name: `${city.name} Plise Perde`, url: `/${city.slug}` },
+        { name: "Hizmet Bölgeleri", url: "/hizmet-bolgeleri/" },
+        { name: `${city.name} Plise Perde`, url: `/${city.slug}/` },
       ]}
       h1={`${city.name} Plise Perde`}
       intro={city.intro}

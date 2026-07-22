@@ -78,7 +78,7 @@ export default function PageTemplate({
 
   const schemas: object[] = [
     createBreadcrumbJsonLd(breadcrumb as string[]),
-    createWebPageSchema({ name: title, description, url: slug === "" ? "/" : `/${slug}` }),
+    createWebPageSchema({ name: title, description, url: slug === "" ? "/" : `/${slug}/` }),
   ];
 
   if (schemaType === "product" && schemaData) {

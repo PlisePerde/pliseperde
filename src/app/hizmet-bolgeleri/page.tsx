@@ -36,7 +36,7 @@ export default function HizmetBolgeleriPage() {
             name: "Plise Perde Hizmet Bölgeleri — 81 İl",
             description:
               "Türkiye'nin 81 ilinde plise perde hizmeti: ücretsiz keşif, profesyonel montaj, video keşif ve kargo ile teslimat.",
-            url: "/hizmet-bolgeleri",
+            url: "/hizmet-bolgeleri/",
           }),
           {
             "@context": "https://schema.org",
@@ -66,7 +66,7 @@ export default function HizmetBolgeleriPage() {
                     "@type": "City",
                     name: city.name,
                   },
-                  url: `https://pliseperde.com/${city.slug}`,
+                  url: `https://pliseperde.com/${city.slug}/`,
                 },
               })),
             },

@@ -137,6 +137,23 @@
 - Diğer şehirler: Video keşif + kargo ile teslimat
 - İstanbul 39 ilçe: Tamamında yerinde keşif ve montaj
 
+### Öncelikli Şehir Sayfaları
+- İstanbul: https://pliseperde.com/istanbul-plise-perde/
+- Ankara: https://pliseperde.com/ankara-plise-perde/
+- İzmir: https://pliseperde.com/izmir-plise-perde/
+- Bursa: https://pliseperde.com/bursa-plise-perde/
+- Antalya: https://pliseperde.com/antalya-plise-perde/
+- Kocaeli: https://pliseperde.com/kocaeli-plise-perde/
+- Adana: https://pliseperde.com/adana-plise-perde/
+- Konya: https://pliseperde.com/konya-plise-perde/
+- Gaziantep: https://pliseperde.com/gaziantep-plise-perde/
+- Eskişehir: https://pliseperde.com/eskisehir-plise-perde/
+- Samsun: https://pliseperde.com/samsun-plise-perde/
+- Kayseri: https://pliseperde.com/kayseri-plise-perde/
+- Mersin: https://pliseperde.com/mersin-plise-perde/
+- Trabzon: https://pliseperde.com/trabzon-plise-perde/
+- Diyarbakır: https://pliseperde.com/diyarbakir-plise-perde/
+
 ---
 
 ## KULLANIM ALANLARI
