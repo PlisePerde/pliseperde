@@ -32,8 +32,9 @@ export async function POST(req: NextRequest) {
 
   try {
     await transporter.sendMail({
-      from: `"${process.env.MAIL_FROM_NAME}" <${process.env.MAIL_FROM_ADDRESS}>`,
+      from: `"${process.env.MAIL_FROM_NAME}" <${process.env.MAIL_USERNAME}>`,
       to: process.env.MAIL_FROM_ADDRESS,
+      cc: process.env.MAIL_USERNAME,
       replyTo: email,
       subject: `İletişim Formu — ${subject} — ${name}`,
       text: `Yeni iletişim formu mesajı\n\nAd Soyad: ${name}\nFirma/Şirket: ${company || "-"}\nTelefon: ${phone}\nE-Posta: ${email}\nKonu: ${subject}\n\nMesaj:\n${message}`,
