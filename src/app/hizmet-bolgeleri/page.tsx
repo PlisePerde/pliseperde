@@ -17,6 +17,21 @@ export const metadata: Metadata = {
     description:
       "81 ilde plise perde hizmeti: ücretsiz keşif, profesyonel montaj, video keşif ve kargo ile teslimat.",
     url: "/hizmet-bolgeleri/",
+    images: [
+      {
+        url: "/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Plise Perde Hizmet Bölgeleri — 81 İl",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Plise Perde Hizmet Bölgeleri — 81 İl, Türkiye Geneli",
+    description:
+      "81 ilde plise perde hizmeti: ücretsiz keşif, profesyonel montaj, video keşif ve kargo ile teslimat.",
+    images: ["/og-image.webp"],
   },
 };
 

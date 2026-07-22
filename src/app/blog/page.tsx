@@ -34,12 +34,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
     siteName: siteConfig.name,
+    images: [
+      {
+        url: "/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Plise Perde Blog",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Blog — Plise Perde Rehberi, Dekorasyon & Montaj İpuçları",
     description:
       "Plise perde hakkında her şey. Rehberler, dekorasyon ipuçları, montaj ve bakım bilgileri.",
+    images: ["/og-image.webp"],
   },
 };
 

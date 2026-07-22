@@ -65,7 +65,7 @@ const sitemaps = {
     { slug: "surdurulebilirlik", priority: 0.5, changefreq: "yearly" },
     { slug: "cocuk-guvenligi", priority: 0.6, changefreq: "yearly" },
     { slug: "galeri", priority: 0.5, changefreq: "monthly" },
-    { slug: "sss", priority: 0.6, changefreq: "monthly" },
+    { slug: "sikca-sorulan-sorular", priority: 0.6, changefreq: "monthly" },
     { slug: "plise-perde-kullanici-yorumlari", priority: 0.6, changefreq: "monthly" },
     { slug: "blog", priority: 0.8, changefreq: "weekly" },
     { slug: "plise-perde-nedir", priority: 0.7, changefreq: "monthly" },
@@ -77,8 +77,8 @@ const sitemaps = {
   ],
   models: [
     { slug: "vidali-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "yapistirmali-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "portrayli-plise-perde", priority: 0.7, changefreq: "monthly" },
+    { slug: "yapiskanli-plise-perde", priority: 0.7, changefreq: "monthly" },
+    { slug: "portray-plise-perde", priority: 0.7, changefreq: "monthly" },
   ],
   services: [
     { slug: "montaj", priority: 0.8, changefreq: "monthly" },
