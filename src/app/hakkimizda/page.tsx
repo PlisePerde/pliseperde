@@ -6,6 +6,8 @@ export const metadata: Metadata = generatePageMetadata({
   description:
     "Plise Perde olarak 2022'den beri üretici ve montaj hizmeti veriyoruz. Pendik merkezli, Türkiye geneli hizmet, 2 yıl garanti.",
   slug: "hakkimizda",
+  ogImage: "/hakkimizda.webp",
+  ogImageAlt: "Plise Perde — Hakkımızda ve Üretim",
 });
 
 export default function HakkimizdaPage() {
@@ -16,6 +18,8 @@ export default function HakkimizdaPage() {
       slug="hakkimizda"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "Hakkımızda", url: "/hakkimizda" }]}
       h1="Hakkımızda — Plise Perde"
+      bgImage="/hakkimizda.webp"
+      bgImageAlt="Plise Perde — Hakkımızda ve Üretim"
       intro="Plise Perde, 2022 yılında İstanbul Pendik'te kurulmuş bir plise perde üreticisidir. Kuruluşumuzdan bu yana üretici olarak doğrudan tüketiciye hizmet veriyoruz. Ara katman maliyeti olmadan, üretici fiyatı ile kaliteli plise perde çözümleri sunuyoruz. Türkiye geneli ücretsiz keşif, profesyonel montaj ve 2 yıl garanti ile yanınızdayız."
       schemaType="article"
       schemaData={{
