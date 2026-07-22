@@ -14,11 +14,9 @@ export default function RefFormTrigger() {
         className="group flex flex-col items-center justify-center p-1 rounded-xl bg-brand-bg border-2 border-dashed border-brand hover:border-brand hover:shadow-md transition-all"
       >
         <div className="relative w-full h-24 md:h-28 flex flex-col items-center justify-center text-center">
-          <p className="text-sm md:text-base font-semibold text-brand group-hover:text-brand-dark transition-colors">
-            Tüm Referans ve İş Ortaklarımızı Görmek İçin
-          </p>
-          <p className="text-xs text-brand-text-light mt-1">
-            İletişime Geçin
+          <p className="text-sm md:text-base font-semibold text-brand group-hover:text-brand-dark transition-colors leading-tight">
+            Referans ve İş Ortaklarımızı<br />
+            Görmek İçin İletişime Geçin!
           </p>
         </div>
       </button>

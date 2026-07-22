@@ -190,7 +190,7 @@ export default function ReferanslarimizPage() {
                     role="listitem"
                     itemScope
                     itemType="https://schema.org/Organization"
-                    className="group flex flex-col items-center justify-center p-1 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                    className="group relative flex flex-col items-center justify-center p-1 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
                   >
                     <meta itemProp="name" content={p.name} />
                     <meta itemProp="description" content={`${p.name} (${p.country}) — Plise Perde ${p.role}i ve yurtdışı iş ortağı`} />
@@ -200,6 +200,7 @@ export default function ReferanslarimizPage() {
                       <Image
                         src={p.logo}
                         alt={`${p.name} (${p.country}) — Plise Perde Bayii ve İş Ortağı`}
+                        title={`${p.name} (${p.country})`}
                         width={320}
                         height={160}
                         className="object-contain w-full h-full opacity-70 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300"
@@ -211,6 +212,9 @@ export default function ReferanslarimizPage() {
                     <figcaption className="sr-only">
                       {p.name} — {p.country} — Plise Perde {p.role}i ve yurtdışı iş ortağı
                     </figcaption>
+                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 z-20 whitespace-nowrap rounded-md bg-brand-text px-2 py-1 text-xs text-white shadow-lg">
+                      {p.name} — {p.country}
+                    </div>
                   </figure>
                 ))}
               </div>
@@ -242,7 +246,7 @@ export default function ReferanslarimizPage() {
                     role="listitem"
                     itemScope
                     itemType="https://schema.org/Organization"
-                    className="group flex flex-col items-center justify-center p-1 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                    className="group relative flex flex-col items-center justify-center p-1 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
                   >
                     <meta itemProp="name" content={ref.name} />
                     <meta itemProp="description" content={`${ref.name} — Plise Perde kurumsal müşterisi ve referansı`} />
@@ -251,6 +255,7 @@ export default function ReferanslarimizPage() {
                       <Image
                         src={ref.logo}
                         alt={`${ref.name} — Plise Perde Kurumsal Müşterisi`}
+                        title={ref.name}
                         width={320}
                         height={160}
                         className="object-contain w-full h-full opacity-50 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300"
@@ -262,6 +267,9 @@ export default function ReferanslarimizPage() {
                     <figcaption className="sr-only">
                       {ref.name} — Plise Perde kurumsal müşterisi
                     </figcaption>
+                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 z-20 whitespace-nowrap rounded-md bg-brand-text px-2 py-1 text-xs text-white shadow-lg">
+                      {ref.name}
+                    </div>
                   </figure>
                 ))}
                 {/* CTA Card */}
