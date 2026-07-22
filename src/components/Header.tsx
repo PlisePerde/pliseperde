@@ -76,7 +76,7 @@ export default function Header() {
             {navItems.map((item) => (
               <div
                 key={item.label}
-                className="relative h-full flex items-center"
+                className={`h-full flex items-center ${item.megaWithImages ? "" : "relative"}`}
                 onMouseEnter={() => hasSubmenu(item) && setOpenDropdown(item.label)}
                 onMouseLeave={() => { setOpenDropdown(null); setOpenSubmenu(null); }}
               >
