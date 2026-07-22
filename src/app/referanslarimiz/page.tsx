@@ -5,6 +5,7 @@ import PageHeading from "@/components/PageHeading";
 import CTASection from "@/components/CTASection";
 import FAQ, { type FAQItem } from "@/components/FAQ";
 import ScrollReveal from "@/components/ScrollReveal";
+import RefFormTrigger from "@/components/RefFormTrigger";
 import JsonLd, {
   createBreadcrumbJsonLd,
   createWebPageSchema,
@@ -189,7 +190,7 @@ export default function ReferanslarimizPage() {
                     role="listitem"
                     itemScope
                     itemType="https://schema.org/Organization"
-                    className="group flex flex-col items-center justify-center p-2 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                    className="group flex flex-col items-center justify-center p-1 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
                   >
                     <meta itemProp="name" content={p.name} />
                     <meta itemProp="description" content={`${p.name} (${p.country}) — Plise Perde ${p.role}i ve yurtdışı iş ortağı`} />
@@ -241,7 +242,7 @@ export default function ReferanslarimizPage() {
                     role="listitem"
                     itemScope
                     itemType="https://schema.org/Organization"
-                    className="group flex flex-col items-center justify-center p-2 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                    className="group flex flex-col items-center justify-center p-1 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
                   >
                     <meta itemProp="name" content={ref.name} />
                     <meta itemProp="description" content={`${ref.name} — Plise Perde kurumsal müşterisi ve referansı`} />
@@ -263,6 +264,22 @@ export default function ReferanslarimizPage() {
                     </figcaption>
                   </figure>
                 ))}
+                {/* CTA Card */}
+                <a
+                  href="/iletisim"
+                  className="group flex flex-col items-center justify-center p-1 rounded-xl bg-brand-bg border-2 border-dashed border-brand hover:border-brand hover:shadow-md transition-all"
+                >
+                  <div className="relative w-full h-24 md:h-28 flex flex-col items-center justify-center text-center">
+                    <p className="text-sm md:text-base font-semibold text-brand group-hover:text-brand-dark transition-colors">
+                      Burayı Sizin İçin Ayırdık!
+                    </p>
+                    <p className="text-xs text-brand-text-light mt-1">
+                      Referanslarımız arasına katılın
+                    </p>
+                  </div>
+                </a>
+                {/* CTA Card 2 — Popup Form */}
+                <RefFormTrigger />
               </div>
             </section>
           </ScrollReveal>
