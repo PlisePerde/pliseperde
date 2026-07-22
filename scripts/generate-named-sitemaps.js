@@ -66,6 +66,13 @@ const sitemaps = {
     { slug: "galeri", priority: 0.5, changefreq: "monthly" },
     { slug: "sss", priority: 0.6, changefreq: "monthly" },
     { slug: "plise-perde-kullanici-yorumlari", priority: 0.6, changefreq: "monthly" },
+    { slug: "blog", priority: 0.8, changefreq: "weekly" },
+    { slug: "plise-perde-nedir", priority: 0.7, changefreq: "monthly" },
+    { slug: "plise-perde-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
+    { slug: "plise-perde-olcusu-nasil-alinir", priority: 0.7, changefreq: "monthly" },
+    { slug: "plise-perde-montaji-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
+    { slug: "plise-perde-nasil-cikarilir", priority: 0.7, changefreq: "monthly" },
+    { slug: "plise-perde-temizligi-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
   ],
   models: [
     { slug: "vidali-plise-perde", priority: 0.7, changefreq: "monthly" },

@@ -1,0 +1,270 @@
+export type BlogCategory = {
+  slug: string;
+  name: string;
+  description: string;
+};
+
+export type BlogPostSection = {
+  heading: string;
+  content: string;
+};
+
+export type BlogPost = {
+  slug: string;
+  title: string;
+  description: string;
+  category: string;
+  author: string;
+  datePublished: string;
+  dateModified?: string;
+  readingTime: number;
+  keywords: string[];
+  sections: BlogPostSection[];
+  faq?: { question: string; answer: string }[];
+  featured?: boolean;
+  image?: string;
+  imageAlt?: string;
+};
+
+export const blogCategories: BlogCategory[] = [
+  {
+    slug: "plise-perde-rehberi",
+    name: "Plise Perde Rehberi",
+    description:
+      "Plise perde nedir, nasıl seçilir, hangi model hangi mekan için uygundur? Kapsamlı rehber yazılarımızı burada bulabilirsiniz.",
+  },
+  {
+    slug: "dekorasyon-ipuclari",
+    name: "Dekorasyon İpuçları",
+    description:
+      "Ev ve ofis dekorasyonunda plise perde kullanımı, renk seçimi, mekan uyumu ve iç mimari önerileri.",
+  },
+  {
+    slug: "montaj-ve-bakim",
+    name: "Montaj & Bakım",
+    description:
+      "Plise perde montaj adımları, bakım ipuçları, temizlik yöntemleri ve uzun ömürlü kullanım için pratik bilgiler.",
+  },
+  {
+    slug: "sektor-haberleri",
+    name: "Sektör Haberleri",
+    description:
+      "Perde sektörü gelişmeleri, yeni teknolojiler, akıllı perde sistemleri ve sektör trendleri hakkında güncel yazılar.",
+  },
+];
+
+export const blogPosts: BlogPost[] = [
+  {
+    slug: "plise-perde-nedir",
+    title: "Plise Perde Nedir?",
+    description:
+      "Plise perde nedir, nasıl çalışır, hangi malzemelerden üretilir? Uzman gözüyle plise perde teknolojisini, tarihçesini ve avantajlarını tüm detaylarıyla anlatıyoruz.",
+    category: "plise-perde-rehberi",
+    author: "Plise Perde Uzmanı",
+    datePublished: "2026-07-10",
+    readingTime: 8,
+    keywords: ["plise perde nedir", "plise perde nasıl çalışır", "plise perde teknolojisi", "plise perde malzemesi", "akordeon perde"],
+    featured: true,
+    image: "/blog/plise-perde-nedir.webp",
+    imageAlt: "Plise perde akordeon katlanma mekanizması yakın çekim — alüminyum profil ve polyester kumaş detay",
+    sections: [
+      {
+        heading: "Plise Perde Nedir?",
+        content: "Plise perde, kumaşın akordeon mantığıyla katlanarak açılıp kapanmasını sağlayan bir pencere giydirme sistemidir. \"Plise\" kelimesi Fransızca \"plisser\" (kıvrımlandırmak) kökünden gelir ve kumaşın düz bir yüzey yerine sürekli kıvrımlar halinde katlanmış yapısına işaret eder. Bu kıvrımlı yapı, perdenin açıldığında pencere kenarında sadece 2-3 cm yer kaplamasını sağlar — bu, plise perdenin en belirgin teknik avantajıdır. Sistem, alüminyum alt ve üst profiller arasına gerilen özel kumaştan oluşur. Kumaş, profillerin içine yerleştirilmiş kordon (ip) sistemi boyunca yukarı-aşağı hareket eder. Alttan yukarı doğru açılabildiği gibi, bazı modellerde üstten aşağı da kapanabilir. Bu çift yönlü hareket kabiliyeti, plise perdeyi diğer tüm perde sistemlerinden ayıran en önemli yapısal özelliktir.",
+      },
+      {
+        heading: "Plise Perde Nasıl Çalışır?",
+        content: "Plise perdenin çalışma prensibi oldukça sade ama mühendislik açısından hassas bir sistemdir. Kumaşın üst ve alt kenarlarına özel bir kordon (ip) geçirilmiştir. Bu kordon, alüminyum profilin içindeki kanalda serbestçe hareket eder. Kullanıcı, perdeyi alt veya üst profilden tutup hareket ettirdiğinde, kordon kumaşı profiller arasında kaydırır. Kumaş katlanırken kıvrımlar birbirinin üzerine düzgün biçimde oturur — bu, kumaşın üretim aşamasında preslenerek kalıcı kıvrımlar verilmesinden kaynaklanır. Kıvrımlar kalıcı olduğundan, perde binlerce açma-kapama döngüsünden sonra bile düzgün katlanmaya devam eder. <a href=\"/vidali-plise-perde/\">Vidalı plise perde</a> sistemlerinde kordon gerdirme ayarı profil üzerindeki vidalarla yapılırken, <a href=\"/yapistirmali-plise-perde/\">yapışkanlı plise perde</a> sistemlerinde aynı mekanizma daha kompakt bir profil içinde çalışır.",
+      },
+      {
+        heading: "Plise Perde Kumaşı Nasıl Bir Malzemedir?",
+        content: "Plise perde kumaşı, standart perde kumaşlarından tamamen farklı bir üretim sürecinden geçer. Kullanılan temel malzeme %100 polyester iplikten dokunmuş özel bir kumaştır. Bu kumaş, üretim hattında önce belirli genişlikte şeritler halinde kesilir, sonra ısı ve basınçla kalıcı kıvrımlar verilerek preslenir. Kıvrım işlemi, kumaşın hafızasına yerleşir — yani kumaş düzelse bile kendi kendine kıvrılmaya geri döner. Kumaşın yüzeyine uygulanan kaplama, ışık geçirgenlik seviyesini belirler: tül (ışığı geçirgen), güneşlik (güneş filtreli), yarı karartma (yumuşak ışık) ve tam karartma (blackout) olarak dört ana kategoride üretilir. Karartma kumaşlarda arka yüzeye köpük şeklinde uygulanan kauçuk tabaka, ışığı %99 oranında keser. Kumaşın ağırlığı 80-120 gram/m² arasında değişir — bu hafiflik, sistemin uzun ömürlü olmasının anahtarıdır.",
+      },
+      {
+        heading: "Plise Perde Tarihçesi ve Gelişimi",
+        content: "Plise perde konsepti ilk olarak 1980'lerin sonunda Almanya'da ortaya çıkmıştır. İlk prototipler, Japon shoji ekranlarının katlanma mantığından ilham alarak geliştirilmiştir. 1990'larda alüminyum profil teknolojisinin gelişmesiyle birlikte plise perde, Avrupa pazarında hızla yayılmıştır. Türkiye'ye 2000'li yılların başında giren plise perde, son 10 yılda özellikle modern mimari projelerde ve yenilenmiş binalarda standart bir perde çözümü haline gelmiştir. Bugün Türkiye'de plise perde üretimi, yerli üreticiler tarafından Avrupa standartlarında yapılmaktadır. Bizim üretim atölyemiz Pendik Esenyalı'da bulunmakta ve <a href=\"/urunlerimiz/\">ürünlerimiz</a> tamamen özel ölçü olarak her pencere için ayrı üretilmektedir.",
+      },
+      {
+        heading: "Plise Perde Hangi Avantajları Sunar?",
+        content: "Plise perdenin teknik avantajlarını diğer perde sistemleriyle karşılaştırmalı olarak şöyle özetleyebiliriz: 1) <strong>Minimal yer kaplama</strong> — Açıldığında pencere kenarında 2-3 cm'den daha az yer kaplar. Stor perde bile bu kadar kompakt değildir. 2) <strong>Özel ölçü üretim</strong> — Her pencere için milimetrik üretim yapılır. Standart boyut zorunluluğu yoktur. 3) <strong>Çift yönlü hareket</strong> — Alttan yukarı ve üstten aşağı açılabilir. Bu özellik hiçbir perde sisteminde yoktur. 4) <strong>Kumaş çeşitliliği</strong> — Aynı sistemde tül, güneşlik, yarı karartma ve blackout kumaş kullanılabilir. 5) <strong>Çocuk güvenliği</strong> — Kordonsuz ve motorlu seçenekler mevcuttur. 6) <strong>Uzun ömür</strong> — Alüminyum profil ve kaliteli kumaş ile 10+ yıl kullanım. 7) <strong>Şekilli pencere uyumu</strong> — Üçgen, yamuk, kemerli pencerelerde rahatlıkla uygulanır.",
+      },
+      {
+        heading: "Plise Perde Nerelerde Kullanılır?",
+        content: "Plise perde, kullanım alanı en geniş perde sistemlerinden biridir. Evlerde mutfak, salon, yatak odası, çocuk odası, banyo ve cam balkonlarda; ticari alanlarda ofis, mağaza, otel, hastane ve restoranlarda kullanılır. Özellikle dar pencere kenarları (2-3 cm boşluk) olan PVC ve alüminyum doğramalarda ideal çözümdür. Çatı pencereleri, üçgen pencereler ve kemerli pencerelerde ise neredeyse tek uygulanabilir perde sistemidir. Karavan, tekne ve prefabrik evlerde de hafifliği ve kompakt yapısı nedeniyle tercih edilir. Türkiye'nin 81 ilinde <a href=\"/hizmet-bolgeleri/\">hizmet bölgelerimiz</a> kapsamında plise perde uygulaması yapıyoruz.",
+      },
+    ],
+    faq: [
+      { question: "Plise perde ile stor perde arasındaki fark nedir?", answer: "Plise perde kumaşı akordeon gibi katlanır ve açıldığında 2-3 cm yer kaplar. Stor perde ise bir silindirin etrafına sarılır ve üstte bir kutu oluşturur. Plise perde hem alttan hem üstten açılabilir, stor perde ise sadece alttan yukarı açılır. Ayrıca plise perde her pencere için özel ölçü üretilirken, stor perde standart boylarda üretilir." },
+      { question: "Plise perde ne kadar süre dayanır?", answer: "Kaliteli alüminyum profil ve polyester kumaş kullanıldığında plise perde 10 yıldan fazla kullanım ömrü sunar. Kumaşın kıvrımları kalıcı olduğundan binlerce açma-kapama sonrasında bile düzgün katlanmaya devam eder. Üretimimizde 2 yıl garanti verilmektedir." },
+      { question: "Plise perde hangi pencereler için uygundur?", answer: "Plise perde neredeyse her pencere tipine uygundur: standart dikdörtgen pencereler, çatı pencereleri, üçgen pencereler, kemerli pencereler ve özel şekilli pencereler. Dar pencere kenarları olan PVC ve alüminyum doğramalarda en ideal perde çözümüdür." },
+    ],
+  },
+  {
+    slug: "plise-perde-nasil-yapilir",
+    title: "Plise Perde Nasıl Yapılır?",
+    description:
+      "Plise perde üretim süreci adım adım: kumaş hazırlama, kıvrımlama, profil kesimi, kordon montajı ve kalite kontrol. Profesyonel üretim teknikleri.",
+    category: "plise-perde-rehberi",
+    author: "Plise Perde Üretim Uzmanı",
+    datePublished: "2026-07-13",
+    readingTime: 9,
+    keywords: ["plise perde nasıl yapılır", "plise perde üretimi", "plise perde imalat", "plise kumaş kıvrımlama", "plise perde kordon montajı"],
+    sections: [
+      { heading: "Plise Perde Üretim Sürecine Genel Bakış", content: "Plise perde üretimi, beş ana aşamadan oluşur: kumaş hazırlama ve kıvrımlama, alüminyum profil kesimi, kordon (ip) sistemi montajı, kumaş-profil birleştirme ve kalite kontrol. Her aşama, özel ekipman ve tecrübeli personel gerektirir. Bizim <a href=\"/hakkimizda/\">üretim atölyemiz</a> Pendik Esenyalı'da bulunur ve tüm plise perdeler tamamen özel ölçü olarak her sipariş için sıfırdan üretilir. Stoktan satış yapmıyoruz — çünkü her pencere farklıdır ve milimetrik hassasiyet gerektirir. Üretim süreci, sipariş alındıktan sonra ortalama 2-3 iş günü sürer. Bu yazıda, plise perdenin nasıl yapıldığını tüm teknik detaylarıyla anlatacağız." },
+      { heading: "1. Aşama: Kumaş Hazırlama ve Kıvrımlama", content: "Üretimin ilk adımı, kumaşın doğru ölçüde kesilmesi ve kıvrımlanmasıdır. Kumaş, üretim hattından 150-200 cm genişliğinde rulo halinde gelir. Önce, pencere ölçüsüne göre kumaşın genişliği belirlenir ve hassas kesim makinesiyle kesilir. Kumaş genişliği, pencere genişliğine 4-5 cm ek pay bırakılarak hesaplanır — bu pay, kıvrımların oluşması için gereklidir. Kesimden sonra kumaş, özel bir kıvrımlama (plisse) makinesine beslenir. Bu makine, kumaşı 15-20 mm aralıklarla bükerek kalıcı kıvrımlar oluşturur. Kıvrımlama işlemi ısı ve basınç altında yapılır — yaklaşık 140°C'de, 3-5 bar basınçla. Bu işlem, kumaşın polyester yapısını kalıcı olarak değiştirir ve kıvrımların hafızaya yerleşmesini sağlar." },
+      { heading: "2. Aşama: Alüminyum Profil Kesimi", content: "Plise perde sisteminde alt ve üst profil olmak üzere iki ana profil kullanılır. Profiller, 6063 alaşımlı anodize alüminyumdan üretilir. Profil kesimi, pencere ölçüsüne milimetrik hassasiyetle yapılır — yanlış kesim, perdenin pencereye oturmamasına veya kumaşın gevşek kalmasına neden olur. Kesim, bilgisayar kontrollü otomatik kesme tezgahında yapılır. <a href=\"/vidali-plise-perde/\">Vidalı sistem</a> profilleri, vida kanallarının açılması için ek işleme girer. <a href=\"/yapistirmali-plise-perde/\">Yapışkanlı sistem</a> profilleri ise arka yüzeyine çift taraflı bant veya klik mekanizması için oluk açılır. <a href=\"/portrayli-plise-perde/\">Portrayli sistem</a> profilleri, pencere çerçevesine kliklenen özel kanallara sahiptir." },
+      { heading: "3. Aşama: Kordon (İp) Sistemi Montajı", content: "Kordon sistemi, plise perdenin hareket mekanizmasıdır. Kullanılan kordon, yüksek çekme mukavemetine sahip polyester örgü iptir — yaklaşık 30 kg kopma direncine sahiptir. Kordon, önce alt profilin kordon kanalından geçirilir, sonra kumaşın kıvrımları arasından yukarı doğru ilerletilir ve üst profilin kordon kanalına bağlanır. Kordon gerginliği kritiktir: çok gevşekse kumaş sarkar, çok gerginse perde zor hareket eder. İdeal gerginlik, kumaşın serbestçe kaymasına izin verecek kadar gevşek ama sarkmayacak kadar gergin olmalıdır. Vidalı sistemlerde kordon gerginliği, profil üzerindeki gerdirme vidalarıyla ayarlanır." },
+      { heading: "4. Aşama: Kumaş ve Profil Birleştirme", content: "Kıvrımlanmış kumaş, kordon sistemiyle birlikte alt ve üst profillerin arasına yerleştirilir. Kumaşın üst ve alt kenarları, profillerin içindeki özel kanallara oturtulur. Bu kanallar, kumaşın profilden çıkmasını engeller ama serbest hareketine izin verir. Birleştirme işlemi, el ile yapılır ve dikkat ister — kumaşın kıvrımlarının bozulmaması gerekir. Kumaş yerleştirildikten sonra, kordon gerginliği son kez ayarlanır ve perdenin açılıp kapanması test edilir. Bu aşamada, perdenin düzgün katlandığı, kumaşın gerilmediği ve kordonun takılmadığı kontrol edilir." },
+      { heading: "5. Aşama: Kalite Kontrol ve Paketleme", content: "Üretilen her plise perde, sevkiyat öncesi kalite kontrol testinden geçer. Test aşamaları: 1) <strong>Açma-kapama testi</strong> — Perde en az 20 kez açılıp kapanır, düzgün çalıştığı kontrol edilir. 2) <strong>Kumaş kontrolü</strong> — Kıvrımların düzgün olduğu, kumaşta leke veya yırtık olmadığı incelenir. 3) <strong>Profil kontrolü</strong> — Kesim kenarlarının pürüzsüz olduğu, profilin bükülmediği doğrulanır. 4) <strong>Ölçü kontrolü</strong> — Perdenin sipariş edilen ölçüye tam uyduğu milimetrik olarak doğrulanır. Tüm testler geçildikten sonra perde, özel koruyucu paketleme malzemesiyle sarılır ve kargoya hazır hale getirilir. <a href=\"/plise-perde-fiyat-hesaplama/\">Fiyat hesaplama</a> sayfamızdan sipariş verebilir, ücretsiz keşif için <a href=\"/iletisim/\">bize ulaşabilirsiniz</a>." },
+    ],
+    faq: [
+      { question: "Plise perde üretimi ne kadar sürer?", answer: "Sipariş alındıktan sonra ortalama 2-3 iş günü içinde üretim tamamlanır. Kumaş kıvrımlama, profil kesimi ve montaj aşamaları her perde için ayrı yapıldığından, toplu siparişlerde süre uzayabilir." },
+      { question: "Plise perde kumaşı nereden temin ediyorsunuz?", answer: "Kumaşlarımız Türkiye'deki ve Avrupa'daki özel plise kumaş üreticilerinden temin edilmektedir. Tüm kumaşlar, kıvrımlama işlemine uygun olarak üretilmiş polyester kumaşlardır." },
+      { question: "Plise perde özel ölçü yapılır mı?", answer: "Evet, tüm plise perdelerimiz tamamen özel ölçü üretilir. Her pencere için ayrı ölçü alınır ve milimetrik hassasiyette üretim yapılır. Stoktan satış yapmıyoruz." },
+    ],
+  },
+  {
+    slug: "plise-perde-olcusu-nasil-alinir",
+    title: "Plise Perde Ölçüsü Nasıl Alınır?",
+    description:
+      "Cam içi ve cam çıtası üstü plise perde ölçüsü nasıl alınır? Hangi araçlar gerekir? Hangi noktalara dikkat edilmeli? Profesyonel ölçü alma rehberi.",
+    category: "montaj-ve-bakim",
+    author: "Plise Perde Ölçü Alma Uzmanı",
+    datePublished: "2026-07-16",
+    readingTime: 7,
+    keywords: ["plise perde ölçüsü nasıl alınır", "plise perde cam içi ölçü", "plise perde cam çıtası üstü ölçü", "plise perde ölçü alma", "perde ölçüsü"],
+    sections: [
+      { heading: "Plise Perde Ölçüsü Neden Bu Kadar Önemlidir?", content: "Plise perde, milimetrik hassasiyet gerektiren bir sistemdir. Yanlış ölçü, perdenin pencereye girmemesine veya çok gevşek durmasına neden olur. 1-2 mm'lik sapma bile, vidalı sistemlerde profilin çerçeveye oturmamasına, yapışkanlı sistemlerde ise perdenin pencereden düşmesine yol açabilir. Bu nedenle ölçü alma işlemi, sabırla ve doğru yöntemle yapılmalıdır. Eğer ölçü almaktan emin değilseniz, <a href=\"/olcu-alma-destegi/\">ölçü alma desteği</a> hizmetimizden faydalanabilir veya <a href=\"/ucretsiz-kesif/\">ücretsiz keşif</a> talep edebilirsiniz. Bu yazıda, cam içi ve cam çıtası üstü olmak üzere iki farklı montaj yöntemi için ölçü alma tekniklerini detaylıca anlatacağız." },
+      { heading: "Ölçü Alma Öncesi Hazırlık", content: "Ölçü almaya başlamadan önce şu araçları hazırlayın: 1) <strong>Çelik mezura</strong> — En az 3 metre uzunluğunda, milimetrik ölçü veren çelik mezura. Kumaş mezura kullanmayın, esner ve yanlış ölçü verir. 2) <strong>Kalem ve kağıt</strong> — Her pencere için ölçüleri ayrı ayrı not edin. 3) <strong>Mümkünse dijital gönye</strong> — Pencerenin dik açılı olup olmadığını kontrol etmek için. Özellikle eski binalarda pencereler her zaman tam dik açılı olmayabilir. Hazırlık aşamasında tüm pencereleri temizleyin — toz ve kir, ölçü alırken kaymaya neden olabilir. Pencereyi tamamen kapatın ve kilitli olduğundan emin olun." },
+      { heading: "Cam İçi Ölçüsü Nasıl Alınır?", content: "Cam içi montaj, plise perdenin en yaygın uygulama şeklidir. Bu yöntemde perde, camın bulunduğu doğrama kanalının içine monte edilir. Ölçü alırken şu adımları izleyin: <strong>Genişlik ölçüsü</strong>: Doğrama kanalının iç genişliğini, üst, orta ve alt noktalardan ayrı ayrı ölçün. Üç ölçüm arasında fark varsa, en küçük değeri kullanın. Mezurayı kanalın iç duvarlarına sıkıca bastırın — boşluk bırakmayın. <strong>Yükseklik ölçüsü</strong>: Doğrama kanalının iç yüksekliğini, sol, orta ve sağ noktalardan ayrı ayrı ölçün. Yine en küçük değeri kullanın. Ölçü alırken pencere kolu, menteşe ve diğer donanımların ölçüyü etkilemediğinden emin olun. Eğer kanal içinde çıkıntı varsa (vida başı, silikon kalıntısı vb.), bu çıkıntıları ölçüye dahil edin. <strong>Not</strong>: Ölçtüğünüz değerleri, üretimde 1 mm kesim payı düşüldükten sonra kullanırız. Yani siz ölçtüğünüz değeri olduğu gibi bildirin, payı biz hesaplarız." },
+      { heading: "Cam Çıtası Üstü Ölçüsü Nasıl Alınır?", content: "Cam çıtası üstü montaj, perdenin doğrama kanalına değil, cam çıtasının (pencere kasasının) üst ve alt yüzeylerine monte edildiği yöntemdir. Bu yöntem, cam içi kanalın dar olduğu (10 mm'den az) veya kanal içinde engeller bulunduğu durumlarda tercih edilir. Ölçü alırken: <strong>Genişlik ölçüsü</strong>: Cam çıtasının dış genişliğini ölçün. Perde, çıtanın üstüne bineceği için çıta genişliği + 2 cm ek pay verin. <strong>Yükseklik ölçüsü</strong>: Üst çıta yüzeyinden alt çıta yüzeyine kadar olan mesafeyi ölçün. Cam çıtası üstü montajda perde, camı tamamen örtecektir — bu nedenle ölçünün camı 1-2 cm her taraftan taşacak şekilde alınması önerilir. Bu yöntemde <a href=\"/yapistirmali-plise-perde/\">yapışkanlı plise perde</a> sistemleri daha uygundur, çünkü vidalı montaj için çıtaya delik açmak gerekebilir." },
+      { heading: "Özel Şekilli Pencerelerde Ölçü Alma", content: "Üçgen, yamuk veya kemerli pencerelerde ölçü alma, standart dikdörtgen pencerelerden farklıdır. Üçgen pencerelerde üç kenarın da ölçüsünü alın ve pencerenin yüksekliğini (tabanından tepe noktasına) ayrıca ölçün. Kemerli pencerelerde, kemerin tepe noktasından alt kenara kadar olan yüksekliği ve kemerin genişliğini ölçün. Bu tür özel ölçülerde, mümkünse pencerenin bir fotoğrafını çekip bizimle paylaşın — üretim ekibimiz fotoğraf üzerinden de değerlendirme yapabilir. Özel şekilli pencereler için <a href=\"/iletisim/\">iletişim</a> sayfamız üzerinden bize ulaşmanızı öneririz." },
+      { heading: "Ölçü Almada Yapılan Yaygın Hatalar", content: "Müşterilerimizden gelen ölçülerde en sık gördüğümüz hatalar şunlardır: 1) <strong>Kumaş mezura kullanmak</strong> — Esner, 2-3 mm yanlış ölçü verir. Mutlaka çelik mezura kullanın. 2) <strong>Tek noktadan ölçmek</strong> — Pencereler her zaman tam dik açılı değildir. Üç noktadan ölçüp en küçüğü kullanın. 3) <strong>Pencere kolunu unutmak</strong> — Kolu olan pencerelerde, kolun perdeye engel olup olmadığını kontrol edin. 4) <strong>Silikon kalıntısını saymamak</strong> — Kanal içindeki silikon, ölçüyü etkiler. Kalıntıları temizleyip sonra ölçün. 5) <strong>Yanlış montaj yöntemi seçmek</strong> — Cam içi kanal 10 mm'den dar ise cam içi ölçü almayın, cam çıtası üstü ölçü alın. Bu hatalardan kaçınmak için <a href=\"/olcu-alma-destegi/\">ücretsiz ölçü alma desteği</a> hizmetimizi kullanabilirsiniz." },
+    ],
+    faq: [
+      { question: "Plise perde ölçüsünü kendim alabilir miyim?", answer: "Evet, çelik mezura ve dikkatli bir şekilde ölçü alabilirsiniz. Ancak emin değilseniz ücretsiz ölçü alma desteği hizmetimizden faydalanmanızı öneririz. WhatsApp üzerinden video keşif yaparak da ölçü alabiliriz." },
+      { question: "Cam içi ve cam çıtası üstü ölçü arasındaki fark nedir?", answer: "Cam içi ölçü, doğrama kanalının iç genişlik ve yüksekliğini içerir. Cam çıtası üstü ölçü ise pencere kasasının dış genişliğini ve camı örtecek yüksekliği içerir. Cam içi kanal 10 mm'den dar ise cam çıtası üstü ölçü kullanın." },
+      { question: "Ölçü alırken ne kadar pay bırakmalıyım?", answer: "Siz herhangi bir pay bırakmayın. Ölçtüğünüz net değeri bildirin, üretimde gerekli kesim payını (1 mm) biz hesaplarız. Pay bırakmak, perdenin küçük gelmesine neden olur." },
+    ],
+  },
+  {
+    slug: "plise-perde-montaji-nasil-yapilir",
+    title: "Plise Perde Montajı Nasıl Yapılır?",
+    description:
+      "Vidalı ve yapışkanlı plise perde montajı adım adım. Hangi araçlar gerekir? Hangi sırada monte edilir? Profesyonel montaj teknikleri ve dikkat edilmesi gerekenler.",
+    category: "montaj-ve-bakim",
+    author: "Plise Perde Montaj Ekibi",
+    datePublished: "2026-07-19",
+    readingTime: 10,
+    keywords: ["plise perde montajı", "plise perde nasıl takılır", "vidalı plise perde montajı", "yapışkanlı plise perde montajı", "plise perde kurulum"],
+    featured: true,
+    sections: [
+      { heading: "Plise Perde Montajına Başlamadan Önce", content: "Plise perde montajı, doğru araç ve doğru sıra ile yapıldığında 15-30 dakika süren bir işlemdir. Ancak aceleci davranmak veya adımları atlamak, perdenin düzgün çalışmamasına veya pencereye zarar vermesine neden olabilir. Montaja başlamadan önce perdenin <a href=\"/plise-perde-olcusu-nasil-alinir/\">ölçüsünün doğru alındığından</a> emin olun — yanlış ölçüyle üretilmiş bir perde, en iyi montaj bile düzeltemez. Perdenin paketini açın ve tüm parçaların mevcut olduğunu kontrol edin: alt profil, üst profil, kumaş, kordon, montaj vidaları veya yapışkan bant. Eğer <a href=\"/montaj/\">profesyonel montaj</a> hizmeti almak isterseniz, ekibimiz Türkiye geneli ücretsiz montaj yapmaktadır." },
+      { heading: "Montaj İçin Gerekli Araçlar", content: "Vidalı sistem montajı için: matkap (akkor matkap yeterli), 3 mm matkap ucu, dübel (eğer duvara monte edilecekse), vida, tornavida, çelik mezura, kalemtıraş ve su terazisi. Yapışkanlı sistem montajı için: temizlik bezi (alkollü veya silikon çözücü), çelik mezura ve kalemtıraş. Yapışkanlı sistemde matkap gerekmez — bu, kira sözleşmeli evlerde veya pencereye delik açmak istemeyenler için en büyük avantajdır. <a href=\"/portrayli-plise-perde/\">Portrayli sistem</a> montajı için ise sadece portray anahtarı (sistemle birlikte gelir) yeterlidir." },
+      { heading: "Vidalı Plise Perde Montajı — Adım Adım", content: "Vidalı sistem, plise perdenin en sağlam montaj yöntemidir ve pencere çerçevesine vidalanarak kalıcı olarak sabitlenir. Adımlar: <strong>1. Adım — Profil yerleşimini işaretleyin</strong>: Üst ve alt profilleri pencere kanalına yerleştirin ve yerlerini kalemle işaretleyin. Su terazisi ile profillerin tam yatay olduğundan emin olun. <strong>2. Adım — Vida deliklerini açın</strong>: Profil üzerindeki vida kanallarına karşılık gelen noktalarda pencere çerçevesine 3 mm matkap ucuyla delikler açın. PVC çerçevelerde doğrudan vida sıkabilirsiniz, dübel gerekmez. Ahşap çerçevelerde de doğrudan vida sıkılır. Alüminyum çerçevelerde ise önce delik açılması gerekir. <strong>3. Adım — Üst profili vidalayın</strong>: Üst profili önce vidalayın. Vidalarken profilin yerinden kaymamasına dikkat edin. <strong>4. Adım — Alt profili vidalayın</strong>: Üst profil sabitlendikten sonra alt profili vidalayın. Alt ve üst profil arasındaki mesafe, kumaşın yüksekliğine tam uymalıdır. <strong>5. Adım — Kumaşı yerleştirin</strong>: Vidalı <a href=\"/vidali-plise-perde/\">vidalı plise perde</a> sistemlerinde kumaş, profillerin kordon kanalına oturtulur. Kumaşın üst ve alt kenarlarındaki kordon, profil içindeki kanala sıkıca yerleştirilir. <strong>6. Adım — Kordon gerginliğini ayarlayın</strong>: Alt profil üzerindeki gerdirme vidalarını saat yönünde çevirerek kordonu gerginleştirin. Kumaşın düzgün katlandığından ve serbestçe hareket ettiğinden emin olun. <strong>7. Adım — Test edin</strong>: Perdeyi 5-10 kez açıp kapatın. Düzgün çalışıyorsa montaj tamamlanmıştır." },
+      { heading: "Yapışkanlı Plise Perde Montajı — Adım Adım", content: "Yapışkanlı (delmesiz) sistem, pencereye delik açmadan plise perde monte etmek için idealdir. Kira sözleşmeli evlerde, prefabrik evlerde ve delmek istemeyenler için en iyi çözümdür. Adımlar: <strong>1. Adım — Yüzeyi temizleyin</strong>: Bu en kritik adımdır. Pencere çerçevesinin yapışkan bant yapışacak yüzeyini alkollü bezle silin. Silikon kalıntısı, yağ veya toz varsa temizleyin. Yüzey tamamen kuru olmalıdır. <strong>2. Adım — Koruyucu bandı çıkarın</strong>: <a href=\"/yapistirmali-plise-perde/\">Yapışkanlı plise perde</a> profilinin arka yüzeyindeki koruyucu bandı yavaşça çıkarın. Bandı çıkardıktan sonra profile dokunmayın — parmak izi yapışkanlığı azaltır. <strong>3. Adım — Üst profili yapıştırın</strong>: Üst profili önce yerleştirin. Profili pencere kanalının üst kısmına sıkıca bastırın. 30 saniye boyunca sabit basınç uygulayın. <strong>4. Adım — Alt profili yapıştırın</strong>: Üst profil yapıştıktan sonra alt profili yerleştirin. Alt ve üst profil arasındaki mesafenin kumaş yüksekliğine uyduğundan emin olun. Alt profili de 30 saniye boyunca sıkıca bastırın. <strong>5. Adım — Kumaşı yerleştirin ve test edin</strong>: Kumaşı profillerin arasına yerleştirin ve 5-10 kez açıp kapatın. Yapışkan bant, ilk 24 saatte tam yapışma gücüne ulaşır — bu sürede perdeyi aşırı zorlamayın." },
+      { heading: "Montaj Sırasında Yapılan Yaygın Hatalar", content: "1) <strong>Profil seviyesini kontrol etmemek</strong> — Su terazisi kullanmadan profil monte etmek, perdenin eğik durmasına neden olur. Gözle düzgün görünse bile 1-2 mm eğiklik fark edilir. 2) <strong>Yapışkanlı sistemde yüzeyi temizlememek</strong> — En sık yapılan hata. Temizlenmemiş yüzeye yapışkan bant yapışmaz, perde birkaç gün sonra düşer. 3) <strong>Kordon gerginliğini ayarlamamak</strong> — Vidalı sistemde kordon gerginliğini ayarlamazsanız kumaş sarkar veya perde zor hareket eder. 4) <strong>Profili ters monte etmek</strong> — Alt ve üst profil farklıdır. Kordon kanalı yönüne dikkat edin. 5) <strong>Aşırı vidalamak</strong> — Vidalı sistemde vidaları çok sıkmak profili büküp kumaşın takılmasına neden olur." },
+      { heading: "Profesyonel Montaj mı Kendin Yap mı?", content: "Küçük pencereler ve standart dikdörtgen pencerelerde, tecrübeli kişiler kendin yap (DIY) montaj yapabilir. Ancak şu durumlarda profesyonel montaj öneririz: 1) Büyük ve geniş pencereler (100 cm'den geniş), 2) Özel şekilli pencereler (üçgen, kemerli), 3) Motorlu plise perde sistemleri, 4) Çok pencereli mekanlar (5+ pencere), 5) Cam çıtası üstü montaj. Bizim montaj ekibimiz, <a href=\"/hizmet-bolgeleri/\">Türkiye'nin 81 ilinde</a> ücretsiz montaj hizmeti sunmaktadır. Pendik merkezli ekibimiz, İstanbul ve Kocaeli'nde aynı gün montaj yapabilmektedir. Diğer illerde kargo ile teslimat yapıyoruz ve video rehberlik ile montajı siz yapabilirsiniz." },
+    ],
+    faq: [
+      { question: "Plise perde montajı ne kadar sürer?", answer: "Standart bir pencere için plise perde montajı 15-30 dakika sürer. Vidalı sistem yapışkanlı sisteme göre biraz daha uzun sürer çünkü delme işlemi gerekir. Birden fazla pencere montajı için ek süre gerekebilir." },
+      { question: "Plise perdeyi kendim takabilir miyim?", answer: "Evet, vidasız sistemler ve küçük pencereler için kendin yap montaj mümkündür. Ancak büyük ve özel şekilli pencereler için profesyonel montaj öneririz. Video rehberlik hizmetimizle montaj sürecini adım adım gösteriyoruz." },
+      { question: "Yapışkanlı plise perde düşer mi?", answer: "Hayır, doğru monte edildiğinde düşmez. Kritik nokta, yapışmadan önce yüzeyi temizlemektir. Alkollü bezle silinmiş, kuru ve temiz bir yüzeye yapışkan bant çok güçlü yapışır. İlk 24 saatte tam yapışma gücüne ulaşır." },
+    ],
+  },
+  {
+    slug: "plise-perde-nasil-cikarilir",
+    title: "Plise Perde Nasıl Çıkarılır?",
+    description:
+      "Vidalı ve yapışkanlı plise perde nasıl çıkarılır? Temizlik, değişim veya taşınma için perdeyi güvenle sökme rehberi. Her sistem için adım adım çıkarma işlemi.",
+    category: "montaj-ve-bakim",
+    author: "Plise Perde Servis Ekibi",
+    datePublished: "2026-07-22",
+    readingTime: 6,
+    keywords: ["plise perde nasıl çıkarılır", "plise perde sökme", "plise perde temizlik için çıkarma", "vidalı plise perde çıkarma", "yapışkanlı plise perde çıkarma"],
+    sections: [
+      { heading: "Plise Perde Ne Zaman Çıkarılmalı?", content: "Plise perdeyi çıkarmanız gereken başlıca durumlar şunlardır: 1) <strong>Derin temizlik</strong> — Kumaşı profilden çıkarıp ılık sabunlu suda yıkamak için. Bu işlem yılda 1-2 kez yapılabilir. 2) <strong>Kumaş değişimi</strong> — Kumaş yıprandığında veya yeni renk/model istendiğinde. 3) <strong>Taşınma</strong> — Ev değiştiriyorsanız perdeleri söküp yeni evde kullanabilirsiniz. 4) <strong>Pencere değişimi</strong> — Pencere yenilendiğinde perde ölçüsü değişebilir. 5) <strong>Profil bakımı</strong> — Kordon mekanizmasında sorun varsa, profili çıkarıp bakım yapmak gerekir. Bu yazıda, <a href=\"/vidali-plise-perde/\">vidalı</a> ve <a href=\"/yapistirmali-plise-perde/\">yapışkanlı</a> sistemler için perde çıkarma işlemlerini adım adım anlatacağız." },
+      { heading: "Vidalı Plise Perde Nasıl Çıkarılır?", content: "Vidalı sistemde perde, pencere çerçevesine vidalarla sabitlenmiştir. Çıkarma işlemi şu adımlarla yapılır: <strong>1. Adım — Kumaşı profilden çıkarın</strong>: Önce kumaşı alt ve üst profillerin kordon kanalından çıkarın. Kumaşın üst ve alt kenarlarındaki kordonu, profil içindeki kanaldan yavaşça çekerek çıkarın. Kumaşı zorlamayın — kordon kopabilir. <strong>2. Adım — Vidaları sökün</strong>: Alt profil üzerindeki vidaları tornavida ile saat yönünün tersine çevirerek sökün. Önce alt profili, sonra üst profili sökün. <strong>3. Adım — Profilleri çıkarın</strong>: Vidalar çıktıktan sonra profilleri pencere çerçevesinden yavaşça çekerek çıkarın. PVC çerçevelerde vidalar kolay çıkar, ahşap çerçevelerde biraz zorlanabilir. <strong>4. Adım — Vidaları saklayın</strong>: Çıkardığınız vidaları ve profilleri bir poşette saklayın. Taşınırsanız veya yeniden monte edecekseniz bu vidalara ihtiyacınız olacak. Vidalı sistemde pencere çerçevesinde vida delikleri kalır — bu delikler beyaz silikon ile kapatılabilir." },
+      { heading: "Yapışkanlı Plise Perde Nasıl Çıkarılır?", content: "Yapışkanlı sistemde perde, çift taraflı bantla pencereye yapıştırılmıştır. Çıkarma işlemi vidalı sisteme göre farklıdır: <strong>1. Adım — Kumaşı çıkarın</strong>: Vidalı sistemde olduğu gibi, önce kumaşı profillerin kordon kanalından çıkarın. <strong>2. Adım — Profili yavaşça çekin</strong>: Profili pencere çerçevesinden yavaşça, bir ucundan başlayarak çekin. Ani çekmeyin — bant yüzeyi zarar görebilir. Profili ısıtmak (saç kurutma makinesi ile 30 saniye) yapışkanlığı yumuşatır ve çıkarmayı kolaylaştırır. <strong>3. Adım — Yapışkan kalıntısını temizleyin</strong>: Profil çıktıktan sonra pencere çerçevesinde yapışkan kalıntısı kalabilir. Bu kalıntıyı, silikon çözücü veya alkollü bezle ovarak temizleyin. Çözücü bulamazsanız, bebek yağı veya zeytinyağı da yapışkanı yumuşatır. <strong>4. Adım — Yeniden monte edecekseniz yeni bant kullanın</strong>: Yapışkanlı sistemde bant tek kullanımlıktır. Perdeyi yeniden monte edecekseniz, yeni çift taraflı bant kullanmanız gerekir. Bizimle <a href=\"/iletisim/\">iletişime geçerek</a> yedek bant temin edebilirsiniz." },
+      { heading: "Portrayli Plise Perde Nasıl Çıkarılır?", content: "<a href=\"/portrayli-plise-perde/\">Portrayli sistem</a>, pencere çerçevesine klik mekanizmasıyla tutunur. Çıkarma işlemi en kolay olan sistemdir: <strong>1. Adım</strong> — Kumaşı profillerden çıkarın. <strong>2. Adım</strong> — Portray anahtarını (sistemle birlikte gelir) profilin portray yuvasına takın. <strong>3. Adım</strong> — Anahtarı çevirerek klik mekanizmasını açın ve profili çerçeveden çıkarın. Portrayli sistemde vida deliği veya yapışkan kalıntısı kalmaz — pencere çerçevesi tamamen temiz kalır. Bu nedenle kira sözleşmeli evler için en uygun sistemdir." },
+      { heading: "Çıkardıktan Sonra Ne Yapmalı?", content: "Perdeyi çıkardıktan sonra: 1) <strong>Kumaşı yıkayın</strong> — Ilık sabunlu suda nazikçe yıkayın, makineye atmayın. Duruladıktan sonra düz bir yüzeye sererek kurutun, asmayın. 2) <strong>Profilleri silin</strong> — Nemli bezle alüminyum profilleri temizleyin. Kordon kanalındaki tozu yumuşak fırça ile alın. 3) <strong>Kordon kontrolü</strong> — Kordon aşınmışsa veya kopmuşsa, yedek kordon temin edin. 4) <strong>Yeniden montaj</strong> — Perdeyi <a href=\"/plise-perde-montaji-nasil-yapilir/\">montaj rehberimizi</a> takip ederek yeniden monte edebilirsiniz. Eğer kumaşı değiştirmek isterseniz, <a href=\"/urunlerimiz/\">ürünlerimiz</a> sayfasından yeni kumaş sipariş edebilirsiniz." },
+    ],
+    faq: [
+      { question: "Plise perdeyi çıkarıp yeniden monte edebilir miyim?", answer: "Evet. Vidalı sistemde vidaları söküp yeniden vidalayabilirsiniz. Yapışkanlı sistemde ise yeni çift taraflı bant kullanmanız gerekir. Portrayli sistemde ise portray anahtarı ile klik mekanizmasını açıp kapatarak kolayca çıkarıp takabilirsiniz." },
+      { question: "Yapışkanlı plise perde çıkarınca pencerede iz kalır mı?", answer: "Yapışkan kalıntısı kalabilir ama silikon çözücü, alkol veya bebek yağı ile kolayca temizlenir. Saç kurutma makinesi ile ısıtarak yapışkanı yumuşatmak çıkarmayı kolaylaştırır." },
+      { question: "Plise perde kumaşını makinede yıkayabilir miyim?", answer: "Hayır, plise perde kumaşı çamaşır makinesinde yıkanmaz. Ilık sabunlu suda elde yıkayın ve düz bir yüzeye sererek kurutun. Makine, kumaşın kıvrımlarını bozabilir." },
+    ],
+  },
+  {
+    slug: "plise-perde-temizligi-nasil-yapilir",
+    title: "Plise Perde Temizliği Nasıl Yapılır?",
+    description:
+      "Plise perde nasıl temizlenir ve nasıl yıkanır? Günlük bakımdan derin temizliğe, kumaş türüne göre yıkama yöntemlerinden sıkça yapılan hatalara kadar kapsamlı temizlik rehberi.",
+    category: "montaj-ve-bakim",
+    author: "Plise Perde Bakım Uzmanı",
+    datePublished: "2026-07-25",
+    readingTime: 7,
+    keywords: ["plise perde temizliği", "plise perde nasıl temizlenir", "plise perde nasıl yıkanır", "plise perde bakımı", "plise perde kumaş temizliği", "plise perde silme"],
+    sections: [
+      { heading: "Plise Perde Temizliği Neden Dikkat İster?", content: "Plise perde, kıvrımlı kumaş yapısı nedeniyle diğer perde türlerinden farklı bir temizlik yaklaşımı gerektirir. Kıvrımların arasına biriken toz, kumaşın hem görünümünü bozar hem de zamanla kalıcı lekelere dönüşebilir. Ancak yanlış temizlik yöntemi — özellikle aşırı ıslatma veya sert kimyasallar — kumaşın kıvrım hafızasını bozup kalıcı deformasyona yol açabilir. Bu yazıda plise perde nasıl temizlenir ve plise perde nasıl yıkanır sorularını, kumaş türüne ve kirlilik seviyesine göre ayrı ayrı ele alacağız. Amaç, perdenizin ömrünü uzatmak ve ilk günkü görünümünü korumak. Eğer perdenizi henüz <a href=\"/plise-perde-nasil-cikarilir/\">çıkarmadıysanız</a>, temizliğe başlamadan önce sökme işlemini yapmanız gerekebilir." },
+      { heading: "Plise Perde Nasıl Temizlenir?: Günlük ve Haftalık Bakım", content: "Plise perde nasıl temizlenir sorusunun en pratik yanıtı, düzenli hafif bakım yapmaktır. Kumaşın kıvrımları arasına yerleşen tozu haftada bir uzaklaştırmak, ileride derin temizlik ihtiyacını geciktirir. <strong>Toz alma yöntemi</strong>: En etkili ve en güvenli yöntem, yumuşak kıllı bir fırça veya mikrofiber bezle kumaşı yukarıdan aşağıya doğru nazikçe süpürmektir. Fırçayı kıvrımların içine zorla sokmayın — kumaşın yüzeyindeki tozu almak yeterlidir. <strong>Vakumlama yöntemi</strong>: Elektrikli süpürge kullanacaksanız, en düşük güç ayarına alın ve fırça ucunu kumaşa 2-3 cm mesafeden tutun. Doğrudan kumaşa temas ettirmeyin — vakum etkisi tozu çekerken kıvrımları bozmaz. <strong>Statik bez yöntemi</strong>: Elektriklenmiş mikrofiber bezler (özellikle televizyon ekranı temizleme bezleri), tozu kıvrımların içinden statik elektrikle çeker. Bu yöntem özellikle tül ve güneşlik kumaşlarda çok etkilidir. Bu üç yöntem, plise perde nasıl temizlenir sorusunun günlük yanıtıdır ve kumaşa hiçbir zarar vermez." },
+      { heading: "Plise Perde Nasıl Yıkanır?: Kumaş Türüne Göre Yıkama Rehberi", content: "Plise perde nasıl yıkanır sorusu, kumaş türüne göre farklı yanıtlanmalıdır. Tüm plise kumaşlar aynı şekilde yıkanamaz — yanlış yıkama, kıvrımları kalıcı olarak bozabilir. <strong>Tül kumaşlar</strong> (ışık geçirgen): En hassas kumaş türüdür. Yıkanması önerilmez — leke varsa lokal temizlik yapın (bkz. aşağıda). Mutlak gerekirse, 30°C'yi geçmeyen ılık suda, pH-nötr sıvı sabunla (bebek şampuanı ideal) elde yıkayın. Sürmeyin, twist atmayın. <strong>Güneşlik kumaşlar</strong> (güneş filtreli): Tül kumaşa benzer hassasiyette. Yıkanması önerilmez, lokal temizlik yeterli. <strong>Yarı karartma kumaşlar</strong>: Daha dayanıklıdır. Leke varsa ılık sabunlu suda elde yıkayabilirsiniz, ancak makineye asla atmayın. <strong>Tam karartma (blackout) kumaşlar</strong>: Arka yüzeydeki kauçuk kaplama nedeniyle en dikkatli yıkanması gereken türdür. Kauçuk tabaka yüksek sıcaklıkta eriyebilir veya çatlayabilir. Maksimum 30°C, pH-nötr sabun, elde yıkama. Kauçuk yüzeye sürmeyin — sadece kumaş yüzeyini nazikçe yıkayın. Tüm kumaş türleri için altın kural: <strong>çamaşır makinesi kullanmayın</strong>. Makinenin mekanik etkisi kıvrımları kalıcı olarak bozar." },
+      { heading: "Lekeli Bölgelere Müdahale: Lokal Temizlik", content: "Tüm kumaşı yıkamak yerine, sadece lekeli bölgeye müdahale etmek çoğu zaman yeterlidir ve çok daha güvenlidir. <strong>Sıvı leke (kahve, çay, meyve suyu)</strong>: Leke taze ise kağıt havluyla emdirin, ovuşturmayın. Kurumuş leke için, ılık suya batırılmış mikrofiber bezi sıkıp lekeye bastırın — sürmeyin. Gerekirse bir damla pH-nötr sabun ekleyin. <strong>Yağ lekesi</strong>: Mısır nişastasını lekenin üzerine serpin, 15 dakika bekletin, sonra yumuşak fırçayla süpürün. Nişasta yağı emer. Kalan iz için sabunlu suyla lokal temizlik yapın. <strong>Kalem/boya lekesi</strong> (çocuk odaları): Islatılmış mendille (bebek ıslak mendili) nazikçe silin. Alkol bazlı temizleyici kullanmayın — kumaşın kaplamasını çözebilir. <strong>Küçük noktalar</strong>: Temizleme süngeri (melamin sünger) kuru halde lekeye hafifçe sürtün — ancak çok nazik olun, kumaşı zedelemeyin." },
+      { heading: "Profil ve Kordon Temizliği", content: "Kumaş dışında, alüminyum profiller ve kordon sistemi de düzenli temizlik ister. <strong>Profil temizliği</strong>: Nemli mikrofiber bezle profillerin dış yüzeyini silin. Kordon kanalının içinde biriken tozu, yumuşak diş fırçası veya pipetle çıkarın. Profil içine su sıkmayın — kordon ıslanırsa paslanabilir veya küflenir. <strong>Kordon temizliği</strong>: Kordonu ıslatmayın. Kuru bezle kordonu boydan boya silerek tozu alın. Kordon yağlıysa (mutfak pencerelerinde yaygın), bezin üzerine bir damla bulaşık sabunu sıkın, kordonu silin, sonra kuru bezle durulayın. <strong>Yapışkanlı sistem</strong>: <a href=\"/yapistirmali-plise-perde/\">Yapışkanlı plise perde</a> profilinin arka bant yüzeyini temizlemeyin — bant yapışkanlığını kaybeder. Profilin ön ve yan yüzeylerini silmeniz yeterli." },
+      { heading: "Temizlikte Yapılmaması Gerekenler", content: "Plise perde temizliğinde en sık yapılan ve kumaşa kalıcı zarar veren hatalar: 1) <strong>Çamaşır makinesinde yıkamak</strong> — Kıvrımlar kalıcı olarak bozulur, kumaş düzleşir. 2) <strong>Sıcak su kullanmak</strong> — 40°C üzeri su, polyester kumaşın kıvrım hafızasını sıfırlar. 3) <strong>Çamaşır suyu (sodium hypochlorite)</strong> — Kumaşın rengini açmaz, beyazlatmaz — polyester lifleri sarartır. 4) <strong>Ovmak ve fırçalamak</strong> — Kumaşın yüzey kaplamasını çizer, kıvrımları bozar. 5) <strong>Asarak kurutmak</strong> — Kumaşın ağırlığı ıslakken artar, asınca kıvrımlar deforme olur. Düz yüzeye serin. 6) <strong>Ütülemek</strong> — Kumaş polyesterdir, ütü ısıyla kıvrımları eritir. 7) <strong>Kuru temizleme</strong> — Kuru temizleme solventleri kumaşın kaplamasını çözebilir. Perdeyi kuru temizlemeye vermeyin." },
+      { heading: "Temizlik Sıklığı Ne Olmalı?", content: "İdeal temizlik sıklığı, perdenin bulunduğu mekana göre değişir: <strong>Salon ve oturma odası</strong> — Haftada toz alma, yılda 1 kez lokal temizlik. <strong>Mutfak</strong> — Haftada toz alma, 3 ayda bir yağ temizliği (mutfak buharı kumaşa yağ biriktirir). <strong>Banyo</strong> — Haftada toz alma, 6 ayda bir nem lekesi kontrolü. <strong>Çocuk odası</strong> — Haftada toz alma, leke oluştuğunda anında lokal müdahale. <strong>İş yeri/ofis</strong> — 2 haftada toz alma, yılda 1 kez genel temizlik. Düzenli toz alma, derin temizlik ihtiyacını yıllarca geciktirebilir. Perdenizi <a href=\"/plise-perde-nasil-cikarilir/\">çıkarmadan</a> da bu bakımları yapabilirsiniz — profilden sökmek sadece yıkanacak durumdaysa gerekir." },
+    ],
+    faq: [
+      { question: "Plise perde çamaşır makinesinde yıkanır mı?", answer: "Hayır, plise perde kumaşı asla çamaşır makinesinde yıkanmaz. Makinenin mekanik etkisi kumaşın kıvrım hafızasını kalıcı olarak bozar. Yıkanması gerekiyorsa, 30°C'yi geçmeyen ılık suda pH-nötr sabunla elde yıkayın." },
+      { question: "Plise perde nasıl temizlenir, hangi yöntem en güvenli?", answer: "En güvenli temizlik yöntemi, yumuşak kıllı fırça veya mikrofiber bezle haftada bir toz almaktır. Bu yöntem kumaşa zarar vermez ve derin temizlik ihtiyacını geciktirir. Leke varsa lokal temizlik yapın, tüm kumaşı yıkamayın." },
+      { question: "Plise perde kumaşını ütüleyebilir miyim?", answer: "Hayır, plise perde kumaşı polyesterdir ve ütü ısıyla kıvrımlar eriyebilir. Kumaşın kıvrımları üretimde 140°C'de preslenmiştir — ütü bu yapıyı bozabilir. Kuruyunca kıvrımlar kendi kendine düzelir." },
+      { question: "Plise perde silinir mi?", answer: "Evet, hafif nemli mikrofiber bezle kumaşın yüzeyini nazikçe silebilirsiniz. Ancak ıslak bez kullanmayın — bezin nemli olması yeterli. Sürmeyin, bastırarak silin. Silme işleminden sonra kumaşın hava ile kurumasını bekleyin." },
+    ],
+  },
+];
+
+export function getAllBlogPosts(): BlogPost[] {
+  return blogPosts.sort(
+    (a, b) =>
+      new Date(b.datePublished).getTime() - new Date(a.datePublished).getTime()
+  );
+}
+
+export function getBlogPostBySlug(slug: string): BlogPost | undefined {
+  return blogPosts.find((post) => post.slug === slug);
+}
+
+export function getBlogPostsByCategory(categorySlug: string): BlogPost[] {
+  return blogPosts
+    .filter((post) => post.category === categorySlug)
+    .sort(
+      (a, b) =>
+        new Date(b.datePublished).getTime() -
+        new Date(a.datePublished).getTime()
+    );
+}
+
+export function getFeaturedBlogPosts(): BlogPost[] {
+  return blogPosts.filter((post) => post.featured);
+}
+
+export function getBlogCategoryBySlug(
+  slug: string
+): BlogCategory | undefined {
+  return blogCategories.find((cat) => cat.slug === slug);
+}
+
+export function getRelatedBlogPosts(
+  slug: string,
+  category: string,
+  limit: number = 3
+): BlogPost[] {
+  return blogPosts
+    .filter((post) => post.slug !== slug && post.category === category)
+    .slice(0, limit);
+}
+
+export function getBlogCategoryName(slug: string): string {
+  const cat = blogCategories.find((c) => c.slug === slug);
+  return cat ? cat.name : slug;
+}

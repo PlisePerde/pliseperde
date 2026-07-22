@@ -110,6 +110,10 @@ export const navItems: NavItem[] = [
     href: "/hizmet-bolgeleri",
   },
   {
+    label: "Blog",
+    href: "/blog",
+  },
+  {
     label: "İletişim",
     href: "/iletisim",
   },
@@ -148,6 +152,12 @@ export const footerColumns: FooterColumn[] = [
       { label: "İzmir Plise Perde", href: "/izmir-plise-perde" },
       { label: "Bursa Plise Perde", href: "/bursa-plise-perde" },
       { label: "Antalya Plise Perde", href: "/antalya-plise-perde" },
+    ],
+  },
+  {
+    title: "Blog",
+    links: [
+      { label: "Tüm Yazılar", href: "/blog" },
     ],
   },
   {

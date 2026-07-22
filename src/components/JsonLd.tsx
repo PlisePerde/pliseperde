@@ -234,6 +234,77 @@ export function createVideoSchema(data: {
   };
 }
 
+export function createBlogSchema(data: {
+  name: string;
+  description: string;
+  url: string;
+  posts: { title: string; url: string; datePublished: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: data.name,
+    description: data.description,
+    url: `${siteConfig.url}${data.url}`,
+    inLanguage: "tr-TR",
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+    blogPost: data.posts.map((post) => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      url: `${siteConfig.url}${post.url}`,
+      datePublished: post.datePublished,
+      author: { "@id": `${siteConfig.url}/#organization` },
+      publisher: { "@id": `${siteConfig.url}/#organization` },
+      inLanguage: "tr-TR",
+    })),
+  };
+}
+
+export function createBlogPostingSchema(data: {
+  headline: string;
+  description: string;
+  datePublished: string;
+  dateModified?: string;
+  author?: string;
+  keywords?: string[];
+  url: string;
+  section?: string;
+  image?: string;
+  imageAlt?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: data.headline,
+    description: data.description,
+    datePublished: data.datePublished,
+    dateModified: data.dateModified || data.datePublished,
+    author: {
+      "@type": "Organization",
+      name: data.author || siteConfig.name,
+      "@id": `${siteConfig.url}/#organization`,
+    },
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+    inLanguage: "tr-TR",
+    keywords: data.keywords?.join(", "),
+    articleSection: data.section,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteConfig.url}${data.url}`,
+    },
+    ...(data.image && {
+      image: {
+        "@type": "ImageObject",
+        url: data.image,
+        width: 1200,
+        height: 675,
+        caption: data.imageAlt || data.headline,
+      },
+    }),
+  };
+}
+
 export function createCollectionPageSchema(data: {
   name: string;
   description: string;
