@@ -106,10 +106,16 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-2">
             <Link
               href="/plise-perde-fiyatlari"
+              className="flex items-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium"
+            >
+              Fiyatlarımız
+            </Link>
+            <Link
+              href="/plise-perde-fiyat-hesaplama"
               className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
             >
               <Calculator size={16} />
-              Fiyatlarımız
+              Fiyat Hesapla
             </Link>
           </div>
 
@@ -169,14 +175,21 @@ export default function Header() {
                 )}
               </div>
             ))}
-            <div className="pt-2">
+            <div className="pt-2 space-y-2">
               <Link
                 href="/plise-perde-fiyatlari"
+                className="flex items-center justify-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium"
+                onClick={() => setMobileOpen(false)}
+              >
+                Fiyatlarımız
+              </Link>
+              <Link
+                href="/plise-perde-fiyat-hesaplama"
                 className="flex items-center justify-center gap-1.5 px-3 py-2 text-sm font-medium bg-brand text-white rounded-md"
                 onClick={() => setMobileOpen(false)}
               >
                 <Calculator size={16} />
-                Fiyatlarımız
+                Fiyat Hesapla
               </Link>
             </div>
           </nav>
