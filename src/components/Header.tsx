@@ -72,7 +72,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center self-stretch gap-1">
+          <nav className="hidden lg:flex items-center self-stretch gap-1 relative">
             {navItems.map((item) => (
               <div
                 key={item.label}
@@ -111,7 +111,7 @@ export default function Header() {
                 {hasSubmenu(item) && openDropdown === item.label && (
                   isMegaMenu(item) ? (
                     item.megaWithImages ? (
-                      <div className="absolute top-full left-0 mt-px bg-white border border-brand-border rounded-lg shadow-xl p-4" style={{ width: "920px" }}>
+                      <div className="absolute top-full left-0 right-0 mt-px bg-white border border-brand-border rounded-lg shadow-xl p-4">
                         <div className="grid grid-cols-5 gap-3">
                           {item.children!.map((child) => (
                             <Link
