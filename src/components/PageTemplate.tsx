@@ -44,6 +44,8 @@ export interface PageTemplateProps {
   schemaData?: Record<string, unknown>;
   contentNote?: boolean;
   highlight?: string;
+  bgImage?: string;
+  bgImageAlt?: string;
 }
 
 export default function PageTemplate({
@@ -63,6 +65,8 @@ export default function PageTemplate({
   schemaData,
   contentNote = true,
   highlight,
+  bgImage,
+  bgImageAlt,
 }: PageTemplateProps) {
   const breadcrumbItems: { name: string; url: string }[] =
     breadcrumb.length > 0 && typeof breadcrumb[0] === "object"
@@ -103,6 +107,8 @@ export default function PageTemplate({
         title={h1}
         description={intro}
         highlight={highlight}
+        bgImage={bgImage}
+        bgImageAlt={bgImageAlt}
       />
       <div className="mx-auto max-w-[1536px] px-4 md:px-6">
         <div className="py-6 md:py-8">

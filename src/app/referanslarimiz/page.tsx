@@ -1,132 +1,304 @@
-import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
+import Image from "next/image";
+import PageLayout from "@/components/PageLayout";
+import PageHeading from "@/components/PageHeading";
+import CTASection from "@/components/CTASection";
+import FAQ, { type FAQItem } from "@/components/FAQ";
+import ScrollReveal from "@/components/ScrollReveal";
+import JsonLd, {
+  createBreadcrumbJsonLd,
+  createWebPageSchema,
+  createArticleSchema,
+  createFAQSchema,
+  createItemListSchema,
+} from "@/components/JsonLd";
+import { generatePageMetadata } from "@/lib/seo";
+import { referenceSectors, allReferences, referenceStats } from "@/data/references";
+import { CheckCircle, Building, Calendar, ThumbsUp, Hotel, School, HeartPulse, Home } from "lucide-react";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Referanslarımız — Plise Perde Projeleri ve Müşterilerimiz",
+  title: "Referanslarımız — Plise Perde Projeleri ve Kurumsal Müşterilerimiz",
   description:
-    "Plise Perde referansları. Tamamladığımız projeler, kurumsal müşterilerimiz, iş ortaklarımız ve başarı hikayelerimiz. 2022'den beri güvenilir hizmet.",
+    "Plise Perde referansları: otel, ofis, okul, hastane ve konut projeleri. 2000+ tamamlanan proje, 500+ kurumsal müşteri. Kurumsal plise perde montajı ve toplu proje çözümleri.",
   slug: "referanslarimiz",
+  ogImage: "/referanslarimiz.webp",
+  ogImageAlt: "Plise Perde Referansları — Kurumsal Müşteriler ve Projeler",
+  keywords: [
+    "plise perde referans",
+    "plise perde kurumsal müşteri",
+    "plise perde otel projesi",
+    "plise perde ofis montaj",
+    "plise perde okul uygulaması",
+    "plise perde toplu proje",
+    "plise perde site projesi",
+    "kurumsal perde montaj",
+  ],
 });
 
+const sectorIcons: Record<string, React.ReactNode> = {
+  hotel: <Hotel size={24} />,
+  building: <Building size={24} />,
+  school: <School size={24} />,
+  "heart-pulse": <HeartPulse size={24} />,
+  home: <Home size={24} />,
+};
+
+const statIcons: Record<string, React.ReactNode> = {
+  "check-circle": <CheckCircle size={28} />,
+  building: <Building size={28} />,
+  calendar: <Calendar size={28} />,
+  "thumbs-up": <ThumbsUp size={28} />,
+};
+
+const faqItems: FAQItem[] = [
+  {
+    question: "Kurumsal müşteri olarak özel fiyat alabilir miyim?",
+    answer:
+      "Evet, kurumsal müşterilere özel fiyat avantajları sunuyoruz. Proje kapsamına göre toplu indirim ve öncelikli üretim avantajı sağlıyoruz. İletişim sayfamızdan teklif alabilirsiniz.",
+  },
+  {
+    question: "Hangi sektörlerde proje tamamladınız?",
+    answer:
+      "Otel ve konaklama, ofis ve plaza, eğitim kurumları, sağlık kurumları ve konut siteleri başta olmak üzere 2000'den fazla proje tamamladık. Her sektörde özel ihtiyaçlara yönelik çözümler sunuyoruz.",
+  },
+  {
+    question: "İş ortaklığı nasıl kurulur?",
+    answer:
+      "İç mimarlar, mimarlık ofisleri ve dekorasyon firmaları ile iş ortaklığı kuruyoruz. İş ortaklarımıza özel indirim ve öncelikli üretim avantajları sunuyoruz. WhatsApp veya e-posta üzerinden başvurabilirsiniz.",
+  },
+  {
+    question: "Toplu proje için teslimat süreniz nedir?",
+    answer:
+      "Toplu projelerde teslimat süresi proje kapsamına göre değişir. Ortalama 5 iş günü içinde üretim tamamlanır. Büyük projelerde özel teslimat planı yapıyoruz. Keşif sırasında net teslimat tarihi belirlenir.",
+  },
+  {
+    question: "Referans olarak hangi projeleri inceleyebilirim?",
+    answer:
+      "Otel, ofis, okul, hastane ve konut sitesi projelerimizi inceleyebilirsiniz. Galeri sayfamızda gerçek proje fotoğraflarımız bulunmaktadır. Detaylı bilgi için bizimle iletişime geçebilirsiniz.",
+  },
+];
+
 export default function ReferanslarimizPage() {
+  const schemas: object[] = [
+    createBreadcrumbJsonLd([
+      { name: "Ana Sayfa", url: "/" },
+      { name: "Referanslarımız", url: "/referanslarimiz" },
+    ]),
+    createWebPageSchema({
+      name: "Referanslarımız — Plise Perde Projeleri",
+      description:
+        "Plise Perde referansları: otel, ofis, okul, hastane ve konut projeleri. 2000+ tamamlanan proje.",
+      url: "/referanslarimiz/",
+    }),
+    createArticleSchema({
+      headline: "Referanslarımız — Plise Perde Projeleri ve Kurumsal Müşterilerimiz",
+      description:
+        "2000+ tamamlanan proje, 500+ kurumsal müşteri. Otel, ofis, okul, hastane ve konut projeleri.",
+      datePublished: "2022-01-01",
+    }),
+    createItemListSchema({
+      name: "Plise Perde Kurumsal Referanslar",
+      description:
+        "Otel, ofis, okul, hastane ve konut projelerinde plise perde montajı yapan kurumsal müşterilerimiz.",
+      url: "/referanslarimiz/",
+      items: allReferences.map((ref) => ({
+        name: ref.name,
+        description: ref.description,
+        logo: ref.logo,
+        sector: ref.sector,
+        location: ref.location,
+        url: ref.url,
+      })),
+    }),
+    createFAQSchema(faqItems),
+  ];
+
   return (
-    <PageTemplate
-      title="Referanslarımız"
-      description="Plise Perde referansları. Tamamladığımız projeler, kurumsal müşterilerimiz ve başarı hikayelerimiz."
-      slug="referanslarimiz"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Referanslarımız", url: "/referanslarimiz" }]}
-      h1="Referanslarımız — Plise Perde Projeleri ve Müşterilerimiz"
-      intro="2022'den beri binlerce proje tamamladık. Kurumsal müşterilerimiz, iş ortaklarımız ve bireysel müşterilerimizin güvenini kazandık. Bu sayfada tamamladığımız önemli projeleri, kurumsal referanslarımızı ve başarı hikayelerimizi bulabilirsiniz. Her proje, profesyonel ekibimiz tarafından özenle tasarlanmış ve uygulanmıştır. Referanslarımız, hizmet kalitemizin en önemli göstergesidir."
-      schemaType="article"
-      schemaData={{
-        headline: "Referanslarımız — Plise Perde Projeleri",
-        description: "Tamamladığımız projeler, kurumsal müşterilerimiz ve başarı hikayelerimiz.",
-      }}
-      sections={[
-        {
-          h2: "Kurumsal Müşterilerimiz",
-          paragraphs: [
-            "Kurumsal müşterilerimiz arasında <strong>oteller, ofisler, okullar ve hastaneler</strong> bulunmaktadır. <em>Toplu proje üretimi ve montajı</em> konusunda uzmanız. Kurumsal müşterilerimize özel fiyat avantajları ve öncelikli servis hizmeti sunuyoruz.",
-          ],
-          table: {
-            headers: ["Sektör", "Proje Sayısı", "Özellik"],
-            rows: [
-              ["Otel & Konaklama", "120+", "Toplu üretim, motorlu model"],
-              ["Ofis & Plaza", "85+", "Güneşlik, profesyonel montaj"],
-              ["Eğitim Kurumları", "45+", "Çocuk güvenliği, dayanıklı"],
-              ["Sağlık Kurumları", "30+", "Hijyenik kumaş, tam karartma"],
-              ["Konut Siteleri", "200+", "Toplu indirim, standart model"],
-            ],
-          },
-        },
-        {
-          h2: "Öne Çıkan Projelerimiz",
-          paragraphs: [
-            "Tamamladığımız <strong>büyük ölçekli projeler</strong> arasında otel konaklama alanları, plaza ofis katları ve site ortak alanları bulunmaktadır. Her projede <em>özel ölçü üretim, profesyonel montaj ve 2 yıl garanti</em> sunuyoruz.",
-          ],
-          list: {
-            type: "ul",
-            items: [
-              "5 yıldızlı otel — 180 oda, motorlu plise perde uygulaması",
-              "Plaza ofis katı — 45 pencere, güneşlik model",
-              "Özel okul — 60 sınıf, çocuk güvenlikli model",
-              "Konut sitesi — 120 daire, toplu indirimli üretim",
-              " Özel hastane — 35 oda, hijyenik tam karartma",
-            ],
-          },
-        },
-        {
-          h2: "Müşteri Memnuniyet İstatistikleri",
-          paragraphs: [
-            "Müşteri memnuniyet oranımız <strong>%97'dir</strong>. 2022'den beri binlerce proje tamamladık ve <em>ortalama puanımız 4.8/5</em> seviyesindedir. Kurumsal müşterilerimizin %92'si tekrar bizimle çalışmayı tercih etmektedir.",
-          ],
-          table: {
-            headers: ["Ölçüt", "Oran", "Puan"],
-            rows: [
-              ["Genel memnuniyet", "%97", "4.8/5"],
-              ["Kurumsal müşteri memnuniyeti", "%95", "4.7/5"],
-              ["Bireysel müşteri memnuniyeti", "%98", "4.9/5"],
-              ["Tekrar çalışma oranı", "%92", "-"],
-              ["Zamanında teslimat", "%96", "4.8/5"],
-            ],
-          },
-        },
-        {
-          h2: "İş Ortaklarımız",
-          paragraphs: [
-            "İş ortaklarımız arasında <strong>iç mimarlar, mimarlık ofisleri ve dekorasyon firmaları</strong> bulunmaktadır. <em>İş ortaklarımıza özel fiyat</em> ve öncelikli üretim avantajları sunuyoruz. İş ortaklığı için bizimle iletişime geçebilirsiniz.",
-          ],
-          list: {
-            type: "ol",
-            items: [
-              "İç mimarlar — %15 özel indirim",
-              "Mimarlık ofisleri — öncelikli üretim",
-              "Dekorasyon firmaları — toplu proje fiyatı",
-              "İnşaat firmaları — site projeleri için özel anlaşma",
-              "Tasarım stüdyoları — renk ve kumaş danışmanlığı",
-            ],
-          },
-        },
-        {
-          h2: "Neden Bizi Tercih Ederler?",
-          paragraphs: [
-            "Müşterilerimiz bizi <strong>kalite, güven ve profesyonellik</strong> için tercih eder. <em>2 yıl garanti, ücretsiz keşif ve Türkiye geneli hizmet</em> en çok öne çıkan avantajlarımızdır. Aşağıda müşterilerimizin bizimle çalışma nedenlerini bulabilirsiniz.",
-          ],
-          list: {
-            type: "ul",
-            items: [
-              "2 yıl garanti — tüm ürün ve montaj kapsamında",
-              "Ücretsiz keşif — Türkiye geneli",
-              "Özel ölçü üretim — her pencere boyutu",
-              "Profesyonel montaj ekibi — deneyimli ustalar",
-              "Hızlı teslimat — ortalama 5 iş günü",
-              "Çocuk güvenliği — TSE uygun ürünler",
-            ],
-          },
-        },
-      ]}
-      faqItems={[
-        {
-          question: "Kurumsal müşteri olarak özel fiyat alabilir miyim?",
-          answer: "Evet, kurumsal müşterilere özel fiyat avantajları sunuyoruz. Proje kapsamına göre toplu indirim ve öncelikli üretim avantajı sağlıyoruz. İletişim sayfamızdan teklif alabilirsiniz.",
-        },
-        {
-          question: "Referans olarak hangi projelerinizi inceleyebilirim?",
-          answer: "Otel, ofis, okul, hastane ve konut sitesi projelerimizi inceleyebilirsiniz. Galeri sayfamızda gerçek proje fotoğraflarımız bulunmaktadır. Detaylı bilgi için bizimle iletişime geçebilirsiniz.",
-        },
-        {
-          question: "İş ortaklığı nasıl kurulur?",
-          answer: "İç mimarlar, mimarlık ofisleri ve dekorasyon firmaları ile iş ortaklığı kuruyoruz. İş ortaklarımıza özel indirim ve öncelikli üretim avantajları sunuyoruz. WhatsApp veya e-posta üzerinden başvurabilirsiniz.",
-        },
-        {
-          question: "Müşteri memnuniyet oranınız nedir?",
-          answer: "Müşteri memnuniyet oranımız %97'dir. 2022'den beri binlerce proje tamamladık ve ortalama puanımız 4.8/5 seviyesindedir. Kurumsal müşterilerimizin %92'si tekrar bizimle çalışmayı tercih etmektedir.",
-        },
-        {
-          question: "Toplu proje için teslimat süreniz nedir?",
-          answer: "Toplu projelerde teslimat süresi proje kapsamına göre değişir. Ortalama 5 iş günü içinde üretim tamamlanır. Büyük projelerde özel teslimat planı yapıyoruz. Keşif sırasında net teslimat tarihi belirlenir.",
-        },
-      ]}
-    />
+    <PageLayout>
+      <JsonLd schemas={schemas} />
+      <PageHeading
+        breadcrumb={[
+          { name: "Ana Sayfa", url: "/" },
+          { name: "Referanslarımız", url: "/referanslarimiz" },
+        ]}
+        title="Referanslarımız — Plise Perde Projeleri ve Müşterilerimiz"
+        description="2022'den beri binlerce proje tamamladık. Kurumsal müşterilerimiz, iş ortaklarımız ve bireysel müşterilerimizin güvenini kazandık. Bu sayfada tamamladığımız önemli projeleri, kurumsal referanslarımızı ve başarı hikayelerimizi bulabilirsiniz."
+        highlight="2000+ tamamlanan proje"
+        bgImage="/referanslarimiz.webp"
+        bgImageAlt="Plise Perde Referansları — Kurumsal Müşteriler ve Projeler"
+      />
+
+      <div className="mx-auto max-w-[1536px] px-4 md:px-6">
+        <div className="py-6 md:py-8">
+          {/* AI/LLM-friendly summary */}
+          <section className="mb-8" aria-label="Referans özeti">
+            <p className="text-sm text-brand-text-light leading-relaxed mb-4">
+              Bu sayfa, <strong>Plise Perde</strong> markası tarafından tamamlanan kurumsal projeleri ve
+              müşteri referanslarını sunar. Beş ana sektörde düzenlenmiştir:{" "}
+              <strong>Otel & Konaklama</strong> (motorlu plise perde, blackout),{" "}
+              <strong>Ofis & Plaza</strong> (güneşlik, profesyonel montaj),{" "}
+              <strong>Eğitim Kurumları</strong> (çocuk güvenliği, kordsuz),{" "}
+              <strong>Sağlık Kurumları</strong> (hijyenik kumaş, tam karartma) ve{" "}
+              <strong>Konut Siteleri</strong> (toplu indirim, standart model). Toplam 2000'den fazla
+              tamamlanan proje ve 500+ kurumsal müşteri ile hizmet kalitemizi kanıtlamaktayız.
+            </p>
+          </section>
+
+          {/* Stats Banner */}
+          <ScrollReveal className="mb-10">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {referenceStats.map((stat) => (
+                <div
+                  key={stat.label}
+                  className="flex flex-col items-center text-center p-4 md:p-6 rounded-xl bg-white border border-brand-border shadow-sm"
+                >
+                  <div className="text-brand mb-2">{statIcons[stat.icon]}</div>
+                  <div className="text-2xl md:text-3xl font-bold text-brand-text">{stat.value}</div>
+                  <div className="text-xs md:text-sm text-brand-text-light mt-1">{stat.label}</div>
+                </div>
+              ))}
+            </div>
+          </ScrollReveal>
+
+          {/* Sector sections with logos */}
+          {referenceSectors.map((sector, sIndex) => (
+            <ScrollReveal key={sector.id} className="mb-10" delay={sIndex * 50}>
+              <section aria-label={`${sector.label} referansları`}>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="text-brand">{sectorIcons[sector.icon]}</div>
+                  <h2 className="text-lg md:text-xl font-semibold text-brand-text">
+                    {sector.label}
+                  </h2>
+                </div>
+                <p className="text-sm text-brand-text-light leading-relaxed mb-5">
+                  {sector.description}
+                </p>
+
+                {/* Logo grid */}
+                <div
+                  className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4"
+                  role="list"
+                  aria-label={`${sector.label} logo galerisi`}
+                >
+                  {sector.references.map((ref) => (
+                    <figure
+                      key={ref.name}
+                      role="listitem"
+                      className="group flex flex-col items-center justify-center p-4 rounded-xl bg-white border border-brand-border hover:border-brand hover:shadow-md transition-all"
+                    >
+                      <div className="relative w-full h-16 md:h-20 flex items-center justify-center mb-2">
+                        <Image
+                          src={ref.logo}
+                          alt={`${ref.name} — Plise Perde Projesi`}
+                          width={160}
+                          height={80}
+                          className="object-contain w-full h-full opacity-60 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 16vw"
+                          loading="lazy"
+                        />
+                      </div>
+                      <figcaption className="text-center">
+                        <p className="text-xs md:text-sm font-medium text-brand-text line-clamp-1">
+                          {ref.name}
+                        </p>
+                        {ref.projectCount && (
+                          <p className="text-xs text-brand-text-light mt-0.5">{ref.projectCount}</p>
+                        )}
+                        {ref.location && (
+                          <p className="text-xs text-brand-text-light/70 mt-0.5">{ref.location}</p>
+                        )}
+                      </figcaption>
+                    </figure>
+                  ))}
+                </div>
+              </section>
+            </ScrollReveal>
+          ))}
+
+          {/* Why choose us */}
+          <ScrollReveal className="mb-10">
+            <section aria-label="Neden bizi tercih ederler">
+              <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-4">
+                Neden Bizi Tercih Ederler?
+              </h2>
+              <p className="text-sm text-brand-text-light leading-relaxed mb-5">
+                Müşterilerimiz bizi <strong>kalite, güven ve profesyonellik</strong> için tercih eder.
+                <em> 2 yıl garanti, ücretsiz keşif ve Türkiye geneli hizmet</em> en çok öne çıkan
+                avantajlarımızdır.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {[
+                  { title: "2 Yıl Garanti", desc: "Tüm ürün ve montaj kapsamında" },
+                  { title: "Ücretsiz Keşif", desc: "Türkiye geneli, öncelikli randevu" },
+                  { title: "Özel Ölçü Üretim", desc: "Her pencere boyutu için" },
+                  { title: "Profesyonel Montaj", desc: "Deneyimli uzman ekip" },
+                  { title: "Hızlı Teslimat", desc: "Ortalama 5 iş günü" },
+                  { title: "Çocuk Güvenliği", desc: "TSE uygun, kordsuz modeller" },
+                ].map((item) => (
+                  <div
+                    key={item.title}
+                    className="flex items-start gap-3 p-4 rounded-lg bg-brand-bg border border-brand-border"
+                  >
+                    <CheckCircle size={20} className="text-brand flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="text-sm font-medium text-brand-text">{item.title}</p>
+                      <p className="text-xs text-brand-text-light mt-0.5">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          </ScrollReveal>
+
+          {/* Partnership */}
+          <ScrollReveal className="mb-10">
+            <section aria-label="İş ortakları">
+              <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-4">
+                İş Ortaklarımız
+              </h2>
+              <p className="text-sm text-brand-text-light leading-relaxed mb-5">
+                İş ortaklarımız arasında <strong>iç mimarlar, mimarlık ofisleri ve dekorasyon
+                firmaları</strong> bulunmaktadır. İş ortaklarımıza özel fiyat ve öncelikli üretim
+                avantajları sunuyoruz.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {[
+                  { title: "İç Mimarlar", desc: "%15 özel indirim, renk ve kumaş danışmanlığı" },
+                  { title: "Mimarlık Ofisleri", desc: "Öncelikli üretim, proje bazlı anlaşma" },
+                  { title: "Dekorasyon Firmaları", desc: "Toplu proje fiyatı, hızlı teslimat" },
+                  { title: "İnşaat Firmaları", desc: "Site projeleri için özel anlaşma" },
+                ].map((item) => (
+                  <div
+                    key={item.title}
+                    className="flex items-start gap-3 p-4 rounded-lg bg-white border border-brand-border"
+                  >
+                    <Building size={20} className="text-brand flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="text-sm font-medium text-brand-text">{item.title}</p>
+                      <p className="text-xs text-brand-text-light mt-0.5">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          </ScrollReveal>
+
+          {/* FAQ */}
+          <section className="mb-8" aria-labelledby="faq-heading">
+            <h2 id="faq-heading" className="text-lg md:text-xl font-semibold text-brand-text mb-4">
+              Sıkça Sorulan Sorular
+            </h2>
+            <FAQ items={faqItems} />
+          </section>
+        </div>
+      </div>
+
+      <CTASection
+        title="Kurumsal Teklif Alın"
+        description="Projeniz için ücretsiz keşif ve özel kurumsal fiyat teklifi alın. İstanbul ve Türkiye geneli hizmet."
+        primaryLabel="Ücretsiz Keşif Talep Et"
+        primaryHref="/ucretsiz-kesif"
+      />
+    </PageLayout>
   );
 }

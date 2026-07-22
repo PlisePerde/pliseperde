@@ -365,3 +365,40 @@ export function createImageGallerySchema(data: {
     })),
   };
 }
+
+export function createItemListSchema(data: {
+  name: string;
+  description: string;
+  url: string;
+  items: {
+    name: string;
+    description: string;
+    url?: string;
+    logo?: string;
+    sector?: string;
+    location?: string;
+  }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: data.name,
+    description: data.description,
+    url: `${siteConfig.url}${data.url}`,
+    inLanguage: "tr-TR",
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    itemListElement: data.items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Organization",
+        name: item.name,
+        description: item.description,
+        ...(item.url ? { url: item.url } : {}),
+        ...(item.logo ? { logo: { "@type": "ImageObject", url: `${siteConfig.url}${item.logo}` } } : {}),
+        ...(item.sector ? { knowsAbout: item.sector } : {}),
+        ...(item.location ? { address: { "@type": "PostalAddress", addressLocality: item.location } } : {}),
+      },
+    })),
+  };
+}
