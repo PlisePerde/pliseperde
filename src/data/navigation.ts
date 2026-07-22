@@ -19,6 +19,7 @@ export const navItems: NavItem[] = [
       { label: "Çocuk Güvenliği", href: "/cocuk-guvenligi" },
       { label: "SSS", href: "/sikca-sorulan-sorular" },
       { label: "Kullanıcı Yorumları", href: "/plise-perde-kullanici-yorumlari" },
+      { label: "Referanslarımız", href: "/referanslarimiz" },
     ],
   },
   {
@@ -99,10 +100,6 @@ export const navItems: NavItem[] = [
       { label: "Anaokulu", href: "/anaokulu-plise-perde" },
       { label: "Laboratuvar", href: "/laboratuvar-plise-perde" },
     ],
-  },
-  {
-    label: "Referanslar",
-    href: "/referanslarimiz",
   },
   {
     label: "Galeri",
