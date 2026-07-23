@@ -47,7 +47,7 @@ export const navItems: NavItem[] = [
     href: "/urunlerimiz",
     megaWithImages: true,
     children: [
-      { label: "Plise Perde", href: "/plise-perde", description: "Klasik plise perde modelleri" },
+      { label: "Plise Perde", href: "/plise-perde", description: "Klasik plise perde modelleri", image: "/mega-menu/plise-perdeler.webp" },
       { label: "Honeycomb Plise Perde", href: "/honeycomb-perde", description: "Petek hücreli enerji tasarruflu" },
       { label: "Düet Plise Perde", href: "/duet-perde", description: "Çift katmanlı gece gündüz" },
       { label: "Plise Perde Aparatları", href: "/plise-perde-aparatlari", description: "Tüm plise perde aparatları" },
