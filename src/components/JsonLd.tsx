@@ -416,7 +416,7 @@ export function createItemListSchema(data: {
           : {}),
         ...(item.sector ? { knowsAbout: item.sector } : {}),
         ...(item.location
-          ? { address: { "@type": "PostalAddress", addressLocality: item.location } }
+          ? { address: { "@type": "PostalAddress", addressLocality: item.location, addressCountry: item.location } }
           : {}),
         sponsor: { "@id": `${siteConfig.url}/#organization` },
         subjectOf: {
