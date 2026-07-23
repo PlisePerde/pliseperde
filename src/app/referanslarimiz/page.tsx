@@ -102,6 +102,9 @@ export default function ReferanslarimizPage() {
         sector: p.role,
         location: p.country,
         countryCode: p.countryCode,
+        streetAddress: p.streetAddress,
+        postalCode: p.postalCode,
+        city: p.city,
       })),
     }),
     createItemListSchema({

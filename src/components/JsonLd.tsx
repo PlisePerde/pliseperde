@@ -396,6 +396,9 @@ export function createItemListSchema(data: {
     sector?: string;
     location?: string;
     countryCode?: string;
+    streetAddress?: string;
+    postalCode?: string;
+    city?: string;
   }[];
 }) {
   return {
@@ -428,7 +431,7 @@ export function createItemListSchema(data: {
           : {}),
         ...(item.sector ? { knowsAbout: item.sector } : {}),
         ...(item.location
-          ? { address: { "@type": "PostalAddress", addressLocality: item.location, addressCountry: item.countryCode || item.location } }
+          ? { address: { "@type": "PostalAddress", streetAddress: item.streetAddress || "", addressLocality: item.city || item.location, postalCode: item.postalCode || "", addressCountry: item.countryCode || item.location } }
           : {}),
         sponsor: { "@id": `${siteConfig.url}/#organization` },
         subjectOf: {

@@ -7,19 +7,22 @@ export interface Partner extends Reference {
   country: string;
   countryCode: string;
   role: string;
+  streetAddress: string;
+  postalCode: string;
+  city: string;
 }
 
 export const partners: Partner[] = [
-  { name: "Hunter Douglas", logo: "/logos/hunter-douglas.webp", country: "Hollanda", countryCode: "NL", role: "Bayi" },
-  { name: "Benthin", logo: "/logos/benthin.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
-  { name: "MHZ Hachtel", logo: "/logos/mhz-hachtel.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
-  { name: "Luxaflex", logo: "/logos/luxaflex.webp", country: "Hollanda", countryCode: "NL", role: "Bayi" },
-  { name: "Neher", logo: "/logos/neher.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
-  { name: "Warema", logo: "/logos/warema.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
-  { name: "Cosiflor", logo: "/logos/cosiflor.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
-  { name: "Erfal", logo: "/logos/erfal.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
-  { name: "JYSK", logo: "/logos/jysk.webp", country: "Danimarka", countryCode: "DK", role: "Bayi" },
-  { name: "Kadeco", logo: "/logos/kadeco.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
+  { name: "Hunter Douglas", logo: "/logos/hunter-douglas.webp", country: "Hollanda", countryCode: "NL", role: "Bayi", streetAddress: "Piekstraat 2", postalCode: "3071 EL", city: "Rotterdam" },
+  { name: "Benthin", logo: "/logos/benthin.webp", country: "Almanya", countryCode: "DE", role: "Bayi", streetAddress: "Osterstader Str. 16", postalCode: "27572", city: "Bremerhaven" },
+  { name: "MHZ Hachtel", logo: "/logos/mhz-hachtel.webp", country: "Almanya", countryCode: "DE", role: "Bayi", streetAddress: "Sindelfinger Straße 21", postalCode: "70771", city: "Leinfelden-Echterdingen" },
+  { name: "Luxaflex", logo: "/logos/luxaflex.webp", country: "Hollanda", countryCode: "NL", role: "Bayi", streetAddress: "Blaak 555", postalCode: "3011 GB", city: "Rotterdam" },
+  { name: "Neher", logo: "/logos/neher.webp", country: "Almanya", countryCode: "DE", role: "Bayi", streetAddress: "Wellendinger Straße 15", postalCode: "78665", city: "Frittlingen" },
+  { name: "Warema", logo: "/logos/warema.webp", country: "Almanya", countryCode: "DE", role: "Bayi", streetAddress: "Hans-Wilhelm-Renkhoff-Straße 2", postalCode: "97828", city: "Marktheidenfeld" },
+  { name: "Cosiflor", logo: "/logos/cosiflor.webp", country: "Almanya", countryCode: "DE", role: "Bayi", streetAddress: "Norderneystraße 3", postalCode: "28217", city: "Bremen" },
+  { name: "Erfal", logo: "/logos/erfal.webp", country: "Almanya", countryCode: "DE", role: "Bayi", streetAddress: "Gewerbering 8", postalCode: "08223", city: "Falkenstein" },
+  { name: "JYSK", logo: "/logos/jysk.webp", country: "Danimarka", countryCode: "DK", role: "Bayi", streetAddress: "Sødalsparken 18", postalCode: "8220", city: "Brabrand" },
+  { name: "Kadeco", logo: "/logos/kadeco.webp", country: "Almanya", countryCode: "DE", role: "Bayi", streetAddress: "Hindenburgring 14-16", postalCode: "32339", city: "Espelkamp" },
 ];
 
 export const customers: Reference[] = [
