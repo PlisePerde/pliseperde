@@ -95,6 +95,7 @@ export function createArticleSchema(data: {
   description: string;
   datePublished?: string;
   dateModified?: string;
+  image?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -103,9 +104,18 @@ export function createArticleSchema(data: {
     description: data.description,
     author: { "@id": `${siteConfig.url}/#organization` },
     publisher: { "@id": `${siteConfig.url}/#organization` },
-    datePublished: data.datePublished || "2026-01-01",
-    dateModified: data.dateModified || new Date().toISOString().split("T")[0],
+    datePublished: data.datePublished ? `${data.datePublished}T00:00:00+03:00` : "2026-01-01T00:00:00+03:00",
+    dateModified: data.dateModified ? `${data.dateModified}T00:00:00+03:00` : new Date().toISOString(),
     inLanguage: "tr-TR",
+    ...(data.image && {
+      image: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}${data.image}`,
+        contentUrl: `${siteConfig.url}${data.image}`,
+        inLanguage: "tr-TR",
+        copyrightHolder: { "@id": `${siteConfig.url}/#organization` },
+      },
+    }),
   };
 }
 
@@ -385,6 +395,7 @@ export function createItemListSchema(data: {
     logo?: string;
     sector?: string;
     location?: string;
+    countryCode?: string;
   }[];
 }) {
   return {
@@ -412,11 +423,12 @@ export function createItemListSchema(data: {
                 inLanguage: "tr-TR",
                 copyrightHolder: { "@id": `${siteConfig.url}/#organization` },
               },
+              image: `${siteConfig.url}${item.logo}`,
             }
           : {}),
         ...(item.sector ? { knowsAbout: item.sector } : {}),
         ...(item.location
-          ? { address: { "@type": "PostalAddress", addressLocality: item.location, addressCountry: item.location } }
+          ? { address: { "@type": "PostalAddress", addressLocality: item.location, addressCountry: item.countryCode || item.location } }
           : {}),
         sponsor: { "@id": `${siteConfig.url}/#organization` },
         subjectOf: {

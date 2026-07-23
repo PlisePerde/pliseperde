@@ -5,20 +5,21 @@ export interface Reference {
 
 export interface Partner extends Reference {
   country: string;
+  countryCode: string;
   role: string;
 }
 
 export const partners: Partner[] = [
-  { name: "Hunter Douglas", logo: "/logos/hunter-douglas.webp", country: "Hollanda", role: "Bayi" },
-  { name: "Benthin", logo: "/logos/benthin.webp", country: "Almanya", role: "Bayi" },
-  { name: "MHZ Hachtel", logo: "/logos/mhz-hachtel.webp", country: "Almanya", role: "Bayi" },
-  { name: "Luxaflex", logo: "/logos/luxaflex.webp", country: "Hollanda", role: "Bayi" },
-  { name: "Neher", logo: "/logos/neher.webp", country: "Almanya", role: "Bayi" },
-  { name: "Warema", logo: "/logos/warema.webp", country: "Almanya", role: "Bayi" },
-  { name: "Cosiflor", logo: "/logos/cosiflor.webp", country: "Almanya", role: "Bayi" },
-  { name: "Erfal", logo: "/logos/erfal.webp", country: "Almanya", role: "Bayi" },
-  { name: "JYSK", logo: "/logos/jysk.webp", country: "Danimarka", role: "Bayi" },
-  { name: "Kadeco", logo: "/logos/kadeco.webp", country: "Almanya", role: "Bayi" },
+  { name: "Hunter Douglas", logo: "/logos/hunter-douglas.webp", country: "Hollanda", countryCode: "NL", role: "Bayi" },
+  { name: "Benthin", logo: "/logos/benthin.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
+  { name: "MHZ Hachtel", logo: "/logos/mhz-hachtel.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
+  { name: "Luxaflex", logo: "/logos/luxaflex.webp", country: "Hollanda", countryCode: "NL", role: "Bayi" },
+  { name: "Neher", logo: "/logos/neher.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
+  { name: "Warema", logo: "/logos/warema.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
+  { name: "Cosiflor", logo: "/logos/cosiflor.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
+  { name: "Erfal", logo: "/logos/erfal.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
+  { name: "JYSK", logo: "/logos/jysk.webp", country: "Danimarka", countryCode: "DK", role: "Bayi" },
+  { name: "Kadeco", logo: "/logos/kadeco.webp", country: "Almanya", countryCode: "DE", role: "Bayi" },
 ];
 
 export const customers: Reference[] = [

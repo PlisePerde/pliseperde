@@ -88,6 +88,7 @@ export default function ReferanslarimizPage() {
       description:
         "2000+ tamamlanan proje, 500+ kurumsal müşteri. Otel, ofis, okul, hastane ve konut projeleri.",
       datePublished: "2022-01-01",
+      image: "/referanslarimiz.webp",
     }),
     createItemListSchema({
       name: "Plise Perde Yurtdışı Bayileri ve İş Ortakları",
@@ -100,6 +101,7 @@ export default function ReferanslarimizPage() {
         logo: p.logo,
         sector: p.role,
         location: p.country,
+        countryCode: p.countryCode,
       })),
     }),
     createItemListSchema({
