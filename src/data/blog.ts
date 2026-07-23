@@ -92,6 +92,7 @@ export const blogPosts: BlogPost[] = [
     title: "Plise Perde Ölçüsü Nasıl Alınır?",
     description:
       "Cam içi ve cam çıtası üstü plise perde ölçüsü nasıl alınır? Hangi araçlar gerekir? Hangi noktalara dikkat edilmeli? Profesyonel ölçü alma rehberi.",
+    image: "/blog/plise-perde-olcusu-nasil-alinir.webp",
     author: "Plise Perde Ölçü Alma Uzmanı",
     datePublished: "2026-07-16",
     readingTime: 7,
