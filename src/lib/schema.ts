@@ -3,7 +3,8 @@ import { siteConfig } from "@/lib/site-config";
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": ["Organization", "Manufacturer"],
+    "@type": "Organization",
+    "additionalType": "Manufacturer",
     "@id": `${siteConfig.url}/#organization`,
     name: siteConfig.name,
     url: siteConfig.url,

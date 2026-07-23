@@ -209,6 +209,10 @@ export function createImageSchema(data: {
     inLanguage: "tr-TR",
     creator: { "@id": `${siteConfig.url}/#organization` },
     copyrightHolder: { "@id": `${siteConfig.url}/#organization` },
+    creditText: siteConfig.name,
+    copyrightNotice: `© ${siteConfig.foundedYear} ${siteConfig.name} — Tüm hakları saklıdır`,
+    license: `${siteConfig.url}/kullanim-sartlari/`,
+    acquireLicensePage: `${siteConfig.url}/iletisim/`,
   };
 }
 
@@ -358,6 +362,10 @@ export function createImageGallerySchema(data: {
       inLanguage: "tr-TR",
       creator: { "@id": `${siteConfig.url}/#organization` },
       copyrightHolder: { "@id": `${siteConfig.url}/#organization` },
+      creditText: siteConfig.name,
+      copyrightNotice: `© ${siteConfig.foundedYear} ${siteConfig.name} — Tüm hakları saklıdır`,
+      license: `${siteConfig.url}/kullanim-sartlari/`,
+      acquireLicensePage: `${siteConfig.url}/iletisim/`,
       ...(img.width && img.height
         ? { width: { "@type": "QuantitativeValue", value: img.width, unitCode: "E37" },
             height: { "@type": "QuantitativeValue", value: img.height, unitCode: "E37" } }
