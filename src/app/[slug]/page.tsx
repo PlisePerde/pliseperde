@@ -144,7 +144,7 @@ async function BlogPostView({ slug }: { slug: string }) {
   const post = getBlogPostBySlug(slug);
   if (!post) notFound();
 
-  const relatedPosts = getRelatedBlogPosts(post.slug, 3);
+  const relatedPosts = getRelatedBlogPosts(post.slug, 4);
   const otherPosts = getAllBlogPosts().filter((p) => p.slug !== post.slug).slice(0, 5);
 
   const breadcrumb = [
@@ -329,32 +329,43 @@ async function BlogPostView({ slug }: { slug: string }) {
             <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-6">
               İlgili Yazılar
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {relatedPosts.map((rp) => (
                 <article
                   key={rp.slug}
                   className="bg-white border border-brand-border rounded-lg overflow-hidden hover:border-brand transition-colors"
                 >
-                  <Link href={`/${rp.slug}`} className="block p-5">
-                    <h3 className="text-base font-semibold text-brand-text mb-2 leading-tight">
-                      {rp.title}
-                    </h3>
-                    <p className="text-sm text-brand-text-light mb-4 line-clamp-2">
-                      {rp.description}
-                    </p>
-                    <div className="flex items-center gap-3 text-xs text-brand-text-light">
-                      <span className="flex items-center gap-1">
-                        <Calendar size={12} />
-                        {new Date(rp.datePublished).toLocaleDateString("tr-TR", {
-                          day: "numeric",
-                          month: "short",
-                          year: "numeric",
-                        })}
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <Clock size={12} />
-                        {rp.readingTime} dk
-                      </span>
+                  <Link href={`/${rp.slug}`} className="block">
+                    {rp.image && (
+                      <img
+                        src={rp.image}
+                        alt={rp.imageAlt || rp.title}
+                        width={1200}
+                        height={675}
+                        className="w-full h-40 object-cover"
+                      />
+                    )}
+                    <div className="p-5">
+                      <h3 className="text-base font-semibold text-brand-text mb-2 leading-tight">
+                        {rp.title}
+                      </h3>
+                      <p className="text-sm text-brand-text-light mb-4 line-clamp-2">
+                        {rp.description}
+                      </p>
+                      <div className="flex items-center gap-3 text-xs text-brand-text-light">
+                        <span className="flex items-center gap-1">
+                          <Calendar size={12} />
+                          {new Date(rp.datePublished).toLocaleDateString("tr-TR", {
+                            day: "numeric",
+                            month: "short",
+                            year: "numeric",
+                          })}
+                        </span>
+                        <span className="flex items-center gap-1">
+                          <Clock size={12} />
+                          {rp.readingTime} dk
+                        </span>
+                      </div>
                     </div>
                   </Link>
                 </article>
