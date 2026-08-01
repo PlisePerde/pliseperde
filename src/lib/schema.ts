@@ -66,6 +66,7 @@ export function websiteSchema() {
     "@type": "WebSite",
     "@id": `${siteConfig.url}/#website`,
     name: siteConfig.name,
+    alternateName: "Plise Perde",
     url: siteConfig.url,
     inLanguage: "tr-TR",
     publisher: {

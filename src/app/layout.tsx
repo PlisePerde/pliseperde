@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   description:
     "Plise Perde özel ölçü üretim, ücretsiz keşif, ücretsiz ölçülendirme ve ücretsiz montaj hizmetiyle FENETRE kalitesini yaşam alanlarınıza taşır.",
   keywords: ["plise perde"],
+  applicationName: "Plise Perde",
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   publisher: siteConfig.name,
