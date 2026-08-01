@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   verification: {
     google: "nqWwFE2E710n1sOZY32SHixMuJ860LFuJZV7biitAqo",
     other: {
-      "ahrefs-site-verification": "ahrefs-site-verification_7a74c1882e9233bcc2cbf2545af1de7c71911673c04190e2e4394860a3e6349d",
+      "ahrefs-site-verification": "7a74c1882e9233bcc2cbf2545af1de7c71911673c04190e2e4394860a3e6349d",
     },
   },
   title: {
