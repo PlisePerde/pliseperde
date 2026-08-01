@@ -162,6 +162,7 @@ export const blogPosts: BlogPost[] = [
     title: "Plise Perde Temizliği Nasıl Yapılır?",
     description:
       "Plise perde nasıl temizlenir ve nasıl yıkanır? Günlük bakımdan derin temizliğe, kumaş türüne göre yıkama yöntemlerinden sıkça yapılan hatalara kadar kapsamlı temizlik rehberi.",
+    image: "/blog/plise-perde-temizligi-nasil-yapilir.webp",
     author: "Plise Perde Bakım Uzmanı",
     datePublished: "2026-07-25",
     readingTime: 7,
