@@ -55,7 +55,7 @@ export default function Footer() {
             <a
               href={siteConfig.social.facebook}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="noopener noreferrer"
               className="text-brand-text hover:text-brand transition-colors"
               aria-label="Facebook"
             >
@@ -64,7 +64,7 @@ export default function Footer() {
             <a
               href={siteConfig.social.instagram}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="noopener noreferrer"
               className="text-brand-text hover:text-brand transition-colors"
               aria-label="Instagram"
             >
@@ -73,7 +73,7 @@ export default function Footer() {
             <a
               href={siteConfig.social.youtube}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="noopener noreferrer"
               className="text-brand-text hover:text-brand transition-colors"
               aria-label="YouTube"
             >
@@ -82,7 +82,7 @@ export default function Footer() {
             <a
               href={siteConfig.social.pinterest}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="noopener noreferrer"
               className="text-brand-text hover:text-brand transition-colors"
               aria-label="Pinterest"
             >
@@ -91,7 +91,7 @@ export default function Footer() {
             <a
               href={siteConfig.social.linkedin}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="noopener noreferrer"
               className="text-brand-text hover:text-brand transition-colors"
               aria-label="LinkedIn"
             >

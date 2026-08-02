@@ -50,7 +50,7 @@ export default function BottomNav() {
                 key={item.label}
                 href={item.href}
                 onClick={handleHaptic}
-                rel="nofollow noopener noreferrer"
+                rel={item.href.startsWith("https://wa.me") ? "nofollow noopener noreferrer" : "noopener noreferrer"}
                 className="flex flex-col items-center justify-center py-2 gap-1 text-brand-text-light"
               >
                 <Icon size={20} className="text-brand" />

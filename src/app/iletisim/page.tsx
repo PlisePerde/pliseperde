@@ -167,7 +167,7 @@ export default function IletisimPage() {
                       key={social.label}
                       href={social.href}
                       target="_blank"
-                      rel="nofollow noopener noreferrer"
+                      rel="noopener noreferrer"
                       aria-label={social.label}
                       className="flex items-center justify-center w-9 h-9 rounded-lg border border-brand-border text-brand-text-light hover:text-brand hover:border-brand transition-colors"
                     >
