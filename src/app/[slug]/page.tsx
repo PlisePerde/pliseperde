@@ -277,8 +277,8 @@ async function BlogPostView({ slug }: { slug: string }) {
                   <h2 className="text-xl md:text-2xl font-semibold text-brand-text mb-3 leading-tight">
                     {section.heading}
                   </h2>
-                  <p
-                    className="text-sm md:text-base text-brand-text-light leading-relaxed [&_a]:text-brand [&_a]:underline [&_a]:hover:text-brand-dark"
+                  <div
+                    className="text-sm md:text-base text-brand-text-light leading-relaxed [&_a]:text-brand [&_a]:underline [&_a]:hover:text-brand-dark [&_h3]:text-base [&_h3]:font-semibold [&_h3]:text-brand-text [&_h3]:mt-4 [&_h3]:mb-2 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-1 [&_ol]:list-decimal [&_ol]:pl-5 [&_ol]:space-y-1 [&_p]:mb-3"
                     dangerouslySetInnerHTML={{ __html: section.content }}
                   />
                 </section>
