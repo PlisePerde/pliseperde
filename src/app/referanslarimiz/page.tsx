@@ -279,7 +279,7 @@ export default function ReferanslarimizPage() {
                 ))}
                 {/* CTA Card */}
                 <a
-                  href="/iletisim"
+                  href="/iletisim/"
                   className="group flex flex-col items-center justify-center p-1 rounded-xl bg-brand-bg border-2 border-dashed border-brand hover:border-brand hover:shadow-md transition-all"
                 >
                   <div className="relative w-full h-24 md:h-28 flex flex-col items-center justify-center text-center">
