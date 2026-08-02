@@ -117,7 +117,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "plise-perde-montaji-nasil-yapilir",
-    title: "Plise Perde Montajı Nasıl Yapılır? Plise Perde Takma Rehberi",
+    title: "Plise Perde Montajı Nasıl Yapılır?",
     description:
       "Plise perde takma ve montajı adım adım: vidalı ve yapışkanlı sistem. Hangi araçlar gerekir? Plise perde nasıl takılır? Profesyonel plise perde takma teknikleri ve dikkat edilmesi gerekenler.",
     author: "Plise Perde Montaj Ekibi",
