@@ -66,9 +66,13 @@ export default function Home() {
       <main className="flex-1 pb-14 md:pb-0">
         {/* Hero */}
         <section className="relative min-h-[420px] md:min-h-[540px] flex items-center justify-center overflow-hidden">
-          <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: "url(/hero.webp)", backgroundPosition: "center center", backgroundSize: "cover" }}
+          <img
+            src="/hero.webp"
+            alt=""
+            width={1920}
+            height={1080}
+            fetchPriority="high"
+            className="absolute inset-0 w-full h-full object-cover"
             aria-hidden="true"
           />
           <div
