@@ -30,7 +30,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Adalar", "Arnavutköy", "Ataşehir", "Avcılar", "Bağcılar", "Bahçelievler", "Bakırköy", "Başakşehir", "Bayrampaşa", "Beşiktaş", "Beykoz", "Beylikdüzü", "Beyoğlu", "Büyükçekmece", "Çatalca", "Çekmeköy", "Esenler", "Esenyurt", "Eyüpsultan", "Fatih", "Gaziosmanpaşa", "Güngören", "Kadıköy", "Kağıthane", "Kartal", "Küçükçekmece", "Maltepe", "Pendik", "Sancaktepe", "Sarıyer", "Silivri", "Sultanbeyli", "Sultangazi", "Şile", "Şişli", "Tuzla", "Ümraniye", "Üsküdar", "Zeytinburnu"],
     intro: "İstanbul'un 39 ilçesinin tamamında <strong>ücretsiz yerinde keşif ve aynı gün montaj</strong> yapıyoruz. Pendik merkezli üretim tesisimizden Anadolu ve Avrupa yakasına kesintisiz hizmet veriyor, Boğaz'ın iki yakasında binlerce ev ve işyerine plise perde monte ediyoruz.",
-    seoTitle: "İstanbul Plise Perde",
+    seoTitle: "İstanbul Plise Perde - Ucretsiz Kesif & Montaj",
     seoDescription: "İstanbul'un 39 ilçesinde plise perde: ücretsiz yerinde keşif, aynı gün montaj, Pendik merkezli üretim. Anadolu ve Avrupa yakası tam servis.",
     sections: [
       {
@@ -61,7 +61,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Başiskele", "Çayırova", "Darıca", "Derince", "Dilovası", "Gebze", "Gölcük", "İzmit", "Kandıra", "Karamürsel", "Kartepe", "Körfez"],
     intro: "Kocaeli'nin 12 ilçesinde plise perde hizmeti veriyoruz. Pendik İstanbul'a komşu olmamızın avantajıyla <strong>Gebze, Darıca, Çayırova, Dilovası</strong> ilçelerine aynı gün keşif ve montaj yapıyoruz. İzmit, Gölcük, Körfez bölgelerine de ücretsiz yerinde keşif ile hizmet veriyoruz.",
-    seoTitle: "Kocaeli Plise Perde",
+    seoTitle: "Kocaeli Plise Perde - Ucretsiz Kesif & Montaj",
     seoDescription: "Kocaeli'nin 12 ilçesinde plise perde: Gebze, Darıca, İzmit, Gölcük ücretsiz keşif ve montaj. Pendik İstanbul sınırından günlük servis.",
     sections: [
       {
@@ -90,7 +90,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Adapazarı", "Akyazı", "Arifiye", "Erenler", "Ferizli", "Geyve", "Hendek", "Karapürçek", "Karasu", "Kaynarca", "Kocaali", "Pamukova", "Sapanca", "Serdivan", "Söğütlü", "Taraklı"],
     intro: "Sakarya'nın 16 ilçesinde plise perde hizmeti sunuyoruz. <strong>Adapazarı, Serdivan, Erenler</strong> merkez ilçelerine ücretsiz yerinde keşif ile ertesi gün montaj yapıyoruz. Deprem bölgesi olması sebebiyle esnek montaj sistemleri ve hafif kumaş seçenekleri öneriyoruz.",
-    seoTitle: "Sakarya Plise Perde",
+    seoTitle: "Sakarya Plise Perde - Ucretsiz Kesif & Montaj",
     seoDescription: "Sakarya'nın 16 ilçesinde plise perde: Adapazarı, Serdivan, Sapanca ücretsiz keşif. Deprem güvenli esnek montaj sistemi ile profesyonel uygulama.",
     sections: [
       {
@@ -119,7 +119,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Altınova", "Armutlu", "Çınarcık", "Çiftlikköy", "Termal", "Yalova merkez"],
     intro: "Yalova'nın 6 ilçesinde plise perde hizmeti veriyoruz. İstanbul'a vapur mesafesinde olan Yalova'ya <strong>haftalık planlı keşif günleri</strong> ile ücretsiz yerinde keşif yapıyoruz. Termal su kaynakları çevresindeki otel ve pansiyonlara da perde çözümleri sunuyoruz.",
-    seoTitle: "Yalova Plise Perde",
+    seoTitle: "Yalova Plise Perde - Ucretsiz Kesif & Montaj",
     seoDescription: "Yalova'nın 6 ilçesinde plise perde: Termal, Çınarcık, Armutlu ücretsiz keşif. Spa otelleri ve yazlık konutlar için özel çözümler.",
     sections: [
       {
@@ -148,7 +148,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Akçakoca", "Cumayeri", "Çilimli", "Düzce merkez", "Gölyaka", "Gümüşova", "Kaynaşlı", "Yığılca"],
     intro: "Düzce'nin 8 ilçesinde plise perde hizmeti sunuyoruz. Ormanları ve Karadeniz sahili ile bilinen Düzce'de <strong>hem deprem güvenli montaj hem de nem dayanımlı kumaş</strong> seçenekleri sunuyoruz. Akçakoca sahil bölgesi için özel anti-nem çözümleri mevcuttur.",
-    seoTitle: "Düzce Plise Perde",
+    seoTitle: "Düzce Plise Perde - Video Kesif & Kargo",
     seoDescription: "Düzce'nin 8 ilçesinde plise perde: Akçakoca sahil, Düzce merkez ücretsiz keşif. Deprem güvenli montaj ve nem dayanımlı kumaş seçenekleri.",
     sections: [
       {
@@ -177,7 +177,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Bilecik merkez", "Bozüyük", "Gölpazarı", "İnhisar", "Osmaneli", "Pazaryeri", "Söğüt", "Yenipazar"],
     intro: "Bilecik'in 8 ilçesinde plise perde hizmeti veriyoruz. Osmanlı İmparatorluğu'nun doğduğu topraklarda, tarihi binalar ve modern konutlar için uygun perde çözümleri sunuyoruz. <strong>Bozüyük</strong> sanayi bölgesindeki kurumsal projelere de hizmet veriyoruz.",
-    seoTitle: "Bilecik Plise Perde",
+    seoTitle: "Bilecik Plise Perde - Video Kesif & Kargo",
     seoDescription: "Bilecik'in 8 ilçesinde plise perde: Söğüt, Bozüyük, Osmaneli ücretsiz keşif. Tarihi binalar ve sanayi tesisleri için özel çözümler.",
     sections: [
       {
@@ -206,7 +206,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Büyükorhan", "Gemlik", "Gürsu", "Harmancık", "İnegöl", "İznik", "Karacabey", "Keles", "Kestel", "Mudanya", "Mustafakemalpaşa", "Nilüfer", "Osmangazi", "Orhangazi", "Yıldırım", "Yenişehir"],
     intro: "Bursa'nın 16 ilçesinde plise perde hizmeti sunuyoruz. <strong>Osmangazi, Nilüfer, Yıldırım</strong> merkez ilçelerine ücretsiz yerinde keşif ile ertesi gün montaj yapıyoruz. Uludağ'ın eteklerinden Gemlik Körfezi sahiline kadar geniş bir coğrafyaya hizmet veriyoruz.",
-    seoTitle: "Bursa Plise Perde",
+    seoTitle: "Bursa Plise Perde - Video Kesif & Kargo",
     seoDescription: "Bursa'nın 16 ilçesinde plise perde: Nilüfer, Osmangazi, Yıldırım ücretsiz keşif. Uludağ villaları, İnegöl mobilya bölgesi ve Gemlik sahili için çözümler.",
     sections: [
       {
@@ -235,7 +235,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Altıeylül", "Ayvalık", "Balya", "Bandırma", "Bigadiç", "Burhaniye", "Dursunbey", "Edremit", "Erdek", "Gömeç", "Gönen", "Havran", "İvrindi", "Karesi", "Kepsut", "Manyas", "Marmara", "Savaştepe", "Sındırgı", "Susurluk"],
     intro: "Balıkesir'in 20 ilçesinde plise perde hizmeti veriyoruz. <strong>Altıeylül, Karesi</strong> merkez ilçelerine ücretsiz keşif ile hizmet sunuyoruz. Edremit Körfezi'nin turistik beldelerinde (Ayvalık, Burhaniye, Edremit) yazlık ve otel projeleri için özel çözümler mevcuttur.",
-    seoTitle: "Balıkesir Plise Perde",
+    seoTitle: "Balıkesir Plise Perde - Video Kesif & Kargo",
     seoDescription: "Balıkesir'in 20 ilçesinde plise perde: Bandırma, Edremit, Ayvalık ücretsiz keşif. Sahil yazlıkları ve otel projeleri için nem dayanımlı çözümler.",
     sections: [
       {
@@ -264,7 +264,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Ayvacık", "Bayramiç", "Biga", "Bozcaada", "Çan", "Çanakkale merkez", "Eceabat", "Ezine", "Gelibolu", "Gökçeada", "Lapseki", "Yenice"],
     intro: "Çanakkale'nin 12 ilçesinde plise perde hizmeti sunuyoruz. <strong>Çanakkale merkez, Eceabat, Gelibolu</strong> bölgelerine ücretsiz keşif ile hizmet veriyoruz. Bozcaada ve Gökçeada adalarına da sezonluk planlı keşif düzenliyoruz.",
-    seoTitle: "Çanakkale Plise Perde",
+    seoTitle: "Çanakkale Plise Perde - Video Kesif & Kargo",
     seoDescription: "Çanakkale'nin 12 ilçesinde plise perde: Gelibolu, Eceabat, Biga ücretsiz keşif. Bozcaada ve Gökçeada adalarına sezonluk servis.",
     sections: [
       {
@@ -293,7 +293,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Edirne merkez", "Enez", "Havsa", "İpsala", "Keşan", "Lalapaşa", "Meriç", "Süloğlu", "Uzunköprü"],
     intro: "Edirne'nin 9 ilçesinde plise perde hizmeti veriyoruz. Osmanlı başkentinin tarihi cami ve binalarının çevresindeki konutlarda, <strong>geleneksel pencere ölçülerine uygun özel üretim</strong> yapıyoruz. Keşan ve İpsala sınır bölgelerindeki çiftlik evlerine de hizmet veriyoruz.",
-    seoTitle: "Edirne Plise Perde",
+    seoTitle: "Edirne Plise Perde - Video Kesif & Kargo",
     seoDescription: "Edirne'nin 9 ilçesinde plise perde: Keşan, Uzunköprü, İpsala ücretsiz keşif. Tarihi bina pencereleri için özel ölçü üretim.",
     sections: [
       {
@@ -322,7 +322,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Babaeski", "Demirköy", "Kırklareli merkez", "Kofçaz", "Lüleburgaz", "Pehlivanköy", "Pınarhisar", "Vize"],
     intro: "Kırklareli'nin 8 ilçesinde plise perde hizmeti sunuyoruz. Bulgaristan sınırına yakın olan Kırklareli'nin <strong>soğuk kış iklimine uygun ısı yalıtımlı perde modellerini</strong> öneriyoruz. Lüleburgaz sanayi bölgesindeki fabrika ve ofis binalarına da kurumsal çözümler sunuyoruz.",
-    seoTitle: "Kırklareli Plise Perde",
+    seoTitle: "Kırklareli Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kırklareli'nin 8 ilçesinde plise perde: Lüleburgaz, Babaeski, Vize ücretsiz keşif. Soğuk iklim için ısı yalıtımlı honeycomb modelleri.",
     sections: [
       {
@@ -351,7 +351,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Çerkezköy", "Çorlu", "Ergene", "Hayrabolu", "Kapaklı", "Malkara", "Marmaraereğlisi", "Muratlı", "Saray", "Şarköy", "Tekirdağ merkez"],
     intro: "Tekirdağ'ın 11 ilçesinde plise perde hizmeti veriyoruz. <strong>Çorlu, Çerkezköy, Kapaklı</strong> sanayi bölgesine haftalık keşif ile hizmet sunuyoruz. Tekirdağ merkez ve Şarköy sahil bölgesindeki bağ evleri ve yazlıklar için de perde çözümleri mevcuttur.",
-    seoTitle: "Tekirdağ Plise Perde",
+    seoTitle: "Tekirdağ Plise Perde - Video Kesif & Kargo",
     seoDescription: "Tekirdağ'ın 11 ilçesinde plise perde: Çorlu, Çerkezköy, Kapaklı ücretsiz keşif. Sanayi tesisleri ve sahil yazlıkları için çözümler.",
     sections: [
       {
@@ -381,7 +381,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aliağa", "Balçova", "Bayraklı", "Bornova", "Buca", "Çeşme", "Dikili", "Foça", "Gaziemir", "Güzelbahçe", "Karabağlar", "Karşıyaka", "Konak", "Menderes", "Menemen", "Narlıdere", "Seferihisar", "Selçuk", "Torbalı", "Urla", "Beydağ", "Kınık", "Kiraz", "Ödemiş", "Tire", "Bayındır"],
     intro: "İzmir'in 26 ilçesinde plise perde hizmeti sunuyoruz. Ege'nin inci şehrinde <strong>video keşif ve kargo ile teslimat</strong> yapıyoruz. Kordon boyundan Çeşme yarımadasına, Bornova'dan Selçuk'a kadar İzmir'in her köşesine plise perde gönderiyoruz.",
-    seoTitle: "İzmir Plise Perde",
+    seoTitle: "İzmir Plise Perde - Video Kesif & Kargo",
     seoDescription: "İzmir'in 26 ilçesinde plise perde: Çeşme, Bornova, Karşıyaka video keşif ve kargo ile teslimat. Ege iklimine uygun nem dayanımlı kumaş.",
     sections: [
       {
@@ -410,7 +410,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aydın merkez", "Bozdoğan", "Buharkent", "Çine", "Didim", "Germencik", "İncirliova", "Karacasu", "Karpuzlu", "Koçarlı", "Köşk", "Kuşadası", "Kuyucak", "Nazilli", "Söke", "Sultanhisar", "Yenipazar"],
     intro: "Aydın'ın 17 ilçesinde plise perde hizmeti sunuyoruz. <strong>Kuşadası, Didim, Söke</strong> sahil beldelerindeki turistik tesisler ve yazlık konutlar için özel çözümler mevcuttur. Nazilli ve Aydın merkezdeki apartman daireleri için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Aydın Plise Perde",
+    seoTitle: "Aydın Plise Perde - Video Kesif & Kargo",
     seoDescription: "Aydın'ın 17 ilçesinde plise perde: Kuşadası, Didim, Nazilli video keşif ve kargo ile teslimat. Turistik tesisler ve yazlık konutlar için çözümler.",
     sections: [
       {
@@ -439,7 +439,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bodrum", "Dalaman", "Datça", "Fethiye", "Kavaklıdere", "Köyceğiz", "Marmaris", "Menteşe", "Milas", "Muğla merkez", "Ortaca", "Seydikemer", "Ula", "Yatağan"],
     intro: "Muğla'nın 13 ilçesinde plise perde hizmeti sunuyoruz. <strong>Bodrum, Marmaris, Fethiye</strong> gibi Türkiye'nin en önemli turizm merkezlerindeki otel, villa ve yazlık konutlar için özel perde çözümleri üretiyoruz. Ege ve Akdeniz ikliminin kesiştiği Muğla'da nem dayanımlı kumaş kullanıyoruz.",
-    seoTitle: "Muğla Plise Perde",
+    seoTitle: "Muğla Plise Perde - Video Kesif & Kargo",
     seoDescription: "Muğla'nın 13 ilçesinde plise perde: Bodrum, Marmaris, Fethiye video keşif ve kargo. Turizm tesisleri ve villa projeleri için özel çözümler.",
     sections: [
       {
@@ -468,7 +468,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ahmetli", "Akhisar", "Alaşehir", "Demirci", "Gölmarmara", "Gördes", "Kırkağaç", "Köprübaşı", "Kula", "Manisa merkez", "Salihli", "Sarıgöl", "Saruhanlı", "Selendi", "Soma", "Turgutlu", "Yunusemre", "Şehzadeler"],
     intro: "Manisa'nın 17 ilçesinde plise perde hizmeti veriyoruz. <strong>Soma, Akhisar, Turgutlu</strong> sanayi bölgelerindeki fabrika ve lojmanlar için kurumsal perde çözümleri sunuyoruz. Manisa merkez ve Alaşehir'deki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Manisa Plise Perde",
+    seoTitle: "Manisa Plise Perde - Video Kesif & Kargo",
     seoDescription: "Manisa'nın 17 ilçesinde plise perde: Soma, Akhisar, Turgutlu video keşif ve kargo. Sanayi tesisleri ve konutlar için çözümler.",
     sections: [
       {
@@ -497,7 +497,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Afyonkarahisar merkez", "Başmakçı", "Bayat", "Bolvadin", "Çay", "Çobanlar", "Dazkırı", "Dinar", "Emirdağ", "Evciler", "Hocalar", "İhsaniye", "İscehisar", "Kızılören", "Sandıklı", "Sincanlı", "Sultandağı", "Şuhut"],
     intro: "Afyonkarahisar'ın 18 ilçesinde plise perde hizmeti sunuyoruz. İç Ege'nin karasal ikliminde, kış soğuklarına karşı <strong>ısı yalıtımlı honeycomb modelleri</strong> öneriyoruz. Afyon merkez ve Sandıklı'daki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Afyonkarahisar Plise Perde",
+    seoTitle: "Afyonkarahisar Plise Perde - Video Kesif & Kargo",
     seoDescription: "Afyonkarahisar'ın 18 ilçesinde plise perde: Sandıklı, Bolvadin, Dinar video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -526,7 +526,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Altıntaş", "Aslanapa", "Çavdarhisar", "Domaniç", "Dumlupınar", "Emet", "Gediz", "Hisarcık", "Kütahya merkez", "Pazarlar", "Simav", "Şaphane", "Tavşanlı"],
     intro: "Kütahya'nın 13 ilçesinde plise perde hizmeti veriyoruz. İç Ege'nin yüksek rakımlı karasal ikliminde, <strong>kış soğuklarına karşı ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Kütahya merkez ve Tavşanlı'daki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kütahya Plise Perde",
+    seoTitle: "Kütahya Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kütahya'nın 13 ilçesinde plise perde: Tavşanlı, Simav, Gediz video keşif ve kargo. Yüksek rakım karasal iklim için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -555,7 +555,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Acıpayam", "Babadağ", "Baklan", "Bekilli", "Beyağaç", "Bozkurt", "Buldan", "Çal", "Çameli", "Çardak", "Çivril", "Denizli merkez", "Güney", "Honaz", "Kale", "Merkezefendi", "Pamukkale", "Sarayköy", "Serinhisar", "Tavas"],
     intro: "Denizli'nin 19 ilçesinde plise perde hizmeti sunuyoruz. Pamukkale turizm bölgesindeki oteller ve Buldan dokuma bölgesindeki konutlar için özel çözümler mevcuttur. Denizli merkez ve Sarayköy'deki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Denizli Plise Perde",
+    seoTitle: "Denizli Plise Perde - Video Kesif & Kargo",
     seoDescription: "Denizli'nin 19 ilçesinde plise perde: Pamukkale, Buldan, Çivril video keşif ve kargo. Turizm tesisleri ve tekstil bölgesi için çözümler.",
     sections: [
       {
@@ -584,7 +584,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Banaz", "Eşme", "Karahallı", "Sivaslı", "Ulubey", "Uşak merkez"],
     intro: "Uşak'ın 6 ilçesinde plise perde hizmeti veriyoruz. Ege ile İç Anadolu geçişinde bulunan Uşak'ın karasal iklimine uygun <strong>ısı yalıtımlı ve karartma modellerini</strong> öneriyoruz. Uşak merkez ve Banaz'daki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Uşak Plise Perde",
+    seoTitle: "Uşak Plise Perde - Video Kesif & Kargo",
     seoDescription: "Uşak'ın 6 ilçesinde plise perde: Banaz, Eşme, Ulubey video keşif ve kargo. Ege-İç Anadolu geçiş iklimi için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -614,7 +614,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akseki", "Aksu", "Alanya", "Demre", "Döşemealtı", "Elmalı", "Finike", "Gazipaşa", "Gündoğmuş", "İbradı", "Kaş", "Kemer", "Kepez", "Konyaaltı", "Kumluca", "Manavgat", "Muratpaşa", "Serik"],
     intro: "Antalya'nın 19 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nın turizm başkentinde <strong>oteller, villa projeleri ve yazlık konutlar</strong> için özel perde çözümleri üretiyoruz. Akdeniz güneşine ve nemine dayanıklı kumaş tipleri kullanıyoruz.",
-    seoTitle: "Antalya Plise Perde",
+    seoTitle: "Antalya Plise Perde - Video Kesif & Kargo",
     seoDescription: "Antalya'nın 19 ilçesinde plise perde: Alanya, Kemer, Manavgat video keşif ve kargo. Otel ve villa projeleri için özel çözümler.",
     sections: [
       {
@@ -643,7 +643,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aladağ", "Ceyhan", "Çukurova", "Feke", "İmamoğlu", "Karaisalı", "Karataş", "Kozan", "Pozantı", "Saimbeyli", "Sarıçam", "Seyhan", "Tufanbeyli", "Yumurtalık", "Yüreğir"],
     intro: "Adana'nın 15 ilçesinde plise perde hizmeti veriyoruz. Çukurova'nın sıcak ikliminde, <strong>yaz aylarında +40°C'yi aşan sıcaklığa karşı güneşlik ve karartma modellerini</strong> öneriyoruz. Adana merkez (Seyhan, Çukurova, Yüreğir) konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Adana Plise Perde",
+    seoTitle: "Adana Plise Perde - Video Kesif & Kargo",
     seoDescription: "Adana'nın 15 ilçesinde plise perde: Seyhan, Ceyhan, Kozan video keşif ve kargo. Çukurova sıcak iklimi için güneşlik ve karartma modelleri.",
     sections: [
       {
@@ -672,7 +672,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akdeniz", "Anamur", "Aydıncık", "Bozyazı", "Çamlıyayla", "Erdemli", "Gülnar", "Mezitli", "Mut", "Silifke", "Tarsus", "Toroslar", "Yenişehir"],
     intro: "Mersin'in 13 ilçesinde plise perde hizmeti sunuyoruz. Akdeniz sahlindeki Mersin merkez (Mezitli, Yenişehir, Toroslar, Akdeniz) konutları için <strong>deniz nemine ve sıcaklığa dayanıklı kumaş modellerini</strong> öneriyoruz. Anamur ve Silifke turizm bölgesindeki oteller için de çözümler mevcuttur.",
-    seoTitle: "Mersin Plise Perde",
+    seoTitle: "Mersin Plise Perde - Video Kesif & Kargo",
     seoDescription: "Mersin'in 13 ilçesinde plise perde: Tarsus, Erdemli, Silifke video keşif ve kargo. Sahil nemine dayanıklı kumaş ve turizm çözümleri.",
     sections: [
       {
@@ -701,7 +701,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aksu", "Atabey", "Eğirdir", "Gelendost", "Gönen", "Keçiborlu", "Isparta merkez", "Senirkent", "Sütçüler", "Şarkikaraağaç", "Uluborlu", "Yalvaç", "Yenişarbademli"],
     intro: "Isparta'nın 13 ilçesinde plise perde hizmeti veriyoruz. Göller bölgesinin yüksek rakımlı ikliminde, <strong>kış soğuklarına karşı ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Eğirdir Gölü çevresindeki yazlık ve turizm tesisleri için de perde çözümleri mevcuttur.",
-    seoTitle: "Isparta Plise Perde",
+    seoTitle: "Isparta Plise Perde - Video Kesif & Kargo",
     seoDescription: "Isparta'nın 13 ilçesinde plise perde: Eğirdir, Yalvaç, Senirkent video keşif ve kargo. Yüksek rakım göl iklimi için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -730,7 +730,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ağlasun", "Altınyayla", "Bucak", "Burdur merkez", "Çavdır", "Çeltikçi", "Gölhisar", "Karamanlı", "Kemer", "Tefenni", "Yeşilova"],
     intro: "Burdur'un 11 ilçesinde plise perde hizmeti sunuyoruz. Göller bölgesinin karasal ikliminde, <strong>kış soğuklarına uygun ısı yalıtımlı modelleri</strong> öneriyoruz. Burdur Gölü çevresindeki konutlar ve Bucak sanayi bölgesi için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Burdur Plise Perde",
+    seoTitle: "Burdur Plise Perde - Video Kesif & Kargo",
     seoDescription: "Burdur'un 11 ilçesinde plise perde: Bucak, Gölhisar, Tefenni video keşif ve kargo. Karasal göl iklimi için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -759,7 +759,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bahçe", "Düziçi", "Hasanbeyli", "Kadirli", "Osmaniye merkez", "Sumbas", "Toprakkale"],
     intro: "Osmaniye'nin 7 ilçesinde plise perde hizmeti veriyoruz. Çukurova'nın sıcak iklim kuşağında, <strong>yaz sıcaklığına karşı güneşlik ve karartma modellerini</strong> öneriyoruz. Osmaniye merkez ve Kadirli konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Osmaniye Plise Perde",
+    seoTitle: "Osmaniye Plise Perde - Video Kesif & Kargo",
     seoDescription: "Osmaniye'nin 7 ilçesinde plise perde: Kadirli, Düziçi, Bahçe video keşif ve kargo. Sıcak iklim için güneşlik ve karartma modelleri.",
     sections: [
       {
@@ -788,7 +788,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Altınözü", "Antakya", "Arsuz", "Belen", "Defne", "Dörtyol", "Erzin", "Hassa", "İskenderun", "Kırıkhan", "Kumlu", "Payas", "Reyhanlı", "Samandağ", "Yayladağı"],
     intro: "Hatay'ın 15 ilçesinde plise perde hizmeti sunuyoruz. Akdeniz ile Güneydoğu Anadolu geçişinde bulunan Hatay'ın <strong>sıcak ve nemli iklimine uygun perde modellerini</strong> öneriyoruz. Antakya ve İskenderun merkez konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Hatay Plise Perde",
+    seoTitle: "Hatay Plise Perde - Video Kesif & Kargo",
     seoDescription: "Hatay'ın 15 ilçesinde plise perde: Antakya, İskenderun, Dörtyol video keşif ve kargo. Sıcak nemli iklim için güneşlik ve karartma modelleri.",
     sections: [
       {
@@ -817,7 +817,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Afşin", "Andırın", "Çağlayancerit", "Dulkadiroğlu", "Ekinözü", "Elbistan", "Göksun", "Nurhak", "Onikişubat", "Pazarcık", "Türkoğlu"],
     intro: "Kahramanmaraş'ın 11 ilçesinde plise perde hizmeti veriyoruz. Akdeniz ile İç Anadolu geçiş ikliminde, <strong>kış soğukları ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. Kahramanmaraş merkez ve Elbistan konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kahramanmaraş Plise Perde",
+    seoTitle: "Kahramanmaraş Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kahramanmaraş'ın 11 ilçesinde plise perde: Elbistan, Afşin, Göksun video keşif ve kargo. Karasal-sıcak geçiş iklimi için gece-gündüz modelleri.",
     sections: [
       {
@@ -847,7 +847,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akyurt", "Altındağ", "Ayaş", "Bala", "Beypazarı", "Çamlıdere", "Çankaya", "Çubuk", "Elmadağ", "Etimesgut", "Evren", "Gölbaşı", "Güdül", "Haymana", "Kahramankazan", "Kalecik", "Keçiören", "Kızılcahamam", "Mamak", "Nallıhan", "Polatlı", "Pursaklar", "Sincan", "Şereflikoçhisar", "Yenimahalle", "Gölbaşı"],
     intro: "Ankara'nın 25 ilçesinde plise perde hizmeti sunuyoruz. Başkentin karasal ikliminde, kış soğukları ve yaz sıcakları için <strong>gece-gündüz ve honeycomb modellerini</strong> öneriyoruz. Çankaya, Yenimahalle, Keçiören, Etimesgut ve Sincan ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Ankara Plise Perde",
+    seoTitle: "Ankara Plise Perde - Video Kesif & Kargo",
     seoDescription: "Ankara'nın 25 ilçesinde plise perde: Çankaya, Keçiören, Yenimahalle video keşif ve kargo. Karasal iklim için gece-gündüz ve honeycomb modelleri.",
     sections: [
       {
@@ -876,7 +876,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ahırlı", "Akören", "Akşehir", "Altınekin", "Beyşehir", "Bozkır", "Cihanbeyli", "Çeltik", "Çumra", "Derbent", "Derebucak", "Doğanhisar", "Emirgazi", "Ereğli", "Güneysınır", "Hadim", "Halkapınar", "Hüyük", "Ilgın", "Kadınhanı", "Karapınar", "Karatay", "Kulu", "Meram", "Selçuklu", "Seydişehir", "Taşkent", "Tuzlukçu", "Yalıhüyük", "Yunak"],
     intro: "Konya'nın 31 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu'nun en büyük ili olan Konya'nın <strong>kış soğukları ve yaz sıcaklarına karşı honeycomb ve gece-gündüz modellerini</strong> öneriyoruz. Meram, Selçuklu, Karatay merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Konya Plise Perde",
+    seoTitle: "Konya Plise Perde - Video Kesif & Kargo",
     seoDescription: "Konya'nın 31 ilçesinde plise perde: Meram, Selçuklu, Ereğli video keşif ve kargo. Karasal iklim için honeycomb ve gece-gündüz modelleri.",
     sections: [
       {
@@ -905,7 +905,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ayrancı", "Başyayla", "Ermenek", "Karaman merkez", "Kazımkarabekir", "Sarıveliler"],
     intro: "Karaman'ın 6 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun güneyinde, Konya ovasının devamı olan Karaman'ın <strong>kış soğuklarına uygun ısı yalıtımlı modellerini</strong> öneriyoruz. Karaman merkez ve Ermenek konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Karaman Plise Perde",
+    seoTitle: "Karaman Plise Perde - Video Kesif & Kargo",
     seoDescription: "Karaman'ın 6 ilçesinde plise perde: Ermenek, Başyayla, Ayrancı video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -934,7 +934,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ağaçören", "Aksaray merkez", "Eskil", "Gülağaç", "Güzelyurt", "Ortaköy", "Sarıyahşi"],
     intro: "Aksaray'ın 7 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu'nun karasal iklim kuşağında, <strong>kış soğukları ve yaz sıcaklarına karşı honeycomb modellerini</strong> öneriyoruz. Aksaray merkez ve Ortaköy konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Aksaray Plise Perde",
+    seoTitle: "Aksaray Plise Perde - Video Kesif & Kargo",
     seoDescription: "Aksaray'ın 7 ilçesinde plise perde: Ortaköy, Eskil, Güzelyurt video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -963,7 +963,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Altunhisar", "Bor", "Çamardı", "Çiftlik", "Niğde merkez", "Ulukışla"],
     intro: "Niğde'nin 6 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun yüksek rakımlı karasal ikliminde, <strong>kış soğuklarına karşı ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Niğde merkez ve Bor konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Niğde Plise Perde",
+    seoTitle: "Niğde Plise Perde - Video Kesif & Kargo",
     seoDescription: "Niğde'nin 6 ilçesinde plise perde: Bor, Çamardı, Ulukışla video keşif ve kargo. Yüksek rakım karasal iklim için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -992,7 +992,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Acıgöl", "Avanos", "Derinkuyu", "Gülşehir", "Hacıbektaş", "Kozaklı", "Nevşehir merkez", "Ürgüp"],
     intro: "Nevşehir'in 8 ilçesinde plise perde hizmeti veriyoruz. Kapadokya'nın peri bacaları arasında, <strong>mağara otelleri ve tarihi taş evler için özel perde çözümleri</strong> sunuyoruz. Nevşehir merkez ve Ürgüp konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Nevşehir Plise Perde",
+    seoTitle: "Nevşehir Plise Perde - Video Kesif & Kargo",
     seoDescription: "Nevşehir'in 8 ilçesinde plise perde: Ürgüp, Avanos, Göreme video keşif ve kargo. Kapadokya mağara otelleri ve taş evler için özel çözümler.",
     sections: [
       {
@@ -1021,7 +1021,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akçakent", "Akpınar", "Boztepe", "Çiçekdağı", "Kaman", "Kırşehir merkez", "Mucur"],
     intro: "Kırşehir'in 7 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun karasal ikliminde, <strong>kış soğuklarına uygun ısı yalıtımlı modelleri</strong> öneriyoruz. Kırşehir merkez ve Kaman konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kırşehir Plise Perde",
+    seoTitle: "Kırşehir Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kırşehir'in 7 ilçesinde plise perde: Kaman, Mucur, Akpınar video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -1050,7 +1050,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bahşılı", "Balışeyh", "Çelebi", "Delice", "Karakeçili", "Keskin", "Kırıkkale merkez", "Sulakyurt", "Yahşihan"],
     intro: "Kırıkkale'nin 9 ilçesinde plise perde hizmeti veriyoruz. Ankara'ya komşu olan Kırıkkale'nin karasal ikliminde, <strong>kış soğuklarına uygun ısı yalıtımlı modelleri</strong> öneriyoruz. Kırıkkale merkez ve Keskin konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kırıkkale Plise Perde",
+    seoTitle: "Kırıkkale Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kırıkkale'nin 9 ilçesinde plise perde: Keskin, Delice, Sulakyurt video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -1079,7 +1079,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Atkaracalar", "Bayramören", "Çankırı merkez", "Çerkeş", "Eldivan", "Eskipazar", "Ilgaz", "Kızılırmak", "Korgun", "Kurşunlu", "Orta", "Şabanözü", "Yapraklı"],
     intro: "Çankırı'nın 13 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun kuzeyinde, Karadeniz'e yakın karasal iklim kuşağında, <strong>kış soğuklarına uygun ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Çankırı merkez ve Çerkeş konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Çankırı Plise Perde",
+    seoTitle: "Çankırı Plise Perde - Video Kesif & Kargo",
     seoDescription: "Çankırı'nın 13 ilçesinde plise perde: Çerkeş, Ilgaz, Orta video keşif ve kargo. Karasal-Karadeniz geçiş iklimi için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -1108,7 +1108,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akdağmadeni", "Aydıncık", "Boğazlıyan", "Çandır", "Çayıralan", "Çekerek", "Kadışehri", "Saraykent", "Sarıkaya", "Sorgun", "Şefaatli", "Yenifakılı", "Yerköy", "Yozgat merkez"],
     intro: "Yozgat'ın 14 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu'nun ortasında, yüksek rakımlı karasal iklim kuşağında, <strong>kış soğuklarına uygun ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Yozgat merkez ve Sorgun konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Yozgat Plise Perde",
+    seoTitle: "Yozgat Plise Perde - Video Kesif & Kargo",
     seoDescription: "Yozgat'ın 14 ilçesinde plise perde: Sorgun, Boğazlıyan, Yerköy video keşif ve kargo. Yüksek rakım karasal iklim için ısı yalıtımlı modeller.",
     sections: [
       {
@@ -1137,7 +1137,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akkışla", "Bünyan", "Develi", "Felahiye", "Hacılar", "İncesu", "Kocasinan", "Melikgazi", "Özvatan", "Pınarbaşı", "Sarıoğlan", "Sarız", "Talas", "Tomarza", "Yahyalı", "Yeşilhisar"],
     intro: "Kayseri'nin 16 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun sanayi ve ticaret merkezinde, <strong>kış soğukları ve yaz sıcaklarına karşı gece-gündüz ve honeycomb modellerini</strong> öneriyoruz. Melikgazi, Kocasinan, Talas ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kayseri Plise Perde",
+    seoTitle: "Kayseri Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kayseri'nin 16 ilçesinde plise perde: Melikgazi, Kocasinan, Talas video keşif ve kargo. Karasal iklim ve sanayi bölgesi için çözümler.",
     sections: [
       {
@@ -1166,7 +1166,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akıncılar", "Altınyayla", "Divriği", "Doğanşar", "Gemerek", "Gölova", "Gürün", "Hafik", "İmranlı", "Kangal", "Koyulhisar", "Sivas merkez", "Suşehri", "Şarkışla", "Ulaş", "Yıldızeli", "Zara"],
     intro: "Sivas'ın 17 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu'nun en yüksek rakımlı illerinden birinde, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Sivas merkez ve Gemerek konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Sivas Plise Perde",
+    seoTitle: "Sivas Plise Perde - Video Kesif & Kargo",
     seoDescription: "Sivas'ın 17 ilçesinde plise perde: Gemerek, Divriği, Kangal video keşif ve kargo. Yüksek rakım şiddetli kış iklimi için çift petekli honeycomb.",
     sections: [
       {
@@ -1195,7 +1195,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Almus", "Artova", "Başçiftlik", "Erbaa", "Niksar", "Pazar", "Reşadiye", "Sulusaray", "Tokat merkez", "Turhal", "Yeşilyurt", "Zile"],
     intro: "Tokat'ın 12 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu ile Karadeniz geçiş iklim kuşağında, <strong>kış soğuklarına ve yaz sıcaklarına uygun gece-gündüz modellerini</strong> öneriyoruz. Tokat merkez ve Turhal konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Tokat Plise Perde",
+    seoTitle: "Tokat Plise Perde - Video Kesif & Kargo",
     seoDescription: "Tokat'ın 12 ilçesinde plise perde: Turhal, Erbaa, Niksar video keşif ve kargo. İç Anadolu-Karadeniz geçiş iklimi için gece-gündüz modelleri.",
     sections: [
       {
@@ -1224,7 +1224,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Amasya merkez", "Göynücek", "Gümüşhacıköy", "Hamamözü", "Merzifon", "Suluova", "Taşova", "Tercan"],
     intro: "Amasya'nın 7 ilçesinde plise perde hizmeti veriyoruz. Yeşilırmak vadisinin iki yamacına kurulmuş tarihi şehirde, <strong>Osmanlı evlerinin pencerelerine özel ölçü plise perde</strong> üretiyoruz. Amasya merkez ve Merzifon konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Amasya Plise Perde",
+    seoTitle: "Amasya Plise Perde - Video Kesif & Kargo",
     seoDescription: "Amasya'nın 7 ilçesinde plise perde: Merzifon, Suluova, Taşova video keşif ve kargo. Tarihi Osmanlı evleri için özel ölçü üretim.",
     sections: [
       {
@@ -1253,7 +1253,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Alpu", "Beylikova", "Çifteler", "Günyüzü", "Han", "İnönü", "Mahmudiye", "Mihalgazi", "Mihalıççık", "Odunpazarı", "Sarıcakaya", "Seyitgazi", "Sivrihisar", "Tepebaşı"],
     intro: "Eskişehir'in 14 ilçesinde plise perde hizmeti sunuyoruz. Öğrenci şehri Eskişehir'in karasal ikliminde, <strong>kış soğuklarına ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. Odunpazarı ve Tepebaşı merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Eskişehir Plise Perde",
+    seoTitle: "Eskişehir Plise Perde - Video Kesif & Kargo",
     seoDescription: "Eskişehir'in 14 ilçesinde plise perde: Odunpazarı, Tepebaşı, Sivrihisar video keşif ve kargo. Karasal iklim ve öğrenci evleri için çözümler.",
     sections: [
       {
@@ -1283,7 +1283,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Alaplı", "Çaycuma", "Devrek", "Ereğli", "Gökçebey", "Kilimli", "Kozlu", "Zonguldak merkez"],
     intro: "Zonguldak'ın 8 ilçesinde plise perde hizmeti sunuyoruz. Kömür madenciliği şehrinin <strong>yağışlı Karadeniz iklimine uygun nem dayanımlı kumaş modellerini</strong> öneriyoruz. Maden işçi lojmanları için yangın dayanımlı B1 kumaş ile toplu çözümler mevcuttur.",
-    seoTitle: "Zonguldak Plise Perde",
+    seoTitle: "Zonguldak Plise Perde - Video Kesif & Kargo",
     seoDescription: "Zonguldak'ın 8 ilçesinde plise perde: Ereğli, Çaycuma, Devrek video keşif ve kargo. Maden lojmanları için B1 yangın dayanımlı kumaş.",
     sections: [
       {
@@ -1310,7 +1310,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Eflani", "Eskipazar", "Karabük merkez", "Ovacık", "Safranbolu", "Yenice"],
     intro: "Karabük'ün 6 ilçesinde plise perde hizmeti veriyoruz. Demir çelik sanayi şehrinde, <strong>fabrika lojmanları için yangın dayanımlı B1 kumaş</strong> ile toplu çözümler sunuyoruz. Safranbolu'nun UNESCO Dünya Mirası tarihi evleri için özel ölçü üretim yapıyoruz.",
-    seoTitle: "Karabük Plise Perde",
+    seoTitle: "Karabük Plise Perde - Video Kesif & Kargo",
     seoDescription: "Karabük'ün 6 ilçesinde plise perde: Safranbolu, Eflani, Eskipazar video keşif ve kargo. Demir çelik fabrika lojmanları ve tarihi evler için çözümler.",
     sections: [
       {
@@ -1337,7 +1337,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Amasra", "Bartın merkez", "Kurucaşile", "Ulus"],
     intro: "Bartın'ın 4 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in yeşil sahlinde, <strong>yağışlı iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Amasra'nın tarihi balıkçı evlerinin pencereleri için özel ölçü üretim yapıyoruz.",
-    seoTitle: "Bartın Plise Perde",
+    seoTitle: "Bartın Plise Perde - Video Kesif & Kargo",
     seoDescription: "Bartın'ın 4 ilçesinde plise perde: Amasra, Ulus, Kurucaşile video keşif ve kargo. Karadeniz sahil iklimi için nem dayanımlı kumaş.",
     sections: [
       {
@@ -1364,7 +1364,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bolu merkez", "Dörtdivan", "Gerede", "Göynük", "Kıbrıscık", "Mengen", "Mudurnu", "Seben", "Yeniçağa"],
     intro: "Bolu'nun 9 ilçesinde plise perde hizmeti veriyoruz. Karadeniz ormanlarının arasında, <strong>yağışlı iklim ve yüksek rakıma uygun honeycomb ve anti-nem modellerini</strong> öneriyoruz. Abant ve Gölköy çevresindeki turizm tesisleri için de perde çözümleri mevcuttur.",
-    seoTitle: "Bolu Plise Perde",
+    seoTitle: "Bolu Plise Perde - Video Kesif & Kargo",
     seoDescription: "Bolu'nun 9 ilçesinde plise perde: Gerede, Mudurnu, Göynük video keşif ve kargo. Karadeniz yayla iklimi için honeycomb ve anti-nem modelleri.",
     sections: [
       {
@@ -1391,7 +1391,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Abana", "Ağlı", "Araç", "Azdavay", "Bozkurt", "Cide", "Çatalzeytin", "Daday", "Devrekani", "Doğanyurt", "Hanönü", "İhsangazi", "İnebolu", "Kastamonu merkez", "Küre", "Pınarbaşı", "Seydiler", "Şenpazar", "Taşköprü", "Tosya"],
     intro: "Kastamonu'nun 20 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in geniş sahlinde ve iç kesimlerde, <strong>yağışlı iklim ve kış soğuklarına uygun honeycomb ve anti-nem modellerini</strong> öneriyoruz. İnebolu ve Cide sahil beldelerindeki yazlık konutlar için de perde çözümleri mevcuttur.",
-    seoTitle: "Kastamonu Plise Perde",
+    seoTitle: "Kastamonu Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kastamonu'nun 20 ilçesinde plise perde: İnebolu, Cide, Tosya video keşif ve kargo. Karadeniz iklimi için honeycomb ve anti-nem modelleri.",
     sections: [
       {
@@ -1418,7 +1418,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ayancık", "Boyabat", "Dikmen", "Durağan", "Erfelek", "Gerze", "Sinop merkez", "Türkeli"],
     intro: "Sinop'un 8 ilçesinde plise perde hizmeti veriyoruz. Türkiye'nin en kuzey noktasındaki şehirde, <strong>Karadeniz rüzgarına ve nemine dayanıklı kumaş modellerini</strong> öneriyoruz. Sinop merkez tarihi yarımada evleri için özel ölçü üretim yapıyoruz.",
-    seoTitle: "Sinop Plise Perde",
+    seoTitle: "Sinop Plise Perde - Video Kesif & Kargo",
     seoDescription: "Sinop'un 8 ilçesinde plise perde: Boyabat, Gerze, Ayancık video keşif ve kargo. Karadeniz rüzgarına dayanıklı nem önleyici kumaş.",
     sections: [
       {
@@ -1445,7 +1445,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["19 Mayıs", "Alaçam", "Asarcık", "Atakum", "Ayvacık", "Bafra", "Canik", "Çarşamba", "Havza", "İlkadım", "Kavak", "Ladik", "Salıpazarı", "Tekkeköy", "Terme", "Vezirköprü", "Yakakent"],
     intro: "Samsun'un 17 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in en büyük liman şehrinde, <strong>yağışlı iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Atakum ve İlkadım merkez ilçelerindeki apartman daireleri için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Samsun Plise Perde",
+    seoTitle: "Samsun Plise Perde - Video Kesif & Kargo",
     seoDescription: "Samsun'un 17 ilçesinde plise perde: Atakum, Çarşamba, Bafra video keşif ve kargo. Karadeniz iklimi için anti-nem ve honeycomb modelleri.",
     sections: [
       {
@@ -1472,7 +1472,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Alaca", "Bayat", "Boğazkale", "Çorum merkez", "Dodurga", "İskilip", "Kargı", "Mecitözü", "Oğuzlar", "Ortaköy", "Osmancık", "Sungurlu", "Uğurludağ"],
     intro: "Çorum'un 13 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu ile Karadeniz geçiş iklim kuşağında, <strong>kış soğuklarına ve yaz sıcaklarına uygun gece-gündüz modellerini</strong> öneriyoruz. Boğazkale'nin Hattuşaş antik kenti çevresindeki pansiyonlar için de perde çözümleri mevcuttur.",
-    seoTitle: "Çorum Plise Perde",
+    seoTitle: "Çorum Plise Perde - Video Kesif & Kargo",
     seoDescription: "Çorum'un 13 ilçesinde plise perde: İskilip, Sungurlu, Osmancık video keşif ve kargo. İç Anadolu-Karadeniz geçiş iklimi için gece-gündüz modelleri.",
     sections: [
       {
@@ -1499,7 +1499,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Altınordu", "Aybastı", "Çamaş", "Çatalpınar", "Çaybaşı", "Fatsa", "Gölköy", "Gülyalı", "Gürgentepe", "İkizce", "Kabadüz", "Kabataş", "Korgan", "Kumru", "Mesudiye", "Perşembe", "Piraziz", "Sulusaray", "Ünye"],
     intro: "Ordu'nun 19 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in fındık bahçeleri arasında, <strong>yağışlı iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Altınordu ve Ünye sahil ilçelerindeki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Ordu Plise Perde",
+    seoTitle: "Ordu Plise Perde - Video Kesif & Kargo",
     seoDescription: "Ordu'nun 19 ilçesinde plise perde: Altınordu, Fatsa, Ünye video keşif ve kargo. Karadeniz yağışlı iklimi için anti-nem modelleri.",
     sections: [
       {
@@ -1526,7 +1526,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Alucra", "Bulancak", "Çamoluk", "Çanakçı", "Dereli", "Doğankent", "Espive", "Eynesil", "Giresun merkez", "Görele", "Güce", "Keşap", "Piraziz", "Şebinkarahisar", "Tirebolu", "Yağlıdere"],
     intro: "Giresun'un 16 ilçesinde plise perde hizmeti veriyoruz. Karadeniz'in dağlık sahlinde, <strong>yağışlı ve nemli iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Giresun merkez ve Tirebolu sahil ilçelerindeki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Giresun Plise Perde",
+    seoTitle: "Giresun Plise Perde - Video Kesif & Kargo",
     seoDescription: "Giresun'un 16 ilçesinde plise perde: Bulancak, Tirebolu, Görele video keşif ve kargo. Karadeniz dağlık sahil iklimi için anti-nem modelleri.",
     sections: [
       {
@@ -1553,7 +1553,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Gümüşhane merkez", "Kelkit", "Köse", "Kürtün", "Şiran", "Torul"],
     intro: "Gümüşhane'nin 6 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in iç kesiminde, yüksek rakımlı dağlık iklimde, <strong>kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Gümüşhane merkez ve Kelkit konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Gümüşhane Plise Perde",
+    seoTitle: "Gümüşhane Plise Perde - Video Kesif & Kargo",
     seoDescription: "Gümüşhane'nin 6 ilçesinde plise perde: Kelkit, Şiran, Torul video keşif ve kargo. Yüksek rakım dağ iklimi için çift petekli honeycomb.",
     sections: [
       {
@@ -1580,7 +1580,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akçaabat", "Araklı", "Arsin", "Beşikdüzü", "Çarşıbaşı", "Çaykara", "Dernekpazarı", "Düzköy", "Hayrat", "Köprübaşı", "Maçka", "Of", "Ortahisar", "Sürmene", "Şalpazarı", "Tonya", "Vakfıkebir", "Yomra"],
     intro: "Trabzon'un 18 ilçesinde plise perde hizmeti veriyoruz. Karadeniz'in inci şehrinde, <strong>yağışlı iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Ortahisar ve Akçaabat merkez ilçelerindeki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Trabzon Plise Perde",
+    seoTitle: "Trabzon Plise Perde - Video Kesif & Kargo",
     seoDescription: "Trabzon'un 18 ilçesinde plise perde: Ortahisar, Akçaabat, Maçka video keşif ve kargo. Karadeniz yağışlı iklimi için anti-nem modelleri.",
     sections: [
       {
@@ -1607,7 +1607,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ardeşen", "Çamlıhemşin", "Çayeli", "Derepazarı", "Fındıklı", "Güneysu", "Hemşin", "İkizdere", "İyidere", "Kalkandere", "Pazar", "Rize merkez"],
     intro: "Rize'nin 12 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin çay başkentinde, <strong>yıllık 2400 mm yağışla en nemli iklim için özel kaplamalı kumaş modellerini</strong> öneriyoruz. Rize merkez ve Çayeli konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Rize Plise Perde",
+    seoTitle: "Rize Plise Perde - Video Kesif & Kargo",
     seoDescription: "Rize'nin 12 ilçesinde plise perde: Çayeli, Ardeşen, Pazar video keşif ve kargo. Türkiye'nin en yağışlı iklimi için özel kaplamalı kumaş.",
     sections: [
       {
@@ -1634,7 +1634,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ardanuç", "Arhavi", "Artvin merkez", "Borçka", "Hopa", "Kemalpaşa", "Murgul", "Şavşat", "Yusufeli"],
     intro: "Artvin'in 9 ilçesinde plise perde hizmeti veriyoruz. Karadeniz'in en dağık ilinde, <strong>yüksek rakımlı orman iklimine uygun honeycomb ve anti-nem modellerini</strong> öneriyoruz. Artvin merkez ve Hopa konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Artvin Plise Perde",
+    seoTitle: "Artvin Plise Perde - Video Kesif & Kargo",
     seoDescription: "Artvin'in 9 ilçesinde plise perde: Hopa, Borçka, Şavşat video keşif ve kargo. Yüksek rakım orman iklimi için honeycomb ve anti-nem modelleri.",
     sections: [
       {
@@ -1661,7 +1661,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aydıntepe", "Bayburt merkez", "Demirözü"],
     intro: "Bayburt'un 3 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz ile Doğu Anadolu geçişinde, 1554 metre rakımda, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Bayburt merkez konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Bayburt Plise Perde",
+    seoTitle: "Bayburt Plise Perde - Video Kesif & Kargo",
     seoDescription: "Bayburt'un 3 ilçesinde plise perde: Aydıntepe, Demirözü video keşif ve kargo. 1554 metre rakımda şiddetli kış için çift petekli honeycomb.",
     sections: [
       {
@@ -1689,7 +1689,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aşkale", "Aziziye", "Çat", "Hınıs", "Horasan", "İspir", "Karaçoban", "Karayazı", "Köprüköy", "Narman", "Oltu", "Olur", "Pasinler", "Pazaryolu", "Şenkaya", "Tekman", "Tortum", "Uzundere", "Yakutiye", "Palandöken"],
     intro: "Erzurum'un 20 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1953 metre rakımdaki şehrinde, <strong>Türkiye'nin en soğuk kışlarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Palandöken ve Yakutiye merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Erzurum Plise Perde",
+    seoTitle: "Erzurum Plise Perde - Video Kesif & Kargo",
     seoDescription: "Erzurum'un 20 ilçesinde plise perde: Palandöken, Oltu, Horasan video keşif ve kargo. 1953 metre rakımda -40°C kış için çift petekli honeycomb.",
     sections: [
       {
@@ -1716,7 +1716,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Çayırlı", "Erzincan merkez", "İliç", "Kemah", "Kemaliye", "Otlubeli", "Refahiye", "Tercan", "Üzümlü"],
     intro: "Erzincan'ın 9 ilçesinde plise perde hizmeti sunuyoruz. Doğu Anadolu'nun 1185 metre rakımdaki deprem bölgesinde, <strong>kış soğuklarına karşı honeycomb ve deprem güvenli montaj sistemlerini</strong> öneriyoruz. Erzincan merkez ve Tercan konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Erzincan Plise Perde",
+    seoTitle: "Erzincan Plise Perde - Video Kesif & Kargo",
     seoDescription: "Erzincan'ın 9 ilçesinde plise perde: Tercan, Refahiye, Kemah video keşif ve kargo. Deprem güvenli montaj ve 1185 metre rakım için honeycomb.",
     sections: [
       {
@@ -1743,7 +1743,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ağrı merkez", "Diyadin", "Doğubayazıt", "Eleşkirt", "Hamur", "Patnos", "Taşlıçay", "Tutak"],
     intro: "Ağrı'nın 8 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1632 metre rakımdaki şehrinde, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Ağrı merkez ve Doğubayazıt konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Ağrı Plise Perde",
+    seoTitle: "Ağrı Plise Perde - Video Kesif & Kargo",
     seoDescription: "Ağrı'nın 8 ilçesinde plise perde: Doğubayazıt, Patnos, Diyadin video keşif ve kargo. 1632 metre rakımda şiddetli kış için çift petekli honeycomb.",
     sections: [
       {
@@ -1770,7 +1770,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akyaka", "Arpaçay", "Digor", "Kağızman", "Kars merkez", "Sarıkamış", "Selim", "Susuz"],
     intro: "Kars'ın 8 ilçesinde plise perde hizmeti sunuyoruz. Doğu Anadolu'nun 1768 metre rakımdaki tarihi şehrinde, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Kars merkez ve Sarıkamış konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kars Plise Perde",
+    seoTitle: "Kars Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kars'ın 8 ilçesinde plise perde: Sarıkamış, Kağızman, Arpaçay video keşif ve kargo. 1768 metre rakımda Baltık mimari binalar için özel çözümler.",
     sections: [
       {
@@ -1797,7 +1797,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aralık", "Iğdır merkez", "Karakoyunlu", "Tuzluca"],
     intro: "Iğdır'ın 4 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun en alçak rakımlı ilinde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Iğdır merkez konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Iğdır Plise Perde",
+    seoTitle: "Iğdır Plise Perde - Video Kesif & Kargo",
     seoDescription: "Iğdır'ın 4 ilçesinde plise perde: Aralık, Tuzluca, Karakoyunlu video keşif ve kargo. Sıcak ova iklimi için gece-gündüz modelleri.",
     sections: [
       {
@@ -1824,7 +1824,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ardahan merkez", "Çıldır", "Damal", "Göle", "Hanak", "Posof"],
     intro: "Ardahan'ın 6 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin en soğuk illerinden birinde, 1900 metre rakımda, <strong>-40°C kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Ardahan merkez ve Göle konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Ardahan Plise Perde",
+    seoTitle: "Ardahan Plise Perde - Video Kesif & Kargo",
     seoDescription: "Ardahan'ın 6 ilçesinde plise perde: Çıldır, Göle, Posof video keşif ve kargo. 1900 metre rakımda -40°C kış için çift petekli honeycomb.",
     sections: [
       {
@@ -1851,7 +1851,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bulanık", "Hasköy", "Korkut", "Malazgirt", "Muş merkez", "Varto"],
     intro: "Muş'un 6 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1400 metre rakımdaki ova şehrinde, <strong>kış soğuklarına ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. Muş merkez ve Malazgirt konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Muş Plise Perde",
+    seoTitle: "Muş Plise Perde - Video Kesif & Kargo",
     seoDescription: "Muş'un 6 ilçesinde plise perde: Malazgirt, Bulanık, Varto video keşif ve kargo. 1400 metre ova iklimi için gece-gündüz modelleri.",
     sections: [
       {
@@ -1878,7 +1878,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Adilcevaz", "Ahlat", "Bitlis merkez", "Güroymak", "Hizan", "Mutki", "Tatvan"],
     intro: "Bitlis'in 7 ilçesinde plise perde hizmeti sunuyoruz. Doğu Anadolu'nun 1700 metre rakımdaki tarihi şehrinde, <strong>kış soğuklarına karşı honeycomb modellerini</strong> öneriyoruz. Tatvan ve Ahlat konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Bitlis Plise Perde",
+    seoTitle: "Bitlis Plise Perde - Video Kesif & Kargo",
     seoDescription: "Bitlis'in 7 ilçesinde plise perde: Tatvan, Ahlat, Adilcevaz video keşif ve kargo. 1700 metre rakımda Van Gölü çevresi için honeycomb modelleri.",
     sections: [
       {
@@ -1905,7 +1905,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Adaklı", "Bingöl merkez", "Genç", "Karlıova", "Kiğı", "Solhan", "Yayladere", "Yedisu"],
     intro: "Bingöl'ün 8 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1150 metre rakımdaki dağlık şehrinde, <strong>kış soğuklarına uygun honeycomb modellerini</strong> öneriyoruz. Bingöl merkez ve Solhan konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Bingöl Plise Perde",
+    seoTitle: "Bingöl Plise Perde - Video Kesif & Kargo",
     seoDescription: "Bingöl'ün 8 ilçesinde plise perde: Solhan, Genç, Karlıova video keşif ve kargo. 1150 metre dağlık iklim için honeycomb modelleri.",
     sections: [
       {
@@ -1932,7 +1932,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Çemişgezek", "Hozat", "Mazgirt", "Nazmiye", "Ovacık", "Pertek", "Pülümür", "Tunceli merkez"],
     intro: "Tunceli'nin 8 ilçesinde plise perde hizmeti sunuyoruz. Doğu Anadolu'nun dağlık ve ormanlık şehrinde, <strong>kış soğuklarına uygun honeycomb modellerini</strong> öneriyoruz. Tunceli merkez ve Pertek konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Tunceli Plise Perde",
+    seoTitle: "Tunceli Plise Perde - Video Kesif & Kargo",
     seoDescription: "Tunceli'nin 8 ilçesinde plise perde: Pertek, Ovacık, Hozat video keşif ve kargo. Munzur Dağları iklimi için honeycomb modelleri.",
     sections: [
       {
@@ -1959,7 +1959,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ağın", "Alacakaya", "Arıcak", "Baskil", "Elazığ merkez", "Karakoçan", "Keban", "Kovancılar", "Maden", "Palu", "Sivrice"],
     intro: "Elazığ'ın 11 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1067 metre rakımdaki sanayi şehrinde, <strong>kış soğuklarına ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. Elazığ merkez ve Kovancılar konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Elazığ Plise Perde",
+    seoTitle: "Elazığ Plise Perde - Video Kesif & Kargo",
     seoDescription: "Elazığ'ın 11 ilçesinde plise perde: Kovancılar, Baskil, Sivrice video keşif ve kargo. Sanayi bölgesi ve Keban Baraj Gölü için çözümler.",
     sections: [
       {
@@ -1986,7 +1986,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akçadağ", "Arapgir", "Arguvan", "Battalgazi", "Darende", "Doğanşehir", "Doğanyol", "Hekimhan", "Kale", "Kuluncak", "Pütürge", "Yazıhan", "Yeşilyurt"],
     intro: "Malatya'nın 13 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin kayısı başkentinde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Battalgazi ve Yeşilyurt merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Malatya Plise Perde",
+    seoTitle: "Malatya Plise Perde - Video Kesif & Kargo",
     seoDescription: "Malatya'nın 13 ilçesinde plise perde: Battalgazi, Yeşilyurt, Hekimhan video keşif ve kargo. Sıcak-karışık iklim ve kayısı çiftlikleri için çözümler.",
     sections: [
       {
@@ -2013,7 +2013,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bahçesaray", "Başkale", "Çaldıran", "Çatak", "Edremit", "Erciş", "Gevaş", "Gürpınar", "İpekyolu", "Muradiye", "Özalp", "Saray", "Tuşba"],
     intro: "Van'ın 13 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1727 metre rakımdaki Van Gölü şehrinde, <strong>kış soğuklarına ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. İpekyolu ve Tuşba merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Van Plise Perde",
+    seoTitle: "Van Plise Perde - Video Kesif & Kargo",
     seoDescription: "Van'ın 13 ilçesinde plise perde: İpekyolu, Tuşba, Erciş video keşif ve kargo. 1727 metre rakımda Van Gölü çevresi için gece-gündüz modelleri.",
     sections: [
       {
@@ -2040,7 +2040,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Çukurca", "Derecik", "Hakkari merkez", "Şemdinli", "Yüksekova"],
     intro: "Hakkari'nin 5 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin en yüksek rakımlı illerinden birinde, 1700 metrede, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Hakkari merkez ve Yüksekova konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Hakkari Plise Perde",
+    seoTitle: "Hakkari Plise Perde - Video Kesif & Kargo",
     seoDescription: "Hakkari'nin 5 ilçesinde plise perde: Yüksekova, Şemdinli, Çukurca video keşif ve kargo. 1700 metre dağlık sınır bölgesi için çift petekli honeycomb.",
     sections: [
       {
@@ -2068,7 +2068,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Araban", "İslahiye", "Karkamış", "Nizip", "Nurdağı", "Oğuzeli", "Şahinbey", "Şehitkamil", "Yavuzeli"],
     intro: "Gaziantep'in 9 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin gastronomi şehrinde, <strong>sıcak yaz iklimine uygun güneşlik ve karartma modellerini</strong> öneriyoruz. Şahinbey ve Şehitkamil merkez ilçelerindeki apartman daireleri için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Gaziantep Plise Perde",
+    seoTitle: "Gaziantep Plise Perde - Video Kesif & Kargo",
     seoDescription: "Gaziantep'in 9 ilçesinde plise perde: Şahinbey, Şehitkamil, Nizip video keşif ve kargo. Sıcak iklim için güneşlik ve karartma modelleri.",
     sections: [
       {
@@ -2095,7 +2095,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akçakale", "Birecik", "Bozova", "Ceylanpınar", "Eyyübiye", "Halfeti", "Haliliye", "Harran", "Hilvan", "Karaköprü", "Siverek", "Suruç", "Viranşehir"],
     intro: "Şanlıurfa'nın 13 ilçesinde plise perde hizmeti veriyoruz. Türkiye'nin en sıcak şehrinde, <strong>+45°C yaz sıcaklarına karşı güneşlik ve karartma modellerini</strong> öneriyoruz. Eyyübiye ve Haliliye merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Şanlıurfa Plise Perde",
+    seoTitle: "Şanlıurfa Plise Perde - Video Kesif & Kargo",
     seoDescription: "Şanlıurfa'nın 13 ilçesinde plise perde: Eyyübiye, Haliliye, Siverek video keşif ve kargo. +45°C sıcak iklim için güneşlik ve karartma.",
     sections: [
       {
@@ -2122,7 +2122,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Adıyaman merkez", "Besni", "Çelikhan", "Gerger", "Gölbaşı", "Kahta", "Samsat", "Sincik", "Tut"],
     intro: "Adıyaman'ın 9 ilçesinde plise perde hizmeti sunuyoruz. Nemrut Dağı'nın ev sahibi şehirde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Adıyaman merkez ve Kahta konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Adıyaman Plise Perde",
+    seoTitle: "Adıyaman Plise Perde - Video Kesif & Kargo",
     seoDescription: "Adıyaman'ın 9 ilçesinde plise perde: Kahta, Besni, Gölbaşı video keşif ve kargo. Nemrut Dağı ve Atatürk Barajı çevresi için gece-gündüz modelleri.",
     sections: [
       {
@@ -2149,7 +2149,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bağlar", "Bismil", "Çınar", "Çüngüş", "Dicle", "Ergani", "Hani", "Hazro", "Kayapınar", "Kocaköy", "Kulp", "Lice", "Silvan", "Sur", "Yenişehir"],
     intro: "Diyarbakır'ın 15 ilçesinde plise perde hizmeti veriyoruz. Surların çevrelediği tarihi şehirde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Bağlar, Kayapınar ve Yenişehir merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Diyarbakır Plise Perde",
+    seoTitle: "Diyarbakır Plise Perde - Video Kesif & Kargo",
     seoDescription: "Diyarbakır'ın 15 ilçesinde plise perde: Bağlar, Kayapınar, Sur video keşif ve kargo. Sıcak-karışık iklim için gece-gündüz modelleri.",
     sections: [
       {
@@ -2176,7 +2176,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Artuklu", "Dargeçit", "Derik", "Kızıltepe", "Mazıdağı", "Midyat", "Nusaybin", "Ömerli", "Savur", "Yeşilli"],
     intro: "Mardin'in 10 ilçesinde plise perde hizmeti sunuyoruz. Taş mimarisiyle ünlü şehirde, <strong>sıcak yazlara uygun güneşlik ve karartma modellerini</strong> öneriyoruz. Artuklu ve Kızıltepe konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Mardin Plise Perde",
+    seoTitle: "Mardin Plise Perde - Video Kesif & Kargo",
     seoDescription: "Mardin'in 10 ilçesinde plise perde: Artuklu, Midyat, Nusaybin video keşif ve kargo. Taş mimari şehri için güneşlik ve karartma modelleri.",
     sections: [
       {
@@ -2203,7 +2203,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Batman merkez", "Beşiri", "Gercüş", "Hasankeyf", "Kozluk", "Sason"],
     intro: "Batman'ın 6 ilçesinde plise perde hizmeti veriyoruz. Petrol şehrinde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Batman merkez ve Kozluk konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Batman Plise Perde",
+    seoTitle: "Batman Plise Perde - Video Kesif & Kargo",
     seoDescription: "Batman'ın 6 ilçesinde plise perde: Kozluk, Beşiri, Gercüş video keşif ve kargo. Petrol şehri ve Hasankeyf için gece-gündüz modelleri.",
     sections: [
       {
@@ -2230,7 +2230,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Baykan", "Eruh", "Kurtalan", "Pervari", "Siirt merkez", "Şirvan"],
     intro: "Siirt'in 6 ilçesinde plise perde hizmeti sunuyoruz. Botan nehri vadisindeki şehirde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Siirt merkez ve Kurtalan konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Siirt Plise Perde",
+    seoTitle: "Siirt Plise Perde - Video Kesif & Kargo",
     seoDescription: "Siirt'in 6 ilçesinde plise perde: Kurtalan, Baykan, Pervari video keşif ve kargo. Botan nehri vadisi iklimi için gece-gündüz modelleri.",
     sections: [
       {
@@ -2257,7 +2257,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Beytüşşebap", "Cizre", "Güçlükonak", "İdil", "Silopi", "Şırnak merkez", "Uludere"],
     intro: "Şırnak'ın 7 ilçesinde plise perde hizmeti veriyoruz. Cudi Dağı'nın eteklerindeki şehirde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Şırnak merkez ve Cizre konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Şırnak Plise Perde",
+    seoTitle: "Şırnak Plise Perde - Video Kesif & Kargo",
     seoDescription: "Şırnak'ın 7 ilçesinde plise perde: Cizre, Silopi, İdil video keşif ve kargo. Cudi Dağı sınır bölgesi için gece-gündüz modelleri.",
     sections: [
       {
@@ -2284,7 +2284,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Elbeyli", "Kilis merkez", "Musabeyli", "Polateli"],
     intro: "Kilis'in 4 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin en küçük ilinde, <strong>sıcak yazlara uygun güneşlik ve karartma modellerini</strong> öneriyoruz. Kilis merkez konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kilis Plise Perde",
+    seoTitle: "Kilis Plise Perde - Video Kesif & Kargo",
     seoDescription: "Kilis'in 4 ilçesinde plise perde: Elbeyli, Musabeyli, Polateli video keşif ve kargo. Sıcak sınır şehri için güneşlik ve karartma modelleri.",
     sections: [
       {
