@@ -33,6 +33,7 @@ import {
   getRelatedBlogPosts,
 } from "@/data/blog";
 import { cities } from "@/data/cities";
+import { generateCitySections, generateCityFaqs } from "@/lib/city-content";
 import { siteConfig } from "@/lib/site-config";
 import { generatePageMetadata } from "@/lib/seo";
 
@@ -384,39 +385,15 @@ async function CityView({ slug }: { slug: string }) {
   const city = cities.find((c) => c.slug === slug);
   if (!city) notFound();
 
-  const serviceOptions = [
-    "WhatsApp ile video keşif",
-    "Telefon ile sipariş",
-    "E-posta ile teklif al",
-    "Kargo ile Türkiye geneli teslimat",
-    "WhatsApp + video keşif",
-    "Telefon + kargo teslimat",
-    "E-posta + ölçü alımı",
-    "Video keşif + kargo gönderimi",
-  ];
-  const districtRows = city.districts.map((d, i) => [
-    d,
-    serviceOptions[i % serviceOptions.length],
-  ]);
+  const dynamicSections = generateCitySections(city);
+  const dynamicFaqs = generateCityFaqs(city);
 
   const sections = [
     ...city.sections,
-    {
-      h2: `${city.name} İlçeleri ve Plise Perde Hizmeti`,
-      paragraphs: [] as string[],
-      table: {
-        headers: ["İlçe", "Hizmet"],
-        rows: districtRows,
-        caption: `${city.name} ilçeleri listesi`,
-      },
-    },
-    {
-      h2: `${city.name} Plise Perde Hizmet Bölgesi`,
-      paragraphs: [
-        `${city.name} plise perde sayfası, <a href="/hizmet-bolgeleri/">hizmet bölgeleri</a> ana sayfasının bir alt sayfasıdır. Türkiye'nin 81 ilinde plise perde hizmeti sunuyoruz. ${city.name} ve ilçelerinde video keşif ile ölçü alıp, kargo ile teslimat yapıyoruz.`,
-      ],
-    },
+    ...dynamicSections,
   ];
+
+  const allFaqs = [...city.faqItems, ...dynamicFaqs];
 
   const schemaData = {
     name: `${city.name} Plise Perde`,
@@ -438,7 +415,7 @@ async function CityView({ slug }: { slug: string }) {
       h1={`${city.name} Plise Perde`}
       intro={city.intro}
       sections={sections}
-      faqItems={city.faqItems}
+      faqItems={allFaqs}
       ctaTitle={`${city.name} için Plise Perde ısmarlamak ister misiniz?`}
       ctaDescription="WhatsApp üzerinden video keşif yapıp, ölçü alarak plise perde siparişi verebilirsiniz. Kargo ile Türkiye'nin her yerine teslimat yapıyoruz."
       ctaPrimaryLabel="WhatsApp ile İletişime Geç"

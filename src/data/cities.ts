@@ -1,6 +1,7 @@
 export interface CityContentSection {
   h2: string;
   paragraphs: string[];
+  table?: { headers: string[]; rows: string[][]; caption?: string };
 }
 
 export interface CityFaqItem {

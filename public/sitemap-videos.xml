@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://pliseperde.com/montaj/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://pliseperde.com/video/montaj-thumb.jpg</video:thumbnail_loc>
+      <video:title>Plise Perde Montajı</video:title>
+      <video:description>Plise perde montaj adımları ve ipuçları.</video:description>
+      <video:content_loc>https://pliseperde.com/video/montaj.mp4</video:content_loc>
+      <video:duration>225</video:duration>
+      <video:publication_date>2026-01-01T00:00:00+03:00</video:publication_date>
+      <video:uploader>
+        <video:uploader>Plise Perde</video:uploader>
+      </video:uploader>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+</urlset>
