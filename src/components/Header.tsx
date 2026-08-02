@@ -51,14 +51,10 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <Link href="/" className="flex items-center gap-2">
-              <Image
+              <img
                 src="/logo.webp"
                 alt="Plise Perde"
-                width={156}
-                height={42}
-                priority
-                className="w-auto"
-                style={{ width: "auto", height: "2.25rem" }}
+                className="h-9 w-auto"
               />
             </Link>
             <div className="hidden md:block h-8 w-px bg-brand-border" />

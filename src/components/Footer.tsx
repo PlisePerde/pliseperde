@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { footerColumns } from "@/data/navigation";
 import { siteConfig } from "@/lib/site-config";
@@ -11,13 +10,10 @@ export default function Footer() {
         {/* Brand + Contact */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-8 border-b border-brand-border">
           <div>
-            <Image
+            <img
               src="/logo.webp"
               alt="Plise Perde"
-              width={140}
-              height={38}
               className="h-8 w-auto mb-2"
-              style={{ width: "auto", height: "2rem" }}
             />
             <p className="text-sm text-brand-text-light leading-relaxed mb-3">
               2022&apos;den beri plise perde üreticisi. İstanbul merkezli,

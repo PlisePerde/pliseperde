@@ -10,7 +10,6 @@ import JsonLd, {
 } from "@/components/JsonLd";
 import {
   getAllBlogPosts,
-  getFeaturedBlogPosts,
 } from "@/data/blog";
 import { siteConfig } from "@/lib/site-config";
 
@@ -52,10 +51,31 @@ export const metadata: Metadata = {
   },
 };
 
+const featuredOrder = [
+  "plise-perde-montaji-nasil-yapilir",
+  "plise-perde-nasil-cikarilir",
+  "plise-perde-temizligi-nasil-yapilir",
+];
+
+const regularOrder = [
+  "plise-perde-olcusu-nasil-alinir",
+  "plise-perde-malzemeleri-nelerdir",
+  "plise-perde-kumasi-nasil-secilir",
+  "plise-perde-tamiri-nasil-yapilir",
+  "plise-perde-ipi-nasil-degistirilir",
+  "plise-perde-nedir",
+  "plise-perde-mekanizmasi-nasil-calisir",
+  "plise-perde-nasil-yapilir",
+];
+
 export default function BlogPage() {
   const posts = getAllBlogPosts();
-  const featuredPosts = getFeaturedBlogPosts();
-  const regularPosts = posts.filter((p) => !p.featured);
+  const featuredPosts = featuredOrder
+    .map((slug) => posts.find((p) => p.slug === slug))
+    .filter(Boolean) as typeof posts;
+  const regularPosts = regularOrder
+    .map((slug) => posts.find((p) => p.slug === slug))
+    .filter(Boolean) as typeof posts;
 
   const breadcrumb = [
     { name: "Ana Sayfa", url: "/" },
@@ -95,7 +115,7 @@ export default function BlogPage() {
                 <BookOpen size={20} className="text-brand" />
                 Öne Çıkan Yazılar
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {featuredPosts.map((post) => (
                   <article
                     key={post.slug}
@@ -108,7 +128,7 @@ export default function BlogPage() {
                           alt={post.imageAlt || post.title}
                           width={1200}
                           height={675}
-                          className="w-full h-48 object-cover"
+                          className="w-full h-60 object-cover"
                           loading="lazy"
                         />
                       )}
@@ -146,7 +166,7 @@ export default function BlogPage() {
             <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-4">
               Tüm Yazılar
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {regularPosts.map((post) => (
                 <article
                   key={post.slug}
@@ -159,7 +179,7 @@ export default function BlogPage() {
                         alt={post.imageAlt || post.title}
                         width={1200}
                         height={675}
-                        className="w-full h-40 object-cover"
+                        className="w-full h-50 object-cover"
                         loading="lazy"
                       />
                     )}
