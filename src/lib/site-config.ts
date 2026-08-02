@@ -35,7 +35,7 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/company/pliseperde/",
   },
   themeColor: "#83bd81",
-  whatsapp: "https://wa.me/905403363873",
+  whatsapp: "https://api.whatsapp.com/send/?phone=905403363873",
   tawkTo: {
     propertyId: "pliseperde",
     widgetId: "default",

@@ -96,7 +96,7 @@ export default function NotFound() {
             <a
               href={siteConfig.whatsapp}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white rounded-lg font-medium hover:bg-[#1da851] transition-colors w-full sm:w-auto justify-center"
             >
               <MessageCircle size={18} />

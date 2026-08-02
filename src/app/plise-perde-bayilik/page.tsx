@@ -280,7 +280,7 @@ export default function BayilikPage() {
         title="Bayilik İçin Hemen Başvurun"
         description="Formu doldurun, 24 saat içinde size geri dönüş yapalım. WhatsApp'tan da ulaşabilirsiniz."
         primaryLabel="WhatsApp'tan Başvur"
-        primaryHref="https://wa.me/905403363873?text=Plise%20Perde%20Bayilik%20Hakk%C4%B1nda%20Bilgi%20Almak%20%C4%B0stiyorum"
+        primaryHref="https://api.whatsapp.com/send/?phone=905403363873&text=Plise%20Perde%20Bayilik%20Hakk%C4%B1nda%20Bilgi%20Almak%20%C4%B0stiyorum"
       />
     </PageLayout>
   );

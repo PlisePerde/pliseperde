@@ -419,7 +419,7 @@ async function CityView({ slug }: { slug: string }) {
       ctaTitle={`${city.name} için Plise Perde ısmarlamak ister misiniz?`}
       ctaDescription="WhatsApp üzerinden video keşif yapıp, ölçü alarak plise perde siparişi verebilirsiniz. Kargo ile Türkiye'nin her yerine teslimat yapıyoruz."
       ctaPrimaryLabel="WhatsApp ile İletişime Geç"
-      ctaPrimaryHref={`https://wa.me/${siteConfig.phone.replace(/\D/g, "")}`}
+      ctaPrimaryHref={`https://api.whatsapp.com/send/?phone=${siteConfig.phone.replace(/\D/g, "")}`}
       schemaType="service"
       schemaData={schemaData}
     />

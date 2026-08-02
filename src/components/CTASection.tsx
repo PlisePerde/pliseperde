@@ -48,7 +48,7 @@ export default function CTASection({
             <a
               href={siteConfig.whatsapp}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="noopener noreferrer"
               className="flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium border border-brand text-brand rounded-md hover:bg-brand-light transition-colors"
             >
               <Phone size={16} />
