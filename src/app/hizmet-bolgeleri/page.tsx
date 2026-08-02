@@ -8,13 +8,13 @@ import { internationalCountries, internationalStats } from "@/data/international
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Plise Perde Hizmet Bölgeleri — Türkiye 81 İl ve Avrupa" },
+  title: { absolute: "Plise Perde Hizmet Bölgeleri — Plise Perde" },
   description:
     "Plise perde hizmet bölgeleri: Türkiye 81 il ve Avrupa'da 6 ülkede (Almanya, Hollanda, Fransa, Belçika, İsviçre, Avusturya) plise perde tedarik ve montaj. Ücretsiz keşif, profesyonel montaj, haftalık Avrupa sevkiyatı.",
   alternates: { canonical: "/hizmet-bolgeleri/" },
   keywords: ["hizmet bölgeleri", "plise perde almanya", "plise perde hollanda", "plise perde avrupa", "plise perde fransa", "plise perde belçika", "plise perde isviçre", "plise perde avusturya"],
   openGraph: {
-    title: "Plise Perde Hizmet Bölgeleri — Türkiye 81 İl ve Avrupa",
+    title: "Plise Perde Hizmet Bölgeleri — Plise Perde",
     description:
       "Türkiye 81 il ve Avrupa'da 6 ülkede plise perde tedarik ve montaj hizmeti.",
     url: "/hizmet-bolgeleri/",
@@ -23,13 +23,13 @@ export const metadata: Metadata = {
         url: "/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Plise Perde Hizmet Bölgeleri — Türkiye ve Avrupa",
+        alt: "Plise Perde Hizmet Bölgeleri — Plise Perde",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Plise Perde Hizmet Bölgeleri — Türkiye 81 İl ve Avrupa",
+    title: "Plise Perde Hizmet Bölgeleri — Plise Perde",
     description:
       "Türkiye 81 il ve Avrupa'da 6 ülkede plise perde tedarik ve montaj hizmeti.",
     images: ["/og-image.webp"],

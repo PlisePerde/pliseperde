@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Plise Perde Kullanıcı Yorumları — Müşteri Değerlendirmeler",
+  title: "Plise Perde Kullanıcı Yorumları — Plise Perde",
   description:
     "Plise perde kullanıcı yorumları ve değerlendirmeleri. Gerçek müşteri deneyimleri, memnuniyet oranı, proje örnekleri.",
   slug: "plise-perde-kullanici-yorumlari",

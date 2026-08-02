@@ -8,7 +8,7 @@ import { getPagesByCategory } from "@/data/site-pages";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Ürünlerimiz — Plise Perde Modelleri" },
+  title: { absolute: "Ürünlerimiz — Plise Perde" },
   description:
     "Tül, güneşlik, karartma, honeycomb, motorlu, vidasız plise perde modelleri. Üretici garantisi, profesyonel montaj, Türkiye geneli hizmet.",
   keywords: ["ürünlerimiz"],

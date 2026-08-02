@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Plise Perde Bayilik",
+  title: "Plise Perde Bayilik — Plise Perde",
   description:
     "Plise Perde bayilik başvurusu. Üretici fiyatı, bölge garantisi, teknik destek ve eğitim. Türkiye geneli bayilik fırsatları. Başvuru formunu doldurun.",
   slug: "plise-perde-bayilik",

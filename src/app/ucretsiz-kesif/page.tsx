@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Ücretsiz Keşif — Plise Perde Keşif Hizmeti",
+  title: "Ücretsiz Keşif — Plise Perde",
   description:
     "Ücretsiz keşif hizmeti. Profesyonel ekip pencere ölçüsü alır, montaj tipi belirler, net fiyat teklifi sunar. İstanbul ve çevre şehirler.",
   slug: "ucretsiz-kesif",

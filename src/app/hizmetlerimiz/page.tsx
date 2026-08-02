@@ -8,7 +8,7 @@ import { getPagesByCategory } from "@/data/site-pages";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: { absolute: "Hizmetlerimiz — Plise Perde Hizmetleri" },
+  title: { absolute: "Hizmetlerimiz — Plise Perde" },
   description:
     "Montaj, ölçü alma, ücretsiz keşif ve fiyat hesaplama hizmetleri.",
   keywords: ["hizmetlerimiz"],
