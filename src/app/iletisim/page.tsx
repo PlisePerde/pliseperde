@@ -118,7 +118,7 @@ export default function IletisimPage() {
                   </div>
                   <div className="flex flex-col justify-center">
                     <p className="text-sm font-medium text-brand-text m-0 leading-snug whitespace-nowrap">Canlı Destek</p>
-                    <a href={siteConfig.whatsapp} target="_blank" rel="nofollow noopener noreferrer" className="touch-reset block text-sm text-brand-text-light hover:text-brand transition-colors m-0 leading-snug whitespace-nowrap">
+                    <a href="https://tawk.to/pliseperde/" target="_blank" rel="nofollow noopener noreferrer" className="touch-reset block text-sm text-brand-text-light hover:text-brand transition-colors m-0 leading-snug whitespace-nowrap">
                       Sohbet Başlat!
                     </a>
                   </div>
