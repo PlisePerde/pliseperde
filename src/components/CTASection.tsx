@@ -26,17 +26,29 @@ export default function CTASection({
             {description}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Link
-              href={primaryHref}
-              className="flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
-            >
-              <Calculator size={16} />
-              {primaryLabel}
-            </Link>
+            {primaryHref.startsWith("http") ? (
+              <a
+                href={primaryHref}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                className="flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
+              >
+                <Calculator size={16} />
+                {primaryLabel}
+              </a>
+            ) : (
+              <Link
+                href={primaryHref}
+                className="flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
+              >
+                <Calculator size={16} />
+                {primaryLabel}
+              </Link>
+            )}
             <a
               href={siteConfig.whatsapp}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
               className="flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium border border-brand text-brand rounded-md hover:bg-brand-light transition-colors"
             >
               <Phone size={16} />

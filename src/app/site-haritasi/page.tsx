@@ -14,18 +14,25 @@ export const metadata: Metadata = {
 
 export default function SiteHaritasiPage() {
   const categories = [
-    { key: "Kurumsal", title: "Kurumsal" },
+    { key: "Ana Sayfa", title: "Ana Sayfa" },
     { key: "Ürünlerimiz", title: "Ürünler" },
-    { key: "Modellerimiz", title: "Montaj Modelleri" },
+    { key: "Modellerimiz", title: "Modeller" },
     { key: "Sistemlerimiz", title: "Sistemler" },
+    { key: "Çeşitlerimiz", title: "Çeşitler" },
+    { key: "Özellikler", title: "Özellikler" },
+    { key: "Fiyatlarımız", title: "Fiyatlar" },
+    { key: "Kullanım Alanları", title: "Kullanım Alanları" },
     { key: "Hizmetlerimiz", title: "Hizmetler" },
+    { key: "Fiyat Hesaplama", title: "Fiyat Hesaplama" },
     { key: "Hizmet Bölgeleri", title: "Hizmet Bölgeleri" },
     { key: "Referanslarımız", title: "Referanslarımız" },
     { key: "Karşılaştırmalar", title: "Karşılaştırmalar" },
-    { key: "Bilgi Sayfaları", title: "Bilgi" },
-    { key: "Politikalarımız", title: "Politikalar" },
+    { key: "Kurumsal", title: "Kurumsal" },
     { key: "İletişim", title: "İletişim" },
+    { key: "Sözleşmelerimiz", title: "Sözleşmeler" },
+    { key: "Politikalarımız", title: "Politikalar" },
     { key: "Blog", title: "Blog" },
+    { key: "Site Haritası", title: "Site Haritası" },
   ];
 
   const pagesByCategory = categories.map((cat) => ({
@@ -62,10 +69,10 @@ export default function SiteHaritasiPage() {
                     {cat.title}
                   </h2>
                   <ul className="space-y-2">
-                    {cat.pages.map((page) => (
-                      <li key={page.slug}>
+                    {cat.pages.map((page, idx) => (
+                      <li key={`${cat.key}-${idx}-${page.slug}`}>
                         <Link
-                          href={`/${page.slug}/`}
+                          href={page.slug === "" ? "/" : `/${page.slug}/`}
                           className="text-sm text-brand-text-light hover:text-brand transition-colors"
                         >
                           {page.title}

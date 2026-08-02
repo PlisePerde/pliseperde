@@ -36,7 +36,7 @@ const models = [
     desc: "Dokuma desenli kumaş: çizgili, noktalı, geometrik, doğal motifler. Dekoratif ve karakter katar.",
   },
   {
-    slug: "basili-plise-perde",
+    slug: "baskili-plise-perde",
     title: "Baskılı Plise Perde",
     desc: "Özel dijital baskı ile kişiselleştirilmiş kumaş. Logo, fotoğraf, sanat eseri. Kurumsal ve kişisel kullanım.",
   },

@@ -1,10 +1,189 @@
+import fs from "fs";
+import path from "path";
 import { cities } from "@/data/cities";
+import { getAllBlogPosts } from "@/data/blog";
 
 export interface PageEntry {
   slug: string;
   title: string;
   category: string;
   breadcrumb: string[];
+}
+
+const SKIP_DIRS = ["api", "offline", "[slug]"];
+
+const categoryRules: { pattern: RegExp; category: string; title: (slug: string) => string }[] = [
+  { pattern: /^$/, category: "Ana Sayfa", title: () => "Ana Sayfa" },
+  { pattern: /^urunlerimiz$/, category: "Ürünlerimiz", title: () => "Ürünlerimiz" },
+  { pattern: /^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$/, category: "Ürünlerimiz", title: (s) => titleFromSlug(s) },
+  { pattern: /^plise-perde-modelleri$/, category: "Modellerimiz", title: () => "Modellerimiz" },
+  { pattern: /^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$/, category: "Modellerimiz", title: (s) => titleFromSlug(s) },
+  { pattern: /^plise-perde-sistemleri$/, category: "Sistemlerimiz", title: () => "Sistemlerimiz" },
+  { pattern: /^vidali-plise-perde$|^vidasiz-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portray-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$/, category: "Sistemlerimiz", title: (s) => titleFromSlug(s) },
+  { pattern: /^plise-perde-cesitleri$/, category: "Çeşitlerimiz", title: () => "Çeşitlerimiz" },
+  { pattern: /^plise-perde-ozellikleri$/, category: "Özellikler", title: () => "Özellikler" },
+  { pattern: /^plise-perde-fiyatlari$/, category: "Fiyatlarımız", title: () => "Fiyatlarımız" },
+  { pattern: /^plise-perde-kullanim-alanlari$/, category: "Kullanım Alanları", title: () => "Kullanım Alanları" },
+  { pattern: /-plise-perde$/, category: "Kullanım Alanları", title: (s) => titleFromSlug(s) },
+  { pattern: /^hizmetlerimiz$/, category: "Hizmetlerimiz", title: () => "Hizmetlerimiz" },
+  { pattern: /^montaj$|^olcu-alma-destegi$|^ucretsiz-kesif$/, category: "Hizmetlerimiz", title: (s) => titleFromSlug(s) },
+  { pattern: /^plise-perde-fiyat-hesaplama$/, category: "Fiyat Hesaplama", title: () => "Fiyat Hesaplama" },
+  { pattern: /^hizmet-bolgeleri$/, category: "Hizmet Bölgeleri", title: () => "Hizmet Bölgeleri" },
+  { pattern: /^referanslarimiz$/, category: "Referanslarımız", title: () => "Referanslarımız" },
+  { pattern: /^plise-perde-vs-/, category: "Karşılaştırmalar", title: (s) => titleFromSlug(s) },
+  { pattern: /^hakkimizda$|^surdurulebilirlik$|^cocuk-guvenligi$|^galeri$|^sikca-sorulan-sorular$|^plise-perde-kullanici-yorumlari$|^plise-perde-bayilik$/, category: "Kurumsal", title: (s) => titleFromSlug(s) },
+  { pattern: /^iletisim$/, category: "İletişim", title: () => "İletişim" },
+  { pattern: /^sozlesmelerimiz$|^siparis-ve-ozel-uretim-sartlari$|^uyelik-sozlesmesi$|^montaj-ve-uygulama-sartlari$|^olcu-alma-bilgilendirmesi$|^mesafeli-satis-sozlesmesi$|^on-bilgilendirme-formu$|^kullanim-kosullari$/, category: "Sözleşmelerimiz", title: (s) => titleFromSlug(s) },
+  { pattern: /^politikalarimiz$|^iade-degisim-ve-cayma-hakki$|^yurt-disi-teslimat-ve-gumruk$|^odeme-ve-taksit-secenekleri$|^banka-ve-havale-bilgileri$|^garanti-ve-satis-sonrasi-destek$|^satici-bilgileri$|^cerez-politikasi$|^acik-riza-metni$|^ticari-elektronik-ileri-onayi$|^teslimat-ve-kargo$|^iade-ve-degisim$|^gizlilik-politikasi$|^kvkk-aydinlatma-metni$/, category: "Politikalarımız", title: (s) => titleFromSlug(s) },
+  { pattern: /^blog$/, category: "Blog", title: () => "Blog" },
+  { pattern: /^site-haritasi$/, category: "Site Haritası", title: () => "Site Haritası" },
+];
+
+const slugTitleMap: Record<string, string> = {
+  "": "Ana Sayfa",
+  "acik-riza-metni": "Açık Rıza Metni",
+  "anaokulu-plise-perde": "Anaokulu Plise Perde",
+  "banka-ve-havale-bilgileri": "Banka ve Havale Bilgileri",
+  "banyo-wc-plise-perde": "Banyo/WC Plise Perde",
+  "baskili-plise-perde": "Baskılı Plise Perde",
+  "blackout-plise-perde": "Blackout Plise Perde",
+  "braketli-plise-perde": "Braketli Plise Perde",
+  "calisma-odasi-plise-perde": "Çalışma Odası Plise Perde",
+  "cam-balkon-plise-perde": "Cam Balkon Plise Perde",
+  "cerez-politikasi": "Çerez Politikası",
+  "cocuk-guvenligi": "Çocuk Güvenliği",
+  "cocuk-odasi-plise-perde": "Çocuk Odası Plise Perde",
+  "desenli-plise-perde": "Desenli Plise Perde",
+  "duet-perde": "Düet Perde",
+  "duz-plise-perde": "Düz Plise Perde",
+  "galeri": "Galeri",
+  "garanti-ve-satis-sonrasi-destek": "Garanti ve Satış Sonrası Destek",
+  "gece-gunduz-plise-perde": "Gece Gündüz Plise Perde",
+  "genc-odasi-plise-perde": "Genç Odası Plise Perde",
+  "gizlilik-politikasi": "Gizlilik Politikası",
+  "hakkimizda": "Hakkımızda",
+  "hastane-plise-perde": "Hastane Plise Perde",
+  "hizmet-bolgeleri": "Hizmet Bölgeleri",
+  "honeycomb-perde": "Honeycomb Perde",
+  "iade-degisim-ve-cayma-hakki": "İade Değişim ve Cayma Hakkı",
+  "iade-ve-degisim": "İade ve Değişim",
+  "iletisim": "İletişim",
+  "kafe-restoran-plise-perde": "Kafe Restoran Plise Perde",
+  "kancali-plise-perde": "Kancalı Plise Perde",
+  "karavan-plise-perde": "Karavan Plise Perde",
+  "klinik-plise-perde": "Klinik Plise Perde",
+  "kullanim-kosullari": "Kullanım Koşulları",
+  "kvkk-aydinlatma-metni": "KVKK Aydınlatma Metni",
+  "laboratuvar-plise-perde": "Laboratuvar Plise Perde",
+  "magaza-plise-perde": "Mağaza Plise Perde",
+  "mesafeli-satis-sozlesmesi": "Mesafeli Satış Sözleşmesi",
+  "montaj": "Montaj",
+  "montaj-ve-uygulama-sartlari": "Montaj ve Uygulama Şartları",
+  "motorlu-plise-perde": "Motorlu Plise Perde",
+  "mutfak-plise-perde": "Mutfak Plise Perde",
+  "odeme-ve-taksit-secenekleri": "Ödeme ve Taksit Seçenekleri",
+  "ofis-plise-perde": "Ofis Plise Perde",
+  "olcu-alma-bilgilendirmesi": "Ölçü Alma Bilgilendirmesi",
+  "olcu-alma-destegi": "Ölçü Alma Desteği",
+  "on-bilgilendirme-formu": "Ön Bilgilendirme Formu",
+  "otel-plise-perde": "Otel Plise Perde",
+  "plise-perde": "Plise Perde",
+  "plise-perde-aparatlari": "Plise Perde Aparatları",
+  "plise-perde-bayilik": "Plise Perde Bayilik",
+  "plise-perde-cesitleri": "Plise Perde Çeşitleri",
+  "plise-perde-fiyat-hesaplama": "Plise Perde Fiyat Hesaplama",
+  "plise-perde-fiyatlari": "Plise Perde Fiyatları",
+  "plise-perde-kullanici-yorumlari": "Plise Perde Kullanıcı Yorumları",
+  "plise-perde-kullanim-alanlari": "Plise Perde Kullanım Alanları",
+  "plise-perde-modelleri": "Plise Perde Modelleri",
+  "plise-perde-ozellikleri": "Plise Perde Özellikleri",
+  "plise-perde-sistemleri": "Plise Perde Sistemleri",
+  "plise-perde-vs-jaluzi-perde": "Plise Perde vs Jaluzi Perde",
+  "plise-perde-vs-stor-perde": "Plise Perde vs Stor Perde",
+  "plise-perde-vs-tul-perde": "Plise Perde vs Tül Perde",
+  "plise-perde-vs-zebra-perde": "Plise Perde vs Zebra Perde",
+  "plise-perde-yedek-parca": "Plise Perde Yedek Parça",
+  "portray-plise-perde": "Portray Plise Perde",
+  "prefabrik-ev-plise-perde": "Prefabrik Ev Plise Perde",
+  "referanslarimiz": "Referanslarımız",
+  "salon-plise-perde": "Salon Plise Perde",
+  "satici-bilgileri": "Satıcı Bilgileri",
+  "sikca-sorulan-sorular": "Sıkça Sorulan Sorular",
+  "siparis-ve-ozel-uretim-sartlari": "Sipariş ve Özel Üretim Şartları",
+  "site-haritasi": "Site Haritası",
+  "sozlesmelerimiz": "Sözleşmelerimiz",
+  "politikalarimiz": "Politikalarımız",
+  "spor-salonu-plise-perde": "Spor Salonu Plise Perde",
+  "surdurulebilirlik": "Sürdürülebilirlik",
+  "tekne-plise-perde": "Tekne Plise Perde",
+  "teslimat-ve-kargo": "Teslimat ve Kargo",
+  "ticari-elektronik-ileri-onayi": "Ticari Elektronik İleti Onayı",
+  "ucretsiz-kesif": "Ücretsiz Keşif",
+  "uyelik-sozlesmesi": "Üyelik Sözleşmesi",
+  "vidali-plise-perde": "Vidalı Plise Perde",
+  "vidasiz-plise-perde": "Vidasız Plise Perde",
+  "villa-plise-perde": "Villa Plise Perde",
+  "yapiskanli-plise-perde": "Yapışkanlı Plise Perde",
+  "yatak-odasi-plise-perde": "Yatak Odası Plise Perde",
+  "yurt-disi-teslimat-ve-gumruk": "Yurt Dışı Teslimat ve Gümrük",
+};
+
+function titleFromSlug(slug: string): string {
+  return slugTitleMap[slug] ?? slug
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+function categorizePage(slug: string): { category: string; title: string } {
+  for (const rule of categoryRules) {
+    if (rule.pattern.test(slug)) {
+      return { category: rule.category, title: rule.title(slug) };
+    }
+  }
+  return { category: "Diğer", title: titleFromSlug(slug) };
+}
+
+function discoverAppRoutes(): PageEntry[] {
+  const appDir = path.join(process.cwd(), "src", "app");
+  if (!fs.existsSync(appDir)) return [];
+
+  const entries: PageEntry[] = [];
+
+  function scanDir(dir: string, prefix: string) {
+    const items = fs.readdirSync(dir, { withFileTypes: true });
+    for (const item of items) {
+      if (item.isDirectory()) {
+        if (SKIP_DIRS.includes(item.name)) continue;
+        if (item.name.endsWith(".xml")) continue;
+        const fullPath = path.join(dir, item.name);
+        const hasPage = fs.existsSync(path.join(fullPath, "page.tsx")) || fs.existsSync(path.join(fullPath, "page.ts"));
+        if (hasPage) {
+          const slug = prefix ? `${prefix}/${item.name}` : item.name;
+          const { category, title } = categorizePage(slug);
+          entries.push({
+            slug,
+            title,
+            category,
+            breadcrumb: ["Ana Sayfa", category, title],
+          });
+        }
+        scanDir(fullPath, prefix ? `${prefix}/${item.name}` : item.name);
+      }
+    }
+  }
+
+  if (fs.existsSync(path.join(appDir, "page.tsx")) || fs.existsSync(path.join(appDir, "page.ts"))) {
+    entries.push({
+      slug: "",
+      title: "Ana Sayfa",
+      category: "Ana Sayfa",
+      breadcrumb: ["Ana Sayfa"],
+    });
+  }
+
+  scanDir(appDir, "");
+  return entries;
 }
 
 const cityPages: PageEntry[] = cities.map((city) => ({
@@ -14,141 +193,22 @@ const cityPages: PageEntry[] = cities.map((city) => ({
   breadcrumb: ["Ana Sayfa", "Hizmet Bölgeleri", `${city.name} Plise Perde`],
 }));
 
+const blogPages: PageEntry[] = getAllBlogPosts().map((post) => ({
+  slug: post.slug,
+  title: post.title,
+  category: "Blog",
+  breadcrumb: ["Ana Sayfa", "Blog", post.title],
+}));
+
+const discoveredPages = discoverAppRoutes();
+const dynamicSlugs = new Set([...cityPages.map((c) => c.slug), ...blogPages.map((b) => b.slug)]);
+
+const staticPages = discoveredPages.filter((p) => !dynamicSlugs.has(p.slug));
+
 export const sitePages: PageEntry[] = [
-  // Ana Sayfa
-  { slug: "", title: "Ana Sayfa", category: "Ana Sayfa", breadcrumb: ["Ana Sayfa"] },
-
-  // Ürünlerimiz
-  { slug: "urunlerimiz", title: "Ürünlerimiz", category: "Ürünlerimiz", breadcrumb: ["Ana Sayfa", "Ürünlerimiz"] },
-  { slug: "plise-perde", title: "Plise Perde", category: "Ürünlerimiz", breadcrumb: ["Ana Sayfa", "Ürünlerimiz", "Plise Perde"] },
-  { slug: "honeycomb-perde", title: "Honeycomb Plise Perde", category: "Ürünlerimiz", breadcrumb: ["Ana Sayfa", "Ürünlerimiz", "Honeycomb Plise Perde"] },
-  { slug: "duet-perde", title: "Düet Plise Perde", category: "Ürünlerimiz", breadcrumb: ["Ana Sayfa", "Ürünlerimiz", "Düet Plise Perde"] },
-  { slug: "plise-perde-aparatlari", title: "Plise Perde Aparatları", category: "Ürünlerimiz", breadcrumb: ["Ana Sayfa", "Ürünlerimiz", "Plise Perde Aparatları"] },
-  { slug: "plise-perde-yedek-parca", title: "Plise Perde Yedek Parça", category: "Ürünlerimiz", breadcrumb: ["Ana Sayfa", "Ürünlerimiz", "Plise Perde Yedek Parça"] },
-
-  // Modellerimiz
-  { slug: "plise-perde-modelleri", title: "Modellerimiz", category: "Modellerimiz", breadcrumb: ["Ana Sayfa", "Modellerimiz"] },
-  { slug: "duz-plise-perde", title: "Düz Plise Perde", category: "Modellerimiz", breadcrumb: ["Ana Sayfa", "Modellerimiz", "Düz Plise Perde"] },
-  { slug: "blackout-plise-perde", title: "Blackout Plise Perde", category: "Modellerimiz", breadcrumb: ["Ana Sayfa", "Modellerimiz", "Blackout Plise Perde"] },
-  { slug: "gece-gunduz-plise-perde", title: "Gece Gündüz Plise Perde", category: "Modellerimiz", breadcrumb: ["Ana Sayfa", "Modellerimiz", "Gece Gündüz Plise Perde"] },
-  { slug: "desenli-plise-perde", title: "Desenli Plise Perde", category: "Modellerimiz", breadcrumb: ["Ana Sayfa", "Modellerimiz", "Desenli Plise Perde"] },
-  { slug: "basili-plise-perde", title: "Baskılı Plise Perde", category: "Modellerimiz", breadcrumb: ["Ana Sayfa", "Modellerimiz", "Baskılı Plise Perde"] },
-
-  // Sistemlerimiz
-  { slug: "plise-perde-sistemleri", title: "Sistemlerimiz", category: "Sistemlerimiz", breadcrumb: ["Ana Sayfa", "Sistemlerimiz"] },
-  { slug: "vidali-plise-perde", title: "Vidalı Plise Perde", category: "Sistemlerimiz", breadcrumb: ["Ana Sayfa", "Sistemlerimiz", "Vidalı Plise Perde"] },
-  { slug: "vidasiz-plise-perde", title: "Vidasız Plise Perde", category: "Sistemlerimiz", breadcrumb: ["Ana Sayfa", "Sistemlerimiz", "Vidasız Plise Perde"] },
-  { slug: "yapiskanli-plise-perde", title: "Yapışkanlı Plise Perde", category: "Sistemlerimiz", breadcrumb: ["Ana Sayfa", "Sistemlerimiz", "Yapışkanlı Plise Perde"] },
-  { slug: "kancali-plise-perde", title: "Kancalı Plise Perde", category: "Sistemlerimiz", breadcrumb: ["Ana Sayfa", "Sistemlerimiz", "Kancalı Plise Perde"] },
-  { slug: "portray-plise-perde", title: "Portray Plise Perde", category: "Sistemlerimiz", breadcrumb: ["Ana Sayfa", "Sistemlerimiz", "Portray Plise Perde"] },
-  { slug: "braketli-plise-perde", title: "Braketli Plise Perde", category: "Sistemlerimiz", breadcrumb: ["Ana Sayfa", "Sistemlerimiz", "Braketli Plise Perde"] },
-  { slug: "motorlu-plise-perde", title: "Motorlu Plise Perde", category: "Sistemlerimiz", breadcrumb: ["Ana Sayfa", "Sistemlerimiz", "Motorlu Plise Perde"] },
-
-  // Çeşitlerimiz
-  { slug: "plise-perde-cesitleri", title: "Çeşitlerimiz", category: "Çeşitlerimiz", breadcrumb: ["Ana Sayfa", "Çeşitlerimiz"] },
-
-  // Özellikler
-  { slug: "plise-perde-ozellikleri", title: "Özellikler", category: "Özellikler", breadcrumb: ["Ana Sayfa", "Özellikler"] },
-
-  // Fiyatlarımız
-  { slug: "plise-perde-fiyatlari", title: "Fiyatlarımız", category: "Fiyatlarımız", breadcrumb: ["Ana Sayfa", "Fiyatlarımız"] },
-
-  // Kullanım Alanları
-  { slug: "plise-perde-kullanim-alanlari", title: "Kullanım Alanları", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları"] },
-  { slug: "mutfak-plise-perde", title: "Mutfak Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Mutfak"] },
-  { slug: "salon-plise-perde", title: "Salon Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Salon"] },
-  { slug: "yatak-odasi-plise-perde", title: "Yatak Odası Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Yatak Odası"] },
-  { slug: "cocuk-odasi-plise-perde", title: "Çocuk Odası Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Çocuk Odası"] },
-  { slug: "calisma-odasi-plise-perde", title: "Çalışma Odası Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Çalışma Odası"] },
-  { slug: "banyo-wc-plise-perde", title: "Banyo ve WC Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Banyo ve WC"] },
-  { slug: "genc-odasi-plise-perde", title: "Genç Odası Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Genç Odası"] },
-  { slug: "cam-balkon-plise-perde", title: "Cam Balkon Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Cam Balkon"] },
-  { slug: "villa-plise-perde", title: "Villa Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Villa"] },
-  { slug: "karavan-plise-perde", title: "Karavan Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Karavan"] },
-  { slug: "tekne-plise-perde", title: "Tekne ve Yat Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Tekne ve Yat"] },
-  { slug: "magaza-plise-perde", title: "Mağaza Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Mağaza"] },
-  { slug: "ofis-plise-perde", title: "Ofis Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Ofis"] },
-  { slug: "kafe-restoran-plise-perde", title: "Kafe ve Restoran Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Kafe ve Restoran"] },
-  { slug: "otel-plise-perde", title: "Otel Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Otel"] },
-  { slug: "hastane-plise-perde", title: "Hastane Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Hastane"] },
-  { slug: "klinik-plise-perde", title: "Klinik Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Klinik"] },
-  { slug: "spor-salonu-plise-perde", title: "Spor Salonu Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Spor Salonu"] },
-  { slug: "anaokulu-plise-perde", title: "Anaokulu Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Anaokulu"] },
-  { slug: "laboratuvar-plise-perde", title: "Laboratuvar Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Laboratuvar"] },
-  { slug: "prefabrik-ev-plise-perde", title: "Prefabrik Ev Plise Perde", category: "Kullanım Alanları", breadcrumb: ["Ana Sayfa", "Kullanım Alanları", "Prefabrik Ev"] },
-
-  // Hizmetlerimiz
-  { slug: "hizmetlerimiz", title: "Hizmetlerimiz", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz"] },
-  { slug: "montaj", title: "Montaj", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Montaj"] },
-  { slug: "olcu-alma-destegi", title: "Ölçü Alma Desteği", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Ölçü Alma Desteği"] },
-  { slug: "ucretsiz-kesif", title: "Ücretsiz Keşif", category: "Hizmetlerimiz", breadcrumb: ["Ana Sayfa", "Hizmetlerimiz", "Ücretsiz Keşif"] },
-
-  // Fiyat Hesaplama (Bağımsız)
-  { slug: "plise-perde-fiyat-hesaplama", title: "Fiyat Hesaplama", category: "Fiyat Hesaplama", breadcrumb: ["Ana Sayfa", "Fiyat Hesaplama"] },
-
-  // Hizmet Bölgeleri
-  { slug: "hizmet-bolgeleri", title: "Hizmet Bölgeleri", category: "Hizmet Bölgeleri", breadcrumb: ["Ana Sayfa", "Hizmet Bölgeleri"] },
+  ...staticPages,
   ...cityPages,
-
-  // Referanslarımız
-  { slug: "referanslarimiz", title: "Referanslarımız", category: "Referanslarımız", breadcrumb: ["Ana Sayfa", "Referanslarımız"] },
-
-  // Karşılaştırmalar
-  { slug: "plise-perde-vs-zebra-perde", title: "Plise Perde vs Zebra Perde", category: "Karşılaştırmalar", breadcrumb: ["Ana Sayfa", "Karşılaştırmalar", "Plise vs Zebra"] },
-  { slug: "plise-perde-vs-jaluzi-perde", title: "Plise Perde vs Jaluzi Perde", category: "Karşılaştırmalar", breadcrumb: ["Ana Sayfa", "Karşılaştırmalar", "Plise vs Jaluzi"] },
-  { slug: "plise-perde-vs-stor-perde", title: "Plise Perde vs Stor Perde", category: "Karşılaştırmalar", breadcrumb: ["Ana Sayfa", "Karşılaştırmalar", "Plise vs Stor"] },
-  { slug: "plise-perde-vs-tul-perde", title: "Plise Perde vs Tül Perde", category: "Karşılaştırmalar", breadcrumb: ["Ana Sayfa", "Karşılaştırmalar", "Plise vs Tül"] },
-
-  // Kurumsal
-  { slug: "hakkimizda", title: "Hakkımızda", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Hakkımızda"] },
-  { slug: "surdurulebilirlik", title: "Sürdürülebilirlik", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Sürdürülebilirlik"] },
-  { slug: "cocuk-guvenligi", title: "Çocuk Güvenliği", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Çocuk Güvenliği"] },
-  { slug: "galeri", title: "Galeri", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Galeri"] },
-  { slug: "sikca-sorulan-sorular", title: "Sıkça Sorulan Sorular", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Sıkça Sorulan Sorular"] },
-  { slug: "plise-perde-kullanici-yorumlari", title: "Plise Perde Kullanıcı Yorumları", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Kullanıcı Yorumları"] },
-  { slug: "plise-perde-bayilik", title: "Plise Perde Bayilik", category: "Kurumsal", breadcrumb: ["Ana Sayfa", "Kurumsal", "Bayilik"] },
-
-  // İletişim
-  { slug: "iletisim", title: "İletişim", category: "İletişim", breadcrumb: ["Ana Sayfa", "İletişim"] },
-
-  // Sözleşmelerimiz
-  { slug: "sozlesmelerimiz", title: "Sözleşmelerimiz", category: "Sözleşmelerimiz", breadcrumb: ["Ana Sayfa", "Sözleşmelerimiz"] },
-  { slug: "siparis-ve-ozel-uretim-sartlari", title: "Sipariş ve Özel Üretim Şartları", category: "Sözleşmelerimiz", breadcrumb: ["Ana Sayfa", "Sözleşmelerimiz", "Sipariş ve Özel Üretim Şartları"] },
-  { slug: "uyelik-sozlesmesi", title: "Üyelik Sözleşmesi", category: "Sözleşmelerimiz", breadcrumb: ["Ana Sayfa", "Sözleşmelerimiz", "Üyelik Sözleşmesi"] },
-  { slug: "montaj-ve-uygulama-sartlari", title: "Montaj ve Uygulama Şartları", category: "Sözleşmelerimiz", breadcrumb: ["Ana Sayfa", "Sözleşmelerimiz", "Montaj ve Uygulama Şartları"] },
-  { slug: "olcu-alma-bilgilendirmesi", title: "Ölçü Alma Bilgilendirmesi", category: "Sözleşmelerimiz", breadcrumb: ["Ana Sayfa", "Sözleşmelerimiz", "Ölçü Alma Bilgilendirmesi"] },
-  { slug: "mesafeli-satis-sozlesmesi", title: "Mesafeli Satış Sözleşmesi", category: "Sözleşmelerimiz", breadcrumb: ["Ana Sayfa", "Sözleşmelerimiz", "Mesafeli Satış Sözleşmesi"] },
-  { slug: "on-bilgilendirme-formu", title: "Ön Bilgilendirme Formu", category: "Sözleşmelerimiz", breadcrumb: ["Ana Sayfa", "Sözleşmelerimiz", "Ön Bilgilendirme Formu"] },
-  { slug: "kullanim-kosullari", title: "Kullanım Koşulları", category: "Sözleşmelerimiz", breadcrumb: ["Ana Sayfa", "Sözleşmelerimiz", "Kullanım Koşulları"] },
-
-  // Politikalarımız
-  { slug: "politikalarimiz", title: "Politikalarımız", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız"] },
-  { slug: "iade-degisim-ve-cayma-hakki", title: "İade, Değişim ve Cayma Hakkı", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "İade, Değişim ve Cayma Hakkı"] },
-  { slug: "yurt-disi-teslimat-ve-gumruk", title: "Yurt Dışı Teslimat ve Gümrük", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Yurt Dışı Teslimat ve Gümrük"] },
-  { slug: "odeme-ve-taksit-secenekleri", title: "Ödeme ve Taksit Seçenekleri", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Ödeme ve Taksit Seçenekleri"] },
-  { slug: "banka-ve-havale-bilgileri", title: "Banka ve Havale Bilgileri", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Banka ve Havale Bilgileri"] },
-  { slug: "garanti-ve-satis-sonrasi-destek", title: "Garanti ve Satış Sonrası Destek", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Garanti ve Satış Sonrası Destek"] },
-  { slug: "satici-bilgileri", title: "Satıcı Bilgileri", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Satıcı Bilgileri"] },
-  { slug: "cerez-politikasi", title: "Çerez Politikası", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Çerez Politikası"] },
-  { slug: "acik-riza-metni", title: "Açık Rıza Metni", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Açık Rıza Metni"] },
-  { slug: "ticari-elektronik-ileri-onayi", title: "Ticari Elektronik İleti Onayı", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarimiz", "Ticari Elektronik İleti Onayı"] },
-  { slug: "teslimat-ve-kargo", title: "Teslimat ve Kargo", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Teslimat ve Kargo"] },
-  { slug: "iade-ve-degisim", title: "İade ve Değişim", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "İade ve Değişim"] },
-  { slug: "gizlilik-politikasi", title: "Gizlilik Politikası", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "Gizlilik Politikası"] },
-  { slug: "kvkk-aydinlatma-metni", title: "KVKK Aydınlatma Metni", category: "Politikalarımız", breadcrumb: ["Ana Sayfa", "Politikalarımız", "KVKK Aydınlatma Metni"] },
-
-  // Blog
-  { slug: "blog", title: "Blog", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog"] },
-  { slug: "plise-perde-nedir", title: "Plise Perde Nedir?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Nedir?"] },
-  { slug: "plise-perde-nasil-yapilir", title: "Plise Perde Nasıl Yapılır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Nasıl Yapılır?"] },
-  { slug: "plise-perde-olcusu-nasil-alinir", title: "Plise Perde Ölçüsü Nasıl Alınır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Ölçüsü Nasıl Alınır?"] },
-  { slug: "plise-perde-montaji-nasil-yapilir", title: "Plise Perde Montajı Nasıl Yapılır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Montajı Nasıl Yapılır?"] },
-  { slug: "plise-perde-nasil-cikarilir", title: "Plise Perde Nasıl Çıkarılır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Nasıl Çıkarılır?"] },
-  { slug: "plise-perde-temizligi-nasil-yapilir", title: "Plise Perde Temizliği Nasıl Yapılır?", category: "Blog", breadcrumb: ["Ana Sayfa", "Blog", "Plise Perde Temizliği Nasıl Yapılır?"] },
-
-  // Site Haritası
-  { slug: "site-haritasi", title: "Site Haritası", category: "Site Haritası", breadcrumb: ["Ana Sayfa", "Site Haritası"] },
-
+  ...blogPages,
 ];
 
 export const pageCategories = [
@@ -156,7 +216,12 @@ export const pageCategories = [
   "Ürünlerimiz",
   "Modellerimiz",
   "Sistemlerimiz",
+  "Çeşitlerimiz",
+  "Özellikler",
+  "Fiyatlarımız",
+  "Kullanım Alanları",
   "Hizmetlerimiz",
+  "Fiyat Hesaplama",
   "Hizmet Bölgeleri",
   "Referanslarımız",
   "Karşılaştırmalar",
@@ -164,6 +229,7 @@ export const pageCategories = [
   "İletişim",
   "Sözleşmelerimiz",
   "Politikalarımız",
+  "Blog",
   "Site Haritası",
 ] as const;
 

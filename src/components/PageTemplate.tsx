@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import PageLayout from "@/components/PageLayout";
 import PageHeading from "@/components/PageHeading";
@@ -46,6 +47,7 @@ export interface PageTemplateProps {
   highlight?: string;
   bgImage?: string;
   bgImageAlt?: string;
+  beforeContent?: ReactNode;
 }
 
 export default function PageTemplate({
@@ -67,6 +69,7 @@ export default function PageTemplate({
   highlight,
   bgImage,
   bgImageAlt,
+  beforeContent,
 }: PageTemplateProps) {
   const breadcrumbItems: { name: string; url: string }[] =
     breadcrumb.length > 0 && typeof breadcrumb[0] === "object"
@@ -112,6 +115,8 @@ export default function PageTemplate({
       />
       <div className="mx-auto max-w-[1536px] px-4 md:px-6">
         <div className="py-6 md:py-8">
+
+          {beforeContent}
 
           {sections.map((section, index) => (
             <ScrollReveal key={index} className="mb-8" delay={index * 50}>

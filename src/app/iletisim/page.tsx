@@ -96,7 +96,7 @@ export default function IletisimPage() {
                   </div>
                   <div className="flex flex-col justify-center">
                     <p className="text-sm font-medium text-brand-text m-0 leading-snug whitespace-nowrap">WhatsApp</p>
-                    <a href={siteConfig.whatsapp} target="_blank" rel="noopener noreferrer" className="touch-reset block text-sm text-brand-text-light hover:text-brand transition-colors m-0 leading-snug whitespace-nowrap">
+                    <a href={siteConfig.whatsapp} target="_blank" rel="nofollow noopener noreferrer" className="touch-reset block text-sm text-brand-text-light hover:text-brand transition-colors m-0 leading-snug whitespace-nowrap">
                       Konuşma Başlat!
                     </a>
                   </div>
@@ -118,7 +118,7 @@ export default function IletisimPage() {
                   </div>
                   <div className="flex flex-col justify-center">
                     <p className="text-sm font-medium text-brand-text m-0 leading-snug whitespace-nowrap">Canlı Destek</p>
-                    <a href={siteConfig.whatsapp} target="_blank" rel="noopener noreferrer" className="touch-reset block text-sm text-brand-text-light hover:text-brand transition-colors m-0 leading-snug whitespace-nowrap">
+                    <a href={siteConfig.whatsapp} target="_blank" rel="nofollow noopener noreferrer" className="touch-reset block text-sm text-brand-text-light hover:text-brand transition-colors m-0 leading-snug whitespace-nowrap">
                       Sohbet Başlat!
                     </a>
                   </div>
@@ -147,7 +147,7 @@ export default function IletisimPage() {
                     </p>
                   </div>
                 </div>
-                <a href="https://maps.app.goo.gl/U5tbutASyNabzoGT9" target="_blank" rel="noopener noreferrer" className="md:col-span-2 p-3.5 border border-brand-border rounded-lg flex items-center gap-3 hover:bg-brand/5 hover:border-brand transition-colors group cursor-pointer">
+                <a href="https://maps.app.goo.gl/U5tbutASyNabzoGT9" target="_blank" rel="nofollow noopener noreferrer" className="md:col-span-2 p-3.5 border border-brand-border rounded-lg flex items-center gap-3 hover:bg-brand/5 hover:border-brand transition-colors group cursor-pointer">
                   <div className="flex items-center justify-center w-10 h-10 rounded-lg border border-brand-border text-brand shrink-0 group-hover:bg-brand group-hover:text-white group-hover:border-brand transition-colors">
                     <MapPin size={18} />
                   </div>
@@ -167,7 +167,7 @@ export default function IletisimPage() {
                       key={social.label}
                       href={social.href}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="nofollow noopener noreferrer"
                       aria-label={social.label}
                       className="flex items-center justify-center w-9 h-9 rounded-lg border border-brand-border text-brand-text-light hover:text-brand hover:border-brand transition-colors"
                     >

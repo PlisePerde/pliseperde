@@ -20,7 +20,7 @@ const sitemaps = {
     { slug: "blackout-plise-perde", priority: 0.8, changefreq: "monthly" },
     { slug: "gece-gunduz-plise-perde", priority: 0.8, changefreq: "monthly" },
     { slug: "desenli-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "basili-plise-perde", priority: 0.8, changefreq: "monthly" },
+    { slug: "baskili-plise-perde", priority: 0.8, changefreq: "monthly" },
     { slug: "plise-perde-sistemleri", priority: 0.9, changefreq: "monthly" },
     { slug: "vidali-plise-perde", priority: 0.8, changefreq: "monthly" },
     { slug: "vidasiz-plise-perde", priority: 0.8, changefreq: "monthly" },
@@ -74,6 +74,9 @@ const sitemaps = {
     { slug: "plise-perde-montaji-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
     { slug: "plise-perde-nasil-cikarilir", priority: 0.7, changefreq: "monthly" },
     { slug: "plise-perde-temizligi-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
+    { slug: "plise-perde-tamiri-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
+    { slug: "plise-perde-malzemeleri-nelerdir", priority: 0.7, changefreq: "monthly" },
+    { slug: "plise-perde-mekanizmasi-nasil-calisir", priority: 0.7, changefreq: "monthly" },
   ],
   models: [
     { slug: "vidali-plise-perde", priority: 0.7, changefreq: "monthly" },
@@ -404,7 +407,10 @@ const blogPosts = sitemaps.pages.filter((p) =>
   p.slug.startsWith("plise-perde-nasil") ||
   p.slug.startsWith("plise-perde-olcusu") ||
   p.slug.startsWith("plise-perde-montaji") ||
-  p.slug.startsWith("plise-perde-temizligi")
+  p.slug.startsWith("plise-perde-temizligi") ||
+  p.slug.startsWith("plise-perde-tamiri") ||
+  p.slug.startsWith("plise-perde-malzemeleri") ||
+  p.slug.startsWith("plise-perde-mekanizmasi")
 );
 const blogSitemapPages = [
   { slug: "blog", priority: 0.8, changefreq: "weekly" },

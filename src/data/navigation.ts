@@ -62,7 +62,7 @@ export const navItems: NavItem[] = [
       { label: "Blackout Plise Perde", href: "/blackout-plise-perde" },
       { label: "Gece Gündüz Plise Perde", href: "/gece-gunduz-plise-perde" },
       { label: "Desenli Plise Perde", href: "/desenli-plise-perde" },
-      { label: "Baskılı Plise Perde", href: "/basili-plise-perde" },
+      { label: "Baskılı Plise Perde", href: "/baskili-plise-perde" },
     ],
   },
   {

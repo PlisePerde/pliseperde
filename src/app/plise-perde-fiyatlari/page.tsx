@@ -2,9 +2,9 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Plise Perde Fiyatları 2026 — Güncel Fiyat Listesi (m² Montaj Dahil)",
+  title: "Plise Perde Fiyatları 2026 — Güncel Fiyat Listesi (m² KDV Dahil)",
   description:
-    "Plise perde fiyatları 2026: tül, güneşlik, karartma, honeycomb, düet, motorlu modeller. Metrekare fiyat tablosu, montaj dahil. Online fiyat hesaplama, ücretsiz keşif. KDV dahil, 2 yıl garanti.",
+    "Plise perde fiyatları 2026: Diamond, Tulle, Blackout, Honeycomb ve 13 kumaş modeli. Metrekare fiyat tablosu, vidalı montaj ücretsiz, KDV dahil, 2 yıl garanti. Online fiyat hesaplama, ücretsiz keşif.",
   slug: "plise-perde-fiyatlari",
 });
 
@@ -12,18 +12,18 @@ export default function PlisePerdeFiyatlariPage() {
   return (
     <PageTemplate
       title="Plise Perde Fiyatları 2026"
-      description="Plise perde fiyatları 2026: tül, güneşlik, karartma, honeycomb, düet, motorlu. Metrekare fiyat, montaj dahil, KDV dahil, 2 yıl garanti."
+      description="Plise perde fiyatları 2026: Diamond, Tulle, Blackout, Honeycomb ve 13 kumaş modeli. Metrekare fiyat, vidalı montaj ücretsiz, KDV dahil, 2 yıl garanti."
       slug="plise-perde-fiyatlari"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Fiyatlarımız", url: "/plise-perde-fiyatlari" }]}
       h1="Plise Perde Fiyatları 2026"
-      intro="Plise perde fiyatları; kumaş tipine, pencere ölçüsüne, montaj tipine ve ek özelliklere göre değişir. Bu sayfada <strong>2026 yılı güncel fiyat aralıklarını</strong> metrekare bazında bulabilirsiniz. Tüm fiyatlar <strong>montaj dahil, KDV dahil ve 2 yıl garanti</strong> ile gelir. Net fiyat için online fiyat hesaplama aracımızı kullanabilir veya ücretsiz keşif talep edebilirsiniz. Üretici olarak doğrudan tüketiciye hizmet veriyoruz — ara katman maliyeti yok."
-      highlight="Üretici fiyatı · Montaj dahil · KDV dahil · 2 yıl garanti · Türkiye geneli ücretsiz keşif"
+      intro="Plise perde fiyatları; kumaş tipine, pencere ölçüsüne, montaj tipine ve ek özelliklere göre değişir. Bu sayfada <strong>2026 yılı güncel m² fiyatlarını</strong> bulabilirsiniz. Tüm fiyatlar <strong>KDV dahil ve 2 yıl garanti</strong> ile gelir. Vidalı montaj ücretsizdir, diğer montaj tipleri ₺280/adet eklenir. Net fiyat için online fiyat hesaplama aracımızı kullanabilir veya ücretsiz keşif talep edebilirsiniz. Üretici olarak doğrudan tüketiciye hizmet veriyoruz — ara katman maliyeti yok."
+      highlight="Üretici fiyatı · Vidalı montaj ücretsiz · KDV dahil · 2 yıl garanti · Türkiye geneli ücretsiz keşif"
       schemaType="product"
       schemaData={{
         name: "Plise Perde",
         description: "Tül, güneşlik, karartma, honeycomb, düet, motorlu plise perde çeşitleri. Montaj dahil, KDV dahil, 2 yıl garanti.",
-        lowPrice: "800",
-        highPrice: "6000",
+        lowPrice: "1042.80",
+        highPrice: "2640.00",
         ratingValue: "4.8",
         reviewCount: "127",
       }}
@@ -31,255 +31,364 @@ export default function PlisePerdeFiyatlariPage() {
         {
           h2: "Plise Perde Fiyat Kartları — Kumaş Tipine Göre",
           paragraphs: [
-            "Her kumaş tipi farklı <strong>işçilik, malzeme kalitesi ve fonksiyon</strong> gerektirir. Aşağıda her model için fiyat aralığı, özellikler ve tipik kullanım alanı yer alır. Tüm fiyatlar <strong>metrekare (m²) bazında, montaj dahil, KDV dahil</strong> olarak belirtilmiştir.",
+            "Her kumaş tipi farklı <strong>işçilik, malzeme kalitesi ve fonksiyon</strong> gerektirir. Aşağıda her model için net m² fiyatı, özellikler ve tipik kullanım alanı yer alır. Tüm fiyatlar <strong>metrekare (m²) bazında, KDV dahil</strong> olarak belirtilmiştir. Montaj vidalı sistemde ücretsizdir, diğer montaj tipleri ₺280/adet eklenir.",
           ],
           html: `
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
             <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
               <div class="flex items-center justify-between mb-3">
-                <h3 class="text-base font-semibold text-brand-text m-0">Tül Plise Perde</h3>
+                <h3 class="text-base font-semibold text-brand-text m-0">Diamond</h3>
                 <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">En Ekonomik</span>
               </div>
               <div class="mb-3">
-                <span class="text-2xl font-bold text-brand-text">800-1.200</span>
-                <span class="text-sm text-brand-text-light"> TL/m²</span>
+                <span class="text-2xl font-bold text-brand-text">₺1.042,80</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
               </div>
-              <p class="text-xs text-brand-text-light mb-3">Yüksek ışık geçirgenliği (%70-90). Oturma odası, mutfak, salon için ideal. Az gizlilik.</p>
+              <p class="text-xs text-brand-text-light mb-3">Standart plise kumaş. Oturma odası, mutfak, salon için ideal. İyi ışık geçirgenliği.</p>
               <ul class="text-xs text-brand-text-light space-y-1 mb-3">
-                <li>Işık: %70-90</li>
-                <li>Gizlilik: Az</li>
-                <li>Montaj: Dahil</li>
+                <li>Kategori: Standart</li>
+                <li>Işık: %60-80</li>
+                <li>Montaj: Vidalı ücretsiz</li>
                 <li>Garanti: 2 yıl</li>
               </ul>
               <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
             </div>
             <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
               <div class="flex items-center justify-between mb-3">
-                <h3 class="text-base font-semibold text-brand-text m-0">Güneşlik Plise Perde</h3>
+                <h3 class="text-base font-semibold text-brand-text m-0">Tulle</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Tül</span>
+              </div>
+              <div class="mb-3">
+                <span class="text-2xl font-bold text-brand-text">₺1.161,60</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
+              </div>
+              <p class="text-xs text-brand-text-light mb-3">Yüksek ışık geçirgenliği (%70-90). Oturma odası, mutfak için ideal.</p>
+              <ul class="text-xs text-brand-text-light space-y-1 mb-3">
+                <li>Kategori: Tül</li>
+                <li>Işık: %70-90</li>
+                <li>Montaj: Vidalı ücretsiz</li>
+                <li>Garanti: 2 yıl</li>
+              </ul>
+              <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
+            </div>
+            <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="text-base font-semibold text-brand-text m-0">Valeria</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Standart</span>
+              </div>
+              <div class="mb-3">
+                <span class="text-2xl font-bold text-brand-text">₺1.174,80</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
+              </div>
+              <p class="text-xs text-brand-text-light mb-3">Valeria kumaş. İyi ışık geçirgenliği, ekonomik fiyat.</p>
+              <ul class="text-xs text-brand-text-light space-y-1 mb-3">
+                <li>Kategori: Standart</li>
+                <li>Işık: %60-80</li>
+                <li>Montaj: Vidalı ücretsiz</li>
+                <li>Garanti: 2 yıl</li>
+              </ul>
+              <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
+            </div>
+            <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="text-base font-semibold text-brand-text m-0">Elegant</h3>
                 <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Popüler</span>
               </div>
               <div class="mb-3">
-                <span class="text-2xl font-bold text-brand-text">1.000-1.500</span>
-                <span class="text-sm text-brand-text-light"> TL/m²</span>
+                <span class="text-2xl font-bold text-brand-text">₺1.372,80</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
               </div>
-              <p class="text-xs text-brand-text-light mb-3">Orta ışık geçirgenliği (%30-50). Salon, çalışma odası için ideal. İyi gizlilik + ışık dengesi.</p>
+              <p class="text-xs text-brand-text-light mb-3">Şık kumaş seçeneği. Salon, çalışma odası için ideal.</p>
               <ul class="text-xs text-brand-text-light space-y-1 mb-3">
+                <li>Kategori: Standart</li>
+                <li>Işık: %40-60</li>
+                <li>Montaj: Vidalı ücretsiz</li>
+                <li>Garanti: 2 yıl</li>
+              </ul>
+              <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
+            </div>
+            <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="text-base font-semibold text-brand-text m-0">Spark</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Popüler</span>
+              </div>
+              <div class="mb-3">
+                <span class="text-2xl font-bold text-brand-text">₺1.372,80</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
+              </div>
+              <p class="text-xs text-brand-text-light mb-3">Spark kumaş. İyi fiyat/performans oranı.</p>
+              <ul class="text-xs text-brand-text-light space-y-1 mb-3">
+                <li>Kategori: Standart</li>
+                <li>Işık: %40-60</li>
+                <li>Montaj: Vidalı ücretsiz</li>
+                <li>Garanti: 2 yıl</li>
+              </ul>
+              <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
+            </div>
+            <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="text-base font-semibold text-brand-text m-0">Linen Tülle</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Tül</span>
+              </div>
+              <div class="mb-3">
+                <span class="text-2xl font-bold text-brand-text">₺1.399,20</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
+              </div>
+              <p class="text-xs text-brand-text-light mb-3">Keten dokulu tül. Doğal görünüm, yüksek ışık geçirgenliği.</p>
+              <ul class="text-xs text-brand-text-light space-y-1 mb-3">
+                <li>Kategori: Tül</li>
+                <li>Işık: %70-90</li>
+                <li>Montaj: Vidalı ücretsiz</li>
+                <li>Garanti: 2 yıl</li>
+              </ul>
+              <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
+            </div>
+            <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="text-base font-semibold text-brand-text m-0">Crystal</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Standart</span>
+              </div>
+              <div class="mb-3">
+                <span class="text-2xl font-bold text-brand-text">₺1.557,60</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
+              </div>
+              <p class="text-xs text-brand-text-light mb-3">Kristal dokulu kumaş. Orta ışık geçirgenliği, iyi gizlilik.</p>
+              <ul class="text-xs text-brand-text-light space-y-1 mb-3">
+                <li>Kategori: Standart</li>
                 <li>Işık: %30-50</li>
-                <li>Gizlilik: İyi</li>
-                <li>UV koruma: Var</li>
+                <li>Montaj: Vidalı ücretsiz</li>
                 <li>Garanti: 2 yıl</li>
               </ul>
               <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
             </div>
             <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
               <div class="flex items-center justify-between mb-3">
-                <h3 class="text-base font-semibold text-brand-text m-0">Yarı Karartma</h3>
-                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">İyi Fiyat/Performans</span>
+                <h3 class="text-base font-semibold text-brand-text m-0">Safir - Rubin</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Premium</span>
               </div>
               <div class="mb-3">
-                <span class="text-2xl font-bold text-brand-text">1.200-1.800</span>
-                <span class="text-sm text-brand-text-light"> TL/m²</span>
+                <span class="text-2xl font-bold text-brand-text">₺1.584,00</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
               </div>
-              <p class="text-xs text-brand-text-light mb-3">Düşük ışık (%10-20). Yatak odası, çocuk odası için ideal. Yüksek gizlilik, soft ışık.</p>
+              <p class="text-xs text-brand-text-light mb-3">Premium plise kumaş. Orta ışık geçirgenliği, yüksek gizlilik.</p>
               <ul class="text-xs text-brand-text-light space-y-1 mb-3">
-                <li>Işık: %10-20</li>
-                <li>Gizlilik: Yüksek</li>
-                <li>Montaj: Dahil</li>
+                <li>Kategori: Standart</li>
+                <li>Işık: %30-50</li>
+                <li>Montaj: Vidalı ücretsiz</li>
                 <li>Garanti: 2 yıl</li>
               </ul>
               <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
             </div>
             <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
               <div class="flex items-center justify-between mb-3">
-                <h3 class="text-base font-semibold text-brand-text m-0">Tam Karartma / Blackout</h3>
-                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">%100 Karartma</span>
+                <h3 class="text-base font-semibold text-brand-text m-0">Forest</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Premium</span>
               </div>
               <div class="mb-3">
-                <span class="text-2xl font-bold text-brand-text">1.400-2.000</span>
-                <span class="text-sm text-brand-text-light"> TL/m²</span>
+                <span class="text-2xl font-bold text-brand-text">₺1.584,00</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
               </div>
-              <p class="text-xs text-brand-text-light mb-3">Sıfır ışık (%0). Yatak odası, sinema odası, gece çalışanlar için ideal. Tam gizlilik.</p>
+              <p class="text-xs text-brand-text-light mb-3">Doğa esintili kumaş. Orta ışık geçirgenliği, şık görünüm.</p>
               <ul class="text-xs text-brand-text-light space-y-1 mb-3">
-                <li>Işık: %0 (tam karartma)</li>
-                <li>Gizlilik: Tam</li>
-                <li>3 katmanlı kumaş</li>
+                <li>Kategori: Standart</li>
+                <li>Işık: %30-50</li>
+                <li>Montaj: Vidalı ücretsiz</li>
                 <li>Garanti: 2 yıl</li>
               </ul>
-              <a href="/blackout-plise-perde/" class="text-xs font-medium text-brand hover:underline">Detaylı Bilgi →</a>
+              <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
+            </div>
+            <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
+              <div class="flex items-center justify-between mb-3">
+                <h3 class="text-base font-semibold text-brand-text m-0">Fashion (Çift Taraflı)</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Çift Taraflı</span>
+              </div>
+              <div class="mb-3">
+                <span class="text-2xl font-bold text-brand-text">₺1.768,80</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
+              </div>
+              <p class="text-xs text-brand-text-light mb-3">Çift taraflı kumaş. İki yüz farklı renk, esnek kullanım.</p>
+              <ul class="text-xs text-brand-text-light space-y-1 mb-3">
+                <li>Kategori: Standart</li>
+                <li>Işık: %20-40</li>
+                <li>Montaj: Vidalı ücretsiz</li>
+                <li>Garanti: 2 yıl</li>
+              </ul>
+              <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
             </div>
             <div class="border-2 border-brand rounded-xl p-5 hover:shadow-md transition-all relative">
               <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand text-white text-xs font-medium px-3 py-1 rounded-full">En Çok Tercih Edilen</div>
               <div class="flex items-center justify-between mb-3 mt-2">
-                <h3 class="text-base font-semibold text-brand-text m-0">Honeycomb (Petek)</h3>
-                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Isı Yalıtımı</span>
+                <h3 class="text-base font-semibold text-brand-text m-0">Moonlight (Yarı Blackout)</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Yarı Karartma</span>
               </div>
               <div class="mb-3">
-                <span class="text-2xl font-bold text-brand-text">1.800-2.800</span>
-                <span class="text-sm text-brand-text-light"> TL/m²</span>
+                <span class="text-2xl font-bold text-brand-text">₺1.980,00</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
               </div>
-              <p class="text-xs text-brand-text-light mb-3">Petek hücreli yapı ile ısı yalıtımı. Enerji tasarrufu %15-20. Tüm odalar için ideal.</p>
+              <p class="text-xs text-brand-text-light mb-3">Yarı karartma kumaş. Düşük ışık (%10-20). Yatak odası, çocuk odası için ideal.</p>
               <ul class="text-xs text-brand-text-light space-y-1 mb-3">
-                <li>Isı yalıtımı: %30-40</li>
-                <li>Ses azaltma: %20-30</li>
-                <li>Enerji tasarrufu: %15-20</li>
+                <li>Kategori: Yarı Karartma</li>
+                <li>Işık: %10-20</li>
+                <li>Montaj: Vidalı ücretsiz</li>
                 <li>Garanti: 2 yıl</li>
               </ul>
-              <a href="/honeycomb-perde/" class="text-xs font-medium text-brand hover:underline">Detaylı Bilgi →</a>
+              <a href="/plise-perde-fiyat-hesaplama/" class="text-xs font-medium text-brand hover:underline">Fiyat Hesapla →</a>
             </div>
             <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all">
               <div class="flex items-center justify-between mb-3">
-                <h3 class="text-base font-semibold text-brand-text m-0">Düet (Gece-Gündüz)</h3>
-                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">İki Katmanlı</span>
+                <h3 class="text-base font-semibold text-brand-text m-0">Blackout (Tam Blackout)</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">%100 Karartma</span>
               </div>
               <div class="mb-3">
-                <span class="text-2xl font-bold text-brand-text">2.000-3.200</span>
-                <span class="text-sm text-brand-text-light"> TL/m²</span>
+                <span class="text-2xl font-bold text-brand-text">₺2.428,80</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
               </div>
-              <p class="text-xs text-brand-text-light mb-3">İki katman: tül + karartma tek perdede. Gündüz ışık, gece karartma. Pratik çözüm.</p>
+              <p class="text-xs text-brand-text-light mb-3">Tam karartma kumaş. Sıfır ışık (%0). Yatak odası, sinema odası için ideal.</p>
               <ul class="text-xs text-brand-text-light space-y-1 mb-3">
-                <li>İki katman: Tül + Karartma</li>
-                <li>Gündüz ışık, gece karanlık</li>
-                <li>Tek profil, iki kumaş</li>
+                <li>Kategori: Blackout</li>
+                <li>Işık: %0 (tam karartma)</li>
+                <li>Montaj: Vidalı ücretsiz</li>
                 <li>Garanti: 2 yıl</li>
               </ul>
-              <a href="/duet-perde/" class="text-xs font-medium text-brand hover:underline">Detaylı Bilgi →</a>
+              <a href="/blackout-plise-perde/" class="text-xs font-medium text-brand hover:underline">Detaylı Bilgi →</a>
             </div>
             <div class="border border-brand-border rounded-xl p-5 hover:border-brand hover:shadow-md transition-all md:col-span-2 lg:col-span-1">
               <div class="flex items-center justify-between mb-3">
-                <h3 class="text-base font-semibold text-brand-text m-0">Motorlu Plise Perde</h3>
-                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Akıllı Ev</span>
+                <h3 class="text-base font-semibold text-brand-text m-0">Honeycomb (Blackout) 2000</h3>
+                <span class="text-xs bg-brand-light/20 text-brand px-2 py-1 rounded-full font-medium">Isı Yalıtımı</span>
               </div>
               <div class="mb-3">
-                <span class="text-2xl font-bold text-brand-text">3.500-6.000</span>
-                <span class="text-sm text-brand-text-light"> TL/m²</span>
+                <span class="text-2xl font-bold text-brand-text">₺2.640,00</span>
+                <span class="text-sm text-brand-text-light"> /m²</span>
               </div>
-              <p class="text-xs text-brand-text-light mb-3">Uzaktan kumanda, akıllı telefon, sesli komut. Geniş ve yüksek pencere için ideal.</p>
+              <p class="text-xs text-brand-text-light mb-3">Petek yapı blackout. Isı yalıtımı + tam karartma. Enerji tasarrufu %15-20.</p>
               <ul class="text-xs text-brand-text-light space-y-1 mb-3">
-                <li>Kumanda: Uzaktan + Telefon</li>
-                <li>Alexa / Google uyumlu</li>
-                <li>Zamanlayıcı + Güneş sensörü</li>
-                <li>Garanti: 2 yıl (motor 3 yıl)</li>
+                <li>Kategori: Blackout</li>
+                <li>Isı yalıtımı: %30-40</li>
+                <li>Montaj: Vidalı ücretsiz</li>
+                <li>Garanti: 2 yıl</li>
               </ul>
-              <a href="/motorlu-plise-perde/" class="text-xs font-medium text-brand hover:underline">Detaylı Bilgi →</a>
+              <a href="/honeycomb-perde/" class="text-xs font-medium text-brand hover:underline">Detaylı Bilgi →</a>
             </div>
           </div>`,
         },
         {
           h2: "2026 Güncel Fiyat Listesi — Metrekare Bazında Detaylı Tablo",
           paragraphs: [
-            "Aşağıdaki tablo <strong>2026 yılı güncel plise perde fiyatlarını</strong> metrekare bazında gösterir. Fiyatlar montaj dahil, KDV dahil olarak belirtilmiştir. Tüm kumaş tipleri için 2 yıl garanti geçerlidir.",
+            "Aşağıdaki tablo <strong>2026 yılı güncel plise perde fiyatlarını</strong> metrekare bazında gösterir. Fiyatlar KDV dahildir. Vidalı montaj ücretsizdir, diğer montaj tipleri ₺280/adet eklenir. Tüm kumaş tipleri için 2 yıl garanti geçerlidir.",
           ],
           table: {
-            headers: ["Kumaş Tipi", "Min Fiyat (m²)", "Max Fiyat (m²)", "Ortalama", "Işık Geçirgenliği", "Montaj", "Garanti"],
+            headers: ["Kumaş Modeli", "M² Fiyat (KDV Dahil)", "Kategori", "Işık Geçirgenliği", "Montaj", "Garanti"],
             rows: [
-              ["Tül Plise Perde", "800 TL", "1.200 TL", "1.000 TL", "%70-90", "Dahil", "2 Yıl"],
-              ["Güneşlik Plise Perde", "1.000 TL", "1.500 TL", "1.250 TL", "%30-50", "Dahil", "2 Yıl"],
-              ["Yarı Karartma", "1.200 TL", "1.800 TL", "1.500 TL", "%10-20", "Dahil", "2 Yıl"],
-              ["Tam Karartma / Blackout", "1.400 TL", "2.000 TL", "1.700 TL", "%0", "Dahil", "2 Yıl"],
-              ["Desenli Plise Perde", "1.500 TL", "2.200 TL", "1.850 TL", "%20-40", "Dahil", "2 Yıl"],
-              ["Baskılı Plise Perde", "1.800 TL", "2.500 TL", "2.150 TL", "%10-30", "Dahil", "2 Yıl"],
-              ["Honeycomb (Petek)", "1.800 TL", "2.800 TL", "2.300 TL", "%0-50", "Dahil", "2 Yıl"],
-              ["Düet (Gece-Gündüz)", "2.000 TL", "3.200 TL", "2.600 TL", "%0-70", "Dahil", "2 Yıl"],
-              ["Motorlu Plise Perde", "3.500 TL", "6.000 TL", "4.750 TL", "%0-90", "Dahil", "2 Yıl + Motor 3 Yıl"],
+              ["Diamond", "₺1.042,80", "Standart", "%60-80", "Vidalı ücretsiz", "2 Yıl"],
+              ["Tulle", "₺1.161,60", "Tül", "%70-90", "Vidalı ücretsiz", "2 Yıl"],
+              ["Valeria", "₺1.174,80", "Standart", "%60-80", "Vidalı ücretsiz", "2 Yıl"],
+              ["Elegant", "₺1.372,80", "Standart", "%40-60", "Vidalı ücretsiz", "2 Yıl"],
+              ["Spark", "₺1.372,80", "Standart", "%40-60", "Vidalı ücretsiz", "2 Yıl"],
+              ["Linen Tülle", "₺1.399,20", "Tül", "%70-90", "Vidalı ücretsiz", "2 Yıl"],
+              ["Crystal", "₺1.557,60", "Standart", "%30-50", "Vidalı ücretsiz", "2 Yıl"],
+              ["Safir - Rubin", "₺1.584,00", "Standart", "%30-50", "Vidalı ücretsiz", "2 Yıl"],
+              ["Forest", "₺1.584,00", "Standart", "%30-50", "Vidalı ücretsiz", "2 Yıl"],
+              ["Fashion (Çift Taraflı)", "₺1.768,80", "Standart", "%20-40", "Vidalı ücretsiz", "2 Yıl"],
+              ["Moonlight (Yarı Blackout)", "₺1.980,00", "Yarı Karartma", "%10-20", "Vidalı ücretsiz", "2 Yıl"],
+              ["Blackout (Tam Blackout)", "₺2.428,80", "Blackout", "%0", "Vidalı ücretsiz", "2 Yıl"],
+              ["Honeycomb (Blackout) 2000", "₺2.640,00", "Blackout", "%0", "Vidalı ücretsiz", "2 Yıl"],
             ],
           },
         },
         {
           h2: "Montaj Tipine Göre Ek Maliyet Tablosu",
           paragraphs: [
-            "Montaj tipi, pencere tipine ve mekan durumuna göre seçilir. Bazı montaj tipleri ek maliyet gerektirir. Aşağıda <strong>tek pencere ve oda bazında</strong> montaj ek maliyetleri yer alır.",
+            "Montaj tipi, pencere tipine ve mekan durumuna göre seçilir. <strong>Vidalı sistem ücretsizdir</strong>. Diğer montaj tipleri ₺280/adet ek maliyet getirir (her ürün için ayrı). Çiftli sistemde 2 ürün olduğundan montaj ücreti ₺280 × 2 = ₺560/adet olur.",
           ],
           table: {
-            headers: ["Montaj Tipi", "Tek Pencere", "Oda (3-4 Pencere)", "Tüm Ev (8-12 Pencere)", "Uygun Pencere Tipi"],
+            headers: ["Montaj Tipi", "Ücret (adet/ürün)", "Açıklama", "Uygun Pencere Tipi"],
             rows: [
-              ["Vidalı", "150-250 TL", "450-900 TL", "1.200-2.500 TL", "Ahşap/PVC kasa"],
-              ["Vidasız", "120-220 TL", "360-800 TL", "960-2.200 TL", "Alüminyum kasa"],
-              ["Yapışkanlı", "100-200 TL", "300-700 TL", "800-1.800 TL", "Düz cam yüzeyi"],
-              ["Kancalı", "100-180 TL", "300-600 TL", "800-1.600 TL", "Sök-tak gerekli"],
-              ["Portrayli", "180-300 TL", "540-1.100 TL", "1.440-2.800 TL", "Mantolama duvar"],
-              ["Braketli", "150-250 TL", "450-900 TL", "1.200-2.500 TL", "Tavan montaj"],
-              ["Motorlu", "500-1.500 TL", "1.500-4.500 TL", "4.000-12.000 TL", "Geniş/yüksek pencere"],
+              ["Vidalı", "Ücretsiz", "Vidalarla monte edilir", "Ahşap/PVC kasa"],
+              ["Portraylı", "₺280", "Klik mekanizması, vida deliği kalmaz", "Mantolama duvar"],
+              ["Yapışkanlı", "₺280", "Çift taraflı bant, delmesiz", "Düz cam yüzeyi"],
+              ["Çiftli Sistem", "₺280 × 2 ürün", "Çift ürün için özel montaj", "Gece/Gündüz sistemi"],
             ],
           },
         },
         {
           h2: "Standart Pencere Ölçülerine Göre Fiyat Tablosu",
           paragraphs: [
-            "Türkiye'deki <strong>en yaygın pencere ölçüleri</strong> için ortalama fiyatlar. Fiyatlar güneşlik kumaş tipi bazında hesaplanmıştır. Farklı kumaş için m² fiyatı ile çarpım yapılabilir.",
+            "Türkiye'deki <strong>en yaygın pencere ölçüleri</strong> için fiyatlar. Her ölçü için 4 popüler kumaş tipinin m² fiyatı ile çarpım yapılmıştır. Ölçüler 10 cm aralıklarla yukarı yuvarlanır. 1 m² altındaki ölçüler minimum 1 m² olarak ücretlendirilir. Vidalı montaj ücretsizdir.",
           ],
           table: {
-            headers: ["Pencere Ölçüsü", "Alan (m²)", "Tül (800-1.200)", "Güneşlik (1.000-1.500)", "Karartma (1.400-2.000)", "Honeycomb (1.800-2.800)"],
+            headers: ["Pencere Ölçüsü", "Alan (m²)", "Diamond (₺1.042,80)", "Tulle (₺1.161,60)", "Blackout (₺2.428,80)", "Honeycomb (₺2.640,00)"],
             rows: [
-              ["60x80 cm", "0.48 m²", "384-576 TL", "480-720 TL", "672-960 TL", "864-1.344 TL"],
-              ["80x120 cm", "0.96 m²", "768-1.152 TL", "960-1.440 TL", "1.344-1.920 TL", "1.728-2.688 TL"],
-              ["100x120 cm", "1.20 m²", "960-1.440 TL", "1.200-1.800 TL", "1.680-2.400 TL", "2.160-3.360 TL"],
-              ["120x150 cm", "1.80 m²", "1.440-2.160 TL", "1.800-2.700 TL", "2.520-3.600 TL", "3.240-5.040 TL"],
-              ["150x180 cm", "2.70 m²", "2.160-3.240 TL", "2.700-4.050 TL", "3.780-5.400 TL", "4.860-7.560 TL"],
-              ["180x200 cm", "3.60 m²", "2.880-4.320 TL", "3.600-5.400 TL", "5.040-7.200 TL", "6.480-10.080 TL"],
-              ["200x250 cm (geniş)", "5.00 m²", "4.000-6.000 TL", "5.000-7.500 TL", "7.000-10.000 TL", "9.000-14.000 TL"],
+              ["60x80 cm", "0.48 m² (min 1)", "₺1.042,80", "₺1.161,60", "₺2.428,80", "₺2.640,00"],
+              ["80x120 cm", "0.96 m² (min 1)", "₺1.042,80", "₺1.161,60", "₺2.428,80", "₺2.640,00"],
+              ["100x120 cm", "1.20 m²", "₺1.251,36", "₺1.393,92", "₺2.914,56", "₺3.168,00"],
+              ["120x150 cm", "1.80 m²", "₺1.877,04", "₺2.090,88", "₺4.371,84", "₺4.752,00"],
+              ["150x180 cm", "2.70 m²", "₺2.815,56", "₺3.136,32", "₺6.557,76", "₺7.128,00"],
+              ["180x200 cm", "3.60 m²", "₺3.754,08", "₺4.181,76", "₺8.743,68", "₺9.504,00"],
+              ["200x250 cm (geniş)", "5.00 m²", "₺5.214,00", "₺5.808,00", "₺12.144,00", "₺13.200,00"],
             ],
           },
         },
         {
           h2: "Oda Bazlı Fiyat Hesaplama Örnekleri",
           paragraphs: [
-            "Farklı odalar için <strong>gerçekçi fiyat hesaplama örnekleri</strong>. Her örnek standart pencere ölçüleri ve en uygun kumaş tipi ile hesaplanmıştır. Montaj dahil, KDV dahil fiyatlar.",
+            "Farklı odalar için <strong>gerçekçi fiyat hesaplama örnekleri</strong>. Her örnek standart pencere ölçüleri ve en uygun kumaş tipi ile hesaplanmıştır. Vidalı montaj ücretsiz, KDV dahil fiyatlar.",
           ],
           html: `
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div class="border border-brand-border rounded-xl p-5">
               <h3 class="text-base font-semibold text-brand-text mb-2">Oturma Odası (3 Pencere)</h3>
               <div class="text-xs text-brand-text-light space-y-1 mb-3">
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 1: 120x150 cm (1.8 m²)</span><span class="font-medium text-brand-text">2.250 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 2: 100x120 cm (1.2 m²)</span><span class="font-medium text-brand-text">1.500 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 3: 80x120 cm (0.96 m²)</span><span class="font-medium text-brand-text">1.200 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Kumaş: Güneşlik (1.250 TL/m²)</span><span class="text-brand-text-light">—</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Montaj: Vidalı (3 pencere)</span><span class="font-medium text-brand-text">600 TL</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 1: 120x150 cm (1.8 m²)</span><span class="font-medium text-brand-text">₺3.136,32</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 2: 100x120 cm (1.2 m²)</span><span class="font-medium text-brand-text">₺1.393,92</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 3: 80x120 cm (min 1 m²)</span><span class="font-medium text-brand-text">₺1.161,60</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Kumaş: Tulle (₺1.161,60/m²)</span><span class="text-brand-text-light">—</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Montaj: Vidalı (3 pencere)</span><span class="font-medium text-brand-text">Ücretsiz</span></div>
               </div>
               <div class="flex justify-between items-center bg-brand-light/10 rounded-lg px-3 py-2">
                 <span class="text-sm font-medium text-brand-text">Toplam (KDV dahil)</span>
-                <span class="text-lg font-bold text-brand">5.550 TL</span>
+                <span class="text-lg font-bold text-brand">₺5.691,84</span>
               </div>
             </div>
             <div class="border border-brand-border rounded-xl p-5">
               <h3 class="text-base font-semibold text-brand-text mb-2">Yatak Odası (2 Pencere)</h3>
               <div class="text-xs text-brand-text-light space-y-1 mb-3">
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 1: 120x150 cm (1.8 m²)</span><span class="font-medium text-brand-text">3.060 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 2: 100x120 cm (1.2 m²)</span><span class="font-medium text-brand-text">2.040 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Kumaş: Tam Karartma (1.700 TL/m²)</span><span class="text-brand-text-light">—</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Montaj: Vidalı (2 pencere)</span><span class="font-medium text-brand-text">400 TL</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 1: 120x150 cm (1.8 m²)</span><span class="font-medium text-brand-text">₺4.371,84</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 2: 100x120 cm (1.2 m²)</span><span class="font-medium text-brand-text">₺2.914,56</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Kumaş: Blackout (₺2.428,80/m²)</span><span class="text-brand-text-light">—</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Montaj: Vidalı (2 pencere)</span><span class="font-medium text-brand-text">Ücretsiz</span></div>
               </div>
               <div class="flex justify-between items-center bg-brand-light/10 rounded-lg px-3 py-2">
                 <span class="text-sm font-medium text-brand-text">Toplam (KDV dahil)</span>
-                <span class="text-lg font-bold text-brand">5.500 TL</span>
+                <span class="text-lg font-bold text-brand">₺7.286,40</span>
               </div>
             </div>
             <div class="border border-brand-border rounded-xl p-5">
               <h3 class="text-base font-semibold text-brand-text mb-2">Mutfak (2 Pencere)</h3>
               <div class="text-xs text-brand-text-light space-y-1 mb-3">
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 1: 60x80 cm (0.48 m²)</span><span class="font-medium text-brand-text">480 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 2: 80x120 cm (0.96 m²)</span><span class="font-medium text-brand-text">960 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Kumaş: Tül (1.000 TL/m²)</span><span class="text-brand-text-light">—</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Montaj: Yapışkanlı (2 pencere)</span><span class="font-medium text-brand-text">300 TL</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 1: 60x80 cm (min 1 m²)</span><span class="font-medium text-brand-text">₺1.042,80</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Pencere 2: 80x120 cm (min 1 m²)</span><span class="font-medium text-brand-text">₺1.042,80</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Kumaş: Diamond (₺1.042,80/m²)</span><span class="text-brand-text-light">—</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Montaj: Vidalı (2 pencere)</span><span class="font-medium text-brand-text">Ücretsiz</span></div>
               </div>
               <div class="flex justify-between items-center bg-brand-light/10 rounded-lg px-3 py-2">
                 <span class="text-sm font-medium text-brand-text">Toplam (KDV dahil)</span>
-                <span class="text-lg font-bold text-brand">1.740 TL</span>
+                <span class="text-lg font-bold text-brand">₺2.085,60</span>
               </div>
             </div>
             <div class="border-2 border-brand rounded-xl p-5 relative">
               <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand text-white text-xs font-medium px-3 py-1 rounded-full">En Avantajlı</div>
               <h3 class="text-base font-semibold text-brand-text mb-2 mt-2">Tüm Ev Paketi (8 Pencere)</h3>
               <div class="text-xs text-brand-text-light space-y-1 mb-3">
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Oturma Odası: 3 pencere (Güneşlik)</span><span class="font-medium text-brand-text">5.550 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Yatak Odası: 2 pencere (Karartma)</span><span class="font-medium text-brand-text">5.500 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Mutfak: 2 pencere (Tül)</span><span class="font-medium text-brand-text">1.740 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Banyo: 1 pencere (Karartma)</span><span class="font-medium text-brand-text">1.200 TL</span></div>
-                <div class="flex justify-between border-b border-brand-border pb-1"><span>Toplu Alım İndirimi (%10)</span><span class="font-medium text-red-500">-1.399 TL</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Oturma Odası: 3 pencere (Tulle)</span><span class="font-medium text-brand-text">₺5.691,84</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Yatak Odası: 2 pencere (Blackout)</span><span class="font-medium text-brand-text">₺7.286,40</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Mutfak: 2 pencere (Diamond)</span><span class="font-medium text-brand-text">₺2.085,60</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Banyo: 1 pencere (Blackout, min 1 m²)</span><span class="font-medium text-brand-text">₺2.428,80</span></div>
+                <div class="flex justify-between border-b border-brand-border pb-1"><span>Toplu Alım İndirimi (%10)</span><span class="font-medium text-red-500">-₺1.749,26</span></div>
               </div>
               <div class="flex justify-between items-center bg-brand-light/10 rounded-lg px-3 py-2">
                 <span class="text-sm font-medium text-brand-text">Toplam (KDV dahil, indirimli)</span>
-                <span class="text-lg font-bold text-brand">12.591 TL</span>
+                <span class="text-lg font-bold text-brand">₺15.743,38</span>
               </div>
               <p class="text-xs text-brand-text-light mt-2">Tüm ev paketinde ekstra: ücretsiz keşif, ölçü alma, montaj, 2 yıl garanti.</p>
             </div>
@@ -396,19 +505,19 @@ export default function PlisePerdeFiyatlariPage() {
       faqItems={[
         {
           question: "Plise perde fiyatı 2026 ne kadar?",
-          answer: "2026 yılı plise perde fiyatları metrekare bazında 800 TL ile 6.000 TL aralığındadır. Tül en ekonomik (800-1.200 TL/m²), motorlu en yüksek (3.500-6.000 TL/m²) fiyatlidir. Tüm fiyatlar montaj dahil ve KDV dahildir.",
+          answer: "2026 yılı plise perde fiyatları metrekare bazında ₺1.042,80 ile ₺2.640,00 aralığındadır. Diamond en ekonomik (₺1.042,80/m²), Honeycomb (Blackout) 2000 en yüksek (₺2.640,00/m²) fiyatlidir. Tüm fiyatlar KDV dahildir. Vidalı montaj ücretsizdir.",
         },
         {
           question: "Plise perde metrekare fiyatı nasıl hesaplanır?",
-          answer: "Pencere genişliği (m) × pencere yüksekliği (m) = metrekare (m²). Bu alanı seçtiğiniz kumaş tipinin m² fiyatı ile çarpın. Örnek: 120x150 cm pencere = 1.8 m². Güneşlik kumaş 1.250 TL/m² × 1.8 = 2.250 TL. Montaj dahildir.",
+          answer: "Pencere genişliği (m) × pencere yüksekliği (m) = metrekare (m²). Bu alanı seçtiğiniz kumaş tipinin m² fiyatı ile çarpın. Örnek: 120x150 cm pencere = 1.8 m². Tulle kumaş ₺1.161,60/m² × 1.8 = ₺2.090,88. Ölçü 10 cm aralıklarla yukarı yuvarlanır. 1 m² altı ölçüler minimum 1 m² olarak ücretlendirilir.",
         },
         {
           question: "Plise perde montaj ücreti ne kadar?",
-          answer: "Montaj tipine göre tek pencere için 100 TL ile 1.500 TL arası. Vidalı 150-250 TL, yapışkanlı 100-200 TL, kancalı 100-180 TL, motorlu 500-1.500 TL. Belirtilen fiyatlar zaten montaj dahildir — ek montaj ücreti yoktur.",
+          answer: "Vidalı montaj ücretsizdir. Portraylı, yapışkanlı ve çiftli sistem montaj tipleri ₺280/adet (her ürün için) ek ücret getirir. Çiftli sistemde 2 ürün olduğundan montaj ₺280 × 2 = ₺560/adet olur.",
         },
         {
           question: "Plise perde fiyat hesaplama aracı var mı?",
-          answer: "Evet, online fiyat hesaplama aracımızı kullanabilirsiniz. Pencere ölçüsü ve kumaş tipini seçerek anında tahmini fiyat alabilirsiniz. Ücretsizdir ve 30 saniye sürer. /plise-perde-fiyat-hesaplama/ sayfasını ziyaret edin.",
+          answer: "Evet, online fiyat hesaplama aracımızı kullanabilirsiniz. Pencere ölçüsü ve kumaş tipini seçerek anında tahmini fiyat alabilirsiniz. Birden fazla pencere ekleyebilir, adet belirtebilirsiniz. Ücretsizdir. /plise-perde-fiyat-hesaplama/ sayfasını ziyaret edin.",
         },
         {
           question: "Toplu alımda plise perde indirim var mı?",
@@ -420,15 +529,15 @@ export default function PlisePerdeFiyatlariPage() {
         },
         {
           question: "Honeycomb plise perde fiyatı ne kadar?",
-          answer: "Honeycomb plise perde 1.800-2.800 TL/m² aralığındadır. Petek hücreli yapısı ile ısı yalıtımı sağlar, enerji tasarrufu %15-20. Yıllık enerji tasarrufu ile 2-3 yılda kendini amorti eder.",
+          answer: "Honeycomb (Blackout) 2000 plise perde ₺2.640,00/m²'dir. Petek hücreli yapısı ile ısı yalıtımı sağlar, enerji tasarrufu %15-20. Yıllık enerji tasarrufu ile 2-3 yılda kendini amorti eder.",
         },
         {
-          question: "Motorlu plise perde fiyatı ne kadar?",
-          answer: "Motorlu plise perde 3.500-6.000 TL/m² aralığındadır. Motor 1.500-3.000 TL ek maliyet getirir. Akıllı ev entegrasyonu 500-1.000 TL, güneş sensörü 300-500 TL ek maliyet. Motor 3 yıl garantilidir.",
+          question: "Blackout plise perde fiyatı ne kadar?",
+          answer: "Blackout (Tam Blackout) plise perde ₺2.428,80/m²'dir. %0 ışık geçirgenliği ile tam karartma sağlar. Yatak odası, sinema odası için idealdir.",
         },
         {
           question: "Plise perde garanti süresi ne kadar?",
-          answer: "Tüm plise perde ürünleri 2 yıl garanti ile gelir. Motorlu modellerde motor 3 yıl garanti kapsamındadır. Garanti kapsamındaki onarımlar tamamen ücretsizdir. Garanti sonrası yedek parça ve servis desteği mevcuttur.",
+          answer: "Tüm plise perde ürünleri 2 yıl garanti ile gelir. Garanti kapsamındaki onarımlar tamamen ücretsizdir. Garanti sonrası yedek parça ve servis desteği mevcuttur.",
         },
         {
           question: "Ücretsiz keşif nasıl talep edilir?",
@@ -440,7 +549,7 @@ export default function PlisePerdeFiyatlariPage() {
         },
         {
           question: "Standart pencere için plise perde fiyatı ne kadar?",
-          answer: "120x150 cm standart pencere için: Tül 1.440-2.160 TL, Güneşlik 1.800-2.700 TL, Karartma 2.520-3.600 TL, Honeycomb 3.240-5.040 TL. Montaj dahil, KDV dahil fiyatlar.",
+          answer: "120x150 cm standart pencere için: Diamond ₺1.877,04, Tulle ₺2.090,88, Blackout ₺4.371,84, Honeycomb ₺4.752,00. Vidalı montaj ücretsiz, KDV dahil fiyatlar.",
         },
       ]}
       ctaTitle="Net Fiyat İçin Hesaplayın veya Keşif Talep Edin"

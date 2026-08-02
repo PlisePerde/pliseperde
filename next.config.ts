@@ -11,6 +11,20 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
+  async redirects() {
+    return [
+      {
+        source: "/basili-plise-perde",
+        destination: "/baskili-plise-perde",
+        permanent: true,
+      },
+      {
+        source: "/basili-plise-perde/",
+        destination: "/baskili-plise-perde/",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

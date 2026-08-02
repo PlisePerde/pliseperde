@@ -161,7 +161,7 @@ export default function OfflinePage() {
                   <a
                     href={siteConfig.whatsapp}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     className="flex items-center gap-3 p-4 bg-[#25D366]/5 border border-[#25D366]/20 rounded-lg hover:border-[#25D366] transition-colors"
                   >
                     <div className="w-10 h-10 bg-[#25D366]/10 rounded-full flex items-center justify-center shrink-0">

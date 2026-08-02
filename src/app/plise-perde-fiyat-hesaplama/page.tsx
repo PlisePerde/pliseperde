@@ -1,4 +1,5 @@
 import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
+import PriceCalculator from "@/components/PriceCalculator";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
@@ -23,23 +24,30 @@ export default function FiyatHesaplamaPage() {
         description: "Plise perde için online fiyat hesaplama aracı.",
         serviceType: "Fiyat Hesaplama",
       }}
+      beforeContent={<PriceCalculator />}
       sections={[
         {
           h2: "Fiyat Hesaplama Nasıl Çalışır?",
           paragraphs: [
             "Hesaplama <strong>4 faktöre</strong> dayanır: pencere genişliği, pencere yüksekliği, kumaş modeli ve montaj tipi. <em>M² fiyatı</em> bu faktörlere göre belirlenir.",
-            "Aşağıdaki tabloda her model için <u>m² fiyat aralığı</u> verilmiştir. Pencere ölçünüzü bu fiyata çarparak tahmini fiyatı bulabilirsiniz.",
+            "Aşağıdaki tabloda her model için <u>m² fiyatı</u> verilmiştir. Pencere ölçünüzü bu fiyata çarparak tahmini fiyatı bulabilirsiniz. Ölçüler <strong>10 cm aralıklarla yukarı yuvarlanır</strong> — örneğin 97 cm girerseniz 100 cm üzerinden, 46 cm girerseniz 50 cm üzerinden hesaplanır.",
           ],
           table: {
-            headers: ["Model", "M² Fiyat (TL)", "Montaj Dahil"],
+            headers: ["Model", "M² Fiyat (TL)", "Kategori"],
             rows: [
-              ["Tül Plise Perde", "450-900", "+150 TL/pencere"],
-              ["Güneşlik Plise Perde", "550-1100", "+150 TL/pencere"],
-              ["Yarı Karartma", "600-1200", "+150 TL/pencere"],
-              ["Tam Karartma", "700-1400", "+150 TL/pencere"],
-              ["Honeycomb Petek", "990-1500", "+200 TL/pencere"],
-              ["Gece Gündüz", "850-1600", "+200 TL/pencere"],
-              ["Motorlu", "1800-3500", "+300 TL/pencere"],
+              ["Diamond", "₺1.042,80", "Standart"],
+              ["Tulle", "₺1.161,60", "Tül"],
+              ["Valeria", "₺1.174,80", "Standart"],
+              ["Linen Tülle", "₺1.399,20", "Tül"],
+              ["Elegant", "₺1.372,80", "Standart"],
+              ["Spark", "₺1.372,80", "Standart"],
+              ["Crystal", "₺1.557,60", "Standart"],
+              ["Safir - Rubin", "₺1.584,00", "Standart"],
+              ["Forest", "₺1.584,00", "Standart"],
+              ["Fashion (Çift Taraflı)", "₺1.768,80", "Standart"],
+              ["Moonlight (Yarı Blackout)", "₺1.980,00", "Yarı Karartma"],
+              ["Blackout (Tam Blackout)", "₺2.428,80", "Blackout"],
+              ["Honeycomb (Blackout) 2000", "₺2.640,00", "Blackout"],
             ],
           },
         },
@@ -63,15 +71,15 @@ export default function FiyatHesaplamaPage() {
         {
           h2: "Örnek Fiyat Hesaplaması",
           paragraphs: [
-            "80x120 cm pencere için <strong>tül plise perde</strong> seçelim. M² = 0.8 x 1.2 = 0.96 m². <em>450-900 TL/m²</em> aralığı: 432-864 TL. Montaj +150 TL. <u>Toplam: 582-1014 TL</u>.",
+            "80x120 cm pencere için <strong>Tulle</strong> kumaş seçelim. Ölçü yukarı yuvarlanır: 80x120 cm → 80x120 cm (zaten 10'un katı). M² = 0.8 x 1.2 = 0.96 m². <em>₺1.161,60/m²</em>: 0.96 x 1.161,60 = ₺1.115,14. Montaj ₺280. <u>Toplam: ₺1.395,14</u>.",
           ],
           table: {
-            headers: ["Örnek", "Ölçü", "Model", "Tahmini Fiyat"],
+            headers: ["Örnek", "Ölçü", "Model", "M²", "Tahmini Fiyat"],
             rows: [
-              ["Örnek 1", "60x80 cm", "Tül", "286-534 TL"],
-              ["Örnek 2", "80x120 cm", "Tam Karartma", "672-1302 TL"],
-              ["Örnek 3", "120x150 cm", "Honeycomb", "1778-2450 TL"],
-              ["Örnek 4", "150x200 cm", "Motorlu", "5400-10500 TL"],
+              ["Örnek 1", "60x80 cm", "Diamond", "0.48", "₺780,54"],
+              ["Örnek 2", "80x120 cm", "Tulle", "0.96", "₺1.395,14"],
+              ["Örnek 3", "120x150 cm", "Blackout", "1.80", "₺4.651,84"],
+              ["Örnek 4", "100x130 cm", "Honeycomb", "1.30", "₺3.712,00"],
             ],
           },
         },
@@ -111,7 +119,7 @@ export default function FiyatHesaplamaPage() {
       faqItems={[
         {
           question: "Plise perde fiyatı nasıl hesaplanır?",
-          answer: "M² fiyatı pencere genişliği x yüksekliği ile çarpılır. Model, montaj tipi ve ekstra özellikler fiyata eklenir. Örnek: 80x120 cm tül perde = 0.96 m² x 450-900 TL = 432-864 TL + montaj.",
+          answer: "M² fiyatı pencere genişliği x yüksekliği ile çarpılır. Ölçü 10 cm aralıklarla yukarı yuvarlanır. Model, montaj tipi ve adet fiyata eklenir. Örnek: 80x120 cm Tulle perde = 0.96 m² x ₺1.161,60 = ₺1.115,14 + montaj ₺280 = ₺1.395,14.",
         },
         {
           question: "Online fiyat hesaplama ne kadar doğru?",
@@ -119,11 +127,15 @@ export default function FiyatHesaplamaPage() {
         },
         {
           question: "Plise perde fiyatına montaj dahil mi?",
-          answer: "Hayır, montaj ayrı ücretlendirilir. Vidalı 150-250 TL, yapışkanlı 100-200 TL, kancalı 100-180 TL/pencere. Bazı modellerde montaj dahil paket mevcuttur.",
+          answer: "Hayır, montaj ayrı ücretlendirilir. Portraylı, yapışkanlı ve çiftli sistemler ₺280/adet (her bir ürün için) montaj ücreti eklenir.",
         },
         {
-          question: "Taksit imkanı var mı?",
-          answer: "Evet, 3-6 taksit imkanı mevcuttur (banka göre değişir). Nakit ödemede %5 indirim vardır. Montaj sonrası ödeme kabul edilir.",
+          question: "Çiftli sistem nasıl hesaplanır?",
+          answer: "Çiftli sistemde iki kumaş seçilir: biri Blackout (Tam Blackout veya Honeycomb Blackout 2000), diğeri Tülle (Tulle veya Linen Tülle). Her iki kumaşın m² fiyatı ayrı hesaplanır ve montaj ücreti iki ürün için eklenir (₺280 x 2).",
+        },
+        {
+          question: "Motorlu plise perde fiyatı nedir?",
+          answer: "Motorlu sistemler pencere ölçüsü, motor tipi ve kontrol yöntemine göre özel fiyatlandırılır. Online hesaplamada yer almaz. Net fiyat için WhatsApp veya iletişim sayfasından bize ulaşın.",
         },
         {
           question: "Net fiyat için ne yapmalıyım?",
