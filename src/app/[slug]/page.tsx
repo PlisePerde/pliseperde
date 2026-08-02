@@ -391,6 +391,12 @@ async function CityView({ slug }: { slug: string }) {
   const sections = [
     ...city.sections,
     ...dynamicSections,
+    {
+      h2: `${city.name} Plise Perde Referansları`,
+      paragraphs: [
+        `${city.name} plise perde hizmetimiz hakkında daha fazla bilgi için <a href="/referanslarimiz/">referanslarımızı inceleyebilirsiniz</a>. 2000+ tamamlanan proje ve 500+ kurumsal müşteri ile Türkiye geneli hizmet veriyoruz.`,
+      ],
+    },
   ];
 
   const allFaqs = [...city.faqItems, ...dynamicFaqs];

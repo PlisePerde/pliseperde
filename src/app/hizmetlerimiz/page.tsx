@@ -63,6 +63,11 @@ export default function HizmetlerPage() {
           </section>
         </div>
       </div>
+      <div className="mx-auto max-w-[1536px] px-4 md:px-6 py-6 md:py-8">
+        <p className="text-sm text-brand-text-light text-center">
+          Hizmetlerimiz hakkında daha fazla bilgi için <Link href="/referanslarimiz/" className="text-brand hover:underline">referanslarımızı inceleyebilirsiniz</Link>.
+        </p>
+      </div>
       <CTASection />
     </PageLayout>
   );

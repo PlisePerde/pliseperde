@@ -107,6 +107,7 @@ export default function HakkimizdaPage() {
               "Adres: Esenyalı Mah. Edebali Cad. No:13/C Pendik/İstanbul",
               "WhatsApp: 7/24 mesaj atabilirsiniz",
               "Üretim tesisi ziyareti: Randevu ile",
+              '<a href="/referanslarimiz/">Referanslarımızı inceleyin</a> — 2000+ tamamlanan proje',
             ],
           },
         },
