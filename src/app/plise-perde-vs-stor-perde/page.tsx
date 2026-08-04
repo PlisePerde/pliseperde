@@ -14,7 +14,7 @@ export default function PliseVsStorPage() {
       title="Plise Perde vs Stor Perde"
       description="Plise perde vs stor perde karşılaştırması. Fiyat, ışık kontrolü, montaj, temizlik, dayanıklılık."
       slug="plise-perde-vs-stor-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/plise-perde-modelleri" }, { name: "Plise vs Stor", url: "/plise-perde-vs-stor-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Stor", url: "/plise-perde-vs-stor-perde" }]}
       h1="Plise Perde vs Stor Perde — Hangisi Daha İyi?"
       intro="Plise perde ve stor perde, iki yaygın pencere çözümüdür. Plise perde kumaşı pile katlayarak çalışır, stor perde ise kumaşı silindirik bir tüp üzerine sarar. Bu karşılaştırmada fiyat, ışık kontrolü, montaj, temizlik ve estetik açısından her iki sistemi detaylıca inceleyeceğiz."
       schemaType="article"
@@ -22,6 +22,15 @@ export default function PliseVsStorPage() {
         headline: "Plise Perde vs Stor Perde Karşılaştırması",
         description: "Plise perde ve stor perde karşılaştırması — fiyat, ışık, montaj, temizlik.",
       }}
+      beforeContent={
+        <img
+          src="/karsilastirmalar/plise-perde-vs-stor-perde.webp"
+          alt="Plise Perde vs Stor Perde Karşılaştırması"
+          className="w-full rounded-xl mb-8"
+          width={1200}
+          height={630}
+        />
+      }
       sections={[
         {
           h2: "Çalışma Prensibi Farkı",

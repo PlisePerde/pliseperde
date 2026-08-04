@@ -14,7 +14,7 @@ export default function PliseVsFonPage() {
       title="Plise Perde vs Fon Perde"
       description="Plise perde vs fon perde karşılaştırması. Işık geçirgenliği, gizlilik, estetik, fiyat, montaj."
       slug="plise-perde-vs-fon-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/plise-perde-modelleri" }, { name: "Plise vs Fon", url: "/plise-perde-vs-fon-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Fon", url: "/plise-perde-vs-fon-perde" }]}
       h1="Plise Perde vs Fon Perde — Hangisi Daha İyi?"
       intro="Plise perde ve fon perde (tül perde), iç mekan pencere çözümlerinin en yaygın iki seçeneğidir. Fon perde, ince tül kumaşı ile yumuşak ışık ve gizlilik sağlar — klasik ve geleneksel bir çözümdür. Plise perde ise pile katlı yapısıyla modern esneklik sunar ve blackout kumaş seçeneği ile tam karartma yapabilir. Bu karşılaştırmada ışık geçirgenliği, gizlilik, estetik, fiyat ve montaj açısından ikisini detaylıca inceleyeceğiz."
       schemaType="article"
@@ -22,6 +22,15 @@ export default function PliseVsFonPage() {
         headline: "Plise Perde vs Fon Perde Karşılaştırması",
         description: "Plise perde ve fon perde karşılaştırması — ışık geçirgenliği, gizlilik, estetik, fiyat.",
       }}
+      beforeContent={
+        <img
+          src="/karsilastirmalar/plise-perde-vs-fon-perde.webp"
+          alt="Plise Perde vs Fon Perde Karşılaştırması"
+          className="w-full rounded-xl mb-8"
+          width={1200}
+          height={630}
+        />
+      }
       sections={[
         {
           h2: "Çalışma Prensibi Farkı",

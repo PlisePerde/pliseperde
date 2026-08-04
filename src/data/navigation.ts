@@ -138,10 +138,6 @@ export const navItems: NavItem[] = [
     href: "/galeri",
   },
   {
-    label: "Hizmet Bölgeleri",
-    href: "/hizmet-bolgeleri",
-  },
-  {
     label: "Blog",
     href: "/blog",
   },

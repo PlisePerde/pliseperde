@@ -14,7 +14,7 @@ export default function PliseVsJaponPage() {
       title="Plise Perde vs Japon Perde"
       description="Plise perde vs japon perde karşılaştırması. Işık kontrolü, estetik, fiyat, montaj, temizlik."
       slug="plise-perde-vs-japon-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/plise-perde-modelleri" }, { name: "Plise vs Japon", url: "/plise-perde-vs-japon-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Japon", url: "/plise-perde-vs-japon-perde" }]}
       h1="Plise Perde vs Japon Perde — Hangisi Daha İyi?"
       intro="Plise perde ve japon perde (panjur), farklı çalışma prensiplerine sahip iki pencere çözümüdür. Plise perde kumaşı pile yaparak yukarı-aşağı hareket ettirir, japon perde (panjur) ise yatay lamel veya düz kumaşı yukarı toplar. Japon perde, özellikle dış cephe gölgeleme ve tam karartma için yaygın kullanılırken, plise perde iç mekanda esnek ışık kontrolü sunar. Bu karşılaştırmada çalışma prensibi, ışık kontrolü, estetik, fiyat ve montaj açısından ikisini detaylıca inceleyeceğiz."
       schemaType="article"
@@ -22,6 +22,15 @@ export default function PliseVsJaponPage() {
         headline: "Plise Perde vs Japon Perde Karşılaştırması",
         description: "Plise perde ve japon perde karşılaştırması — ışık kontrolü, estetik, fiyat, montaj.",
       }}
+      beforeContent={
+        <img
+          src="/karsilastirmalar/plise-perde-vs-japon-perde.webp"
+          alt="Plise Perde vs Japon Perde Karşılaştırması"
+          className="w-full rounded-xl mb-8"
+          width={1200}
+          height={630}
+        />
+      }
       sections={[
         {
           h2: "Çalışma Prensibi Farkı",

@@ -36,8 +36,28 @@ export const metadata: Metadata = {
   },
 };
 
-const priorityCities = cities.filter((c) => c.priority);
-const otherCities = cities.filter((c) => !c.priority);
+const priorityOrder = [
+  "istanbul-plise-perde",
+  "kocaeli-plise-perde",
+  "sakarya-plise-perde",
+  "yalova-plise-perde",
+  "duzce-plise-perde",
+  "konya-plise-perde",
+  "ankara-plise-perde",
+  "bursa-plise-perde",
+  "izmir-plise-perde",
+  "eskisehir-plise-perde",
+  "trabzon-plise-perde",
+  "kayseri-plise-perde",
+  "antalya-plise-perde",
+  "mersin-plise-perde",
+  "samsun-plise-perde",
+];
+
+const priorityCities = priorityOrder
+  .map((slug) => cities.find((c) => c.slug === slug))
+  .filter((c): c is (typeof cities)[0] => !!c);
+const otherCities = cities.filter((c) => !priorityOrder.includes(c.slug));
 const allCities = [...priorityCities, ...otherCities];
 
 export default function HizmetBolgeleriPage() {

@@ -14,7 +14,7 @@ export default function PliseVsZipPage() {
       title="Plise Perde vs Zip Perde"
       description="Plise perde vs zip perde karşılaştırması. Işık kontrolü, rüzgar dayanımı, fiyat, montaj, temizlik."
       slug="plise-perde-vs-zip-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/plise-perde-modelleri" }, { name: "Plise vs Zip", url: "/plise-perde-vs-zip-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Zip", url: "/plise-perde-vs-zip-perde" }]}
       h1="Plise Perde vs Zip Perde — Hangisi Daha İyi?"
       intro="Plise perde ve zip perde, farklı ihtiyaçlara yönelik iki pencere çözümüdür. Plise perde iç mekanlarda pencere üzerinde çalışır, zip perde ise dış cephe ve cam balkonlarda kullanılan bir sistemdir. Zip perde, kumaş kenarlarının profil kanalına zip şeklinde oturmasıyla rüzgar ve hava akımına karşı direnç sağlar. Bu karşılaştırmada kullanım alanı, ışık kontrolü, rüzgar dayanımı, fiyat ve montaj açısından ikisini detaylıca inceleyeceğiz."
       schemaType="article"
@@ -22,6 +22,15 @@ export default function PliseVsZipPage() {
         headline: "Plise Perde vs Zip Perde Karşılaştırması",
         description: "Plise perde ve zip perde karşılaştırması — kullanım alanı, rüzgar dayanımı, fiyat, montaj.",
       }}
+      beforeContent={
+        <img
+          src="/karsilastirmalar/plise-perde-vs-zip-perde.webp"
+          alt="Plise Perde vs Zip Perde Karşılaştırması"
+          className="w-full rounded-xl mb-8"
+          width={1200}
+          height={630}
+        />
+      }
       sections={[
         {
           h2: "Kullanım Alanı Farkı",

@@ -14,7 +14,7 @@ export default function PliseVsHoneycombPage() {
       title="Plise Perde vs Honeycomb Perde"
       description="Plise perde vs honeycomb perde karşılaştırması. Isıl yalıtım, ışık kontrolü, fiyat, montaj, temizlik."
       slug="plise-perde-vs-honeycomb-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/plise-perde-modelleri" }, { name: "Plise vs Honeycomb", url: "/plise-perde-vs-honeycomb-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Honeycomb", url: "/plise-perde-vs-honeycomb-perde" }]}
       h1="Plise Perde vs Honeycomb Perde — Hangisi Daha İyi?"
       intro="Plise perde ve honeycomb perde, benzer görünen ama temel olarak farklı iki pencere çözümüdür. Her ikisi de kumaş katmanını katlayarak çalışır, ancak honeycomb perde iki katmanlı petek yapısıyla ekstra ısıl yalıtım sağlar. Plise perde ise tek katmanlı pile yapısıyla daha ekonomik ve daha hafiftir. Bu karşılaştırmada ısıl yalıtım, ışık kontrolü, fiyat, montaj ve temizlik açısından ikisini detaylıca inceleyeceğiz."
       schemaType="article"
@@ -22,6 +22,15 @@ export default function PliseVsHoneycombPage() {
         headline: "Plise Perde vs Honeycomb Perde Karşılaştırması",
         description: "Plise perde ve honeycomb perde karşılaştırması — ısıl yalıtım, fiyat, ışık, montaj, temizlik.",
       }}
+      beforeContent={
+        <img
+          src="/karsilastirmalar/plise-perde-vs-honeycomb-perde.webp"
+          alt="Plise Perde vs Honeycomb Perde Karşılaştırması"
+          className="w-full rounded-xl mb-8"
+          width={1200}
+          height={630}
+        />
+      }
       sections={[
         {
           h2: "Çalışma Prensibi Farkı",

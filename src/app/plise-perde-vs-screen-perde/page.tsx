@@ -14,7 +14,7 @@ export default function PliseVsScreenPage() {
       title="Plise Perde vs Screen Perde"
       description="Plise perde vs screen perde karşılaştırması. Işık filtreleme, UV koruma, güneş cephesi, fiyat, montaj."
       slug="plise-perde-vs-screen-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/plise-perde-modelleri" }, { name: "Plise vs Screen", url: "/plise-perde-vs-screen-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Screen", url: "/plise-perde-vs-screen-perde" }]}
       h1="Plise Perde vs Screen Perde — Hangisi Daha İyi?"
       intro="Plise perde ve screen perde (güneşlik perde), ışık filtreleme konusunda farklı yaklaşım sunan iki çözümdür. Screen perde, özel dokuma yapısı ile güneş ışığını filtreler, UV ışınlarını keser ve dış görünüşü kısmen korur — özellikle güneş cepheli ofis ve cam balkonlar için idealdir. Plise perde ise güneşlik kumaş seçeneği ile benzer filtreleme sağlar, ancak tül ve blackout seçenekleriyle daha esnek bir kullanım sunar. Bu karşılaştırmada ışık filtreleme, UV koruma, güneş cephesi uyumu, fiyat ve montaj açısından ikisini detaylıca inceleyeceğiz."
       schemaType="article"
@@ -22,6 +22,15 @@ export default function PliseVsScreenPage() {
         headline: "Plise Perde vs Screen Perde Karşılaştırması",
         description: "Plise perde ve screen perde karşılaştırması — ışık filtreleme, UV koruma, güneş cephesi, fiyat.",
       }}
+      beforeContent={
+        <img
+          src="/karsilastirmalar/plise-perde-vs-screen-perde.webp"
+          alt="Plise Perde vs Screen Perde Karşılaştırması"
+          className="w-full rounded-xl mb-8"
+          width={1200}
+          height={630}
+        />
+      }
       sections={[
         {
           h2: "Çalışma Prensibi Farkı",

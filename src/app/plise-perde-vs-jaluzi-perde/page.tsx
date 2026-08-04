@@ -14,7 +14,7 @@ export default function PliseVsJaluziPage() {
       title="Plise Perde vs Jaluzi Perde"
       description="Plise perde vs jaluzi perde karşılaştırması. Fiyat, ışık kontrolü, montaj, temizlik, dayanıklılık."
       slug="plise-perde-vs-jaluzi-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/plise-perde-modelleri" }, { name: "Plise vs Jaluzi", url: "/plise-perde-vs-jaluzi-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Jaluzi", url: "/plise-perde-vs-jaluzi-perde" }]}
       h1="Plise Perde vs Jaluzi Perde — Hangisi Daha İyi?"
       intro="Plise perde ve jaluzi perde, iki farklı pencere çözümü sunar. Plise perde kumaş katmanını pile yaparak çalışır, jaluzi perde ise yatay veya dikey kanatları döndürerek ışık kontrolü sağlar. Jaluzi perde iki ana türe ayrılır: <strong>alüminyum jaluzi</strong> ve <strong>ahşap jaluzi</strong>. Alüminyum jaluzi hafif, dayanıklı ve ekonomiktir; ahşap jaluzi ise doğal sıcak görünüm sunar ama daha pahalıdır. Bu karşılaştırmada her iki sistemi fiyat, ışık kontrolü, montaj, temizlik ve estetik açısından inceleyeceğiz."
       schemaType="article"
@@ -22,6 +22,15 @@ export default function PliseVsJaluziPage() {
         headline: "Plise Perde vs Jaluzi Perde Karşılaştırması",
         description: "Plise perde ve jaluzi perde karşılaştırması — fiyat, ışık, montaj, temizlik.",
       }}
+      beforeContent={
+        <img
+          src="/karsilastirmalar/plise-perde-vs-jaluzi-perde.webp"
+          alt="Plise Perde vs Jaluzi Perde Karşılaştırması"
+          className="w-full rounded-xl mb-8"
+          width={1200}
+          height={630}
+        />
+      }
       sections={[
         {
           h2: "Çalışma Prensibi Farkı",

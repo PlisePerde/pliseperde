@@ -22,6 +22,7 @@ const priorityRules: { pattern: RegExp; priority: number; changefreq: ChangeFreq
   { pattern: /-plise-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$|^iletisim$|^hakkimizda$|^sikca-sorulan-sorular$|^plise-perde-kullanici-yorumlari$|^cocuk-guvenligi$/, priority: 0.7, changefreq: "monthly" },
   { pattern: /^galeri$|^surdurulebilirlik$|^site-haritasi$/, priority: 0.6, changefreq: "weekly" },
   { pattern: /^plise-perde-vs-/, priority: 0.7, changefreq: "monthly" },
+  { pattern: /^karsilastirmalar$/, priority: 0.8, changefreq: "weekly" },
   { pattern: /^sozlesmelerimiz$|^siparis-ve-ozel-uretim-sartlari$|^uyelik-sozlesmesi$|^montaj-ve-uygulama-sartlari$|^olcu-alma-bilgilendirmesi$|^mesafeli-satis-sozlesmesi$|^on-bilgilendirme-formu$|^kullanim-kosullari$|^politikalarimiz$|^iade-degisim-ve-cayma-hakki$|^yurt-disi-teslimat-ve-gumruk$|^odeme-ve-taksit-secenekleri$|^banka-ve-havale-bilgileri$|^garanti-ve-satis-sonrasi-destek$|^satici-bilgileri$|^cerez-politikasi$|^acik-riza-metni$|^ticari-elektronik-ileri-onayi$|^teslimat-ve-kargo$|^iade-ve-degisim$|^gizlilik-politikasi$|^kvkk-aydinlatma-metni$/, priority: 0.5, changefreq: "yearly" },
 ];
 
