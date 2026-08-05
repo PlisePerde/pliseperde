@@ -23,6 +23,16 @@ const nextConfig: NextConfig = {
         destination: "/baskili-plise-perde/",
         permanent: true,
       },
+      {
+        source: "/ucretsiz-kesif",
+        destination: "/kesif",
+        permanent: true,
+      },
+      {
+        source: "/ucretsiz-kesif/",
+        destination: "/kesif/",
+        permanent: true,
+      },
     ];
   },
 };

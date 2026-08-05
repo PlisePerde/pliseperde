@@ -104,6 +104,8 @@ export default function BlogPage() {
         breadcrumb={breadcrumb}
         title="Blog — Plise Perde Rehberi & İpuçları"
         description="Plise perde hakkında bilmeniz gereken her şey. Uzman rehberleri, dekorasyon önerileri, montaj ve bakım ipuçları ve daha fazlası."
+        bgImage="/blog.webp"
+        bgImageAlt="Plise Perde Blog"
       />
 
       <div className="mx-auto max-w-[1536px] px-4 md:px-6">

@@ -17,6 +17,8 @@ export default function SalonPlisePerdePage() {
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Salon", url: "/salon-plise-perde" }]}
       h1="Salon Plise Perde"
       intro="Salon, evin en geniş pencere yüzeyine sahip alanıdır. Büyük camlar bol ışık alır ancak yaz aylarında aşırı ısınma, gün batımında televizyon parlaması ve dışarıdan görünme endişesi yaratır. Plise perde, <strong>güneşlik ve düet kumaş seçenekleri</strong> ile salonda ışık ile gizlilik arasında tam denge kurar. Pencere içine takıldığı için salonun dekorasyonunu bozmaz, perde rengi ve dökümü ile mekanla yarışmaz."
+      bgImage="/kullanim-alanlari/salon-plise-perde.webp"
+      bgImageAlt="Salon Plise Perde"
       schemaType="service"
       schemaData={{
         name: "Salon Plise Perde",

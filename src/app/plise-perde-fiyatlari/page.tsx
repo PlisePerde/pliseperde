@@ -480,7 +480,7 @@ export default function PlisePerdeFiyatlariPage() {
             <div class="border border-brand-border rounded-xl p-5 text-center">
                             <h3 class="text-base font-semibold text-brand-text mb-2">Ücretsiz Keşif</h3>
               <p class="text-xs text-brand-text-light mb-3">Ekibimiz adresinize gelir, pencere ölçüsü alır, montaj tipi belirler ve net fiyat verir.</p>
-              <a href="/ucretsiz-kesif/" class="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors">Keşif Talep Et →</a>
+              <a href="/kesif/" class="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors">Keşif Talep Et →</a>
             </div>
           </div>`,
         },
@@ -541,7 +541,7 @@ export default function PlisePerdeFiyatlariPage() {
         },
         {
           question: "Ücretsiz keşif nasıl talep edilir?",
-          answer: "Ücretsiz keşif için /ucretsiz-kesif/ sayfasından talep oluşturabilir veya 0 540 336 38 73 numarasını arayabilirsiniz. Ekibimiz adresinize gelir, pencere ölçüsü alır, montaj tipi belirler ve net fiyat teklifi verir. Türkiye geneli geçerlidir.",
+          answer: "Ücretsiz keşif için /kesif/ sayfasından talep oluşturabilir veya 0 540 336 38 73 numarasını arayabilirsiniz. Ekibimiz adresinize gelir, pencere ölçüsü alır, montaj tipi belirler ve net fiyat teklifi verir. Türkiye geneli geçerlidir.",
         },
         {
           question: "Plise perde fiyat garantisi var mı?",

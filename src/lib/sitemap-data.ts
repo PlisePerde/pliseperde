@@ -17,12 +17,11 @@ const SKIP_DIRS = ["api", "offline", "[slug]"];
 
 const priorityRules: { pattern: RegExp; priority: number; changefreq: ChangeFreq }[] = [
   { pattern: /^$/, priority: 1.0, changefreq: "weekly" },
-  { pattern: /^urunlerimiz$|^plise-perde-modelleri$|^plise-perde-sistemleri$|^plise-perde-cesitleri$|^plise-perde-fiyatlari$|^hizmetlerimiz$|^hizmet-bolgeleri$|^plise-perde-fiyat-hesaplama$|^blog$/, priority: 0.9, changefreq: "weekly" },
-  { pattern: /^plise-perde$|^honeycomb-perde$|^duet-perde$|^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$|^vidali-plise-perde$|^vidasiz-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portray-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$|^plise-perde-ozellikleri$|^plise-perde-kullanim-alanlari$|^referanslarimiz$|^plise-perde-bayilik$|^montaj$|^olcu-alma-destegi$|^ucretsiz-kesif$/, priority: 0.8, changefreq: "monthly" },
+  { pattern: /^kurumsal$|^urunlerimiz$|^plise-perde-modelleri$|^plise-perde-sistemleri$|^plise-perde-cesitleri$|^plise-perde-fiyatlari$|^hizmetlerimiz$|^hizmet-bolgeleri$|^plise-perde-fiyat-hesaplama$|^blog$|^karsilastirmalar$/, priority: 0.9, changefreq: "weekly" },
+  { pattern: /^plise-perde$|^honeycomb-perde$|^duet-perde$|^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$|^vidali-plise-perde$|^vidasiz-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portray-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$|^plise-perde-ozellikleri$|^plise-perde-kullanim-alanlari$|^referanslarimiz$|^plise-perde-bayilik$|^montaj$|^olcu-alma-destegi$|^kesif$|^numune$|^plise-perde-projesi$/, priority: 0.8, changefreq: "monthly" },
   { pattern: /-plise-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$|^iletisim$|^hakkimizda$|^sikca-sorulan-sorular$|^plise-perde-kullanici-yorumlari$|^cocuk-guvenligi$/, priority: 0.7, changefreq: "monthly" },
   { pattern: /^galeri$|^surdurulebilirlik$|^site-haritasi$/, priority: 0.6, changefreq: "weekly" },
   { pattern: /^plise-perde-vs-/, priority: 0.7, changefreq: "monthly" },
-  { pattern: /^karsilastirmalar$/, priority: 0.8, changefreq: "weekly" },
   { pattern: /^sozlesmelerimiz$|^siparis-ve-ozel-uretim-sartlari$|^uyelik-sozlesmesi$|^montaj-ve-uygulama-sartlari$|^olcu-alma-bilgilendirmesi$|^mesafeli-satis-sozlesmesi$|^on-bilgilendirme-formu$|^kullanim-kosullari$|^politikalarimiz$|^iade-degisim-ve-cayma-hakki$|^yurt-disi-teslimat-ve-gumruk$|^odeme-ve-taksit-secenekleri$|^banka-ve-havale-bilgileri$|^garanti-ve-satis-sonrasi-destek$|^satici-bilgileri$|^cerez-politikasi$|^acik-riza-metni$|^ticari-elektronik-ileri-onayi$|^teslimat-ve-kargo$|^iade-ve-degisim$|^gizlilik-politikasi$|^kvkk-aydinlatma-metni$/, priority: 0.5, changefreq: "yearly" },
 ];
 
@@ -70,24 +69,33 @@ function discoverAppRoutes(): SitemapEntry[] {
 const citySlugs = new Set(cities.map((c) => c.slug));
 const blogSlugs = new Set(getAllBlogPosts().map((b) => b.slug));
 
-export const staticPages: SitemapEntry[] = discoverAppRoutes().filter(
+const allDiscoveredRoutes = discoverAppRoutes().filter(
   (e) => !citySlugs.has(e.slug) && !blogSlugs.has(e.slug)
 );
 
-export const modelPages: SitemapEntry[] = staticPages.filter((e) =>
-  /^vidali-plise-perde$|^yapiskanli-plise-perde$|^portray-plise-perde$/.test(e.slug)
+export const modelPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
+  /^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$|^vidali-plise-perde$|^vidasiz-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portray-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$/.test(e.slug)
 );
 
-export const servicePages: SitemapEntry[] = staticPages.filter((e) =>
-  /^montaj$|^olcu-alma-destegi$|^ucretsiz-kesif$/.test(e.slug)
+export const servicePages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
+  /^montaj$|^olcu-alma-destegi$|^kesif$|^numune$|^plise-perde-projesi$/.test(e.slug)
 );
 
-export const comparisonPages: SitemapEntry[] = staticPages.filter((e) =>
+export const comparisonPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
   /^plise-perde-vs-/.test(e.slug)
 );
 
-export const legalPages: SitemapEntry[] = staticPages.filter((e) =>
+export const legalPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
   /^sozlesmelerimiz$|^siparis-ve-ozel-uretim-sartlari$|^uyelik-sozlesmesi$|^montaj-ve-uygulama-sartlari$|^olcu-alma-bilgilendirmesi$|^mesafeli-satis-sozlesmesi$|^on-bilgilendirme-formu$|^kullanim-kosullari$|^politikalarimiz$|^iade-degisim-ve-cayma-hakki$|^yurt-disi-teslimat-ve-gumruk$|^odeme-ve-taksit-secenekleri$|^banka-ve-havale-bilgileri$|^garanti-ve-satis-sonrasi-destek$|^satici-bilgileri$|^cerez-politikasi$|^acik-riza-metni$|^ticari-elektronik-ileri-onayi$|^teslimat-ve-kargo$|^iade-ve-degisim$|^gizlilik-politikasi$|^kvkk-aydinlatma-metni$/.test(e.slug)
+);
+
+const modelSlugs = new Set(modelPages.map((e) => e.slug));
+const serviceSlugs = new Set(servicePages.map((e) => e.slug));
+const comparisonSlugs = new Set(comparisonPages.map((e) => e.slug));
+const legalSlugs = new Set(legalPages.map((e) => e.slug));
+
+export const staticPages: SitemapEntry[] = allDiscoveredRoutes.filter(
+  (e) => !modelSlugs.has(e.slug) && !serviceSlugs.has(e.slug) && !comparisonSlugs.has(e.slug) && !legalSlugs.has(e.slug) && e.slug !== "blog"
 );
 
 export function buildUrl(slug: string): string {

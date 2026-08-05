@@ -2,20 +2,20 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Plise Perde Montaj Hizmeti — Profesyonel Montaj",
+  title: "Ücretsiz Montaj — Plise Perde Profesyonel Montaj",
   description:
-    "Plise perde montaj hizmeti. Deneyimli montaj ekibi, vidalı/yapışkanlı/kancalı montaj. İstanbul ve Türkiye geneli. 2 yıl garanti.",
+    "Ücretsiz plise perde montaj hizmeti. Deneyimli montaj ekibi, vidalı/yapışkanlı/kancalı montaj. İstanbul ve Türkiye geneli. 2 yıl garanti.",
   slug: "montaj",
 });
 
 export default function MontajPage() {
   return (
     <PageTemplate
-      title="Plise Perde Montajı"
-      description="Plise perde montaj hizmeti. Deneyimli montaj ekibi, vidalı/yapışkanlı/kancalı montaj. 2 yıl garanti."
+      title="Ücretsiz Montaj"
+      description="Ücretsiz plise perde montaj hizmeti. Deneyimli montaj ekibi, vidalı/yapışkanlı/kancalı montaj. 2 yıl garanti."
       slug="montaj"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz" }, { name: "Montaj", url: "/montaj" }]}
-      h1="Plise Perde Montajı"
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz" }, { name: "Ücretsiz Montaj", url: "/montaj" }]}
+      h1="Ücretsiz Montaj — Plise Perde Montaj Hizmeti"
       intro="Plise perde montajı, deneyimli montaj ekibimiz tarafından profesyonel şekilde yapılır. Vidalı, yapışkanlı ve kancalı montaj tiplerinden pencere yapısına uygun olanı seçeriz. Her montaj 2 yıl garanti ile gelir. İstanbul merkezli ekibimiz Türkiye geneli hizmet verir. Tek pencere veya tüm ev, her ölçekte montaj yapılır."
       schemaType="service"
       schemaData={{

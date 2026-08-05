@@ -86,7 +86,9 @@ const sitemaps = {
   services: [
     { slug: "montaj", priority: 0.8, changefreq: "monthly" },
     { slug: "olcu-alma-destegi", priority: 0.8, changefreq: "monthly" },
-    { slug: "ucretsiz-kesif", priority: 0.8, changefreq: "monthly" },
+    { slug: "kesif", priority: 0.8, changefreq: "monthly" },
+    { slug: "numune", priority: 0.8, changefreq: "monthly" },
+    { slug: "plise-perde-projesi", priority: 0.8, changefreq: "monthly" },
   ],
   regions: [
     { slug: "istanbul-plise-perde", priority: 0.8, changefreq: "monthly" },

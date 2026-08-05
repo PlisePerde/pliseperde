@@ -122,9 +122,11 @@
 
 ## HİZMETLER
 
-- Montaj: https://pliseperde.com/montaj/ — Profesyonel ekip, 20-30 dk/pencere
-- Ölçü Alma Desteği: https://pliseperde.com/olcu-alma-destegi/ — Video ve yerinde ölçü
-- Ücretsiz Keşif: https://pliseperde.com/ucretsiz-kesif/ — İstanbul ve çevre iller
+- Ücretsiz Numune / Kumaş: https://pliseperde.com/numune/ — Türkiye geneli ücretsiz kargo
+- Ücretsiz Keşif ve Danışmanlık: https://pliseperde.com/kesif/ — İstanbul ve çevre iller
+- Ücretsiz Ölçü Alma Desteği: https://pliseperde.com/olcu-alma-destegi/ — Video ve yerinde ölçü
+- Ücretsiz Montaj: https://pliseperde.com/montaj/ — Profesyonel ekip, 20-30 dk/pencere
+- Proje ve Toplu Üretim: https://pliseperde.com/plise-perde-projesi/ — Otel, rezidans, ofis, hastane
 - Fiyat Hesaplama: https://pliseperde.com/plise-perde-fiyat-hesaplama/ — Online hesaplama
 
 ---

@@ -102,14 +102,14 @@ export default function TopBar() {
             WhatsApp
           </a>
           <Link
-            href="/ucretsiz-kesif"
+            href="/kesif"
             className="flex items-center gap-1.5 px-3 py-1.5 text-xs md:text-sm font-medium border border-brand-border text-brand-text rounded-md hover:bg-brand-bg transition-colors"
           >
             <Search size={14} />
             Ücretsiz Keşif
           </Link>
           <Link
-            href="/ucretsiz-kesif"
+            href="/kesif"
             className="hidden md:flex items-center gap-1.5 px-3 py-1.5 text-xs md:text-sm font-medium border border-brand-border text-brand-text rounded-md hover:bg-brand-bg transition-colors"
           >
             <Sparkles size={14} />

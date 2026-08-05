@@ -9,6 +9,7 @@ export type NavChild = {
 export type NavGroup = {
   title: string;
   items: NavChild[];
+  viewAllHref?: string;
 };
 
 export type NavItem = {
@@ -22,24 +23,55 @@ export type NavItem = {
 export const navItems: NavItem[] = [
   {
     label: "Kurumsal",
-    href: null,
-    children: [
-      { label: "Hakkımızda", href: "/hakkimizda" },
-      { label: "Sürdürülebilirlik", href: "/surdurulebilirlik" },
-      { label: "Çocuk Güvenliği", href: "/cocuk-guvenligi" },
-      { label: "Sıkça Sorulan Sorular", href: "/sikca-sorulan-sorular" },
-      { label: "Kullanıcı Yorumları", href: "/plise-perde-kullanici-yorumlari" },
-      { label: "Referanslarımız", href: "/referanslarimiz" },
-      { label: "Plise Perde Bayilik", href: "/plise-perde-bayilik" },
+    href: "/kurumsal",
+    groups: [
+      {
+        title: "Kurumsal",
+        viewAllHref: "/kurumsal",
+        items: [
+          { label: "Hakkımızda", href: "/hakkimizda" },
+          { label: "Referanslarımız", href: "/referanslarimiz" },
+          { label: "Sıkça Sorulan Sorular", href: "/sikca-sorulan-sorular" },
+          { label: "Kullanıcı Yorumları", href: "/plise-perde-kullanici-yorumlari" },
+          { label: "Plise Perde Bayilik", href: "/plise-perde-bayilik" },
+          { label: "Site Haritası", href: "/site-haritasi" },
+        ],
+      },
+      {
+        title: "Politikalarımız",
+        viewAllHref: "/politikalarimiz",
+        items: [
+          { label: "Gizlilik Politikası", href: "/gizlilik-politikasi" },
+          { label: "KVKK Aydınlatma Metni", href: "/kvkk-aydinlatma-metni" },
+          { label: "Mesafeli Satış Sözleşmesi", href: "/mesafeli-satis-sozlesmesi" },
+          { label: "Çerez Politikası", href: "/cerez-politikasi" },
+          { label: "Sürdürülebilirlik", href: "/surdurulebilirlik" },
+          { label: "Açık Rıza Metni", href: "/acik-riza-metni" },
+        ],
+      },
+      {
+        title: "Sözleşmelerimiz",
+        viewAllHref: "/sozlesmelerimiz",
+        items: [
+          { label: "Üyelik Sözleşmesi", href: "/uyelik-sozlesmesi" },
+          { label: "Mesafeli Satış Sözleşmesi", href: "/mesafeli-satis-sozlesmesi" },
+          { label: "Ön Bilgilendirme Formu", href: "/on-bilgilendirme-formu" },
+          { label: "Sipariş ve Özel Üretim Şartları", href: "/siparis-ve-ozel-uretim-sartlari" },
+          { label: "Ölçü Alma Bilgilendirmesi", href: "/olcu-alma-bilgilendirmesi" },
+          { label: "Montaj ve Uygulama Şartları", href: "/montaj-ve-uygulama-sartlari" },
+        ],
+      },
     ],
   },
   {
     label: "Hizmetlerimiz",
     href: "/hizmetlerimiz",
     children: [
-      { label: "Montaj", href: "/montaj" },
-      { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi" },
-      { label: "Ücretsiz Keşif", href: "/ucretsiz-kesif" },
+      { label: "Ücretsiz Numune / Kumaş", href: "/numune" },
+      { label: "Ücretsiz Keşif ve Danışmanlık", href: "/kesif" },
+      { label: "Ücretsiz Ölçü Alma Desteği", href: "/olcu-alma-destegi" },
+      { label: "Ücretsiz Montaj", href: "/montaj" },
+      { label: "Proje ve Toplu Üretim", href: "/plise-perde-projesi" },
     ],
   },
   {
@@ -50,8 +82,8 @@ export const navItems: NavItem[] = [
       { label: "Plise Perde", href: "/plise-perde", description: "Klasik plise perde modelleri", image: "/mega-menu/plise-perdeler.webp" },
       { label: "Honeycomb Plise Perde", href: "/honeycomb-perde", description: "Petek hücreli enerji tasarruflu", image: "/mega-menu/honeycomb-perdeler.webp" },
       { label: "Düet Plise Perde", href: "/duet-perde", description: "Çift katmanlı gece gündüz", image: "/mega-menu/duet-perdeler.webp" },
-      { label: "Plise Perde Aparatları", href: "/plise-perde-aparatlari", description: "Tüm plise perde aparatları" },
-      { label: "Plise Perde Yedek Parça", href: "/plise-perde-yedek-parca", description: "Orijinal yedek parçalar" },
+      { label: "Plise Perde Aparatları", href: "/plise-perde-aparatlari", description: "Tüm plise perde aparatları", image: "/mega-menu/plise-perde-aparatlarimiz.webp" },
+      { label: "Plise Perde Yedek Parça", href: "/plise-perde-yedek-parca", description: "Orijinal yedek parçalar", image: "/mega-menu/plise-perde-yedek-parcalar.webp" },
     ],
   },
   {
@@ -167,9 +199,11 @@ export const footerColumns: FooterColumn[] = [
   {
     title: "Hizmetlerimiz",
     links: [
-      { label: "Montaj", href: "/montaj" },
-      { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi" },
-      { label: "Ücretsiz Keşif", href: "/ucretsiz-kesif" },
+      { label: "Ücretsiz Numune / Kumaş", href: "/numune" },
+      { label: "Ücretsiz Keşif ve Danışmanlık", href: "/kesif" },
+      { label: "Ücretsiz Ölçü Alma Desteği", href: "/olcu-alma-destegi" },
+      { label: "Ücretsiz Montaj", href: "/montaj" },
+      { label: "Proje ve Toplu Üretim", href: "/plise-perde-projesi" },
     ],
   },
   {

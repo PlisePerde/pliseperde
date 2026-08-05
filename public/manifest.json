@@ -66,7 +66,7 @@
       "name": "Ücretsiz Keşif",
       "short_name": "Keşif",
       "description": "Ücretsiz keşif talep et",
-      "url": "/ucretsiz-kesif/",
+      "url": "/kesif/",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {

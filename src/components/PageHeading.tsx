@@ -18,14 +18,18 @@ export default function PageHeading({
   bgImageAlt,
 }: PageHeadingProps) {
   return (
-    <div
-      className="bg-gradient-to-br from-brand-bg via-brand-bg to-brand-light/10 border-b border-brand-border relative"
-      style={bgImage ? { backgroundImage: `url(${bgImage})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined}
-    >
+    <div className="bg-gradient-to-br from-brand-bg via-brand-bg to-brand-light/10 border-b border-brand-border relative overflow-hidden">
       {bgImage && (
         <>
+          <img
+            src={bgImage}
+            alt={bgImageAlt || title}
+            className="absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
+            width={1536}
+            height={200}
+          />
           <div className="absolute inset-0 bg-white/80" />
-          <img src={bgImage} alt={bgImageAlt || title} className="sr-only" />
         </>
       )}
       <div className="mx-auto max-w-[1536px] px-4 md:px-6 relative">

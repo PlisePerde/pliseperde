@@ -110,7 +110,7 @@ export default function Header() {
                 {hasSubmenu(item) && openDropdown === item.label && (
                   isMegaMenu(item) ? (
                     item.megaWithImages ? (
-                      <div className="absolute top-full left-0 right-0 mt-px bg-white border border-brand-border rounded-lg shadow-xl p-4">
+                      <div className="absolute top-full left-0 right-0 mt-0.5 bg-white border border-brand-border rounded-lg shadow-xl p-4">
                         <div className="grid grid-cols-5 gap-3">
                           {item.children!.map((child) => (
                             <Link
@@ -152,7 +152,7 @@ export default function Header() {
                         </div>
                       </div>
                     ) : item.groups ? (
-                      <div className="absolute top-full left-0 mt-1 bg-white border border-brand-border rounded-lg shadow-xl py-3 px-4" style={{ width: `${item.groups.length * 180}px`, minWidth: "480px" }}>
+                      <div className="absolute top-full left-0 mt-0.5 bg-white border border-brand-border rounded-lg shadow-xl py-3 px-4" style={{ width: `740px`, minWidth: "540px" }}>
                         <div className="grid gap-x-6" style={{ gridTemplateColumns: `repeat(${item.groups.length}, 1fr)` }}>
                           {item.groups.map((group) => (
                             <div key={group.title}>
@@ -174,12 +174,25 @@ export default function Header() {
                                   </Link>
                                 ))}
                               </div>
+                              {group.viewAllHref && (
+                                <Link
+                                  href={group.viewAllHref}
+                                  className={`flex items-center gap-1 mt-2 px-2 pt-2 text-xs font-medium border-t border-brand-border transition-colors ${
+                                    isActive(group.viewAllHref)
+                                      ? "text-brand"
+                                      : "text-brand-text-light hover:text-brand"
+                                  }`}
+                                >
+                                  Tümünü Görüntüle
+                                  <ChevronRight size={12} />
+                                </Link>
+                              )}
                             </div>
                           ))}
                         </div>
                       </div>
                     ) : (
-                      <div className="absolute top-full left-0 mt-1 bg-white border border-brand-border rounded-lg shadow-xl py-3 px-4" style={{ width: `${getMegaColumns(item) * 180}px`, minWidth: "480px" }}>
+                      <div className="absolute top-full left-0 mt-0.5 bg-white border border-brand-border rounded-lg shadow-xl py-3 px-4" style={{ width: `${getMegaColumns(item) * 180}px`, minWidth: "480px" }}>
                         <div className="grid gap-x-6" style={{ gridTemplateColumns: `repeat(${getMegaColumns(item)}, 1fr)` }}>
                           {item.children!.map((child) => (
                             <Link
@@ -198,7 +211,7 @@ export default function Header() {
                       </div>
                     )
                   ) : (
-                    <div className="absolute top-full left-0 mt-1 min-w-[220px] bg-white border border-brand-border rounded-lg shadow-xl py-2">
+                    <div className="absolute top-full left-0 mt-0.5 w-[260px] bg-white border border-brand-border rounded-lg shadow-xl py-2">
                       {item.children!.map((child) => {
                         const childActive = isActive(child.href);
                         const hasNested = child.children && child.children.length > 0;
