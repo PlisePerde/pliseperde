@@ -13,7 +13,7 @@ export default function KullanimKosullariPage() {
       title="Kullanım Koşulları"
       description="Plise Perde kullanım koşulları. Web site kullanım şartları, sorumluluklar."
       slug="kullanim-kosullari"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalar", url: "/politikalarimiz" }, { name: "Kullanım Koşulları", url: "/kullanim-kosullari" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Kullanım Koşulları", url: "/kullanim-kosullari" }]}
       h1="Kullanım Koşulları"
       intro="Bu kullanım koşulları, pliseperde.com web sitesinin kullanım şartlarını açıklar. Siteyi ziyaret eden tüm kullanıcılar bu koşulları kabul etmiş sayılır. Koşullar, site kullanımı, sorumluluklar, telif hakları ve uyuşmazlık çözümünü kapsar."
       schemaType="article"

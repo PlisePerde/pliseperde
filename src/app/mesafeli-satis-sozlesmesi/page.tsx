@@ -13,7 +13,7 @@ export default function MesafeliSatisPage() {
       title="Mesafeli Satış Sözleşmesi"
       description="Plise Perde mesafeli satış sözleşmesi. İade, cayma, teslimat, ödeme koşulları."
       slug="mesafeli-satis-sozlesmesi"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalar", url: "/politikalarimiz" }, { name: "Mesafeli Satış", url: "/mesafeli-satis-sozlesmesi" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz" }, { name: "Mesafeli Satış", url: "/mesafeli-satis-sozlesmesi" }]}
       h1="Mesafeli Satış Sözleşmesi"
       intro="Bu mesafeli satış sözleşmesi, pliseperde.com üzerinden yapılan siparişlerdeki hak ve yükümlülükleri açıklar. 6502 sayılı Tüketicinin Korunması Hakkında Kanun kapsamında hazırlanmıştır. Cayma hakkı, iade koşulları, teslimat ve ödeme şartları bu sözleşmede detaylıca belirtilir."
       schemaType="article"
