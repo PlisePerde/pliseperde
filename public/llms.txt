@@ -178,6 +178,9 @@ Plise Perde, İstanbul Pendik'te faaliyet gösteren premium plise perde üretici
 - Honeycomb U-değeri: <2.0 W/m²K
 - Hizmet bölgesi: 81 il (Türkiye geneli)
 - Fiyat aralığı: 450-3500 TL/m²
+- Üretim kapasitesi: Yıllık 56.000 adet
+- Atölye alanı: 2.000 m²
+- Sertifikalar: CE, ISO 9001, TSE, EN 13501-1
 
 ## AI ve Arama Motoru Erişimi
 - Detaylı içerik: https://pliseperde.com/llms-full.txt

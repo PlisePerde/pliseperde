@@ -25,6 +25,12 @@ export function organizationSchema() {
       "perde montajı",
       "özel ölçü perde üretimi",
     ],
+    hasCredential: [
+      "CE Certification",
+      "ISO 9001 Quality Management",
+      "TSE Turkish Standards Institute",
+      "EN 13501-1 Fire Classification",
+    ],
     sameAs: Object.values(siteConfig.social),
     contactPoint: {
       "@type": "ContactPoint",
