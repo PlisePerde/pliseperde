@@ -110,7 +110,7 @@ export default function Header() {
         <div className="px-4 md:px-6">
         <div className="flex h-[68px] items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 shrink-0">
             <Link href="/" className="flex items-center gap-2">
               <img
                 src="/logo.webp"
@@ -129,7 +129,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Nav */}
-          <nav ref={navRef} className="hidden lg:flex items-center self-stretch gap-1 relative flex-1 min-w-0 overflow-hidden">
+          <nav ref={navRef} className="hidden lg:flex items-center self-stretch gap-1 relative flex-1 min-w-0 justify-center">
             {navItems.map((item, index) => {
               const isHidden = index >= navItems.length - hiddenCount;
               return (
@@ -347,6 +347,7 @@ export default function Header() {
               <div ref={moreRef} className="h-full flex items-center relative shrink-0">
                 <button
                   onClick={() => setOverflowOpen(!overflowOpen)}
+                  onMouseEnter={() => setOverflowOpen(true)}
                   className={`flex items-center gap-1 px-3 py-2 text-sm rounded-md transition-colors ${
                     overflowOpen ? "bg-brand-bg text-brand font-medium" : "text-brand-text hover:text-brand hover:bg-brand-bg"
                   }`}
@@ -356,7 +357,10 @@ export default function Header() {
                   <ChevronDown size={14} className={`opacity-60 transition-transform duration-200 ${overflowOpen ? "rotate-180" : ""}`} />
                 </button>
                 {overflowOpen && (
-                  <div className="absolute top-full right-0 mt-0.5 w-[240px] bg-white border border-brand-border rounded-lg shadow-xl py-2">
+                  <div
+                    className="absolute top-full right-0 mt-0.5 w-[240px] bg-white border border-brand-border rounded-lg shadow-xl py-2 z-50"
+                    onMouseLeave={() => setOverflowOpen(false)}
+                  >
                     {navItems.slice(navItems.length - hiddenCount).map((item) => (
                       <Link
                         key={item.label}
@@ -378,7 +382,7 @@ export default function Header() {
           </nav>
 
           {/* CTA */}
-          <div className="hidden lg:flex items-center gap-2">
+          <div className="hidden lg:flex items-center gap-2 shrink-0">
             <Link
               href="/plise-perde-fiyatlari"
               className="flex items-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium hover:bg-brand/20"
