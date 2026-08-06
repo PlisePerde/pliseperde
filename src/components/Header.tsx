@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import { Menu, X, Calculator, Phone, ChevronRight, ChevronDown, Tag } from "lucide-react";
+import { useState, useRef, useEffect, useCallback } from "react";
+import { Menu, X, Calculator, Phone, ChevronRight, ChevronDown, Tag, MoreHorizontal } from "lucide-react";
 import { navItems, type NavItem, type NavChild } from "@/data/navigation";
 import { usePathname } from "next/navigation";
 import TopBar from "./TopBar";
@@ -12,7 +12,13 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
+  const [overflowOpen, setOverflowOpen] = useState(false);
+  const [hiddenCount, setHiddenCount] = useState(0);
   const pathname = usePathname();
+
+  const navRef = useRef<HTMLDivElement>(null);
+  const itemsRef = useRef<(HTMLDivElement | null)[]>([]);
+  const moreRef = useRef<HTMLDivElement>(null);
 
   const isActive = (href: string | null) => {
     if (!href) return false;
@@ -38,6 +44,48 @@ export default function Header() {
 
   const isMegaMenu = (item: NavItem) =>
     !!item.groups || !!item.megaWithImages || (item.children ? item.children.length > 6 : false);
+
+  const calculateOverflow = useCallback(() => {
+    const nav = navRef.current;
+    if (!nav) return;
+    const navWidth = nav.offsetWidth;
+    const moreWidth = 52;
+    let totalWidth = 0;
+    let count = 0;
+
+    for (let i = 0; i < navItems.length; i++) {
+      const el = itemsRef.current[i];
+      if (!el) continue;
+      const w = el.offsetWidth;
+      if (totalWidth + w + moreWidth > navWidth && i < navItems.length - 1) {
+        count = navItems.length - i;
+        break;
+      }
+      totalWidth += w;
+    }
+    setHiddenCount(count);
+  }, []);
+
+  useEffect(() => {
+    calculateOverflow();
+    const ro = new ResizeObserver(() => calculateOverflow());
+    if (navRef.current) ro.observe(navRef.current);
+    window.addEventListener("resize", calculateOverflow);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener("resize", calculateOverflow);
+    };
+  }, [calculateOverflow]);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (moreRef.current && !moreRef.current.contains(e.target as Node)) {
+        setOverflowOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   const getMegaColumns = (item: NavItem) => {
     if (item.groups) return item.groups.length;
@@ -71,43 +119,46 @@ export default function Header() {
           </div>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center self-stretch gap-1 relative">
-            {navItems.map((item) => (
-              <div
-                key={item.label}
-                className={`h-full flex items-center ${item.megaWithImages ? "" : "relative"}`}
-                onMouseEnter={() => hasSubmenu(item) && setOpenDropdown(item.label)}
-                onMouseLeave={() => { setOpenDropdown(null); setOpenSubmenu(null); }}
-              >
-                {item.href ? (
-                  <Link
-                    href={item.href}
-                    className={`flex items-center gap-1 px-3 py-2 text-sm rounded-md transition-colors ${
-                      isActive(item.href) || isChildActive(item) || openDropdown === item.label
-                        ? "bg-brand-bg text-brand font-medium"
-                        : "text-brand-text hover:text-brand hover:bg-brand-bg"
-                    }`}
-                  >
-                    {item.label}
-                    {hasSubmenu(item) && (
-                      <ChevronDown size={14} className={`opacity-60 transition-transform duration-200 ${openDropdown === item.label ? "rotate-180" : ""}`} />
-                    )}
-                  </Link>
-                ) : (
-                  <button
-                    className={`flex items-center gap-1 px-3 py-2 text-sm rounded-md transition-colors ${
-                      isActive(item.href) || isChildActive(item) || openDropdown === item.label
-                        ? "bg-brand-bg text-brand font-medium"
-                        : "text-brand-text hover:text-brand hover:bg-brand-bg"
-                    }`}
-                  >
-                    {item.label}
-                    {hasSubmenu(item) && (
-                      <ChevronDown size={14} className={`opacity-60 transition-transform duration-200 ${openDropdown === item.label ? "rotate-180" : ""}`} />
-                    )}
-                  </button>
-                )}
-                {hasSubmenu(item) && openDropdown === item.label && (
+          <nav ref={navRef} className="hidden lg:flex items-center self-stretch gap-1 relative max-w-full overflow-hidden">
+            {navItems.map((item, index) => {
+              const isHidden = index >= navItems.length - hiddenCount;
+              return (
+                <div
+                  key={item.label}
+                  ref={(el) => { itemsRef.current[index] = el; }}
+                  className={`h-full flex items-center ${item.megaWithImages ? "" : "relative"} ${isHidden ? "hidden" : ""}`}
+                  onMouseEnter={() => hasSubmenu(item) && setOpenDropdown(item.label)}
+                  onMouseLeave={() => { setOpenDropdown(null); setOpenSubmenu(null); }}
+                >
+                  {item.href ? (
+                    <Link
+                      href={item.href}
+                      className={`flex items-center gap-1 px-3 py-2 text-sm rounded-md transition-colors ${
+                        isActive(item.href) || isChildActive(item) || openDropdown === item.label
+                          ? "bg-brand-bg text-brand font-medium"
+                          : "text-brand-text hover:text-brand hover:bg-brand-bg"
+                      }`}
+                    >
+                      {item.label}
+                      {hasSubmenu(item) && (
+                        <ChevronDown size={14} className={`opacity-60 transition-transform duration-200 ${openDropdown === item.label ? "rotate-180" : ""}`} />
+                      )}
+                    </Link>
+                  ) : (
+                    <button
+                      className={`flex items-center gap-1 px-3 py-2 text-sm rounded-md transition-colors ${
+                        isActive(item.href) || isChildActive(item) || openDropdown === item.label
+                          ? "bg-brand-bg text-brand font-medium"
+                          : "text-brand-text hover:text-brand hover:bg-brand-bg"
+                      }`}
+                    >
+                      {item.label}
+                      {hasSubmenu(item) && (
+                        <ChevronDown size={14} className={`opacity-60 transition-transform duration-200 ${openDropdown === item.label ? "rotate-180" : ""}`} />
+                      )}
+                    </button>
+                  )}
+                  {hasSubmenu(item) && openDropdown === item.label && (
                   isMegaMenu(item) ? (
                     item.megaWithImages ? (
                       <div className="absolute top-full left-0 right-0 mt-0.5 bg-white border border-brand-border rounded-lg shadow-xl p-4">
@@ -281,7 +332,39 @@ export default function Header() {
                   )
                 )}
               </div>
-            ))}
+            )})}
+            {hiddenCount > 0 && (
+              <div ref={moreRef} className="h-full flex items-center relative shrink-0">
+                <button
+                  onClick={() => setOverflowOpen(!overflowOpen)}
+                  className={`flex items-center gap-1 px-3 py-2 text-sm rounded-md transition-colors ${
+                    overflowOpen ? "bg-brand-bg text-brand font-medium" : "text-brand-text hover:text-brand hover:bg-brand-bg"
+                  }`}
+                  aria-label="Daha fazla"
+                >
+                  <MoreHorizontal size={18} />
+                  <ChevronDown size={14} className={`opacity-60 transition-transform duration-200 ${overflowOpen ? "rotate-180" : ""}`} />
+                </button>
+                {overflowOpen && (
+                  <div className="absolute top-full right-0 mt-0.5 w-[240px] bg-white border border-brand-border rounded-lg shadow-xl py-2">
+                    {navItems.slice(navItems.length - hiddenCount).map((item) => (
+                      <Link
+                        key={item.label}
+                        href={item.href || "#"}
+                        onClick={() => setOverflowOpen(false)}
+                        className={`block px-3 py-2 text-sm rounded-md transition-colors mx-1 ${
+                          isActive(item.href || "")
+                            ? "bg-brand/10 text-brand font-medium"
+                            : "text-brand-text hover:text-brand hover:bg-brand-bg"
+                        }`}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
           </nav>
 
           {/* CTA */}
