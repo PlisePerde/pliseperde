@@ -171,7 +171,7 @@ export default function Header() {
                   {hasSubmenu(item) && openDropdown === item.label && (
                   isMegaMenu(item) ? (
                     item.megaWithImages ? (
-                      <div className="absolute top-full left-1/2 -translate-x-1/2 mt-0.5 bg-white border border-brand-border rounded-lg shadow-xl p-4 w-[920px] max-w-[calc(100vw-2rem)]">
+                      <div className="absolute top-full left-1/2 -translate-x-1/2 mt-0.5 bg-white border border-brand-border rounded-lg shadow-xl p-4 w-[1120px] max-w-[calc(100vw-2rem)]">
                         <div className="grid grid-cols-5 gap-3">
                           {item.children!.map((child) => (
                             <Link
