@@ -45,18 +45,27 @@ export default function Header() {
   const isMegaMenu = (item: NavItem) =>
     !!item.groups || !!item.megaWithImages || (item.children ? item.children.length > 6 : false);
 
+  const itemWidths = useRef<number[]>([]);
+
   const calculateOverflow = useCallback(() => {
     const nav = navRef.current;
     if (!nav) return;
-    const navWidth = nav.offsetWidth;
+    const navWidth = nav.clientWidth;
+
+    for (let i = 0; i < navItems.length; i++) {
+      const el = itemsRef.current[i];
+      if (el && !el.classList.contains("hidden")) {
+        itemWidths.current[i] = el.offsetWidth + 4;
+      }
+    }
+
     const moreWidth = 52;
     let totalWidth = 0;
     let count = 0;
 
     for (let i = 0; i < navItems.length; i++) {
-      const el = itemsRef.current[i];
-      if (!el) continue;
-      const w = el.offsetWidth;
+      const w = itemWidths.current[i] || 0;
+      if (w === 0) continue;
       if (totalWidth + w + moreWidth > navWidth && i < navItems.length - 1) {
         count = navItems.length - i;
         break;
@@ -67,11 +76,12 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    calculateOverflow();
+    const timer = setTimeout(() => calculateOverflow(), 50);
     const ro = new ResizeObserver(() => calculateOverflow());
     if (navRef.current) ro.observe(navRef.current);
     window.addEventListener("resize", calculateOverflow);
     return () => {
+      clearTimeout(timer);
       ro.disconnect();
       window.removeEventListener("resize", calculateOverflow);
     };
@@ -119,14 +129,14 @@ export default function Header() {
           </div>
 
           {/* Desktop Nav */}
-          <nav ref={navRef} className="hidden lg:flex items-center self-stretch gap-1 relative max-w-full overflow-hidden">
+          <nav ref={navRef} className="hidden lg:flex items-center self-stretch gap-1 relative flex-1 min-w-0 overflow-hidden">
             {navItems.map((item, index) => {
               const isHidden = index >= navItems.length - hiddenCount;
               return (
                 <div
                   key={item.label}
                   ref={(el) => { itemsRef.current[index] = el; }}
-                  className={`h-full flex items-center ${item.megaWithImages ? "" : "relative"} ${isHidden ? "hidden" : ""}`}
+                  className={`h-full flex items-center shrink-0 whitespace-nowrap ${item.megaWithImages ? "" : "relative"} ${isHidden ? "hidden" : ""}`}
                   onMouseEnter={() => hasSubmenu(item) && setOpenDropdown(item.label)}
                   onMouseLeave={() => { setOpenDropdown(null); setOpenSubmenu(null); }}
                 >
