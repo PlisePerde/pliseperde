@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     google: "nqWwFE2E710n1sOZY32SHixMuJ860LFuJZV7biitAqo",
     other: {
       "ahrefs-site-verification": "7a74c1882e9233bcc2cbf2545af1de7c71911673c04190e2e4394860a3e6349d",
+      "msvalidate.01": "27FEE485EE9345F9B20D6332E603905D",
     },
   },
   title: {
