@@ -14,7 +14,7 @@ export default function MusteriYorumlariPage() {
       title="Plise Perde Kullanıcı Yorumları"
       description="Plise perde kullanıcı yorumları ve değerlendirmeleri. Gerçek müşteri deneyimleri, memnuniyet oranı."
       slug="plise-perde-kullanici-yorumlari"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "Kullanıcı Yorumları", url: "/plise-perde-kullanici-yorumlari" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/kurumsal" }, { name: "Kullanıcı Yorumları", url: "/plise-perde-kullanici-yorumlari" }]}
       h1="Plise Perde Kullanıcı Yorumları — Müşteri Değerlendirmeler"
       intro="Müşteri yorumları, hizmet kalitemizin en önemli göstergesidir. 2022'den beri binlerce müşteriye hizmet verdik ve %97 memnuniyet oranı elde ettik. Aşağıda gerçek müşterilerimizin deneyimlerini ve değerlendirmelerini bulabilirsiniz. Her yorum, gerçek bir müşteri tarafından yapılmıştır. Siz de deneyiminizi paylaşmak için WhatsApp'tan bize ulaşabilirsiniz."
       schemaType="article"

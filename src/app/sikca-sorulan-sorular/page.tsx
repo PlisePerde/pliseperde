@@ -14,7 +14,7 @@ export default function SSSPage() {
       title="SSS — Sıkça Sorulan Sorular"
       description="Plise perde sıkça sorulan sorular. Fiyat, montaj, modeller, garanti, temizlik hakkında merak edilen her şey."
       slug="sikca-sorulan-sorular"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "SSS", url: "/sikca-sorulan-sorular" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/kurumsal" }, { name: "SSS", url: "/sikca-sorulan-sorular" }]}
       h1="SSS — Plise Perde Sıkça Sorulan Sorular"
       intro="Plise perde hakkında en sık sorulan soruları ve cevaplarını bu sayfada topladık. Fiyat, montaj, modeller, garanti, temizlik ve kullanım hakkında merak ettiğiniz her şeyi bulabilirsiniz. Aradığınız soruyu bulamazsanız WhatsApp'tan bize ulaşın, en kısa sürede yanıtlayalım."
       schemaType="article"

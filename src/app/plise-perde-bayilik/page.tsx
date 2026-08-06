@@ -130,7 +130,7 @@ const faqItems = [
 export default function BayilikPage() {
   const breadcrumb = [
     { name: "Ana Sayfa", url: "/" },
-    { name: "Kurumsal", url: "/hakkimizda/" },
+    { name: "Kurumsal", url: "/kurumsal/" },
     { name: "Plise Perde Bayilik", url: "/plise-perde-bayilik/" },
   ];
 

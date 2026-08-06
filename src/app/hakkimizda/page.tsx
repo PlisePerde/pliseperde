@@ -16,7 +16,7 @@ export default function HakkimizdaPage() {
       title="Hakkımızda"
       description="Plise Perde olarak 2022'den beri üretici ve montaj hizmeti veriyoruz. Pendik merkezli, Türkiye geneli hizmet."
       slug="hakkimizda"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "Hakkımızda", url: "/hakkimizda" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/kurumsal" }, { name: "Hakkımızda", url: "/hakkimizda" }]}
       h1="Hakkımızda — Plise Perde"
       bgImage="/hakkimizda.webp"
       bgImageAlt="Plise Perde — Hakkımızda ve Üretim"

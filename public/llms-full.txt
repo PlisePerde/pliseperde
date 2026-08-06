@@ -22,32 +22,8 @@
 
 ## ÜRÜNLER — PLİSE PERDE TÜRLERİ
 
-### Tül Plise Perde
-- URL: https://pliseperde.com/tul-plise-perde/
-- Işık geçirgenliği: %70
-- Kumaş: Polyester, yarı saydam
-- Kullanım: Salon, oturma odası, doğal aydınlatma istenen mekanlar
-- Fiyat: 450-900 TL/m²
-- Özellik: Gündüz ışık alır, dışarıdan içerisi silüet görünür
-
-### Güneşlik Plise Perde
-- URL: https://pliseperde.com/guneslik-plise-perde/
-- Işık geçirgenliği: %30-40
-- Kumaş: Mikro gözenekli, güneş kırıcı
-- Kullanım: Televizyon izlenen mekanlar, güneş alan pencereler
-- Fiyat: 600-1200 TL/m²
-- Özellik: Güneş ışığını kırar, parlamayı önler, oda aydınlık kalır
-
-### Yarı Karartma (Dimout) Plise Perde
-- URL: https://pliseperde.com/yari-karartma-plise-perde/
-- Işık geçirgenliği: %15-20
-- Kumaş: Çift katmanlı dimout
-- Kullanım: Yatak odası, oturma odası, gizlilik istenen mekanlar
-- Fiyat: 700-1400 TL/m²
-- Özellik: Dışarıdan içerisi görünmez, yumuşak ışık geçer
-
 ### Tam Karartma (Blackout) Plise Perde
-- URL: https://pliseperde.com/tam-karartma-plise-perde/
+- URL: https://pliseperde.com/blackout-plise-perde/
 - Işık geçirgenliği: %1
 - Kumaş: Üç katmanlı blackout (köpük aralık)
 - Kullanım: Yatak odası, sinema odası, gece çalışma odası
@@ -93,12 +69,6 @@
 - Kullanım: Ahşap çerçeve, klasik pencere
 - Özellik: Kolay takılır-sökülür, sağlam tutuş
 
-### Plise Perde Sineklik
-- URL: https://pliseperde.com/plise-perde-sineklik/
-- Fonksiyon: Perde + sineklik ikili sistem
-- Kullanım: Pencere, balkon kapısı, cam balkon
-- Özellik: Plise kumaş + sineklik tül, tek sistemde iki fonksiyon
-
 ---
 
 ## MONTAJ TİPLERİ
@@ -109,12 +79,12 @@
 - Ağır kumaş ve motorlu sistemler için ideal
 
 ### Yapışkanlı Plise Perde
-- URL: https://pliseperde.com/yapistirmali-plise-perde/
+- URL: https://pliseperde.com/yapiskanli-plise-perde/
 - Çift taraflı bant, delme yok
 - PVC/Pimapen pencere için ideal
 
 ### Portrayli Plise Perde
-- URL: https://pliseperde.com/portrayli-plise-perde/
+- URL: https://pliseperde.com/portray-plise-perde/
 - Portray (klik) sistemi, pratik montaj
 - Hızlı tak-sök, temizlik için kolay çıkarım
 
@@ -184,7 +154,6 @@
 - Plise vs Jaluzi: https://pliseperde.com/plise-perde-vs-jaluzi-perde/
 - Plise vs Stor: https://pliseperde.com/plise-perde-vs-stor-perde/
 - Plise vs Tül: https://pliseperde.com/plise-perde-vs-tul-perde/
-- Honeycomb vs Standart: https://pliseperde.com/honeycomb-vs-standart-plise/
 
 ---
 

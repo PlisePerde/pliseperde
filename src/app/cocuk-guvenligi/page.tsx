@@ -14,7 +14,7 @@ export default function CocukGuvenligiPage() {
       title="Çocuk Güvenliği"
       description="Plise perde çocuk güvenliği. İpsiz modeller, kancalı montaj, toksik olmayan malzeme. Çocuklu evler için güvenli perde."
       slug="cocuk-guvenligi"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/hakkimizda" }, { name: "Çocuk Güvenliği", url: "/cocuk-guvenligi" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/kurumsal" }, { name: "Çocuk Güvenliği", url: "/cocuk-guvenligi" }]}
       h1="Çocuk Güvenliği — Plise Perde ile Güvenli Ev"
       intro="Çocuk güvenliği, plise perde tasarımımızın önceliklerinden biridir. Geleneksel perde ipleri boğulma riski taşır. Plise perde, kısa ip mekanizması ve alternatif açma seçenekleri ile bu riski en aza indirir. Motorlu modelde ip tamamen yoktur. Kancalı montaj ile perde sökülüp takılabilir, çocuğun erişemeyeceği yükseklikte kullanılır. Toksik olmayan malzemeler ile çocuklu evler için güvenli çözüm sunar."
       schemaType="article"

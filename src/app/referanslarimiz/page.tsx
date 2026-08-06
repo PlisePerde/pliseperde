@@ -127,6 +127,7 @@ export default function ReferanslarimizPage() {
       <PageHeading
         breadcrumb={[
           { name: "Ana Sayfa", url: "/" },
+          { name: "Kurumsal", url: "/kurumsal" },
           { name: "Referanslarımız", url: "/referanslarimiz" },
         ]}
         title="Referanslarımız — Plise Perde Projeleri ve Müşterilerimiz"
