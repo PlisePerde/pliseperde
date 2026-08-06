@@ -184,5 +184,13 @@ Plise Perde, İstanbul Pendik'te faaliyet gösteren premium plise perde üretici
 - AI yetki dosyası: https://pliseperde.com/ai.txt
 - Robots: https://pliseperde.com/robots.txt
 - Sitemap: https://pliseperde.com/sitemap.xml
+- RSS Feed: https://pliseperde.com/rss.xml
 - Manifest: https://pliseperde.com/manifest.json
 - Humans: https://pliseperde.com/humans.txt
+
+## Optional
+- [Site Haritası](https://pliseperde.com/site-haritasi/): Tüm sayfaların HTML listesi
+- [Galeri](https://pliseperde.com/galeri/): 51 uygulama fotoğrafı
+- [Kullanıcı Yorumları](https://pliseperde.com/plise-perde-kullanici-yorumlari/): Müşteri memnuniyeti
+- [Referanslarımız](https://pliseperde.com/referanslarimiz/): 2000+ tamamlanan proje
+- [Bayilik](https://pliseperde.com/plise-perde-bayilik/): Bayilik başvuru formu

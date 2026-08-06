@@ -10,6 +10,13 @@ Allow: /robots.txt
 Allow: /sitemap.xml
 Allow: /manifest.json
 Allow: /humans.txt
+Disallow: /admin/
+Disallow: /api/
+Disallow: /404
+Disallow: /offline
+Crawl-delay: 2
+
+Sitemap: https://pliseperde.com/sitemap.xml
 
 # OpenAI / ChatGPT
 User-agent: OAI-SearchBot

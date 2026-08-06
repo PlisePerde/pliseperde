@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s — Plise Perde",
   },
   description:
-    "Plise Perde özel ölçü üretim, ücretsiz keşif, ücretsiz ölçülendirme ve ücretsiz montaj hizmetiyle FENETRE kalitesini yaşam alanlarınıza taşır.",
+    "Plise Perde — Türkiye'nin plise perde üreticisi. Özel ölçü üretim, ücretsiz keşif, ücretsiz ölçülendirme ve ücretsiz montaj hizmetiyle yaşam alanlarınıza taşır.",
   keywords: [
     "plise perde",
     "plise perde fiyatları",
@@ -51,6 +51,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/",
+    types: {
+      "application/rss+xml": `${siteConfig.url}/rss.xml`,
+    },
     languages: {
       "tr-TR": "/",
     },
@@ -62,7 +65,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: "Plise Perde | Özel Ölçü Üretim | Hızlı Teslimat - 2 Yıl Garanti",
     description:
-      "Plise Perde özel ölçü üretim, ücretsiz keşif, ücretsiz ölçülendirme ve ücretsiz montaj hizmetiyle FENETRE kalitesini yaşam alanlarınıza taşır.",
+      "Plise Perde — Türkiye'nin plise perde üreticisi. Özel ölçü üretim, ücretsiz keşif, ücretsiz ölçülendirme ve ücretsiz montaj hizmetiyle yaşam alanlarınıza taşır.",
     images: [
       {
         url: "/og-image.webp",
@@ -76,7 +79,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Plise Perde | Özel Ölçü Üretim | Hızlı Teslimat - 2 Yıl Garanti",
     description:
-      "Plise Perde özel ölçü üretim, ücretsiz keşif, ücretsiz ölçülendirme ve ücretsiz montaj hizmetiyle FENETRE kalitesini yaşam alanlarınıza taşır.",
+      "Plise Perde — Türkiye'nin plise perde üreticisi. Özel ölçü üretim, ücretsiz keşif, ücretsiz ölçülendirme ve ücretsiz montaj hizmetiyle yaşam alanlarınıza taşır.",
     images: ["/og-image.webp"],
   },
   icons: {

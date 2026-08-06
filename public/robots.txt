@@ -120,8 +120,9 @@ Allow: /sitemap*.xml
 Disallow: /admin/
 Disallow: /api/
 Disallow: /404
+Disallow: /offline
 Disallow: /*.json$
-Disallow: /*.xml$
+Disallow: /llms-full.txt
 
 # --- Crawl-delay (Global) ---
 Crawl-delay: 1

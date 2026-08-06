@@ -17,7 +17,7 @@ import { galleryCategories, allGalleryImages } from "@/data/gallery";
 export const metadata: Metadata = generatePageMetadata({
   title: "Galeri — Plise Perde, Honeycomb ve Düet Perde Uygulama Fotoğrafları",
   description:
-    "Plise perde, honeycomb perde ve düet perde uygulama fotoğrafları. Gerçek projelerden montaj örnekleri: salon, yatak odası, cam balkon, mutfak, ofis. FENETRE kalitesiyle uygulanan perde modellerini inceleyin.",
+    "Plise perde, honeycomb perde ve düet perde uygulama fotoğrafları. Gerçek projelerden montaj örnekleri: salon, yatak odası, cam balkon, mutfak, ofis. Plise Perde kalitesiyle uygulanan perde modellerini inceleyin.",
   slug: "galeri",
   ogImage: "/galeri.webp",
   ogImageAlt: "Plise Perde Galeri — Uygulama Fotoğrafları",
@@ -36,7 +36,7 @@ const faqItems: FAQItem[] = [
   {
     question: "Galeride gerçek proje fotoğrafları mı var?",
     answer:
-      "Evet, galerimizde gerçek projelerden çekilmiş fotoğraflar bulunmaktadır. Salon, yatak odası, cam balkon, mutfak ve ofis uygulamalarının gerçek görüntülerini inceleyebilirsiniz. Tüm fotoğraflar FENETRE tarafından uygulanan gerçek montajları gösterir.",
+      "Evet, galerimizde gerçek projelerden çekilmiş fotoğraflar bulunmaktadır. Salon, yatak odası, cam balkon, mutfak ve ofis uygulamalarının gerçek görüntülerini inceleyebilirsiniz. Tüm fotoğraflar Plise Perde tarafından uygulanan gerçek montajları gösterir.",
   },
   {
     question: "Hangi perde türlerinin fotoğrafları mevcut?",
@@ -61,7 +61,7 @@ const faqItems: FAQItem[] = [
   {
     question: "Galeri fotoğraflarını indirebilir miyim?",
     answer:
-      "Galeri fotoğrafları telif hakkı korunmaktadır ve FENETRE'nin izni olmadan kullanılamaz. Referans amacıyla inceleyebilirsiniz. Proje fotoğraflarınızı paylaşmak için bizimle iletişime geçebilirsiniz.",
+      "Galeri fotoğrafları telif hakkı korunmaktadır ve Plise Perde'nin izni olmadan kullanılamaz. Referans amacıyla inceleyebilirsiniz. Proje fotoğraflarınızı paylaşmak için bizimle iletişime geçebilirsiniz.",
   },
 ];
 
@@ -113,7 +113,7 @@ export default function GaleriPage() {
           { name: "Galeri", url: "/galeri" },
         ]}
         title="Galeri — Plise Perde Uygulamaları"
-        description="Plise perde, honeycomb perde ve düet perde uygulamalarımızın fotoğraflarını inceleyin. Gerçek projelerden montaj örnekleri: salon, yatak odası, cam balkon, mutfak, ofis ve daha fazlası. Tüm fotoğraflar FENETRE tarafından uygulanan gerçek montajları gösterir."
+        description="Plise perde, honeycomb perde ve düet perde uygulamalarımızın fotoğraflarını inceleyin. Gerçek projelerden montaj örnekleri: salon, yatak odası, cam balkon, mutfak, ofis ve daha fazlası. Tüm fotoğraflar Plise Perde tarafından uygulanan gerçek montajları gösterir."
         highlight={`${allImages.length > 0 ? `${allImages.length} uygulama fotoğrafı` : "Fotoğraflar yakında"}`}
         bgImage="/galeri.webp"
         bgImageAlt="Plise Perde Galeri — Uygulama Fotoğrafları"
@@ -124,7 +124,7 @@ export default function GaleriPage() {
           {/* AI/LLM-friendly summary */}
           <section className="mb-8" aria-label="Galeri özeti">
             <p className="text-sm text-brand-text-light leading-relaxed mb-4">
-              Bu galeri sayfası, <strong>FENETRE Plise Perde</strong> tarafından İstanbul ve Türkiye geneli
+              Bu galeri sayfası, <strong>Plise Perde Plise Perde</strong> tarafından İstanbul ve Türkiye geneli
               uygulanan gerçek projelerin fotoğraflarını sunar. Üç ana kategoride düzenlenmiştir:{" "}
               <strong>Plise Perde</strong> (düz, blackout, gece gündüz, desenli, baskılı modeller),{" "}
               <strong>Honeycomb Perde</strong> (çift petek yapısı ile ısı ve ses yalıtımı) ve{" "}

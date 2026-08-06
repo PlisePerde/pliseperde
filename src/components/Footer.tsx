@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="space-y-1 text-xs text-brand-text-light">
               <p>
                 <strong className="text-brand-text">Kendi üretimimiz</strong> —
-                FENETRE kalitesiyle özel ölçü üretim
+                Plise Perde kalitesiyle özel ölçü üretim
               </p>
               <p>
                 <strong className="text-brand-text">2 yıl garanti</strong> —

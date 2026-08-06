@@ -102,6 +102,42 @@ export function buildUrl(slug: string): string {
   return slug === "" ? `${SITE_URL}/` : `${SITE_URL}/${slug}/`;
 }
 
+const pageLastMods: Record<string, string> = {
+  "": "2026-08-06",
+  kurumsal: "2026-08-06",
+  urunlerimiz: "2026-08-06",
+  "plise-perde-modelleri": "2026-08-06",
+  "plise-perde-sistemleri": "2026-08-06",
+  "plise-perde-cesitleri": "2026-08-06",
+  "plise-perde-ozellikleri": "2026-08-06",
+  "plise-perde-fiyatlari": "2026-08-06",
+  "plise-perde-fiyat-hesaplama": "2026-08-06",
+  hizmetlerimiz: "2026-08-06",
+  "hizmet-bolgeleri": "2026-08-06",
+  karsilastirmalar: "2026-08-06",
+  blog: "2026-08-06",
+  galeri: "2026-08-06",
+  iletisim: "2026-08-06",
+  hakkimizda: "2026-08-06",
+  referanslarimiz: "2026-08-06",
+  "plise-perde-bayilik": "2026-08-06",
+  "sikca-sorulan-sorular": "2026-08-06",
+  "plise-perde-kullanici-yorumlari": "2026-08-06",
+  surdurulebilirlik: "2026-08-06",
+  "cocuk-guvenligi": "2026-08-06",
+  "site-haritasi": "2026-08-06",
+  numune: "2026-08-06",
+  kesif: "2026-08-06",
+  montaj: "2026-08-06",
+  "olcu-alma-destegi": "2026-08-06",
+  "plise-perde-projesi": "2026-08-06",
+  "plise-perde": "2026-08-06",
+  "honeycomb-perde": "2026-08-06",
+  "duet-perde": "2026-08-06",
+  "plise-perde-aparatlari": "2026-08-06",
+  "plise-perde-yedek-parca": "2026-08-06",
+};
+
 export function escapeXml(str: string): string {
   return str
     .replace(/&/g, "&amp;")
@@ -112,12 +148,12 @@ export function escapeXml(str: string): string {
 }
 
 export function generateStandardSitemap(entries: SitemapEntry[], lastmod?: string): string {
-  const date = lastmod || new Date().toISOString().split("T")[0];
+  const today = new Date().toISOString().split("T")[0];
   const urls = entries
     .map(
       (e) => `  <url>
     <loc>${buildUrl(e.slug)}</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${lastmod || pageLastMods[e.slug] || today}</lastmod>
     <changefreq>${e.changefreq}</changefreq>
     <priority>${e.priority}</priority>
   </url>`

@@ -21,16 +21,16 @@ import { siteConfig } from "@/lib/site-config";
 import { organizationSchema, localBusinessSchema, websiteSchema, speakableSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
 
 const productCards = [
-  { label: "Tül Plise Perde", desc: "Işık geçirgen, dekoratif" },
-  { label: "Güneşlik Plise Perde", desc: "Güneş ışınını filtreler" },
-  { label: "Yarı Karartma Plise Perde", desc: "Yumuşak ışık, gizlilik" },
-  { label: "Tam Karartma Plise Perde", desc: "Tam karanlık, maksimum gizlilik" },
+  { label: "Plise Perde", desc: "Özel ölçü üretim" },
   { label: "Honeycomb Perde", desc: "Isı yalıtımı, enerji tasarrufu" },
+  { label: "Düet Perde", desc: "Çift hücreli, ışık-gizlilik dengesi" },
+  { label: "Blackout Plise Perde", desc: "Tam karanlık, maksimum gizlilik" },
   { label: "Gece Gündüz Plise Perde", desc: "İki katman, esnek kullanım" },
   { label: "Motorlu Plise Perde", desc: "Uzaktan kumanda, akıllı ev" },
   { label: "Vidasız Plise Perde", desc: "Delmesiz montaj" },
   { label: "Kancalı Plise Perde", desc: "Pratik takılır çıkarılır" },
-  { label: "Plise Perde Sineklik", desc: "Sinek ve toz koruması" },
+  { label: "Desenli Plise Perde", desc: "Dekoratif görünüm" },
+  { label: "Düz Plise Perde", desc: "Sade, minimalist tasarım" },
 ];
 
 const serviceCards = [
@@ -259,6 +259,78 @@ export default function Home() {
                     {faq.answer}
                   </p>
                 </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Hizmet Bölgeleri */}
+        <section aria-label="Hizmet Bölgeleri" className="bg-white py-10 md:py-12 border-t border-brand-border">
+          <div className="mx-auto max-w-[1536px] px-4 md:px-6">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-lg md:text-xl font-semibold text-brand-text">
+                Hizmet Bölgeleri
+              </h2>
+              <Link href="/hizmet-bolgeleri" className="text-sm text-brand hover:underline flex items-center gap-1">
+                Tümünü Gör <ChevronRight size={16} />
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+              {[
+                { name: "İstanbul", slug: "istanbul-plise-perde" },
+                { name: "Ankara", slug: "ankara-plise-perde" },
+                { name: "İzmir", slug: "izmir-plise-perde" },
+                { name: "Bursa", slug: "bursa-plise-perde" },
+                { name: "Antalya", slug: "antalya-plise-perde" },
+                { name: "Kocaeli", slug: "kocaeli-plise-perde" },
+                { name: "Adana", slug: "adana-plise-perde" },
+                { name: "Konya", slug: "konya-plise-perde" },
+                { name: "Gaziantep", slug: "gaziantep-plise-perde" },
+                { name: "Eskişehir", slug: "eskisehir-plise-perde" },
+              ].map((city) => (
+                <Link
+                  key={city.slug}
+                  href={`/${city.slug}`}
+                  className="flex items-center justify-between px-4 py-3 bg-brand-bg border border-brand-border rounded-lg hover:border-brand transition-colors text-sm font-medium text-brand-text"
+                >
+                  {city.name}
+                  <ChevronRight size={16} className="text-brand" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Karşılaştırmalar */}
+        <section aria-label="Karşılaştırmalar" className="bg-brand-bg py-10 md:py-12">
+          <div className="mx-auto max-w-[1536px] px-4 md:px-6">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-lg md:text-xl font-semibold text-brand-text">
+                Plise Perde Karşılaştırmaları
+              </h2>
+              <Link href="/karsilastirmalar" className="text-sm text-brand hover:underline flex items-center gap-1">
+                Tümünü Gör <ChevronRight size={16} />
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+              {[
+                { name: "Plise vs Zebra", slug: "plise-perde-vs-zebra-perde" },
+                { name: "Plise vs Jaluzi", slug: "plise-perde-vs-jaluzi-perde" },
+                { name: "Plise vs Stor", slug: "plise-perde-vs-stor-perde" },
+                { name: "Plise vs Tül", slug: "plise-perde-vs-tul-perde" },
+                { name: "Plise vs Honeycomb", slug: "plise-perde-vs-honeycomb-perde" },
+                { name: "Plise vs Düet", slug: "plise-perde-vs-duet-perde" },
+                { name: "Plise vs Fon", slug: "plise-perde-vs-fon-perde" },
+                { name: "Plise vs Zip", slug: "plise-perde-vs-zip-perde" },
+              ].map((cmp) => (
+                <Link
+                  key={cmp.slug}
+                  href={`/${cmp.slug}`}
+                  className="flex items-center justify-between px-4 py-3 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors text-sm font-medium text-brand-text"
+                >
+                  {cmp.name}
+                  <ChevronRight size={16} className="text-brand" />
+                </Link>
               ))}
             </div>
           </div>
