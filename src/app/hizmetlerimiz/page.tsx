@@ -16,7 +16,11 @@ export const metadata: Metadata = {
 };
 
 export default function HizmetlerPage() {
-  const services = getPagesByCategory("Hizmetlerimiz").filter((p) => p.slug !== "hizmetlerimiz");
+  const allServices = getPagesByCategory("Hizmetlerimiz").filter((p) => p.slug !== "hizmetlerimiz");
+  const serviceOrder = ["numune", "kesif", "olcu-alma-destegi", "montaj", "plise-perde-projesi"];
+  const services = serviceOrder
+    .map((slug) => allServices.find((s) => s.slug === slug))
+    .filter((s): s is NonNullable<typeof s> => s !== undefined);
   const breadcrumb = ["Ana Sayfa", "Hizmetlerimiz"];
 
   return (
