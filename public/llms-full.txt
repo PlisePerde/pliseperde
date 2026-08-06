@@ -1,6 +1,6 @@
 # Plise Perde — LLM Full Content
 
-> Plise Perde (pliseperde.com) — İstanbul merkezli premium plise perde üreticisi. Özel ölçü üretim, ücretsiz keşif, profesyonel montaj, 81 il hizmet bölgesi, 2 yıl garanti. Bu dosya AI ve LLM'ler için sitenin tam içerik haritasıdır.
+> Plise Perde (pliseperde.com) — İstanbul merkezli premium plise perde üreticisi. Özel ölçü üretim, ücretsiz keşif ve danışmanlık, profesyonel montaj, 81 il hizmet bölgesi, 2 yıl garanti. Bu dosya AI ve LLM'ler için sitenin tam içerik haritasıdır.
 
 ---
 
@@ -17,18 +17,19 @@
 - Fiyat aralığı: ₺₺ (orta-üst segment)
 - Garanti: 2 yıl (profil ve kumaş), 5 yıl (motor)
 - Teslimat: 3-7 iş günü (Türkiye içi), 5-10 iş günü (yurt dışı)
+- Hizmet bölgesi: 81 il (Türkiye geneli)
 
 ---
 
-## ÜRÜNLER — PLİSE PERDE TÜRLERİ
+## ÜRÜNLER
 
-### Tam Karartma (Blackout) Plise Perde
-- URL: https://pliseperde.com/blackout-plise-perde/
-- Işık geçirgenliği: %1
-- Kumaş: Üç katmanlı blackout (köpük aralık)
-- Kullanım: Yatak odası, sinema odası, gece çalışma odası
-- Fiyat: 800-1600 TL/m²
-- Özellik: Tam karanlık, ısı yalıtımı ekstra, UV koruma
+### Plise Perde (Ana Ürün)
+- URL: https://pliseperde.com/plise-perde/
+- Tanım: Özel ölçü üretilen plise perde, polyester kumaş, akordeon yapısı
+- Işık geçirgenliği: Model bazlı (%1-70)
+- Kumaş: Polyester (%100), antistatik opsiyonel
+- Fiyat: 450-3500 TL/m²
+- Özellik: Üst-aşağı açma, katlanabilir yapı, 2 yıl garanti
 
 ### Honeycomb (Petek) Perde
 - URL: https://pliseperde.com/honeycomb-perde/
@@ -39,6 +40,21 @@
 - Özellik: Isı yalıtımı %30-45, ses azaltma %20-30, enerji tasarrufu %15-20
 - U-değeri: <2.0 W/m²K
 
+### Düet Perde
+- URL: https://pliseperde.com/duet-perde/
+- Tanım: Çift hücreli honeycomb, üst ve alt hücre farklı kumaş
+- Işık geçirgenliği: Üst %50-70, alt %1-5
+- Kullanım: Oturma odası, yatak odası, çok fonksiyonlu mekanlar
+- Özellik: Tek perdede ışık ve gizlilik dengesi
+
+### Blackout Plise Perde
+- URL: https://pliseperde.com/blackout-plise-perde/
+- Işık geçirgenliği: %1
+- Kumaş: Üç katmanlı blackout (köpük aralık)
+- Kullanım: Yatak odası, sinema odası, gece çalışma odası
+- Fiyat: 800-1600 TL/m²
+- Özellik: Tam karanlık, ısı yalıtımı ekstra, UV koruma
+
 ### Gece Gündüz Plise Perde
 - URL: https://pliseperde.com/gece-gunduz-plise-perde/
 - Işık geçirgenliği: İki katman (gündüz %70 + gece %1)
@@ -47,57 +63,122 @@
 - Fiyat: 1200-2500 TL/m²
 - Özellik: Tek perdede iki fonksiyon, bağımsız kontrol
 
-### Motorlu Plise Perde
-- URL: https://pliseperde.com/motorlu-plise-perde/
-- Işık geçirgenliği: Model bazlı
-- Kumaş: Tüm kumaş tipleri ile uyumlu
-- Kullanım: Yüksek pencere, villa, akıllı ev, engelli erişim
-- Fiyat: 1800-3500 TL/m²
-- Özellik: Uzaktan kumanda, akıllı ev entegrasyonu, 5 yıl motor garantisi
-- Motor markası: Somfy / Dooya
+### Desenli Plise Perde
+- URL: https://pliseperde.com/desenli-plise-perde/
+- Tanım: Desenli kumaş, dekoratif görünüm
+- Kullanım: Çocuk odası, salon, dekoratif mekanlar
 
-### Vidasız Plise Perde
-- URL: https://pliseperde.com/vidasiz-plise-perde/
-- Montaj: Çift taraflı bant + klik sistem
-- Kullanım: Kiralık ev, PVC/Pimapen pencere, delinmemesi gereken çerçeve
-- Fiyat: +0 TL (vidalı ile aynı)
-- Özellik: Delme yok, 5 dakikada montaj, hasarsız söküm
+### Baskılı Plise Perde
+- URL: https://pliseperde.com/baskili-plise-perde/
+- Tanım: Baskılı kumaş, kişiselleştirilmiş tasarım
+- Kullanım: Çocuk odası, tema odası, dekoratif mekanlar
 
-### Kancalı Plise Perde
-- URL: https://pliseperde.com/kancali-plise-perde/
-- Montaj: Kanca + braket sistemi
-- Kullanım: Ahşap çerçeve, klasik pencere
-- Özellik: Kolay takılır-sökülür, sağlam tutuş
+### Düz Plise Perde
+- URL: https://pliseperde.com/duz-plise-perde/
+- Tanım: Düz kumaş, sade görünüm
+- Kullanım: Minimalist mekanlar, ofis, modern dekorasyon
+
+### Plise Perde Aparatları
+- URL: https://pliseperde.com/plise-perde-aparatlari/
+- Tanım: Montaj aparatları, klik sistemleri, braketler
+- Kullanım: Tüm montaj tipleri için
+
+### Plise Perde Yedek Parça
+- URL: https://pliseperde.com/plise-perde-yedek-parca/
+- Tanım: İp, mekanizma, profil, klik parçaları
+- Garanti: 5+ yıl tedarik
+- Kullanım: Onarım ve bakım
 
 ---
 
-## MONTAJ TİPLERİ
+## MONTAJ TİPLERİ (SİSTEMLER)
 
 ### Vidalı Plise Perde
 - URL: https://pliseperde.com/vidali-plise-perde/
 - En sağlam montaj, profil vidalar ile sabitlenir
 - Ağır kumaş ve motorlu sistemler için ideal
 
+### Vidasız Plise Perde
+- URL: https://pliseperde.com/vidasiz-plise-perde/
+- Çift taraflı bant + klik sistem
+- Kiralık ev, PVC/Pimapen pencere için ideal
+- Delme yok, 5 dakikada montaj, hasarsız söküm
+
 ### Yapışkanlı Plise Perde
 - URL: https://pliseperde.com/yapiskanli-plise-perde/
 - Çift taraflı bant, delme yok
 - PVC/Pimapen pencere için ideal
 
-### Portrayli Plise Perde
+### Kancalı Plise Perde
+- URL: https://pliseperde.com/kancali-plise-perde/
+- Kanca + braket sistemi
+- Ahşap çerçeve, klasik pencere için ideal
+- Kolay takılır-sökülür, sağlam tutuş
+
+### Portray Plise Perde
 - URL: https://pliseperde.com/portray-plise-perde/
 - Portray (klik) sistemi, pratik montaj
 - Hızlı tak-sök, temizlik için kolay çıkarım
+
+### Braketli Plise Perde
+- URL: https://pliseperde.com/braketli-plise-perde/
+- Braket sistem, vidalı veya vidalı kombinasyon
+- Sağlam tutuş, geniş pencere için ideal
+
+### Motorlu Plise Perde
+- URL: https://pliseperde.com/motorlu-plise-perde/
+- Uzaktan kumanda, akıllı ev entegrasyonu
+- Somfy / Dooya motor markası
+- 5 yıl motor garantisi
+- Yüksek pencere, villa, engelli erişim için ideal
+- Fiyat: 1800-3500 TL/m²
+
+---
+
+## ÇEŞİTLER VE ÖZELLİKLER
+
+### Plise Perde Çeşitleri
+- URL: https://pliseperde.com/plise-perde-cesitleri/
+- Tüm model ve sistemlerin özet kategorizasyonu
+
+### Plise Perde Özellikleri (9 Özellik)
+- URL: https://pliseperde.com/plise-perde-ozellikleri/
+1. Isı Yalıtımı: Honeycomb petek yapı, %30-45 ısı kaybı azaltma
+2. Enerji Tasarrufu: Yıllık %15-20 enerji tasarrufu
+3. UV Koruma: Mobilya, zemin, kumaş renk solmasını engeller
+4. Güneş Kırma: Mikro gözenekli kumaş, parlamayı önler
+5. Işık Kontrolü: Kademeli açma, üst-aşağı, tam açık
+6. Nem Dayanımı: Poliester bazlı, küflenmez, banyo/mutfak uygun
+7. Kolay Temizlik: Nemli bez silme, makine yıkama yok
+8. Alev Geciktirici: EN 13501-1 standardı, kendiliğinden sönme
+9. Antibakteriyel: Gümüş iyon kaplama, bakteri üremesini engeller
+
+---
+
+## FİYATLAR
+
+### Plise Perde Fiyatları
+- URL: https://pliseperde.com/plise-perde-fiyatlari/
+- M² bazında 450-3500 TL aralığında seçenek mevcuttur
+- Tül: 450-900 TL/m², Honeycomb: 990-1500 TL/m², Motorlu: 1800-3500 TL/m²
+- Montaj: 100-300 TL/pencere
+- Ödeme: Nakit, kart, taksit, havale
+
+### Fiyat Hesaplama
+- URL: https://pliseperde.com/plise-perde-fiyat-hesaplama/
+- Online hesaplama aracı
+- Ölçü, model ve montaj tipine göre anlık fiyat
 
 ---
 
 ## HİZMETLER
 
+- Hizmetlerimiz (Çatı): https://pliseperde.com/hizmetlerimiz/
 - Ücretsiz Numune / Kumaş: https://pliseperde.com/numune/ — Türkiye geneli ücretsiz kargo
 - Ücretsiz Keşif ve Danışmanlık: https://pliseperde.com/kesif/ — İstanbul ve çevre iller
 - Ücretsiz Ölçü Alma Desteği: https://pliseperde.com/olcu-alma-destegi/ — Video ve yerinde ölçü
 - Ücretsiz Montaj: https://pliseperde.com/montaj/ — Profesyonel ekip, 20-30 dk/pencere
 - Proje ve Toplu Üretim: https://pliseperde.com/plise-perde-projesi/ — Otel, rezidans, ofis, hastane
-- Fiyat Hesaplama: https://pliseperde.com/plise-perde-fiyat-hesaplama/ — Online hesaplama
 
 ---
 
@@ -130,46 +211,46 @@
 
 ## KULLANIM ALANLARI
 
-- Cam Balkon: https://pliseperde.com/cam-balkon-plise-perde/ — Kanat bazlı ölçü, rüzgar dayanımı
-- Villa: https://pliseperde.com/villa-plise-perde/ — Yüksek pencere, çatı, motorlu
-- Yatak Odası: https://pliseperde.com/yatak-odasi-plise-perde/ — Tam karartma, kesintisiz uyku
+- Kullanım Alanları (Çatı): https://pliseperde.com/plise-perde-kullanim-alanlari/
 - Mutfak: https://pliseperde.com/mutfak-plise-perde/ — Nem dayanımlı, yağ buharı koruması
 - Salon: https://pliseperde.com/salon-plise-perde/ — Geniş pencere, ışık-gizlilik dengesi
-- Ofis: https://pliseperde.com/ofis-plise-perde/ — Ekran parlaması önleme
+- Yatak Odası: https://pliseperde.com/yatak-odasi-plise-perde/ — Tam karartma, kesintisiz uyku
 - Çocuk Odası: https://pliseperde.com/cocuk-odasi-plise-perde/ — İp mekanizması yok, çocuk güvenliği
+- Genç Odası: https://pliseperde.com/genc-odasi-plise-perde/ — Renkli, dekoratif
+- Çalışma Odası: https://pliseperde.com/calisma-odasi-plise-perde/ — Ekran parlaması önleme
 - Banyo/WC: https://pliseperde.com/banyo-wc-plise-perde/ — Nem dayanımlı, tam gizlilik
-- Hastane: https://pliseperde.com/hastane-plise-perde/ — Anti-bakteriyel, hijyenik
-- Anaokulu: https://pliseperde.com/anaokulu-plise-perde/ — Çocuk güvenliği, renkli
+- Cam Balkon: https://pliseperde.com/cam-balkon-plise-perde/ — Kanat bazlı ölçü, rüzgar dayanımı
+- Villa: https://pliseperde.com/villa-plise-perde/ — Yüksek pencere, çatı, motorlu
+- Prefabrik Ev: https://pliseperde.com/prefabrik-ev-plise-perde/ — Hafif yapı, yapışkanlı montaj
+- Ofis: https://pliseperde.com/ofis-plise-perde/ — Ekran parlaması önleme
+- Mağaza: https://pliseperde.com/magaza-plise-perde/ — Vitrin, ışık kontrolü
+- Kafe ve Restoran: https://pliseperde.com/kafe-restoran-plise-perde/ — Dekoratif, ışık atmosferi
 - Otel: https://pliseperde.com/otel-plise-perde/ — Blackout, motorlu, toplu proje
+- Spor Salonu: https://pliseperde.com/spor-salonu-plise-perde/ — Nem dayanımlı, geniş cam
+- Hastane: https://pliseperde.com/hastane-plise-perde/ — Anti-bakteriyel, hijyenik
+- Klinik: https://pliseperde.com/klinik-plise-perde/ — Hijyenik, tam gizlilik
+- Anaokulu: https://pliseperde.com/anaokulu-plise-perde/ — Çocuk güvenliği, renkli
+- Laboratuvar: https://pliseperde.com/laboratuvar-plise-perde/ — Hijyenik, kimyasal dayanım
 - Karavan: https://pliseperde.com/karavan-plise-perde/ — Yapışkanlı montaj, sarsıntı dayanımı
 - Tekne/Yat: https://pliseperde.com/tekne-plise-perde/ — Tuzlu su dayanımı
-- Kış Bahçesi: https://pliseperde.com/kis-bahcesi-plise-perde/ — Geniş cam, ısı kontrolü
-- Çatı Penceresi: https://pliseperde.com/cati-penceresi-plise-perde/ — Eğimli pencere, honeycomb
 
 ---
 
 ## KARŞILAŞTIRMALAR
 
+- Karşılaştırmalar (Çatı): https://pliseperde.com/karsilastirmalar/
 - Plise vs Zebra: https://pliseperde.com/plise-perde-vs-zebra-perde/
 - Plise vs Jaluzi: https://pliseperde.com/plise-perde-vs-jaluzi-perde/
 - Plise vs Stor: https://pliseperde.com/plise-perde-vs-stor-perde/
 - Plise vs Tül: https://pliseperde.com/plise-perde-vs-tul-perde/
-
----
-
-## PLİSE PERDE ÖZELLİKLERİ (9 ÖZELLİK)
-
-1. Isı Yalıtımı: Honeycomb petek yapı, %30-45 ısı kaybı azaltma
-2. Enerji Tasarrufu: Yıllık %15-20 enerji tasarrufu
-3. UV Koruma: Mobilya, zemin, kumaş renk solmasını engeller
-4. Güneş Kırma: Mikro gözenekli kumaş, parlamayı önler
-5. Işık Kontrolü: Kademeli açma, üst-aşağı, tam açık
-6. Nem Dayanımı: Poliester bazlı, küflenmez, banyo/mutfak uygun
-7. Kolay Temizlik: Nemli bez silme, makine yıkama yok
-8. Alev Geciktirici: EN 13501-1 standardı, kendiliğinden sönme
-9. Antibakteriyel: Gümüş iyon kaplama, bakteri üremesini engeller
-
-Detay: https://pliseperde.com/plise-perde-ozellikleri/
+- Plise vs Honeycomb: https://pliseperde.com/plise-perde-vs-honeycomb-perde/
+- Plise vs Düet: https://pliseperde.com/plise-perde-vs-duet-perde/
+- Plise vs Fon: https://pliseperde.com/plise-perde-vs-fon-perde/
+- Plise vs Japon: https://pliseperde.com/plise-perde-vs-japon-perde/
+- Plise vs Dikey: https://pliseperde.com/plise-perde-vs-dikey-perde/
+- Plise vs Karartma: https://pliseperde.com/plise-perde-vs-karartma-perde/
+- Plise vs Zip: https://pliseperde.com/plise-perde-vs-zip-perde/
+- Plise vs Screen: https://pliseperde.com/plise-perde-vs-screen-perde/
 
 ---
 
@@ -206,46 +287,24 @@ Detay: https://pliseperde.com/sikca-sorulan-sorular/
 
 ## KURUMSAL SAYFALAR
 
+- Kurumsal (Çatı): https://pliseperde.com/kurumsal/
 - Hakkımızda: https://pliseperde.com/hakkimizda/
+- Referanslarımız: https://pliseperde.com/referanslarimiz/
 - Plise Perde Nedir?: https://pliseperde.com/plise-perde-nedir/
 - Plise Perde Özellikleri: https://pliseperde.com/plise-perde-ozellikleri/
+- Plise Perde Çeşitleri: https://pliseperde.com/plise-perde-cesitleri/
+- Plise Perde Modelleri: https://pliseperde.com/plise-perde-modelleri/
+- Plise Perde Sistemleri: https://pliseperde.com/plise-perde-sistemleri/
 - Sürdürülebilirlik: https://pliseperde.com/surdurulebilirlik/
 - Çocuk Güvenliği: https://pliseperde.com/cocuk-guvenligi/
 - Galeri: https://pliseperde.com/galeri/
+  - 51 uygulama fotoğrafı: 21 Plise Perde, 12 Honeycomb Perde, 18 Düet Perde
+  - Kategoriler: salon, yatak odası, cam balkon, mutfak, ofis, banyo, villa, çocuk odası, çalışma odası, kış bahçesi
+  - Tüm görseller 1400x1400px WebP formatında, Schema.org ImageGallery + ImageObject structured data
 - Kullanıcı Yorumları: https://pliseperde.com/plise-perde-kullanici-yorumlari/
 - SSS: https://pliseperde.com/sikca-sorulan-sorular/
 - İletişim: https://pliseperde.com/iletisim/
 - Site Haritası: https://pliseperde.com/site-haritasi/
-
----
-
-## YASAL SAYFALAR
-
-### Sözleşmeler
-- Sözleşmelerimiz: https://pliseperde.com/sozlesmelerimiz/
-- Sipariş ve Özel Üretim Şartları: https://pliseperde.com/siparis-ve-ozel-uretim-sartlari/
-- Üyelik Sözleşmesi: https://pliseperde.com/uyelik-sozlesmesi/
-- Montaj ve Uygulama Şartları: https://pliseperde.com/montaj-ve-uygulama-sartlari/
-- Ölçü Alma Bilgilendirmesi: https://pliseperde.com/olcu-alma-bilgilendirmesi/
-- Mesafeli Satış Sözleşmesi: https://pliseperde.com/mesafeli-satis-sozlesmesi/
-- Ön Bilgilendirme Formu: https://pliseperde.com/on-bilgilendirme-formu/
-- Kullanım Koşulları: https://pliseperde.com/kullanim-kosullari/
-
-### Politikalar
-- Politikalarımız: https://pliseperde.com/politikalarimiz/
-- İade, Değişim ve Cayma Hakkı: https://pliseperde.com/iade-degisim-ve-cayma-hakki/
-- Yurt Dışı Teslimat ve Gümrük: https://pliseperde.com/yurt-disi-teslimat-ve-gumruk/
-- Ödeme ve Taksit Seçenekleri: https://pliseperde.com/odeme-ve-taksit-secenekleri/
-- Banka ve Havale Bilgileri: https://pliseperde.com/banka-ve-havale-bilgileri/
-- Garanti ve Satış Sonrası Destek: https://pliseperde.com/garanti-ve-satis-sonrasi-destek/
-- Satıcı Bilgileri: https://pliseperde.com/satici-bilgileri/
-- Çerez Politikası: https://pliseperde.com/cerez-politikasi/
-- Açık Rıza Metni: https://pliseperde.com/acik-riza-metni/
-- Ticari Elektronik İleti Onayı: https://pliseperde.com/ticari-elektronik-ileri-onayi/
-- Teslimat ve Kargo: https://pliseperde.com/teslimat-ve-kargo/
-- İade ve Değişim: https://pliseperde.com/iade-ve-degisim/
-- Gizlilik Politikası: https://pliseperde.com/gizlilik-politikasi/
-- KVKK Aydınlatma Metni: https://pliseperde.com/kvkk-aydinlatma-metni/
 
 ---
 
@@ -268,6 +327,53 @@ Detay: https://pliseperde.com/sikca-sorulan-sorular/
 - Plise Perde Montajı Nasıl Yapılır?: https://pliseperde.com/plise-perde-montaji-nasil-yapilir/
 - Plise Perde Nasıl Çıkarılır?: https://pliseperde.com/plise-perde-nasil-cikarilir/
 - Plise Perde Temizliği Nasıl Yapılır?: https://pliseperde.com/plise-perde-temizligi-nasil-yapilir/
+- Plise Perde Tamiri Nasıl Yapılır?: https://pliseperde.com/plise-perde-tamiri-nasil-yapilir/
+- Plise Perde Malzemeleri Nelerdir?: https://pliseperde.com/plise-perde-malzemeleri-nelerdir/
+- Plise Perde Mekanizması Nasıl Çalışır?: https://pliseperde.com/plise-perde-mekanizmasi-nasil-calisir/
+- Plise Perde Kumaşı Nasıl Seçilir?: https://pliseperde.com/plise-perde-kumasi-nasil-secilir/
+- Plise Perde İpi Nasıl Değiştirilir?: https://pliseperde.com/plise-perde-ipi-nasil-degistirilir/
+
+---
+
+## YASAL SAYFALAR
+
+### Sözleşmelerimiz
+- Sözleşmelerimiz (Çatı): https://pliseperde.com/sozlesmelerimiz/
+- Üyelik Sözleşmesi: https://pliseperde.com/uyelik-sozlesmesi/
+- Mesafeli Satış Sözleşmesi: https://pliseperde.com/mesafeli-satis-sozlesmesi/
+- Ön Bilgilendirme Formu: https://pliseperde.com/on-bilgilendirme-formu/
+- Sipariş ve Özel Üretim Şartları: https://pliseperde.com/siparis-ve-ozel-uretim-sartlari/
+- Ölçü Alma Bilgilendirmesi: https://pliseperde.com/olcu-alma-bilgilendirmesi/
+- Montaj ve Uygulama Şartları: https://pliseperde.com/montaj-ve-uygulama-sartlari/
+- Kullanım Koşulları: https://pliseperde.com/kullanim-kosullari/
+
+### Politikalarımız
+- Politikalarımız (Çatı): https://pliseperde.com/politikalarimiz/
+- Gizlilik Politikası: https://pliseperde.com/gizlilik-politikasi/
+- KVKK Aydınlatma Metni: https://pliseperde.com/kvkk-aydinlatma-metni/
+- Çerez Politikası: https://pliseperde.com/cerez-politikasi/
+- Açık Rıza Metni: https://pliseperde.com/acik-riza-metni/
+- İade, Değişim ve Cayma Hakkı: https://pliseperde.com/iade-degisim-ve-cayma-hakki/
+- Yurt Dışı Teslimat ve Gümrük: https://pliseperde.com/yurt-disi-teslimat-ve-gumruk/
+- Ödeme ve Taksit Seçenekleri: https://pliseperde.com/odeme-ve-taksit-secenekleri/
+- Banka ve Havale Bilgileri: https://pliseperde.com/banka-ve-havale-bilgileri/
+- Garanti ve Satış Sonrası Destek: https://pliseperde.com/garanti-ve-satis-sonrasi-destek/
+- Satıcı Bilgileri: https://pliseperde.com/satici-bilgileri/
+- Ticari Elektronik İleti Onayı: https://pliseperde.com/ticari-elektronik-ileri-onayi/
+- Teslimat ve Kargo: https://pliseperde.com/teslimat-ve-kargo/
+- İade ve Değişim: https://pliseperde.com/iade-ve-degisim/
+
+---
+
+## İLETİŞİM
+
+- İletişim Sayfası: https://pliseperde.com/iletisim/
+- Telefon/WhatsApp: +90 540 336 38 73
+- E-Posta: info@pliseperde.com
+- Adres: Esenyalı Mah. Edebali Cad. No:13/C 34903 Pendik / İstanbul
+- Çalışma Saatleri: Pazartesi-Cumartesi 08:00-18:00
+- İletişim Formu: Ad, Telefon, E-Posta, Mesaj alanları
+- Sosyal Medya: Facebook, Instagram, YouTube, Pinterest, LinkedIn
 
 ---
 
