@@ -10,6 +10,10 @@ export function organizationSchema() {
     url: siteConfig.url,
     logo: `${siteConfig.url}/logo.webp`,
     foundingDate: String(siteConfig.foundedYear),
+    founder: {
+      "@type": "Person",
+      name: "Plise Perde",
+    },
     knowsAbout: [
       "plise perde üretimi",
       "honeycomb perde",
@@ -28,6 +32,16 @@ export function organizationSchema() {
       contactType: "customer service",
       areaServed: "TR",
       availableLanguage: "Turkish",
+    },
+    numberOfEmployees: {
+      "@type": "QuantitativeValue",
+      value: "15",
+      unitText: "employees",
+    },
+    productionVolume: {
+      "@type": "QuantitativeValue",
+      value: "56000",
+      unitText: "units per year",
     },
   };
 }

@@ -141,3 +141,6 @@ Sitemap: https://pliseperde.com/sitemap-videos.xml
 
 # --- llms.txt Referansı ---
 # AI asistanlar için içerik haritası: https://pliseperde.com/llms.txt
+
+# --- IndexNow ---
+# IndexNow key: https://pliseperde.com/indexnow-abba96238a336a6d70b7c6f2cd7408be.txt
