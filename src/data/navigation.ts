@@ -111,14 +111,6 @@ export const navItems: NavItem[] = [
     ],
   },
   {
-    label: "Çeşitlerimiz",
-    href: "/plise-perde-cesitleri",
-  },
-  {
-    label: "Özellikler",
-    href: "/plise-perde-ozellikleri",
-  },
-  {
     label: "Kullanım Alanları",
     href: "/plise-perde-kullanim-alanlari",
     groups: [
