@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Düet Perde — Karşılaştırma",
   description:
-    "Plise perde vs düet perde karşılaştırması. Duette perde, gece gündüz kumaş, ışık kontrolü, fiyat, montaj, temizlik. Hangisi sizin için uygun?",
+    "Plise perde ve düet perde arasındaki farklar: katman yapısı, aydınlatma çeşitliliği, fiyat performansı, montaj detayları, temizlik gereksinimleri ve dekoratif etki. Doğru seçim için detaylı analiz.",
   slug: "plise-perde-vs-duet-perde",
 });
 
@@ -12,15 +12,15 @@ export default function PliseVsDuetPage() {
   return (
     <PageTemplate
       title="Plise Perde vs Düet Perde"
-      description="Plise perde vs düet perde karşılaştırması. Işık kontrolü, fiyat, montaj, temizlik, dayanıklılık."
+      description="Plise perde ve düet perde karşılaştırması: katman yapısı, aydınlatma çeşitliliği, fiyat performansı, montaj, temizlik ve dekoratif etki."
       slug="plise-perde-vs-duet-perde"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Düet", url: "/plise-perde-vs-duet-perde" }]}
       h1="Plise Perde vs Düet Perde — Hangisi Daha İyi?"
-      intro="Plise perde ve düet perde, esnek ışık kontrolü sunan iki popüler pencere çözümüdür. Düet perde (aynı zamanda Duette perde olarak da bilinir), tek bir perdede iki farklı kumaş türünü birleştirir — genellikle tül ve blackout. Plise perde ise tek kumaş katmanını pile yaparak çalışır. Bu karşılaştırmada ışık kontrolü, fiyat, montaj, temizlik ve estetik açısından ikisini detaylıca inceleyeceğiz."
+      intro="Plise perde ile düet perde, esnek aydınlatma arayanların önündeki iki güçlü alternatiftir; ancak çalışma mantıkları kökten ayrılır. Düet perde (Duette perde olarak da bilinir), tek bir sistem içinde iki farklı kumaşı yan yana getirir — genellikle bir tarafta tül veya güneşlik, diğer tarafta blackout. Böylece gündüz ve gece ihtiyacını tek perdede çözer. Plise perde ise yalnızca tek kumaş katmanını pile yaparak çalışır ve daha sade bir mekanizmaya sahiptir. Bu yazıda katman yapısı, aydınlatma çeşitliliği, fiyat performansı, montaj detayları, temizlik gereksinimleri ve dekoratif etki başlıklarını ele alacağız."
       schemaType="article"
       schemaData={{
         headline: "Plise Perde vs Düet Perde Karşılaştırması",
-        description: "Plise perde ve düet perde karşılaştırması — ışık kontrolü, fiyat, montaj, temizlik.",
+        description: "Plise perde ve düet perde karşılaştırması — katman yapısı, aydınlatma çeşitliliği, fiyat performansı, montaj ve temizlik.",
       }}
       beforeContent={
         <img
@@ -33,45 +33,45 @@ export default function PliseVsDuetPage() {
       }
       sections={[
         {
-          h2: "Çalışma Prensibi Farkı",
+          h2: "Katman Sayısı ve İşleyiş Biçimi",
           paragraphs: [
-            "Plise perde, <strong>tek kumaş katmanını</strong> ip mekanizması ile yukarı-aşağı hareket ettirir. Kumaş pile katlı yapısıyla katlanır. Tek bir kumaş türü kullanılır — tül, güneşlik, yarı karartma veya blackout.",
-            "Düet perde (Duette perde), <strong>iki farklı kumaş türünü</strong> tek bir perde sisteminde birleştirir. Üst kısımda tül veya güneşlik, alt kısımda blackout kumaş bulunur. Perdeyi hangi konumda açtığınıza bağlı olarak <u>farklı ışık seviyeleri</u> elde edersiniz — gündüz modu (tül), gece modu (blackout) veya yarı aydınlık mod.",
+            "Plise perde, <strong>tek bir kumaş katmanını</strong> ip mekanizmasıyla dikey eksende hareket ettirir. Pile katlı yapısı sayesinde kumaş akordiyon gibi katlanır ve yalnızca bir kumaş türü kullanılır — tül, güneşlik, yarı karartma veya blackout.",
+            "Düet perde ise <strong>iki farklı kumaşı tek profil içinde bir araya getirir</strong>. Üst bölgede tül veya güneşlik, alt bölgede blackout kumaş yer alır. Perdeyi hangi konuma çektiğinize bağlı olarak <u>aydınlık, yarı aydınlık ve tam karanlık</u> olmak üzere üç farklı mod elde edersiniz.",
           ],
           table: {
             headers: ["Özellik", "Plise Perde", "Düet Perde"],
             rows: [
-              ["Kumaş katmanı", "Tek", "Çift (tül + blackout)"],
-              ["Işık modu", "Tek seviye", "Gece/gündüz (iki mod)"],
-              ["Açılma yönü", "Üstten + alttan", "Üstten + alttan"],
-              ["Tam karartma", "Blackout kumaş ile", "Blackout katman ile"],
-              ["Gündüz ışık", "Tül kumaş ile", "Tül katman ile"],
-              ["Kalınlık", "İnce", "Daha kalın (iki kumaş)"],
+              ["Kumaş katmanı", "Tek katman", "Çift katman (tül + blackout)"],
+              ["Aydınlatma modu", "Tek seviye", "Gece ve gündüz (iki mod)"],
+              ["Açılım ekseni", "Üstten + alttan", "Üstten + alttan"],
+              ["Karartma", "Blackout kumaş ile", "Blackout katmanı ile"],
+              ["Gündüz ışık", "Tül kumaş ile", "Tül katmanı ile"],
+              ["Profil kalınlığı", "İnce", "Daha kalın (çift kumaş)"],
             ],
           },
         },
         {
-          h2: "Işık Kontrolü ve Esneklik",
+          h2: "Aydınlatma Çeşitliliği ve Kullanım Rahatlığı",
           paragraphs: [
-            "Düet perde, <strong>gece ve gündüz modlarını</strong> tek perdede sunarak en esnek ışık kontrolünü sağlar. Gündüz tül katmanını kullanarak maksimum ışık alır, gece blackout katmanını indirerek tam karanlık sağlarsınız. Ayrı tül ve blackout perde almaya gerek yoktur.",
-            "Plise perde ise tek kumaş türü kullanır. Tam karartma istiyorsanız blackout plise perde seçersiniz, ama gündüz maksimum ışık alamazsınız. Tül isterseniz gündüz ışık alır ama gece tam karanlık olmaz. <em>Düet perde bu ikisini tek perdede çözer.</em>",
+            "Düet perde, <strong>gece ve gündüz modlarını tek üründe</strong> birleştirerek en geniş aydınlatma esnekliğini sunar. Gündüz tül katmanını öne çekerek maksimum ışık alır, gece blackout katmanını indirerek tam karanlık yaratırsınız; ayrı tül ve karartma perdesi almaya gerek kalmaz.",
+            "Plise perde ise tek kumaş türüyle çalışır. Blackout seçerseniz gündüz ışıktan feragat edersiniz, tül seçerseniz gece tam karanlık elde edemezsiniz. <em>Düet perde bu ikisini tek sistemde çözer</em>; ancak mekanizması daha fazla bileşen içerdiği için arıza riski bir miktar daha yüksektir.",
           ],
           list: {
             type: "ul",
             items: [
-              "Düet — gece modu (blackout) ve gündüz modu (tül) tek perdede",
-              "Plise — tek kumaş, tek ışık seviyesi",
-              "Düet — ara konumda yarı aydınlık mod",
+              "Düet — gece (blackout) ve gündüz (tül) tek perdede",
+              "Plise — tek kumaş, tek aydınlatma seviyesi",
+              "Düet — ara konumda yarı aydınlık mod mümkün",
               "Plise — blackout seçilirse gündüz ışık azalır",
-              "Düet — ayrı tül ve blackout perde almaya gerek yok",
-              "Plise — daha basit mekanizma, daha az arıza riski",
+              "Düet — ayrı tül ve karartma perdesi gerektirmez",
+              "Plise — daha az bileşen, daha düşük arıza riski",
             ],
           },
         },
         {
-          h2: "Fiyat Karşılaştırması",
+          h2: "Fiyat Performans Analizi",
           paragraphs: [
-            "Plise perde <strong>genelde daha ekonomiktir</strong>. Düet perde (Duette perde), iki farklı kumaşı tek sistemde birleştirdiği için daha maliyetlidir. <em>M² bazında plise 450-3500 TL</em>, düet perde 900-5000 TL aralığında fiyatlanır.",
+            "Plise perde <strong>bütçe açısından daha erişililirdir</strong>. Düet perde, iki farklı kumaşı tek profil içinde birleştirdiği için üretim maliyeti yüksektir. <em>Metrekare bazında plise perde 450-3500 TL</em>, düet perde ise 900-5000 TL aralığında fiyatlanır.",
           ],
           table: {
             headers: ["Model", "Plise Perde", "Düet Perde"],
@@ -81,84 +81,84 @@ export default function PliseVsDuetPage() {
               ["Karartma", "700-1400 TL", "—"],
               ["Premium gece/gündüz", "—", "1500-3500 TL"],
               ["Motorlu", "1800-3500 TL", "2500-5000 TL"],
-              ["Montaj", "100-300 TL", "150-350 TL"],
+              ["Montaj ücreti", "100-300 TL", "150-350 TL"],
             ],
           },
         },
         {
-          h2: "Montaj ve Temizlik",
+          h2: "Montaj Detayları ve Temizlik Gereksinimleri",
           paragraphs: [
-            "Montaj açısından <strong>ikisi de benzer</strong>. Vidalı, yapışkanlı ve kancalı montaj tipleri her ikisinde de mevcuttur. Düet perde, iki kumaş katmanı nedeniyle profil daha geniştir.",
+            "Montaj yöntemi açısından <strong>iki sistem de benzer</strong> — vidalı, yapışkanlı ve kancalı montaj tipleri her ikisinde de mevcuttur. Düet perde, çift kumaş katmanı nedeniyle profili daha geniştir ve pencere kasasında daha fazla derinlik ister.",
           ],
           list: {
             type: "ol",
             items: [
-              "Plise — tek kumaş, nemli bez ile silinir",
-              "Düet — çift kumaş, katman araları temizliği zor",
-              "Plise — daha ince profil, pencerede az yer kaplar",
-              "Düet — daha kalın profil, pencere derinliği gerekir",
-              "Plise — kumaş çıkarılması kolay",
-              "Düet — kumaş çıkarılması daha kompleks",
+              "Plise — tek kumaş, nemli bezle silinir",
+              "Düet — çift kumaş, katman araları temizliği zordur",
+              "Plise — ince profil, pencerede az yer kaplar",
+              "Düet — kalın profil, yeterli kasa derinliği gerekir",
+              "Plise — kumaş çıkarılması kolaydır",
+              "Düet — kumaş çıkarılması daha fazla adım ister",
             ],
           },
         },
         {
-          h2: "Estetik ve Görünüm",
+          h2: "Görüntü Profili ve Dekoratif Etki",
           paragraphs: [
-            "Plise perde <strong>daha ince ve hafif</strong> görünüm sunar. Tek kumaş katmanı pencere içinde neredeyse görünmez. Düet perde ise iki kumaş katmanı nedeniyle daha dolu görünür, ancak <em>gece ve gündüz kumaşlarının kontrastı</em> dekoratif bir etki yaratabilir.",
+            "Plise perde <strong>ince ve hafif</strong> bir görüntü verir. Tek kumaş katmanı pencere kasası içinde neredeyse kaybolur ve minimal bir etki yaratır. Düet perde ise iki katmanlı yapısıyla daha dolu durur; ancak <em>tül ve blackout kumaşların kontrastı</em> pencereye dekoratif bir derinlik katabilir.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise — ince, hafif, minimalist görünüm",
-              "Düet — daha dolu, katmanlı görünüm",
-              "Plise — tek renk, tek doku",
-              "Düet — iki farklı kumaş rengi/dokusu kombinasyonu",
-              "Plise — küçük pencerelerde daha uygun",
-              "Düet — büyük pencerelerde etkileyici",
+              "Plise — ince, hafif, minimal etki",
+              "Düet — dolu, katmanlı görünüm",
+              "Plise — tek renk ve tek doku",
+              "Düet — iki farklı kumaş rengi ve dokusu kombinasyonu",
+              "Plise — küçük pencerelerde uyumlu",
+              "Düet — geniş pencerelerde görsel etki güçlü",
             ],
           },
         },
         {
-          h2: "Hangisini Seçmelisiniz?",
+          h2: "Karar Aşamasında Dikkat Edilecekler",
           paragraphs: [
-            "Plise perde <strong>ekonomik fiyat ve ince görünüm</strong> isteyenler için idealdir. Düet perde (Duette perde) <em>hem gece hem gündüz tek perdede</em> çözüm arayanlar için en doğru seçimdir.",
+            "Plise perde <strong>ekonomik fiyat ve ince profil</strong> isteyenler için mantıklıdır. Düet perde (Duette perde) <em>hem gece hem gündüz ihtiyacını tek perdede</em> çözmek isteyenler için en doğru yatırımdır.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise seçin — ekonomik fiyat",
-              "Plise seçin — ince, hafif görünüm",
-              "Plise seçin — tek ışık seviyesi yeterliyse",
-              "Plise seçin — küçük pencereler",
-              "Düet seçin — gece/gündüz tek perdede",
-              "Düet seçin — ayrı tül + blackout almaktan kaçının",
-              "Düet seçin — esnek ışık kontrolü öncelikli",
-              "Düet seçin — büyük pencereler",
+              "Plise — bütçe öncelikliyse",
+              "Plise — ince ve hafif görünüm isteniyorsa",
+              "Plise — tek aydınlatma seviyesi yeterliyse",
+              "Plise — küçük pencere ölçülerinde",
+              "Düet — gece ve gündüz tek perdede isteniyorsa",
+              "Düet — ayrı tül ve karartma almaktan kaçınılıyorsa",
+              "Düet — esnek aydınlatma öncelikliyse",
+              "Düet — geniş pencere yüzeylerinde",
             ],
           },
         },
       ]}
       faqItems={[
         {
-          question: "Plise perde mi düet perde mi daha iyi?",
-          answer: "Hem gece hem gündüz tek perdede çözmek istiyorsanız düet perde (Duette perde) tercih edin. Ekonomik fiyat ve ince görünüm istiyorsanız plise perde daha uygundur. Düet perde, ayrı tül ve blackout perde almaya gerek bırakmaz.",
+          question: "Plise perde mi düet perde mi daha avantajlı?",
+          answer: "Hem gece hem gündüz ihtiyacını tek perdede çözmek istiyorsanız düet perde (Duette perde) daha avantajlıdır. Ekonomik fiyat ve ince görünüm öncelikliyse plise perde daha uygundur. Düet perde, ayrı tül ve karartma perdesi almayı ortadan kaldırır.",
         },
         {
-          question: "Düet perde nedir?",
-          answer: "Düet perde (Duette perde), tek bir perde sisteminde iki farklı kumaş türünü birleştiren perdedir. Üst kısımda tül veya güneşlik, alt kısımda blackout kumaş bulunur. Perdeyi açtığınız konuma göre gündüz modu (tül), gece modu (blackout) veya yarı aydınlık mod elde edersiniz.",
+          question: "Düet perde nedir ve nasıl çalışır?",
+          answer: "Düet perde (Duette perde), tek profil içinde iki farklı kumaşı birleştiren sistemdir. Üst bölgede tül veya güneşlik, alt bölgede blackout kumaş bulunur. Perdeyi çektiğiniz konuma göre gündüz modu (tül), gece modu (blackout) veya yarı aydınlık mod elde edersiniz.",
         },
         {
-          question: "Hangisi daha ucuz?",
-          answer: "Plise perde genelde daha ekonomiktir. M² bazında plise 450-3500 TL, düet perde 900-5000 TL aralığında. Düet perde, iki kumaşı tek sistemde birleştirdiği için daha maliyetlidir.",
+          question: "İki sistem arasında maliyet farkı ne kadar?",
+          answer: "Plise perde genelde daha ekonomiktir. Metrekare bazında plise perde 450-3500 TL, düet perde 900-5000 TL aralığında fiyatlanır. Düet perde, iki kumaşı tek sistemde birleştirdiği için maliyeti daha yüksektir.",
         },
         {
-          question: "Düet perde tam karartma yapar mı?",
-          answer: "Evet, düet perdenin blackout katmanı tam karartma sağlar. Gece moduna geçtiğinizde blackout kumaş pencereyi örter ve ışığın %99'unu keser. Gündüz modunda ise tül katman ile maksimum ışık alırsınız.",
+          question: "Düet perde tam karartma yapabilir mi?",
+          answer: "Evet. Düet perdenin blackout katmanı tam karartma sağlar; gece moduna geçtiğinizde blackout kumaş pencereyi örter ve ışığın yaklaşık %99'unu keser. Gündüz modunda ise tül katmanıyla maksimum ışık alırsınız.",
         },
         {
-          question: "Hangisi daha kolay temizlenir?",
-          answer: "Plise perde daha kolay temizlenir. Tek kumaş katmanı nemli bez ile silinir. Düet perdede iki kumaş katmanı ve katman araları temizliği daha zordur.",
+          question: "Temizlik açısından hangisi daha pratik?",
+          answer: "Plise perde daha pratiktir. Tek kumaş katmanı nemli bezle silinerek temizlenir. Düet perdede ise iki kumaş katmanı ve aralarındaki boşluk temizliği daha fazla efor gerektirir.",
         },
       ]}
     />

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Dikey Perde — Karşılaştırma",
   description:
-    "Plise perde vs dikey perde karşılaştırması. Dikey lamel, geniş pencere, kaydırma, ışık kontrolü, fiyat, montaj, temizlik. Hangisi sizin için uygun?",
+    "Plise perde ve dikey perde arasındaki farklar: sistem mimarisi, pencere uyumu, güneş açısı yönetimi, maliyet, montaj, temizlik ve görsel dil. Doğru tercih için detaylı analiz.",
   slug: "plise-perde-vs-dikey-perde",
 });
 
@@ -12,15 +12,15 @@ export default function PliseVsDikeyPage() {
   return (
     <PageTemplate
       title="Plise Perde vs Dikey Perde"
-      description="Plise perde vs dikey perde karşılaştırması. Işık kontrolü, geniş pencere, fiyat, montaj, temizlik."
+      description="Plise perde ve dikey perde karşılaştırması: sistem mimarisi, pencere uyumu, ışık yönetimi, maliyet, montaj, temizlik ve görsel dil."
       slug="plise-perde-vs-dikey-perde"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Dikey", url: "/plise-perde-vs-dikey-perde" }]}
       h1="Plise Perde vs Dikey Perde — Hangisi Daha İyi?"
-      intro="Plise perde ve dikey perde, farklı pencere tipleri için optimize edilmiş iki çözümdür. Dikey perde, dikey lamelleri yana kaydırarak ve döndürerek ışık kontrolü sağlar — özellikle geniş pencereler ve cam balkonlar için uygundur. Plise perde ise pile katlı kumaşı yukarı-aşağı hareket ettirerek esnek ışık kontrolü sunar. Bu karşılaştırmada çalışma prensibi, pencere tipi uyumu, ışık kontrolü, fiyat ve montaj açısından ikisini detaylıca inceleyeceğiz."
+      intro="Plise perde ile dikey perde, birbirinden tamamen farklı iki mühendislik yaklaşımının ürünüdür. Dikey perde, yanlara kayarak açılan ve 180 derece dönebilen lamelleriyle geniş cam yüzeyleri, cam balkonlar ve yüksek tavanlı mekanlar için tasarlanmıştır. Plise perde ise pile katlanan kumaşı dikey eksende hareket ettirerek standart ev pencerelerinde esnek bir aydınlatma kontrolü sunar. Bu karşılaştırmada sistem mimarisi, pencere uyumu, güneş açısı yönetimi, maliyet etkileri, montaj prosedürü, temizlik adımları ve görsel dil başlıklarını inceleyeceğiz."
       schemaType="article"
       schemaData={{
         headline: "Plise Perde vs Dikey Perde Karşılaştırması",
-        description: "Plise perde ve dikey perde karşılaştırması — pencere tipi, ışık kontrolü, fiyat, montaj.",
+        description: "Plise perde ve dikey perde karşılaştırması — sistem mimarisi, pencere uyumu, ışık yönetimi, maliyet, montaj ve görsel dil.",
       }}
       beforeContent={
         <img
@@ -33,63 +33,63 @@ export default function PliseVsDikeyPage() {
       }
       sections={[
         {
-          h2: "Çalışma Prensibi Farkı",
+          h2: "Sistem Mimarisi ve Açılım Mantığı",
           paragraphs: [
-            "Plise perde, <strong>kumaşı pile katlayarak</strong> yukarı-aşağı hareket ettirir. İp mekanizması ile kumaş istenen yükseklikte durur. Pencere içine monte edilir.",
-            "Dikey perde, <strong>dikey lamelleri yana kaydırarak</strong> ve 180° döndürerek çalışır. Lameller bir ray sistemi üzerinde yana toplanır ve döndürme mekanizması ile ışık açısı ayarlanır. Geniş pencereler ve yüksek pencereler için optimize edilmiştir.",
+            "Plise perde, <strong>akordiyon biçiminde katlanan</strong> tek parça kumaşı bir ip mekanizmasıyla dikey yönde hareket ettirir. Kumaş pencere kasası içine monte edilen alüminyum profil içinde çalışır ve istenilen yükseklikte sabitlenir.",
+            "Dikey perde, <strong>bir ray hattı üzerinde süzülen bağımsız lamellerden</strong> oluşur. Lameller yana kayarak pencereyi serbest bırakır ve 180 derece döndürülerek ışığın geliş yönü hassas biçimde ayarlanır. Sistem tavan veya korniş üzerine monte edilir ve geniş cam yüzeyleri için optimize edilmiştir.",
           ],
           table: {
             headers: ["Özellik", "Plise Perde", "Dikey Perde"],
             rows: [
-              ["Mekanizma", "İp ile yukarı-aşağı", "Ray ile yana + döndürme"],
-              ["Açılma yönü", "Üstten + alttan", "Yana kaydırma"],
-              ["Işık ayarı", "Kademeli (yükseklik)", "Lamel açısı (yatay)"],
-              ["Pencere tipi", "Tüm pencere tipleri", "Geniş ve yüksek pencereler"],
-              ["Montaj konumu", "Pencere içi", "Tavan/korniş (pencere üstü)"],
-              ["Tam karartma", "Blackout kumaş ile", "Blackout lamel ile"],
+              ["Kumanda biçimi", "İp ile dikey hareket", "Ray ile yana kayma + döndürme"],
+              ["Açılım yönü", "Üstten ve alttan", "Yana toplanma"],
+              ["Işık ayar yöntemi", "Kademeli yükseklik", "Lamel dönme açısı"],
+              ["Uygun pencere", "Her boyut", "Geniş ve yüksek yüzeyler"],
+              ["Montaj konumu", "Pencere kasası içi", "Tavan veya korniş üstü"],
+              ["Karartma", "Blackout kumaş ile", "Blackout lamel ile"],
             ],
           },
         },
         {
-          h2: "Pencere Tipi Uyumu",
+          h2: "Pencere Boyutlarına Göre Uyumluluk",
           paragraphs: [
-            "Dikey perde <strong>geniş ve yüksek pencereler</strong> için en uygun sistemdir. Sürme cam balkon kapıları, geniş vitrinler, ofis pencereleri ve yüksek tavanlı mekanlarda dikey lameller yana kayarak pencereyi tam açar. Plise perde ise <em>her pencere tipine</em> uyum sağlar — küçük mutfak penceresinden büyük salon penceresine kadar.",
-            "Ancak çok geniş pencerelerde (3m+) plise perde kumaş ağırlığı nedeniyle zorlanabilir. Dikey perde, geniş pencerede lamel ray sistemi ile daha akıcı çalışır.",
+            "Dikey perde, <strong>geniş cam yüzeyler ve sürme kapı sistemleri</strong> için en verimli çözümdür. Lamel rayı yana kayarak 3 metreyi aşan vitrinleri, cam balkon kapılarını ve yüksek tavanlı ofis pencerelerini tamamen açığa çıkarır. Plise perde ise <em>küçük mutfak penceresinden geniş salon camına</em> kadar her ölçeye uyum sağlar.",
+            "Yine de çok geniş pencerelerde (3 metreden fazla) plise kumaşın ağırlığı mekanizmayı zorlayabilir. Dikey perde, lamel ray sistemi sayesinde geniş yüzeylerde daha akıcı ve sorunsuz çalışır.",
           ],
           list: {
             type: "ul",
             items: [
-              "Dikey — geniş pencereler (3m+) için ideal",
-              "Plise — tüm pencere tiplerine uyumlu",
-              "Dikey — sürme kapı ve cam balkon için uygun",
-              "Plise — küçük ve orta pencerelerde daha pratik",
-              "Dikey — yüksek tavanlı mekanlar için",
-              "Plise — standart ev pencereleri için optimal",
+              "Dikey — 3 metreyi aşan geniş camlar için ideal",
+              "Plise — her pencere ölçüsüne esnek uyum",
+              "Dikey — sürme kapı ve cam balkonlara uygun",
+              "Plise — orta ve küçük pencerelerde pratik",
+              "Dikey — yüksek tavanlı mekanlarda avantajlı",
+              "Plise — standart konut pencerelerinde optimal",
             ],
           },
         },
         {
-          h2: "Işık Kontrolü",
+          h2: "Güneş Açısı ve Aydınlık Yönetimi",
           paragraphs: [
-            "Dikey perde <strong>lamel açısı ile hassas ışık yönü kontrolü</strong> sağlar. Lamelleri 180° döndürerek ışığın yönünü ve miktarını ayarlayabilirsiniz. Lameller kapalıyken ışığı kesmeden gizlilik elde edebilirsiniz.",
-            "Plise perde ise <strong>kademeli yükseklik kontrolü</strong> sağlar. Kumaşı istediğiniz yükseklikte durdurarak ışık miktarını ayarlarsınız. Üstten açık alttan kapalı yapabilirsiniz, ancak ışığın <u>yönünü</u> kontrol edemezsiniz.",
+            "Dikey perde, <strong>lamel dönme açısıyla ışığın yönünü</strong> hassas şekilde yönetir. Lamelleri istediğiniz açıda tutarak güneş ışığını bir yöne yönlendirebilir, tamamen kapalı konumda ışığı kesmeden dış görünüşü engelleyebilirsiniz.",
+            "Plise perde ise <strong>kademeli yükseklik ayarıyla ışık miktarını</strong> belirler. Kumaşı istediğiniz seviyede bırakarak üstten ışık alıp altı kapatabilirsiniz; ancak ışığın <u>yönünü</u> değiştirme imkanınız yoktur. Tam karartma gerektiğinde blackout kumaş sıfır ışık sağlar.",
           ],
           list: {
             type: "ul",
             items: [
-              "Dikey — lamel açısı ile ışık yönü ayarlanır",
-              "Plise — kademeli yükseklik ile ışık miktarı ayarlanır",
-              "Dikey — lamel kapalıyken gizlilik + ışık",
-              "Plise — tam karartmada sıfır ışık",
-              "Dikey — yana tam açma ile pencereyi serbest bırakır",
-              "Plise — üstten/alttan bağımsız açılım",
+              "Dikey — lamel açısıyla ışık yönü hassas ayarlanır",
+              "Plise — yükseklik kademeleriyle ışık miktarı belirlenir",
+              "Dikey — lameller kapalıyken ışık + mahremiyet birlikte",
+              "Plise — blackout ile sıfır ışık mümkün",
+              "Dikey — yana tam açılımda cam yüzeyi serbest bırakır",
+              "Plise — üst ve alt kenar bağımsız konumlanır",
             ],
           },
         },
         {
-          h2: "Fiyat Karşılaştırması",
+          h2: "Maliyet Etkileri ve Fiyat Aralıkları",
           paragraphs: [
-            "Fiyat açısından <strong>ikisi de yakındır</strong>. Dikey perde, lamel ve ray sistemi nedeniyle m² bazında benzer maliyettedir. <em>M² bazında plise 450-3500 TL</em>, dikey perde 400-3000 TL aralığında.",
+            "İki sistem fiyat açısından <strong>birbirine yakın</strong> seyreder. Dikey perde, lamel ve ray bileşenleri nedeniyle metrekare bazında plise perdeyle benzer bir maliyet çıkarır. <em>Plise perde 450-3500 TL</em>, dikey perde ise 400-3000 TL bandında fiyatlanır.",
           ],
           table: {
             headers: ["Model", "Plise Perde", "Dikey Perde"],
@@ -98,84 +98,84 @@ export default function PliseVsDikeyPage() {
               ["Karartma", "700-1400 TL", "600-1200 TL"],
               ["Premium", "1200-3500 TL", "1000-3000 TL"],
               ["Motorlu", "1800-3500 TL", "1500-3500 TL"],
-              ["Montaj", "100-300 TL", "150-400 TL"],
+              ["Montaj ücreti", "100-300 TL", "150-400 TL"],
             ],
           },
         },
         {
-          h2: "Montaj ve Temizlik",
+          h2: "Montaj Prosedürü ve Temizlik Adımları",
           paragraphs: [
-            "Plise perde montajı <strong>daha basittir</strong> — pencere içine takılır, DIY mümkündür. Dikey perde ise tavan veya korniş üzerine monte edilir, ray sistemi kurulumu daha teknik gerektirir.",
+            "Plise perde montajı <strong>görece basittir</strong> — pencere kasasına vidalı veya yapışkanlı profil takılır, kumaş mekanizmaya yerleştirilir; evde kendi başınıza kurabilirsiniz. Dikey perde ise tavan veya korniş montajı gerektirir, ray sisteminin hizalanması teknik dikkat ister.",
           ],
           list: {
             type: "ol",
             items: [
-              "Plise — pencere içi montaj, DIY mümkün",
+              "Plise — pencere içi profil montajı, evde kurulabilir",
               "Dikey — tavan/korniş montajı, profesyonel önerilir",
-              "Plise — pile kumaş, nemli bez ile silinir",
-              "Dikey — her lamel tek tek silinmelidir",
-              "Plise — kumaş çıkarılabilir",
-              "Dikey — lameller çıkarılabilir, tek tek yıkanabilir",
+              "Plise — pile kumaş nemli bezle silinir",
+              "Dikey — her lamel tek tek silmeyi gerektirir",
+              "Plise — kumaş profilden çıkarılabilir",
+              "Dikey — lameller çıkarılıp tek tek temizlenir",
             ],
           },
         },
         {
-          h2: "Estetik ve Görünüm",
+          h2: "Görsel Dil ve Mekan Karakteri",
           paragraphs: [
-            "Plise perde <strong>pile katlı, yumuşak doku</strong> sunar. Pencere içinde gizli çalışır, modern ve minimalist görünür. Dikey perde ise <em>dikey lamelleri</em> ile daha geometrik ve endüstriyel bir estetik verir. Ofis ve ticari mekanlarda yaygın tercih edilir.",
+            "Plise perde <strong>yumuşak pile dokusuyla</strong> sıcak ve evcil bir hava katar. Pencere kasası içinde gizli çalıştığı için modern ve sade bir görünüm verir. Dikey perde ise <em>dikey lamelleriyle</em> daha geometrik ve endüstriyel bir karakter taşır; ofis ve ticari mekanlarda yaygın tercih edilir.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise — pile katlı, yumuşak, sıcak görünüm",
-              "Dikey — geometrik lameller, modern/endüstriyel",
-              "Plise — ev ve konut için uygun",
-              "Dikey — ofis, ticari mekan, cam balkon için",
-              "Plise — pencere içinde gizli",
-              "Dikey — pencere önünde belirgin",
+              "Plise — pile katlı, yumuşak, sıcak doku",
+              "Dikey — geometrik lameller, modern-endüstriyel hava",
+              "Plise — konut ve ev ortamına uygun",
+              "Dikey — ofis, ticari mekan, cam balkona uygun",
+              "Plise — pencere içinde gizli, göze çarpmaz",
+              "Dikey — pencere önünde belirgin ve etkili",
             ],
           },
         },
         {
-          h2: "Hangisini Seçmelisiniz?",
+          h2: "Doğru Tercih İçin Kriterler",
           paragraphs: [
-            "Plise perde <strong>ev ve konut için esnek ışık kontrolü</strong> isteyenler için idealdir. Dikey perde <em>geniş pencere, ofis ve cam balkon</em> için daha uygun.",
+            "Plise perde <strong>konutlarda esnek aydınlatma ve sade estetik</strong> isteyenler için idealdir. Dikey perde <em>geniş cam yüzeyi, ofis ortamı ve cam balkon</em> ihtiyaçlarında daha doğru bir çözümdür.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise seçin — ev, konut, standart pencereler",
-              "Plise seçin — pile estetiği, yumuşak görünüm",
-              "Plise seçin — üstten/alttan bağımsız açılım",
-              "Plise seçin — kolay montaj, DIY",
-              "Dikey seçin — geniş pencere (3m+)",
-              "Dikey seçin — ofis, ticari mekan",
-              "Dikey seçin — cam balkon, sürme kapı",
-              "Dikey seçin — lamel açısı ile ışık yönü kontrolü",
+              "Plise — ev, konut, standart pencereler için",
+              "Plise — pile estetiği ve yumuşak görünüm için",
+              "Plise — üstten/alttan bağımsız açılım için",
+              "Plise — kolay montaj, evde kurulum için",
+              "Dikey — geniş cam yüzeyi (3m+) için",
+              "Dikey — ofis ve ticari mekan için",
+              "Dikey — cam balkon ve sürme kapı için",
+              "Dikey — lamel açısıyla ışık yönü kontrolü için",
             ],
           },
         },
       ]}
       faqItems={[
         {
-          question: "Plise perde mi dikey perde mi daha iyi?",
-          answer: "Ev ve konutlarda standart pencereler için plise perde daha uygun. Geniş pencereler, ofis ve cam balkonlar için dikey perde daha iyi. Plise perde üstten/alttan bağımsız açılım sunar, dikey perde lamel açısı ile ışık yönünü kontrol eder.",
+          question: "Plise perde mi dikey perde mi daha avantajlı?",
+          answer: "Standart konut pencerelerinde esnek aydınlatma ve sade görünüm istiyorsanız plise perde daha avantajlıdır. Geniş cam yüzeyleri, ofis ortamı veya cam balkon için dikey perde daha doğru seçimdir. Plise perde üstten/alttan bağımsız açılım sunarken dikey perde lamel açısıyla ışık yönünü kontrol eder.",
         },
         {
-          question: "Dikey perde geniş pencere için uygun mu?",
-          answer: "Evet, dikey perde geniş pencereler (3m+) için en uygun sistemdir. Lamel ray sistemi yana kayarak geniş pencereyi tam açar. Sürme cam balkon kapıları ve yüksek tavanlı mekanlar için ideal.",
+          question: "Dikey perde geniş pencereler için uygun mudur?",
+          answer: "Evet. Dikey perde 3 metreyi aşan geniş camlar için en uygun sistemdir. Lamel rayı yana kayarak geniş yüzeyi tamamen açığa çıkarır; sürme cam balkon kapıları ve yüksek tavanlı mekanlar için ideal bir çözümdür.",
         },
         {
-          question: "Hangisi daha ucuz?",
-          answer: "Fiyatlar yakındır. M² bazında plise 450-3500 TL, dikey perde 400-3000 TL aralığında. Dikey perde standart modellerde biraz daha ekonomik olabilir.",
+          question: "İki sistem arasında fiyat farkı var mı?",
+          answer: "Fiyatlar birbirine yakındır. Metrekare bazında plise perde 450-3500 TL, dikey perde 400-3000 TL aralığında fiyatlanır. Standart modellerde dikey perde hafif daha ekonomik olabilir.",
         },
         {
-          question: "Hangisi daha iyi ışık kontrolü sağlar?",
-          answer: "Ihtiyaca göre değişir. Işığın yönünü kontrol etmek istiyorsanız dikey perde lamel açısı ile daha hassastır. Işık miktarını kademeli ayarlamak ve üstten/alttan bağımsız açmak istiyorsanız plise perde daha esnek.",
+          question: "Işık kontrolü açısından hangisi daha başarılı?",
+          answer: "Ihtiyaca göre değişir. Işığın yönünü yönetmek istiyorsanız dikey perdenin lamel dönme açısı daha hassastır. Işık miktarını kademeli ayarlamak ve üstten/alttan bağımsız açmak istiyorsanız plise perde daha esnek bir kullanım sunar.",
         },
         {
-          question: "Dikey perde evde kullanılır mı?",
-          answer: "Evet, kullanılabilir ancak daha çok ofis ve ticari mekanlarda tercih edilir. Evde geniş pencere veya cam balkon varsa dikey perde uygun olabilir. Standart ev pencereleri için plise perde daha pratik ve estetik.",
+          question: "Dikey perde evlerde kullanılabilir mi?",
+          answer: "Kullanılabilir ancak daha çok ofis ve ticari mekanlarda tercih edilir. Evde geniş pencere veya cam balkon varsa dikey perde uygun olabilir. Standart ev pencereleri için plise perde hem daha pratik hem de estetik açıdan daha uyumludur.",
         },
       ]}
     />

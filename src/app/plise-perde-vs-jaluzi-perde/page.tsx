@@ -12,11 +12,11 @@ export default function PliseVsJaluziPage() {
   return (
     <PageTemplate
       title="Plise Perde vs Jaluzi Perde"
-      description="Plise perde vs jaluzi perde karşılaştırması. Fiyat, ışık kontrolü, montaj, temizlik, dayanıklılık."
+      description="Plise perde ile alüminyum ve ahşap jaluzi perde arasındaki farklar: mekanizma, ışık yönlendirme, temizlik, nem dayanımı ve fiyat."
       slug="plise-perde-vs-jaluzi-perde"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Jaluzi", url: "/plise-perde-vs-jaluzi-perde" }]}
-      h1="Plise Perde vs Jaluzi Perde — Hangisi Daha İyi?"
-      intro="Plise perde ve jaluzi perde, iki farklı pencere çözümü sunar. Plise perde kumaş katmanını pile yaparak çalışır, jaluzi perde ise yatay veya dikey kanatları döndürerek ışık kontrolü sağlar. Jaluzi perde iki ana türe ayrılır: <strong>alüminyum jaluzi</strong> ve <strong>ahşap jaluzi</strong>. Alüminyum jaluzi hafif, dayanıklı ve ekonomiktir; ahşap jaluzi ise doğal sıcak görünüm sunar ama daha pahalıdır. Bu karşılaştırmada her iki sistemi fiyat, ışık kontrolü, montaj, temizlik ve estetik açısından inceleyeceğiz."
+      h1="Plise Perde vs Jaluzi Perde — Detaylı İnceleme"
+      intro="Plise perde, tek parça kumaşı akordion biçiminde katlayarak çalışır; jaluzi perde ise <strong>yatay lamellerin</strong> açı değiştirmesiyle ışık ve görünüş ayarlar. Jaluzi ailesi iki ana malzemeden üretilir: <em>alüminyum lamel</em> hafif, ekonomik ve nem dayanımlıdır; <u>ahşap lamel</u> ise doğal dokusuyla sıcak bir atmosfer yaratır ancak ıslak ortamlara uygun değildir. Bu sayfada her üç seçeneği de beş başlık altında karşılaştırıyoruz."
       schemaType="article"
       schemaData={{
         headline: "Plise Perde vs Jaluzi Perde Karşılaştırması",
@@ -33,30 +33,31 @@ export default function PliseVsJaluziPage() {
       }
       sections={[
         {
-          h2: "Çalışma Prensibi Farkı",
+          h2: "Kumaş Katmanı mı Döner Kanatlar mı?",
           paragraphs: [
-            "Plise perde, <strong>kumaşı pile katlayarak</strong> yukarı-aşağı hareket ettirir. <em>Yumuşak doku</em> ve estetik görünüm sunar. Jaluzi perde ise yatay veya dikey kanatları döndürerek ışık açısını ayarlar.",
-            "Jaluzi perde iki ana malzeme türünde üretilir: <strong>alüminyum jaluzi</strong> ve <strong>ahşap jaluzi</strong>. Alüminyum jaluzi, hafif yapısı ve geniş renk seçeneği ile en yaygın türdür. Ahşap jaluzi ise doğal doku ve sıcak görünüm sunar, ancak nemli ortamlarda (banyo, mutfak) kullanımı önerilmez.",
+            "Plise perdede ışık kontrolü, kumaşın <strong>kademeli olarak</strong> indirilip kaldırılmasıyla sağlanır. Kumaş ne kadar açıkta kalırsa o kadar ışık girer; tamamen kapatıldığında blackout seçeneğiyle sıfıra yakın karartma yapılır.",
+            "Jaluzi perdede ise <em>lamellerin eğimi</em> belirleyicidir. Kanatlar 180 derece döner; kapalı konumda ışığı büyük ölçüde keser, açık konumda ışığın yönünü değiştirerek oda içine yansıtır. Ahşap lameller daha kalın olduğu için kapalıyken ışık sızıntısı alüminyuma göre daha azdır.",
           ],
           table: {
             headers: ["Özellik", "Plise Perde", "Alüminyum Jaluzi", "Ahşap Jaluzi"],
             rows: [
-              ["Malzeme", "Polyester kumaş", "Alüminyum kanat", "Ahşap/bambu kanat"],
-              ["Işık kontrolü", "Kademeli açma", "Kanat açısı", "Kanat açısı"],
-              ["Görünüm", "Yumuşak, sıcak", "Modern, endüstriyel", "Doğal, sıcak"],
-              ["Tam karartma", "Mümkün (blackout)", "Sınırlı", "Sınırlı"],
-              ["Açılma yönü", "Üstten + alttan", "Yukarı toplama", "Yukarı toplama"],
+              ["Ana malzeme", "Polyester kumaş", "Alüminyum lamel", "Ahşap / bambu lamel"],
+              ["Işık ayar yöntemi", "Kademeli indirip kaldırma", "Lamel açısı değişimi", "Lamel açısı değişimi"],
+              ["Tam karartma", "Blackout kumaşla tam", "Lamel aralarından sızıntı", "Kalın lamel, daha az sızıntı"],
+              ["Çift yönlü açılım", "Var", "Yok", "Yok"],
               ["Nem dayanımı", "Yüksek", "Yüksek", "Düşük"],
+              ["Görsel karakter", "Yumuşak, katlı", "Endüstriyel, keskin", "Doğal, sıcak"],
             ],
           },
         },
         {
-          h2: "Fiyat Karşılaştırması",
+          h2: "Lamel Malzemesi ve Bütçe İlişkisi",
           paragraphs: [
-            "Plise perde <strong>genelde daha ekonomiktir</strong>. Jaluzi perde fiyatı, malzeme türüne göre değişir: <strong>alüminyum jaluzi</strong> daha uygun fiyatlı iken, <strong>ahşap jaluzi</strong> doğal malzeme nedeniyle daha pahalıdır. <em>Plise 450-3500 TL/m²</em>, alüminyum jaluzi 600-3000 TL/m², ahşap jaluzi 1500-5000 TL/m² aralığında.",
+            "Plise perde genellikle <strong>en ekonomik</strong> seçenektir. Jaluzi perdede fiyat, lamel malzemesine göre ciddi biçimde değişir: alüminyum uygun fiyatlıyken ahşap doğal malzeme ve işçilik nedeniyle belirgin biçimde pahalıdır.",
+            "Metre kare bazında plise perde <em>450-3500 TL</em>, alüminyum jaluzi 600-3000 TL, ahşap jaluzi ise 1500-5000 TL bandında seyreder. Motorlu modeller her üç kategoride de üst limiti yukarı çeker.",
           ],
           table: {
-            headers: ["Model", "Plise Perde", "Alüminyum Jaluzi", "Ahşap Jaluzi"],
+            headers: ["Segment", "Plise Perde", "Alüminyum Jaluzi", "Ahşap Jaluzi"],
             rows: [
               ["Standart", "450-1100 TL", "600-1200 TL", "1500-3000 TL"],
               ["Karartma", "700-1400 TL", "1000-2000 TL", "2000-4000 TL"],
@@ -66,91 +67,80 @@ export default function PliseVsJaluziPage() {
           },
         },
         {
-          h2: "Işık Kontrolü ve Gizlilik",
+          h2: "Açı Ayarı ile Işık Yönlendirme",
           paragraphs: [
-            "Jaluzi perde <strong>kanat açısı ile hassas</strong> ışık kontrolü sağlar. Kanatları kapalı tutup ışığı tam kesmeden <em>tam gizlilik</em> elde edebilirsiniz. Plise perde ise kademeli açma ile ışık miktarını ayarlar.",
-            "Alüminyum jaluzi ve ahşap jaluzi, ışık kontrolü açısından benzer çalışır. Ancak ahşap jaluzi kanatları daha kalın olduğundan, kanatlar kapalıyken ışık geçirgenliği alüminyum jaluziye göre daha düşüktür.",
+            "Jaluzi perdenin en güçlü tarafı, lamelleri <strong>kapalı tutarken bile</strong> ışığın bir kısmını içeri alabilmesidir. Kanatları yatay konuma getirip dışarıdan görünüşü engellerken tavan yüzeyine yansıyan ışıkla odayı aydınlık tutabilirsiniz.",
+            "Plise perde ise <em>kademeli açma</em> ile ışık miktarını belirler; ancak ışığın yönünü değiştiremez. Tamamen kapalı blackout kumaşta ışık sıfıra iner, bu da uyku odaları için jaluziye göre daha elverişli bir sonuç verir.",
           ],
           list: {
             type: "ul",
             items: [
-              "Alüminyum jaluzi — kanat açısı ile ışık yönü ayarlanır",
-              "Ahşap jaluzi — daha kalın kanatlar, daha az ışık sızıntısı",
-              "Plise — kademeli açma ile ışık miktarı ayarlanır",
-              "Alüminyum jaluzi — kanat kapalıyken gizlilik + ışık",
-              "Plise — tam karartmada sıfır ışık",
-              "Plise — üstten/alttan bağımsız açılım",
+              "Alüminyum jaluzi — lamel açısıyla ışık yönü hassas ayarlanır",
+              "Ahşap jaluzi — kalın lameller sayesinde kapalıyken daha az sızıntı",
+              "Plise — kademeli yükseklikle ışık miktarı belirlenir",
+              "Alüminyum jaluzi — gizlilik korunurken ışık içeri alınabilir",
+              "Plise — blackout kumaşla tam karartma, uyku odaları için ideal",
+              "Plise — üstten ve alttan ayrı açılımla esnek ışık-mahremiyet",
             ],
           },
         },
         {
-          h2: "Temizlik ve Bakım",
+          h2: "Kanat Aralarında Toz ve Nem",
           paragraphs: [
-            "Temizlik açısından <strong>plise perde daha kolaydır</strong>. Jaluzi perde her kanat tek tek silinmelidir. <em>Plise perde ise nemli bez ile</em> tek geçişte temizlenir.",
-            "Alüminyum jaluzi, nemli bez ile kolayca silinebilir ve banyo/mutfak gibi nemli ortamlarda kullanılabilir. Ahşap jaluzi ise su ve nemden etkilendiği için kuru bez ile temizlenmeli, nemli ortamlarda kullanılmamalıdır.",
+            "Jaluzi perdede her lamel <strong>tek tek</strong> silinmelidir; kanat aralarındaki toz vakumla bile tam çıkmaz. Alüminyum lamel nemli bezle rahatça temizlenir ve banyo, mutfak gibi ıslak ortamlarda sorunsuz kullanılır.",
+            "Ahşap lamel ise sudan etkilenir; <em>kuru bez</em> ile silinmeli, gerektiğinde ahşap bakım yağıyla periyodik bakım yapılmalıdır. Plise perde ise nemli bir bezle tek geçişte temizlenir, kumaş yerinden çıkarılarak da yıkanabilir.",
           ],
           list: {
             type: "ol",
             items: [
-              "Plise — nemli bez ile tek geçiş",
-              "Alüminyum jaluzi — nemli bez ile silinebilir",
-              "Ahşap jaluzi — kuru bez ile silinir, nem kaçınılmaz",
-              "Plise — haftada toz alma yeterli",
-              "Alüminyum jaluzi — kanat araları zor temizlenir",
-              "Ahşap jaluzi — ahşap yağı ile periyodik bakım gerekir",
-              "Plise — kumaş çıkarılabilir",
+              "Plise — nemli bezle tek geçiş, kumaş çıkarılabilir",
+              "Alüminyum jaluzi — nemli bezle silinir, ıslak ortama uygun",
+              "Ahşap jaluzi — kuru bez, ahşap yağıyla ara sıra bakım",
+              "Plise — pile kıvrımları arası toz için haftada bir ovalama",
+              "Alüminyum jaluzi — lamel araları vakumla zor temizlenir",
+              "Ahşap jaluzi — banyo ve mutfakta kullanılmamalı",
             ],
           },
         },
         {
-          h2: "Hangisini Seçmelisiniz?",
+          h2: "Tercih Kılavuzu",
           paragraphs: [
-            "Plise perde <strong>yumuşak görünüm ve kolay temizlik</strong> isteyenler için idealdir. Alüminyum jaluzi <em>modern endüstriyel görünüm</em> ve hassas kanat kontrolü tercih edenler için uygundur. Ahşap jaluzi ise <em>doğal, sıcak atmosfer</em> isteyen ve nemli olmayan ortamlar için idealdir.",
+            "Yumuşak doku, <strong>kolay temizlik</strong> ve tam karartma önceliğinizse plise perde doğru adres. Modern, <em>endüstriyel bir hat</em> ve lamel açısıyla ışık yönü kontrolü istiyorsanız alüminyum jaluzi uygun. Doğal ahşap dokusuyla <u>sıcak bir atmosfer</u> yaratmak ve ortamın nemli olmadığından emin olmak koşuluyla ahşap jaluzi tercih edilebilir.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise seçin — yumuşak, sıcak görünüm",
-              "Plise seçin — kolay temizlik",
-              "Plise seçin — tam karartma",
-              "Plise seçin — banyo ve mutfak için nem dayanımlı",
-              "Alüminyum jaluzi seçin — modern, endüstriyel görünüm",
-              "Alüminyum jaluzi seçin — kanat açısı ile ışık yönü",
-              "Alüminyum jaluzi seçin — nemli ortamlar için uygun",
-              "Ahşap jaluzi seçin — doğal, sıcak ahşap doku",
-              "Ahşap jaluzi seçin — oturma odası ve çalışma odası için",
+              "Plise — yumuşak, katlı doku ve kolay bakım arayanlar için",
+              "Plise — blackout ile uyku odası için tam karartma",
+              "Plise — banyo ve mutfakta nem dayanımı",
+              "Alüminyum jaluzi — modern, keskin çizgi ve ışık yönü kontrolü",
+              "Alüminyum jaluzi — ıslak ortamlarda sorunsuz kullanım",
+              "Ahşap jaluzi — oturma ve çalışma odasında doğal sıcaklık",
+              "Ahşap jaluzi — nemli olmayan, geniş pencereli mekanlar için",
             ],
           },
         },
       ]}
       faqItems={[
         {
-          question: "Plise perde mi jaluzi perde mi daha iyi?",
-          answer: "Yumuşak görünüm, kolay temizlik ve tam karartma için plise perde tercih edin. Modern endüstriyel görünüm ve kanat açısı ile ışık yönü kontrolü için jaluzi perde uygundur.",
+          question: "Plise perde yerine jaluzi perde ne zaman tercih edilmeli?",
+          answer: "Lamellerin açısını değiştirerek ışığın yönünü kontrol etmek istiyorsanız, modern ve endüstriyel bir görünüm arıyorsanız jaluzi perde daha uygundur. Plise perde ise yumuşak doku, kolay temizlik ve tam karartma isteyenler için idealdir.",
         },
         {
-          question: "Hangisi daha ucuz?",
-          answer: "Plise perde genelde daha ekonomiktir. M² bazında plise 450-3500 TL, jaluzi 600-5000 TL aralığında. Jaluzi alüminyum veya ahşap malzeme nedeniyle daha maliyetlidir.",
+          question: "Alüminyum jaluzi ile ahşap jaluzi arasındaki fiyat farkı ne kadar?",
+          answer: "Alüminyum jaluzi 600-3000 TL/m², ahşap jaluzi 1500-5000 TL/m² aralığındadır. Ahşap, doğal malzeme ve işçilik nedeniyle alüminyumdan belirgin biçimde pahalıdır. Bütçe öncelikliyse alüminyum, doğal doku öncelikliyse ahşap seçilmelidir.",
         },
         {
-          question: "Hangisi daha kolay temizlenir?",
-          answer: "Plise perde daha kolay temizlenir. Nemli bez ile tek geçiş yeterlidir. Jaluzi perde her kanat tek tek silinmelidir, kanat araları zor temizlenir.",
+          question: "Jaluzi perde tam karartma yapabilir mi?",
+          answer: "Jaluzi perde lamelleri kapatsanız bile kanat aralarından ışık sızıntısı olur; tam karartma sağlayamaz. Ahşap lameller daha kalın olduğu için sızıntı daha azdır. Sıfıra yakın karartma için plise perdenin blackout kumaş seçeneği daha uygundur.",
         },
         {
-          question: "Tam karartma için hangisi daha uygun?",
-          answer: "Plise perde tam karartma için daha uygundur. Üç katlı kumaş ile ışığın %99'unu keser. Jaluzi perde kanat aralarından ışık sızıntısı olabilir.",
+          question: "Ahşap jaluzi hangi odalarda kullanılmamalı?",
+          answer: "Banyo, mutfak ve cam balkon gibi nemin yüksek olduğu ortamlarda ahşap jaluzi kullanılmamalıdır. Ahşap nem emer, şekil değiştirir ve küf yapabilir. Bu alanlar için alüminyum jaluzi veya plise perde daha doğru bir seçimdir.",
         },
         {
-          question: "Alüminyum jaluzi mi ahşap jaluzi mi daha iyi?",
-          answer: "Alüminyum jaluzi, hafiflik, dayanıklılık, ekonomik fiyat ve nem dayanımı açısından avantajlıdır. Ahşap jaluzi ise doğal sıcak görünüm sunar ama daha pahalıdır ve nemli ortamlarda kullanılmamalıdır. Banyo ve mutfak için alüminyum jaluzi, oturma odası için ahşap jaluzi daha uygundur.",
-        },
-        {
-          question: "Jaluzi perdenin avantajı nedir?",
-          answer: "Jaluzi perde kanat açısını ayarlayarak ışığın yönünü kontrol etmenizi sağlar. Kanatları kapalı tutup ışığı kesmeden tam gizlilik elde edebilirsiniz. Alüminyum jaluzi modern endüstriyel görünüm, ahşap jaluzi ise doğal sıcak atmosfer sunar.",
-        },
-        {
-          question: "Ahşap jaluzi nerede kullanılmamalı?",
-          answer: "Ahşap jaluzi, banyo, mutfak ve cam balkon gibi nemli ortamlarda kullanılmamalıdır. Ahşap malzeme nem emer, şekil değiştirebilir ve küf yapabilir. Nemli ortamlar için alüminyum jaluzi veya plise perde daha uygundur.",
+          question: "Plise perde jaluziye göre temizlikte ne kadar avantajlı?",
+          answer: "Plise perde nemli bir bezle tek geçişte temizlenir ve kumaş yerinden çıkarılarak yıkanabilir. Jaluzi perdede ise her lamel tek tek silinmelidir; kanat aralarındaki toz vakumla bile tam çıkmaz. Bakım kolaylığı açısından plise perde belirgin biçimde avantajlıdır.",
         },
       ]}
     />

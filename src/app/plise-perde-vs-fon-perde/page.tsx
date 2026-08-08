@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Fon Perde — Karşılaştırma",
   description:
-    "Plise perde vs fon perde karşılaştırması. Tül perde, ışık geçirgenliği, gizlilik, estetik, fiyat, montaj, temizlik. Hangisi sizin için uygun?",
+    "Plise perde ve fon perde arasındaki farklar: hareket mekanizması, aydınlatma, mahremiyet, dekoratif etki, maliyet, kurulum ve bakım. Doğru seçim için detaylı analiz.",
   slug: "plise-perde-vs-fon-perde",
 });
 
@@ -12,15 +12,15 @@ export default function PliseVsFonPage() {
   return (
     <PageTemplate
       title="Plise Perde vs Fon Perde"
-      description="Plise perde vs fon perde karşılaştırması. Işık geçirgenliği, gizlilik, estetik, fiyat, montaj."
+      description="Plise perde ve fon perde arasındaki temel farklar: mekanizma, aydınlatma, mahremiyet, dekoratif etki, maliyet, kurulum ve bakım."
       slug="plise-perde-vs-fon-perde"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Fon", url: "/plise-perde-vs-fon-perde" }]}
       h1="Plise Perde vs Fon Perde — Hangisi Daha İyi?"
-      intro="Plise perde ve fon perde (tül perde), iç mekan pencere çözümlerinin en yaygın iki seçeneğidir. Fon perde, ince tül kumaşı ile yumuşak ışık ve gizlilik sağlar — klasik ve geleneksel bir çözümdür. Plise perde ise pile katlı yapısıyla modern esneklik sunar ve blackout kumaş seçeneği ile tam karartma yapabilir. Bu karşılaştırmada ışık geçirgenliği, gizlilik, estetik, fiyat ve montaj açısından ikisini detaylıca inceleyeceğiz."
+      intro="Plise perde ile fon perde, evlerde en sık karşılaşılan iki pencere giydirme seçeneğidir; ancak birbirinden tamamen ayrı iki felsefeyle üretilirler. Fon perde, ince tül dokusuyla pencere önünde süzülen yumuşak bir ışık perdesi oluşturur ve klasik dekorasyon anlayışının temel taşıdır. Plise perde ise alüminyum profil içinde pile katlanan kumaş yapısıyla hem pencere içine monte edilir hem de tül, güneşlik ve blackout seçenekleriyle tek üründe birden fazla ihtiyacı karşılar. Bu yazıda iki sistemi hareket tarzı, doğal aydınlatma, mahremiyet, dekoratif etki, bütçe, kurulum ve bakım başlıkları altında ele alacağız."
       schemaType="article"
       schemaData={{
         headline: "Plise Perde vs Fon Perde Karşılaştırması",
-        description: "Plise perde ve fon perde karşılaştırması — ışık geçirgenliği, gizlilik, estetik, fiyat.",
+        description: "Plise perde ve fon perde karşılaştırması — mekanizma, aydınlatma, mahremiyet, dekoratif etki, maliyet, kurulum ve bakım.",
       }}
       beforeContent={
         <img
@@ -33,132 +33,132 @@ export default function PliseVsFonPage() {
       }
       sections={[
         {
-          h2: "Çalışma Prensibi Farkı",
+          h2: "Mekanik Yapı ve Hareket Tarzı",
           paragraphs: [
-            "Plise perde, <strong>kumaşı pile katlayarak</strong> yukarı-aşağı hareket ettirir. İp mekanizması ile kumaş istenen yükseklikte durur. Pencere içine monte edilir ve hem üstten hem alttan açılabilir.",
-            "Fon perde (tül perde), <strong>ince tül kumaşı pencere önünde asılı</strong> durur. Genellikle korniş veya ray üzerine takılır, yana açılır. Kumaş pile yapmaz, düz olarak asılır. Açma-kapama mekanizması yana kaydırma veya toplama şeklindedir.",
+            "Plise perde, <strong>akordiyon mantığıyla katlanan</strong> kumaşı bir ip mekanizması yardımıyla dikey eksende hareket ettirir. Kumaş yukarı toplanır, aşağı indirilir ve istenilen noktada sabitlenir; üst ve alt kenarlar birbirinden bağımsız konumlanabilir. Sistem doğrudan pencere kasası içine yerleştirilir.",
+            "Fon perde ise <strong>korniş ya da ray üzerine asılı duran</strong> düz bir tül panodur. Kumaş pile yapmaz, açılıp kapanması yatay kaydırma ya da elle toplama yoluyla gerçekleşir. Hareket kabiliyeti sınırlıdır; pencere ile perde arasında her zaman bir boşluk kalır.",
           ],
           table: {
             headers: ["Özellik", "Plise Perde", "Fon Perde"],
             rows: [
-              ["Montaj", "Pencere içi", "Korniş/ray (pencere üstü)"],
-              ["Açılma yönü", "Üstten + alttan", "Yana kaydırma"],
-              ["Kumaş türü", "Tül, güneşlik, blackout", "İnce tül"],
-              ["Tam karartma", "Mümkün (blackout)", "Mümkün değil"],
-              ["Mekanizma", "İp ile yukarı-aşağı", "Ray/korniş ile yana"],
-              ["Pencere içi mi", "Evet", "Hayır (pencere önü)"],
+              ["Montaj alanı", "Pencere kasası içi", "Korniş veya ray (pencere üstü)"],
+              ["Hareket ekseni", "Dikey (yukarı-aşağı)", "Yatay (yana kaydırma)"],
+              ["Kumaş seçeneği", "Tül, güneşlik, yarı karartma, blackout", "Yalnızca ince tül"],
+              ["Karartma kapasitesi", "Blackout ile tam karanlık", "Karartma yapamaz"],
+              ["Kumanda biçimi", "İp mekanizması", "Ray veya korniş üzerinde elle"],
+              ["Pencere ile temas", "Tam oturur, boşluk yok", "Arada boşluk bulunur"],
             ],
           },
         },
         {
-          h2: "Işık Geçirgenliği ve Gizlilik",
+          h2: "Doğal Aydınlatma ile Mahremiyet Dengesi",
           paragraphs: [
-            "Fon perde <strong>maksimum ışık geçirgenliği</strong> sağlar. İnce tül kumaş, ışığın %80-95'ini geçirir ve odayı ferah gösterir. Gündüz dışarıdan içeriyi zor görür, ama gece içeriden dışarı net görünür.",
-            "Plise perde tül kumaş ile benzer ışık geçirir, ancak <em>güneşlik, yarı karartma ve blackout</em> seçenekleri de sunar. Gündüz tül, gece blackout gibi esnek kullanım mümkündür. Ayrıca plise perde, pencere içine takıldığı için <u>pencere ile perde arasında boşluk yoktur</u> — fon perdede ise korniş ile pencere arası açık kalır.",
+            "Fon perde, <strong>gündüz saatlerinde en yüksek ışık geçişini</strong> sağlar; ince tül dokusu güneş ışığının yaklaşık %80 ila %95'ini içeri alır ve mekanı aydınlık gösterir. Ancak akşam saatlerinde içeride ışık yandığında dışarıdan içerinin görünmesi riski doğar.",
+            "Plise perde, tül kumaş seçildiğinde fon perdeye yakın bir aydınlatma sunar; fakat <em>güneşlik, yarı karartma ve blackout</em> alternatifleriyle tek üründe farklı seviyeler elde etmenize imkan tanır. Pencere içine tam oturduğu için <u>kenarlardan ışık sızıntısı olmaz</u>, gece blackout konumunda dışarıdan hiçbir görünüş mümkün değildir.",
           ],
           list: {
             type: "ul",
             items: [
-              "Fon — maksimum ışık (%80-95 geçirgen)",
-              "Plise — tül ile aynı ışık + blackout seçeneği",
-              "Fon — gece içeriden dışarı görünür",
-              "Plise — blackout ile gece tam gizlilik",
-              "Fon — pencere ile perde arası boşluk",
-              "Plise — pencere içine tam oturur, boşluk yok",
+              "Fon — gündüz maksimum ferahlık, yüksek ışık geçişi",
+              "Plise — tül, güneşlik ve blackout ile çoklu seviye",
+              "Fon — akşam iç görünüş riski taşır",
+              "Plise — blackout ile gece tam mahremiyet",
+              "Fon — korniş ile pencere arasında ışık boşluğu",
+              "Plise — kasaya oturduğu için kenar sızıntısı yok",
             ],
           },
         },
         {
-          h2: "Estetik ve Görünüm",
+          h2: "Mekan Uyumu ve Tarz Yansıması",
           paragraphs: [
-            "Fon perde <strong>klasik ve geleneksel</strong> bir görünüm sunar. İnce tül kumaş, pencere önünde zarif bir doku oluşturur. Korniş veya ray ile birleştiğinde klasik ev dekorasyonuna uyar.",
-            "Plise perde ise <strong>modern ve minimalist</strong> görünüm sunar. Pencere içine monte edildiği için korniş gerekmez, pencere çerçevesi içinde gizli çalışır. Pile katlı doku, modern mimariye daha uygun bir estetik verir.",
+            "Fon perde, <strong>geleneksel ve klasik</strong> iç mekan düzenlemelerine kolayca entegre olur. Tülün pencereler önünde dalgalanması, sıcak ve tanıdık bir atmosfer kurar; korniş veya ray görünür olduğu için dekorasyonun bir parçası olarak tasarlanır.",
+            "Plise perde ise <strong>çağdaş ve sade</strong> bir tasarım diline sahiptir. Pencere kasası içine gizlendiği için kornişe ihtiyaç duymaz ve çerçeve içinde neredeyse fark edilmez. Pile katlı düz yüzeyi, modern mimari formlarla uyumlu bir geometri oluşturur.",
           ],
           list: {
             type: "ul",
             items: [
-              "Fon — klasik, geleneksel, zarif",
-              "Plise — modern, minimalist, gizli",
-              "Fon — korniş/ray görünür",
-              "Plise — pencere içinde, korniş gerekmez",
-              "Fon — tül doku, yumuşak dalgalı görünüm",
-              "Plise — pile katlı, düzgün geometrik doku",
+              "Fon — klasik, nostaljik, zarif doku",
+              "Plise — çağdaş, minimal, göze çarpmayan",
+              "Fon — korniş ve ray dekorun parçasıdır",
+              "Plise — korniş gerekmez, çerçeve içinde gizli",
+              "Fon — dalgalı, yumuşak tül görünümü",
+              "Plise — düzgün, geometrik pile yüzeyi",
             ],
           },
         },
         {
-          h2: "Fiyat Karşılaştırması",
+          h2: "Bütçe Planlaması ve Maliyet Analizi",
           paragraphs: [
-            "Fon perde <strong>genelde daha ekonomiktir</strong>. İnce tül kumaş ve basit ray/korniş montajı maliyeti düşüktür. Plise perde, alüminyum profil ve ip mekanizması nedeniyle daha maliyetlidir. <em>M² bazında fon perde 150-800 TL</em>, plise 450-3500 TL aralığında.",
+            "Fon perde <strong>bütçe dostu bir çözümdür</strong>. İnce tül kumaşın metresi düşük fiyatlıdır ve ray/korniş montajı fazla işçilik gerektirmez. Plise perde ise alüminyum profil, ip mekanizması ve özel pile kumaş nedeniyle daha yüksek bir yatırım ister. <em>Metrekare bazında fon perde 150-800 TL</em>, plise perde ise 450-3500 TL bandında fiyatlanır.",
           ],
           table: {
             headers: ["Model", "Plise Perde", "Fon Perde"],
             rows: [
-              ["Standart (tül)", "450-1100 TL", "150-400 TL"],
+              ["Standart tül", "450-1100 TL", "150-400 TL"],
               ["Karartma", "700-1400 TL", "—"],
               ["Premium", "1200-3500 TL", "400-800 TL"],
               ["Motorlu", "1800-3500 TL", "—"],
-              ["Montaj", "100-300 TL", "50-150 TL"],
+              ["Montaj ücreti", "100-300 TL", "50-150 TL"],
             ],
           },
         },
         {
-          h2: "Montaj ve Temizlik",
+          h2: "Kurulum Süreci ve Bakım Rutini",
           paragraphs: [
-            "Fon perde montajı <strong>çok basittir</strong> — korniş veya ray üzerine asılır. Temizlik de kolaydır, tül kumaş çıkarılıp yıkanabilir. Plise perde ise pencere içine monte edilir, mekanizma daha komplekstir.",
+            "Fon perde kurulumu <strong>kısa sürede tamamlanır</strong> — korniş veya ray taktırıp tülü asmanız yeterlidir. Bakım tarafında da avantajlıdır; tül kumaş çıkarılıp çamaşır makinesinde yıkanabilir. Plise perde ise pencere kasasına profil montajı gerektirir ve mekanizma daha hassastır.",
           ],
           list: {
             type: "ol",
             items: [
-              "Fon — korniş/ray üzerine asma, çok kolay",
-              "Plise — pencere içi profil montajı, daha teknik",
-              "Fon — tül kumaş çıkarılıp makinede yıkanabilir",
-              "Plise — kumaş nemli bez ile silinir, makine yıkanmaz",
-              "Fon — düzenli yıkama gerekir (toz emer)",
-              "Plise — daha az toz biriktirir, az temizlik",
+              "Fon — ray veya korniş üzerine asma, pratik kurulum",
+              "Plise — pencere içi profil montajı, teknik dikkat ister",
+              "Fon — tül kumaş makinede yıkanabilir",
+              "Plise — kumaş nemli bezle silinir, makineye girmez",
+              "Fon — tül toz emdiği için düzenli yıkama gerekir",
+              "Plise — toz tutma oranı düşüktür, az bakım ister",
             ],
           },
         },
         {
-          h2: "Hangisini Seçmelisiniz?",
+          h2: "Karar Rehberi: İhtiyacınıza Göre Tercih",
           paragraphs: [
-            "Fon perde <strong>ekonomik fiyat ve klasik görünüm</strong> isteyenler için idealdir. Plise perde <em>modern görünüm, esnek ışık kontrolü ve tam karartma</em> öncelikli olanlar için daha uygun.",
+            "Fon perde <strong>ekonomik bütçe ve klasik atmosfer</strong> arayan evler için mantıklıdır. Plise perde <em>çağdaş görünüm, çoklu ışık seviyesi ve tam karartma</em> beklentisi olanlar için daha doğru bir yatırımdır.",
           ],
           list: {
             type: "ul",
             items: [
-              "Fon seçin — ekonomik fiyat",
-              "Fon seçin — klasik, geleneksel görünüm",
-              "Fon seçin — maksimum gündüz ışığı",
-              "Fon seçin — kolay yıkanabilir kumaş",
-              "Plise seçin — modern, minimalist görünüm",
-              "Plise seçin — blackout ile tam karartma",
-              "Plise seçin — esnek ışık kontrolü (tül + blackout)",
-              "Plise seçin — pencere içi montaj, korniş gerekmez",
+              "Fon — düşük bütçe öncelikliyse",
+              "Fon — klasik ve sıcak dekor tercih ediliyorsa",
+              "Fon — gündüz bol ışık isteniyorsa",
+              "Fon — yıkanabilir kumaş aranıyorsa",
+              "Plise — modern ve sade görünüm isteniyorsa",
+              "Plise — blackout ile tam karanlık gerekiyorsa",
+              "Plise — tek perdede tül ve karartma isteniyorsa",
+              "Plise — kornişsiz, pencere içi montaj tercih ediliyorsa",
             ],
           },
         },
       ]}
       faqItems={[
         {
-          question: "Plise perde mi fon perde mi daha iyi?",
-          answer: "Ekonomik fiyat ve klasik görünüm istiyorsanız fon perde tercih edin. Modern görünüm, esnek ışık kontrolü ve tam karartma istiyorsanız plise perde daha uygun. Plise perde hem tül hem blackout kumaş sunar, fon perde sadece tül.",
+          question: "Plise perde mi fon perde mi avantajlı?",
+          answer: "Bütçeniz kısıtlı ve klasik bir dekor istiyorsanız fon perde daha avantajlıdır. Çağdaş tasarım, tek üründe hem tül hem karartma ve pencere içi montaj istiyorsanız plise perde öne çıkar. Fon perde yalnızca tül sunarken plise perde blackout seçeneği de barındırır.",
         },
         {
-          question: "Fon perde tam karartma yapar mı?",
-          answer: "Hayır, fon perde ince tül kumaştan üretilir ve ışığın %80-95'ini geçirir. Tam karartma için plise perde blackout kumaş veya ayrı bir karartma perde kullanmanız gerekir.",
+          question: "Fon perde odayı tam karartır mı?",
+          answer: "Hayır. Fon perde ince tül dokusundan üretildiği için ışığın büyük bölümünü geçirir ve karartma yapamaz. Tam karanlık için plise perde blackout kumaş veya ek bir karartma perde kullanmanız gerekir.",
         },
         {
-          question: "Hangisi daha ucuz?",
-          answer: "Fon perde genelde daha ekonomiktir. M² bazında fon perde 150-800 TL, plise 450-3500 TL aralığında. Fon perde basit kumaş ve ray montajı ile düşük maliyetlidir.",
+          question: "Maliyet açısından hangisi daha avantajlı?",
+          answer: "Fon perde daha ekonomiktir. Metrekare bazında fon perde 150-800 TL, plise perde 450-3500 TL aralığında fiyatlanır. Fon perde basit kumaş ve ray montajı sayesinde düşük maliyetlidir.",
         },
         {
-          question: "Fon perde yıkanabilir mi?",
-          answer: "Evet, fon perde tül kumaşı çıkarılıp makinede yıkanabilir. Bu, fon perdenin temizlik açısından bir avantajıdır. Plise perde kumaşı ise nemli bez ile silinir, makinede yıkanması önerilmez.",
+          question: "Fon perde kumaşı makinede yıkanır mı?",
+          answer: "Evet. Fon perde tülü çıkarılıp çamaşır makinesinde yıkanabilir; bu özelliği temizlik açısından büyük kolaylık sağlar. Plise perde kumaşı ise nemli bezle silinmeli, makinede yıkanmamalıdır.",
         },
         {
-          question: "Plise perde pencere içine takılır mı?",
-          answer: "Evet, plise perde pencere içine monte edilir — pencere çerçevesine vidalı, yapışkanlı veya kancalı sistemle. Korniş veya ray gerekmez. Fon perde ise korniş veya ray üzerine pencere önüne asılır.",
+          question: "Plise perde korniş gerektirir mi?",
+          answer: "Hayır. Plise perde doğrudan pencere kasasına vidalı, yapışkanlı veya kancalı sistemle monte edilir ve kornişe ihtiyaç duymaz. Fon perde ise korniş veya ray üzerine pencere önüne asılır.",
         },
       ]}
     />

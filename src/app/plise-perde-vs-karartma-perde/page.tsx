@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Karartma Perde — Karşılaştırma",
   description:
-    "Plise perde vs karartma perde karşılaştırması. Blackout perde, ışık geçirgenliği, tam karanlık, uyku kalitesi, fiyat, montaj. Hangisi sizin için uygun?",
+    "Plise perde ve karartma (blackout) perde karşılaştırması. Işık kesme oranı, uyku verimliliği, kumaş esnekliği, fiyat ve bakım farkları. Doğru seçim için rehber.",
   slug: "plise-perde-vs-karartma-perde",
 });
 
@@ -12,15 +12,15 @@ export default function PliseVsKarartmaPage() {
   return (
     <PageTemplate
       title="Plise Perde vs Karartma Perde"
-      description="Plise perde vs karartma perde karşılaştırması. Işık kontrolü, tam karanlık, uyku, fiyat, montaj."
+      description="Plise perde ve karartma (blackout) perde karşılaştırması. Işık kesme, uyku, kumaş esnekliği, fiyat, bakım."
       slug="plise-perde-vs-karartma-perde"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Karartma", url: "/plise-perde-vs-karartma-perde" }]}
-      h1="Plise Perde vs Karartma Perde — Hangisi Daha İyi?"
-      intro="Plise perde ve karartma perde (blackout perde), ışık kontrolü konusunda farklı yaklaşım sunan iki perde türüdür. Karartma perde, ışığın %99'unu keserek tam karanlık sağlar — yatak odası ve sinema odası için idealdir. Plise perde ise hem tül hem blackout kumaş seçenekleriyle daha esnek bir kullanım sunar. Bu karşılaştırmada ışık geçirgenliği, uyku kalitesi, fiyat, montaj ve temizlik açısından ikisini detaylıca inceleyeceğiz."
+      h1="Plise Perde ile Karartma Perde Arasındaki Farklar Nelerdir?"
+      intro="Karartma perde (blackout), ışığın neredeyse tamamını durdurmak üzere tasarlanmış tek işlevli bir üründür; plise perde ise tül, güneşlik ve blackout dahil birden fazla kumaşla çalışabilen çok yönlü bir sistemdir. Biri karanlık odaklı, diğeri esneklik odaklıdır. Bu yazıda ışık geçirgenliği, uyku düzeni, bütçe, kurulum ve görsel tarz başlıklarını karşılaştırarak ihtiyacınıza uygun tarafı belirlemenize yardımcı oluyoruz."
       schemaType="article"
       schemaData={{
         headline: "Plise Perde vs Karartma Perde Karşılaştırması",
-        description: "Plise perde ve karartma perde karşılaştırması — ışık kontrolü, tam karanlık, uyku, fiyat.",
+        description: "Plise perde ve karartma perde karşılaştırması — ışık kesme, uyku, kumaş esnekliği, fiyat, bakım.",
       }}
       beforeContent={
         <img
@@ -33,129 +33,130 @@ export default function PliseVsKarartmaPage() {
       }
       sections={[
         {
-          h2: "Işık Geçirgenliği Farkı",
+          h2: "Karanlık Odaklı Tasarım Karşı Pile Esnekliği",
           paragraphs: [
-            "Karartma perde (blackout perde), <strong>ışığın %99'unu keser</strong>. Kumaşın arka yüzeyindeki kauçuk tabaka, hiçbir ışığın geçmesine izin vermez. Tam kapalı konumda oda zifiri karanlık olur.",
-            "Plise perde ise <strong>farklı kumaş türleri</strong> sunar: tül (%70-90 ışık geçirir), güneşlik (%40-60), yarı karartma (%10-30) ve blackout (%0-1). Yani plise perde, blackout kumaş seçilirse karartma perde ile aynı sonucu verir, ama tül veya güneşlik kumaş seçilirse daha fazla ışık geçirir.",
+            "Blackout perde, arka yüzeyine sürülen <strong>kauçuk tabaka</strong> sayesinde ışığın yaklaşık %99'unu durdurur. Kapalı konumda mekan zifiri karanlığa bürünür ve bu özellik sabit olarak her zaman aktiftir.",
+            "Plise perde ise kumaş seçimine göre <strong>çok farklı ışık seviyeleri</strong> üretir: tül %70-90 arası geçirgen, güneşlik %40-60, yarı karartma %10-30 ve blackout %0-1. Yani blackout dokuma seçildiğinde karartma perdeye eşdeğer karanlık elde edilir; tül veya güneşlik tercih edilirse ortam aydınlık kalır.",
           ],
           table: {
-            headers: ["Özellik", "Plise Perde", "Karartma Perde"],
+            headers: ["Ölçüt", "Plise Perde", "Karartma Perde"],
             rows: [
-              ["Işık geçirgenliği", "%0-90 (kumaşa göre)", "%0-1 (sadece blackout)"],
-              ["Kumaş seçeneği", "Tül, güneşlik, blackout", "Sadece blackout"],
-              ["Tam karanlık", "Blackout kumaş ile", "Her zaman"],
-              ["Gündüz ışık", "Tül/güneşlik ile mümkün", "Mümkün değil"],
-              ["Esneklik", "Yüksek (kumaş değiştirilebilir)", "Düşük (sadece karartma)"],
+              ["Işık geçişi", "%0-90 (kumaşa bağlı)", "%0-1 (yalnızca blackout)"],
+              ["Kumaş çeşitliliği", "Tül, güneşlik, blackout", "Tek tip blackout"],
+              ["Karanlık modu", "Blackout kumaşla aktif", "Sürekli aktif"],
+              ["Gündüz ışık alma", "Tül/güneşlik ile mümkün", "Kapalıyken imkânsız"],
+              ["Kullanım esnekliği", "Yüksek", "Kısıtlı"],
             ],
           },
         },
         {
-          h2: "Uyku Kalitesi ve Kullanım Alanı",
+          h2: "Uyku Verimliliği ve Melatonin Döngüsü",
           paragraphs: [
-            "Karartma perde, <strong>yatak odası ve sinema odası</strong> için optimize edilmiştir. Tam karanlık ortam, melatonin üretimini destekler ve uyku kalitesini artırır. Gece çalışıp gündüz uyuyanlar için vazgeçilmezdir.",
-            "Plise perde blackout kumaş ile de aynı karanlığı sağlar, ancak <em>esneklik avantajı</em> vardır — aynı perdeyi farklı odalarda farklı kumaşlarla kullanabilirsiniz. Ayrıca gece gündüz (düet) plise perde ile hem gündüz ışık hem gece karanlık tek perdede mümkündür.",
+            "Karartma perde <strong>uyku ortamını optimize etmek</strong> için geliştirilmiştir. Tam karanlık, melatonin salınımını destekler; gece vardiyasında çalışanlar ve gündüz uyuyanlar için kritik bir koşuldur.",
+            "Plise perde blackout dokuma ile aynı karanlığı verebilir, ancak <em>asıl farkı esnekliğidir</em>: gece/gündüz (düet) kumaş ile tek perdede hem aydınlık hem karanlık modu sunulur. Böylece aynı pencerede sabah ışığı ve gece karanlığı tek sistemle yönetilir.",
           ],
           list: {
             type: "ul",
             items: [
-              "Karartma perde — her zaman tam karanlık, uyku için optimal",
-              "Plise blackout — aynı karanlık, ama kumaş değiştirilebilir",
-              "Karartma perde — yatak odası ve sinema odası için",
-              "Plise — tüm odalar için esnek çözüm",
-              "Plise gece/gündüz — gündüz tül + gece blackout tek perdede",
-              "Karartma perde — gündüz ışık almak için perdeyi tam açmak gerekir",
+              "Blackout perde — kesintisiz karanlık, uyku için en yüksek verim",
+              "Plise blackout — eşdeğer karanlık, kumaş değişimi esnek",
+              "Blackout perde — yatak ve sinema odası odaklı",
+              "Plise — tüm yaşam alanlarına uyumlu",
+              "Plise düet — gündüz tül + gece blackout tek sistemde",
+              "Blackout perde — gündüz ışık için perde tam açılmalı",
             ],
           },
         },
         {
-          h2: "Fiyat Karşılaştırması",
+          h2: "Maliyet Analizi ve Metrekare Fiyatları",
           paragraphs: [
-            "Standart karartma perde <strong>genelde daha ekonomiktir</strong> çünkü tek kumaş türü kullanılır. Plise perde blackout kumaş seçildiğinde fiyatlar yakındır, ancak tül veya gece/gündüz seçenekleri fiyatı değiştirir. <em>M² bazında karartma perde 300-2000 TL</em>, plise blackout 700-3500 TL aralığında.",
+            "Standart karartma perde <strong>daha düşük maliyetlidir</strong> çünkü tek kumaş tipi ve sade mekanizma kullanılır. Plise perde blackout dokuma seçildiğinde fiyatlar yaklaşır; düet veya motorlu modeller ise bandı yukarı çeker. <em>Karartma perde m² 300-2000 TL</em>, plise blackout m² 700-3500 TL arasında fiyatlanır.",
           ],
           table: {
-            headers: ["Model", "Plise Perde (Blackout)", "Karartma Perde"],
+            headers: ["Çeşit", "Plise Perde (Blackout)", "Karartma Perde"],
             rows: [
               ["Standart blackout", "700-1400 TL", "300-800 TL"],
               ["Premium blackout", "1200-2500 TL", "600-1500 TL"],
               ["Motorlu blackout", "1800-3500 TL", "1200-3000 TL"],
-              ["Gece/gündüz (tül+blackout)", "900-2000 TL", "—"],
+              ["Düet (tül+blackout)", "900-2000 TL", "—"],
               ["Montaj", "100-300 TL", "100-250 TL"],
             ],
           },
         },
         {
-          h2: "Montaj ve Temizlik",
+          h2: "Takma İşlemi ve Yüzey Bakımı",
           paragraphs: [
-            "Montaj açısından <strong>ikisi de benzer</strong>. Pencere içine vidalı, yapışkanlı veya kancalı takılır. Temizlik açısından karartma perde daha kolaydır — düz kumaş yüzeyi nemli bez ile tek geçişte temizlenir.",
+            "Montaj tarafında her iki ürün de <strong>benzer pratikliğe</strong> sahiptir: pencere içine vidalı, yapışkanlı veya kancalı takılır. Bakım tarafında ise karartma perde, düz ve kaygan yüzeyiyle daha az efor ister.",
           ],
           list: {
             type: "ol",
             items: [
-              "Karartma perde — düz kumaş, nemli bez ile kolay temizlik",
-              "Plise — pile katlı yapı, kıvrım araları toz tutabilir",
-              "Karartma perde — kauçuk kaplama suya dayanıklı",
-              "Plise — blackout kumaşın kauçuk tabakası temizliğe uygun",
-              "Karartma perde — daha az toz biriktirir",
+              "Blackout perde — düz yüzey, nemli bezle tek geçiş",
+              "Plise — pile kıvrımları toz tutmaya müsait",
+              "Blackout perde — kauçuk kaplama suya dayanıklı",
+              "Plise — blackout dokumanın arka tabakası silmeye uygun",
+              "Blackout perde — az toz biriktirir",
               "Plise — daha sık toz alma gerekir",
             ],
           },
         },
         {
-          h2: "Estetik ve Görünüm",
+          h2: "Görsel Tarz ve Mekan Uyumu",
           paragraphs: [
-            "Karartma perde <strong>düz ve opak</strong> görünüm sunar. Kumaş pencereyi tam örter, pile yapısı yoktur. Plise perde ise <em>pile katlı estetik dokusu</em> ile daha dekoratif görünür.",
+            "Karartma perde <strong>düz ve opak bir yüzey</strong> sunar; pile dokusu olmadığı için pencereyi sade bir perde ile örter. Minimalist ve çağdaş iç mekanlarla kolayca bütünleşir.",
+            "Plise perde ise <em>akordeon katlı dokusuyla</em> daha yumuşak bir görsel atmosfer yaratır. Pile ritmi, pencere çevresine dekoratif bir hareket katar.",
           ],
           list: {
             type: "ul",
             items: [
-              "Karartma perde — düz, opak, sade görünüm",
-              "Plise — pile katlı, dekoratif doku",
-              "Karartma perde — modern ve minimalist",
-              "Plise — yumuşak ve sıcak atmosfer",
-              "Karartma perde — tek renk, blackout kumaş",
-              "Plise — blackout kumaş + pile doku kombinasyonu",
+              "Blackout perde — düz, opak, sade yüzey",
+              "Plise — pile katlı, dokulu görünüm",
+              "Blackout perde — modern ve minimalist tarz",
+              "Plise — sıcak ve davetkâr atmosfer",
+              "Blackout perde — genelde tek renk seçenek",
+              "Plise — blackout dokuma + pile ritmi bir arada",
             ],
           },
         },
         {
-          h2: "Hangisini Seçmelisiniz?",
+          h2: "Doğru Tercih Kılavuzu",
           paragraphs: [
-            "Karartma perde <strong>sadece tam karanlık</strong> isteyenler için idealdir. Plise perde blackout kumaş ile <em>hem tam karanlık hem de esneklik</em> isteyenler için daha uygun.",
+            "Yalnızca tam karanlık aranıyorsa <strong>karartma perde</strong> en sade ve ekonomik yoldur. Hem karanlık hem de gündüz ışığı esnekliği isteniyorsa <em>plise perde blackout veya düet kumaş</em> ile daha kapsamlı bir çözüm olur.",
           ],
           list: {
             type: "ul",
             items: [
-              "Karartma perde seçin — sadece tam karanlık yeterliyse",
-              "Karartma perde seçin — ekonomik fiyat öncelikli",
-              "Karartma perde seçin — yatak odası, sinema odası",
-              "Plise blackout seçin — tam karanlık + pile estetiği",
-              "Plise seçin — farklı odalarda farklı kumaş esnekliği",
-              "Plise gece/gündüz seçin — gündüz ışık + gece karanlık",
-              "Plise seçin — tüm ev için tek sistem",
+              "Karartma perde — sadece karanlık yeterliyse",
+              "Karartma perde — bütçe öncelikli",
+              "Karartma perde — yatak ve sinema odası",
+              "Plise blackout — karanlık + pile görselliği",
+              "Plise — oda bazında farklı kumaş esnekliği",
+              "Plise düet — gündüz ışık + gece karanlık",
+              "Plise — tüm ev için tek sistem tercihi",
             ],
           },
         },
       ]}
       faqItems={[
         {
-          question: "Plise perde mi karartma perde mi daha iyi?",
-          answer: "Sadece tam karanlık istiyorsanız karartma perde yeterli ve daha ekonomiktir. Hem tam karanlık hem de gündüz ışık esnekliği istiyorsanız plise perde blackout veya gece/gündüz kumaş ile daha uygun.",
+          question: "Blackout perde mi yoksa plise perde mi uyku için daha verimli?",
+          answer: "Sadece uyku karanlığı aranıyorsa blackout perde en doğrudan çözümdür. Ancak gündüz ışık alıp gece karanlık isteniyorsa plise perde düet kumaş ile her iki modu tek sistemde sunar, bu da kullanım esnekliği sağlar.",
         },
         {
-          question: "Plise perde tam karartma yapar mı?",
-          answer: "Evet, plise perde blackout kumaş seçildiğinde ışığın %99'unu keser ve karartma perde ile aynı karanlığı sağlar. Ayrıca gece/gündüz (düet) kumaş ile gündüz tül, gece blackout modunu tek perdede sunar.",
+          question: "Plise perde blackout kumaşla gerçekten sıfır ışık verir mi?",
+          answer: "Evet. Plise perdede blackout dokuma tercih edildiğinde ışığın %99'u kesilir ve karartma perdeyle aynı karanlık elde edilir. Düet kumaşla ise gündüz tül, gece blackout modu tek perdede birleşir.",
         },
         {
-          question: "Hangisi daha ucuz?",
-          answer: "Standart karartma perde genelde daha ekonomiktir. M² bazında karartma perde 300-2000 TL, plise blackout 700-3500 TL aralığında. Karartma perde tek kumaş türü kullandığı için maliyeti düşüktür.",
+          question: "Bütçe açısından hangi seçenek daha avantajlı?",
+          answer: "Standart karartma perde daha ekonomiktir. Karartma perde m² 300-2000 TL, plise blackout m² 700-3500 TL aralığında. Karartma perde tek kumaş tipi kullandığı için maliyeti düşük kalır.",
         },
         {
-          question: "Yatak odası için hangisi daha uygun?",
-          answer: "İkisi de uygundur. Sadece uyku için tam karanlık yeterliyse karartma perde ekonomik seçimdir. Yatak odasında gündüz de ışık almak istiyorsanız plise gece/gündüz perde daha esnektir.",
+          question: "Yatak odası için hangi perde daha mantıklı olur?",
+          answer: "İki seçenek de uygundur. Yalnızca gece karanlığı yeterliyse karartma perde bütçe dostu seçimdir. Yatak odasında gündüz de doğal ışık isteniyorsa plise düet perde daha esnek bir kullanım sağlar.",
         },
         {
-          question: "Karartma perde gündüz ışık alır mı?",
-          answer: "Hayır, karartma perde sadece blackout kumaş kullanır. Gündüz ışık almak için perdeyi tamamen açmanız gerekir. Plise perde ise tül veya güneşlik kumaş ile gündüz ışık alırken gece blackout ile karanlık sağlar.",
+          question: "Karartma perde kapalıyken hiç mi ışık almaz?",
+          answer: "Karartma perde yalnızca blackout kumaş kullandığı için kapalı konumda ışık geçirmez. Gündüz ışık almak için perdeyi tamamen açmak gerekir. Plise perde ise tül veya güneşlik dokuma ile ışık alırken gece blackout moduna geçebilir.",
         },
       ]}
     />

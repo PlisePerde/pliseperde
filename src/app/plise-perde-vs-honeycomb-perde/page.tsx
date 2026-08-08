@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Honeycomb Perde — Karşılaştırma",
   description:
-    "Plise perde vs honeycomb perde karşılaştırması. Isıl yalıtım, ışık kontrolü, fiyat, montaj, temizlik. Honeycomb petek yapısı vs plise pile yapısı. Hangisi sizin için uygun?",
+    "Plise perde ve honeycomb petek perde arasındaki yapısal, ısıl ve fiyat farkları. Petek hücreli yalıtım mı pile katlı hafiflik mi? Kararınızı verin.",
   slug: "plise-perde-vs-honeycomb-perde",
 });
 
@@ -12,15 +12,15 @@ export default function PliseVsHoneycombPage() {
   return (
     <PageTemplate
       title="Plise Perde vs Honeycomb Perde"
-      description="Plise perde vs honeycomb perde karşılaştırması. Isıl yalıtım, ışık kontrolü, fiyat, montaj, temizlik."
+      description="Plise perde ve honeycomb petek perde arasındaki yapısal, ısıl ve fiyat farkları."
       slug="plise-perde-vs-honeycomb-perde"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Honeycomb", url: "/plise-perde-vs-honeycomb-perde" }]}
-      h1="Plise Perde vs Honeycomb Perde — Hangisi Daha İyi?"
-      intro="Plise perde ve honeycomb perde, benzer görünen ama temel olarak farklı iki pencere çözümüdür. Her ikisi de kumaş katmanını katlayarak çalışır, ancak honeycomb perde iki katmanlı petek yapısıyla ekstra ısıl yalıtım sağlar. Plise perde ise tek katmanlı pile yapısıyla daha ekonomik ve daha hafiftir. Bu karşılaştırmada ısıl yalıtım, ışık kontrolü, fiyat, montaj ve temizlik açısından ikisini detaylıca inceleyeceğiz."
+      h1="Plise Perde mi Honeycomb Petek Perde mi? İşte Ayrıntılar"
+      intro="Pencere kenarında plise perde ile honeycomb (petek) perde sıkça birbirine karıştırılır; oysa birinin pile katlanan tek katmanı, diğerinin hava dolu petek hücreleri vardır. Honeycomb, hücre içine hapsedilen havayla bir yalıtım bariyeri kurarken plise perde ağırlığı ve kalınlığı düşük tutarak pratik kullanım hedefler. Aşağıda bu iki sistemin yapı, yalıtım, bütçe, aydınlatma, kurulum ve karar kriterlerini tek tek ele aldık."
       schemaType="article"
       schemaData={{
         headline: "Plise Perde vs Honeycomb Perde Karşılaştırması",
-        description: "Plise perde ve honeycomb perde karşılaştırması — ısıl yalıtım, fiyat, ışık, montaj, temizlik.",
+        description: "Plise perde ve honeycomb petek perde karşılaştırması — yapı, yalıtım, fiyat, aydınlatma, kurulum.",
       }}
       beforeContent={
         <img
@@ -33,132 +33,131 @@ export default function PliseVsHoneycombPage() {
       }
       sections={[
         {
-          h2: "Çalışma Prensibi Farkı",
+          h2: "Mekanik Yapı ve Kumaş Mimarisi",
           paragraphs: [
-            "Plise perde, <strong>tek kumaş katmanını</strong> ip mekanizması ile yukarı-aşağı hareket ettirir. Kumaş, pile katlı yapısıyla katlanır ve pencere içinde kompakt olarak toplanır.",
-            "Honeycomb perde (petek perde), <strong>iki kumaş katmanının</strong> arasında hava boşlukları (petek hücreleri) oluşturarak çalışır. Bu petek yapısı, pencereden gelen soğuğu ve sıcağı kesen bir <u>hava yalıtım tabakası</u> oluşturur. Honeycomb perde, tek katmanlı plise perdeden farklı olarak ısıl yalıtım odaklı bir üründür.",
+            "Plise perdede kumaş <strong>akordeon gibi katlanır</strong>: tek bir dokuma tabakası ip gerdirme sistemiyle yukarı ve aşağı sürgülür, pencere kasası içinde ince bir yığın halinde toplanır. Bu sade yapı, ürünü hafif ve görsel olarak dikkat çekmeyen bir çözüm yapar.",
+            "Honeycomb perdede ise <strong>iki paralel kumaş yüzeyi</strong> birbirine periyodik noktalardan birleştirilir ve arada altıgen hücreler oluşur. Bu hücrelerin içi havayla dolarak sabit bir <u>yalıtım boşluğu</u> yaratır. Sonuç olarak honeycomb, mekanik olarak daha karmaşık ama ısıl açıdan daha verimli bir mimari sunar.",
           ],
           table: {
-            headers: ["Özellik", "Plise Perde", "Honeycomb Perde"],
+            headers: ["Kriter", "Plise Perde", "Honeycomb Perde"],
             rows: [
-              ["Kumaş katmanı", "Tek katman", "Çift katman (petek)"],
-              ["Yapı", "Pile katlı", "Petek hücreli"],
-              ["Isıl yalıtım", "Düşük", "Yüksek (%60'a kadar)"],
-              ["Akustik yalıtım", "Yok", "Var (petek ses emer)"],
-              ["Ağırlık", "Hafif", "Daha ağır"],
-              ["Kalınlık (toplu)", "İnce", "Daha kalın"],
+              ["Kumaş tabakası", "Tek yüzey", "Çift yüzey + hücre"],
+              ["Katlanma biçimi", "Pile (akordeon)", "Petek (altıgen hücre)"],
+              ["Hava boşluğu", "Yok", "Hücre içi hava tabakası"],
+              ["Toplu kalınlık", "İnce profil", "Daha kabarık profil"],
+              ["Ağırlık", "Düşük", "Orta-yüksek"],
             ],
           },
         },
         {
-          h2: "Isıl Yalıtım ve Enerji Tasarrufu",
+          h2: "Petek Hücrelerinin Isı Perdeleme Etkisi",
           paragraphs: [
-            "Honeycomb perdenin en büyük avantajı <strong>ısıl yalıtımdır</strong>. Petek hücrelerindeki hava tabakası, pencereden gelen soğuğu kışın %60'a kadar keser, yazın sıcak hava girişini azaltır. Bu sayede ısıtma ve soğutma maliyetlerinde belirgin düşüş sağlar.",
-            "Plise perde de hafif bir yalıtım sağlar, ancak tek katmanlı yapısı nedeniyle honeycomb kadar etkili değildir. <em>Büyük ve güneş cepheli pencerelerde</em> honeycomb perde, enerji tasarrufu ile fiyat farkını zamanla amorti eder.",
+            "Honeycomb perdenin öne çıkan özelliği <strong>hücre içi havanın yalıtım sağlamasıdır</strong>. Kış aylarında cam yüzeyinden sızan soğuk, petek boşluklarında duran havayla kırılır; yazın ise sıcak hava akışı aynı şekilde yavaşlatılır. Bu sayede ısıtma-soğutma yükü azalır.",
+            "Plise perde de kumaşın yoğunluğuna bağlı olarak belli oranda bariyer oluşturur, ancak hava tabakası içermediği için honeycomb seviyesinde bir ısıl direnç gösteremez. <em>Geniş cam yüzeyli veya rüzgâr alan cephelerde</em> petek yapının getirisi yıllar içinde fatura farkına yansır.",
           ],
           list: {
             type: "ul",
             items: [
-              "Honeycomb — petek yapısı hava yalıtımı sağlar",
-              "Honeycomb — kışın ısı kaybını %60'a kadar azaltır",
-              "Honeycomb — yazın güneş ısısını keser, klima yükünü azaltır",
-              "Plise — hafif yalıtım, tek katman",
-              "Honeycomb — akustik yalıtım da sağlar (dış gürültüyü azaltır)",
-              "Plise — enerji tasarrufu öncelik değilse yeterli",
+              "Petek hücreleri sabit hava yalıtımı oluşturur",
+              "Honeycomb kışın ısı kaçağını belirgin ölçüde düşürür",
+              "Honeycomb yazın sıcak hava girişini yavaşlatır",
+              "Plise perde ince bir kumaş bariyeri sunar",
+              "Honeycomb dış sesleri hafifçe söndürür (akustik katkı)",
+              "Plise perde enerji tasarrufu ana hedef değilse yeterli",
             ],
           },
         },
         {
-          h2: "Fiyat Karşılaştırması",
+          h2: "Bütçe ve Metrekare Fiyat Aralıkları",
           paragraphs: [
-            "Plise perde <strong>genelde daha ekonomiktir</strong>. Honeycomb perde, çift katmanlı petek yapısı nedeniyle üretimi daha kompleks ve maliyetlidir. <em>M² bazında plise 450-3500 TL</em>, honeycomb 800-4500 TL aralığında fiyatlanır.",
+            "Maliyet tarafında plise perde <strong>daha ulaşılabilir bir aralıkta</strong> konumlanır. Honeycomb perde, çift katman dokuma ve hücre birleştirme işçiliği gerektirdiği için metrekare başına daha yüksek fiyatlanır. <em>Plise perde m² 450-3500 TL</em>, honeycomb m² 800-4500 TL bandında değerlendirilir.",
           ],
           table: {
-            headers: ["Model", "Plise Perde", "Honeycomb Perde"],
+            headers: ["Kategori", "Plise Perde", "Honeycomb Perde"],
             rows: [
-              ["Standart (tül)", "450-1100 TL", "800-1500 TL"],
-              ["Karartma", "700-1400 TL", "1200-2200 TL"],
+              ["Tül / standart", "450-1100 TL", "800-1500 TL"],
+              ["Karartma kumaş", "700-1400 TL", "1200-2200 TL"],
               ["Yarı karartma", "600-1200 TL", "1000-1800 TL"],
-              ["Motorlu", "1800-3500 TL", "2500-4500 TL"],
-              ["Montaj", "100-300 TL", "150-350 TL"],
+              ["Motorlu model", "1800-3500 TL", "2500-4500 TL"],
+              ["Montaj ücreti", "100-300 TL", "150-350 TL"],
             ],
           },
         },
         {
-          h2: "Işık Kontrolü",
+          h2: "Doğal Aydınlatmayı Yönetme Biçimi",
           paragraphs: [
-            "Her iki perde de <strong>kademeli ışık kontrolü</strong> sağlar. Kumaşı istediğiniz yükseklikte durdurabilirsiniz. Plise perde, üstten ve alttan bağımsız açılabilir.",
-            "Honeycomb perde de üstten/alttan açılabilir modelleri mevcuttur, ancak petek yapısı nedeniyle <u>kumaş daha kalın</u> olduğu için toplu halde daha fazla yer kaplar.",
+            "İki sistem de kumaşı <strong>istediğiniz yükseklikte sabitleyerek</strong> kademeli aydınlatma sunar. Plise perdede üst ve alt kenar bağımsız konumlandırılabildiği için pencerenin sadece bir bölümünü açmak mümkündür.",
+            "Honeycomb perdede de üstten-alttan açılan varyantlar vardır; yine de hücre yapısı kumaşı <u>daha hacimli</u> tuttuğundan, tam toplanmış durumda pencere içinde daha fazla derinlik kaplar.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise — kademeli ayar, üstten/alttan bağımsız",
-              "Honeycomb — kademeli ayar, üstten/alttan modelleri var",
-              "Plise — toplu halde daha ince, pencere içinde az yer kaplar",
-              "Honeycomb — toplu halde daha kalın",
-              "Plise — blackout kumaş ile tam karartma mümkün",
-              "Honeycomb — blackout petek ile tam karartma + yalıtım",
+              "Plise — üst ve alt kenarı ayrı ayrı konumlandırma",
+              "Honeycomb — üstten/alttan açılan modeller mevcut",
+              "Plise — toplanmış halde çok az derinlik kaplar",
+              "Honeycomb — toplanmış halde daha kabarık durur",
+              "Plise — blackout dokuma ile sıfır ışık modu",
+              "Honeycomb — blackout hücre ile karanlık + yalıtım birlikte",
             ],
           },
         },
         {
-          h2: "Montaj ve Temizlik",
+          h2: "Takma Yöntemleri ve Günlük Bakım Alışkanlığı",
           paragraphs: [
-            "Montaj açısından <strong>ikisi de benzer</strong>. Vidalı, yapışkanlı ve kancalı montaj tipleri her ikisinde de mevcuttur. Temizlik açısından plise perde daha kolaydır çünkü tek katmanlıdır.",
+            "Takma yöntemi açısından her iki üründe de <strong>vidalı, yapışkanlı ve kanca tipi</strong> seçenekler bulunur. Bakım tarafında ise plise perde, tek katmanlı dokuması sayesinde daha az efor ister.",
           ],
           list: {
             type: "ol",
             items: [
-              "Plise — tek kumaş, nemli bez ile silinir",
-              "Honeycomb — çift katman, petek araları toz tutabilir",
-              "Plise — kumaş çıkarılabilir",
-              "Honeycomb — kumaş çıkarılması daha zordur",
-              "Plise — daha az toz biriktirir",
-              "Honeycomb — periyodik vakumlama gerekir",
+              "Plise — tek katman, nemli bezle hızlıca silinir",
+              "Honeycomb — hücre aralarında toz birikebilir",
+              "Plise — kumaş kasadan kolayca ayrılabilir",
+              "Honeycomb — kumaş sökme işlemi daha uğraştırır",
+              "Plise — düzenli toz alma çoğu zaman yeterli",
+              "Honeycomb — ara sıra vakumla temizlik önerilir",
             ],
           },
         },
         {
-          h2: "Hangisini Seçmelisiniz?",
+          h2: "Karar Rehberi: Hangi Senaryo Hangi Perde",
           paragraphs: [
-            "Plise perde <strong>ekonomik fiyat ve hafif yapı</strong> isteyenler için idealdir. Honeycomb perde <em>ısıl yalıtım ve enerji tasarrufu</em> öncelikli olanlar için en doğru seçimdir.",
+            "Bütçe ve hafiflik öne çıkıyorsa <strong>plise perde</strong> mantıklıdır. Yalıtım ve uzun vadeli enerji getirisi öncelikliyse <em>honeycomb petek perde</em> doğru yatırımdır.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise seçin — ekonomik fiyat",
-              "Plise seçin — hafif ve ince yapı",
-              "Plise seçin — kolay temizlik",
-              "Plise seçin — küçük pencereler",
-              "Honeycomb seçin — ısıl yalıtım öncelikli",
-              "Honeycomb seçin — büyük ve güneş cepheli pencereler",
-              "Honeycomb seçin — akustik yalıtım isteniyorsa",
-              "Honeycomb seçin — enerji tasarrufu uzun vadede",
+              "Plise — dar bütçe ve hafif profil arayanlar",
+              "Plise — küçük boyutlu pencereler",
+              "Plise — az bakım isteyen kullanım",
+              "Plise — geçici mekan veya kiralık ev",
+              "Honeycomb — ısıl konfor birinci öncelik",
+              "Honeycomb — geniş cam yüzeyli salonlar",
+              "Honeycomb — dış gürültünün azaltılması isteniyorsa",
+              "Honeycomb — enerji giderini düşürmeyi planlayanlar",
             ],
           },
         },
       ]}
       faqItems={[
         {
-          question: "Plise perde mi honeycomb perde mi daha iyi?",
-          answer: "Isıl yalıtım ve enerji tasarrufu öncelikliyse honeycomb perde tercih edin. Ekonomik fiyat, hafif yapı ve kolay temizlik istiyorsanız plise perde daha uygundur. Büyük ve güneş cepheli pencerelerde honeycomb, küçük pencerelerde plise idealdir.",
+          question: "Petek yapılı honeycomb perde pileli plise perdeden ne kadar farklı yalıtır?",
+          answer: "Honeycomb perde hücre içine hapsedilen hava sayesinde kışın ısı kaybını belirgin ölçüde azaltır; plise perde ise tek katman dokuma ile sınırlı bir bariyer sunar. Geniş camlarda bu fark faturalara yansır, küçük pencerelerde ise hissedilir olmayabilir.",
         },
         {
-          question: "Honeycomb perde enerji tasarrufu sağlar mı?",
-          answer: "Evet, honeycomb perde petek yapısındaki hava tabakası sayesinde kışın ısı kaybını %60'a kadar azaltır. Isıtma ve soğutma maliyetlerinde belirgin düşüş sağlar. Büyük pencerelerde fiyat farkını enerji tasarrufu ile amorti eder.",
+          question: "Honeycomb perde ısıtma ve soğutma giderlerini gerçekten düşürür mü?",
+          answer: "Evet. Petek hücrelerindeki sabit hava tabakası, camdan gelen soğuk ve sıcak hava transferini yavaşlatır. Bu nedenle kışın kalorifer, yazın klima yükü azalır. Büyük ve güneş gören cephelerde yatırım maliyeti zamanla geri döner.",
         },
         {
-          question: "Hangisi daha ucuz?",
-          answer: "Plise perde genelde daha ekonomiktir. M² bazında plise 450-3500 TL, honeycomb 800-4500 TL aralığında. Honeycomb, çift katmanlı petek yapısı nedeniyle daha maliyetlidir.",
+          question: "Metrekare bazında hangi ürün bütçe dostu olur?",
+          answer: "Plise perde daha uygun fiyatlıdır. Plise m² 450-3500 TL, honeycomb m² 800-4500 TL aralığında fiyatlanır. Honeycomb, çift katman ve hücre birleştirme işçiliği nedeniyle maliyetlidir.",
         },
         {
-          question: "Honeycomb perde tam karartma yapar mı?",
-          answer: "Evet, blackout petek kumaş ile honeycomb perde tam karartma sağlar. Hem ısıl yalıtım hem de tam karanlık isteyenler için ideal çözümdür. Plise perde blackout kumaş ile de tam karartma yapar ama yalıtım sağlamaz.",
+          question: "Honeycomb perde karanlık ortam sağlayabiliyor mu?",
+          answer: "Blackout petek kumaş tercih edildiğinde honeycomb perde ışığı neredeyse tamamen keser ve bu sırada yalıtımı da sürdürür. Plise perde blackout dokuma ile karanlık verir ancak hava yalıtımı içermez.",
         },
         {
-          question: "Hangisi daha kolay temizlenir?",
-          answer: "Plise perde daha kolay temizlenir. Tek katmanlı kumaş nemli bez ile silinir. Honeycomb perdede petek araları toz tutabilir, periyodik vakumlama gerekir.",
+          question: "Petek aralarındaki toz temizliği zorluk çıkarır mı?",
+          answer: "Honeycomb perdede hücre boşlukları zamanla toz tutabilir; ara sıra düşük güçlü vakumla temizlemek pratiktir. Plise perde ise tek katman olduğu için nemli bezle silmek çoğu zaman yeterlidir.",
         },
       ]}
     />

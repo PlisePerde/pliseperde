@@ -12,11 +12,11 @@ export default function PliseVsJaponPage() {
   return (
     <PageTemplate
       title="Plise Perde vs Japon Perde"
-      description="Plise perde vs japon perde karşılaştırması. Işık kontrolü, estetik, fiyat, montaj, temizlik."
+      description="Plise perde ile japon perde (panjur) arasındaki farklar: mekanizma yapısı, ışık geçirgenliği, görsel etki, bütçe ve montaj süreci."
       slug="plise-perde-vs-japon-perde"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Japon", url: "/plise-perde-vs-japon-perde" }]}
-      h1="Plise Perde vs Japon Perde — Hangisi Daha İyi?"
-      intro="Plise perde ve japon perde (panjur), farklı çalışma prensiplerine sahip iki pencere çözümüdür. Plise perde kumaşı pile yaparak yukarı-aşağı hareket ettirir, japon perde (panjur) ise yatay lamel veya düz kumaşı yukarı toplar. Japon perde, özellikle dış cephe gölgeleme ve tam karartma için yaygın kullanılırken, plise perde iç mekanda esnek ışık kontrolü sunar. Bu karşılaştırmada çalışma prensibi, ışık kontrolü, estetik, fiyat ve montaj açısından ikisini detaylıca inceleyeceğiz."
+      h1="Plise Perde vs Japon Perde — Sistem Karşılaştırması"
+      intro="Plise perde, kumaşı <strong>akordion kıvrımlarla</strong> katlayarak yukarı ve aşağı hareket ettirir. Japon perde (panjur) ise düz bir kumaş panelini bir profil kutusu içinde toplayarak çalışır; pile yapısı yoktur. <em>İç mekanda</em> esnek ışık yönetimi için plise, <u>dış cephe gölgeleme</u> ve tam karartmada ise japon perde sıkça tercih edilir. Bu sayfada iki sistemi altı başlık altında ele alıyoruz."
       schemaType="article"
       schemaData={{
         headline: "Plise Perde vs Japon Perde Karşılaştırması",
@@ -33,132 +33,133 @@ export default function PliseVsJaponPage() {
       }
       sections={[
         {
-          h2: "Çalışma Prensibi Farkı",
+          h2: "Akordion Kıvrım mı Düz Panel mi?",
           paragraphs: [
-            "Plise perde, <strong>kumaşı pile katlayarak</strong> yukarı-aşağı hareket ettirir. İp mekanizması ile kumaş istenen yükseklikte durur. Hem üstten hem alttan açılabilir.",
-            "Japon perde (panjur), <strong>düz kumaşı yukarı toplayarak</strong> çalışır. Kumaş pile yapmaz, düz bir panel olarak aşağı iner ve yukarı toplandığında profil kutusuna sarılır. Sadece yukarı-aşağı açılır, üstten aşağı açılamaz.",
+            "Plise perdede kumaş, <strong>aralıklı kıvrımlarla</strong> katlanır ve ip mekanizması sayesinde istenen yükseklikte sabit kalır. Hem üst profilden hem alt profilden bağımsız biçimde hareket eder.",
+            "Japon perde ise kumaşı <em>düz bir panel</em> olarak aşağı salar ve yukarı çektiğinizde profil kutusunun içine gizler. Kıvrım yapmaz; bu yüzden ara konumlarda bile düz bir yüzey görünür. Hareket yönü yalnızca yukarı-aşağıdır; üstten aşağı açılamaz.",
           ],
           table: {
             headers: ["Özellik", "Plise Perde", "Japon Perde"],
             rows: [
-              ["Kumaş yapısı", "Pile katlı", "Düz panel"],
-              ["Açılma yönü", "Üstten + alttan", "Sadece yukarı-aşağı"],
-              ["Toplu görünüm", "Pile katlı, kompakt", "Profil kutusunda gizli"],
-              ["Işık kontrolü", "Kademeli", "Tam açık / tam kapalı"],
-              ["Tam karartma", "Blackout kumaş ile", "Blackout kumaş ile"],
-              ["Montaj konumu", "İç mekan", "İç veya dış cephe"],
+              ["Kumaş formu", "Akordion kıvrımlı", "Düz, kıvrımsız panel"],
+              ["Hareket yönü", "Üst + alt bağımsız", "Yalnızca yukarı-aşağı"],
+              ["Toplanmış hal", "Pile yığını görünür", "Profil kutusunda gizli"],
+              ["Işık ayar yöntemi", "Kademeli konumlandırma", "Tam açık / tam kapalı"],
+              ["Karartma", "Blackout kumaşla", "Blackout kumaşla"],
+              ["Montaj konumu", "İç mekan odaklı", "İç veya dış cephe"],
             ],
           },
         },
         {
-          h2: "Işık Kontrolü ve Esneklik",
+          h2: "Işık Geçirgenliği ve Konum Esnekliği",
           paragraphs: [
-            "Plise perde <strong>daha esnek ışık kontrolü</strong> sağlar. Kumaşı istediğiniz yükseklikte durdurabilir, üstten açık alttan kapalı yapabilirsiniz. Kademeli ışık ayarı ile oda aydınlık seviyesini hassas kontrol edersiniz.",
-            "Japon perde ise genellikle <strong>tam açık veya tam kapalı</strong> çalışır. Kumaşı yarıya kadar indirebilirsiniz ama pile yapısı olmadığı için kademeli ışık ayarı daha sınırlıdır. <em>Üstten açık alttan kapalı</em> gibi bağımsız açılım mümkün değildir.",
+            "Plise perde, <strong>üst ve alt profilleri ayrı ayrı</strong> hareket ettirdiği için pencerenin üst kısmını açık bırakıp alt kısmını kapalı tutabilir. Bu, gündüz ışığı alırken mahremiyeti korumanın en pratik yollarından biridir.",
+            "Japon perde ise <em>kademeli ayar konusunda</em> daha kısıtlıdır. Kumaşı yarıya kadar indirmek mümkündür ancak pile yapısı olmadığı için ışık geçirgenliği ya tamdır ya kesiktir. Üstten açık-alttan kapalı gibi bağımsız konumlandırma yapamazsınız.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise — kademeli ayar, üstten/alttan bağımsız",
-              "Japon — tam açık veya tam kapalı",
-              "Plise — daha hassas ışık ayarı",
-              "Japon — düz kumaş, pile yok",
-              "Plise — ara konumlarda estetik pile görünüm",
-              "Japon — ara konumda düz panel görünüm",
+              "Plise — üstten ışık, alttan gizlilik eş zamanlı",
+              "Japon — tek yönlü hareket, ara konum sınırlı",
+              "Plise — kademeli yükseklikle hassas ışık ayarı",
+              "Japon — düz panel, pile kıvrımı yok",
+              "Plise — ara konumlarda dekoratif kıvrım görünümü",
+              "Japon — ara konumda bile düz, kesintisiz yüzey",
             ],
           },
         },
         {
-          h2: "Estetik ve Görünüm",
+          h2: "Görsel Etki ve Mekan Uyumu",
           paragraphs: [
-            "Plise perde <strong>pile katlı dokusu</strong> ile yumuşak ve sıcak bir görünüm sunar. Kumaşın kıvrımları pencereye dekoratif bir doku katar. Toplu halde bile pile yapısı görünür.",
-            "Japon perde ise <strong>düz ve temiz</strong> görünüm sunar. Kumaş tamamen düz iner, pile yapısı yoktur. Toplu halde profil kutusunda gizlenir — pencere tamamen açık görünür. Modern ve minimalist mekanlar için uygundur.",
+            "Plise perde, <strong>katlı dokusuyla</strong> pencereye yumuşak bir derinlik katar. Toplanmış halde bile kıvrımlar görünür; bu, sıcak ve dokulu bir iç mekan arayanlar için tercih sebebidir.",
+            "Japon perde ise <em>temiz ve kesintisiz</em> bir yüzey sunar. Kumaş tamamen düz iner, toplandığında profil kutusunda kaybolur ve pencere boş görünür. Minimalist ve modern çizgili mekanlarla uyumu güçlüdür.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise — pile katlı, yumuşak doku",
-              "Japon — düz panel, temiz görünüm",
-              "Plise — sıcak ve dekoratif atmosfer",
-              "Japon — modern ve minimalist",
-              "Plise — toplu halde pile görünür",
-              "Japon — toplu halde kutuda gizlenir",
+              "Plise — kıvrımlı doku, sıcak ve katmanlı görünüm",
+              "Japon — düz panel, sade ve minimalist hat",
+              "Plise — toplanmış halde pile yığını dekoratif",
+              "Japon — toplandığında kutuda gizlenir, pencere boş kalır",
+              "Plise — klasik ve rustik mekanlarla uyumlu",
+              "Japon — çağdaş, az detaylı iç mekanlarda öne çıkar",
             ],
           },
         },
         {
-          h2: "Fiyat Karşılaştırması",
+          h2: "Bütçe ve Metre Kare Maliyet",
           paragraphs: [
-            "Fiyat açısından <strong>ikisi de yakındır</strong>. Japon perde, düz kumaş kullandığı için kumaş maliyeti düşüktür ancak mekanizma daha komplekstir. Plise perde, pile kumaş üretimi daha maliyetlidir ama mekanizma daha basittir. <em>M² bazında plise 450-3500 TL</em>, japon perde 400-3000 TL aralığında.",
+            "İki sistemin fiyat aralığı <strong>birbirine yakın</strong> çıkar. Japon perde düz kumaş kullandığı için kumaş maliyeti düşüktür; ancak profil kutusu ve mekanizma daha kompleks olduğu için montaj gideri bir miktar yüksektir. Plise perdede ise pile kumaş üretimi işçilik gerektirir ama mekanizma daha sadedir.",
+            "Metre kare bazında plise perde <em>450-3500 TL</em>, japon perde 400-3000 TL aralığında fiyatlanır. Motorlu modeller her iki kategoride de üst bandı yukarı çeker.",
           ],
           table: {
-            headers: ["Model", "Plise Perde", "Japon Perde"],
+            headers: ["Segment", "Plise Perde", "Japon Perde"],
             rows: [
               ["Standart (tül)", "450-1100 TL", "400-900 TL"],
               ["Karartma", "700-1400 TL", "600-1200 TL"],
               ["Premium", "1200-3500 TL", "1000-3000 TL"],
               ["Motorlu", "1800-3500 TL", "1500-3500 TL"],
-              ["Montaj", "100-300 TL", "150-350 TL"],
+              ["Montaj ücreti", "100-300 TL", "150-350 TL"],
             ],
           },
         },
         {
-          h2: "Montaj ve Temizlik",
+          h2: "Takılma ve Temizlik Süreci",
           paragraphs: [
-            "Plise perde montajı <strong>daha basittir</strong> — pencere içine vidalı, yapışkanlı veya kancalı takılır, DIY mümkündür. Japon perde montajı daha komplekstir, genellikle profesyonel montaj önerilir.",
+            "Plise perde <strong>pencere sövesine</strong> vidalı, yapışkanlı veya kancalı biçimde takılır; bu nedenle bireysel montaj (DIY) çoğu durumda mümkündür. Japon perde ise profil kutusu ve dış cephe seçenekleri nedeniyle genellikle profesyonel montaj gerektirir.",
+            "Temizlik tarafında japon perde avantajlıdır: <em>düz kumaş yüzeyi</em> nemli bezle tek geçişte silinir. Plise perdede ise kıvrım aralarında toz birikebilir; kumaş çıkarılsa bile pile yapısı dikkatli temizlik ister.",
           ],
           list: {
             type: "ol",
             items: [
-              "Plise — pencere içi montaj, DIY mümkün",
+              "Plise — pencere içi montaj, bireysel takım mümkün",
               "Japon — pencere üstü veya dış montaj, profesyonel önerilir",
-              "Plise — pile kumaş, kıvrım araları toz tutabilir",
-              "Japon — düz kumaş, nemli bez ile kolay temizlik",
-              "Plise — kumaş çıkarılabilir",
-              "Japon — kumaş çıkarma daha kompleks",
+              "Plise — kıvrım araları toz tutar, düzenli bakım gerekir",
+              "Japon — düz yüzey, nemli bezle hızlı temizlik",
+              "Plise — kumaş yerinden çıkarılabilir",
+              "Japon — kumaş çıkarma daha fazla işçilik ister",
             ],
           },
         },
         {
-          h2: "Hangisini Seçmelisiniz?",
+          h2: "Son Kararınızı Verirken",
           paragraphs: [
-            "Plise perde <strong>esnek ışık kontrolü ve pile estetiği</strong> isteyenler için idealdir. Japon perde <em>modern, düz görünüm ve minimalist tasarım</em> tercih edenler için uygundur.",
+            "Esnek ışık yönetimi, <strong>üstten-alttan bağımsız açılım</strong> ve pile dokusunun yarattığı sıcak görünüm sizin için önemliyse plise perde doğru seçim. <em>Düz, kesintisiz yüzey</em>, minimalist çizgi ve toplandığında pencerenin tamamen boş kalması tercih ediliyorsa japon perde daha uygun.",
           ],
           list: {
             type: "ul",
             items: [
-              "Plise seçin — esnek ışık, üstten/alttan bağımsız",
-              "Plise seçin — pile katlı, sıcak görünüm",
-              "Plise seçin — kolay montaj, DIY",
-              "Plise seçin — tüm oda türleri için esnek",
-              "Japon seçin — modern, düz, minimalist görünüm",
-              "Japon seçin — toplu halde gizli kumaş",
-              "Japon seçin — tam açık/tam kapalı kullanım",
-              "Japon seçin — dış cephe gölgeleme",
+              "Plise — üstten ışık alıp alttan gizli kalmak isteyenler için",
+              "Plise — kıvrımlı, sıcak ve dokulu görünüm arayanlar için",
+              "Plise — bireysel montajla takmak isteyenler için",
+              "Plise — her oda tipine uyum esnekliği",
+              "Japon — düz, sade ve minimalist estetik isteyenler için",
+              "Japon — toplandığında kumaşın tamamen gizlenmesi",
+              "Japon — dış cephe gölgeleme ihtiyacı olanlar için",
             ],
           },
         },
       ]}
       faqItems={[
         {
-          question: "Plise perde mi japon perde mi daha iyi?",
-          answer: "Esnek ışık kontrolü ve pile estetiği istiyorsanız plise perde tercih edin. Modern, düz ve minimalist görünüm istiyorsanız japon perde uygundur. Plise perde üstten/alttan bağımsız açılım sunar, japon perde ise sadece yukarı-aşağı açılır.",
+          question: "Japon perde ile plise perde arasındaki temel mekanizma farkı nedir?",
+          answer: "Plise perde kumaşı akordion kıvrımlarla katlayarak üst ve alt profiller arasında hareket ettirir; çift yönlü açılır. Japon perde ise düz kumaş panelini bir profil kutusu içinde toplayarak çalışır; yalnızca yukarı-aşağı hareket eder ve kıvrım yapmaz.",
         },
         {
-          question: "Japon perde nedir?",
-          answer: "Japon perde (panjur), düz kumaşı yukarı toplayarak çalışan bir perde sistemidir. Kumaş pile yapmaz, düz panel olarak iner ve yukarı toplandığında profil kutusunda gizlenir. Modern ve minimalist görünüm sunar.",
+          question: "Japon perde (panjur) nedir ve nasıl çalışır?",
+          answer: "Japon perde, düz bir kumaş panelini profil kutusu içinde toplayan bir gölgeleme sistemidir. Kumaş pile yapmaz; aşağı indirildiğinde düz bir yüzey olarak yayılır, yukarı çekildiğinde kutuda gizlenir. Modern ve minimalist mekanlarda sıkça tercih edilir.",
         },
         {
-          question: "Hangisi daha ucuz?",
-          answer: "Fiyatlar yakındır. M² bazında plise 450-3500 TL, japon perde 400-3000 TL aralığında. Japon perde düz kumaş kullandığı için kumaş maliyeti düşüktür, ancak montaj daha komplekstir.",
+          question: "Bütçe açısından hangi sistem daha avantajlı?",
+          answer: "Fiyat aralıkları birbirine yakındır. Plise perde 450-3500 TL/m², japon perde 400-3000 TL/m² bandındadır. Japon perde düz kumaşla daha ekonomik başlasa da montaj daha kompleks olduğu için takılma gideri bir miktar yüksektir.",
         },
         {
-          question: "Hangisi daha iyi ışık kontrolü sağlar?",
-          answer: "Plise perde daha esnek ışık kontrolü sağlar. Kumaşı istediğiniz yükseklikte durdurabilir, üstten açık alttan kapalı yapabilirsiniz. Japon perde ise genellikle tam açık veya tam kapalı çalışır, kademeli ayar daha sınırlıdır.",
+          question: "Işık kontrolü hangi sistemde daha esnek?",
+          answer: "Plise perde daha esnektir. Üst ve alt profilleri ayrı ayrı hareket ettirerek üstten ışık alıp alttan gizlilik sağlayabilirsiniz. Japon perde ise tek yönlü çalışır ve kademeli ışık ayarı daha sınırlıdır; genellikle tam açık veya tam kapalı kullanılır.",
         },
         {
-          question: "Hangisi daha kolay temizlenir?",
-          answer: "Japon perde daha kolay temizlenir. Düz kumaş yüzeyi nemli bez ile tek geçişte silinir. Plise perdede pile kıvrımları arası toz tutabilir, daha sık temizlik gerekir.",
+          question: "Temizlik ve bakım hangisinde daha pratik?",
+          answer: "Japon perde daha pratiktir. Düz kumaş yüzeyi nemli bezle tek geçişte silinir. Plise perdede kıvrım aralarında toz birikebilir ve daha dikkatli, düzenli temizlik gerekir; kumaş çıkarılsa bile pile yapısı özen ister.",
         },
       ]}
     />
