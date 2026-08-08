@@ -13,8 +13,8 @@ export const siteConfig = {
     country: "TR",
   },
   geo: {
-    latitude: "40.8769",
-    longitude: "29.2914",
+    latitude: "40.86350646761263",
+    longitude: "29.29713380518031",
   },
   foundedYear: 2022,
   priceRange: "₺₺",
