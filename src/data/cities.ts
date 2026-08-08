@@ -29,29 +29,29 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Adalar", "Arnavutköy", "Ataşehir", "Avcılar", "Bağcılar", "Bahçelievler", "Bakırköy", "Başakşehir", "Bayrampaşa", "Beşiktaş", "Beykoz", "Beylikdüzü", "Beyoğlu", "Büyükçekmece", "Çatalca", "Çekmeköy", "Esenler", "Esenyurt", "Eyüpsultan", "Fatih", "Gaziosmanpaşa", "Güngören", "Kadıköy", "Kağıthane", "Kartal", "Küçükçekmece", "Maltepe", "Pendik", "Sancaktepe", "Sarıyer", "Silivri", "Sultanbeyli", "Sultangazi", "Şile", "Şişli", "Tuzla", "Ümraniye", "Üsküdar", "Zeytinburnu"],
-    intro: "İstanbul'un 39 ilçesinin tamamında <strong>ücretsiz yerinde keşif ve aynı gün montaj</strong> yapıyoruz. Pendik merkezli üretim tesisimizden Anadolu ve Avrupa yakasına kesintisiz hizmet veriyor, Boğaz'ın iki yakasında binlerce ev ve işyerine plise perde monte ediyoruz.",
-    seoTitle: "İstanbul Plise Perde - Ücretsiz Keşif & Montaj",
-    seoDescription: "İstanbul'un 39 ilçesinde plise perde: ücretsiz yerinde keşif, aynı gün montaj, Pendik merkezli üretim. Anadolu ve Avrupa yakası tam servis.",
+    intro: "Pendik Esenyalı'daki üretim atölyemizden <strong>İstanbul'un 39 ilçesinin tamamına</strong> kapıdan kapıya plise perde servisi götürüyoruz. Megaşehirin her köşesinde — Boğaz sırtlarından Silivri son durağına, Adalar'dan Şile'nin kumsallarına kadar — yerinde keşif ve profesyonel montaj gerçekleştiriyoruz.",
+    seoTitle: "İstanbul Plise Perde | 39 İlçe Ücretsiz Keşif ve Aynı Gün Montaj",
+    seoDescription: "Pendik merkezli üretimden İstanbul'un 39 ilçesine plise perde: ücretsiz yerinde keşif, aynı gün Anadolu yakası montaj, ertesi gün Avrupa yakası servis.",
     sections: [
       {
-        h2: "İstanbul'da Plise Perde Hizmeti",
+        h2: "Megaşehirin İki Yakasında Plise Perde Üretimi",
         paragraphs: [
-          "İstanbul, <strong>15 milyon nüfusu</strong> ve 39 ilçesi ile Türkiye'nin en büyük plise perde pazarıdır. Pendik Esenyalı'daki üretim atölyemizden her iki yakaya günlük keşif ve montaj ekipleri gönderiyoruz. Anadolu yakasında Pendik, Kartal, Maltepe, Tuzla, Ataşehir, Kadıköy, Ümraniye ve Üsküdar'a aynı gün içinde keşif-montaj yapıyoruz. Avrupa yakasında ise Beşiktaş, Şişli, Bakırköy, Esenyurt, Beylikdüzü ve Avcılar'a ertesi gün servis veriyoruz.",
-          "Boğaz manzaralı apartman dairelerinden Silivri'deki yazlıkçılara, Beyoğlu'nun tarihi binalarından Başakşehir'in modern sitelerine kadar İstanbul'un her tipkonutunda plise perde uygulaması yaptık. Deniz havasının neminden dolayı kumaş seçiminde <strong>anti-nem kaplamalı modelleri</strong> özellikle sahil ilçelerinde öneriyoruz.",
+          "Pendik'teki atölyemizden her sabah iki ayrı montaj ekibi yola çıkar: biri Anadolu yakasına, diğeri Avrupa yakasına. <strong>Pendik, Kartal, Maltepe, Tuzla, Sancaktepe, Ataşehir</strong> ilçelerinde keşif ve montajı aynı gün içinde tamamlıyoruz. <strong>Kadıköy, Üsküdar, Ümraniye, Çekmeköy</strong> bölgelerinde ertesi gün kurulum yapıyoruz.",
+          "Avrupa yakasında <strong>Bakırköy, Bahçelievler, Esenler, Güngören, Bağcılar, Zeytinburnu</strong> merkez hattında ücretsiz keşif sonrası ertesi gün montaj sağlıyoruz. <strong>Esenyurt, Avcılar, Beylikdüzü, Büyükçekmece, Küçükçekmece, Başakşehir</strong> güzergahında haftalık planlı servis günleri düzenliyoruz. <strong>Çatalca, Silivri, Arnavutköy</strong> uzak ilçelerine ise aylık tur programı ile ulaşıyoruz.",
         ],
       },
       {
-        h2: "İstanbul'un 39 İlçesinde Keşif ve Montaj Programı",
+        h2: "Boğaz ve Sahil İkliminde Kumaş Seçimi",
         paragraphs: [
-          "Anadolu yakasında <strong>Pendik, Kartal, Maltepe, Tuzla</strong> ilçelerine ücretsiz keşif ile aynı gün montaj yapıyoruz. <strong>Ataşehir, Kadıköy, Ümraniye, Üsküdar, Sancaktepe</strong> bölgelerine ücretsiz keşif ile ertesi gün montaj sağlıyoruz. <strong>Sarıyer, Beykoz, Şile</strong> gibi kuzey ilçelerinde haftalık planlı keşif günlerimiz mevcuttur.",
-          "Avrupa yakasında <strong>Bakırköy, Bahçelievler, Esenler, Güngören, Zeytinburnu</strong> merkez ilçelerine ücretsiz keşif ve ertesi gün montaj yapıyoruz. <strong>Esenyurt, Avcılar, Beylikdüzü, Büyükçekmece, Küçükçekmece</strong> ilçelerine de ücretsiz keşif hizmeti veriyoruz. <strong>Çatalca, Silivri, Arnavutköy</strong> gibi uzak ilçelere planlı keşif günleri ile hizmet veriyoruz.",
+          "İstanbul, Karadeniz ile Marmara'nın kucaklaştığı bir iklim kuşağında yer alır. <strong>Sarıyer, Beykoz, Şile</strong> hattında Karadeniz'in serin ve nemli havası, <strong>Kadıköy, Maltepe, Pendik, Tuzla</strong> sahilinde Marmara'nın ılıman ama tuzlu esintisi hüküm sürer. Bu ilçelerde kumaş seçiminde <strong>anti-nem ve anti-tuz kaplamalı modelleri</strong> ilk sıraya koyuyoruz.",
+          "İç kesimdeki <strong>Ümraniye, Sultangazi, Esenler, Bağcılar</strong> gibi ilçelerde kara iklimi daha belirgin olduğundan standart kumaşlar yeterli olur. <strong>Adalar</strong> bölgesinde (Büyükada, Heybeliada, Burgazada, Kınalıada) vapur ile ulaşarak sezonluk (Nisan-Ekim) keşif yapıyor, adanın tuzlu havasına özel kumaş öneriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "İstanbul'da ücretsiz keşif yapıyor musunuz?", answer: "Evet, İstanbul'un 39 ilçesinin tamamında ücretsiz yerinde keşif yapıyoruz. Pendik merkezli ekibimiz Anadolu yakasına aynı gün, Avrupa yakasına ertesi gün keşif için gelir." },
-      { question: "İstanbul'da aynı gün montaj mümkün mü?", answer: "Pendik, Kartal, Maltepe, Tuzla, Ataşehir ve Kadıköy'de aynı gün montaj yapıyoruz. Diğer Anadolu yakası ilçelerinde ertesi gün, Avrupa yakasında ise 1-2 gün içinde montaj gerçekleştiriyoruz." },
-      { question: "İstanbul sahil ilçeleri için hangi kumaş önerirsiniz?", answer: "Kadıköy, Maltepe, Pendik, Tuzla, Bakırköy, Zeytinburnu gibi sahil ilçelerinde deniz neminden dolayı anti-nem kaplamalı kumaş öneriyoruz. Bu kumaşlar nemli havada deformasya uğramaz ve daha uzun ömürlü olur." },
+      { question: "Pendik üretim tesisinizden İstanbul'un hangi ilçelerine aynı gün montaj yapıyorsunuz?", answer: "Pendik, Kartal, Maltepe, Tuzla, Sancaktepe ve Ataşehir ilçelerinde keşif ve montajı aynı gün içinde tamamlıyoruz. Bu bölgelere sabah keşif, öğleden sonra montaj şeklinde çalışıyoruz." },
+      { question: "İstanbul Avrupa yakasına ne sürede montaja geliyorsunuz?", answer: "Bakırköy, Bahçelievler, Esenler, Güngören ve Zeytinburnu'na ücretsiz keşif sonrası ertesi gün montaj yapıyoruz. Esenyurt, Avcılar, Beylikdüzü ve Büyükçekmece'ye haftalık planlı servis günlerinde ulaşıyoruz." },
+      { question: "Adalar'a plise perde monte ediyor musunuz?", answer: "Evet, Büyükada, Heybeliada, Burgazada ve Kınalıada'ya Nisan-Ekim arası sezonluk keşif günleri düzenliyoruz. Vapur ile ulaşım sağlıyor, adanın tuzlu deniz havasına özel anti-tuz kaplamalı kumaş öneriyoruz." },
     ],
   },
   {
@@ -60,27 +60,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Başiskele", "Çayırova", "Darıca", "Derince", "Dilovası", "Gebze", "Gölcük", "İzmit", "Kandıra", "Karamürsel", "Kartepe", "Körfez"],
-    intro: "Kocaeli'nin 12 ilçesinde plise perde hizmeti veriyoruz. Pendik İstanbul'a komşu olmamızın avantajıyla <strong>Gebze, Darıca, Çayırova, Dilovası</strong> ilçelerine aynı gün keşif ve montaj yapıyoruz. İzmit, Gölcük, Körfez bölgelerine de ücretsiz yerinde keşif ile hizmet veriyoruz.",
-    seoTitle: "Kocaeli Plise Perde - Ücretsiz Keşif & Montaj",
-    seoDescription: "Kocaeli'nin 12 ilçesinde plise perde: Gebze, Darıca, İzmit, Gölcük ücretsiz keşif ve montaj. Pendik İstanbul sınırından günlük servis.",
+    intro: "Pendik üretim merkezimize komşu <strong>Kocaeli'nin 12 ilçesine</strong> günlük plise perde sevkiyatı yapıyoruz. Gebze'den Kandıra'ya kadar Körfez'in her köşesinde ücretsiz yerinde keşif ve profesyonel montaj hizmeti sunuyor, sanayi bölgesinin kurumsal taleplerine özel çözümler üretiyoruz.",
+    seoTitle: "Kocaeli Plise Perde | Gebze, İzmit, Gölcük Ücretsiz Keşif",
+    seoDescription: "Kocaeli'nin 12 ilçesinde plise perde: Gebze ve Darıca'ya aynı gün montaj, İzmit ve Gölcük'e ertesi gün servis. Pendik sınırından günlük keşif ekibi.",
     sections: [
       {
-        h2: "Kocaeli Sanayi Bölgesinde Plise Perde",
+        h2: "Sanayi Başkentinde Fabrika ve Lojman Perde Sistemleri",
         paragraphs: [
-          "Kocaeli, Türkiye'nin en büyük sanayi üssü olması nedeniyle <strong>fabrika yurtları, ofis binaları ve işçi lojmanları</strong> için yoğun plise perde talebi almaktadır. Gebze OSB, Dilovası OSB ve İzmit sanayi bölgelerindeki kurumsal projelere toplu perde çözümleri sunuyoruz. Fabrika yurtlarında yangın dayanımlı (B1 sınıfı) kumaş kullanıyoruz.",
-          "Kocaeli Körfezi'nin nemli havası, sahil ilçelerinde (Gölcük, Karamürsel, Körfez) kumaş seçimini etkiler. Bu bölgelerde <strong>nem dayanımlı ve küflenmeyen kumaş tiplerini</strong> öneriyoruz. Kartepe'nin yüksek kesimlerinde ise kış soğukları için honeycomb hücreli ısı yalıtımlı modeller daha uygun olur.",
+          "Kocaeli, Türkiye'nin <strong>en yoğun sanayi üssü</strong> olarak fabrika yurtları, idari binalar ve personel lojmanlarında toplu perde ihtiyacı yaratır. Gebze OSB, Dilovası OSB ve İzmit organize bölgelerindeki kurumsal projelere <strong>B1 sınıfı yangın dayanımlı kumaş</strong> ile toplu üretim ve montaj yapıyoruz. Kurumsal faturalı teslimat sağlıyoruz.",
+          "Kartepe'nin 1.600 metrelik zirvesinden esen soğuk hava, eteklerindeki konutlarda ısı kaybını artırır. Bu bölgede <strong>honeycomb petek hücreli ısı yalıtımlı plise perde</strong> tercih ediliyor. Körfez sahilindeki Gölcük, Karamürsel ve Körfez ilçelerinde ise deniz nemine karşı küflenmeyen kumaş tipini öneriyoruz.",
         ],
       },
       {
-        h2: "Kocaeli'nin 12 İlçesinde Servis Takvimi",
+        h2: "Pendik Sınırından Kocaeli'ye Günlük Sefer Planı",
         paragraphs: [
-          "<strong>Gebze, Darıca, Çayırova, Dilovası</strong>: Pendik sınırına komşu olduğundan aynı gün keşif ve montaj yapıyoruz. <strong>İzmit, Derince, Körfez</strong>: Ücretsiz keşif ile ertesi gün montaj. <strong>Gölcük, Karamürsel, Başiskele, Kartepe</strong>: Haftalık planlı keşif günleri ile ücretsiz servis. <strong>Kandıra</strong>: Aylık planlı keşif turu ile hizmet veriyoruz.",
+          "<strong>Gebze, Darıca, Çayırova, Dilovası</strong>: Pendik ilçe sınırına 10-20 km mesafede olduğundan aynı gün keşif ve montaj yapıyoruz. <strong>İzmit, Derince, Körfez</strong>: TEM ve D100 üzerinden ertesi gün servis. <strong>Gölcük, Karamürsel, Başiskele, Kartepe</strong>: Haftalık planlı keşif günleri. <strong>Kandıra</strong>: Karadeniz sahiline uzak olduğundan aylık tur programı ile ulaşıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kocaeli Gebze bölgesine aynı gün montaj yapıyor musunuz?", answer: "Evet, Gebze ve Darıca Pendik'e çok yakın olduğundan aynı gün keşif ve montaj yapıyoruz. Çayırova ve Dilovası'na da aynı gün servis veriyoruz." },
-      { question: "Kocaeli fabrika yurtları için plise perde üretiyor musunuz?", answer: "Evet, Gebze ve Dilovası OSB bölgesindeki fabrika yurtları için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi ve montajı yapıyoruz. Kurumsal faturalı teslimat sağlıyoruz." },
+      { question: "Gebze OSB bölgesindeki fabrika yurtlarına toplu plise perde montajı yapıyor musunuz?", answer: "Evet, Gebze ve Dilovası OSB'deki fabrika yurtları ve personel lojmanları için B1 sınıfı yangın dayanımlı kumaş ile toplu üretim ve montaj yapıyoruz. Kurumsal faturalı teslimat sağlıyoruz." },
+      { question: "Kartepe'deki dağ eteği konutumuz için hangi perde modelini önerirsiniz?", answer: "Kartepe zirvesinden gelen soğuk hava pencereden içeri sızar. Bu bölgede honeycomb petek hücreli ısı yalıtımlı plise perde öneriyoruz; petek yapısı soğuk havayı filtreleyerek ısıtma giderini düşürür." },
     ],
   },
   {
@@ -89,27 +89,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Adapazarı", "Akyazı", "Arifiye", "Erenler", "Ferizli", "Geyve", "Hendek", "Karapürçek", "Karasu", "Kaynarca", "Kocaali", "Pamukova", "Sapanca", "Serdivan", "Söğütlü", "Taraklı"],
-    intro: "Sakarya'nın 16 ilçesinde plise perde hizmeti sunuyoruz. <strong>Adapazarı, Serdivan, Erenler</strong> merkez ilçelerine ücretsiz yerinde keşif ile ertesi gün montaj yapıyoruz. Deprem bölgesi olması sebebiyle esnek montaj sistemleri ve hafif kumaş seçenekleri öneriyoruz.",
-    seoTitle: "Sakarya Plise Perde - Ücretsiz Keşif & Montaj",
-    seoDescription: "Sakarya'nın 16 ilçesinde plise perde: Adapazarı, Serdivan, Sapanca ücretsiz keşif. Deprem güvenli esnek montaj sistemi ile profesyonel uygulama.",
+    intro: "Sakarya'nın 16 ilçesinde plise perde uygulamaları yapıyoruz. <strong>Adapazarı, Serdivan, Erenler</strong> merkez üçgenine ertesi gün montaj, Sapanca göl havzasındaki villalara özel keşif günleri düzenliyoruz. 1999 depreminin yara izlerini taşıyan bu topraklarda hafif ve esnek montaj sistemleriyle güvenli perde çözümleri sunuyoruz.",
+    seoTitle: "Sakarya Plise Perde | Adapazarı, Serdivan, Sapanca Ücretsiz Keşif",
+    seoDescription: "Sakarya'nın 16 ilçesinde plise perde: deprem güvenli hafif montaj, Sapanca villa projeleri, Karasu sahili için nem dayanımlı kumaş. Pendik'ten ertesi gün servis.",
     sections: [
       {
-        h2: "Sakarya'da Deprem Güvenli Plise Perde Montajı",
+        h2: "Deprem Bölgesinde Hafif ve Esnek Montaj Sistemleri",
         paragraphs: [
-          "Sakarya, 1999 depreminin merkez üssü olması nedeniyle binalarda <strong>esnek ve hafif montaj sistemleri</strong> tercih edilmektedir. Plise perdenin pencere içindeki vidalı veya yapışkanlı montajı, deprem anında düşme riski oluşturmaz. Ağırlığı 200-400 gram arasında olduğundan telif montajına gerek yoktur.",
-          "Sapanca Gölü çevresindeki yazlık ve villa konutlarda, göl manzaralı geniş pencereler için <strong>katlanır plise perde sistemleri</strong> uyguluyoruz. Karasu ve Kocaali sahil kesiminde ise nemli iklim sebebiyle anti-nem kaplamalı kumaş kullanıyoruz.",
+          "Sakarya, 17 Ağustos 1999 depreminin merkez üssüdür ve bu nedenle binalarda <strong>ağır ve sarkık perde sistemlerinden kaçınılması</strong> önerilir. Plise perde, pencere kasası içine yerleştirilen 200-400 gram arası hafif bir sistemdir. Vidalı veya çift taraflı bantlı montajı, sarsıntı anında perdenin düşme riskini ortadan kaldırır.",
+          "Sapanca Gölü'nün kıyısındaki villa ve müstakil evlerde, geniş cam yüzeyleri için <strong>katlanır plise perde</strong> uyguluyoruz. Göl manzarasını engellemeyen ince tül kumaş ve tam karartma seçeneğini aynı sistemde sunuyoruz. Karasu ve Kocaali'nin Karadeniz sahiline bakan konutlarında ise nemli rüzgara dayanıklı anti-nem kaplamalı kumaş kullanıyoruz.",
         ],
       },
       {
-        h2: "Sakarya'nın 16 İlçesinde Erişim Ağı",
+        h2: "Sakarya Ovasından Karadeniz Sahiline Servis Güzergahı",
         paragraphs: [
-          "<strong>Adapazarı, Serdivan, Erenler, Arifiye</strong>: Ücretsiz keşif ile ertesi gün montaj. <strong>Akyazı, Hendek, Geyve, Pamukova</strong>: Haftalık planlı keşif. <strong>Karasu, Kocaali, Kaynarca</strong>: Karadeniz sahil şeridinde aylık planlı keşif. <strong>Sapanca</strong>: Villa projeleri için özel keşif günleri düzenliyoruz.",
+          "<strong>Adapazarı, Serdivan, Erenler, Arifiye</strong>: Pendik'ten D100 üzerinden ertesi gün keşif ve montaj. <strong>Akyazı, Hendek, Geyve, Pamukova</strong>: Haftalık planlı keşif. <strong>Karasu, Kocaali, Kaynarca</strong>: Karadeniz sahil şeridinde aylık tur programı. <strong>Sapanca</strong>: Villa projeleri için özel randevu günleri ayırıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Sakarya deprem bölgesi için plise perde güvenli mi?", answer: "Evet, plise perde pencere içinde monte edilir ve ağırlığı 200-400 gram arasındadır. Deprem anında düşme riski yoktur. Vidalı veya yapışkanlı montaj ile sarsıntıya dayanıklı kurulur." },
-      { question: "Sapanca villa projeleri için plise perde yapıyor musunuz?", answer: "Evet, Sapanca Gölü manzaralı villalar için geniş pencere katlanır plise perde sistemleri üretip monte ediyoruz. Motorlu seçenekler de mevcuttur." },
+      { question: "Deprem bölgesinde yaşıyoruz, plise perde sarsıntıda düşer mi?", answer: "Hayır, plise perde pencere kasası içine monte edilen 200-400 gram arası hafif bir sistemdir. Vidalı veya çift taraflı bantlı montaj ile sarsıntıya dayanıklı kurulur; deprem anında düşme riski taşımaz." },
+      { question: "Sapanca'daki göl manzaralı villamız için hangi perde sistemini önerirsiniz?", answer: "Sapanca Gölü manzaralı geniş cam yüzeyleri için katlanır plise perde öneriyoruz. İnce tül kumaş manzarayı engellemez, aynı sistemde tam karartma seçeneği de mevcuttur. Motorlu seçenekler de sunuyoruz." },
     ],
   },
   {
@@ -118,27 +118,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Altınova", "Armutlu", "Çınarcık", "Çiftlikköy", "Termal", "Yalova merkez"],
-    intro: "Yalova'nın 6 ilçesinde plise perde hizmeti veriyoruz. İstanbul'a vapur mesafesinde olan Yalova'ya <strong>haftalık planlı keşif günleri</strong> ile ücretsiz yerinde keşif yapıyoruz. Termal su kaynakları çevresindeki otel ve pansiyonlara da perde çözümleri sunuyoruz.",
-    seoTitle: "Yalova Plise Perde - Ücretsiz Keşif & Montaj",
-    seoDescription: "Yalova'nın 6 ilçesinde plise perde: Termal, Çınarcık, Armutlu ücretsiz keşif. Spa otelleri ve yazlık konutlar için özel çözümler.",
+    intro: "Yalova'nın 6 ilçesinde plise perde çözümleri sunuyoruz. İstanbul Pendik'ten <strong>vapur ile 45 dakikada</strong> ulaştığımız bu küçük ama turistik ilde, termal kaynakların çevresindeki spa otellerinden Çınarcık sahilinin yazlık dairelerine kadar geniş bir yelpazeye hizmet veriyoruz.",
+    seoTitle: "Yalova Plise Perde | Termal, Çınarcık, Armutlu Ücretsiz Keşif",
+    seoDescription: "Yalova'nın 6 ilçesinde plise perde: termal oteller için anti-buhar kumaş, Çınarcık yazlıkları için gece-gündüz sistemleri. Pendik'ten vapur ile ücretsiz keşif.",
     sections: [
       {
-        h2: "Yalova Termal Bölgesinde Perde Çözümleri",
+        h2: "Termal Su Buharına Dayanıklı Perde Kumaşları",
         paragraphs: [
-          "Yalova, <strong>termal turizm</strong> ile ünlü bir şehirdir. Termal ve Armutlu ilçelerindeki spa otelleri, pansiyonlar ve termal konutlar için nem dayanımlı kumaş seçenekleri sunuyoruz. Termal su buharı, normal kumaşları zamanla deformasya uğratır; bu yüzden <strong>özel anti-buhar kaplamalı kumaş tiplerini</strong> bu bölgede öneriyoruz.",
-          "Çınarcık sahil şeridindeki yazlık apartmanlarda, deniz manzaralı pencereler için güneşlik ve karartma kombinasyonu (gece-gündüz) perde sistemleri uyguluyoruz. Yalova merkez ve Altınova'daki yıl boyu kullanılan daireler için ise standart plise perde modellerimiz mevcuttur.",
+          "Yalova, <strong>termal turizm</strong> konusunda Türkiye'nin öncü illerinden biridir. Termal ve Armutlu ilçelerindeki spa otelleri, kaplıca pansiyonları ve termal konutlarda sürekli yükselen mineral buharı, standart kumaşları 2-3 yıl içinde sarartır ve küflendirir. Bu bölge için <strong>anti-buhar kaplamalı özel kumaş tipini</strong> üretip monte ediyoruz.",
+          "Çınarcık sahil şeridindeki yazlık apartmanlarda Marmara'nın nemli esintisi ve güneş açısı farklı bir ihtiyaç yaratır. Bu konutlarda <strong>gece-gündüz (güneşlik + karartma) kombinasyonlu</strong> plise perde uyguluyoruz: gündüz ince tül ile manzarayı korur, gece tam karartma ile uyku sağlar. Yalova merkez ve Altınova'da yıl boyu oturulan daireler için standart modellerimiz yeterlidir.",
         ],
       },
       {
-        h2: "Yalova'nın 6 İlçesinde Vapur ile Servis",
+        h2: "Pendik'ten Vapur ile Yalova'ya Keşif Rotası",
         paragraphs: [
-          "<strong>Yalova merkez, Altınova, Çiftlikköy</strong>: Haftalık ücretsiz keşif. <strong>Termal, Çınarcık, Armutlu</strong>: Aylık planlı keşif turları ile hizmet veriyoruz. Yalova'ya İstanbul Pendik'ten vapur ile 45 dakikada ulaşıyoruz.",
+          "<strong>Yalova merkez, Altınova, Çiftlikköy</strong>: Haftalık planlı ücretsiz keşif. <strong>Termal, Çınarcık, Armutlu</strong>: Aylık planlı keşif turları kapsamında hizmet veriyoruz. Pendik'ten kalkan vapur ile 45 dakikada Yalova iskelesine ulaşıyor, oradan ilçe dağılımına göre keşif yapıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Yalova'ya ücretsiz keşif geliyor musunuz?", answer: "Evet, Yalova'nın tüm ilçelerine haftalık planlı keşif günleri ile ücretsiz yerinde keşif yapıyoruz. İstanbul Pendik'ten vapur ile ulaşım sağlıyoruz." },
-      { question: "Termal otel için hangi perde kumaşını önerirsiniz?", answer: "Termal su buharı normal kumaşları bozar. Termal ve Armutlu'daki spa tesisleri için anti-buhar kaplamalı, nem dayanımlı özel kumaş tipleri öneriyoruz." },
+      { question: "Yalova'ya vapur ile mi geliyorsunuz, keşif ücreti alıyor musunuz?", answer: "Evet, İstanbul Pendik'ten vapur ile 45 dakikada Yalova'ya ulaşıyoruz. Keşif tamamen ücretsizdir; vapur masrafını biz karşılıyoruz. Yalova merkez ve Altınova'ya haftalık, Termal ve Çınarcık'a aylık planlı günlerde geliyoruz." },
+      { question: "Termal otelimizdeki spa bölümü için hangi kumaşı önerirsiniz?", answer: "Termal su buharı mineral içerir ve standart kumaşları sarartıp küflendirir. Termal ve Armutlu'daki spa tesisleri için anti-buhar kaplamalı, yüksek nem dayanımlı özel kumaş tipini öneriyoruz." },
     ],
   },
   {
@@ -147,27 +147,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Akçakoca", "Cumayeri", "Çilimli", "Düzce merkez", "Gölyaka", "Gümüşova", "Kaynaşlı", "Yığılca"],
-    intro: "Düzce'nin 8 ilçesinde plise perde hizmeti sunuyoruz. Ormanları ve Karadeniz sahili ile bilinen Düzce'de <strong>hem deprem güvenli montaj hem de nem dayanımlı kumaş</strong> seçenekleri sunuyoruz. Akçakoca sahil bölgesi için özel anti-nem çözümleri mevcuttur.",
-    seoTitle: "Düzce Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Düzce'nin 8 ilçesinde plise perde: Akçakoca sahil, Düzce merkez ücretsiz keşif. Deprem güvenli montaj ve nem dayanımlı kumaş seçenekleri.",
+    intro: "Düzce'nin 8 ilçesinde plise perde montajı yapıyoruz. <strong>Karadeniz'in serin orman havası</strong> ve Akçakoca'nın tuzlu sahili, bu ilde iki farklı kumaş ihtiyacı yaratır. 1999 depreminden yeniden inşa edilen Düzce'de, modern pencerelere uygun vidasız klik sistemli hafif montaj uyguluyoruz.",
+    seoTitle: "Düzce Plise Perde | Akçakoca, Düzce Merkez Ücretsiz Keşif",
+    seoDescription: "Düzce'nin 8 ilçesinde plise perde: Akçakoca sahili için anti-nem kumaş, orman bölgesi için nefes alabilen kumaş. Deprem güvenli vidasız klik montaj.",
     sections: [
       {
-        h2: "Düzce'nin Orman ve Sahil İkliminde Plise Perde",
+        h2: "Yeşil Düzce'nin Yüksek Nemli Orman İkliminde Kumaş Tercihi",
         paragraphs: [
-          "Düzce, Türkiye'nin en yeşil illerinden biridir ve Karadeniz ikliminin etkisiyle <strong>yüksek nem oranına</strong> sahiptir. Akçakoca sahil kesiminde deniz nemine karşı anti-nem kaplamalı kumaş kullanıyoruz. Düzce merkez ve iç kesimlerde ise orman havasının nemi için nefes alabilen kumaş tiplerini öneriyoruz.",
-          "1999 depreminden sonra yeniden inşa edilen Düzce'de, yeni binalarda modern pencere sistemleri yaygındır. Bu pencerelerde <strong>vidasız klik sistemi</strong> ile delmeden plise perde monte edebiliyoruz. Eski binalarda ise vidalı veya yapışkanlı sistem kullanıyoruz.",
+          "Düzce, Türkiye'nin <strong>en yoğun orman örtüsüne sahip</strong> illerinden biridir ve Karadeniz iklim kuşağında yıllık nem oranı %70'in üzerindedir. Akçakoca sahilinde deniz tuzu ile birleşen nem, standart kumaşları 2-3 yılda sarartır. Bu bölge için <strong>anti-nem kaplamalı kumaş</strong> uyguluyoruz; 5+ yıl dayanır.",
+          "Düzce merkez, Çilimli, Cumayeri gibi iç kesimlerde ormanların terleyen havası farklı bir nem tipi yaratır. Burada <strong>nefes alabilen mikro gözenekli kumaş</strong> öneriyoruz; nemin kumaş içinde hapsolmasını engeller. Gölyaka ve Yığılca'nın yüksek rakımlı köylerinde kış soğukları için honeycomb ısı yalıtımlı modeli de alternatif olarak sunuyoruz.",
         ],
       },
       {
-        h2: "Düzce'nin 8 İlçesinde Planlı Keşif Günleri",
+        h2: "Düzce'nin 8 İlçesinde Keşif Turu Programı",
         paragraphs: [
-          "<strong>Düzce merkez, Çilimli, Cumayeri, Kaynaşlı</strong>: Haftalık ücretsiz keşif. <strong>Akçakoca</strong>: Karadeniz sahilinde aylık planlı keşif. <strong>Gölyaka, Gümüşova, Yığılca</strong>: Aylık planlı keşif turları ile hizmet veriyoruz.",
+          "<strong>Düzce merkez, Çilimli, Cumayeri, Kaynaşlı</strong>: Haftalık ücretsiz keşif. <strong>Akçakoca</strong>: Karadeniz sahilinde aylık planlı keşif günü. <strong>Gölyaka, Gümüşova, Yığılca</strong>: Aylık tur kapsamında hizmet veriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Düzce Akçakoca sahlinde plise perde nem dayanır mı?", answer: "Akçakoca'nın Karadeniz ikliminde yüksek nem vardır. Bu bölge için anti-nem kaplamalı kumaş kullanıyoruz. Normal kumaşlar 2-3 yılda deformasya uğrarken, anti-nem kumaşlar 5+ yıl dayanır." },
-      { question: "Düzce deprem bölgesi için hangi montaj sistemini önerirsiniz?", answer: "Düzce deprem bölgesi olduğundan, pencere içinde hafif montaj öneriyoruz. Vidalı veya yapışkanlı sistem ile plise perde sarsıntıdan etkilenmez. Ağırlığı 200-400 gram arasındadır." },
+      { question: "Akçakoca'daki yazlığımızın nemli havasında plise perde ne kadar dayanır?", answer: "Akçakoca'nın Karadeniz ikliminde yıllık nem %70'in üzerindedir. Standart kumaşlar 2-3 yılda sararırken, bizim önerdiğimiz anti-nem kaplamalı kumaş 5+ yıl dayanır. Sahil bölgesinde bu kumaşı ilk sıraya koyuyoruz." },
+      { question: "Düzce deprem bölgesi, pencereye perde monte etmek güvenli mi?", answer: "Evet, plise perde 200-400 gram arası hafif bir sistemdir ve pencere kasası içine monte edilir. Düzce'nin yeni binalarında vidasız klik sistemiyle delmeden, eski binalarda vidalı veya bantlı montajla sarsıntıya dayanıklı kurulum yapıyoruz." },
     ],
   },
   {
@@ -176,27 +176,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Bilecik merkez", "Bozüyük", "Gölpazarı", "İnhisar", "Osmaneli", "Pazaryeri", "Söğüt", "Yenipazar"],
-    intro: "Bilecik'in 8 ilçesinde plise perde hizmeti veriyoruz. Osmanlı İmparatorluğu'nun doğduğu topraklarda, tarihi binalar ve modern konutlar için uygun perde çözümleri sunuyoruz. <strong>Bozüyük</strong> sanayi bölgesindeki kurumsal projelere de hizmet veriyoruz.",
-    seoTitle: "Bilecik Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Bilecik'in 8 ilçesinde plise perde: Söğüt, Bozüyük, Osmaneli ücretsiz keşif. Tarihi binalar ve sanayi tesisleri için özel çözümler.",
+    intro: "Bilecik'in 8 ilçesinde plise perde hizmeti veriyoruz. <strong>Marmara ile İç Anadolu'nun iklim geçiş noktası</strong> olan bu ilde, karasal soğuklara karşı honeycomb ısı yalıtımlı modeller öneriyoruz. Osmanlı'nın ilk nefes aldığı Söğüt'teki tarihi evlerden Bozüyük'ün sanayi tesislerine kadar geniş bir konut yelpazesine çözüm üretiyoruz.",
+    seoTitle: "Bilecik Plise Perde | Söğüt, Bozüyük, Osmaneli Ücretsiz Keşif",
+    seoDescription: "Bilecik'in 8 ilçesinde plise perde: karasal iklim için honeycomb ısı yalıtımı, Söğüt tarihi evleri için özel ölçü, Bozüyük sanayisi için B1 kumaş.",
     sections: [
       {
-        h2: "Bilecik'te İç Anadolu İklimine Uygun Perde",
+        h2: "İklim Geçiş Kuşağında Isı Yalıtımlı Perde Stratejisi",
         paragraphs: [
-          "Bilecik, Marmara ve İç Anadolu iklim geçişinde yer alır. Kışları soğuk, yazları sıcak ve kuraktır. Bu nedenle Bilecik konutlarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> modelini öneriyoruz. Honeycomb petek yapısı, pencereden gelen soğuk ve sıcak havayı filtreler, ısı tasarrufu sağlar.",
-          "Söğüt ve Bilecik merkezdeki tarihi evlerde, orijinal pencere boyutlarına özel ölçü plise perde üretiyoruz. Bozüyük'deki sanayi tesisleri ve fabrika binaları için ise yangın dayanımlı B1 sınıfı kumaş ile toplu perde çözümleri sunuyoruz.",
+          "Bilecik, Marmara'nın ılıman havasından İç Anadolu'nun <strong>sert karasal iklimine</strong> geçiş noktasında yer alır. Kışın -10 dereceye düşen sıcaklıklar, pencereden içeri sızan soğuk hava ile ısıtma giderini yükseltir. Bu nedenle Bilecik konutlarında <strong>honeycomb petek hücreli plise perde</strong> modelini öneriyoruz; petek yapısı soğuk havayı filtreler, oda sıcaklığını 2-3 derece korur.",
+          "Söğüt ve Bilecik merkezdeki <strong>tarihi Osmanlı evleri</strong>, standart dışı pencere ölçülerine sahiptir. Bu binaların her penceresi için ayrı ölçü alıp özel üretim yapıyoruz. Pencere kasası içine montaj ile tarihi dokuya zarar vermeden kurulum tamamlıyoruz. Bozüyük sanayi bölgesindeki fabrika ve idari binalar için yangın dayanımlı B1 sınıfı kumaş ile kurumsal çözümler sunuyoruz.",
         ],
       },
       {
-        h2: "Bilecik'in 8 İlçesinde Bölgesel Servis",
+        h2: "Bilecik İlçelerinde Aylık Keşif Günü Planlaması",
         paragraphs: [
-          "<strong>Bilecik merkez, Bozüyük, Osmaneli, Pazaryeri</strong>: Aylık planlı ücretsiz keşif. <strong>Söğüt, Gölpazarı, İnhisar, Yenipazar</strong>: Aylık planlı keşif turları kapsamında hizmet veriyoruz.",
+          "<strong>Bilecik merkez, Bozüyük, Osmaneli, Pazaryeri</strong>: Aylık planlı ücretsiz keşif. <strong>Söğüt, Gölpazarı, İnhisar, Yenipazar</strong>: Aynı aylık tur programı kapsamında hizmet veriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Bilecik kışın soğuk, honeycomb perde işe yarar mı?", answer: "Evet, Bilecik'in karasal ikliminde honeycomb hücreli plise perde ısı yalıtımı sağlar. Petek yapısı soğuk havayı filtreler, ısıtma giderlerini düşürür. Kış aylarında belirgin fark yaratır." },
-      { question: "Bilecik Söğüt'teki tarihi evler için plise perde yapılır mı?", answer: "Evet, Söğüt ve Bilecik merkezdeki tarihi evlerin orijinal pencere boyutlarına özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile tarihi dokuya zarar vermeden kurulur." },
+      { question: "Bilecik'in karasal ikliminde honeycomb perde ısı tasarrufu sağlar mı?", answer: "Evet, Bilecik kışın -10 dereceye düşer. Honeycomb petek hücreli plise perde, pencereden sızan soğuk havayı petek yapısıyla filtreler ve oda sıcaklığını 2-3 derece yukarı tutar. Isıtma giderinde belirgin düşüş sağlar." },
+      { question: "Söğüt'teki tarihi Osmanlı evimizin pencereleri için özel ölçü perde üretiyor musunuz?", answer: "Evet, Söğüt ve Bilecik merkezdeki tarihi evlerin standart dışı pencere ölçüleri için her pencereye ayrı ölçü alıp özel üretim yapıyoruz. Pencere kasası içine montaj ile tarihi dokuya zarar vermeden kurulum tamamlıyoruz." },
     ],
   },
   {
@@ -205,27 +205,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Büyükorhan", "Gemlik", "Gürsu", "Harmancık", "İnegöl", "İznik", "Karacabey", "Keles", "Kestel", "Mudanya", "Mustafakemalpaşa", "Nilüfer", "Osmangazi", "Orhangazi", "Yıldırım", "Yenişehir"],
-    intro: "Bursa'nın 16 ilçesinde plise perde hizmeti sunuyoruz. <strong>Osmangazi, Nilüfer, Yıldırım</strong> merkez ilçelerine ücretsiz yerinde keşif ile ertesi gün montaj yapıyoruz. Uludağ'ın eteklerinden Gemlik Körfezi sahiline kadar geniş bir coğrafyaya hizmet veriyoruz.",
-    seoTitle: "Bursa Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Bursa'nın 16 ilçesinde plise perde: Nilüfer, Osmangazi, Yıldırım ücretsiz keşif. Uludağ villaları, İnegöl mobilya bölgesi ve Gemlik sahili için çözümler.",
+    intro: "Bursa'nın 16 ilçesinde plise perde çözümleri sunuyoruz. <strong>Uludağ'ın zirvesinden Gemlik Körfezi'nin sahiline</strong> uzanan bu geniş coğrafyada, 1.500 metre rakımdan deniz seviyesine kadar farklı iklim kuşaklarına uygun perde modelleri uyguluyoruz. Osmangazi, Nilüfer ve Yıldırım merkez üçgenine ertesi gün montaj yapıyoruz.",
+    seoTitle: "Bursa Plise Perde | Nilüfer, Osmangazi, Yıldırım Ücretsiz Keşif",
+    seoDescription: "Bursa'nın 16 ilçesinde plise perde: Uludağ villaları için honeycomb ısı yalıtımı, Gemlik sahili için anti-nem kumaş, İnegöl mobilya bölgesi için kurumsal çözümler.",
     sections: [
       {
-        h2: "Bursa'da Tarihi ve Modern Konutlarda Perde",
+        h2: "Uludağ Eteklerinden Körfez Sahiline Rakıma Göre Perde",
         paragraphs: [
-          "Bursa, Osmanlı başkenti olmasının mirasıyla <strong>tarihi konutlar</strong> ve modern sitelerin iç içe geçtiği bir şehirdir. Osmangazi ve Yıldırım'daki tarihi evlerin pencerelerine özel ölçü plise perde üretiyoruz. Nilüfer'in modern site dairelerinde ise standart pencere ölçülerine hızlı üretim yapıyoruz.",
-          "Uludağ eteklerindeki villa ve konutlarda, yüksek rakımdan dolayı <strong>ısı yalıtımlı honeycomb modelleri</strong> öneriyoruz. Mudanya ve Gemlik sahil kesiminde ise Marmara Denizi'nin nemine karşı anti-nem kumaş kullanıyoruz. İnegöl mobilya üretim bölgesindeki showroom ve ofisler için profesyonel perde çözümleri sunuyoruz.",
+          "Bursa, <strong>tek bir ilde 2.543 metrelik bir dağ ile deniz seviyesindeki bir körfezi</strong> barındırır. Uludağ eteklerindeki Soğukpınar, Çobankaya ve Kestel yükseltilerindeki konutlarda kışın sert soğuklar yaşanır; bu bölgede <strong>honeycomb petek hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Mudanya, Gemlik ve Karacabey sahil kuşağında ise Marmara'nın nemli esintisine karşı anti-nem kaplamalı kumaş kullanıyoruz.",
+          "Osmangazi ve Yıldırım'daki <strong>Osmanlı dönemi tarihi evler</strong>, dar ve yüksek pencere açıklıklarına sahiptir. Bu binalar için özel ölçü üretim yapıyoruz. Nilüfer'in modern site dairelerinde standart pencere ölçülerine hızlı üretim sağlıyoruz. İnegöl mobilya üretim bölgesindeki showroom ve ofisler için ise profesyonel perde çözümleri sunuyoruz.",
         ],
       },
       {
-        h2: "Bursa'nın 17 İlçesinde Hizmet Tablosu",
+        h2: "Bursa'nın 16 İlçesinde Hızlı ve Planlı Servis Haritası",
         paragraphs: [
           "<strong>Osmangazi, Nilüfer, Yıldırım, Gürsu, Kestel</strong>: Ücretsiz keşif ile ertesi gün montaj. <strong>İnegöl, Mudanya, Orhangazi, Gemlik</strong>: Haftalık planlı keşif. <strong>Karacabey, Mustafakemalpaşa, Keles, Büyükorhan, Harmancık, İznik, Yenişehir</strong>: Aylık planlı keşif turları.",
         ],
       },
     ],
     faqItems: [
-      { question: "Bursa Nilüfer'de ücretsiz keşif yapıyor musunuz?", answer: "Evet, Nilüfer, Osmangazi, Yıldırım ve Gürsu ilçelerine ücretsiz yerinde keşif yapıyoruz. Keşif sonrası ertesi gün montaj gerçekleştiriyoruz." },
-      { question: "Uludağ'daki villa için hangi perde önerirsiniz?", answer: "Uludağ eteklerindeki villalar için honeycomb hücreli ısı yalıtımlı plise perde öneriyoruz. Yüksek rakımda soğuk hava pencereden girer, honeycomb petek yapısı bunu filtreler." },
+      { question: "Nilüfer ve Osmangazi'ye keşiften sonra ne sürede montaja geliyorsunuz?", answer: "Nilüfer, Osmangazi, Yıldırım, Gürsu ve Kestel ilçelerine ücretsiz yerinde keşif yapıp ertesi gün montaja geliyoruz. Pendik'ten O-5 üzerinden yaklaşık 2,5 saatte ulaşıyoruz." },
+      { question: "Uludağ eteğindeki soğuk iklimli evimiz için hangi perde modelini önerirsiniz?", answer: "Uludağ eteklerinde kışın sert soğuklar yaşanır. Honeycomb petek hücreli ısı yalıtımlı plise perde öneriyoruz; petek yapısı pencereden sızan soğuk havayı filtreler ve oda sıcaklığını 2-3 derece yukarı tutar." },
     ],
   },
   {
@@ -234,27 +234,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Altıeylül", "Ayvalık", "Balya", "Bandırma", "Bigadiç", "Burhaniye", "Dursunbey", "Edremit", "Erdek", "Gömeç", "Gönen", "Havran", "İvrindi", "Karesi", "Kepsut", "Manyas", "Marmara", "Savaştepe", "Sındırgı", "Susurluk"],
-    intro: "Balıkesir'in 20 ilçesinde plise perde hizmeti veriyoruz. <strong>Altıeylül, Karesi</strong> merkez ilçelerine ücretsiz keşif ile hizmet sunuyoruz. Edremit Körfezi'nin turistik beldelerinde (Ayvalık, Burhaniye, Edremit) yazlık ve otel projeleri için özel çözümler mevcuttur.",
-    seoTitle: "Balıkesir Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Balıkesir'in 20 ilçesinde plise perde: Bandırma, Edremit, Ayvalık ücretsiz keşif. Sahil yazlıkları ve otel projeleri için nem dayanımlı çözümler.",
+    intro: "Balıkesir'in 20 ilçesinde plise perde hizmeti veriyoruz. <strong>Türkiye'nin hem Ege hem Marmara kıyısına sahip tek ili</strong> olan Balıkesir'de, Edremit Körfezi'nin zeytinlik evlerinden Bandırma'nın sanayi konutlarına kadar iki farklı iklim kuşağına uygun perde çözümleri sunuyoruz.",
+    seoTitle: "Balıkesir Plise Perde | Ayvalık, Edremit, Bandırma Ücretsiz Keşif",
+    seoDescription: "Balıkesir'in 20 ilçesinde plise perde: Edremit Körfezi yazlıkları için güneşlik kumaş, iç kesim karasal iklim için honeycomb, Bandırma için anti-nem çözümleri.",
     sections: [
       {
-        h2: "Balıkesir'in İki İklim Kuşağında Perde Seçimi",
+        h2: "Ege ve Marmara Kıyıları Arasında Bölgesel Kumaş Haritası",
         paragraphs: [
-          "Balıkesir, Türkiye'nin <strong>hem Ege hem Marmara kıyısına</strong> sahip tek ilidir. Edremit Körfezi'nde (Ayvalık, Burhaniye, Edremit, Gömeç) Ege iklimi hüküm sürer — sıcak yazlar ve ılıman kışlar. Bu bölgedeki zeytinlik evleri ve yazlık apartmanlarda güneşlik kumaş öneriyoruz. Bandırma ve Erdek'te Marmara iklimi daha belirgindir.",
-          "İç kesimde (Dursunbey, Sındırgı, Bigadiç, Kepsut) karasal iklim etkili olduğundan, kış soğuklarına karşı <strong>karartma + honeycomb kombinasyonu</strong> daha uygundur. Manyas Gölü çevresindeki kuş cenneti bölgesinde nem dengeli olduğundan standart kumaş yeterlidir.",
+          "Balıkesir, <strong>iki ayrı denize kıyısı olan</strong> tek ilimizdir. Edremit Körfezi'nde (Ayvalık, Burhaniye, Edremit, Gömeç) Ege iklimi hüküm sürer: sıcak ve kuru yazlar, ılıman kışlar. Zeytinlikler arasındaki taş evler ve yazlık apartmanlarda <strong>güneşlik ince tül kumaş</strong> öneriyoruz; güneş ışığını filtreler, manzarayı engellemez.",
+          "Bandırma, Erdek ve Gönen'de Marmara iklimi daha nemli ve rüzgarlıdır. Bu ilçelerde <strong>anti-nem kaplamalı kumaş</strong> kullanıyoruz. İç kesimde (Dursunbey, Sındırgı, Bigadiç, Kepsut) karasal iklim etkili olduğundan kış soğuklarına karşı <strong>karartma + honeycomb kombinasyonu</strong> öneriyoruz. Manyas Gölü çevresinde nem dengeli olduğundan standart kumaş yeterlidir.",
         ],
       },
       {
-        h2: "Balıkesir'in 20 İlçesinde Kıyı ve İç Bölge Servisi",
+        h2: "Balıkesir Sahil ve İç Bölge Keşif Takvimi",
         paragraphs: [
           "<strong>Altıeylül, Karesi</strong>: Aylık planlı ücretsiz keşif. <strong>Bandırma, Erdek, Gönen, Susurluk</strong>: Aylık planlı keşif. <strong>Ayvalık, Burhaniye, Edremit, Gömeç, Havran</strong>: Yaz sezonunda haftalık, kışın aylık keşif. <strong>Bigadiç, Dursunbey, Sındırgı, Kepsut, Manyas, Marmara, Savaştepe, Balya, İvrindi</strong>: Aylık planlı keşif turları.",
         ],
       },
     ],
     faqItems: [
-      { question: "Ayvalık yazlığım için plise perde yaptırabilir miyim?", answer: "Evet, Ayvalık ve Burhaniye'deki yazlık konutlar için güneşlik kumaş plise perde öneriyoruz. Yaz sezonunda haftalık keşif günlerimiz mevcuttur. Kışın aylık planlı keşif yapıyoruz." },
-      { question: "Bandırma'da ücretsiz keşif var mı?", answer: "Evet, Bandırma'ya aylık planlı keşif günleri ile ücretsiz yerinde keşif yapıyoruz. Erdek ve Gönen'ilçelerine de aynı tur kapsamında hizmet veriyoruz." },
+      { question: "Ayvalık'taki zeytinlik evimiz için yazın hangi perde kumaşı uygun?", answer: "Ayvalık ve Edremit Körfezi'nde Ege iklimi sıcak ve kurudur. Zeytinlik evleri için güneşlik ince tül kumaş öneriyoruz; güneş ışığını filtreler, manzarayı engellemez. Yaz sezonunda haftalık keşif günlerimiz mevcuttur." },
+      { question: "Bandırma'da sanayi bölgesindeki ofisimiz için perde montajı yapıyor musunuz?", answer: "Evet, Bandırma'ya aylık planlı keşif günleri ile ücretsiz yerinde keşif yapıyoruz. Marmara ikliminin nemli havasına karşı anti-nem kaplamalı kumaş öneriyoruz. Erdek ve Gönen'e de aynı tur kapsamında hizmet veriyoruz." },
     ],
   },
   {
@@ -263,27 +263,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Ayvacık", "Bayramiç", "Biga", "Bozcaada", "Çan", "Çanakkale merkez", "Eceabat", "Ezine", "Gelibolu", "Gökçeada", "Lapseki", "Yenice"],
-    intro: "Çanakkale'nin 12 ilçesinde plise perde hizmeti sunuyoruz. <strong>Çanakkale merkez, Eceabat, Gelibolu</strong> bölgelerine ücretsiz keşif ile hizmet veriyoruz. Bozcaada ve Gökçeada adalarına da sezonluk planlı keşif düzenliyoruz.",
-    seoTitle: "Çanakkale Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Çanakkale'nin 12 ilçesinde plise perde: Gelibolu, Eceabat, Biga ücretsiz keşif. Bozcaada ve Gökçeada adalarına sezonluk servis.",
+    intro: "Çanakkale'nin 12 ilçesinde plise perde montajı yapıyoruz. <strong>İki kıtayı bağlayan boğazın</strong> iki yakasında, Gelibolu Yarımadası'ndan Biga Ovası'na kadar geniş bir alana hizmet veriyoruz. Bozcaada ve Gökçeada adalarına Mayıs-Eylül arası sezonluk keşif günleri düzenliyoruz.",
+    seoTitle: "Çanakkale Plise Perde | Gelibolu, Eceabat, Biga Ücretsiz Keşif",
+    seoDescription: "Çanakkale'nin 12 ilçesinde plise perde: Bozcaada ve Gökçeada'ya sezonluk keşif, Gelibolu tarihi binalar için özel ölçü, Biga sanayisi için B1 kumaş.",
     sections: [
       {
-        h2: "Çanakkale Boğazı ve Adalarda Perde Çözümleri",
+        h2: "Boğaz ve Adaların Tuzlu Havasında Özel Kumaş Çözümleri",
         paragraphs: [
-          "Çanakkale, iki kıtayı bağlayan boğazı ve tarihi adaları ile özel bir coğrafyaya sahiptir. <strong>Bozcaada</strong> ve <strong>Gökçeada</strong>'daki yazlık evler için sezonluk (Mayıs-Eylül) keşif günleri düzenliyoruz. Adaların tuzlu deniz havası, kumaş seçiminde anti-tuz kaplamalı modelleri gerektirir.",
-          "Gelibolu ve Eceabat'taki tarihi binaların pencere ölçüleri standart dışıdır. Bu binalar için <strong>özel ölçü üretim</strong> yapıyoruz. Biga ve Çan'daki sanayi tesisleri için yangın dayanımlı B1 kumaş ile kurumsal perde çözümleri sunuyoruz. Ayvacık ve Bayramiç'teki köy evlerinde ise geleneksel pencere tiplerine uygun vidasız klik sistemini uyguluyoruz.",
+          "Çanakkale Boğazı'nın iki yakasındaki konutlar, <strong>yıl boyu esen tuzlu deniz rüzgarına</strong> maruz kalır. Bozcaada ve Gökçeada'da bu etki daha da yoğundur. Adalardaki yazlık evler için <strong>anti-tuz kaplamalı kumaş</strong> üretiyoruz; tuz kristalleri kumaş gözeneklerini tıkamaz ve 5+ yıl dayanır. Sezonluk (Mayıs-Eylül) planlı keşif günleri ile adalara feribot ile ulaşıyoruz.",
+          "Gelibolu ve Eceabat'taki <strong>tarihi binalar</strong>, standart dışı pencere ölçülerine sahiptir. Her pencere için ayrı ölçü alıp özel üretim yapıyoruz; pencere kasası içine montaj ile tarihi cepheye zarar vermeden kurulum tamamlıyoruz. Biga ve Çan'daki sanayi tesisleri için yangın dayanımlı B1 sınıfı kumaş ile kurumsal çözümler sunuyoruz. Ayvacık ve Bayramiç'teki köy evlerinde ise geleneksel pencere tiplerine uygun <strong>vidasız klik sistemi</strong> uyguluyoruz.",
         ],
       },
       {
-        h2: "Çanakkale'nin 12 İlçesinde Boğaz ve Ada Servisi",
+        h2: "Çanakkale Boğazı ve Adalar Keşif Programı",
         paragraphs: [
           "<strong>Çanakkale merkez, Eceabat, Gelibolu, Lapseki, Ezine</strong>: Aylık planlı ücretsiz keşif. <strong>Biga, Çan, Yenice</strong>: Aylık planlı keşif. <strong>Ayvacık, Bayramiç</strong>: Aylık planlı keşif turları. <strong>Bozcaada, Gökçeada</strong>: Sezonluk (Mayıs-Eylül) planlı keşif günleri.",
         ],
       },
     ],
     faqItems: [
-      { question: "Bozcaada'daki yazlığa plise perde monte edebilir misiniz?", answer: "Evet, Bozcaada'ya Mayıs-Eylül arasında sezonluk planlı keşif günleri düzenliyoruz. Adanın tuzlu deniz havası için anti-tuz kaplamalı kumaş öneriyoruz. Sezon öncesi rezervasyon yapmanızı öneririz." },
-      { question: "Çanakkale Gelibolu tarihi binada perde yapılır mı?", answer: "Evet, Gelibolu'daki tarihi binaların standart dışı pencere ölçüleri için özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile tarihi dokuya zarar vermeden kurulur." },
+      { question: "Bozcaada'daki yazlığımıza hangi aylarda keşfe geliyorsunuz?", answer: "Bozcaada'ya Mayıs-Eylül arası sezonluk planlı keşif günleri düzenliyoruz. Feribot ile ulaşıyoruz. Adanın tuzlu deniz havası için anti-tuz kaplamalı kumaş öneriyoruz. Sezon öncesi rezervasyon yapmanızı öneririz." },
+      { question: "Gelibolu'daki tarihi evimizin pencere ölçüleri standart değil, özel üretim yapıyor musunuz?", answer: "Evet, Gelibolu ve Eceabat'taki tarihi binaların standart dışı pencere ölçüleri için her pencereye ayrı ölçü alıp özel üretim yapıyoruz. Pencere kasası içine montaj ile tarihi cepheye zarar vermeden kurulum tamamlıyoruz." },
     ],
   },
   {
@@ -292,27 +292,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: false,
     districts: ["Edirne merkez", "Enez", "Havsa", "İpsala", "Keşan", "Lalapaşa", "Meriç", "Süloğlu", "Uzunköprü"],
-    intro: "Edirne'nin 9 ilçesinde plise perde hizmeti veriyoruz. Osmanlı başkentinin tarihi cami ve binalarının çevresindeki konutlarda, <strong>geleneksel pencere ölçülerine uygun özel üretim</strong> yapıyoruz. Keşan ve İpsala sınır bölgelerindeki çiftlik evlerine de hizmet veriyoruz.",
-    seoTitle: "Edirne Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Edirne'nin 9 ilçesinde plise perde: Keşan, Uzunköprü, İpsala ücretsiz keşif. Tarihi bina pencereleri için özel ölçü üretim.",
+    intro: "Edirne'nin 9 ilçesinde plise perde üretip monte ediyoruz. Meriç Nehri kıyısından Saros Körfezi'ne uzanan bu topraklarda, <strong>Osmanlı başkenti mirasına saygılı pencere çözümleri</strong> geliştiriyoruz. Pendik'teki atölyemizden Keşan, Uzunköprü ve İpsala sınır kapılarına kadar her noktaya kargo ve planlı keşif ile ulaşıyoruz.",
+    seoTitle: "Edirne Plise Perde - Ücretsiz Keşif & Kargo Teslimat",
+    seoDescription: "Edirne'nin 9 ilçesine plise perde: Selimiye çevresi tarihi pencerelere özel ölçü, Keşan ve İpsala çiftlik evlerine kargo. Pendik merkezli üretim.",
     sections: [
       {
-        h2: "Edirne'nin Karasal İkliminde Perde Tercihleri",
+        h2: "Meriç Havzasında Plise Perde Uygulamaları",
         paragraphs: [
-          "Edirne, Trakya'nın iç kesiminde karasal iklimin etkisi altındadır. Yazları çok sıcak, kışları ise dondurucu soğuklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz — gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller.",
-          "Edirne merkezdeki Selimiye Camii çevresindeki tarihi evlerin pencereleri yüksektir ve dardır. Bu pencereler için <strong>uzun boy özel ölçü plise perde</strong> üretiyoruz. Keşan ve İpsala'daki tarım arazilerindeki çiftlik evlerinde ise geniş pencereler için katlanır sistem kullanıyoruz.",
+          "Edirne, Trakya'nın güneybatısında Meriç ve Tunca nehirlerinin birleştiği düzlükte kurulmuştur. Bölge yazın +38 dereceyi aşan sıcaklarla, kışın ise -10 dereceye inen donlarla sınanır. Bu geniş sıcaklık aralığı için <strong>çift katmanlı gece-gündüz plise perde</strong> öneriyoruz: gündüz katmanı güneş ışınını yumuşatır, gece katmanı camdan soğuk hava sızmasını keser.",
+          "Selimiye Camii'nin gölgesinde kalan Saraçlar Caddesi civarındaki konakların pencereleri dar ve yüksek tasarlanmıştır. Bu ölçüler için <strong>milimetrik hassasiyette özel boy üretim</strong> yapıyoruz. Keşan ovasının pirinç tarlaları arasındaki çiftlik evlerinde ise geniş cepheli pencerelere katlanır akordiyon sistem uyguluyoruz. Enez sahilinde Marmara Denizi'nin nemine karşı kaplamalı kumaş tercih ediyoruz.",
         ],
       },
       {
-        h2: "Edirne'nin 9 İlçesinde Sınır Bölgesi Servisi",
+        h2: "Edirne İlçelerinde Keşif ve Montaj Takvimi",
         paragraphs: [
-          "<strong>Edirne merkez, Havsa, Süloğlu</strong>: Aylık planlı ücretsiz keşif. <strong>Keşan, Uzunköprü, İpsala, Meriç, Enez</strong>: Aylık planlı keşif turları ile hizmet veriyoruz. Lalapaşa'ya da aynı tur kapsamında ulaşıyoruz.",
+          "<strong>Edirne merkez, Havsa, Süloğlu, Lalapaşa</strong> beldelerine her ay düzenli keşif turu düzenliyoruz. <strong>Keşan, Uzunköprü, İpsala, Meriç, Enez</strong> sınır ilçelerine ise aylık planlı seferler ile ulaşıyor, ücretsiz yerinde ölçü alıyoruz. Üretim Pendik'te tamamlandıktan sonra kargo veya ekibimizle teslim ediyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Edirne kışın çok soğuk, hangi perde önerirsiniz?", answer: "Edirne'nin karasal ikliminde gece-gündüz plise perde öneriyoruz. Gündüz katmanı sıcaklığı filtreler, gece karartma katmanı pencereden soğuk girişini azaltır. Honeycomb modeli de ısı yalıtımı için uygundur." },
-      { question: "Edirne tarihi evlerin pencerelerine perde yapılır mı?", answer: "Evet, Edirne merkezdeki tarihi evlerin yüksek dar pencereleri için özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile duvara zarar vermeden kurulur." },
+      { question: "Selimiye civarındaki tarihi konağımın pencerelerine perde takılır mı?", answer: "Takılır. Edirne merkezdeki dar ve yüksek Osmanlı pencere tipleri için pencere içine oturan milimetrik ölçü plise perde üretiyoruz. Duvara delik açmadan, yapışkanlı profil veya ince vidalı montaj ile tarihi dokuya zarar vermeden kuruyoruz." },
+      { question: "Keşan'daki çiftlik evime kargo ile perde gönderiyor musunuz?", answer: "Evet. Keşan dahil Edirne'nin tüm ilçelerine video keşif sonrası kargo teslimat veriyoruz. WhatsApp üzerinden pencere fotoğraflarınızı alıp ölçü ve modeli birlikte belirliyoruz, üretim sonrası kargoyla gönderiyoruz." },
     ],
   },
   {
@@ -321,27 +321,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: false,
     districts: ["Babaeski", "Demirköy", "Kırklareli merkez", "Kofçaz", "Lüleburgaz", "Pehlivanköy", "Pınarhisar", "Vize"],
-    intro: "Kırklareli'nin 8 ilçesinde plise perde hizmeti sunuyoruz. Bulgaristan sınırına yakın olan Kırklareli'nin <strong>soğuk kış iklimine uygun ısı yalıtımlı perde modellerini</strong> öneriyoruz. Lüleburgaz sanayi bölgesindeki fabrika ve ofis binalarına da kurumsal çözümler sunuyoruz.",
-    seoTitle: "Kırklareli Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kırklareli'nin 8 ilçesinde plise perde: Lüleburgaz, Babaeski, Vize ücretsiz keşif. Soğuk iklim için ısı yalıtımlı honeycomb modelleri.",
+    intro: "Kırklareli'nin 8 ilçesinde plise perde üretip teslim ediyoruz. Istranca Dağları'nın ormanlık yamaçlarından Lüleburgaz ovasına kadar uzanan bu ilde, <strong>kış donlarına karşı ısı tutucu petekli modeller</strong> öneriyoruz. Pendik atölyemizden Kırklareli'nin her belde­sine kargo ve planlı keşif ile ulaşıyoruz.",
+    seoTitle: "Kırklareli Plise Perde - Ücretsiz Keşif & Kargo Teslimat",
+    seoDescription: "Kırklareli'nin 8 ilçesine plise perde: Lüleburgaz sanayiye B1 kumaş, Vize taş binalara özel ölçü. Pendik merkezli üretim, kargo teslimat.",
     sections: [
       {
-        h2: "Kırklareli'nin Sınır İkliminde Perde Seçimi",
+        h2: "Istranca Ormanları Eteklerinde Pencere Çözümleri",
         paragraphs: [
-          "Kırklareli, Türkiye'nin kuzeybatı köşesinde, Bulgaristan sınırında yer alır. Kışları Trakya'nın en soğuk illerinden biridir. Bu nedenle Kırklareli konutlarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Petek yapısı, pencereden gelen dondurucu havayı filtreler ve ısıtma giderlerini belirgin şekilde düşürür.",
-          "Lüleburgaz sanayi bölgesindeki fabrika binaları ve işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş ile toplu perde çözümleri üretiyoruz. Demirköy ve Vize'deki tarihi taş binaların pencerelerine ise özel ölçü üretim yapıyoruz. Istranca Dağları'nın eteklerindeki kırsal evlerde yapışkanlı montaj sistemi ile delmeden perde takıyoruz.",
+          "Kırklareli, Türkiye'nin kuzeybatı ucunda Bulgaristan sınırına yaslanmış, Istranca (Yıldız) Dağları'nın sıradağlarıyla çevrili bir ildir. Kış aylarında Trakya'nın en düşük sıcaklık değerleri burada kaydedilir. Bu sert iklim için <strong>honeycomb petekli plise perde</strong> öneriyoruz; hücre boşlukları cam ile oda arasındaki hava akışını yavaşlatarak ısıtma faturasını belirgin ölçüde düşürür.",
+          "Vize ve Demirköy'deki Bizans döneminden kalma taş yapıların pencereleri düzensiz ölçülere sahiptir; bu nedenle her pencere için ayrı kalıp çıkarıyoruz. Lüleburgaz organize sanayi bölgesindeki fabrika yönetim binaları ve işçi lojmanlarında yangına dayanıklı <strong>B1 sınıfı kumaş</strong> ile toplu çözüm sunuyoruz. Kofçaz ve Pehlivanköy gibi dağ köylerinde yapışkanlı montaj sistemiyle duvar delmeden perde takıyoruz.",
         ],
       },
       {
-        h2: "Kırklareli'nin 8 İlçesinde Orman Bölgesi Servisi",
+        h2: "Kırklareli Beldelerinde Keşif Günü Planlaması",
         paragraphs: [
-          "<strong>Kırklareli merkez, Lüleburgaz, Babaeski, Pınarhisar</strong>: Aylık planlı ücretsiz keşif. <strong>Vize, Demirköy, Kofçaz, Pehlivanköy</strong>: Aylık planlı keşif turları kapsamında hizmet veriyoruz.",
+          "<strong>Kırklareli merkez, Lüleburgaz, Babaeski, Pınarhisar</strong> ilçelerine aylık planlı ücretsiz keşif turu düzenliyoruz. <strong>Vize, Demirköy, Kofçaz, Pehlivanköy</strong> beldelerine aynı tur güzergahı kapsamında ulaşıyoruz. Üretim Pendik'te yapılır, kargo veya keşif ekibiyle teslim edilir.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kırklareli kışın çok soğuk, hangi perde ısı yalıtımı sağlar?", answer: "Kırklareli'nin dondurucu kışları için honeycomb hücreli plise perde öneriyoruz. Petek yapısı pencereden gelen soğuk havayı filtreler, ısıtma giderlerini düşürür. Karartma katmanı eklenerek gece-gündüz modeli de tercih edilebilir." },
-      { question: "Lüleburgaz fabrikamız için toplu perde yaptırabilir miyiz?", answer: "Evet, Lüleburgaz sanayi bölgesindeki fabrika ve lojmanlar için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi ve montajı yapıyoruz. Kurumsal faturalı teslimat sağlıyoruz." },
+      { question: "Istranca eteklerindeki köy evim için delmesiz montaj var mı?", answer: "Var. Kırklareli'nin dağ köylerindeki ahşap ve taş evlerde duvara zarar vermemek için yapışkanlı profil montajı uyguluyoruz. Vida açmadan, pencere içine oturan sistemle perdeyi kuruyoruz." },
+      { question: "Lüleburgaz OSB'deki fabrikanın lojmanlarına toplu perde yapılır mı?", answer: "Yapılır. Lüleburgaz organize sanayi bölgesindeki fabrika yönetim binaları ve işçi lojmanları için yangın dayanımlı B1 sınıfı kumaşla toplu plise perde üretiyoruz. Kurumsal faturalı teslimat sağlıyoruz." },
     ],
   },
   {
@@ -350,27 +350,27 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: false,
     districts: ["Çerkezköy", "Çorlu", "Ergene", "Hayrabolu", "Kapaklı", "Malkara", "Marmaraereğlisi", "Muratlı", "Saray", "Şarköy", "Tekirdağ merkez"],
-    intro: "Tekirdağ'ın 11 ilçesinde plise perde hizmeti veriyoruz. <strong>Çorlu, Çerkezköy, Kapaklı</strong> sanayi bölgesine haftalık keşif ile hizmet sunuyoruz. Tekirdağ merkez ve Şarköy sahil bölgesindeki bağ evleri ve yazlıklar için de perde çözümleri mevcuttur.",
-    seoTitle: "Tekirdağ Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Tekirdağ'ın 11 ilçesinde plise perde: Çorlu, Çerkezköy, Kapaklı ücretsiz keşif. Sanayi tesisleri ve sahil yazlıkları için çözümler.",
+    intro: "Tekirdağ'ın 11 ilçesinde plise perde üretip teslim ediyoruz. Çorlu-Çerkezköy sanayi koridorundan Şarköy'ün bağ yamaçlarına kadar geniş bir coğrafyaya <strong>haftalık keşif ve kargo</strong> ile hizmet veriyoruz. Pendik'teki üretim tesisimizden Tekirdağ'ın her ilçesine düzenli sevkiyat yapıyoruz.",
+    seoTitle: "Tekirdağ Plise Perde - Ücretsiz Keşif & Kargo Teslimat",
+    seoDescription: "Tekirdağ'ın 11 ilçesine plise perde: Çorlu sanayiye B1 kumaş, Şarköy bağ evlerine güneşlik. Pendik merkezli üretim, haftalık keşif.",
     sections: [
       {
-        h2: "Tekirdağ Sanayi ve Sahil Bölgesinde Perde",
+        h2: "Çorlu Ovasından Şarköy Sahiline Perde Stratejileri",
         paragraphs: [
-          "Tekirdağ, Türkiye'nin en büyük sanayi bölgelerinden birine ev sahipliği yapar. <strong>Çorlu, Çerkezköy, Ergene ve Kapaklı</strong>'daki fabrika binaları, ofisler ve işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş ile toplu perde çözümleri sunuyoruz. Sanayi bölgesine haftalık keşif günleri düzenliyoruz.",
-          "Tekirdağ merkez ve Marmaraereğlisi sahil kesiminde, Marmara Denizi'nin nemine karşı anti-nem kaplamalı kumaş kullanıyoruz. Şarköy'ün üzüm bağları arasındaki bağ evleri ve yazlık konutlarında güneşlik kumaş öneriyoruz. Malkara ve Hayrabolu iç kesimlerinde ise karasal iklim etkisiyle honeycomb modeli daha uygun olur.",
+          "Tekirdağ, Trakya'nın güneyinde Marmara Denizi'ne bakan bir ildir; kuzeyde sanayi ağırlıklı Çorlu-Çerkezköy-Ergene-Kapaklı hattı, güneyde ise Marmaraereğlisi ve Şarköy sahil şeridi uzanır. Sanayi bölgesindeki fabrika idari binaları ve lojmanlar için <strong>alevsiz B1 sınıfı kumaş</strong> tercih ediyor, haftalık keşif günleriyle toplu projeleri yürütüyoruz.",
+          "Tekirdağ merkez ile Marmaraereğlisi'nde deniz nemine kaplamalı kumaş öneriyoruz. Şarköy'ün üzüm bağları arasında sıralanan bağ evlerinde güneş ışığını süzen güneşlik kumaş modelini uyguluyoruz. Malkara, Hayrabolu ve Saray gibi iç kesimlerde karasal etki belirgin olduğu için honeycomb petekli perde daha uygundur.",
         ],
       },
       {
-        h2: "Tekirdağ'ın 11 İlçesinde Sanayi ve Sahil Servisi",
+        h2: "Tekirdağ İlçelerinde Haftalık Servis Programı",
         paragraphs: [
-          "<strong>Çorlu, Çerkezköy, Kapaklı, Ergene</strong>: Haftalık ücretsiz keşif. <strong>Tekirdağ merkez, Marmaraereğlisi, Muratlı</strong>: Aylık planlı keşif. <strong>Malkara, Hayrabolu, Saray, Şarköy</strong>: Aylık planlı keşif turları.",
+          "<strong>Çorlu, Çerkezköy, Kapaklı, Ergene</strong> sanayi ilçelerine haftalık ücretsiz keşif günleri ayırıyoruz. <strong>Tekirdağ merkez, Marmaraereğlisi, Muratlı</strong> beldelerine aylık planlı keşif veriyoruz. <strong>Malkara, Hayrabolu, Saray, Şarköy</strong> iç ve sahil ilçelerine de aylık tur kapsamında ulaşıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Çorlu sanayi bölgesine haftalık keşif yapıyor musunuz?", answer: "Evet, Çorlu, Çerkezköy, Kapaklı ve Ergene sanayi bölgesine haftalık planlı keşif günleri ile ücretsiz yerinde keşif yapıyoruz. Fabrika ve lojmanlar için yangın dayanımlı B1 kumaş mevcuttur." },
-      { question: "Şarköy bağ evim için plise perde yaptırabilir miyim?", answer: "Evet, Şarköy'ün bağ evleri ve yazlık konutları için güneşlik kumaş plise perde öneriyoruz. Aylık planlı keşif turlarımız mevcuttur." },
+      { question: "Çerkezköy OSB'deki idari binamız için yangına dayanıklı perde var mı?", answer: "Var. Çerkezköy, Çorlu, Kapaklı ve Ergene sanayi bölgesindeki fabrika idari binaları ve lojmanlar için alev tutuşmaz B1 sınıfı kumaşla plise perde üretiyoruz. Haftalık keşif günlerimizle yerinde ölçü alıyoruz." },
+      { question: "Şarköy'deki bağ evimin geniş pencerelerine hangi model uygun?", answer: "Şarköy'ün bağ evlerinde güneş ışığını süzen güneşlik kumaş plise perde öneriyoruz. Geniş cepheli pencereler için katlanır akordiyon sistem uyguluyoruz. Aylık planlı keşif turlarımız mevcuttur." },
     ],
   },
   // --- EGE BÖLGESİ ---
@@ -380,27 +380,27 @@ export const cities: CityData[] = [
     region: "Ege",
     priority: false,
     districts: ["Aliağa", "Balçova", "Bayraklı", "Bornova", "Buca", "Çeşme", "Dikili", "Foça", "Gaziemir", "Güzelbahçe", "Karabağlar", "Karşıyaka", "Konak", "Menderes", "Menemen", "Narlıdere", "Seferihisar", "Selçuk", "Torbalı", "Urla", "Beydağ", "Kınık", "Kiraz", "Ödemiş", "Tire", "Bayındır"],
-    intro: "İzmir'in 26 ilçesinde plise perde hizmeti sunuyoruz. Ege'nin inci şehrinde <strong>video keşif ve kargo ile teslimat</strong> yapıyoruz. Kordon boyundan Çeşme yarımadasına, Bornova'dan Selçuk'a kadar İzmir'in her köşesine plise perde gönderiyoruz.",
-    seoTitle: "İzmir Plise Perde - Video Keşif & Kargo",
-    seoDescription: "İzmir'in 26 ilçesinde plise perde: Çeşme, Bornova, Karşıyaka video keşif ve kargo ile teslimat. Ege iklimine uygun nem dayanımlı kumaş.",
+    intro: "İzmir'in 26 ilçesinde plise perde üretip gönderiyoruz. Kordon'dan Çeşme yarımadasına, Bornova vadisinden Selçuk'un antik kalıntılarına kadar Ege'nin inci şehrinin her köşesine <strong>video keşif ve kargo</strong> ile ulaşıyoruz. Pendik'teki atölyemizden İzmir'in tüm beldelerine sevkiyat yapıyoruz.",
+    seoTitle: "İzmir Plise Perde - Video Keşif & Kargo Teslimat",
+    seoDescription: "İzmir'in 26 ilçesine plise perde: Çeşme, Urla, Bornova video keşif ve kargo. Ege tuzlu nemine dayanıklı kumaş. Pendik merkezli üretim.",
     sections: [
       {
-        h2: "İzmir'in Ege İkliminde Plise Perde",
+        h2: "Ege Kıyısında Tuzlu Neme Karşı Perde Kumaşı",
         paragraphs: [
-          "İzmir, Ege'nin ılık iklimi ile yaz aylarında yüksek sıcaklık ve neme sahiptir. <strong>Çeşme, Urla, Foça, Dikili</strong> gibi sahil ilçelerinde deniz nemine ve rüzgara dayanıklı kumaş tiplerini öneriyoruz. Bu beldelerdeki yazlık evler ve butik oteller için güneşlik + karartma kombinasyonu (gece-gündüz) idealdir.",
-          "Bornova, Buca, Karşıyaka, Konak gibi merkez ilçelerdeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. İzmir'in geniş pencereli Ege evlerinde, geniş açıklıklar için <strong>katlanır plise perde sistemleri</strong> uyguluyoruz. Aliağa ve Torbalı sanayi bölgelerindeki ofis binaları için profesyonel perde çözümleri mevcuttur.",
+          "İzmir, Ege Denizi'nin sıcak ve nemli havasının etkisinde kalan bir şehirdir; yaz aylarında nem oranı yüzde yetmişlere tırmanır. <strong>Çeşme, Urla, Foça, Dikili, Seferihisar</strong> gibi sahil ilçelerinde deniz tuzu ve rüzgarın kumaşa yapacağı tahribatı önlemek için kaplamalı nem dayanımlı kumaş kullanıyoruz. Bu beldelerdeki yazlık evler ve butik oteller için güneşlik ile karartmayı birleştiren gece-gündüz modelini öneriyoruz.",
+          "Bornova, Buca, Karşıyaka, Konak, Bayraklı ve Karabağlar gibi merkez ilçelerdeki apartman dairelerinde standart pencere ölçülerine hızlı üretim yapıyoruz. İzmir'in geniş cepheli Ege tipi evlerinde <strong>katlanır akordiyon plise perde</strong> uyguluyoruz. Aliağa ve Torbalı sanayi bölgelerindeki idari binalar için kurumsal çözümler sunuyoruz.",
         ],
       },
       {
-        h2: "İzmir'in 26 İlçesinde Online Sipariş Süreci",
+        h2: "İzmir İlçelerinde Uzaktan Keşif ve Kargo Akışı",
         paragraphs: [
-          "İzmir'e <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden görsel ve video ile pencere ölçülerinizi alıyor, uygun modeli birlikte belirliyoruz. Üretim sonrası kargo ile İzmir'in tüm ilçelerine teslimat yapıyoruz. Montaj için video rehberlik sağlıyor, yerel montaj ekibi gerektiğinde yönlendiriyoruz.",
+          "İzmir'e <strong>video keşif</strong> yöntemiyle hizmet veriyoruz. WhatsApp üzerinden pencere fotoğraf ve videolarınızı alarak ölçü ve modeli birlikte belirliyoruz. Üretim Pendik'te tamamlandıktan sonra kargoyla İzmir'in 26 ilçesinin tamamına teslimat yapıyoruz. Montaj için video rehberlik sağlıyor, gerektiğinde yerel montaj ekibi yönlendiriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "İzmir'de yerinde keşif yapıyor musunuz?", answer: "İzmir'e video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere fotoğraf ve videolarınızı alarak ölçü ve model belirliyoruz. Üretim sonrası kargo ile teslimat yapıyoruz." },
-      { question: "Çeşme yazlığım için hangi perde önerirsiniz?", answer: "Çeşme'nin rüzgarlı ve nemli ikliminde güneşlik + karartma kombinasyonu (gece-gündüz) öneriyoruz. Gündüz güneş ışığını filtreler, gece tam gizlilik sağlar. Deniz nemine dayanıklı kumaş kullanıyoruz." },
+      { question: "Çeşme'deki yazlığımın pencerelerine deniz nemine dayanıklı perde var mı?", answer: "Var. Çeşme, Urla, Foça gibi sahil beldelerinde deniz tuzu ve rüzgara kaplamalı nem dayanımlı kumaş kullanıyoruz. Güneşlik ve karartmayı birleştiren gece-gündüz modelini öneriyoruz." },
+      { question: "İzmir'de yerinde keşif yerine video keşif nasıl işliyor?", answer: "WhatsApp üzerinden pencere fotoğraf ve videolarınızı alıp ölçü ve modeli birlikte belirliyoruz. Üretim Pendik'te yapılır, kargoyla İzmir'in tüm ilçelerine teslim edilir. Montaj için video rehberlik veriyoruz." },
     ],
   },
   {
@@ -409,27 +409,27 @@ export const cities: CityData[] = [
     region: "Ege",
     priority: false,
     districts: ["Aydın merkez", "Bozdoğan", "Buharkent", "Çine", "Didim", "Germencik", "İncirliova", "Karacasu", "Karpuzlu", "Koçarlı", "Köşk", "Kuşadası", "Kuyucak", "Nazilli", "Söke", "Sultanhisar", "Yenipazar"],
-    intro: "Aydın'ın 17 ilçesinde plise perde hizmeti sunuyoruz. <strong>Kuşadası, Didim, Söke</strong> sahil beldelerindeki turistik tesisler ve yazlık konutlar için özel çözümler mevcuttur. Nazilli ve Aydın merkezdeki apartman daireleri için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Aydın Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Aydın'ın 17 ilçesinde plise perde: Kuşadası, Didim, Nazilli video keşif ve kargo ile teslimat. Turistik tesisler ve yazlık konutlar için çözümler.",
+    intro: "Aydın'ın 17 ilçesinde plise perde üretip teslim ediyoruz. Büyük Menderes Nehri'nin suladığı bu verimli ovada, <strong>Kuşadası ve Didim sahil tesislerinden Nazilli iç kesim konutlarına</strong> kadar geniş bir yelpazeye hizmet veriyoruz. Pendik atölyemizden Aydın'ın her belde­sine video keşif ve kargo ile ulaşıyoruz.",
+    seoTitle: "Aydın Plise Perde - Video Keşif & Kargo Teslimat",
+    seoDescription: "Aydın'ın 17 ilçesine plise perde: Kuşadası otellere blackout, Nazilli konutlarına güneşlik. Pendik merkezli üretim, kargo teslimat.",
     sections: [
       {
-        h2: "Aydın'ın Turistik Sahil Beldelerinde Perde",
+        h2: "Büyük Menderes Vadisinde Sıcak Yazlara Karşı Perde",
         paragraphs: [
-          "Aydın, Türkiye'nin en yoğun turizm bölgelerinden biridir. <strong>Kuşadası ve Didim</strong>'deki otel, apart ve pansiyonlar için sezon öncesi toplu perde üretimi yapıyoruz. Bu tesislerde misafir konforu için blackout (tam karartma) modeli öneriyoruz. Sahil nemine dayanıklı kumaş ile uzun ömürlü kullanım sağlıyoruz.",
-          "Aydın merkez ve Nazilli'deki konutlarda, Ege'nın sıcak yazlarına karşı <strong>güneşlik kumaş</strong> yeterli olur. Çine ve Bozdoğan iç kesimlerinde ise daha serin iklim nedeniyle standart tül kumaş tercih edilebilir. Söke'nin tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Aydın, Türkiye'nin en sıcak illerinden biridir; yazın vadide hava +42 dereceyi geçer. <strong>Kuşadası ve Didim</strong>'deki otel, apart ve pansiyonlarda misafir konforu için tam karartmalı blackout plise perde öneriyor, sahil nemine dayanıklı kumaşla sezon öncesi toplu üretim yapıyoruz. Söke ovasının pamuk tarlaları arasındaki çiftlik evlerinde geniş pencerelere katlanır sistem uyguluyoruz.",
+          "Aydın merkez ve Nazilli'deki apartman dairelerinde Ege'nin kavurucu güneşine karşı <strong>güneşlik kumaş</strong> yeterli gelir. Çine ve Bozdoğan gibi dağlık iç kesimlerde hava daha serin olduğundan standart tül kumaş tercih edilebilir. Karacasu'nun tarihi evlerinde pencere içine oturan özel ölçü üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Aydın'ın 17 İlçesinde Turizm Bölgesi Teslimatı",
+        h2: "Aydın Beldelerinde Turizm Sezonu Öncesi Sipariş",
         paragraphs: [
-          "Aydın'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden ölçü alıp, üretim sonrası kargo ile teslimat yapıyoruz. Kuuşadası ve Didim'deki otel projeleri için sezon öncesi (Mart-Nisan) sipariş vermenizi öneririz.",
+          "Aydın'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim sonrası kargoyla teslimat yapıyoruz. Kuşadası ve Didim otel projeleri için sezon açılmadan Mart-Nisan döneminde sipariş vermenizi öneriyoruz; yaz aylarında üretim yoğunluğu teslim süresini uzatabilir.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kuşadası otelim için toplu perde yaptırabilir miyim?", answer: "Evet, Kuşadası'ndaki otel, apart ve pansiyonlar için sezon öncesi toplu plise perde üretimi yapıyoruz. Misafir konforu için blackout modeli öneriyoruz. Sezon öncesi (Mart-Nisan) sipariş vermenizi öneririz." },
-      { question: "Didim yazlığım için video keşif yapılır mı?", answer: "Evet, Didim dahil Aydın'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Kuşadası'ndaki otelime sezon öncesi toplu blackout perde yaptırabilir miyim?", answer: "Yaptırabilirsiniz. Kuşadası otel, apart ve pansiyonları için tam karartmalı blackout plise perdeyi sahil nemine dayanıklı kumaşla toplu üretiyoruz. Sezon açılmadan Mart-Nisan'da sipariş vermenizi öneriyoruz." },
+      { question: "Nazilli'deki apartmanım için video keşif yeterli olur mu?", answer: "Olur. Aydın'ın tüm ilçelerinde olduğu gibi Nazilli'de de WhatsApp üzerinden pencere fotoğraflarınızı alıp ölçü ve modeli belirliyoruz. Üretim Pendik'te yapılır, kargoyla Nazilli'ye teslim edilir." },
     ],
   },
   {
@@ -438,27 +438,27 @@ export const cities: CityData[] = [
     region: "Ege",
     priority: false,
     districts: ["Bodrum", "Dalaman", "Datça", "Fethiye", "Kavaklıdere", "Köyceğiz", "Marmaris", "Menteşe", "Milas", "Muğla merkez", "Ortaca", "Seydikemer", "Ula", "Yatağan"],
-    intro: "Muğla'nın 13 ilçesinde plise perde hizmeti sunuyoruz. <strong>Bodrum, Marmaris, Fethiye</strong> gibi Türkiye'nin en önemli turizm merkezlerindeki otel, villa ve yazlık konutlar için özel perde çözümleri üretiyoruz. Ege ve Akdeniz ikliminin kesiştiği Muğla'da nem dayanımlı kumaş kullanıyoruz.",
-    seoTitle: "Muğla Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Muğla'nın 13 ilçesinde plise perde: Bodrum, Marmaris, Fethiye video keşif ve kargo. Turizm tesisleri ve villa projeleri için özel çözümler.",
+    intro: "Muğla'nın 13 ilçesinde plise perde üretip gönderiyoruz. Ege ve Akdeniz iklimlerinin buluştuğu bu ilde, <strong>Bodrum, Marmaris, Fethiye</strong> başta olmak üzere turizm kıyılarındaki villa ve otellere özel çözümler sunuyoruz. Pendik'teki atölyemizden Muğla'nın dağ ve sahil beldelerinin tamamına kargo ile ulaşıyoruz.",
+    seoTitle: "Muğla Plise Perde - Video Keşif & Kargo Teslimat",
+    seoDescription: "Muğla'nın 13 ilçesine plise perde: Bodrum villalara motorlu sistem, Marmaris otellere blackout. Pendik merkezli üretim, kargo teslimat.",
     sections: [
       {
-        h2: "Muğla Turizm Bölgesinde Perde Çözümleri",
+        h2: "Bodrum Yarımadasından Fethiye Körfezine Villa Perdesi",
         paragraphs: [
-          "Muğla, Türkiye turizminin başkentidir. <strong>Bodrum yarımadasındaki</strong> beyaz villalardan Marmaris'in marina çevresindeki lüks dairelerine, Fethiye Ölüdeniz'in butik otellerinden Datça'nın sakin evlerine kadar geniş bir yelpazede perde uygulaması yaptık. Bu beldelerdeki deniz nemine ve yoğun güneşe dayanıklı özel kumaş tipleri kullanıyoruz.",
-          "Bodrum ve Marmaris'teki <strong>villa projeleri</strong> için motorlu plise perde sistemleri sunuyoruz. Uzaktan kumanda ile perde açıp kapama özelliği, turistik kiralık villalarda misafir konforu için idealdir. Milas ve Yatağan iç kesimlerinde ise standart plise perde modelleri yeterlidir.",
+          "Muğla, Türkiye turizminin kalbidir; <strong>Bodrum yarımadasındaki</strong> beyaz badanalı villalardan Marmaris marina çevresindeki lüks rezidanslara, Fethiye Ölüdeniz'in butik otellerinden Datça'nın sakin sokaklarına kadar sayısız konutta perde uyguladık. Bu kıyılarda deniz tuzu ve yoğun güneşe dayanıklı özel kumaş tipleri kullanıyoruz.",
+          "Bodrum ve Marmaris'teki <strong>kiralık villa projeleri</strong> için uzaktan kumandalı motorlu plise perde sistemleri kuruyoruz; misafirler perdeyi yataktan kalkmadan açıp kapayabilir. Milas, Yatağan ve Kavaklıdere gibi iç kesimlerde standart manuel modeller yeterli olur. Köyceğiz ve Dalaman göl çevresindeki evlerde nem dayanımlı kumaş tercih ediyoruz.",
         ],
       },
       {
-        h2: "Muğla'nın 14 İlçesinde Sezonluk Perde Planlaması",
+        h2: "Muğla Sahil Beldelerinde Sezonluk Üretim Takvimi",
         paragraphs: [
-          "Muğla'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Turizm bölgesi olduğundan, sezoon öncesi (Şubat-Nisan) sipariş vermenizi öneririz. Yaz aylarında üretim yoğunluğu nedeniyle teslim süreleri uzayabilir. Kargo ile Bodrum, Marmaris, Fethiye, Datça ve tüm ilçelere teslimat yapıyoruz.",
+          "Muğla'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Turizm bölgesi olduğundan sezon açılmadan Şubat-Nisan döneminde sipariş vermenizi öneriyoruz; yaz aylarında üretim yoğunluğu teslim süresini uzatabilir. Kargoyla Bodrum, Marmaris, Fethiye, Datça, Dalaman, Ortaca ve diğer tüm ilçelere teslimat yapıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Bodrum villam için motorlu plise perde yaptırabilir miyim?", answer: "Evet, Bodrum villaları için motorlu plise perde sistemleri üretiyoruz. Uzaktan kumanda ile açılıp kapanır, turistik kiralık villalarda misafir konforu için idealdir. Deniz nemine dayanıklı kumaş kullanıyoruz." },
-      { question: "Marmaris otelim için ne zaman sipariş vermeliyim?", answer: "Marmaris turizm bölgesi olduğundan sezon öncesi (Şubat-Nisan) sipariş vermenizi öneririz. Yaz aylarında üretim yoğunluğu nedeniyle teslim süreleri uzayabilir." },
+      { question: "Bodrum'daki kiralık villama uzaktan kumandalı motorlu perde takılır mı?", answer: "Takılır. Bodrum villaları için uzaktan kumandalı motorlu plise perde sistemleri üretiyoruz. Misafirler perdeyi kumandayla açıp kapayabilir, deniz nemine dayanıklı kumaş kullanıyoruz." },
+      { question: "Fethiye'deki butik otelime ne zaman sipariş vermeliyim?", answer: "Fethiye turizm bölgesi olduğundan sezon açılmadan Şubat-Nisan arasında sipariş vermenizi öneriyoruz. Yaz aylarında üretim yoğunluğu teslim süresini uzatabilir." },
     ],
   },
   {
@@ -467,27 +467,27 @@ export const cities: CityData[] = [
     region: "Ege",
     priority: false,
     districts: ["Ahmetli", "Akhisar", "Alaşehir", "Demirci", "Gölmarmara", "Gördes", "Kırkağaç", "Köprübaşı", "Kula", "Manisa merkez", "Salihli", "Sarıgöl", "Saruhanlı", "Selendi", "Soma", "Turgutlu", "Yunusemre", "Şehzadeler"],
-    intro: "Manisa'nın 17 ilçesinde plise perde hizmeti veriyoruz. <strong>Soma, Akhisar, Turgutlu</strong> sanayi bölgelerindeki fabrika ve lojmanlar için kurumsal perde çözümleri sunuyoruz. Manisa merkez ve Alaşehir'deki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Manisa Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Manisa'nın 17 ilçesinde plise perde: Soma, Akhisar, Turgutlu video keşif ve kargo. Sanayi tesisleri ve konutlar için çözümler.",
+    intro: "Manisa'nın 17 ilçesinde plise perde üretip teslim ediyoruz. Gediz Nehri'nin suladığı bu ovada <strong>Soma, Akhisar, Turgutlu</strong> sanayi bölgelerindeki fabrika ve lojmanlara kurumsal çözümler sunuyor, Manisa merkez ve Alaşehir konutlarına video keşif ve kargo ile ulaşıyoruz. Pendik atölyemizden her beldeye sevkiyat yapıyoruz.",
+    seoTitle: "Manisa Plise Perde - Video Keşif & Kargo Teslimat",
+    seoDescription: "Manisa'nın 17 ilçesine plise perde: Soma maden lojmanlarına B1 kumaş, Alaşehir bağ evlerine güneşlik. Pendik merkezli üretim, kargo teslimat.",
     sections: [
       {
-        h2: "Manisa'nın Sanayi ve Tarım Bölgesinde Perde",
+        h2: "Gediz Ovasında Sanayi ve Çiftlik Evleri İçin Perde",
         paragraphs: [
-          "Manisa, Türkiye'nin en büyük sanayi ve tarım illerinden biridir. <strong>Soma</strong>'daki maden ve enerji tesisleri, <strong>Akhisar</strong>'daki organize sanayi bölgesi, <strong>Turgutlu</strong>'daki fabrikalar için yangın dayanımlı B1 sınıfı kumaş ile toplu perde çözümleri üretiyoruz. İşçi lojmanlarında standart ölçülere hızlı üretim yapıyoruz.",
-          "Manisa'nın tarım arazilerindeki çiftlik evlerinde, geniş pencereler için <strong>katlanır plise perde sistemi</strong> uyguluyoruz. Alaşehir ve Salihli'nin bağ ve bahçe evlerinde güneşlik kumaş öneriyoruz. Spil Dağı eteklerindeki Manisa merkez konutlarında ise Ege iklimine uygun standart modeller yeterlidir.",
+          "Manisa, Türkiye'nin en yoğun sanayi ve tarım illerinden biridir. <strong>Soma</strong>'daki maden ve enerji tesisleri, <strong>Akhisar</strong> organize sanayi bölgesi ve <strong>Turgutlu</strong> fabrikaları için alev tutuşmaz B1 sınıfı kumaşla toplu plise perde üretiyor, işçi lojmanlarında standart ölçülere hızlı üretim yapıyoruz.",
+          "Gediz ovasının üzüm ve tütün tarlaları arasındaki çiftlik evlerinde geniş cepheli pencerelere <strong>katlanır akordiyon sistem</strong> uyguluyoruz. Alaşehir ve Salihli'nin bağ evlerinde güneş ışığını süzen güneşlik kumaş öneriyoruz. Spil Dağı'nın yamacındaki Manisa merkez konutlarında Ege iklimine uygun standart modeller yeterli gelir.",
         ],
       },
       {
-        h2: "Manisa'nın 18 İlçesinde Sanayi ve Tarım Teslimatı",
+        h2: "Manisa İlçelerinde Kurumsal ve Bireysel Teslimat",
         paragraphs: [
-          "Manisa'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim sonrası kargo ile teslimat yapıyoruz. Sanayi tesisleri için kurumsal faturalı teslimat sağlıyoruz.",
+          "Manisa'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim sonrası kargoyla teslimat yapıyoruz. Sanayi tesisleri için kurumsal faturalı teslimat sağlıyor, lojman projelerinde toplu montaj planlıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Manisa Soma'daki fabrika için toplu perde yaptırabilir miyim?", answer: "Evet, Soma'daki maden ve enerji tesisleri için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz. İşçi lojmanları için standart ölçülere hızlı üretim mevcuttur." },
-      { question: "Manisa'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Manisa'nın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere fotoğraf ve videolarınızı alarak ölçü ve model belirliyoruz. Kargo ile teslimat yapıyoruz." },
+      { question: "Soma'daki maden lojmanlarına yangına dayanıklı toplu perde yapılır mı?", answer: "Yapılır. Soma maden ve enerji tesisleri ile işçi lojmanları için alev tutuşmaz B1 sınıfı kumaşla toplu plise perde üretiyoruz. Standart lojman ölçülerine hızlı üretim sağlıyoruz." },
+      { question: "Alaşehir'deki bağ evimin pencerelerine hangi model uygun düşer?", answer: "Alaşehir ve Salihli bağ evlerinde güneş ışığını süzen güneşlik kumaş plise perde öneriyoruz. Geniş cepheli pencereler için katlanır akordiyon sistem uyguluyoruz. Video keşif ve kargo ile teslimat yapıyoruz." },
     ],
   },
   {
@@ -496,27 +496,27 @@ export const cities: CityData[] = [
     region: "Ege",
     priority: false,
     districts: ["Afyonkarahisar merkez", "Başmakçı", "Bayat", "Bolvadin", "Çay", "Çobanlar", "Dazkırı", "Dinar", "Emirdağ", "Evciler", "Hocalar", "İhsaniye", "İscehisar", "Kızılören", "Sandıklı", "Sincanlı", "Sultandağı", "Şuhut"],
-    intro: "Afyonkarahisar'ın 18 ilçesinde plise perde hizmeti sunuyoruz. İç Ege'nin karasal ikliminde, kış soğuklarına karşı <strong>ısı yalıtımlı honeycomb modelleri</strong> öneriyoruz. Afyon merkez ve Sandıklı'daki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Afyonkarahisar Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Afyonkarahisar'ın 18 ilçesinde plise perde: Sandıklı, Bolvadin, Dinar video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
+    intro: "Afyonkarahisar'ın 18 ilçesinde plise perde üretip gönderiyoruz. İç Ege'nin karasal iklim kuşağında kışın -15 dereceye inen donlara karşı <strong>ısı tutucu honeycomb modellerini</strong> öneriyoruz. Afyon merkez ve Sandıklı konutlarına video keşif ve kargo ile, termal otellere özel kumaşla ulaşıyoruz. Pendik atölyemizden her beldeye sevkiyat yapıyoruz.",
+    seoTitle: "Afyonkarahisar Plise Perde - Video Keşif & Kargo Teslimat",
+    seoDescription: "Afyonkarahisar'ın 18 ilçesine plise perde: termal otellere anti-buhar kumaş, Sandıklı konutlarına honeycomb. Pendik merkezli üretim, kargo teslimat.",
     sections: [
       {
-        h2: "Afyonkarahisar'ın Karasal İkliminde Perde",
+        h2: "Afyon Ovasında Termal Buhara Dayanıklı Perde Kumaşı",
         paragraphs: [
-          "Afyonkarahisar, İç Ege'nin karasal iklim kuşağında yer alır. Kışları -15°C'ye varan soğuklar, yazları +40°C'ye varan sıcaklar görülür. Bu uç sıcaklık farkları için <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Petek yapısı, pencereden gelen soğuk ve sıcak havayı filtreler, ısıtma ve soğutma giderlerini düşürür.",
-          "Afyon merkezdeki termal oteller için anti-buhar kaplamalı kumaş kullanıyoruz. Sandıklı ve Dinar'daki konutlarda karartma + honeycomb kombinasyonu ile hem ısı yalıtımı hem de karanlık uyku ortamı sağlıyoruz. Bolvadin ve Çay'daki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Afyonkarahisar, İç Ege'nin karasal kuşağında yer alır; kışın -15 dereceye varan donlar, yazın +40 dereceyi aşan sıcaklar görülür. Bu uç sıcaklık farkları için <strong>honeycomb petekli ısı yalıtımlı plise perde</strong> öneriyoruz; hücre yapısı camdan gelen soğuk ve sıcak havayı süzerek ısıtma ve soğutma giderlerini düşürür.",
+          "Afyon merkezdeki termal otellerde sıcak su buharı normal kumaşı kısa sürede bozar; bu nedenle <strong>anti-buhar kaplamalı nem dayanımlı kumaş</strong> kullanıyoruz. Sandıklı ve Dinar'da karartma ile honeycomb birleşimini uygulayarak hem ısı yalıtımı hem de karanlık uyku ortamı sağlıyoruz. Bolvadin ve Çay'daki çiftlik evlerinde geniş pencerelere katlanır sistem kuruyoruz.",
         ],
       },
       {
-        h2: "Afyonkarahisar'ın 18 İlçesinde Termal Bölge Gönderimi",
+        h2: "Afyonkarahisar İlçelerinde Kışlık Perde Gönderimi",
         paragraphs: [
-          "Afyonkarahisar'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz. Termal otel projeleri için özel kumaş seçenekleri mevcuttur.",
+          "Afyonkarahisar'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden ölçü alıp, üretim sonrası kargoyla teslimat yapıyoruz. Termal otel projeleri için anti-buhar kaplamalı özel kumaş seçenekleri mevcuttur.",
         ],
       },
     ],
     faqItems: [
-      { question: "Afyonkarahisar kışın çok soğuk, hangi perde önerirsiniz?", answer: "Afyonkarahisar'ın karasal ikliminde honeycomb hücreli ısı yalıtımlı plise perde öneriyoruz. Petek yapısı pencereden gelen dondurucu havayı filtreler, ısıtma giderlerini düşürür." },
-      { question: "Afyon termal otel için perde yaptırabilir miyim?", answer: "Evet, Afyon merkezdeki termal oteller için anti-buhar kaplamalı, nem dayanımlı kumaş ile plise perde üretiyoruz. Termal su buharı normal kumaşları bozar, bu yüzden özel kumaş kullanıyoruz." },
+      { question: "Afyon'daki termal otelime buhar dayanımlı perde bulunur mu?", answer: "Bulunur. Afyon merkezdeki termal otellerde sıcak su buharı normal kumaşı bozar; bu yüzden anti-buhar kaplamalı nem dayanımlı kumaşla plise perde üretiyoruz. Termal tesisler için özel kumaş seçenekleri mevcuttur." },
+      { question: "Sandıklı'daki evim kışın donuyor, hangi perde ısı tutar?", answer: "Sandıklı'nın karasal ikliminde honeycomb petekli ısı yalıtımlı plise perde öneriyoruz. Karartma ile birleştirerek hem ısı yalıtımı hem de karanlık uyku ortamı sağlıyoruz. Kargoyla Sandıklı'ya teslimat yapıyoruz." },
     ],
   },
   {
@@ -525,27 +525,27 @@ export const cities: CityData[] = [
     region: "Ege",
     priority: false,
     districts: ["Altıntaş", "Aslanapa", "Çavdarhisar", "Domaniç", "Dumlupınar", "Emet", "Gediz", "Hisarcık", "Kütahya merkez", "Pazarlar", "Simav", "Şaphane", "Tavşanlı"],
-    intro: "Kütahya'nın 13 ilçesinde plise perde hizmeti veriyoruz. İç Ege'nin yüksek rakımlı karasal ikliminde, <strong>kış soğuklarına karşı ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Kütahya merkez ve Tavşanlı'daki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kütahya Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kütahya'nın 13 ilçesinde plise perde: Tavşanlı, Simav, Gediz video keşif ve kargo. Yüksek rakım karasal iklim için ısı yalıtımlı modeller.",
+    intro: "Kütahya'nın 13 ilçesinde plise perde üretip teslim ediyoruz. 969 metre rakımıyla İç Ege'nin en yüksek illerinden birinde, <strong>kış kar yağışlarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Kütahya merkez ve Tavşanlı konutlarına video keşif ve kargo ile ulaşıyoruz. Pendik atölyemizden her beldeye sevkiyat yapıyoruz.",
+    seoTitle: "Kütahya Plise Perde - Video Keşif & Kargo Teslimat",
+    seoDescription: "Kütahya'nın 13 ilçesine plise perde: 969m rakıma çift petekli honeycomb, Simav maden lojmanlarına B1 kumaş. Pendik merkezli üretim, kargo teslimat.",
     sections: [
       {
-        h2: "Kütahya'nın Yüksek Rakım İkliminde Perde",
+        h2: "Kütahya Yaylasında Çift Petekli Perde ile Isı Tutucu",
         paragraphs: [
-          "Kütahya, 969 metre rakımıyla İç Ege'nin en yüksek illerinden biridir. Kışları şiddetli soğuklar ve kar yağışı görülür. Bu nedenle Kütahya konutlarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Çift petekli honeycomb modeli, -20°C'ye varan soğuklarda bile pencereden ısı kaybını minimuma indirir.",
-          "Kütahya'nın çini ve seramik atölyelerinin bulunduğu sanayi bölgesinde, iş atölyelerinin pencereleri için güneşlik kumaş öneriyoruz. Emet ve Gediz'deki termal kaynaklar çevresindeki konutlarda anti-nem kumaş kullanıyoruz. Simav ve Tavşanlı'daki maden işçi lojmanlarında yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz.",
+          "Kütahya, 969 metrelik rakımıyla İç Ege'nin en yüksek illerinden biridir; kışın şiddetli soğuklar ve kar yağışı görülür. Bu nedenle Kütahya konutlarında <strong>çift petekli honeycomb plise perde</strong> öneriyoruz; iki katmanlı hücre yapısı -20 dereceye varan soğuklarda bile camdan ısı kaybını en aza indirir.",
+          "Kütahya'nın çini ve seramik atölyelerinin yoğunlaştığı sanayi bölgesinde iş atölyelerinin pencerelerine güneşlik kumaş uyguluyoruz. Emet ve Gediz'deki termal kaynaklar çevresindeki evlerde nem dayanımlı kumaş tercih ediyoruz. Simav ve Tavşanlı'daki maden işçi lojmanlarında alev tutuşmaz B1 sınıfı kumaşla toplu perde çözümleri sunuyoruz.",
         ],
       },
       {
-        h2: "Kütahya'nın 13 İlçesinde Seramik Bölgesi Teslimatı",
+        h2: "Kütahya İlçelerinde Seramik Atölyelerine Özel Gönderim",
         paragraphs: [
-          "Kütahya'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Kütahya'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan çift petekli honeycomb modelini öneriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim sonrası kargoyla teslimat yapıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kütahya kışın çok soğuk, honeycomb perde işe yarar mı?", answer: "Evet, Kütahya'nın 969 metre rakımında honeycomb hücreli plise perde ısı yalıtımı sağlar. Çift petekli model, -20°C soğuklarda bile pencereden ısı kaybını minimuma indirir." },
-      { question: "Kütahya'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Kütahya'nın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Kütahya'nın 969 metre rakımında çift petekli honeycomb ısı kaybını önler mi?", answer: "Önler. Kütahya'nın yüksek rakımında çift petekli honeycomb plise perde, iki katmanlı hücre yapısıyla -20 dereceye varan soğuklarda bile camdan ısı kaybını en aza indirir. Kargoyla Kütahya'ya teslimat yapıyoruz." },
+      { question: "Simav'daki maden lojmanlarına yangına dayanıklı perde yaptırabilir miyim?", answer: "Yaptırabilirsiniz. Simav ve Tavşanlı'daki maden işçi lojmanları için alev tutuşmaz B1 sınıfı kumaşla toplu plise perde üretiyoruz. Kurumsal faturalı teslimat sağlıyoruz." },
     ],
   },
   {
@@ -554,27 +554,28 @@ export const cities: CityData[] = [
     region: "Ege",
     priority: false,
     districts: ["Acıpayam", "Babadağ", "Baklan", "Bekilli", "Beyağaç", "Bozkurt", "Buldan", "Çal", "Çameli", "Çardak", "Çivril", "Denizli merkez", "Güney", "Honaz", "Kale", "Merkezefendi", "Pamukkale", "Sarayköy", "Serinhisar", "Tavas"],
-    intro: "Denizli'nin 19 ilçesinde plise perde hizmeti sunuyoruz. Pamukkale turizm bölgesindeki oteller ve Buldan dokuma bölgesindeki konutlar için özel çözümler mevcuttur. Denizli merkez ve Sarayköy'deki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Denizli Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Denizli'nin 19 ilçesinde plise perde: Pamukkale, Buldan, Çivril video keşif ve kargo. Turizm tesisleri ve tekstil bölgesi için çözümler.",
+    intro: "Denizli'nin 19 ilçesinde plise perde üretip kargo ile gönderiyoruz. Pendik İstanbul'daki atölyemizden <strong>Buldan'ın dokuma kültürlü evlerine, Pamukkale'nin termal otellerine ve Çivril'in çiftlik konutlarına</strong> kadar geniş bir yelpazede çözüm sunuyoruz. Video keşif ile ölçü alıp, tüm ilçelere kurye teslimat sağlıyoruz.",
+    seoTitle: "Denizli Plise Perde - Buldan ve Pamukkale Özel Üretim",
+    seoDescription: "Denizli'nin 19 ilçesine Pendik merkezli plise perde üretimi. Buldan dokuma mirasına uygun modeller, Pamukkale termal otelleri için anti-buhar kumaş. Video keşif ve kargo teslimat.",
     sections: [
       {
-        h2: "Denizli'nin Tekstil ve Turizm Şehrinde Perde",
+        h2: "Buldan Dokuma Mirası ve Pamukkale Termal Bölgesinde Plise Perde",
         paragraphs: [
-          "Denizli, Türkiye'nin tekstil başkentidir. <strong>Buldan</strong> dokuma geleneğinin yaşatıldığı ilçede, evlerde perde kültürü güçlüdür. Buldanlı aileler için özgün desenli plise perde modelleri üretiyoruz. Pamukkale ve Karahayıt termal turizm bölgesindeki oteller için anti-buhar kaplamalı, nem dayanımlı kumaş kullanıyoruz.",
-          "Denizli merkez (Merkezefendi, Pamukkale ilçeleri) konutlarında Ege iklimine uygun güneşlik kumaş öneriyoruz. Çivril ve Acıpayam'ın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Honaz'daki organize sanayi bölgesi ofisleri için profesyonel perde çözümleri sunuyoruz.",
+          "Denizli, yüz yıllardır Anadolu'nun dokuma beşiği olarak bilinir. <strong>Buldan</strong> ilçesinde el tezgahı kültürüyle büyümüş ailelerin evlerinde perdeye verilen değer yüksektir; bu nedenle dokuma dokulu kumaş yüzeyli plise modellerimizi Buldan konutları için özel olarak üretiyoruz. Pamukkale ve Karahayıt'taki termal kaynak çevresindeki otellerde ise sürekli buharlı ortam, standart kumaşları kısa sürede yıpratır; bu tesisler için <em>anti-buhar kaplamalı</em> nem dayanımlı kumaş tercih ediyoruz.",
+          "Merkezefendi ve Pamukkale ilçelerinin modern apartmanlarında Ege'nin sert yaz güneşine karşı güneşlik kumaş öneriyoruz. Çivril ve Acıpayam ovalarındaki tarım işletmelerinin geniş pencereli çiftlik evlerinde katlanır sistem uygulayarak panoramik manzarayı koruyoruz. Honaz Organize Sanayi Bölgesi'ndeki tekstil atölyelerinin idari ofislerine ise profesyonel görünüm sağlayan düz renkli modeller monte ediyoruz.",
         ],
       },
       {
-        h2: "Denizli'nin 19 İlçesinde Tekstil Şehri Gönderimi",
+        h2: "Ege İkliminin Sert Güneşine Karşı Perde Stratejileri",
         paragraphs: [
-          "Denizli'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Pamukkale otel projeleri için sezon öncesi sipariş vermenizi öneririz. Kargo ile tüm ilçelere teslimat yapıyoruz.",
+          "Denizli'de yaz günleri <strong>35°C'nin üzerine</strong> çıkar ve güneş ışınımı yoğundur. Pencereden gelen ısıyı kırpmak için güneşlik kumaşlı plise perde, iç mekanda 3-4 derecelik serinletme etkisi yaratır. Karartma modeli ise tam ışık kesisi yaparak öğle saatlerinde oda sıcaklığını belirgin biçimde düşürür ve klima yükünü hafifletir.",
+          "İlin tamamına <strong>video keşif</strong> uygulamasıyla hizmet veriyoruz: WhatsApp üzerinden pencere görüntülerini alıp, ölçüleri birlikte belirliyoruz ve Pendik'teki üretim hattımızda kesiyoruz. Kargo ile Merkezefendi, Sarayköy, Tavas, Çal, Güney dahil tüm ilçelere ortalama 3 iş gününde teslimat yapıyoruz. Termal otel projeleri için sezon başlangıcından en az iki ay önce sipariş alınmasını öneriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Pamukkale otelim için perde yaptırabilir miyim?", answer: "Evet, Pamukkale ve Karahayıt termal turizm bölgesindeki oteller için anti-buhar kaplamalı, nem dayanımlı kumaş ile plise perde üretiyoruz. Sezon öncesi sipariş vermenizi öneririz." },
-      { question: "Buldan'da özel desenli plise perde bulunur mu?", answer: "Evet, Buldan'ın dokuma geleneğine uygun özgün desenli plise perde modelleri üretiyoruz. Buldanlı aileler için kültürel dokuya uygun perde çözümleri sunuyoruz." },
+      { question: "Buldan'daki evim için dokuma dokulu plise perde bulabilir miyim?", answer: "Buldan'ın el tezgahı geleneğinden ilham alarak dokuma yüzeyli kumaşlarla plise perde üretiyoruz. Pendik atölyemizde özel kesim yapıp kargo ile Buldan'a gönderiyoruz. Video keşif sırasında dokulu kumaş numunelerini de görüntülü olarak tanıtıyoruz." },
+      { question: "Pamukkale termal otelimde buharlı ortama hangi kumaş dayanır?", answer: "Termal kaynak çevresindeki sürekli buhar ve yüksek nem, standart kumaşları 1-2 yılda deforme eder. Anti-buhar kaplamalı nem dayanımlı kumaşımız 5 yıldan fazla ömür sunar. Otel projeleri için B1 yangın sınıfı seçeneği de mevcuttur; sezon öncesi sipariş edilmesini öneririz." },
     ],
   },
   {
@@ -583,27 +584,28 @@ export const cities: CityData[] = [
     region: "Ege",
     priority: false,
     districts: ["Banaz", "Eşme", "Karahallı", "Sivaslı", "Ulubey", "Uşak merkez"],
-    intro: "Uşak'ın 6 ilçesinde plise perde hizmeti veriyoruz. Ege ile İç Anadolu geçişinde bulunan Uşak'ın karasal iklimine uygun <strong>ısı yalıtımlı ve karartma modellerini</strong> öneriyoruz. Uşak merkez ve Banaz'daki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Uşak Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Uşak'ın 6 ilçesinde plise perde: Banaz, Eşme, Ulubey video keşif ve kargo. Ege-İç Anadolu geçiş iklimi için ısı yalıtımlı modeller.",
+    intro: "Uşak'ın 6 ilçesine Pendik İstanbul üretim tesisimizden plise perde gönderiyoruz. Ege'den İç Anadolu'ya iklim geçiş kuşağında yer alan ilde kışları donlu, yazları kavurucu günler yaşanır; bu nedenle <strong>gece-gündüz ve honeycomb modellerini</strong> öne çıkarıyoruz. Video keşif ile ölçü alıp kargo ile teslim ediyoruz.",
+    seoTitle: "Uşak Plise Perde - Gece-Gündüz ve Honeycomb Modelleri",
+    seoDescription: "Uşak'ın 6 ilçesine Pendik merkezli plise perde üretimi. Ege-İç Anadolu geçiş iklimi için gece-gündüz ve honeycomb ısı yalıtımlı modeller. Video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Uşak'ın Geçiş İkliminde Perde Tercihleri",
+        h2: "İç Anadolu-Ege İklim Sınırında Pencere Çözümleri",
         paragraphs: [
-          "Uşak, Ege ile İç Anadolu arasında iklim geçiş kuşağında yer alır. Kışları soğuk ve karlı, yazları sıcak ve kuraktır. Bu nedenle Uşak konutlarında <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz — gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller ve tam karanlık uyku sağlar.",
-          "Uşak'ın halı dokuma geleneği olan evlerinde, perde seçiminde dokuma kültürüne uygun <strong>desenli kumaş modellerini</strong> öneriyoruz. Eşme ve Banaz'daki tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Ulubey ve Karahallı'nın küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Uşak, iki büyük iklim kuşağının kavşak noktasındadır. Ocak ayında eksi değerlere inen gece sıcaklıkları, Temmuz'da 38 dereceye tırmanan gündüz hararetiyle yer değiştirir. Bu sert amplitüt için <strong>gece-gündüz plise perde</strong> sistemini öneriyoruz: gündüz katmanı güneş ışınımını yumuşatırken, gece katmanı tam karartma ve cam ile oda arasına soğuk hava bariyeri oluşturur.",
+          "İlin halı dokuma geçmişine sahip ailelerinin evlerinde, perde seçiminde dokuma kültürüne gönderme yapan <em>dokulu yüzeyli kumaşları</em> tercih ediyoruz. Banaz ve Eşme ovalarındaki tarım işletmelerinin geniş pencereli konutlarında katlanır sistemle manzarayı koruyoruz. Ulubey ve Karahallı gibi küçük ilçelerde standart pencere ölçülerine hızlı üretim yaparak kargo süresini kısaltıyoruz.",
         ],
       },
       {
-        h2: "Uşak'ın 6 İlçesinde Kargo ile Perde Süreci",
+        h2: "Halı Şehrinin Dokuma Kültürüne Uygun Perde Seçimi",
         paragraphs: [
-          "Uşak'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Geçiş iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Uşak halısı dünya çapında tanınan bir el sanatıdır ve bu kültürel miras, ev içi tekstil tercihlerine de yansır. Pendik atölyemizde halı dokuma dokusuna benzer yüzey işlemeli plise kumaşlar temin ederek, yerel estetikle uyum sağlıyoruz. Sivaslı ve Ulubey'deki konutlarda bu dokulu modellerin yanı sıra honeycomb hücreli ısı yalıtımlı seçeneği de sunuyoruz.",
+          "Tüm ilçelere <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere fotoğraflarınızı paylaşmanız yeterli; ölçüleri birlikte belirleyip Pendik'te üretiyor ve kargo ile Uşak adresinize gönderiyoruz. Montajı kendiniz yapabileceğiniz gibi, yerel montaj ekibi yönlendirmesi de sağlıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Uşak kışın soğuk, hangi perde önerirsiniz?", answer: "Uşak'ın karasal ikliminde gece-gündüz plise perde öneriyoruz. Gündüz katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller. Honeycomb modeli de ısı yalıtımı için uygundur." },
-      { question: "Uşak'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Uşak'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Karasal iklimde kış soğuğunu hangi perde tipi engeller?", answer: "Uşak'ın donlu kış gecelerinde honeycomb hücreli plise perde, cam ile oda arasında hava boşluğu yaratarak soğuk transferini keser. Gece-gündüz modelinin karartma katmanı da ek bariyer sağlar. İki model birlikte kullanıldığında ısı kaybı belirgin biçimde azalır." },
+      { question: "Uşak'tan kargoyla perde siparişi verdiğimde montajı nasıl yaparım?", answer: "Pendik'te ürettiğiniz perde kargo ile Uşak adresinize ulaşır. Kutu içeriğinde montaj kılavuzu, tırnak ve profil bulunur; vidalama gerektirmeyen klik sistem sayesinde dakikalar içinde takabilirsiniz. İsterseniz Uşak'ta anlaşmalı olduğumuz yerel montaj ustasını yönlendiriyoruz." },
     ],
   },
   // --- AKDENİZ BÖLGESİ ---
@@ -613,27 +615,28 @@ export const cities: CityData[] = [
     region: "Akdeniz",
     priority: false,
     districts: ["Akseki", "Aksu", "Alanya", "Demre", "Döşemealtı", "Elmalı", "Finike", "Gazipaşa", "Gündoğmuş", "İbradı", "Kaş", "Kemer", "Kepez", "Konyaaltı", "Kumluca", "Manavgat", "Muratpaşa", "Serik"],
-    intro: "Antalya'nın 19 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nın turizm başkentinde <strong>oteller, villa projeleri ve yazlık konutlar</strong> için özel perde çözümleri üretiyoruz. Akdeniz güneşine ve nemine dayanıklı kumaş tipleri kullanıyoruz.",
-    seoTitle: "Antalya Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Antalya'nın 19 ilçesinde plise perde: Alanya, Kemer, Manavgat video keşif ve kargo. Otel ve villa projeleri için özel çözümler.",
+    intro: "Antalya'nın 18 ilçesinde plise perde üretip kargo ile teslim ediyoruz. Pendik İstanbul merkezli fabrikamızdan <strong>Kemer'in resort otellerine, Alanya'nın apart dairelerine ve Kaş'ın butik villalarına</strong> kadar geniş bir skalada çözüm sunuyoruz. Akdeniz'in yoğun UV radyasyonuna ve nem yüküne dayanıklı kumaş tipleri kullanıyoruz.",
+    seoTitle: "Antalya Plise Perde - Otel ve Villa Projeleri Özel Üretim",
+    seoDescription: "Antalya'nın 18 ilçesine Pendik merkezli plise perde üretimi. Resort oteller için B1 yangın sınıfı blackout, sahil villaları için anti-nem kumaş. Video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Antalya Turizm Bölgesinde Perde Sistemleri",
+        h2: "Akdeniz Turizm Koridorunda Beş Yıldızlı Perde Uygulamaları",
         paragraphs: [
-          "Antalya, Türkiye turizminin kalbidir. <strong>Kemer, Belek (Serik), Side (Manavgat), Alanya</strong> bölgelerindeki 5 yıldızlı oteller için blackout (tam karartma) plise perde üretiyoruz. Misafirlerin güneşli Akdeniz sabahında kesintisiz uyku uyuyabilmesi için tam karartma şarttır. Otellerde yangın dayanımlı B1 sınıfı kumaş kullanıyoruz.",
-          "Antalya merkez (Muratpaşa, Kepez, Konyaaltı, Aksu) konutlarında, yoğun Akdeniz güneşine karşı <strong>güneşlik kumaş</strong> öneriyoruz. Lara ve Konyaaltı plajları çevresindeki apart dairelerinde deniz nemine dayanıklı kumaş kullanıyoruz. Kaş ve Kalkan (Demre) bölgelerindeki butik otel ve villalarda motorlu perde sistemleri uyguluyoruz.",
+          "Antalya, Türkiye turizm gelirinin büyük bölümünü üreten şehirdir. <strong>Belek (Serik), Side (Manavgat), Kemer ve Alanya</strong> koridorlarındaki beş yıldızlı tesislerde misafir konforu, sabah güneşinin odaya girmesini engellemeye bağlıdır. Bu otellerde <em>blackout tam karartma</em> plise perde üretiyor ve yangın yönetmeliklerine uygun B1 sınıfı kumaş tercih ediyoruz.",
+          "Muratpaşa, Kepez, Konyaaltı ve Aksu merkez ilçelerinin apartman dairelerinde, yaz boyu süren yoğun güneşe karşı güneşlik kumaş öneriyoruz. Lara ve Konyaaltı plajları çevresindeki deniz manzaralı konutlarda tuzlu nem yüküne dayanıklı anti-nem kaplamalı kumaş kullanıyoruz. Kaş, Demre ve Finike'nin butik otel ve villalarında motorlu perde sistemleriyle geniş cam yüzeylerini yönetiyoruz.",
         ],
       },
       {
-        h2: "Antalya'nın 18 İlçesinde Sezonluk Sipariş Takvimi",
+        h2: "Sahil Villalarında ve Resort Otellerde Karartma Sistemleri",
         paragraphs: [
-          "Antalya'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Turizm bölgesi olduğundan, sezon öncesi (Kasım-Şubat) sipariş vermenizi öneririz. Yaz aylarında üretim yoğunluğu nedeniyle teslim süreleri uzayabilir. Otel projeleri için kurumsal sözleşmeli teslimat sağlıyoruz.",
+          "Antalya kıyı şeridinde güneş 05:30'da doğar ve 20:30'a kadar etkisini sürdürür. Misafirlerin kesintisiz uyku uyuyabilmesi için <strong>blackout plise perde</strong> neredeyse zorunludur. Otel projelerinde yangın dayanımlı B1 kumaş ile toplu üretim yapıyor, kurumsal sözleşme ile sezon öncesi teslimat sağlıyoruz.",
+          "İlin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. Turizm bölgesi olduğu için <u>Kasım-Şubat arası</u> sipariş verilmesini öneriyoruz; yaz aylarında üretim yoğunluğu nedeniyle teslim süreleri uzayabilir. Kargo ile Alanya, Manavgat, Serik, Kemer, Kumluca, Gazipaşa dahil tüm ilçelere gönderim yapıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Antalya otelim için blackout perde yaptırabilir miyim?", answer: "Evet, Antalya otelleri için blackout (tam karartma) plise perde üretiyoruz. Misafirlerin güneşli Akdeniz sabahında kesintisiz uyku uyuması için tam karartma şarttır. Yangın dayanımlı B1 kumaş mevcuttur." },
-      { question: "Antalya'da sezon öncesi ne zaman sipariş vermeliyim?", answer: "Antalya turizm bölgesi olduğundan sezon öncesi (Kasım-Şubat) sipariş vermenizi öneririz. Yaz aylarında üretim yoğunluğu nedeniyle teslim süreleri uzayabilir." },
+      { question: "Belek'teki tatil köyüm için yangına dayanıklı perde temin eder misiniz?", answer: "Belek ve Serik koridorundaki resort oteller için B1 yangın sınıfı blackout plise perde üretiyoruz. Misafirlerin sabah güneşinde kesintisiz uyku uyuması için tam karartma sağlıyor. Kurumsal sözleşme ile sezon öncesi toplu teslimat yapıyoruz." },
+      { question: "Alanya'daki daireme yazın sipariş versem ne zaman ulaşır?", answer: "Yaz aylarında Antalya turizm bölgesinde üretim yoğunluğu artar, bu nedenle teslim süresi 5-7 iş gününe uzayabilir. Sezon öncesi Kasım-Şubat döneminde sipariş verirseniz 3 iş gününde kargo ile Alanya'ya ulaşır." },
     ],
   },
   {
@@ -642,27 +645,28 @@ export const cities: CityData[] = [
     region: "Akdeniz",
     priority: false,
     districts: ["Aladağ", "Ceyhan", "Çukurova", "Feke", "İmamoğlu", "Karaisalı", "Karataş", "Kozan", "Pozantı", "Saimbeyli", "Sarıçam", "Seyhan", "Tufanbeyli", "Yumurtalık", "Yüreğir"],
-    intro: "Adana'nın 15 ilçesinde plise perde hizmeti veriyoruz. Çukurova'nın sıcak ikliminde, <strong>yaz aylarında +40°C'yi aşan sıcaklığa karşı güneşlik ve karartma modellerini</strong> öneriyoruz. Adana merkez (Seyhan, Çukurova, Yüreğir) konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Adana Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Adana'nın 15 ilçesinde plise perde: Seyhan, Ceyhan, Kozan video keşif ve kargo. Çukurova sıcak iklimi için güneşlik ve karartma modelleri.",
+    intro: "Adana'nın 15 ilçesine Pendik İstanbul'dan plise perde üretip kargo ile gönderiyoruz. Çukurova'nın <strong>+45°C'yi bulan yaz sıcaklarında</strong> iç mekanda klima yükünü azaltmak için güneşlik ve karartma modellerini öne çıkarıyoruz. Seyhan, Çukurova, Yüreğir ve Sarıçam merkez ilçelerindeki konutlar için video keşif ile ölçü alıyoruz.",
+    seoTitle: "Adana Plise Perde - Çukurova Sıcağına Karşı Güneşlik ve Karartma",
+    seoDescription: "Adana'nın 15 ilçesine Pendik merkezli plise perde üretimi. +45°C yaz sıcaklığı için güneşlik ve karartma modelleri, klima giderlerini azaltan ısı filtreli kumaş. Video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Adana'nın Sıcak İkliminde Perde Seçimi",
+        h2: "Çukurova'nın Kavurucu Sıcağında İç Mekan Serinletme",
         paragraphs: [
-          "Adana, Türkiye'nin en sıcak illerinden biridir. Yaz aylarında termometre +45°C'ye kadar tırmanır. Bu aşırı sıcaklıkta, pencereden gelen güneş ışını iç mekanı ısıtır ve klima giderlerini artırır. Adana konutlarında <strong>güneşlik kumaş plise perde</strong> kullanarak güneş ışınınn yüzde 70'ini filtreliyoruz. Karartma modeli ise tam ışık kesisi sağlayarak iç mekan sıcaklığını belirgin düşürür.",
-          "Seyhan ve Çukurova merkez ilçelerindeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Ceyhan'ın sanayi bölgesindeki işçi lojmanları için toplu perde çözümleri sunuyoruz. Karataş sahlinde deniz nemine dayanıklı kumaş kullanıyoruz. Kozan ve Feke'nin dağlık kesimlerinde ise daha ılıman iklim nedeniyle standart modeller yeterlidir.",
+          "Adana, Türkiye'nin en yüksek yaz sıcaklık ortalamasına sahip illerinden biridir. Temmuz ve Ağustos'ta termometre 45 dereceye yaklaşır ve pencere camından geçen güneş ışınımı, iç mekanda adeta sera etkisi yaratır. <strong>Güneşlik kumaşlı plise perde</strong>, gelen ışınımın yaklaşık yüzde 70'ini filtreleyerek oda sıcaklığını 3-5 derece düşürür. Karartma modeli ise tam ışık kesisi sağlayarak klima kompresörünün çalışma süresini belirgin biçimde kısaltır.",
+          "Seyhan ve Çukurova'nın yoğun apartman bölgelerinde standart pencere ölçülerine hızlı üretim yapıyoruz. Ceyhan'ın sanayi kuşağındaki işçi lojmanlarına toplu perde çözümleri sunuyoruz. Karataş sahlinde deniz tuzu ve nem yüküne dayanıklı anti-nem kaplamalı kumaş tercih ediyoruz. Kozan, Feke ve Aladağ'ın Toros yamaçlarında rakımla birlikte sıcaklık düştüğü için standart modeller yeterli gelmektedir.",
         ],
       },
       {
-        h2: "Adana'nın 15 İlçesinde Çukurova Teslimat Ağı",
+        h2: "Seyhan Nehri Boyunca Apartman ve Lojman Perde Projeleri",
         paragraphs: [
-          "Adana'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Çukurova sıcak ikliminde güneşlik veya karartma modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Seyhan Nehri'nin iki yakasında uzanan Adana konut stoğu, geniş pencereli modern apartmanlardan tarihi sokaklardaki avlu evlerine kadar çeşitlilik gösterir. Pendik atölyemizde her pencere tipi için özel ölçü üretim yapıyor, <em>klik sistem montaj profili</em> sayesinde vidalama gerektirmeden takılabilir çözümler sunuyoruz.",
+          "İlin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere görüntülerini alıp ölçüleri birlikte belirliyor, Pendik'te üretip kargo ile Adana'ya gönderiyoruz. Pozantı ve Tufanbeyli gibi kuzey ilçelerine planlı kargo günleriyle teslimat yapıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Adana yazın çok sıcak, hangi perde iç mekan serin tutar?", answer: "Adana'nın +45°C sıcaklarında güneşlik veya karartma kumaş plise perde öneriyoruz. Güneşlik güneş ışınınn yüzde 70'ini filtreler, karartma tam ışık kesisi sağlar. İç mekan sıcaklığı belirgin düşürür, klima giderlerini azaltır." },
-      { question: "Adana'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Adana'nın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Çukurova sıcağında klima faturamı düşürecek perde hangisidir?", answer: "Adana'nın +45°C sıcaklarında karartma kumaşlı plise perde, pencereden gelen ışınımı tamamen keserek iç mekanda sera etkisini engeller. Güneşlik modeli ise ışığın yüzde 70'ini filtrelerken manzarayı korur. İki model de klima kompresörünün çalışma süresini kısaltarak fatura yükünü hafifletir." },
+      { question: "Kozan'ın dağ semtinde standart perde yeterli olur mu?", answer: "Kozan, Feke ve Aladağ gibi Toros yamaçlarındaki ilçelerde rakım arttıkça yaz sıcaklığı düşer ve nem azalır. Bu bölgelerde standart güneşlik plise perde yeterli gelir; karartma veya anti-nem kumaşa gerek duyulmaz. Video keşif sırasında ilçenizin iklim koşullarına göre öneri yapıyoruz." },
     ],
   },
   {
@@ -671,27 +675,28 @@ export const cities: CityData[] = [
     region: "Akdeniz",
     priority: false,
     districts: ["Akdeniz", "Anamur", "Aydıncık", "Bozyazı", "Çamlıyayla", "Erdemli", "Gülnar", "Mezitli", "Mut", "Silifke", "Tarsus", "Toroslar", "Yenişehir"],
-    intro: "Mersin'in 13 ilçesinde plise perde hizmeti sunuyoruz. Akdeniz sahlindeki Mersin merkez (Mezitli, Yenişehir, Toroslar, Akdeniz) konutları için <strong>deniz nemine ve sıcaklığa dayanıklı kumaş modellerini</strong> öneriyoruz. Anamur ve Silifke turizm bölgesindeki oteller için de çözümler mevcuttur.",
-    seoTitle: "Mersin Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Mersin'in 13 ilçesinde plise perde: Tarsus, Erdemli, Silifke video keşif ve kargo. Sahil nemine dayanıklı kumaş ve turizm çözümleri.",
+    intro: "Mersin'in 13 ilçesine Pendik İstanbul'dan plise perde üretip kargo ile teslim ediyoruz. Türkiye'nin en uzun kıyı şeritlerinden birine sahip ilde <strong>deniz tuzu ve nem yüküne dayanıklı anti-nem kaplamalı kumaşları</strong> öne çıkarıyoruz. Mezitli, Yenişehir, Toroslar ve Akdeniz merkez ilçelerindeki konutlar için video keşif ile ölçü alıyoruz.",
+    seoTitle: "Mersin Plise Perde - Sahil Nemine Dayanıklı Anti-Nem Kumaş",
+    seoDescription: "Mersin'in 13 ilçesine Pendik merkezli plise perde üretimi. Sahil tuzu ve nemine dayanıklı anti-nem kumaş, Anamur muz serası bölgesi için nefes alabilen modeller. Video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Mersin Sahil Şeridinde Perde Çözümleri",
+        h2: "Uzun Sahil Şeridinin Nem Yüküne Dayanıklı Perde Modelleri",
         paragraphs: [
-          "Mersin, Türkiye'nin en uzun sahil şeritlerinden birine sahiptir. Mezitli, Yenişehir ve Akdeniz ilçelerindeki deniz manzaralı apartmanlarda, <strong>güneşlik + karartma kombinasyonu (gece-gündüz)</strong> öneriyoruz. Gündüz Akdeniz güneşini filtreler, gece tam gizlilik sağlar. Sahil nemine dayanıklı anti-nem kaplamalı kumaş kullanıyoruz.",
-          "Tarsus sanayi bölgesindeki fabrika ve lojmanlar için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz. Anamur ve Bozyazı'nın muz serası bölgesindeki çiftlik evlerinde, yüksek nem nedeniyle nefes alabilen kumaş tiplerini öneriyoruz. Silifke ve Erdemli turizm bölgesindeki butik oteller için blackout modeli mevcuttur.",
+          "Mersin, 320 kilometreyi aşan kıyı uzunluğuyla Akdeniz'in en uzun sahil şeridine sahip illerinden biridir. Mezitli, Yenişehir ve Akdeniz ilçelerinin deniz manzaralı apartmanlarında sürekli maruz kalınan tuzlu nem, standart kumaşları 2-3 yılda deforme eder. Bu bölgelerde <strong>anti-nem kaplamalı kumaş</strong> tercih ederek 5 yıldan fazla dayanım sağlıyoruz. Gündüz güneş filtrelemesi ve gece mahremiyet için gece-gündüz kombinasyonunu öneriyoruz.",
+          "Anamur ve Bozyazı'nın muz serası kuşağında yıl boyu yüzde 80'e varan nem, kumaşın nefes almasını zorunlu kılar; bu bölgede hava sirkülasyonlu petekli kumaş tiplerini kullanıyoruz. Silifke ve Erdemli turizm koridorundaki butik otellerde blackout modeli, Tarsus organize sanayi bölgesindeki fabrika ofislerinde ise yangın dayanımlı B1 kumaş uyguluyoruz.",
         ],
       },
       {
-        h2: "Mersin'in 13 İlçesinde Liman Şehri Gönderimi",
+        h2: "Liman Kentinde Sanayi ve Turizm İçin Toplu Perde Çözümleri",
         paragraphs: [
-          "Mersin'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Sahil bölgesi olduğundan anti-nem kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Mersin Limanı çevresindeki lojistik depo ve idari binalarda, geniş cam yüzeyleri için <strong>motorlu plise perde sistemleri</strong> uyguluyoruz. Tarsus sanayi kuşağındaki fabrika lojmanlarına yangın yönetmeliklerine uygun B1 sınıfı kumaşla toplu üretim yapıyor, kurumsal faturalı teslimat sağlıyoruz.",
+          "İlin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere görüntülerini alıp ölçüleri birlikte belirliyor, Pendik'te üretip kargo ile Mersin adresinize gönderiyoruz. Çamlıyayla ve Mut gibi iç kesim ilçelerine planlı kargo günleriyle teslimat yapıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Mersin sahilinde deniz nemi perdeye zarar verir mi?", answer: "Normal kumaşlar Mersin sahilinde 2-3 yılda deformasya uğrayabilir. Anti-nem kaplamalı kumaş kullanarak 5+ yıl dayanım sağlıyoruz. Mezitli, Yenişehir ve Akdeniz sahil ilçelerinde bu kumaşı öneriyoruz." },
-      { question: "Mersin'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Mersin'in tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Mezitli sahilinde tuzlu nem kumaşı çabuk mu yıpratır?", answer: "Mersin sahil şeridinde deniz tuzu ve yüksek nem, standart kumaşları 2-3 yıl içinde deforme eder. Anti-nem kaplamalı kumaşımız bu süreyi 5 yıldan fazlaya çıkarır. Mezitli, Yenişehir ve Akdeniz sahil ilçelerinde bu kumaşı özellikle öneriyoruz." },
+      { question: "Tarsus organize sanayide fabrika ofislerime toplu perde alabilir miyim?", answer: "Tarsus sanayi kuşağındaki fabrika ve lojmanlar için yangın dayanımlı B1 sınıfı kumaşla toplu plise perde üretiyoruz. Kurumsal fatura ve sözleşmeli teslimat sağlıyoruz. Video keşif ile tüm ofis pencerelerinin ölçüsünü alıp Pendik'te toplu üretim yapıyoruz." },
     ],
   },
   {
@@ -700,27 +705,28 @@ export const cities: CityData[] = [
     region: "Akdeniz",
     priority: false,
     districts: ["Aksu", "Atabey", "Eğirdir", "Gelendost", "Gönen", "Keçiborlu", "Isparta merkez", "Senirkent", "Sütçüler", "Şarkikaraağaç", "Uluborlu", "Yalvaç", "Yenişarbademli"],
-    intro: "Isparta'nın 13 ilçesinde plise perde hizmeti veriyoruz. Göller bölgesinin yüksek rakımlı ikliminde, <strong>kış soğuklarına karşı ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Eğirdir Gölü çevresindeki yazlık ve turizm tesisleri için de perde çözümleri mevcuttur.",
-    seoTitle: "Isparta Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Isparta'nın 13 ilçesinde plise perde: Eğirdir, Yalvaç, Senirkent video keşif ve kargo. Yüksek rakım göl iklimi için ısı yalıtımlı modeller.",
+    intro: "Isparta'nın 13 ilçesine Pendik İstanbul üretim tesisimizden plise perde gönderiyoruz. Göller Bölgesi'nin <strong>1050 metre rakımında</strong> kış soğuğu ve göl nemi bir arada yaşandığı için honeycomb hücreli ısı yalıtımlı modelleri öne çıkarıyoruz. Eğirdir Gölü çevresindeki yazlık ve turizm tesisleri için de özel çözümler üretiyoruz.",
+    seoTitle: "Isparta Plise Perde - Yüksek Rakım Göl İklimi için Honeycomb",
+    seoDescription: "Isparta'nın 13 ilçesine Pendik merkezli plise perde üretimi. 1050m rakımda göl nemi ve soğuğa karşı honeycomb hücreli ısı yalıtımlı modeller. Eğirdir göl kıyısı için katlanır sistem. Video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Isparta'nın Göller Bölgesi İkliminde Perde",
+        h2: "Bin Metre Rakımda Göl Havasının Etkisiyle Perde Tercihleri",
         paragraphs: [
-          "Isparta, Göller Bölgesi'nin merkezinde, 1050 metre rakımda yer alır. Eğirdir ve Beyşehir göllerinin etkisiyle kışları soğuk ve nemli, yazları serin geçer. Bu iklim koşullarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Göl nemi ve yüksek rakım soğuğu, petek yapısı ile filtrelenir.",
-          "Eğirdir Gölü çevresindeki balık restoranları ve pansiyonlarda, göl manzaralı geniş pencereler için <strong>katlanır plise perde sistemi</strong> uyguluyoruz. Isparta merkez gül tarımı bölgesindeki çiftlik evlerinde geniş pencere için güneşlik modeli öneriyoruz. Yalvaç ve Şarkikaraağaç'ın tarihi binalarında özel ölçü üretim yapıyoruz.",
+          "Isparta şehir merkezi deniz seviyesinden 1050 metre yüksekte kuruludur. Eğirdir ve Kovada göllerinin yarattığı mikro iklim, kış gece sıcaklıklarını eksi 10 derecelere çekerken gündüzleri göl üzerinden gelen nemli hava, cam yüzeylerinde terleme yapar. Bu koşullarda <strong>honeycomb hücreli plise perde</strong>, cam ile oda arasında hava boşluğu oluşturarak hem soğuk transferini keser hem de terlemeyi azaltır.",
+          "Eğirdir Gölü kıyısındaki balık restoranları ve pansiyonlarda, geniş manzara pencerelerini kapatmadan süzgeç görevi gören <em>katlanır plise perde sistemi</em> uyguluyoruz. Isparta merkezinin gül tarımı havzasındaki çiftlik evlerinde geniş pencere için güneşlik modelini, Yalvaç ve Şarkikaraağaç'ın tarihi dokusundaki konutlarda ise özel ölçü üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Isparta'nın 13 İlçesinde Göller Bölgesi Kargo Çözümü",
+        h2: "Gül Bahçeleri ve Eğirdir Kıyısında Pencere Uygulamaları",
         paragraphs: [
-          "Isparta'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Isparta, dünya gül yağı üretiminin önemli bir bölümünü karşılar ve bu tarım kültürü, ev içi estetik tercihlerine de yansır. Pendik atölyemizde gül bahçesi manzaralı pencerelere uygun pastel tonlu kumaşlarla plise perde üretiyoruz. Senirkent ve Uluborlu'nun elma bahçeleri arasındaki konutlarında doğal tonları öneriyoruz.",
+          "İlin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere görüntülerini alıp ölçüleri birlikte belirliyor, Pendik'te üretip kargo ile Isparta'ya gönderiyoruz. Sütçüler ve Yenişarbademli gibi dağlık ilçelere planlı kargo günleriyle teslimat yapıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Isparta Eğirdir Gölü çevresinde perde ısmarlayabilir miyim?", answer: "Evet, Eğirdir Gölü çevresindeki yazlık, restoran ve pansiyonlar için göl manzaralı geniş pencerelere katlanır plise perde sistemi uyguluyoruz. Video keşif ile ölçü alıp kargo ile teslimat yapıyoruz." },
-      { question: "Isparta kışın soğuk, hangi perde önerirsiniz?", answer: "Isparta'nın 1050 metre rakımında honeycomb hücreli ısı yalıtımlı plise perde öneriyoruz. Göl nemi ve yüksek rakım soğuğu, petek yapısı ile filtrelenir." },
+      { question: "Eğirdir göl kenarındaki restoranıma manzarayı kapatmayan perde var mı?", answer: "Eğirdir Gölü kıyısındaki restoran ve pansiyonlar için katlanır plise perde sistemi uyguluyoruz. Perdeyi tamamen toplayarak panoramik göl manzarasını koruyabilir, gerektiğinde güneş filtrelemesi için açabilirsiniz. Video keşif ile geniş pencere ölçülerini alıp Pendik'te üretiyoruz." },
+      { question: "Isparta'nın yüksek rakımında honeycomb perde ne işe yarar?", answer: "1050 metre rakımda kış gece sıcaklıkları eksi 10 derecelere iner ve göl nemi camda terleme yapar. Honeycomb hücreli plise perde, cam ile oda arasında hava boşluğu oluşturarak soğuk transferini keser ve terlemeyi azaltır. Isı yalıtımı için en uygun modeldir." },
     ],
   },
   {
@@ -729,27 +735,28 @@ export const cities: CityData[] = [
     region: "Akdeniz",
     priority: false,
     districts: ["Ağlasun", "Altınyayla", "Bucak", "Burdur merkez", "Çavdır", "Çeltikçi", "Gölhisar", "Karamanlı", "Kemer", "Tefenni", "Yeşilova"],
-    intro: "Burdur'un 11 ilçesinde plise perde hizmeti sunuyoruz. Göller bölgesinin karasal ikliminde, <strong>kış soğuklarına uygun ısı yalıtımlı modelleri</strong> öneriyoruz. Burdur Gölü çevresindeki konutlar ve Bucak sanayi bölgesi için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Burdur Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Burdur'un 11 ilçesinde plise perde: Bucak, Gölhisar, Tefenni video keşif ve kargo. Karasal göl iklimi için ısı yalıtımlı modeller.",
+    intro: "Burdur'un 11 ilçesine Pendik İstanbul'dan plise perde üretip kargo ile gönderiyoruz. İç Akdeniz'in karasal kuşağında bulunan ilde <strong>kış donlarına karşı honeycomb ve karartma kombinasyonunu</strong> öne çıkarıyoruz. Burdur Gölü çevresindeki konutlar ve Bucak mobilya sanayi bölgesi için video keşif ile çözümler sunuyoruz.",
+    seoTitle: "Burdur Plise Perde - Karasal Göl İklimi için Isı Yalıtımlı Modeller",
+    seoDescription: "Burdur'un 11 ilçesine Pendik merkezli plise perde üretimi. Karasal kış donlarına karşı honeycomb ve karartma kombinasyonu, Bucak mobilya sanayi için toplu çözümler. Video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Burdur'un Karasal Göl İkliminde Perde",
+        h2: "İç Akdeniz'in Sert Kışlarına Karşı Isı Yalıtımlı Perde",
         paragraphs: [
-          "Burdur, Akdeniz Bölgesi'nin iç kesiminde karasal iklimin etkisi altındadır. Burdur Gölü'nün çevresindeki konutlarda kışları dondurucu soğuklar görülür. Bu nedenle <strong>karartma + honeycomb kombinasyonu</strong> öneriyoruz — hem ısı yalıtımı hem de tam karanlık uyku ortamı sağlar.",
-          "Bucak sanayi bölgesindeki mobilya atölyeleri ve işçi lojmanları için toplu perde çözümleri sunuyoruz. Ağlasun'daki Sagalassos antik kenti çevresindeki pansiyonlarda, turistik konaklama için blackout modeli öneriyoruz. Gölhisar ve Tefenni'nin tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Burdur, Akdeniz Bölgesi'nin iç kesiminde, Torosların gerisinde kuruludur ve sahil ilçelerinden tamamen kopuk bir karasal rejim yaşar. Burdur Gölü havzasında ocak ve şubat aylarında gece sıcaklıkları eksi 15 dereceye kadar düşer. Bu dondurucu ortamda <strong>honeycomb hücreli plise perde</strong>, cam ile oda arasına hava boşluğu yerleştirerek soğuk transferini keser; karartma katmanı eklenirse hem ısı yalıtımı hem de tam karanlık uyku ortamı sağlanır.",
+          "Ağlasun'daki Sagalassos antik kenti çevresindeki pansiyon ve butik otellerde, turist konaklaması için blackout modeli öneriyoruz. Gölhisar ve Tefenni ovalarının tarım arazilerindeki geniş pencereli çiftlik evlerinde katlanır sistemle manzarayı koruyoruz. Çavdır ve Çeltikçi'nin küçük yerleşimlerinde standart ölçülere hızlı üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Burdur'un 11 İlçesinde Göl İklimi Teslimat Planı",
+        h2: "Bucak Mobilya Üretim Bölgesinde Atölye ve Lojman Perdeleme",
         paragraphs: [
-          "Burdur'un tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Bucak, Türkiye'nin önemli mobilya üretim merkezlerinden biridir ve bölgedeki atölyelerin idari ofisleri ile işçi lojmanları toplu perde çözümüne ihtiyaç duyar. Pendik atölyemizde bu tesisler için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu üretim yapıyor, kurumsal faturalı teslimat sağlıyoruz. Kemer ve Yeşilova'nın tarım ağırlıklı ilçelerinde ise çiftlik evleri için güneşlik modeli yeterli gelmektedir.",
+          "İlin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere görüntülerini alıp ölçüleri birlikte belirliyor, Pendik'te üretip kargo ile Burdur'a gönderiyoruz. Altınyayla ve Tefenni gibi yüksek rakımlı ilçelerde honeycomb modelini özellikle öneriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Burdur'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Burdur'un tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Burdur Bucak'taki mobilya atölyem için perde yaptırabilir miyim?", answer: "Evet, Bucak sanayi bölgesindeki mobilya atölyeleri ve işçi lojmanları için toplu plise perde çözümleri sunuyoruz. Kurumsal faturalı teslimat sağlıyoruz." },
+      { question: "Burdur Gölü kıyısında dondurucu kış için en uygun perde nedir?", answer: "Burdur Gölü havzasında ocak-şubat aylarında gece sıcaklıkları eksi 15 dereceye düşer. Honeycomb hücreli plise perde, cam ile oda arasında hava boşluğu oluşturarak soğuk transferini keser. Karartma katmanı eklenirse hem ısı yalıtımı hem de tam karanlık uyku sağlanır." },
+      { question: "Bucak'taki mobilya fabrikamın idari ofislerine perde takılır mı?", answer: "Bucak mobilya üretim bölgesindeki atölye ve lojmanlar için yangın dayanımlı B1 sınıfı kumaşla toplu plise perde üretiyoruz. Kurumsal fatura ve sözleşmeli teslimat sağlıyoruz. Video keşif ile tüm ofis pencerelerinin ölçüsünü alıp Pendik'te toplu üretim yapıyoruz." },
     ],
   },
   {
@@ -758,27 +765,28 @@ export const cities: CityData[] = [
     region: "Akdeniz",
     priority: false,
     districts: ["Bahçe", "Düziçi", "Hasanbeyli", "Kadirli", "Osmaniye merkez", "Sumbas", "Toprakkale"],
-    intro: "Osmaniye'nin 7 ilçesinde plise perde hizmeti veriyoruz. Çukurova'nın sıcak iklim kuşağında, <strong>yaz sıcaklığına karşı güneşlik ve karartma modellerini</strong> öneriyoruz. Osmaniye merkez ve Kadirli konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Osmaniye Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Osmaniye'nin 7 ilçesinde plise perde: Kadirli, Düziçi, Bahçe video keşif ve kargo. Sıcak iklim için güneşlik ve karartma modelleri.",
+    intro: "Osmaniye'nin 7 ilçesine Pendik İstanbul'dan plise perde üretip kargo ile teslim ediyoruz. Çukurova'nın doğu kapısı konumundaki ilde <strong>yaz kavuruculuğuna karşı güneşlik ve karartma modellerini</strong> öne çıkarıyoruz. Osmaniye merkez ve Kadirli konutları için video keşif ile ölçü alıp, tüm ilçelere kargo gönderimi yapıyoruz.",
+    seoTitle: "Osmaniye Plise Perde - Çukurova Doğusunda Sıcaklık Filtreli Modeller",
+    seoDescription: "Osmaniye'nin 7 ilçesine Pendik merkezli plise perde üretimi. Çukurova'nın doğu kapısında yaz sıcaklığına karşı güneşlik ve karartma, Düziçi Demir Çelik bölgesi için B1 kumaş. Video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Osmaniye'nin Sıcak İkliminde Perde Tercihleri",
+        h2: "Çukurova'nın Doğu Kapısında Sıcaklık Filtreli Perde",
         paragraphs: [
-          "Osmaniye, Çukurova'nın doğusunda, Akdeniz ile Güneydoğu Anadolu geçişinde yer alır. Yazları aşırı sıcak, kışları ılımandır. Bu sıcak iklimde <strong>güneşlik kumaş plise perde</strong> ile pencereden gelen güneş ışınını filtreleyerek iç mekan sıcaklığını düşürüyoruz. Karartma modeli ise tam ışık kesisi ile klima giderlerini azaltır.",
-          "Osmaniye merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Kadirli'nin tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Düziçi ve Bahçe'nin dağlık kesimlerinde, Demir Çelik fabrika bölgesindeki işçi lojmanları için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz.",
+          "Osmaniye, Çukurova'nın doğusunda, Akdeniz ile Güneydoğu Anadolu'ya açılan geçitte kuruludur. Bu konum, yaz aylarında 40 dereceyi aşan sıcaklık ve düşük nem ile kendini gösterir. Pencereden gelen güneş ışınımını kırpmak için <strong>güneşlik kumaşlı plise perde</strong>, ışığın tamamını kesmek ve klima yükünü hafifletmek için ise karartma modeli öneriyoruz.",
+          "Osmaniye merkezinin düz arazisindeki apartman dairelerinde standart pencere ölçülerine hızlı üretim yapıyoruz. Kadirli'nin pamuk tarlaları arasındaki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Bahçe ve Hasanbeyli'nin daha yüksek rakımlı kesimlerinde sıcaklık bir miktar düştüğü için standart güneşlik model yeterli gelmektedir.",
         ],
       },
       {
-        h2: "Osmaniye'nin 7 İlçesinde Çukurova Düzluğunda Servis",
+        h2: "Demir Çelik Bölgesinde Endüstriyel Perde Uygulamaları",
         paragraphs: [
-          "Osmaniye'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Sıcak iklim bölgesi olduğundan güneşlik veya karartma modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Düziçi ve Toprakkale çevresindeki Demir Çelik fabrika bölgesi, endüstriyel ölçekte perde çözümüne ihtiyaç duyar. Bu tesislerin idari ofisleri ve işçi lojmanları için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu üretim yapıyor, kurumsal faturalı teslimat sağlıyoruz. Fabrika ortamının toz ve yağ yüküne dayanıklı, silinebilir kumaş yüzeyleri tercih ediyoruz.",
+          "İlin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere görüntülerini alıp ölçüleri birlikte belirliyor, Pendik'te üretip kargo ile Osmaniye'ye gönderiyoruz. Sumbas gibi küçük ilçelere planlı kargo günleriyle teslimat yapıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Osmaniye'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Osmaniye'nin tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Osmaniye yazın çok sıcak, hangi perde önerirsiniz?", answer: "Osmaniye'nin sıcak ikliminde güneşlik veya karartma kumaş plise perde öneriyoruz. Güneş ışınınn yüzde 70'ini filtreler, iç mekan sıcaklığını düşürür, klima giderlerini azaltır." },
+      { question: "Kadirli'nin tarım arazilerindeki geniş pencereme hangi sistem uygun?", answer: "Kadirli'nin pamuk tarlaları arasındaki çiftlik evlerinde geniş pencere için katlanır plise perde sistemini öneriyoruz. Perdeyi tamamen toplayarak panoramik tarla manzarasını koruyabilir, gerektiğinde güneş filtrelemesi için açabilirsiniz. Video keşif ile ölçü alıp Pendik'te üretiyoruz." },
+      { question: "Düziçi'deki çelik fabrikası lojmanlarına yangın sınıfı perde bulunur mu?", answer: "Düziçi ve Toprakkale Demir Çelik bölgesindeki fabrika lojmanları için yangın dayanımlı B1 sınıfı kumaşla toplu plise perde üretiyoruz. Fabrika ortamının toz ve yağ yüküne dayanıklı silinebilir kumaş yüzeyleri tercih ediyoruz. Kurumsal fatura ile teslimat sağlıyoruz." },
     ],
   },
   {
@@ -787,27 +795,28 @@ export const cities: CityData[] = [
     region: "Akdeniz",
     priority: false,
     districts: ["Altınözü", "Antakya", "Arsuz", "Belen", "Defne", "Dörtyol", "Erzin", "Hassa", "İskenderun", "Kırıkhan", "Kumlu", "Payas", "Reyhanlı", "Samandağ", "Yayladağı"],
-    intro: "Hatay'ın 15 ilçesinde plise perde hizmeti sunuyoruz. Akdeniz ile Güneydoğu Anadolu geçişinde bulunan Hatay'ın <strong>sıcak ve nemli iklimine uygun perde modellerini</strong> öneriyoruz. Antakya ve İskenderun merkez konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Hatay Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Hatay'ın 15 ilçesinde plise perde: Antakya, İskenderun, Dörtyol video keşif ve kargo. Sıcak nemli iklim için güneşlik ve karartma modelleri.",
+    intro: "Hatay'ın 15 ilçesine Pendik İstanbul'dan plise perde üretip kargo ile teslim ediyoruz. Akdeniz, Güneydoğu Anadolu ve Orta Doğu'nun kavşak noktasındaki ilde <strong>sıcak nemli sahilden serin dağlık iç kesime kadar farklı iklim kuşaklarına uygun modeller</strong> sunuyoruz. Antakya ve İskenderun merkez konutları için video keşif ile ölçü alıyoruz.",
+    seoTitle: "Hatay Plise Perde - Tarihi Pencerelere ve Sahil Nemine Özel Çözüm",
+    seoDescription: "Hatay'ın 15 ilçesine Pendik merkezli plise perde üretimi. Antakya tarihi evlerinin dar pencerelerine özel ölçü, İskenderun Körfezi nemine anti-nem kumaş. Video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Hatay'ın Multi-Kültürel Şehrinde Perde",
+        h2: "Üç İklimin Buluştuğu Şehirde Tarihi Pencerelere Perde",
         paragraphs: [
-          "Hatay, çok kültürlü yapısıyla Türkiye'nin benzersiz illerinden biridir. Antakya'nın tarihi evlerinde, dar pencereler için <strong>özel ölçü plise perde</strong> üretiyoruz. Defne ve Harbiye'nin çınar ağaçları arasındaki pansiyon ve restoranlarda, gölgelik pencere için güneşlik kumaş öneriyoruz.",
-          "İskenderun ve Arsuz sahil kesiminde, Akdeniz nemine dayanıklı anti-nem kaplamalı kumaş kullanıyoruz. Dörtyol ve Erzin sanayi bölgesindeki işçi lojmanları için toplu perde çözümleri sunuyoruz. Reyhanlı ve Kırıkhan'ın sınır bölgesi konutlarında, sıcak iklim nedeniyle karartma modeli öneriyoruz.",
+          "Hatay, Akdeniz, Güneydoğu Anadolu ve Orta Doğu iklim kuşaklarının kesiştiği ender bir ildir. Antakya'nın dar sokaklarındaki tarihi evlerin pencereleri, modern apartmanlardan farklı ölçü ve orana sahiptir; bu konutlar için <strong>özel ölçü plise perde</strong> üretiyor ve pencere içine klik sistemle zarar vermeden monte ediyoruz. Defne ve Harbiye'nin çınar gölgeli pansiyon ve restoranlarında, gölgelik pencereler için güneşlik kumaş öneriyoruz.",
+          "Belan ve Hassa'nın dağ geçidi kesiminde rakımla birlikte sıcaklık düşer ve nem azalır; bu ilçelerde standart güneşlik model yeterli gelir. Reyhanlı ve Kırıkhan'ın sınır bölgesi düzlüklerinde ise yaz sıcaklığı yoğunlaştığı için karartma modelini öne çıkarıyoruz. Altınözü ve Yayladağı'nın kırsal konutlarında çiftlik evi tipinde geniş pencereler için katlanır sistem uyguluyoruz.",
         ],
       },
       {
-        h2: "Hatay'ın 12 İlçesinde Multi-Kültürel Şehir Teslimatı",
+        h2: "İskenderun Körfezi Nemine Karşı Sahil Perde Sistemleri",
         paragraphs: [
-          "Hatay'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Antakya tarihi evleri için özel ölçü üretim yapıyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "İskenderun ve Arsuz sahil şeridinde yıl boyu yüksek nem ve deniz tuzu, standart kumaşları kısa sürede yıpratır. Bu bölgelerde <strong>anti-nem kaplamalı kumaş</strong> tercih ederek 5 yıldan fazla dayanım sağlıyoruz. Dörtyol ve Erzin sanayi kuşağındaki işçi lojmanlarına toplu perde çözümleri sunuyor, Payas'taki demir çelik tesislerinin idari ofisleri için yangın dayanımlı B1 kumaş uyguluyoruz.",
+          "İlin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere görüntülerini alıp ölçüleri birlikte belirliyor, Pendik'te üretip kargo ile Hatay'ın tüm ilçelerine gönderiyoruz. Samandağ ve Kumlu gibi kıyı ilçelerine anti-nem kumaş, dağlık ilçelere standart model öneriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Antakya tarihi evim için özel ölçü perde yapılır mı?", answer: "Evet, Antakya'nın tarihi evlerinin dar pencereleri için özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile tarihi dokuya zarar vermeden kurulur." },
-      { question: "İskenderun sahilinde deniz nemi perdeye zarar verir mi?", answer: "İskenderun ve Arsuz sahilinde anti-nem kaplamalı kumaş kullanıyoruz. Normal kumaşlar 2-3 yılda deformasya uğrarken, anti-nem kumaşlar 5+ yıl dayanır." },
+      { question: "Antakya'nın dar pencereli tarihi konutlarına perde nasıl monte edilir?", answer: "Antakya'nın tarihi evlerinin dar ve farklı ölçülü pencereleri için Pendik atölyemizde özel ölçü plise perde üretiyoruz. Pencere içine klik sistemle takıldığı için duvara vidalama gerektirmez ve tarihi dokuya zarar vermeden kurulur. Video keşif sırasında pencere detaylarını görüntülü olarak alıyoruz." },
+      { question: "İskenderun Körfezi'ndeki nemli havaya dayanıklı kumaş özellikleri nelerdir?", answer: "İskenderun ve Arsuz sahilinde yıl boyu yüksek nem ve deniz tuzu, standart kumaşları 2-3 yılda deforme eder. Anti-nem kaplamalı kumaşımız bu süreyi 5 yıldan fazlaya çıkarır. Kaplama, kumaş yüzeyinde tuz ve nem birikimini engelleyerek renk solmasını ve lif zayıflamasını önler." },
     ],
   },
   {
@@ -816,27 +825,27 @@ export const cities: CityData[] = [
     region: "Akdeniz",
     priority: false,
     districts: ["Afşin", "Andırın", "Çağlayancerit", "Dulkadiroğlu", "Ekinözü", "Elbistan", "Göksun", "Nurhak", "Onikişubat", "Pazarcık", "Türkoğlu"],
-    intro: "Kahramanmaraş'ın 11 ilçesinde plise perde hizmeti veriyoruz. Akdeniz ile İç Anadolu geçiş ikliminde, <strong>kış soğukları ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. Kahramanmaraş merkez ve Elbistan konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kahramanmaraş Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kahramanmaraş'ın 11 ilçesinde plise perde: Elbistan, Afşin, Göksun video keşif ve kargo. Karasal-sıcak geçiş iklimi için gece-gündüz modelleri.",
+    intro: "Kahramanmaraş'ın 11 ilçesi için Pendik İstanbul merkezli üretim tesislerimizde plise perde hazırlıyoruz. Sıçandağı eteklerinde Akdeniz ile karasal kuşağın buluştuğu bu şehirde <strong>yazın kavurucu, kışın dondurucu</strong> iklim şartlarına dayanıklı gece-gündüz ve honeycomb seçeneklerini öneriyoruz. Onikişubat, Dulkadiroğlu, Elbistan ve Afşin başta olmak üzere tüm ilçelere video keşif ve kargo gönderimi yapıyoruz.",
+    seoTitle: "Kahramanmaraş Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Kahramanmaraş 11 ilçe plise perde: Elbistan, Afşin, Göksun, Pazarcık. Pendik üretim, video keşif, kargo teslimat. Geçiş iklimi için gece-gündüz ve honeycomb.",
     sections: [
       {
-        h2: "Kahramanmaraş'ın Geçiş İkliminde Perde",
+        h2: "Sıçandağı Eteklerinde İki Mevsimin Pencere Gerçekleri",
         paragraphs: [
-          "Kahramanmaraş, Akdeniz'in sıcak iklimi ile İç Anadolu'nun karasal iklimi arasında geçiş kuşağında yer alır. Kışları karlı ve soğuk, yazları aşırı sıcak geçer. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz — gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller.",
-          "Kahramanmaraş merkez (Onikişubat, Dulkadiroğlu) konutlarında standart ölçülere hızlı üretim yapıyoruz. Elbistan ve Afşin'in kömür sanayi bölgesindeki işçi lojmanları için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz. Göksun ve Andırın'ın dağlık kesimlerindeki çiftlik evlerinde honeycomb modeli öneriyoruz.",
+          "Kahramanmaraş, Akdeniz sıcak havası ile İç Anadolu karasal soğuğunun çarpıştığı geçiş kuşağında, yaklaşık 500 metre rakımda kurulmuştur. Temmuz'da +40°C'yi aşan sıcaklık, Ocak'ta -10°C'ye iner; bu 50 derecelik amplitüt pencere perdesinden <u>hem gölgeleme hem ısı bariyeri</u> bekler. Dulkadiroğlu ve Onikişubat merkez apartmanlarında <strong>gece-gündüz plise perde</strong> uyguluyoruz: gündüz katmanı güneş ışınını kırparak iç mekanı serin tutar, gece katmanı camdan ısı kaybını keser.",
+          "Elbistan ve Afşin ovasındaki termik santral bölgesinde, işçi lojmanlarına yangına dayanıklı B1 sınıfı kumaşla toplu üretim yapıyoruz. Göksun ve Andırın'ın ormanlık dağ eteklerindeki köy evlerinde petek yapısı hava tabakası hapseden <strong>honeycomb modelini</strong> tercih ediyoruz. Nurhak ve Ekinözü'nün yüksek kesimlerinde ise çift katmanlı karartma sistemi öneriyoruz.",
         ],
       },
       {
-        h2: "Kahramanmaraş'ın 11 İlçesinde Geçiş İklimi Gönderimi",
+        h2: "Dulkadiroğlu'ndan Türkoğlu'na 11 İlçeye Pendik Üretim Kargosu",
         paragraphs: [
-          "Kahramanmaraş'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Geçiş iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki atölyemizde ürettiğimiz plise perdeleri, Kahramanmaraş'ın 11 ilçesinin tamamına kargo ile gönderiyoruz. <strong>Video keşif yöntemiyle</strong> WhatsApp üzerinden pencere ölçülerinizi alıp, montaj talimatı ile birlikte paketliyoruz. Pazarcık, Çağlayancerit ve Türkoğlu'na 2-3 iş günü; Elbistan ve Afşin'e 2 iş günü içinde teslimat sağlıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kahramanmaraş'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Kahramanmaraş'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Kahramanmaraş kışın soğuk yazın sıcak, hangi perde önerirsiniz?", answer: "Kahramanmaraş'ın geçiş ikliminde gece-gündüz plise perde öneriyoruz. Gündüz katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller. Honeycomb modeli de ısı yalıtımı için uygundur." },
+      { question: "Kahramanmaraş'a perde gönderimi ne kadar sürüyor?", answer: "Pendik İstanbul üretim tesisimizden Kahramanmaraş merkez ilçelere kargo ile 2 iş gününde ulaşıyoruz. Elbistan, Afşin ve Göksun gibi uzak ilçelerde 2-3 iş günü içinde teslimat tamamlanır." },
+      { question: "Elbistan'daki işçi lojmanlarına toplu perde siparişi verebilir miyiz?", answer: "Evet, Elbistan ve Afşin termik santral bölgesindeki lojman blokları için yangın dayanımlı B1 sınıfı kumaşla toplu plise perde üretimi yapıyoruz. Video keşif ile ölçü alıp, kargo ile toplu teslimat sağlıyoruz." },
     ],
   },
   // --- İÇ ANADOLU BÖLGESİ ---
@@ -846,27 +855,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Akyurt", "Altındağ", "Ayaş", "Bala", "Beypazarı", "Çamlıdere", "Çankaya", "Çubuk", "Elmadağ", "Etimesgut", "Evren", "Gölbaşı", "Güdül", "Haymana", "Kahramankazan", "Kalecik", "Keçiören", "Kızılcahamam", "Mamak", "Nallıhan", "Polatlı", "Pursaklar", "Sincan", "Şereflikoçhisar", "Yenimahalle", "Gölbaşı"],
-    intro: "Ankara'nın 25 ilçesinde plise perde hizmeti sunuyoruz. Başkentin karasal ikliminde, kış soğukları ve yaz sıcakları için <strong>gece-gündüz ve honeycomb modellerini</strong> öneriyoruz. Çankaya, Yenimahalle, Keçiören, Etimesgut ve Sincan ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Ankara Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Ankara'nın 25 ilçesinde plise perde: Çankaya, Keçiören, Yenimahalle video keşif ve kargo. Karasal iklim için gece-gündüz ve honeycomb modelleri.",
+    intro: "Ankara'nın 25 ilçesi için Pendik İstanbul'daki üretim hattımızdan plise perde gönderiyoruz. Bozkır ikliminin hüküm sürdüğü başkentte kışın -20°C, yazın +35°C arasında salınan sıcaklık, pencereden <strong>ısı kaçaklarını kesmeyi</strong> zorunlu kılar. Çankaya, Yenimahalle, Keçiören, Etimesgut, Sincan ve Mamak başta olmak üzere tüm ilçelere video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Ankara Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Ankara 25 ilçe plise perde: Çankaya, Keçiören, Yenimahalle, Etimesgut, Sincan. Pendik üretim, video keşif, kargo teslimat. Bozkır iklimi için honeycomb.",
     sections: [
       {
-        h2: "Ankara'nın Karasal İkliminde Perde Seçimi",
+        h2: "Bozkır İkliminde Step ve Termal Bölge Pencere Stratejisi",
         paragraphs: [
-          "Ankara, İç Anadolu'nun karasal ikliminde kışları -20°C'ye varan soğuklar, yazları +35°C'ye varan sıcaklar görür. Bu uç sıcaklık farkları, pencere perdesinin sadece ışık kontrolü değil, aynı zamanda <strong>ısı yalıtımı</strong> sağlamasını gerektirir. Ankara konutlarında honeycomb hücreli model öneriyoruz — petek yapısı soğuk ve sıcak havayı filtreler, ısıtma ve soğutma giderlerini düşürür.",
-          "Çankaya, Yenimahalle ve Etimesgut'taki modern site dairelerinde standart ölçülere hızlı üretim yapıyoruz. Keçiören ve Mamak'ın eski apartmanlarında özel ölçü üretim gerekebilir. Sincan ve Pursaklar sanayi bölgesindeki işçi lojmanları için toplu perde çözümleri sunuyoruz. Kızılcahamam ve Çamlıdere'nin yüksek rakımlı kesimlerinde çift petekli honeycomb öneriyoruz.",
+          "Ankara, ortalama 950 metre rakımda, İç Anadolu step ikliminin tipik özelliklerini taşır: kısa ve sıcak yaz, uzun ve sert kış. Çankaya, Yenimahalle ve Etimesgut'taki modern site dairelerinde <strong>honeycomb hücreli plise perde</strong> uyguluyoruz; petek yapısının içinde hapsolan hava tabakası, cam yüzeyden gelen soğuk ve sıcak dalgayı kırarak ısıtma-soğutma faturasını düşürür.",
+          "Kızılcahamam ve Çamlıdere'nin 1000 metreyi aşan rakımlarında kar kalınlığı fazla olduğundan çift petekli honeycomb öneriyoruz. Haymana ve Beypazarı'nın termal kaynak çevresindeki konaklarda buhar dayanıklı kumaş kullanıyoruz. Polatlı ovasındaki geniş pencereli çiftlik evlerinde katlanır güneşlik, Sincan ve Pursaklar sanayi bölgesi lojmanlarında yangın dayanımlı B1 kumaş tercih ediyoruz.",
         ],
       },
       {
-        h2: "Ankara'nın 25 İlçesinde Başkent Teslimat Ağı",
+        h2: "Çankaya'dan Kızılcahamam'a Başkentin 25 İlçesine Uzaktan Keşif",
         paragraphs: [
-          "Ankara'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan honeycomb veya gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz. Ankara'ya kargo ile 1-2 gün içinde teslimat sağlıyoruz.",
+          "Pendik İstanbul'daki üretim merkezimizden Ankara'nın 25 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, 1-2 iş günü içinde kargo ile teslimat yapıyoruz. Keçiören ve Mamak'ın eski apartmanlarında özel ölçü üretimi de aynı süre içinde tamamlıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Ankara'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Ankara'nın 25 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile 1-2 gün içinde teslimat yapıyoruz." },
-      { question: "Ankara kışın çok soğuk, hangi perde ısı yalıtımı sağlar?", answer: "Ankara'nın karasal ikliminde honeycomb hücreli plise perde öneriyoruz. Petek yapısı pencereden gelen soğuk havayı filtreler, ısıtma giderlerini düşürür. Çift petekli model -20°C'de bile etkili olur." },
+      { question: "Ankara'da hangi ilçelerde ölçü almadan perde siparişi verebilirim?", answer: "Ankara'nın 25 ilçesinin tamamında video keşif yöntemiyle ölçü alıyoruz. Çankaya, Yenimahalle, Etimesgut, Keçiören, Sincan ve Mamak başta olmak üzere tüm ilçelerde WhatsApp üzerinden pencere ölçülerinizi alıp kargo ile teslimat yapıyoruz." },
+      { question: "Kızılcahamam'ın yüksek rakımında honeycomb modeli işe yarar mı?", answer: "Kızılcahamam ve Çamlıdere'nin 1000 metreyi aşan rakımında çift petekli honeycomb öneriyoruz. İki katlı petek yapısı, sert kış soğuklarında camdan ısı kaybını en aza indirir ve ısıtma giderlerini belirgin düşürür." },
     ],
   },
   {
@@ -875,27 +884,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Ahırlı", "Akören", "Akşehir", "Altınekin", "Beyşehir", "Bozkır", "Cihanbeyli", "Çeltik", "Çumra", "Derbent", "Derebucak", "Doğanhisar", "Emirgazi", "Ereğli", "Güneysınır", "Hadim", "Halkapınar", "Hüyük", "Ilgın", "Kadınhanı", "Karapınar", "Karatay", "Kulu", "Meram", "Selçuklu", "Seydişehir", "Taşkent", "Tuzlukçu", "Yalıhüyük", "Yunak"],
-    intro: "Konya'nın 31 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu'nun en büyük ili olan Konya'nın <strong>kış soğukları ve yaz sıcaklarına karşı honeycomb ve gece-gündüz modellerini</strong> öneriyoruz. Meram, Selçuklu, Karatay merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Konya Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Konya'nın 31 ilçesinde plise perde: Meram, Selçuklu, Ereğli video keşif ve kargo. Karasal iklim için honeycomb ve gece-gündüz modelleri.",
+    intro: "Konya'nın 31 ilçesi için Pendik İstanbul üretim tesisimizden plise perde hazırlıyoruz. Türkiye'nin en geniş yüzölçümüne sahip bu ovada 1016 metre rakımda kışın -15°C'ye düşen hava, pencere perdesinden <strong>yalıtım ve gölgeleme</strong> birlikte bekler. Meram, Selçuklu ve Karatay merkez ilçeleri başta olmak üzere Ereğli, Çumra ve Beyşehir'e kadar tüm ilçelere video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Konya Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Konya 31 ilçe plise perde: Meram, Selçuklu, Karatay, Ereğli, Çumra, Beyşehir. Pendik üretim, video keşif, kargo teslimat. Ova iklimi için honeycomb.",
     sections: [
       {
-        h2: "Konya'nın Geniş Coğrafyasında Perde Çözümleri",
+        h2: "Türkiye'nin En Geniş Ovasında Step ve Göl Kıyısı Perde Çeşitleri",
         paragraphs: [
-          "Konya, Türkiye'nin en büyük yüzölçümüne sahip ilidir. Meram, Selçuklu ve Karatay merkez ilçelerindeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Konya'nın karasal ikliminde kışları -15°C'ye varan soğuklar görülür; bu nedenle <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz.",
-          "Beyşehir Gölü çevresindeki yazlık ve turizm tesislerinde, göl manzaralı geniş pencereler için katlanır sistem uyguluyoruz. Ereğli ve Çumra'nın tarım arazilerindeki çiftlik evlerinde geniş pencere için güneşlik modeli öneriyoruz. Kulu ve Cihanbeyli'nin tuz gölü çevresindeki konutlarında, tuzlu havaya dayanıklı kumaş kullanıyoruz. Mevlana Müzesi çevresindeki tarihi binaların pencerelerine özel ölçü üretim yapıyoruz.",
+          "Konya, 40 binden fazla kilometrekarelik yüzölçümüyle Türkiye'nin en büyük ilidir. Meram, Selçuklu ve Karatay merkez ilçelerindeki apartman dairelerinde <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> uyguluyoruz; step ikliminin kuru ve soğuk kış havasını petek yapısı filtreler. Mevlana Müzesi çevresindeki tarihi yapıların pencerelerine ise özel ölçü üretim yapıyoruz.",
+          "Beyşehir Gölü kıyısındaki yazlık ve turizm tesislerinde, göl manzaralı geniş pencereler için katlanır güneşlik sistem tercih ediyoruz. Ereğli ve Çumra'nın şeker pancarı tarlaları arasındaki çiftlik evlerinde geniş açıklıklara uygun katlanır model öneriyoruz. Kulu ve Cihanbeyli'nin Tuz Gölü çevresindeki konutlarında, tuzlu havaya dayanıklı <em>anti-tuz kaplamalı kumaş</em> kullanıyoruz. Karapınar'ın çölleşme tehlikesi yaşayan ovasında ise güneşlik kumaşla sıcaklık kırma uyguluyoruz.",
         ],
       },
       {
-        h2: "Konya'nın 31 İlçesinde Kapadokya Düzluğunda Kargo",
+        h2: "Meram'dan Ereğli'ye 31 İlçeye Düz Ovalık Kargo Hattı",
         paragraphs: [
-          "Konya'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz. Konya'ya kargo ile 1-2 gün içinde teslimat sağlıyoruz.",
+          "Pendik İstanbul'daki atölyemizden Konya'nın 31 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile 1-2 iş günü içinde teslimat yapıyoruz. Merkez ilçelere 1 iş gününde, Ereğli ve Seydişehir gibi uzak ilçelere 2 iş gününde ulaşıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Konya'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Konya'nın 31 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile 1-2 gün içinde teslimat yapıyoruz." },
-      { question: "Konya kışın soğuk, honeycomb perde işe yarar mı?", answer: "Evet, Konya'nın karasal ikliminde honeycomb hücreli plise perde ısı yalıtımı sağlar. Petek yapısı pencereden gelen -15°C soğuk havayı filtreler, ısıtma giderlerini düşürür." },
+      { question: "Konya'nın uzak ilçelerine kargo süresi ne kadar?", answer: "Pendik İstanbul üretim merkezimizden Konya merkez ilçelere (Meram, Selçuklu, Karatay) 1 iş gününde, Ereğli, Seydişehir ve Hadim gibi uzak ilçelere 2 iş gününde kargo ile teslimat yapıyoruz." },
+      { question: "Tuz Gölü çevresindeki evler için hangi kumaş dayanıklıdır?", answer: "Kulu ve Cihanbeyli'nin Tuz Gölü kıyısındaki konutları için anti-tuz kaplamalı kumaş tercih ediyoruz. Tuzlu havanın kumaş üzerindeki aşındırıcı etkisini bu kaplama önler ve perde ömrünü uzatır." },
     ],
   },
   {
@@ -904,27 +913,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Ayrancı", "Başyayla", "Ermenek", "Karaman merkez", "Kazımkarabekir", "Sarıveliler"],
-    intro: "Karaman'ın 6 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun güneyinde, Konya ovasının devamı olan Karaman'ın <strong>kış soğuklarına uygun ısı yalıtımlı modellerini</strong> öneriyoruz. Karaman merkez ve Ermenek konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Karaman Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Karaman'ın 6 ilçesinde plise perde: Ermenek, Başyayla, Ayrancı video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
+    intro: "Karaman'ın 6 ilçesi için Pendik İstanbul atölyemizde plise perde üretiyoruz. Konya ovasının güney uzantısında 1033 metre rakımda kurulu merkez ilçede step iklimi, Ermenek ve Sarıveliler'in Toros kuşağında ise <strong>dağ iklimi</strong> hüküm sürer. Karaman merkez, Ermenek, Başyayla ve Ayrancı başta olmak üzere tüm ilçelere video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Karaman Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Karaman 6 ilçe plise perde: Ermenek, Başyayla, Sarıveliler, Ayrancı. Pendik üretim, video keşif, kargo teslimat. Ova ve dağ iklimi için honeycomb.",
     sections: [
       {
-        h2: "Karaman'ın Ova ve Dağ İkliminde Perde",
+        h2: "Toros Kuşağında Ermenek Kanyonu ve Ova İkliminin Perde Gerçekleri",
         paragraphs: [
-          "Karaman, İç Anadolu ovasının güneyinde yer alır. Merkez ve Ayrancı'da karasal iklim etkiliyken, Ermenek ve Sarıveliler'in Toroslar'daki yüksek rakımlı kesimlerinde daha soğuk bir iklim hüküm sürer. Merkez konutlarda <strong>güneşlik + karartma kombinasyonu (gece-gündüz)</strong> öneriyoruz.",
-          "Ermenek'in dağlık bölgesindeki köy evlerinde, şiddetli kış soğuklarına karşı <strong>çift petekli honeycomb modeli</strong> öneriyoruz. Karaman'ın bisküvi sanayi bölgesindeki fabrika ve lojmanlar için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz. Kazımkarabekir ve Başyayla'nın küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Karaman, İç Anadolu step iklimi ile Akdeniz dağ ikliminin karşılaştığı geçiş noktasında yer alır. Merkez ve Ayrancı'da kışın -10°C'ye düşen sıcaklık, yazın +35°C'ye tırmanır; bu salınım için <strong>gece-gündüz plise perde</strong> uyguluyoruz. Gündüz katmanı güneş ışınını kırpar, gece katmanı camdan ısı kaybını keser.",
+          "Ermenek ve Sarıveliler'in Toroslar üzerindeki 1400 metreyi aşan yerleşimlerinde kış şartları ağırdır; bu köy evlerinde <strong>çift petekli honeycomb</strong> öneriyoruz. Karaman'ın bisküvi sanayi bölgesindeki fabrika ve lojmanlara yangın dayanımlı B1 sınıfı kumaşla toplu üretim yapıyoruz. Kazımkarabekir ve Başyayla'nın küçük yerleşimlerinde standart ölçülere hızlı üretim uyguluyoruz.",
         ],
       },
       {
-        h2: "Karaman'ın 6 İlçesinde Ova ve Dağ Bölgesi Gönderimi",
+        h2: "Merkezden Sarıveliler'e 6 İlçeye Dağ ve Ova Teslimat Planı",
         paragraphs: [
-          "Karaman'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan honeycomb veya gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki üretim tesisimizden Karaman'ın 6 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile 2 iş günü içinde teslimat yapıyoruz. Ermenek ve Sarıveliler'in dağ yolu uzak ilçelerinde 2-3 iş günü içinde teslimat tamamlanır.",
         ],
       },
     ],
     faqItems: [
-      { question: "Karaman'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Karaman'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Karaman Ermenek dağlarında kışın çok soğuk, hangi perde önerirsiniz?", answer: "Ermenek'in Toroslar'daki yüksek rakımlı kesiminde çift petekli honeycomb modeli öneriyoruz. Şiddetli kış soğuklarında pencereden ısı kaybını minimuma indirir." },
+      { question: "Karaman'ın dağ ilçelerine perde gönderimi yapıyor musunuz?", answer: "Evet, Ermenek ve Sarıveliler'in Toroslar üzerindeki yüksek rakımlı ilçelerine dahi kargo ile teslimat yapıyoruz. Video keşif ile ölçü alıp, 2-3 iş günü içinde dağ yolu güzergahıyla gönderimi tamamlıyoruz." },
+      { question: "Bisküvi fabrikası lojmanlarına yangın dayanımlı perde temin eder misiniz?", answer: "Evet, Karaman'ın bisküvi sanayi bölgesindeki fabrika ve lojman blokları için yangın dayanımlı B1 sınıfı kumaşla toplu plise perde üretimi yapıyoruz. Video keşif ile ölçü alıp kargo ile toplu teslimat sağlıyoruz." },
     ],
   },
   {
@@ -933,27 +942,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Ağaçören", "Aksaray merkez", "Eskil", "Gülağaç", "Güzelyurt", "Ortaköy", "Sarıyahşi"],
-    intro: "Aksaray'ın 7 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu'nun karasal iklim kuşağında, <strong>kış soğukları ve yaz sıcaklarına karşı honeycomb modellerini</strong> öneriyoruz. Aksaray merkez ve Ortaköy konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Aksaray Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Aksaray'ın 7 ilçesinde plise perde: Ortaköy, Eskil, Güzelyurt video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
+    intro: "Aksaray'ın 7 ilçesi için Pendik İstanbul'daki üretim hattımızdan plise perde hazırlıyoruz. Tuz Gölü'nün güney kıyısında 980 metre rakımda kurulu bu şehirde, gölün tuzlu havası ve step ikliminin sert kış şartları <strong>kumaş seçimini belirler</strong>. Aksaray merkez, Ortaköy, Eskil ve Güzelyurt başta olmak üzere tüm ilçelere video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Aksaray Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Aksaray 7 ilçe plise perde: Ortaköy, Eskil, Güzelyurt, Gülağaç. Pendik üretim, video keşif, kargo teslimat. Tuz Gölü için anti-tuz kumaş.",
     sections: [
       {
-        h2: "Aksaray'ın Tuz Gölü Çevresinde Perde",
+        h2: "Tuz Gölü Tuzlu Havası ve Ihlara Vadisi Gölgesinde Kumaş Seçimi",
         paragraphs: [
-          "Aksaray, Tuz Gölü'nün güney kıyısında yer alır. Gölün tuzlu havası, Eskil ve Ortaköy sahil kesimlerinde kumaş seçimini etkiler. Bu bölgede <strong>anti-tuz kaplamalı kumaş</strong> kullanıyoruz. Aksaray merkez konutlarında ise karasal iklimin etkisiyle honeycomb modeli öneriyoruz.",
-          "Güzelyurt'un tarihi Rum evlerinde, orijinal pencere boyutlarına özel ölçü plise perde üretiyoruz. Ihlara Vadisi çevresindeki pansiyon ve turistik işletmelerde, vadiden gelen ışık için güneşlik kumaş öneriyoruz. Ağaçören ve Sarıyahşi'nin küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Aksaray, Tuz Gölü'nün güney kıyısına yayılmıştır. Eskil ve Ortaköy'ün göl sahil kesiminde tuz buharlaşması kumaş üzerinde aşındırıcı etki yaratır; bu ilçelerde <strong>anti-tuz kaplamalı kumaş</strong> tercih ediyoruz. Aksaray merkez konutlarında ise step ikliminin kış soğuğuna karşı honeycomb hücreli ısı yalıtımlı model uyguluyoruz.",
+          "Güzelyurt'un 1924 mübadele döneminden kalma tarihi Rum evlerinde, orijinal pencere açıklıklarına özel ölçü plise perde üretiyoruz; pencere içi montajla <em>tarihi dokuya zarar vermeden</em> kurulur. Ihlara Vadisi çevresindeki pansiyon ve turistik işletmelerde, vadi yamacından gelen eğimli ışık için güneşlik kumaş öneriyoruz. Ağaçören ve Sarıyahşi'nin küçük yerleşimlerinde standart ölçülere hızlı üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Aksaray'ın 8 İlçesinde Tuz Gölü Çevresi Teslimatı",
+        h2: "Merkezden Sarıyahşi'ye 7 İlçeye Kapadokya Eşiği Kargo Ağı",
         paragraphs: [
-          "Aksaray'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki atölyemizden Aksaray'ın 7 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile 1-2 iş günü içinde teslimat yapıyoruz. Güzelyurt ve Gülağaç'ın Kapadokya eşiğindeki ilçelerine de aynı süre içinde ulaşıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Aksaray'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Aksaray'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Aksaray Güzelyurt tarihi evler için perde yapılır mı?", answer: "Evet, Güzelyurt'un tarihi Rum evlerinin orijinal pencere boyutlarına özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile tarihi dokuya zarar vermeden kurulur." },
+      { question: "Aksaray'da Güzelyurt tarihi evlerine perde takılır mı?", answer: "Evet, Güzelyurt'un mübadele döneminden kalma Rum evlerinin orijinal pencere açıklıklarına özel ölçü plise perde üretiyoruz. Pencere içi montaj yöntemiyle tarihi dokuya zarar vermeden kurulur." },
+      { question: "Tuz Gölü kıyısındaki Eskil evleri için hangi kumaş önerilir?", answer: "Eskil ve Ortaköy'ün Tuz Gölü sahil kesiminde anti-tuz kaplamalı kumaş kullanıyoruz. Tuz buharlaşmasının kumaş üzerindeki aşındırıcı etkisini bu kaplama önler ve perde ömrünü belirgin uzatır." },
     ],
   },
   {
@@ -962,27 +971,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Altunhisar", "Bor", "Çamardı", "Çiftlik", "Niğde merkez", "Ulukışla"],
-    intro: "Niğde'nin 6 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun yüksek rakımlı karasal ikliminde, <strong>kış soğuklarına karşı ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Niğde merkez ve Bor konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Niğde Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Niğde'nin 6 ilçesinde plise perde: Bor, Çamardı, Ulukışla video keşif ve kargo. Yüksek rakım karasal iklim için ısı yalıtımlı modeller.",
+    intro: "Niğde'nin 6 ilçesi için Pendik İstanbul üretim tesisimizde plise perde hazırlıyoruz. 1229 metre rakımıyla İç Anadolu'nun en yüksek illerinden biri olan Niğde'de kışın -25°C'ye inen sıcaklık, pencereden <strong>dondurucu hava girişini kesmeyi</strong> zorunlu kılar. Niğde merkez, Bor, Çamardı ve Ulukışla başta olmak üzere tüm ilçelere video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Niğde Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Niğde 6 ilçe plise perde: Bor, Çamardı, Ulukışla, Altunhisar. Pendik üretim, video keşif, kargo teslimat. Yüksek rakım için çift petekli honeycomb.",
     sections: [
       {
-        h2: "Niğde'nin Yüksek Rakım İkliminde Perde",
+        h2: "Bin İki Yüz Metre Rakımda Aladağlar Eteğinde Isı Bariyeri",
         paragraphs: [
-          "Niğde, 1229 metre rakımıyla İç Anadolu'nun en yüksek illerinden biridir. Kışları şiddetli soğuklar ve kar yağışı görülür. Bu nedenle Niğde konutlarında <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Petek yapısı, pencereden gelen dondurucu havayı filtreler ve ısıtma giderlerini belirgin düşürür.",
-          "Bor ovasındaki tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Çamardı ve Ulukışla'nın Toroslar'daki yüksek kesimlerinde, dağ evleri için karartma + honeycomb kombinasyonu öneriyoruz. Altunhisar ve Çiftlik'in küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Niğde, Aladağlar'ın kuzey eteğinde 1229 metre rakımda kuruludur. Kış aylarında dondurucu soğuklar ve yoğun kar yağışı, pencere camından ısı kaybını maksimuma çıkarır. Bu nedenle Niğde merkez ve Bor konutlarında <strong>çift petekli honeycomb hücreli plise perde</strong> uyguluyoruz; iki katlı petek yapısının içinde hapsolan hava tabakası, cam yüzeyden gelen dondurucu havayı kırarak ısıtma giderlerini belirgin düşürür.",
+          "Çamardı ve Ulukışla'nın Bolkarlar üzerindeki 1500 metreyi aşan dağ köylerinde, karartma ile honeycomb kombinasyonu öneriyoruz; gece karartma katmanı soğuğu keserken honeycomb katmanı ısı yalıtımı sağlar. Bor ovasının elma bahçeleri arasındaki çiftlik evlerinde geniş pencereler için katlanır güneşlik sistem uyguluyoruz. Altunhisar ve Çiftlik'in küçük yerleşimlerinde standart ölçülere hızlı üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Niğde'nin 6 İlçesinde Rakım İklimi Kargo Planı",
+        h2: "Bor Ovasından Ulukışla'ya 6 İlçeye Yüksek Rakım Teslimat Hattı",
         paragraphs: [
-          "Niğde'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki atölyemizden Niğde'nin 6 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile 1-2 iş günü içinde teslimat yapıyoruz. Çamardı ve Ulukışla'nın dağ yolu güzergahındaki ilçelerine 2-3 iş gününde ulaşıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Niğde'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Niğde'nin tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Niğde kışın çok soğuk, hangi perde önerirsiniz?", answer: "Niğde'nin 1229 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. Pencereden gelen dondurucu havayı filtreler, ısıtma giderlerini düşürür." },
+      { question: "Niğde'nin yüksek rakımında hangi perde ısı kaybını azaltır?", answer: "Niğde'nin 1229 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. İki katlı petek yapısı cam yüzeyden gelen dondurucu havayı kırar ve ısıtma giderlerini belirgin düşürür. Çamardı ve Ulukışla'da karartma + honeycomb kombinasyonu da uygundur." },
+      { question: "Çamardı elma bahçelerindeki çiftlik evlerine perde yapar mısınız?", answer: "Evet, Çamardı ve Bor ovasının elma bahçeleri arasındaki çiftlik evlerinin geniş pencereleri için katlanır güneşlik sistem uyguluyoruz. Video keşif ile ölçü alıp kargo ile teslimat yapıyoruz." },
     ],
   },
   {
@@ -991,27 +1000,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Acıgöl", "Avanos", "Derinkuyu", "Gülşehir", "Hacıbektaş", "Kozaklı", "Nevşehir merkez", "Ürgüp"],
-    intro: "Nevşehir'in 8 ilçesinde plise perde hizmeti veriyoruz. Kapadokya'nın peri bacaları arasında, <strong>mağara otelleri ve tarihi taş evler için özel perde çözümleri</strong> sunuyoruz. Nevşehir merkez ve Ürgüp konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Nevşehir Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Nevşehir'in 8 ilçesinde plise perde: Ürgüp, Avanos, Göreme video keşif ve kargo. Kapadokya mağara otelleri ve taş evler için özel çözümler.",
+    intro: "Nevşehir'in 8 ilçesi için Pendik İstanbul atölyemizde plise perde üretiyoruz. Kapadokya'nın volkanik tüf kayalarının içine oyulmuş mağara otelleri ve taş evlerin pencereleri standart dışıdır; bu yapılar için <strong>özel ölçü perde çözümleri</strong> hazırlıyoruz. Nevşehir merkez, Ürgüp, Avanos ve Derinkuyu başta olmak üzere tüm ilçelere video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Nevşehir Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Nevşehir 8 ilçe plise perde: Ürgüp, Avanos, Derinkuyu, Hacıbektaş, Kozaklı. Pendik üretim, video keşif, kargo. Kapadokya mağara otelleri için özel ölçü.",
     sections: [
       {
-        h2: "Kapadokya'nın Mağara Evlerinde Perde Sistemleri",
+        h2: "Peri Bacaları Arasında Volkanik Tüf Yapıya Özel Pencere Çözümleri",
         paragraphs: [
-          "Nevşehir, Kapadokya'nın kalbidir. <strong>Ürgüp, Avanos ve Göreme</strong>'deki mağara otelleri ve taş evlerin pencereleri standart dışıdır. Bu binaların pencere açıklıklarına özel ölçü plise perde üretiyoruz. Mağara yapısının doğal ısı yalıtımı olduğu için, bu binalarda güneşlik kumaş yeterli olur.",
-          "Hacıbektaş ve Gülşehir'in tarihi binalarında, orijinal pencere boyutlarına özel üretim yapıyoruz. Derinkuyu'nun yer altı şehri çevresindeki pansiyonlarda karartma modeli öneriyoruz. Kozaklı termal bölgesindeki oteller için anti-buhar kaplamalı kumaş kullanıyoruz. Nevşehir merkez konutlarında ise karasal iklim nedeniyle honeycomb modeli öneriyoruz.",
+          "Nevşehir, 1150 metre rakımda, Kapadokya'nın volkanik tüf kayalarının içine oyulmuş mağara evleriyle ünlüdür. <strong>Ürgüp, Avanos ve Göreme</strong>'deki mağara otellerinin pencereleri standart ölçülerden sapar; bu açıklıklara özel ölçü plise perde üretiyoruz. Mağara yapısının doğal ısı yalıtımı sağlaması nedeniyle, bu binalarda güneşlik kumaş yeterli olur.",
+          "Hacıbektaş ve Gülşehir'in tarihi taş binalarında, orijinal pencere boyutlarına özel üretim yapıyoruz. Derinkuyu'nun çok katlı yer altı şehri çevresindeki pansiyonlarda, zayıf iç ışık için karartma modeli öneriyoruz. Kozaklı termal bölgesindeki otellerde <em>anti-buhar kaplamalı kumaş</em> kullanıyoruz; termal su buharının kumaş üzerindeki etkisini bu kaplama önler. Nevşehir merkez konutlarında ise step iklimi nedeniyle honeycomb modeli uyguluyoruz.",
         ],
       },
       {
-        h2: "Nevşehir'in 8 İlçesinde Kapadokya Mağara Evleri Gönderimi",
+        h2: "Ürgüp'ten Hacıbektaş'a 8 İlçeye Kapadokya Kargo Hattı",
         paragraphs: [
-          "Nevşehir'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Kapadokya mağara otelleri için özel ölçü üretim yapıyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki üretim tesisimizden Nevşehir'in 8 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. Kapadokya mağara otelleri için özel ölçü üretim yapıp, kargo ile 1-2 iş günü içinde teslimat sağlıyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, montaj talimatı ile birlikte paketliyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kapadokya mağara otelim için perde yaptırabilir miyim?", answer: "Evet, Ürgüp, Avanos ve Göreme'deki mağara otellerinin standart dışı pencere açıklıklarına özel ölçü plise perde üretiyoruz. Mağara yapısının doğal ısı yalıtımı olduğu için güneşlik kumaş yeterli olur." },
-      { question: "Nevşehir'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Nevşehir'in tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Mağara otelimin standart dışı pencerelerine perde üretir misiniz?", answer: "Evet, Ürgüp, Avanos ve Göreme'deki mağara otellerinin volkanik tüf içine oyulmuş standart dışı pencere açıklıklarına özel ölçü plise perde üretiyoruz. Mağara yapısının doğal ısı yalıtımı olduğu için güneşlik kumaş yeterli olur." },
+      { question: "Kozaklı termal bölgesindeki oteller için buhara dayanıklı kumaş var mı?", answer: "Evet, Kozaklı termal bölgesindeki oteller için anti-buhar kaplamalı kumaş kullanıyoruz. Termal su buharının kumaş üzerindeki aşındırıcı ve nemlendirici etkisini bu kaplama önler ve perde ömrünü uzatır." },
     ],
   },
   {
@@ -1020,27 +1029,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Akçakent", "Akpınar", "Boztepe", "Çiçekdağı", "Kaman", "Kırşehir merkez", "Mucur"],
-    intro: "Kırşehir'in 7 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun karasal ikliminde, <strong>kış soğuklarına uygun ısı yalıtımlı modelleri</strong> öneriyoruz. Kırşehir merkez ve Kaman konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kırşehir Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kırşehir'in 7 ilçesinde plise perde: Kaman, Mucur, Akpınar video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
+    intro: "Kırşehir'in 7 ilçesi için Pendik İstanbul'daki üretim hattımızdan plise perde gönderiyoruz. Orta Anadolu'nun ortasında 985 metre rakımda kurulu bu şehirde step iklimi kışın -15°C'ye, yazın +35°C'ye sıçrar; bu salınım pencere perdesinden <strong>gündüz gölgeleme gece yalıtım</strong> bekler. Kırşehir merkez, Kaman, Mucur ve Akpınar başta olmak üzere tüm ilçelere video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Kırşehir Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Kırşehir 7 ilçe plise perde: Kaman, Mucur, Akpınar, Boztepe. Pendik üretim, video keşif, kargo teslimat. Step iklimi için gece-gündüz ve honeycomb.",
     sections: [
       {
-        h2: "Kırşehir'in Karasal İkliminde Perde",
+        h2: "Kaman Manyezit Yatakları ve Seyfe Gölü Çevresinde Perde Tercihi",
         paragraphs: [
-          "Kırşehir, İç Anadolu'nun ortasında, 985 metre rakımda yer alır. Kışları soğuk ve karlı, yazları sıcak ve kuraktır. Bu iklim koşullarında <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz — gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller.",
-          "Kırşehir merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Kaman'ın çömlek atölyelerinin bulunduğu sanayi bölgesinde, atölye pencereleri için güneşlik kumaş öneriyoruz. Mucur ve Boztepe'nin tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Akçakent ve Çiçekdağı'nın küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Kırşehir, 985 metre rakımda, Orta Anadolu step ikliminin tipik özelliklerini taşır. Kışın karlı ve dondurucu, yazın sıcak ve kurak geçen iklim koşullarında <strong>gece-gündüz plise perde</strong> uyguluyoruz; gündüz güneşlik katmanı step sıcaklığını kırar, gece karartma katmanı camdan ısı kaybını keser.",
+          "Kaman'ın manyezit madeni ve çömlek atölyelerinin bulunduğu sanayi bölgesinde, atölye pencereleri için toz tutmaz güneşlik kumaş öneriyoruz. Mucur ve Boztepe'nin tarım arazilerindeki çiftlik evlerinde geniş pencere açıklıklarına katlanır sistem uyguluyoruz. Seyfe Gölü çevresindeki köy evlerinde, gölün alkali havasına dayanıklı kumaş tercih ediyoruz. Akçakent ve Çiçekdağı'nın küçük yerleşimlerinde standart ölçülere hızlı üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Kırşehir'in 7 İlçesinde Karasal Düzluğun Teslimat Çözümü",
+        h2: "Merkezden Çiçekdağı'na 7 İlçeye Orta Anadolu Kargo Düzeni",
         paragraphs: [
-          "Kırşehir'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki atölyemizden Kırşehir'in 7 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile 1-2 iş günü içinde teslimat yapıyoruz. Kaman ve Mucur'a 1 iş gününde, Akçakent ve Çiçekdağı'na 2 iş gününde ulaşıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kırşehir'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Kırşehir'in tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Kırşehir kışın soğuk, hangi perde önerirsiniz?", answer: "Kırşehir'in karasal ikliminde gece-gündüz plise perde öneriyoruz. Gündüz katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller. Honeycomb modeli de ısı yalıtımı için uygundur." },
+      { question: "Kırşehir'de Kaman çömlek atölyeleri için perde temin ediyor musunuz?", answer: "Evet, Kaman'ın çömlek atölyelerinin pencereleri için toz tutmaz güneşlik kumaş tercih ediyoruz. Atölye içindeki kil tozunun kumaş yüzeyinde birikmesini bu kumaş tipi azaltır. Video keşif ile ölçü alıp kargo ile teslimat yapıyoruz." },
+      { question: "Kırşehir'in karasal kışında gece-gündüz modeli yeterli olur mu?", answer: "Kırşehir'in 985 metre rakımında gece-gündüz plise perde yeterli olur; gündüz katmanı step sıcaklığını kırar, gece karartma katmanı camdan ısı kaybını keser. Daha fazla yalıtım isteyenler için honeycomb modeli de uygundur." },
     ],
   },
   {
@@ -1049,27 +1058,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Bahşılı", "Balışeyh", "Çelebi", "Delice", "Karakeçili", "Keskin", "Kırıkkale merkez", "Sulakyurt", "Yahşihan"],
-    intro: "Kırıkkale'nin 9 ilçesinde plise perde hizmeti veriyoruz. Ankara'ya komşu olan Kırıkkale'nin karasal ikliminde, <strong>kış soğuklarına uygun ısı yalıtımlı modelleri</strong> öneriyoruz. Kırıkkale merkez ve Keskin konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kırıkkale Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kırıkkale'nin 9 ilçesinde plise perde: Keskin, Delice, Sulakyurt video keşif ve kargo. Karasal iklim için ısı yalıtımlı modeller.",
+    intro: "Kırıkkale'nin 9 ilçesi için Pendik İstanbul üretim tesisimizde plise perde hazırlıyoruz. Ankara'nın doğusundaki bu sanayi şehrinde 700 metre rakımda step iklimi hüküm sürer; Kızılırmak'ın geçtiği vadide kışın -12°C'ye düşen sıcaklık, sanayi bölgesinde ise <strong>yangın güvenliği</strong> öncelik kazanır. Kırıkkale merkez, Keskin, Delice ve Sulakyurt başta olmak üzere tüm ilçelere video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Kırıkkale Plise Perde - Pendik Üretim & Kargo Gönderimi",
+    seoDescription: "Kırıkkale 9 ilçe plise perde: Keskin, Delice, Sulakyurt, Yahşihan. Pendik üretim, video keşif, kargo teslimat. Sanayi bölgesi için B1 yangın dayanımlı kumaş.",
     sections: [
       {
-        h2: "Kırıkkale'nin Sanayi ve Konut Bölgesinde Perde",
+        h2: "Kızılırmak Kıyısında Sanayi Şehrinin Yangın Dayanımlı Perde İhtiyacı",
         paragraphs: [
-          "Kırıkkale, Ankara'ya yakın konumuyla sanayi ve konut şehridir. Silah sanayi ve petrol rafinerisi bölgesindeki işçi lojmanları için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu perde çözümleri sunuyoruz. Kırıkkale merkez konutlarında karasal iklim nedeniyle honeycomb modeli öneriyoruz.",
-          "Keskin ve Delice'nin tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Bahşılı ve Balışeyh'in küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz. Karakeçili ve Sulakyurt'ta ise video keşif ile hizmet veriyoruz.",
+          "Kırıkkale, Ankara'ya 80 kilometre mesafede, Kızılırmak'ın kıyısına kurulmuş bir sanayi ve konut şehridir. Silah ve mühimmat sanayi ile petrol rafinerisi bölgesindeki işçi lojmanlarına <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu plise perde üretimi yapıyoruz. Kırıkkale merkez konutlarında ise step ikliminin kış soğuğuna karşı honeycomb hücreli ısı yalıtımlı model uyguluyoruz.",
+          "Keskin ve Delice'nin Kızılırmak havzasındaki tarım arazilerindeki çiftlik evlerinde, geniş pencere açıklıklarına katlanır güneşlik sistem uyguluyoruz. Bahşılı ve Balışeyh'in küçük yerleşimlerinde standart ölçülere hızlı üretim yapıyoruz. Karakeçili ve Sulakyurt'ta video keşif ile ölçü alıp kargo ile teslimat sağlıyoruz.",
         ],
       },
       {
-        h2: "Kırıkkale'nin 9 İlçesinde Sanayi ve Konut Bölgesi Kargo",
+        h2: "Merkezden Delice'ye 9 İlçeye Ankara Komşusu Kargo Ağı",
         paragraphs: [
-          "Kırıkkale'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki atölyemizden Kırıkkale'nin 9 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile 1-2 iş günü içinde teslimat yapıyoruz. Kırıkkale'in Ankara'ya yakınlığı sayesinde merkez ilçelere 1 iş gününde ulaşıyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kırıkkale'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Kırıkkale'nin tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Kırıkkale sanayi bölgesi için toplu perde yaptırabilir miyim?", answer: "Evet, Kırıkkale sanayi bölgesindeki işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz." },
+      { question: "Kırıkkale sanayi bölgesi işçi lojmanlarına toplu perde siparişi verilebilir mi?", answer: "Evet, Kırıkkale silah sanayi ve petrol rafinerisi bölgesindeki işçi lojman blokları için yangın dayanımlı B1 sınıfı kumaşla toplu plise perde üretimi yapıyoruz. Video keşif ile ölçü alıp kargo ile toplu teslimat sağlıyoruz." },
+      { question: "Kırıkkale'nin karasal ikliminde hangi perde modeli ısı tasarrufu sağlar?", answer: "Kırıkkale merkez konutlarında honeycomb hücreli plise perde öneriyoruz. Petek yapısının içinde hapsolan hava tabakası, cam yüzeyden gelen kış soğuğunu kırarak ısıtma giderlerini düşürür. Keskin ve Delice'da geniş pencere için katlanır güneşlik de uygundur." },
     ],
   },
   {
@@ -1078,27 +1087,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Atkaracalar", "Bayramören", "Çankırı merkez", "Çerkeş", "Eldivan", "Eskipazar", "Ilgaz", "Kızılırmak", "Korgun", "Kurşunlu", "Orta", "Şabanözü", "Yapraklı"],
-    intro: "Çankırı'nın 13 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun kuzeyinde, Karadeniz'e yakın karasal iklim kuşağında, <strong>kış soğuklarına uygun ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Çankırı merkez ve Çerkeş konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Çankırı Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Çankırı'nın 13 ilçesinde plise perde: Çerkeş, Ilgaz, Orta video keşif ve kargo. Karasal-Karadeniz geçiş iklimi için ısı yalıtımlı modeller.",
+    intro: "Çankırı'nın 13 ilçesi için Pendik İstanbul merkezli üretim tesisimizde plise perde üretiyoruz. Ilgaz Dağı'nın sert kış koşullarının hissedildiği bu geçiş kuşağında, <strong>petek yapılı honeycomb sistemlerin pencere yalıtımına katkısı</strong> belirgindir. Çerkeş, Orta ve Kurşunlu başta olmak üzere tüm ilçelere video keşif ve kargo gönderimi yapıyoruz.",
+    seoTitle: "Çankırı Plise Perde - Ilgaz İklimine Özel Üretim & Kargo",
+    seoDescription: "Çankırı'nın 13 ilçesi için Pendik İstanbul üretim hattından plise perde. Ilgaz geçiş iklimine uygun honeycomb ve karartma modelleri, video keşif ile kargo teslimat.",
     sections: [
       {
-        h2: "Çankırı'nın Dağlık İkliminde Perde",
+        h2: "Ilgaz Eteklerinden Tuz Madenine Çankırı Pencereleri",
         paragraphs: [
-          "Çankırı, İç Anadolu ile Karadeniz arasında geçiş iklimine sahiptir. Ilgaz Dağı'nın etkisiyle kışları şiddetli soğuklar ve kar yağışı görülür. Bu nedenle Çankırı konutlarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Ilgaz kayak merkezi çevresindeki otel ve pansiyonlarda karartma + honeycomb kombinasyonu uyguluyoruz.",
-          "Çankırı merkez tuz madeni bölgesindeki işçi lojmanları için toplu perde çözümleri sunuyoruz. Çerkeş ve Kurşunlu'nun tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Orta ve Şabanözü'nün küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Çankırı, İç Anadolu'nun kuzey kenarında Karadeniz'e bakan yamaçlarla iç kesim step arasında sıkışmış bir geçiş kuşağıdır. Ilgaz Dağı kütlesinin oluşturduğu soğuk hava birikimi, kış aylarında merkezde bile eksi değerlerin altına inilmesine yol açar. Böyle bir iklimde <strong>honeycomb petekli plise perde</strong>, cam ile iç mekân arasına hava yastığı yerleştirerek ısı köprüsünü zayıflatır. Ilgaz kayak merkezi civarındaki konaklama tesislerinde karartma katmanıyla birleştirilmiş honeycomb uygulaması yapıyoruz.",
+          "Çankırı merkezdeki tuz madeni tesislerine bağlı lojman blokları için <em>yangına dayanıklı B1 sınıfı kumaş</em> tercih ederek toplu üretim yapıyoruz. Çerkeş ile Kurşunlu'nun geniş tarım alanlarındaki çiftlik binalarında yüksek pencerelere katlanır güneşlik sistemini monte ediyoruz. Şabanözü, Orta ve Yapraklı gibi nüfusu az olan ilçelerde standart ölçü stoklarımızdan hızlı kesim yapıp kargoya veriyoruz.",
         ],
       },
       {
-        h2: "Çankırı'nın 12 İlçesinde Dağlık Bölge Teslimat Rotası",
+        h2: "Çankırı İlçelerine Pendik İstanbul Üretim Hattından Kargo",
         paragraphs: [
-          "Çankırı'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Tüm üretim süreçleri Pendik İstanbul'daki atölyemizde yürütülür ve Çankırı'nın 13 ilçesine kargo ile ulaştırılır. Müşterilerimiz <strong>video keşif yöntemiyle</strong> pencere ölçülerini bize iletir, üretim onayından sonra ürün kargoya teslim edilir. Eldivan, Korgun ve Bayramören gibi küçük yerleşimlere bile aynı hızda gönderim sağlanır.",
         ],
       },
     ],
     faqItems: [
-      { question: "Çankırı'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Çankırı'nın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Çankırı Ilgaz kayak merkezi için perde yaptırabilir miyim?", answer: "Evet, Ilgaz kayak merkezi çevresindeki otel ve pansiyonlar için karartma + honeycomb kombinasyonu plise perde öneriyoruz. Şiddetli kış soğuklarında ısı yalıtımı sağlar." },
+      { question: "Çankırı tuz madeni bölgesindeki lojmanlara toplu sipariş verilebilir mi?", answer: "Evet, Çankırı merkezdeki tuz madeni tesislerine bağlı lojman blokları için yangına dayanıklı B1 sınıfı kumaşla toplu plise perde üretimi yapıyoruz. Pendik İstanbul atölyemizde kesim yapıp kargo ile toplu teslimat sağlıyoruz." },
+      { question: "Ilgaz Dağı civarındaki konutlar için hangi perde tipi daha uygun?", answer: "Ilgaz'ın sert kış koşullarında honeycomb petekli plise perde öneriyoruz. Petek içinde hapsolan hava tabakası cam yüzeyden gelen soğuğu kırar; kayak merkezi çevresindeki otellerde karartma ile birleştirilmiş honeycomb uygulaması da yapıyoruz." },
     ],
   },
   {
@@ -1107,27 +1116,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Akdağmadeni", "Aydıncık", "Boğazlıyan", "Çandır", "Çayıralan", "Çekerek", "Kadışehri", "Saraykent", "Sarıkaya", "Sorgun", "Şefaatli", "Yenifakılı", "Yerköy", "Yozgat merkez"],
-    intro: "Yozgat'ın 14 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu'nun ortasında, yüksek rakımlı karasal iklim kuşağında, <strong>kış soğuklarına uygun ısı yalıtımlı honeycomb modellerini</strong> öneriyoruz. Yozgat merkez ve Sorgun konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Yozgat Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Yozgat'ın 14 ilçesinde plise perde: Sorgun, Boğazlıyan, Yerköy video keşif ve kargo. Yüksek rakım karasal iklim için ısı yalıtımlı modeller.",
+    intro: "Yozgat'ın 14 ilçesi için Pendik İstanbul üretim hattımızda plise perde hazırlıyoruz. Yaklaşık 1298 metrelik merkez rakımıyla İç Anadolu'nun en yüksek ovalarından birinde yer alan şehirde, <strong>çift petekli honeycomb sistemlerinin ısı tutucu etkisi</strong> kış aylarında fark yaratır. Sorgun, Boğazlıyan ve Yerköy başta olmak üzere tüm ilçelere video keşif ve kargo gönderimi yapıyoruz.",
+    seoTitle: "Yozgat Plise Perde - Bozok Yaylası İçin Özel Üretim & Kargo",
+    seoDescription: "Yozgat'ın 14 ilçesi için Pendik İstanbul atölyesinden plise perde. 1298 m rakımda çift petekli honeycomb ve termal bölge kumaşları, video keşif ile kargo.",
     sections: [
       {
-        h2: "Yozgat'ın Yüksek Rakım Ovasında Perde",
+        h2: "Bozok Yaylasının Sert İkliminde Plise Perde Seçimi",
         paragraphs: [
-          "Yozgat, 1298 metre rakımıyla İç Anadolu'nun en yüksek illerinden biridir. Kışları şiddetli soğuklar ve kar yağışı görülür. Bu nedenle Yozgat konutlarında <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Yozgat'ın yüksek rakımında petek yapısı, pencereden gelen dondurucu havayı filtreler.",
-          "Yozgat merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Sorgun ve Boğazlıyan'ın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Akdağmadeni ve Sarıkaya'nın termal kaynakları çevresindeki oteller için anti-buhar kaplamalı kumaş kullanıyoruz. Yerköy sanayi bölgesindeki işçi lojmanları için toplu perde çözümleri sunuyoruz.",
+          "Yozgat, Bozok Platosu'nun üzerinde 1298 metre yükseklikte uzanır ve bu rakım kış aylarında termometrenin uzun süre sıfırın altında kalmasına neden olur. Kar örtüsünün haftalarca erimediği bu dönemde <strong>çift petekli honeycomb plise perde</strong>, pencere camından sızan dondurucu havayı iki katmanlı hava yastığıyla süzerek odanın ısısını korur. Merkez ilçedeki apartman dairelerinde bu modeli sıkça uyguluyoruz.",
+          "Sorgun ve Boğazlıyan ovalarındaki geniş çiftlik binalarında katlanır güneşlik sistemini tercih ediyoruz. Akdağmadeni ile Sarıkaya'nın termal su kaynakları çevresindeki otellerde <em>anti-buhar kaplamalı kumaş</em> kullanarak sürekli nemin kumaş yapısını bozmasını engelliyoruz. Yerköy sanayi bölgesindeki işçi blokları için toplu üretim yapıyor, Şefaatli ve Yenifakılı gibi küçük yerleşimlerde standart ölçü stoklarımızdan hızlı gönderim sağlıyoruz.",
         ],
       },
       {
-        h2: "Yozgat'ın 14 İlçesinde Yüksek Rakım Ova Gönderimi",
+        h2: "Yozgat İlçelerine Yüksek Rakım İçin Özel Üretim Gönderimi",
         paragraphs: [
-          "Yozgat'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki üretim tesisimizde Yozgat'ın 14 ilçesi için plise perde kesiyoruz. Müşterilerimiz <strong>video keşif</strong> ile pencere ölçülerini iletir, üretim tamamlanınca kargo ile teslim alır. Çandır, Çayıralan ve Çekerek gibi küçük ilçelere bile aynı gönderim hızıyla hizmet veriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Yozgat'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Yozgat'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Yozgat kışın çok soğuk, hangi perde önerirsiniz?", answer: "Yozgat'ın 1298 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. Pencereden gelen dondurucu havayı filtreler, ısıtma giderlerini düşürür." },
+      { question: "Yozgat'ın yüksek rakımında honeycomb perde ısı tasarrufu sağlar mı?", answer: "Evet, Yozgat'ın 1298 metre rakımında çift petekli honeycomb plise perde öneriyoruz. İki katmanlı petek yapısı camdan gelen dondurucu havayı süzerek odanın ısısını korur ve ısıtma giderlerini düşürür." },
+      { question: "Boğazlıyan ve Sorgun çiftlik evlerine geniş pencere perdesi üretiyor musunuz?", answer: "Boğazlıyan ve Sorgun ovalarındaki geniş pencereli çiftlik binaları için katlanır güneşlik plise perde sistemini üretiyoruz. Pendik İstanbul atölyemizde özel ölçü kesim yapıp kargo ile gönderiyoruz." },
     ],
   },
   {
@@ -1136,27 +1145,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Akkışla", "Bünyan", "Develi", "Felahiye", "Hacılar", "İncesu", "Kocasinan", "Melikgazi", "Özvatan", "Pınarbaşı", "Sarıoğlan", "Sarız", "Talas", "Tomarza", "Yahyalı", "Yeşilhisar"],
-    intro: "Kayseri'nin 16 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu'nun sanayi ve ticaret merkezinde, <strong>kış soğukları ve yaz sıcaklarına karşı gece-gündüz ve honeycomb modellerini</strong> öneriyoruz. Melikgazi, Kocasinan, Talas ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kayseri Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kayseri'nin 16 ilçesinde plise perde: Melikgazi, Kocasinan, Talas video keşif ve kargo. Karasal iklim ve sanayi bölgesi için çözümler.",
+    intro: "Kayseri'nin 16 ilçesi için Pendik İstanbul üretim tesisimizde plise perde hazırlıyoruz. Erciyes Dağı'nın gölgesinde 1054 metre rakımda yer alan şehirde kışlar -20°C'ye kadar iner; <strong>honeycomb ve gece-gündüz modellerini</strong> bu sıcaklık farkına göre öneriyoruz. Melikgazi, Kocasinan ve Talas ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Kayseri Plise Perde - Erciyes Eteği İçin Üretim & Kargo",
+    seoDescription: "Kayseri'nin 16 ilçesi için Pendik İstanbul atölyesinden plise perde. Erciyes iklimine uygun honeycomb, gece-gündüz ve B1 yangın dayanımlı modeller, video keşif ile kargo.",
     sections: [
       {
-        h2: "Kayseri'nin Sanayi ve Ticaret Şehrinde Perde",
+        h2: "Erciyes'in Gölgesinde Kayseri Konutları İçin Perde",
         paragraphs: [
-          "Kayseri, Türkiye'nin en önemli sanayi ve ticaret şehirlerinden biridir. Melikgazi ve Kocasinan merkez ilçelerindeki modern site dairelerinde standart ölçülere hızlı üretim yapıyoruz. Organize sanayi bölgesindeki fabrika ve işçi lojmanları için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu perde çözümleri sunuyoruz.",
-          "Kayseri'nin 1054 metre rakımındaki karasal ikliminde kışları -20°C'ye varan soğuklar görülür. Bu nedenle konutlarda <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Talas ilçesindeki eski Rum evlerinin pencerelerine özel ölçü üretim yapıyoruz. Develi ve Yahyalı'nın Toroslar eteğindeki beldelerinde, daha ılıman iklim nedeniyle standart modeller yeterlidir.",
+          "Kayseri, Erciyes'in 3917 metrelik zirvesinin etkisiyle yazın öğle sıcakları ile kışın gece donları arasında geniş bir sıcaklık aralığına sahiptir. Melikgazi ve Kocasinan'daki modern site dairelerinde <strong>gece-gündüz plise perde</strong> uygulayarak gündüz güneşlik katmanıyla ısınmayı, gece karartma katmanıyla soğuk hava sızmasını kontrol altına alıyoruz. Organize sanayi bölgesindeki fabrika idari binaları ve lojman blokları için <em>B1 yangın dayanımlı kumaş</em> tercih ederek toplu üretim yapıyoruz.",
+          "Talas'ın tarihi Rum evlerinin dar ve yüksek pencerelerine özel ölçü kesim uyguluyoruz. Develi ve Yahyalı'nın Toroslar eteğinde yer alan beldelerinde iklim daha ılıman olduğundan standart güneşlik modelleri yeterli gelir. Bünyan'ın halı dokuma atölyelerinin idari bölümlerine, Pınarbaşı ve Sarız'ın kırsal yerleşimlerindeki geniş pencerelere ise katlanır sistem üretiyoruz.",
         ],
       },
       {
-        h2: "Kayseri'nin 16 İlçesinde Sanayi Şehri Teslimat Ağı",
+        h2: "Kayseri'nin 16 İlçesine Sanayi ve Ticaret Hattı Teslimat",
         paragraphs: [
-          "Kayseri'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan honeycomb veya gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki atölyemizde Kayseri'nin 16 ilçesi için plise perde üretiyoruz. Müşterilerimiz <strong>video keşif</strong> yöntemiyle pencere ölçülerini iletir, üretim sonrası kargo ile teslim alır. Akkışla, Felahiye, Özvatan ve Tomarza gibi küçük ilçelere dahi aynı gönderim hızıyla hizmet veriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Kayseri'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Kayseri'nin 16 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Kayseri sanayi bölgesi için toplu perde yaptırabilir miyim?", answer: "Evet, Kayseri organize sanayi bölgesindeki fabrika ve işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz." },
+      { question: "Kayseri organize sanayi işçi blokları için B1 sınıfı perde üretimi yapıyor musunuz?", answer: "Evet, Kayseri organize sanayi bölgesindeki fabrika idari binaları ve lojman blokları için yangına dayanıklı B1 sınıfı kumaşla toplu plise perde üretimi yapıyoruz. Pendik İstanbul atölyemizde kesim yapıp kargo ile toplu teslimat sağlıyoruz." },
+      { question: "Erciyes eteklerindeki Talas konutlarında hangi perde modeli önerilir?", answer: "Talas'ın Erciyes etkisindeki ikliminde gece-gündüz plise perde öneriyoruz. Gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuk hava sızmasını engeller. Tarihi Rum evlerinin dar pencerelerine özel ölçü kesim de yapıyoruz." },
     ],
   },
   {
@@ -1165,27 +1174,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Akıncılar", "Altınyayla", "Divriği", "Doğanşar", "Gemerek", "Gölova", "Gürün", "Hafik", "İmranlı", "Kangal", "Koyulhisar", "Sivas merkez", "Suşehri", "Şarkışla", "Ulaş", "Yıldızeli", "Zara"],
-    intro: "Sivas'ın 17 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu'nun en yüksek rakımlı illerinden birinde, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Sivas merkez ve Gemerek konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Sivas Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Sivas'ın 17 ilçesinde plise perde: Gemerek, Divriği, Kangal video keşif ve kargo. Yüksek rakım şiddetli kış iklimi için çift petekli honeycomb.",
+    intro: "Sivas'ın 17 ilçesi için Pendik İstanbul üretim hattımızda plise perde hazırlıyoruz. 1285 metre merkez rakımıyla İç Anadolu'nun en sert kışlarına sahip illerden birinde, <strong>çift petekli honeycomb sistemlerin pencere yalıtımına katkısı</strong> belirgindir. Sivas merkez, Gemerek ve Şarkışla başta olmak üzere tüm ilçelere video keşif ve kargo gönderimi yapıyoruz.",
+    seoTitle: "Sivas Plise Perde - Sert Kış İklimine Özel Üretim & Kargo",
+    seoDescription: "Sivas'ın 17 ilçesi için Pendik İstanbul atölyesinden plise perde. 1285 m rakımda çift petekli honeycomb ve Divriği tarihi binalarına özel ölçü, video keşif ile kargo.",
     sections: [
       {
-        h2: "Sivas'ın Yüksek Rakım İkliminde Perde",
+        h2: "Sivas'ın Dondurucu Kışında Pencere Yalıtımı",
         paragraphs: [
-          "Sivas, 1285 metre rakımıyla İç Anadolu'nun en soğuk illerinden biridir. Kışları -30°C'ye varan soğuklar ve aylarca süren kar yağışı görülür. Bu şiddetli kış koşullarında <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Çift petek yapısı, pencereden gelen dondurucu havayı iki katmanlı filtreler.",
-          "Sivas merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Divriği'nin UNESCO Dünya Mirası listesindeki Ulu Camii çevresindeki tarihi binaların pencerelerine özel ölçü üretim yapıyoruz. Kangal balıklı termal kaynak çevresindeki oteller için anti-buhar kaplamalı kumaş kullanıyoruz. Gemerek ve Şarkışla'nın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Sivas, 1285 metrelik merkez rakımı ve açık step topografyası nedeniyle kış aylarında -30°C'ye kadar düşen sıcaklıklar ve haftalarca süren kar örtüsüyle İç Anadolu'nun en sert iklimine sahip illerden biridir. Bu koşullarda <strong>çift petekli honeycomb plise perde</strong>, iki katmanlı hava yastığıyla camdan içeri sızan dondurucu akımı kırar ve odanın ısısını uzun süre muhafaza eder. Merkez ilçedeki apartman dairelerinde bu modeli öne çıkarıyoruz.",
+          "Divriği'de UNESCO Dünya Mirası listesindeki Ulu Camii ve Darüşşifa çevresindeki tarihi yapılara zarar vermemek için pencere içine monte edilen özel ölçü plise perde üretiyoruz. Kangal'ın balıklı termal kaynak bölgesindeki otellerde <em>anti-buhar kaplamalı kumaş</em> kullanarak sürekli nemin kumaşı bozmasını engelliyoruz. Gemerek ve Şarkışla'nın geniş tarım alanlarındaki çiftlik binalarında katlanır güneşlik sistemini uyguluyoruz.",
         ],
       },
       {
-        h2: "Sivas'ın 17 İlçesinde Yüksek Rakım İklim Kargo Planı",
+        h2: "Sivas İlçelerine Tarihi İpek Yolu Güzergahı Kargo Ağı",
         paragraphs: [
-          "Sivas'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan çift petekli honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki üretim tesisimizde Sivas'ın 17 ilçesi için plise perde kesiyoruz. Müşterilerimiz <strong>video keşif</strong> ile pencere ölçülerini iletir, üretim tamamlanınca kargo ile teslim alır. Akıncılar, Doğanşar, Gölova ve İmranlı gibi küçük ilçelere bile aynı gönderim hızıyla hizmet veriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Sivas'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Sivas'ın 17 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Sivas kışın -30°C, hangi perde önerirsiniz?", answer: "Sivas'ın şiddetli kışlarında çift petekli honeycomb hücreli plise perde öneriyoruz. Çift petek yapısı, pencereden gelen dondurucu havayı iki katmanlı filtreler, ısıtma giderlerini belirgin düşürür." },
+      { question: "Sivas'ın -30°C'yi gören kışında pencere yalıtımı için ne önerirsiniz?", answer: "Sivas'ın 1285 metre rakımındaki sert kışında çift petekli honeycomb plise perde öneriyoruz. İki katmanlı petek yapısı camdan gelen dondurucu havayı kırarak odanın ısısını korur ve ısıtma giderlerini düşürür." },
+      { question: "Divriği tarihi binalarına zarar vermeden perde monte ediliyor mu?", answer: "Evet, Divriği'nin UNESCO mirası Ulu Camii çevresindeki tarihi yapılara zarar vermemek için pencere içine monte edilen özel ölçü plise perde üretiyoruz. Ahşap veya taş çerçeveye hasar vermeden kurulur." },
     ],
   },
   {
@@ -1194,27 +1203,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Almus", "Artova", "Başçiftlik", "Erbaa", "Niksar", "Pazar", "Reşadiye", "Sulusaray", "Tokat merkez", "Turhal", "Yeşilyurt", "Zile"],
-    intro: "Tokat'ın 12 ilçesinde plise perde hizmeti sunuyoruz. İç Anadolu ile Karadeniz geçiş iklim kuşağında, <strong>kış soğuklarına ve yaz sıcaklarına uygun gece-gündüz modellerini</strong> öneriyoruz. Tokat merkez ve Turhal konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Tokat Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Tokat'ın 12 ilçesinde plise perde: Turhal, Erbaa, Niksar video keşif ve kargo. İç Anadolu-Karadeniz geçiş iklimi için gece-gündüz modelleri.",
+    intro: "Tokat'ın 12 ilçesi için Pendik İstanbul üretim tesisimizde plise perde hazırlıyoruz. İç Anadolu'nun karasal havası ile Karadeniz'in ılıman iklimi arasındaki geçiş kuşağında yer alan şehirde, <strong>gece-gündüz modellerinin çift katmanlı yapısı</strong> sıcaklık farklarını dengelemeye yardımcı olur. Tokat merkez ve Turhal başta olmak üzere tüm ilçelere video keşif ve kargo gönderimi yapıyoruz.",
+    seoTitle: "Tokat Plise Perde - Yeşilırmak Havzası İçin Üretim & Kargo",
+    seoDescription: "Tokat'ın 12 ilçesi için Pendik İstanbul atölyesinden plise perde. Geçiş iklimine uygun gece-gündüz ve Yeşilırmak nemine dayanıklı modeller, video keşif ile kargo.",
     sections: [
       {
-        h2: "Tokat'ın Geçiş İkliminde Perde Tercihleri",
+        h2: "Yeşilırmak Havzasında Tokat Evleri İçin Plise Çözüm",
         paragraphs: [
-          "Tokat, İç Anadolu'nun karasal iklimi ile Karadeniz'in ılıman iklimi arasında geçiş kuşağında yer alır. Kışları soğuk ve karlı, yazları sıcaktır. Bu iklim koşullarında <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz — gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller.",
-          "Tokat merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Turhal'ın şeker fabrikası bölgesindeki işçi lojmanları için toplu perde çözümleri sunuyoruz. Niksar ve Erbaa'nın Yeşilırmak vadisindeki konutlarında, nehir nemine dayanıklı kumaş kullanıyoruz. Zile ve Reşadiye'nin tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Tokat, Yeşilırmak'ın oluşturduğu bereketli vadinin iki yanında uzanır ve step iklimi ile Karadeniz ılımanlığının karşılaştığı bir kuşakta bulunur. Gündüzleri sıcaklığın yükseldiği yaz aylarında güneşlik katman, geceleri soğuyan kış aylarında karartma katman devreye girer; bu nedenle <strong>gece-gündüz plise perde</strong> sistemini Tokat konutlarında öne çıkarıyoruz. Merkez ilçedeki apartman dairelerinde bu modeli sıkça uyguluyoruz.",
+          "Turhal'daki şeker fabrikası bölgesinin işçi lojman blokları için toplu üretim yapıyoruz. Niksar ve Erbaa'nın Yeşilırmak vadisindeki evlerinde <em>nehir nemine dayanıklı kumaş</em> tercih ederek sürekli nemin kumaş yapısını bozmasını engelliyoruz. Zile ve Reşadiye'nin geniş tarım alanlarındaki çiftlik binalarında katlanır güneşlik sistemini uyguluyor, Almus ve Başçiftlik gibi küçük ilçelerde standart ölçü stoklarımızdan hızlı gönderim sağlıyoruz.",
         ],
       },
       {
-        h2: "Tokat'ın 12 İlçesinde Geçiş İklimi Kargo Rotası",
+        h2: "Tokat'ın 12 İlçesine Geçiş Kuşağı İklimine Göre Üretim",
         paragraphs: [
-          "Tokat'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Geçiş iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki atölyemizde Tokat'ın 12 ilçesi için plise perde kesiyoruz. Müşterilerimiz <strong>video keşif</strong> yöntemiyle pencere ölçülerini iletir, üretim sonrası kargo ile teslim alır. Artova, Sulusaray ve Yeşilyurt gibi küçük yerleşimlere dahi aynı gönderim hızıyla hizmet veriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Tokat'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Tokat'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Tokat kışın soğuk, hangi perde önerirsiniz?", answer: "Tokat'ın geçiş ikliminde gece-gündüz plise perde öneriyoruz. Gündüz katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller." },
+      { question: "Tokat'ın geçiş ikliminde gece-gündüz perde nasıl fayda sağlar?", answer: "Tokat'ın step ile Karadeniz iklimi arasındaki geçiş kuşağında gece-gündüz plise perde öneriyoruz. Gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuk hava sızmasını engeller ve sıcaklık farklarını dengeler." },
+      { question: "Turhal şeker fabrikası lojmanlarına toplu perde siparişi alınır mı?", answer: "Evet, Turhal'daki şeker fabrikası bölgesinin işçi lojman blokları için Pendik İstanbul atölyemizde toplu plise perde üretimi yapıyoruz. Video keşif ile ölçü alıp kargo ile toplu teslimat sağlıyoruz." },
     ],
   },
   {
@@ -1223,27 +1232,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Amasya merkez", "Göynücek", "Gümüşhacıköy", "Hamamözü", "Merzifon", "Suluova", "Taşova", "Tercan"],
-    intro: "Amasya'nın 7 ilçesinde plise perde hizmeti veriyoruz. Yeşilırmak vadisinin iki yamacına kurulmuş tarihi şehirde, <strong>Osmanlı evlerinin pencerelerine özel ölçü plise perde</strong> üretiyoruz. Amasya merkez ve Merzifon konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Amasya Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Amasya'nın 7 ilçesinde plise perde: Merzifon, Suluova, Taşova video keşif ve kargo. Tarihi Osmanlı evleri için özel ölçü üretim.",
+    intro: "Amasya'nın 7 ilçesi için Pendik İstanbul üretim hattımızda plise perde hazırlıyoruz. Yeşilırmak'ın iki yamacına serpilmiş tarihi şehirde, <strong>Osmanlı dönemi ahşap pencereli evlere özel ölçü üretim</strong> yapıyoruz. Amasya merkez ve Merzifon başta olmak üzere tüm ilçelere video keşif ve kargo gönderimi sağlıyoruz.",
+    seoTitle: "Amasya Plise Perde - Yeşilırmak Vadisi İçin Özel Üretim & Kargo",
+    seoDescription: "Amasya'nın 7 ilçesi için Pendik İstanbul atölyesinden plise perde. Tarihi Osmanlı evlerine özel ölçü ve Yeşilırmak nemine dayanıklı modeller, video keşif ile kargo.",
     sections: [
       {
-        h2: "Amasya'nın Tarihi Vadisinde Perde",
+        h2: "Yeşilırmak İki Yakasında Amasya'nın Tarihi Pencereleri",
         paragraphs: [
-          "Amasya, Yeşilırmak'ın iki yakasındaki tarihi Osmanlı evleriyle ünlüdür. Bu evlerin ahşap pencereleri standart dışı boyutlardadır. Amasya merkezdeki <strong>tarihi evlerin pencerelerine özel ölçü plise perde</strong> üretiyoruz. Pencere içinde montaj ile ahşap çerçeveye zarar vermeden kurulur.",
-          "Merzifon ve Suluova'nın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Yeşilırmak vadisindeki konutlarda, nehir nemine dayanıklı kumaş kullanıyoruz. Amasya'nın karasal-Karadeniz geçiş ikliminde, kış soğuklarına karşı honeycomb modeli öneriyoruz. Gümüşhacıköy ve Hamamözü'nün küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Amasya, Yeşilırmak'ın iki yakasındaki yamaçlara serpilmiş tarihi Osmanlı evleriyle tanınır. Bu evlerin ahşap pencereleri günümüzün standart ölçülerine uymaz; bu nedenle merkez ilçedeki <strong>tarihi yapılara özel ölçü plise perde</strong> üretiyoruz. Pencere içine monte edilen sistem, ahşap çerçeveye ve tarihi dokuya zarar vermeden kurulur. Vadi tabanındaki nemli havaya karşı <em>anti-nem kaplamalı kumaş</em> tercih ediyoruz.",
+          "Merzifon ve Suluova'nın geniş tarım alanlarındaki çiftlik binalarında katlanır güneşlik sistemini uyguluyoruz. Amasya'nın karasal-Karadeniz geçiş ikliminde kış soğuklarına karşı honeycomb modelini de öneriyoruz. Gümüşhacıköy ve Hamamözü gibi küçük ilçelerde standart ölçü stoklarımızdan hızlı kesim yapıp kargoya veriyoruz. Taşova'nın Yeşilırmak kıyısındaki evlerinde nehir nemine dayanıklı kumaş kullanıyoruz.",
         ],
       },
       {
-        h2: "Amasya'nın 7 İlçesinde Yeşilırmak Vadisi Teslimatı",
+        h2: "Amasya İlçelerine Vadi İklimine Uygun Perde Dağıtımı",
         paragraphs: [
-          "Amasya'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Tarihi evler için özel ölçü üretim yapıyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki üretim tesisimizde Amasya'nın 7 ilçesi için plise perde kesiyoruz. Müşterilerimiz <strong>video keşif</strong> yöntemiyle pencere ölçülerini iletir, üretim tamamlanınca kargo ile teslim alır. Göynücek ve Tercan gibi küçük yerleşimlere dahi aynı gönderim hızıyla hizmet veriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Amasya'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Amasya'nın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Amasya tarihi Osmanlı evimin penceresine perde yapılır mı?", answer: "Evet, Amasya merkezdeki tarihi Osmanlı evlerinin ahşap pencerelerine özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile ahşap çerçeveye zarar vermeden kurulur." },
+      { question: "Amasya'nın ahşap pencereli tarihi evlerine perde takılır mı?", answer: "Evet, Amasya merkezdeki tarihi Osmanlı evlerinin ahşap pencerelerine özel ölçü plise perde üretiyoruz. Pencere içine monte edilen sistem ahşap çerçeveye ve tarihi dokuya zarar vermeden kurulur." },
+      { question: "Yeşilırmak nemine dayanıklı perde kumaşı var mı?", answer: "Evet, Yeşilırmak vadisindeki nemli havaya karşı anti-nem kaplamalı kumaş tercih ediyoruz. Sürekli nemin kumaş yapısını bozmasını engeller; Taşova ve Erbaa kıyısındaki evlerde bu kumaşı öneriyoruz." },
     ],
   },
   {
@@ -1252,27 +1261,27 @@ export const cities: CityData[] = [
     region: "İç Anadolu",
     priority: false,
     districts: ["Alpu", "Beylikova", "Çifteler", "Günyüzü", "Han", "İnönü", "Mahmudiye", "Mihalgazi", "Mihalıççık", "Odunpazarı", "Sarıcakaya", "Seyitgazi", "Sivrihisar", "Tepebaşı"],
-    intro: "Eskişehir'in 14 ilçesinde plise perde hizmeti sunuyoruz. Öğrenci şehri Eskişehir'in karasal ikliminde, <strong>kış soğuklarına ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. Odunpazarı ve Tepebaşı merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Eskişehir Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Eskişehir'in 14 ilçesinde plise perde: Odunpazarı, Tepebaşı, Sivrihisar video keşif ve kargo. Karasal iklim ve öğrenci evleri için çözümler.",
+    intro: "Eskişehir'in 14 ilçesi için Pendik İstanbul üretim tesisimizde plise perde hazırlıyoruz. İki büyük üniversitenin genç nüfusuyla hareketli olan şehirde, <strong>öğrenci evleri için ekonomik güneşlik modelleri ve karasal iklim için honeycomb seçeneklerini</strong> birlikte sunuyoruz. Odunpazarı ve Tepebaşı merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
+    seoTitle: "Eskişehir Plise Perde - Öğrenci Şehri İçin Üretim & Kargo",
+    seoDescription: "Eskişehir'in 14 ilçesi için Pendik İstanbul atölyesinden plise perde. Öğrenci evlerine ekonomik güneşlik, Odunpazarı tarihi evlerine özel ölçü ve B1 sanayi modelleri, video keşif ile kargo.",
     sections: [
       {
-        h2: "Eskişehir'in Öğrenci ve Sanayi Şehrinde Perde",
+        h2: "Porsuk Çayı Kenarında Eskişehir Evleri İçin Plise Perde",
         paragraphs: [
-          "Eskişehir, iki büyük üniversitesi ile Türkiye'nin en önemli öğrenci şehirlerinden biridir. Öğrenci evleri ve yurtlarında <strong>ekonomik fiyatlı güneşlik kumaş plise perde</strong> öneriyoruz. Odunpazarı'nın tarihi mahallelerindeki restore edilmiş evlerin pencerelerine özel ölçü üretim yapıyoruz.",
-          "Tepebaşı ve Odunpazarı merkez ilçelerindeki modern site dairelerinde standart ölçülere hızlı üretim yapıyoruz. Eskişehir organize sanayi bölgesindeki fabrika ve işçi lojmanları için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz. Karasal iklim bölgesi olduğundan, kış soğuklarına karşı honeycomb modeli de öneriyoruz.",
+          "Eskişehir, Porsuk Çayı'nın iki yakasında uzanan ve iki büyük üniversitenin genç nüfusuyla canlı kalan bir şehirdir. Öğrenci evleri ve yurtlarında <strong>ekonomik fiyatlı güneşlik kumaş plise perde</strong> öneriyoruz; bütçe dostu olmasına karşın ışık kontrolü sağlar. Odunpazarı'nın restore edilmiş tarihi mahallelerindeki ahşap pencerelere özel ölçü kesim yapıyoruz.",
+          "Tepebaşı ve Odunpazarı merkez ilçelerindeki modern site dairelerinde standart ölçülere hızlı üretim yapıyoruz. Eskişehir organize sanayi bölgesindeki fabrika idari binaları ve lojman blokları için <em>yangına dayanıklı B1 sınıfı kumaş</em> tercih ederek toplu üretim yapıyoruz. Karasal iklimin hissedildiği kış aylarında honeycomb modelini de öneriyoruz.",
         ],
       },
       {
-        h2: "Eskişehir'in 14 İlçesinde Öğrenci Şehri Gönderim Ağı",
+        h2: "Eskişehir'in 14 İlçesine Öğrenci ve Sanayi Hattı Gönderim",
         paragraphs: [
-          "Eskişehir'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Öğrenci evleri için ekonomik modeller mevcuttur. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz.",
+          "Pendik İstanbul'daki atölyemizde Eskişehir'in 14 ilçesi için plise perde kesiyoruz. Müşterilerimiz <strong>video keşif</strong> yöntemiyle pencere ölçülerini iletir, üretim sonrası kargo ile teslim alır. Alpu, Beylikova, Han ve İnönü gibi küçük ilçelere dahi aynı gönderim hızıyla hizmet veriyoruz.",
         ],
       },
     ],
     faqItems: [
-      { question: "Eskişehir'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Eskişehir'in tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Eskişehir öğrenci evim için ekonomik perde var mı?", answer: "Evet, öğrenci evleri ve yurtları için ekonomik fiyatlı güneşlik kumaş plise perde modellerimiz mevcuttur. Video keşif ile ölçü alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Eskişehir öğrenci evleri için bütçe dostu plise perde bulunur mu?", answer: "Evet, öğrenci evleri ve yurtları için ekonomik fiyatlı güneşlik kumaş plise perde modellerimiz mevcuttur. Pendik İstanbul atölyemizde üretim yapıp video keşif ile ölçü alarak kargo ile teslimat sağlıyoruz." },
+      { question: "Odunpazarı restore edilmiş evlerine özel ölçü perde yapılır mı?", answer: "Evet, Odunpazarı'nın restore edilmiş tarihi mahallelerindeki ahşap pencerelere özel ölçü plise perde üretiyoruz. Pencere içine monte edilen sistem ahşap çerçeveye zarar vermeden kurulur." },
     ],
   },
   // --- KARADENİZ BÖLGESİ ---
@@ -1282,25 +1291,27 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Alaplı", "Çaycuma", "Devrek", "Ereğli", "Gökçebey", "Kilimli", "Kozlu", "Zonguldak merkez"],
-    intro: "Zonguldak'ın 8 ilçesinde plise perde hizmeti sunuyoruz. Kömür madenciliği şehrinin <strong>yağışlı Karadeniz iklimine uygun nem dayanımlı kumaş modellerini</strong> öneriyoruz. Maden işçi lojmanları için yangın dayanımlı B1 kumaş ile toplu çözümler mevcuttur.",
-    seoTitle: "Zonguldak Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Zonguldak'ın 8 ilçesinde plise perde: Ereğli, Çaycuma, Devrek video keşif ve kargo. Maden lojmanları için B1 yangın dayanımlı kumaş.",
+    intro: "Zonguldak'ın 8 ilçesi için Pendik İstanbul üretim tesisimizde plise perde hazırlıyoruz. Türkiye'nin kömür madenciliği başkentinde, <strong>yağışlı Karadeniz iklimine uygun anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Maden işçi lojmanları için yangına dayanıklı B1 sınıfı kumaşla toplu çözümler mevcuttur.",
+    seoTitle: "Zonguldak Plise Perde - Maden Bölgesi İçin Üretim & Kargo",
+    seoDescription: "Zonguldak'ın 8 ilçesi için Pendik İstanbul atölyesinden plise perde. Yağışlı Karadeniz iklimine anti-nem kumaş, maden lojmanlarına B1 yangın dayanımlı modeller, video keşif ile kargo.",
     sections: [
       {
-        h2: "Zonguldak'ın Maden Şehrinde Perde Çözümleri",
+        h2: "Karadeniz'in Nemli Havasında Zonguldak Pencerelerine Perde",
         paragraphs: [
-          "Zonguldak, Türkiye'nin kömür madenciliği başkentidir. Maden ocakları çevresindeki işçi lojmanları ve sosyal tesisler için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu plise perde çözümleri üretiyoruz. Ereğli Demir Çelik fabrika bölgesindeki idari binalar ve lojmanlar için de benzer çözümler sunuyoruz.",
-          "Zonguldak'ın yağışlı Karadeniz ikliminde, yıllık 1200 mm üzerinde yağış alınır. Bu nemli iklimde <strong>anti-nem kaplamalı kumaş tiplerini</strong> öneriyoruz. Devrek ve Çaycuma'nın ormanlık kesimlerindeki evlerde, doğa ile uyumlu renk seçenekleri sunuyoruz. Alaplı sahil kesiminde ise deniz nemine dayanıklı modeller kullanıyoruz.",
+          "Zonguldak, Türkiye'nin kömür madenciliği başkentidir ve Karadeniz kıyısında yıllık 1200 mm üzerinde yağış alan nemli bir iklime sahiptir. Maden ocakları çevresindeki işçi lojmanları ve sosyal tesisler için <strong>yangına dayanıklı B1 sınıfı kumaş</strong> tercih ederek toplu plise perde üretimi yapıyoruz. Ereğli Demir Çelik fabrika bölgesindeki idari binalar ve lojman blokları için de benzer çözümler sunuyoruz.",
+          "Nemli iklimde kumaşın küflenmesi ve yapısının bozulması riski bulunduğundan <em>anti-nem kaplamalı kumaş tiplerini</em> öneriyoruz. Devrek ve Çaycuma'nın ormanlık kesimlerindeki evlerde doğayla uyumlu renk seçenekleri sunuyoruz. Alaplı sahil kesiminde deniz nemine dayanıklı modeller kullanıyor, Kilimli ve Kozlu gibi maden yerleşimlerinde B1 kumaşlı toplu üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Zonguldak'ın 6 İlçesinde Maden Şehri Kargo Çözümü",
-        paragraphs: ["Zonguldak'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Maden lojmanları için B1 kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Zonguldak İlçelerine Maden Bölgesi Kargo Çözüm Hattı",
+        paragraphs: [
+          "Pendik İstanbul'daki üretim tesisimizde Zonguldak'ın 8 ilçesi için plise perde kesiyoruz. Müşterilerimiz <strong>video keşif</strong> yöntemiyle pencere ölçülerini iletir, üretim sonrası kargo ile teslim alır. Gökçebey gibi iç kesim ilçelerine dahi aynı gönderim hızıyla hizmet veriyoruz.",
+        ],
       },
     ],
     faqItems: [
-      { question: "Zonguldak maden lojmanları için yangın dayanımlı perde var mı?", answer: "Evet, Zonguldak maden işçi lojmanları ve sosyal tesisler için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz." },
-      { question: "Zonguldak'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Zonguldak'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Zonguldak maden ocakları çevresindeki lojmanlara yangına dayanıklı perde var mı?", answer: "Evet, Zonguldak maden işçi lojmanları ve sosyal tesisler için yangına dayanıklı B1 sınıfı kumaşla toplu plise perde üretimi yapıyoruz. Pendik İstanbul atölyemizde kesim yapıp kargo ile toplu teslimat sağlıyoruz." },
+      { question: "Karadeniz'in nemli ikliminde perde kumaşı küflenir mi, hangi tip önerirsiniz?", answer: "Zonguldak'ın yıllık 1200 mm üzeri yağışlı ikliminde anti-nem kaplamalı kumaş tiplerini öneriyoruz. Sürekli nemin kumaş yapısını bozmasını ve küflenmesini engeller; Alaplı sahil kesiminde deniz nemine dayanıklı modeller de mevcuttur." },
     ],
   },
   {
@@ -1309,25 +1320,27 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Eflani", "Eskipazar", "Karabük merkez", "Ovacık", "Safranbolu", "Yenice"],
-    intro: "Karabük'ün 6 ilçesinde plise perde hizmeti veriyoruz. Demir çelik sanayi şehrinde, <strong>fabrika lojmanları için yangın dayanımlı B1 kumaş</strong> ile toplu çözümler sunuyoruz. Safranbolu'nun UNESCO Dünya Mirası tarihi evleri için özel ölçü üretim yapıyoruz.",
-    seoTitle: "Karabük Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Karabük'ün 6 ilçesinde plise perde: Safranbolu, Eflani, Eskipazar video keşif ve kargo. Demir çelik fabrika lojmanları ve tarihi evler için çözümler.",
+    intro: "Karabük'ün 6 ilçesi için Pendik İstanbul üretim tesisimizde plise perde hazırlıyoruz. Demir çelik sanayinin kalbi olan şehirde, <strong>Kardemir fabrika lojmanlarına yangına dayanıklı B1 kumaş</strong> ile toplu çözümler sunuyoruz. Safranbolu'nun UNESCO Dünya Mirası tarihi Türk evleri için özel ölçü üretim yapıyoruz.",
+    seoTitle: "Karabük Plise Perde - Demir Çelik ve Safranbolu İçin Üretim & Kargo",
+    seoDescription: "Karabük'ün 6 ilçesi için Pendik İstanbul atölyesinden plise perde. Kardemir lojmanlarına B1 yangın dayanımlı, Safranbolu UNESCO evlerine özel ölçü modeller, video keşif ile kargo.",
     sections: [
       {
-        h2: "Karabük'ün Sanayi ve Tarihi Mirasında Perde",
+        h2: "Demir Çelik Kokusunda Karabük Evlerine Plise Perde",
         paragraphs: [
-          "Karabük, Türkiye'nin demir çelik sanayinin kalbidir. Kardemir fabrika bölgesindeki işçi lojmanları ve idari binalar için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu plise perde çözümleri üretiyoruz. Sanayi bölgesine kargo ile hızlı teslimat yapıyoruz.",
-          "Safranbolu, UNESCO Dünya Mirası listesindeki tarihi Türk evleriyle dünya çapında ünlüdür. Bu evlerin ahşap pencereleri standart dışı boyutlardadır. Safranbolu'daki <strong>tarihi evlerin pencerelerine özel ölçü plise perde</strong> üretiyoruz. Pencere içinde montaj ile ahşap çerçeveye ve tarihi dokuya zarar vermeden kurulur. Orijinal evlerle uyumlu renk seçenekleri sunuyoruz.",
+          "Karabük, Türkiye'nin demir çelik sanayinin kalbidir ve Kardemir fabrika bölgesi şehrin ekonomik omurgasını oluşturur. Bu bölgedeki işçi lojmanları ve idari binalar için <strong>yangına dayanıklı B1 sınıfı kumaş</strong> tercih ederek toplu plise perde üretimi yapıyoruz. Sanayi bölgesine kargo ile hızlı teslimat sağlıyoruz.",
+          "Safranbolu, UNESCO Dünya Mirası listesindeki tarihi Türk evleriyle dünya çapında tanınır. Bu evlerin ahşap pencereleri günümüzün standart ölçülerine uymaz; bu nedenle <em>özel ölçü plise perde</em> üretiyoruz. Pencere içine monte edilen sistem ahşap çerçeveye ve tarihi dokuya zarar vermeden kurulur. Orijinal evlerle uyumlu renk seçenekleri sunuyor, Eflani ve Ovacık'ın kırsal yerleşimlerindeki geniş pencerelere katlanır sistem uyguluyoruz.",
         ],
       },
       {
-        h2: "Karabük'ün 6 İlçesinde Demir Çelik Bölgesi Teslimatı",
-        paragraphs: ["Karabük'ün tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Safranbolu tarihi evleri için özel ölçü üretim yapıyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Karabük'ün 6 İlçesine Sanayi ve Miras Teslimat Planı",
+        paragraphs: [
+          "Pendik İstanbul'daki atölyemizde Karabük'ün 6 ilçesi için plise perde kesiyoruz. Müşterilerimiz <strong>video keşif</strong> yöntemiyle pencere ölçülerini iletir, üretim sonrası kargo ile teslim alır. Yenice ve Eskipazar ilçelerine dahi aynı gönderim hızıyla hizmet veriyoruz.",
+        ],
       },
     ],
     faqItems: [
-      { question: "Safranbolu tarihi evimin penceresine perde yapılır mı?", answer: "Evet, Safranbolu'nun UNESCO Dünya Mirası tarihi Türk evlerinin ahşap pencerelerine özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile ahşap çerçeveye zarar vermeden kurulur." },
-      { question: "Karabük demir çelik fabrika lojmanları için toplu perde var mı?", answer: "Evet, Kardemir fabrika bölgesindeki işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz." },
+      { question: "Safranbolu UNESCO evlerinin ahşap pencerelerine perde takılıyor mu?", answer: "Evet, Safranbolu'nun UNESCO Dünya Mirası tarihi Türk evlerinin ahşap pencerelerine özel ölçü plise perde üretiyoruz. Pencere içine monte edilen sistem ahşap çerçeveye ve tarihi dokuya zarar vermeden kurulur; orijinal evlerle uyumlu renk seçenekleri sunuyoruz." },
+      { question: "Kardemir fabrika lojmanlarına toplu B1 perde siparişi verilebilir mi?", answer: "Evet, Kardemir fabrika bölgesindeki işçi lojmanları ve idari binalar için yangına dayanıklı B1 sınıfı kumaşla toplu plise perde üretimi yapıyoruz. Pendik İstanbul atölyemizde kesim yapıp kargo ile toplu teslimat sağlıyoruz." },
     ],
   },
   {
@@ -1336,25 +1349,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Amasra", "Bartın merkez", "Kurucaşile", "Ulus"],
-    intro: "Bartın'ın 4 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in yeşil sahlinde, <strong>yağışlı iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Amasra'nın tarihi balıkçı evlerinin pencereleri için özel ölçü üretim yapıyoruz.",
-    seoTitle: "Bartın Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Bartın'ın 4 ilçesinde plise perde: Amasra, Ulus, Kurucaşile video keşif ve kargo. Karadeniz sahil iklimi için nem dayanımlı kumaş.",
+    intro: "Bartın'ın 4 ilçesinde plise perde üretimi yapıyoruz. <strong>Türkiye'nin tek nehir üzerinden denize açılan ili</strong> olan Bartın'da, yıllık 1300 mm'nin üzerinde yağış ölçülür; bu nedenle kumaş seçiminde nem direnci belirleyici faktördür. Pendik'teki üretim tesisimizden Amasra, Ulus ve Kurucaşile'ye kargo ile gönderim sağlıyoruz.",
+    seoTitle: "Bartın Plise Perde - Nem Dayanımlı Kumaş & Kargo Gönderimi",
+    seoDescription: "Bartın Amasra, Ulus, Kurucaşile ve merkez ilçelerine Pendik üretimden plise perde. Nehir vadisi nemine dayanıklı kumaş, video keşif ve kargo teslimat.",
     sections: [
       {
-        h2: "Bartın'ın Karadeniz Sahlinde Perde",
+        h2: "Bartın Nehri Vadisinde Nem Bariyerli Perde Sistemleri",
         paragraphs: [
-          "Bartın, Karadeniz'in en küçük illerinden biridir ama en yoğun yağış alan illerden biridir. Yıllık 1300 mm üzerinde yağış alınır. Bu nemli iklimde <strong>anti-nem kaplamalı kumaş</strong> kullanıyoruz. Bartın nehri vadisindeki evlerde, nehir nemine dayanıklı modeller öneriyoruz.",
-          "Amasra, Karadeniz'in en güzel sahil beldelerinden biridir. Tarihi Ceneviz kalesi çevresindeki balıkçı evlerinin pencereleri standart dışıdır. Amasra'daki <strong>tarihi evlerin pencerelerine özel ölçü plise perde</strong> üretiyoruz. Sahil restoran ve kafelerinin geniş camları için katlanır sistem uyguluyoruz. Kurucaşile ve Ulus'un dağlık kesimlerindeki yayla evlerinde ise honeycomb modeli öneriyoruz.",
+          "Bartın, yüzölçümü bakımından küçük olmasına rağmen yağış rejimi açısından Türkiye'nin en yoğun illerinden biridir. Bartın Çayı'nın geçtiği vadi boyunca yerleşim kurulmuştur ve nehir buharlaşması iç kesimlerde <strong>sürekli yüksek nem</strong> yaratır. Bu koşullarda standart polyester kumaşlar 24-36 ay içinde küflenme ve renk solması yaşar; biz ise üretimde <em>anti-nem kaplamalı</em> kumaş tercih ediyoruz.",
+          "Amasra'da Ceneviz kalesi surlarına bitişik balıkçı evlerinin pencereleri çoğunlukla standart dışı ebadır. Bu yapılar için <strong>pencere içine montajlı özel ölçü plise perde</strong> üretiyor ve duvara matkap vurmadan kurulum sağlıyoruz. Kurucaşile'nin Karadeniz'e bakan balıkçı limanı çevresindeki kafe ve restoranlarda geniş cam yüzeyleri için katlanır sistem uyguluyor, Ulus'un ormangülü yaylalarındaki ahşap yayla evlerinde ise ısı yalıtımlı honeycomb modelini öneriyoruz.",
         ],
       },
       {
-        h2: "Bartın'ın 4 İlçesinde Karadeniz Sahil Gönderimi",
-        paragraphs: ["Bartın'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karadeniz iklimi bölgesi olduğundan anti-nem kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretimden Bartın'ın Dört İlçesine Kargo Akışı",
+        paragraphs: ["İstanbul Pendik'teki atölyemizde ürettiğimiz plise perdeleri, Bartın merkez dahil tüm ilçelere kargo ile gönderiyoruz. <strong>Video keşif yöntemiyle</strong> WhatsApp üzerinden pencere ölçülerinizi alıyor, üretim sonrası 2-4 iş günü içinde teslimat yapıyoruz. Bartın'ın yağışlı iklimi göz önünde bulundurularak kumaş önerisi sunuyoruz."],
       },
     ],
     faqItems: [
-      { question: "Amasra tarihi evimin penceresine perde yapılır mı?", answer: "Evet, Amasra'nın tarihi balıkçı evlerinin standart dışı pencerelerine özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile tarihi dokuya zarar vermeden kurulur." },
-      { question: "Bartın'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Bartın'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Amasra'daki eski balıkçı evimin dar penceresine perde sığar mı?", answer: "Sığar. Amasra'nın Ceneviz kalesi çevresindeki evlerinde 40-60 cm arası dar pencereler yaygındır; bu ölçüler için pencere içine oturan özel ebat plise perde üretiyoruz. Duvara delik açmadan, çerçeve içine kademeli montaj yapıyoruz." },
+      { question: "Bartın'da kargo ile perde almak ne kadar sürer?", answer: "Pendik üretim tesisimizden Bartın'ın her ilçesine kargo teslimat süresi ortalama 2-4 iş günüdür. Video keşif sonrası ölçü alımı ve üretim dahil toplam süre 5-7 iş günü civarındadır." },
     ],
   },
   {
@@ -1363,25 +1376,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Bolu merkez", "Dörtdivan", "Gerede", "Göynük", "Kıbrıscık", "Mengen", "Mudurnu", "Seben", "Yeniçağa"],
-    intro: "Bolu'nun 9 ilçesinde plise perde hizmeti veriyoruz. Karadeniz ormanlarının arasında, <strong>yağışlı iklim ve yüksek rakıma uygun honeycomb ve anti-nem modellerini</strong> öneriyoruz. Abant ve Gölköy çevresindeki turizm tesisleri için de perde çözümleri mevcuttur.",
-    seoTitle: "Bolu Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Bolu'nun 9 ilçesinde plise perde: Gerede, Mudurnu, Göynük video keşif ve kargo. Karadeniz yayla iklimi için honeycomb ve anti-nem modelleri.",
+    intro: "Bolu'nun 9 ilçesinde plise perde üretimi yapıyoruz. <strong>Orman örtüsü en yoğun il</strong> olan Bolu'da kış sıcaklıkları -15 dereceye kadar düşer; bu yüzden honeycomb hücreli ısı yalıtımlı modeller başta tercih edilir. Abant, Gölköy ve Yedigöller çevresindeki turizm işletmeleri için Pendik üretim tesisimizden özel çözümler gönderiyoruz.",
+    seoTitle: "Bolu Plise Perde - Honeycomb Isı Yalıtımı & Kargo Gönderimi",
+    seoDescription: "Bolu merkez, Gerede, Mudurnu, Göynük, Mengen dahil 9 ilçeye Pendik üretimden plise perde. Karlı yayla iklimi için honeycomb ısı yalıtımlı modeller.",
     sections: [
       {
-        h2: "Bolu'nun Orman ve Yayla İkliminde Perde",
+        h2: "Bolu'nun Karlı Yayla İkliminde Isı Yalıtımlı Perde Tercihi",
         paragraphs: [
-          "Bolu, Türkiye'nin en yeşil illerinden biridir. Karadeniz ormanlarının arasında, yıllık 1000 mm üzerinde yağış alınır. Kışları soğuk ve karlı, yazları serin geçer. Bu iklim koşullarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz — hem soğuk havayı filtreler hem de orman nemine dayanır.",
-          "Abant Gölü ve Gölköy çevresindeki turizm tesisleri, otel ve pansiyonlarda, göl manzaralı geniş pencereler için <strong>katlanır plise perde sistemi</strong> uyguluyoruz. Mudurnu ve Göynük'ün tarihi ahşap evlerinin pencerelerine özel ölçü üretim yapıyoruz. Mengen aşçılar kasabasındaki gastronomi okulu ve oteller için profesyonel perde çözümleri sunuyoruz. Gerede'nin deri sanayi bölgesindeki işçi lojmanları için toplu perde çözümleri mevcuttur.",
+          "Bolu, Türkiye'nin orman varlığı en zengin illerinden biridir ve ortalama rakımı 850 metreyi aşar. Kış aylarında termometre -15 dereceye iner, kar örtüsü Kasım'dan Nisan'a kadar kalabilir. Bu sert kış koşullarında <strong>çift petekli honeycomb plise perde</strong> öneriyoruz; hücre yapısı pencereden sızan soğuk havayı hapsederek ısıtma giderlerinde belirgin düşüş sağlar.",
+          "Abant Gölü ve Yedigöller Milli Parkı çevresindeki butik otellerde, göl manzaralı geniş pencereler için <em>katlanır plise sistem</em> uyguluyoruz; manzarayı istediğiniz an açıp kapatmanız mümkün. Mudurnu ve Göynük'te Osmanlı dönemi ahşap konaklarının dar pencerelerine özel ölçü üretim yapıyoruz. Mengen'deki gastronomi okulu ve bağlı oteller için yangın dayanımlı B1 sınıfı kumaş ile toplu perde çözümü sunuyor, Gerede deri sanayi bölgesindeki lojmanlar için dayanıklı modeller üretiyoruz.",
         ],
       },
       {
-        h2: "Bolu'nun 9 İlçesinde Orman ve Yayla Bölgesi Kargo",
-        paragraphs: ["Bolu'nun tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yayla iklimi bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Atölyemizden Bolu'nun Dokuz İlçesine Teslimat Süreci",
+        paragraphs: ["Bolu'nun dokuz ilçesinin tamamına <strong>video keşif yöntemiyle</strong> hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi aldıktan sonra Pendik'teki üretim hattında perdenizi hazırlıyor ve kargo ile gönderiyoruz. Bolu'nun karlı iklimi için honeycomb modelini varsayılan olarak öneriyoruz."],
       },
     ],
     faqItems: [
-      { question: "Bolu Abant otelim için perde yaptırabilir miyim?", answer: "Evet, Abant Gölü çevresindeki turizm tesisleri için göl manzaralı geniş pencerelere katlanır plise perde sistemi uyguluyoruz. Video keşif ile ölçü alıp kargo ile teslimat yapıyoruz." },
-      { question: "Bolu'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Bolu'nun tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Bolu Abant çevresindeki otelimin göl manzaralı camlarına uygun perde var mı?", answer: "Var. Abant Gölü kenarındaki otellerin geniş manzara pencereleri için katlanır plise sistem uyguluyoruz. Görüntüyü tam açabilir, gerektiğinde yarıya indirebilir veya tamamen kapatabilirsiniz. Kargo ile teslimat yapıyoruz." },
+      { question: "Bolu kışın çok soğuk geçiyor, hangi perde tipi ısı kaybını azaltır?", answer: "Bolu'nun -15 dereceye varan kış sıcaklıklarında çift petekli honeycomb modelini öneriyoruz. Hücrelerin içinde hapsolmuş hava tabakası, pencereden gelen soğuğu filtreleyerek oda sıcaklığını 2-3 derece yukarıda tutar." },
     ],
   },
   {
@@ -1390,25 +1403,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Abana", "Ağlı", "Araç", "Azdavay", "Bozkurt", "Cide", "Çatalzeytin", "Daday", "Devrekani", "Doğanyurt", "Hanönü", "İhsangazi", "İnebolu", "Kastamonu merkez", "Küre", "Pınarbaşı", "Seydiler", "Şenpazar", "Taşköprü", "Tosya"],
-    intro: "Kastamonu'nun 20 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in geniş sahlinde ve iç kesimlerde, <strong>yağışlı iklim ve kış soğuklarına uygun honeycomb ve anti-nem modellerini</strong> öneriyoruz. İnebolu ve Cide sahil beldelerindeki yazlık konutlar için de perde çözümleri mevcuttur.",
-    seoTitle: "Kastamonu Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kastamonu'nun 20 ilçesinde plise perde: İnebolu, Cide, Tosya video keşif ve kargo. Karadeniz iklimi için honeycomb ve anti-nem modelleri.",
+    intro: "Kastamonu'nun 20 ilçesinde plise perde üretimi yapıyoruz. <strong>Sahil şeridiyle iç kesim arasında 1000 metre rakım farkı</strong> bulunan Kastamonu'da, ilçenin konumuna göre kumaş tipini ayrı ayrı belirliyoruz. İnebolu ve Cide gibi sahil beldelerinde anti-nem, Tosya ve Araç gibi iç kesimlerde honeycomb modelini öneriyoruz.",
+    seoTitle: "Kastamonu Plise Perde - Sahil ve İç Kesim Çözümleri & Kargo",
+    seoDescription: "Kastamonu'nun 20 ilçesine Pendik üretimden plise perde. İnebolu sahil için anti-nem, Tosya iç kesim için honeycomb modeli. Video keşif ve kargo.",
     sections: [
       {
-        h2: "Kastamonu'nun Geniş Coğrafyasında Perde",
+        h2: "Kastamonu'nun Sahil ve Yayla Ayrımında Bölgesel Perde Seçimi",
         paragraphs: [
-          "Kastamonu, Karadeniz sahlindeki geniş topraklarıyla Türkiye'nin en büyük illerinden biridir. Sahil kesiminde (İnebolu, Cide, Abana, Bozkurt) Karadeniz'in nemine dayanıklı <strong>anti-nem kaplamalı kumaş</strong> kullanıyoruz. İç kesimde (Tosya, Araç, Daday) ise karasal etkiyle kış soğuklarına karşı honeycomb modeli öneriyoruz.",
-          "Kastamonu merkezdeki tarihi mahallelerin pencerelerine özel ölçü üretim yapıyoruz. İnebolu sahil beldesindeki yazlık evlerde, deniz manzaralı pencereler için güneşlik kumaş öneriyoruz. Taşköprü'nün sarımsak tarım bölgesindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Küre Dağları Milli Parkı çevresindeki doğa evlerinde, orman nemine dayanıklı modeller kullanıyoruz.",
+          "Kastamonu, 20 ilçesiyle Karadeniz Bölgesi'nin en geniş idari sınırlarına sahip illerinden biridir. Sahil kuşağında İnebolu, Cide, Abana ve Bozkurt gibi beldeler deniz seviyesine yakın rakımda ve <strong>yıl boyu yüksek nem</strong> etkisindedir; burada anti-nem kaplamalı kumaş kullanıyoruz. Tosya, Araç, Daday ve İhsangazi gibi iç kesim ilçelerinde rakım 900-1200 metreye çıkar, karasal etki belirginleşir ve kış sıcaklıkları -20 dereceye iner; bu nedenle honeycomb ısı yalıtımlı modeli tercih ediyoruz.",
+          "Kastamonu merkezdeki Cumhuriyet dönemi mahallelerinde apartman daireleri için standart ölçü hızlı üretim yapıyoruz. İnebolu'daki yazlık konutlarda deniz manzaralı pencereler için <em>güneşlik kumaş</em> öneriyor, öğlen güneşini filtreleyip manzarayı koruyoruz. Taşköprü'de sarımsak tarım bölgesindeki çiftlik evlerinin geniş pencerelerine katlanır sistem uyguluyor, Küre Dağları Milli Parkı sınırları içindeki doğa evlerinde orman nemi direnci yüksek modeller kullanıyoruz.",
         ],
       },
       {
-        h2: "Kastamonu'nun 20 İlçesinde Geniş Coğrafya Teslimat Planı",
-        paragraphs: ["Kastamonu'nun tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karadeniz iklimi bölgesi olduğundan anti-nem ve honeycomb modelleri öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretim Merkezinden Kastamonu'nun Yirmi İlçesine Dağıtım",
+        paragraphs: ["Kastamonu'nun 20 ilçesinin tamamına <strong>video keşif</strong> ile hizmet veriyoruz. Sahil ilçelerinde anti-nem, iç kesim ilçelerinde honeycomb modelini varsayılan olarak üretiyor, Pendik'teki atölyemizden kargo ile teslimat yapıyoruz. WhatsApp üzerinden ölçü alımı ve sipariş süreci yönetiliyor."],
       },
     ],
     faqItems: [
-      { question: "Kastamonu'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Kastamonu'nun 20 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "İnebolu sahil yazlığım için hangi perde önerirsiniz?", answer: "İnebolu'nun Karadeniz sahilinde anti-nem kaplamalı kumaş öneriyoruz. Deniz manzaralı pencereler için güneşlik modeli uygun olur." },
+      { question: "Kastamonu İnebolu'daki yazlık evim için hangi kumaş tipini seçmeliyim?", answer: "İnebolu sahil kuşağında deniz nemine maruz kalan yazlık konutlar için anti-nem kaplamalı kumaş öneriyoruz. Standart kumaşlar bu nem seviyesinde 2-3 yılda bozulurken, anti-nem kaplamalı modeller 5 yıl ve üzeri dayanım gösterir." },
+      { question: "Kastamonu'nun iç kesim ilçelerinde kışın hangi perde tipi çalışır?", answer: "Tosya, Araç ve Daday gibi iç kesim ilçelerinde rakım 900 metreyi aştığı için honeycomb hücreli ısı yalıtımlı modeli öneriyoruz. Çift petek yapı, pencereden gelen dondurucu havayı filtreler ve iç mekân sıcaklığını korur." },
     ],
   },
   {
@@ -1417,25 +1430,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Ayancık", "Boyabat", "Dikmen", "Durağan", "Erfelek", "Gerze", "Sinop merkez", "Türkeli"],
-    intro: "Sinop'un 8 ilçesinde plise perde hizmeti veriyoruz. Türkiye'nin en kuzey noktasındaki şehirde, <strong>Karadeniz rüzgarına ve nemine dayanıklı kumaş modellerini</strong> öneriyoruz. Sinop merkez tarihi yarımada evleri için özel ölçü üretim yapıyoruz.",
-    seoTitle: "Sinop Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Sinop'un 8 ilçesinde plise perde: Boyabat, Gerze, Ayancık video keşif ve kargo. Karadeniz rüzgarına dayanıklı nem önleyici kumaş.",
+    intro: "Sinop'un 8 ilçesinde plise perde üretimi yapıyoruz. <strong>Türkiye'nin en kuzey ucundaki il</strong> olan Sinop'ta İnceburun yarımadası yıl boyu sert rüzgar ve nem alır; bu yüzden kumaş seçiminde rüzgar direnci ve nem bariyeri birlikte değerlendirilir. Pendik üretim tesisimizden Sinop merkez, Boyabat ve Gerze'ye kargo ile gönderim sağlıyoruz.",
+    seoTitle: "Sinop Plise Perde - Rüzgar ve Nem Dayanımlı Kumaş & Kargo",
+    seoDescription: "Sinop merkez, Boyabat, Gerze, Ayancık dahil 8 ilçeye Pendik üretimden plise perde. İnceburun rüzgarına dayanıklı özel kaplamalı kumaş, video keşif ve kargo.",
     sections: [
       {
-        h2: "Sinop'un En Kuzey Noktasında Perde",
+        h2: "İnceburun Yarımadasında Rüzgar ve Nem Bariyerli Perde Çözümleri",
         paragraphs: [
-          "Sinop, Türkiye'nin en kuzey noktasıdır. Karadeniz'in en sert rüzgarlarına ve nemine maruz kalır. İnceburun yarımadasındaki evlerde, rüzgar ve nem dayanımı yüksek <strong>özel kaplamalı kumaş</strong> kullanıyoruz. Sinop merkez tarihi yarımada evlerinin pencerelerine özel ölçü plise perde üretiyoruz.",
-          "Boyabat ve Durağan'ın iç kesimlerinde, daha karasal etkiyle kış soğuklarına karşı honeycomb modeli öneriyoruz. Gerze ve Ayancık sahil beldelerinde, deniz nemine dayanıklı anti-nem kumaş kullanıyoruz. Sinop cezaevi çevresindeki sosyal tesisler için de perde çözümleri sunuyoruz.",
+          "Sinop, Türkiye'nin en kuzey noktasıdır ve İnceburun yarımadası yıl boyunca Karadeniz'in en güçlü rüzgar kuşağına maruz kalır. Sahil kesimde rüzgar hızı 60-80 km/s değerlerine ulaşır; bu durumda perde kumaşının <strong>titreşim direnci</strong> ve nem bariyeri birlikte aranır. Bu koşullar için özel kaplamalı, hem rüzgar hem nem dayanımı yüksek kumaş kullanıyoruz.",
+          "Sinop merkezdeki tarihi yarımada evlerinin pencereleri çoğunlukla dar ve yüksek ebadır; bu yapılar için <em>pencere içine montajlı özel ölçü plise perde</em> üretiyoruz. Boyabat ve Durağan'ın iç kesimlerinde karasal etki belirgindir ve kış sıcaklıkları -10 dereceye iner; burada honeycomb ısı yalıtımlı modeli öneriyoruz. Gerze ve Ayancık sahil beldelerinde deniz tuzu içeren nem yüküğü için anti-nem kaplamalı kumaş tercih ediyoruz.",
         ],
       },
       {
-        h2: "Sinop'un 9 İlçesinde En Kuzey Nokta Kargo Rotası",
-        paragraphs: ["Sinop'un tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karadeniz bölgesi olduğundan anti-nem kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretiminden Sinop'un Sekiz İlçesine Kargo Rotası",
+        paragraphs: ["Sinop'un sekiz ilçesine <strong>video keşif yöntemiyle</strong> hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıyor, Pendik'teki üretim hattında perdenizi hazırlıyor ve kargo ile teslimat yapıyoruz. Sinop'un rüzgarlı iklimi için özel kaplamalı kumaşı varsayılan olarak öneriyoruz."],
       },
     ],
     faqItems: [
-      { question: "Sinop'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Sinop'un tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Sinop yarımadadaki evim için hangi perde önerirsiniz?", answer: "Sinop'un en kuzey noktasındaki rüzgarlı ve nemli iklimde özel kaplamalı, rüzgar ve nem dayanımı yüksek kumaş öneriyoruz." },
+      { question: "Sinop yarımadadaki evimde rüzgardan dolayı perde sallanıyor, çözüm var mı?", answer: "Sinop'un İnceburun yarımadasında rüzgar hızı 60-80 km/s'ye ulaşır. Bu durum için özel kaplamalı, titreşim ve nem dayanımı yüksek kumaş kullanıyoruz. Pencere içine montajlı sistem, rüzgar basıncını dengeleyerek sallanmayı azaltır." },
+      { question: "Sinop Boyabat'ta kışın hangi perde tipini öneriyorsunuz?", answer: "Boyabat'ın iç kesiminde karasal etki nedeniyle kış sıcaklıkları -10 dereceye iner. Honeycomb hücreli ısı yalıtımlı plise perde öneriyoruz; çift petek yapı pencereden gelen soğuğu filtreler ve ısıtma giderlerini düşürür." },
     ],
   },
   {
@@ -1444,25 +1457,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["19 Mayıs", "Alaçam", "Asarcık", "Atakum", "Ayvacık", "Bafra", "Canik", "Çarşamba", "Havza", "İlkadım", "Kavak", "Ladik", "Salıpazarı", "Tekkeköy", "Terme", "Vezirköprü", "Yakakent"],
-    intro: "Samsun'un 17 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in en büyük liman şehrinde, <strong>yağışlı iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Atakum ve İlkadım merkez ilçelerindeki apartman daireleri için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Samsun Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Samsun'un 17 ilçesinde plise perde: Atakum, Çarşamba, Bafra video keşif ve kargo. Karadeniz iklimi için anti-nem ve honeycomb modelleri.",
+    intro: "Samsun'un 17 ilçesinde plise perde üretimi yapıyoruz. <strong>Karadeniz'in en büyük ticaret limanına</strong> ev sahipliği yapan Samsun'da, İlkadım ve Atakum gibi merkez ilçelerde apartman daireleri için standart ölçü hızlı üretim, Çarşamba ve Terme gibi vadi ilçelerinde ise nehir nemine dayanıklı kumaş tercih ediyoruz. Pendik üretim tesisimizden kargo ile gönderim sağlıyoruz.",
+    seoTitle: "Samsun Plise Perde - Liman Şehri Çözümleri & Kargo Gönderimi",
+    seoDescription: "Samsun Atakum, İlkadım, Çarşamba, Bafra dahil 17 ilçeye Pendik üretimden plise perde. Yeşilırmak vadisi nemine dayanıklı kumaş, video keşif ve kargo.",
     sections: [
       {
-        h2: "Samsun'un Karadeniz Liman Şehrinde Perde",
+        h2: "Samsun'un Delta Düzlüğünde Nehir Nemi ve Sahil Rüzgarına Karşı Perde",
         paragraphs: [
-          "Samsun, Karadeniz Bölgesi'nin en büyük ticaret ve liman şehridir. İlkadım, Atakum ve Canik merkez ilçelerindeki modern apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Samsun'un yağışlı Karadeniz ikliminde, yıllık 800 mm üzerinde yağış alınır; bu nedenle <strong>anti-nem kaplamalı kumaş</strong> öneriyoruz.",
-          "Çarşamba ve Terme'nin Yeşilırmak vadisindeki tarım arazilerindeki çiftlik evlerinde, nehir nemine dayanıklı kumaş kullanıyoruz. Bafra'nın sahlindeki yazlık evlerde deniz nemine karşı anti-nem modeli öneriyoruz. Havza ve Ladik'in iç kesimlerinde, daha soğuk iklim nedeniyle honeycomb modeli öneriyoruz. Samsun organize sanayi bölgesindeki fabrika ve lojmanlar için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz.",
+          "Samsun, Karadeniz Bölgesi'nin en yoğun ticaret ve liman faaliyetinin merkezidir. Şehir, Kızılırmak ve Yeşilırmak deltalarının oluşturduğu geniş düzlükte kurulmuştur; bu düzlükte <strong>nehir buharlaşması ve deniz neminin birleşimi</strong> yıl boyu yüksek nem üretir. İlkadım, Atakum ve Canik merkez ilçelerindeki modern apartman dairelerinde standart ölçülere hızlı üretim yapıyor, bu nemli iklim için anti-nem kaplamalı kumaşı varsayılan olarak seçiyoruz.",
+          "Çarşamba ve Terme'nin Yeşilırmak vadisindeki tarım arazilerindeki çiftlik evlerinde, nehir kenarı nemi için çift kaplamalı kumaş kullanıyoruz. Bafra'nın Kızılırmak deltasındaki yazlık konutlarda deniz nemine karşı anti-nem modeli öneriyoruz. Havza ve Ladik'in iç kesimlerinde rakım artar ve kış sıcaklıkları düşer; burada honeycomb ısı yalıtımlı modeli tercih ediyoruz. Samsun organize sanayi bölgesindeki fabrika ve lojmanlar için yangın dayanımlı B1 sınıfı kumaş ile toplu perde çözümü sunuyoruz.",
         ],
       },
       {
-        h2: "Samsun'un 17 İlçesinde Karadeniz Liman Teslimat Ağı",
-        paragraphs: ["Samsun'un tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karadeniz iklimi bölgesi olduğundan anti-nem kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretim Hattından Samsun'un On Yedi İlçesine Kargo Ağı",
+        paragraphs: ["Samsun'un 17 ilçesine <strong>video keşif yöntemiyle</strong> hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıyor, Pendik'teki atölyemizde üretim yapıp kargo ile teslimat sağlıyoruz. Samsun'un delta iklimi için anti-nem kaplamalı kumaşı varsayılan olarak öneriyoruz."],
       },
     ],
     faqItems: [
-      { question: "Samsun'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Samsun'un 17 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Samsun Atakum'da apartmanım için hangi perde önerirsiniz?", answer: "Atakum sahil ilçesinde anti-nem kaplamalı kumaş öneriyoruz. Karadeniz ikliminde yağışlı havada normal kumaşlar 2-3 yılda deformasya uğrarken, anti-nem kumaşlar 5+ yıl dayanır." },
+      { question: "Samsun Atakum'da sahil apartmanım için perde dayanıklılığı ne olur?", answer: "Atakum sahil kuşağında deniz nemine maruz apartmanlar için anti-nem kaplamalı kumaş öneriyoruz. Standart kumaşlar bu nem seviyesinde 2-3 yılda deformasyon yaşarken, anti-nem kaplamalı modeller 5 yıl ve üzeri dayanım gösterir." },
+      { question: "Samsun organize sanayi bölgesindeki fabrika lojmanlarımız için toplu perde alabilir miyiz?", answer: "Evet. Samsun OSB bölgesindeki lojmanlar için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz. Video keşif sonrası ölçü alımı ve kargo teslimat sürecini yönetiyoruz." },
     ],
   },
   {
@@ -1471,25 +1484,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Alaca", "Bayat", "Boğazkale", "Çorum merkez", "Dodurga", "İskilip", "Kargı", "Mecitözü", "Oğuzlar", "Ortaköy", "Osmancık", "Sungurlu", "Uğurludağ"],
-    intro: "Çorum'un 13 ilçesinde plise perde hizmeti veriyoruz. İç Anadolu ile Karadeniz geçiş iklim kuşağında, <strong>kış soğuklarına ve yaz sıcaklarına uygun gece-gündüz modellerini</strong> öneriyoruz. Boğazkale'nin Hattuşaş antik kenti çevresindeki pansiyonlar için de perde çözümleri mevcuttur.",
-    seoTitle: "Çorum Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Çorum'un 13 ilçesinde plise perde: İskilip, Sungurlu, Osmancık video keşif ve kargo. İç Anadolu-Karadeniz geçiş iklimi için gece-gündüz modelleri.",
+    intro: "Çorum'un 13 ilçesinde plise perde üretimi yapıyoruz. <strong>İç Anadolu bozkırı ile Karadeniz ormanları arasındaki geçiş kuşağında</strong> yer alan Çorum'da, gece-gündüz sıcaklık farkı 20 dereceyi bulur; bu nedenle gece-gündüz plise perde sistemini öneriyoruz. Boğazkale'deki Hattuşaş antik kenti çevresindeki pansiyonlar için karartma modelleri mevcuttur.",
+    seoTitle: "Çorum Plise Perde - Gece-Gündüz Sistemi & Kargo Gönderimi",
+    seoDescription: "Çorum merkez, İskilip, Sungurlu, Osmancık dahil 13 ilçeye Pendik üretimden plise perde. Bozkır-orman geçiş iklimi için gece-gündüz modelleri, video keşif ve kargo.",
     sections: [
       {
-        h2: "Çorum'un Hitit Şehrinde Perde",
+        h2: "Çorum'un Bozkır-Orman Geçiş Kuşağında Gece-Gündüz Perde Sistemi",
         paragraphs: [
-          "Çorum, Hitit İmparatorluğu'nun başkenti Hattuşaş'ın ev sahipliğini yapar. Boğazkale ilçesindeki UNESCO Dünya Mirası alanı çevresindeki pansiyon ve turistik işletmelerde, <strong>karartma plise perde</strong> öneriyoruz. Turistlerin dinlenmesi için tam karanlık ortam sağlar.",
-          "Çorum merkez konutlarında, İç Anadolu-Karadeniz geçiş ikliminde kış soğukları ve yaz sıcakları görülür. Bu nedenle <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz. İskilip ve Osmancık'ın iç kesimlerinde honeycomb modeli öneriyoruz. Sungurlu ve Alaca'nın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Çorum, Hitit İmparatorluğu'nun başkenti Hattuşaş'ı barındıran tarihi bir ildir. Coğrafi olarak İç Anadolu bozkırı ile Karadeniz orman kuşağının kesişiminde yer alır; bu konum <strong>gündüz sıcak ve gece soğuk</strong> belirgin bir termik amplitüd yaratır. Yazın gündüz 35 dereceye çıkarken gece 15 dereceye inebilir. Bu fark için gece-gündüz plise perde sistemini öneriyoruz; üst bandı açık bırakıp alt bandı kapatarak hem ışık hem sıcaklık kontrolü sağlanır.",
+          "Boğazkale ilçesindeki UNESCO Dünya Mirası Hattuşaş çevresindeki pansiyon ve turistik işletmelerde, turistlerin gece uykusu için <em>karartma plise perde</em> uyguluyoruz; tam karanlık ortam sağlar. Çorum merkez konutlarında gece-gündüz modelini varsayılan olarak üretiyoruz. İskilip ve Osmancık'ın iç kesimlerinde karasal etki nedeniyle honeycomb ısı yalıtımlı modeli, Sungurlu ve Alaca'nın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
         ],
       },
       {
-        h2: "Çorum'un 12 İlçesinde Hitit Şehri Kargo Çözümü",
-        paragraphs: ["Çorum'un tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Geçiş iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretiminden Çorum'un On Üç İlçesine Kargo Çözümü",
+        paragraphs: ["Çorum'un 13 ilçesine <strong>video keşif yöntemiyle</strong> hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıyor, Pendik'teki atölyemizde üretim yapıp kargo ile teslimat sağlıyoruz. Çorum'un geçiş iklimi için gece-gündüz modelini varsayılan olarak öneriyoruz."],
       },
     ],
     faqItems: [
-      { question: "Çorum'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Çorum'un 13 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Boğazkale Hattuşaş çevresindeki pansiyonum için perde var mı?", answer: "Evet, Boğazkale'deki UNESCO Dünya Mirası alanı çevresindeki pansiyonlar için karartma plise perde öneriyoruz. Turistlerin dinlenmesi için tam karanlık ortam sağlar." },
+      { question: "Çorum Boğazkale'deki Hattuşaş pansiyonum için turistlere uygun perde var mı?", answer: "Boğazkale'deki UNESCO Dünya Mirası alanı çevresindeki pansiyonlar için karartma plise perde öneriyoruz. Turistlerin gece dinlenmesi için tam karanlık ortam sağlar; gündüz ise bandı açarak antik kent manzarasını görebilirsiniz." },
+      { question: "Çorum'da gece-gündüz sıcaklık farkı büyük, hangi perde tipi işe yarar?", answer: "Çorum'da bozkır-orman geçiş kuşağında gece-gündüz sıcaklık farkı 20 dereceyi bulur. Gece-gündüz plise perde sistemini öneriyoruz; üst bandı açık bırakıp alt bandı kapatarak hem ışık hem sıcaklık kontrolü sağlarsınız." },
     ],
   },
   {
@@ -1525,25 +1538,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Alucra", "Bulancak", "Çamoluk", "Çanakçı", "Dereli", "Doğankent", "Espive", "Eynesil", "Giresun merkez", "Görele", "Güce", "Keşap", "Piraziz", "Şebinkarahisar", "Tirebolu", "Yağlıdere"],
-    intro: "Giresun'un 16 ilçesinde plise perde hizmeti veriyoruz. Karadeniz'in dağlık sahlinde, <strong>yağışlı ve nemli iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Giresun merkez ve Tirebolu sahil ilçelerindeki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Giresun Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Giresun'un 16 ilçesinde plise perde: Bulancak, Tirebolu, Görele video keşif ve kargo. Karadeniz dağlık sahil iklimi için anti-nem modelleri.",
+    intro: "Giresun'un 16 ilçesinde plise perde üretimi yapıyoruz. <strong>Karadeniz Dağları'nın denize dik inmesiyle</strong> oluşan dik topografyada, sahil ile iç kesim yaylaları arasında belirgin iklim farkı vardır; sahil ilçelerinde anti-nem, iç kesim yaylalarında honeycomb modelini öneriyoruz. Pendik üretim tesisimizden kargo ile gönderim sağlıyoruz.",
+    seoTitle: "Giresun Plise Perde - Dağlık Sahil ve Yayla Çözümleri & Kargo",
+    seoDescription: "Giresun merkez, Bulancak, Tirebolu, Görele dahil 16 ilçeye Pendik üretimden plise perde. Sahil için anti-nem, yayla için honeycomb modeli. Video keşif ve kargo.",
     sections: [
       {
-        h2: "Giresun'un Dağlık Sahlinde Perde",
+        h2: "Giresun'un Dik Topografyasında Sahil ve Yayla Arası Perde Farkı",
         paragraphs: [
-          "Giresun, Karadeniz Dağları'nın denize dik inmesiyle oluşan dik topografyaya sahiptir. Sahil şeridi ile yüksek yaylalar arasında büyük iklim farkları vardır. Sahil kesimde (Bulancak, Espive, Tirebolu, Görele) <strong>anti-nem kaplamalı kumaş</strong> öneriyoruz. İç kesim yaylalarda (Alucra, Çamoluk, Şebinkarahisar) ise kış soğuklarına karşı honeycomb modeli öneriyoruz.",
-          "Giresun merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Giresun adası manzaralı pencereler için güneşlik kumaş öneriyoruz. Fındık ve çay tarım bölgesindeki çiftlik evlerinde, nem dayanımı yüksek modeller kullanıyoruz. Dereli'nin Kümbet yaylasındaki turizm tesisleri için katlanır sistem uyguluyoruz.",
+          "Giresun'un jeolojik yapısı, Karadeniz Dağları'nın denize dik inmesiyle şekillenmiştir. Sahil şeridi deniz seviyesinde ve <strong>yıl boyu yüksek nem</strong> etkisindedir; iç kesim yaylalar ise 1500-2000 metre rakıma çıkar ve kış sıcaklıkları -15 dereceye iner. Bu dik topografya nedeniyle ilçe konumuna göre kumaş tipini ayrı belirliyoruz: Bulancak, Espive, Tirebolu ve Görele gibi sahil ilçelerinde anti-nem kaplamalı kumaş, Alucra, Çamoluk ve Şebinkarahisar gibi iç kesim yayla ilçelerinde honeycomb ısı yalıtımlı model kullanıyoruz.",
+          "Giresun merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Giresun Adası manzaralı pencereler için <em>güneşlik kumaş</em> öneriyor, öğlen güneşini filtreleyip manzarayı koruyoruz. Fındık ve çay tarım bölgesindeki çiftlik evlerinde nem direnci yüksek modeller kullanıyoruz. Dereli'nin Kümbet yaylasındaki yayla turizmi tesisleri için katlanır sistem uyguluyor, yayla manzarasını açıp kapatmaya imkân tanıyoruz.",
         ],
       },
       {
-        h2: "Giresun'un 16 İlçesinde Dağlık Sahil Kargo Rotası",
-        paragraphs: ["Giresun'un tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karadeniz iklimi bölgesi olduğundan anti-nem kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretiminden Giresun'un On Altı İlçesine Kargo Rotası",
+        paragraphs: ["Giresun'un 16 ilçesine <strong>video keşif yöntemiyle</strong> hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıyor, Pendik'teki atölyemizde üretim yapıp kargo ile teslimat sağlıyoruz. Sahil ilçelerinde anti-nem, iç kesim yayla ilçelerinde honeycomb modelini varsayılan olarak öneriyoruz."],
       },
     ],
     faqItems: [
-      { question: "Giresun'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Giresun'un 16 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Giresun yayla evim için hangi perde önerirsiniz?", answer: "Giresun'un iç kesim yaylalarında (Alucra, Şebinkarahisar) kış soğuklarına karşı honeycomb modeli öneriyoruz. Sahil kesimde ise anti-nem kumaş kullanıyoruz." },
+      { question: "Giresun Adası manzaralı evimin penceresi için hangi perde uygun?", answer: "Giresun Adası manzaralı pencereler için güneşlik kumaş öneriyoruz. Öğlen güneşini filtreleyip manzarayı korur; istediğiniz an bandı açarak ada görünümünü izleyebilirsiniz. Kargo ile teslimat yapıyoruz." },
+      { question: "Giresun Şebinkarahisar'daki yayla evim için kışa dayanıklı perde var mı?", answer: "Şebinkarahisar'ın 1500 metre üzeri rakımda kış sıcaklıkları -15 dereceye iner. Honeycomb hücreli ısı yalıtımlı plise perde öneriyoruz; çift petek yapı pencereden gelen dondurucu havayı filtreler ve ısıtma giderlerini düşürür." },
     ],
   },
   {
@@ -1552,25 +1565,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Gümüşhane merkez", "Kelkit", "Köse", "Kürtün", "Şiran", "Torul"],
-    intro: "Gümüşhane'nin 6 ilçesinde plise perde hizmeti sunuyoruz. Karadeniz'in iç kesiminde, yüksek rakımlı dağlık iklimde, <strong>kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Gümüşhane merkez ve Kelkit konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Gümüşhane Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Gümüşhane'nin 6 ilçesinde plise perde: Kelkit, Şiran, Torul video keşif ve kargo. Yüksek rakım dağ iklimi için çift petekli honeycomb.",
+    intro: "Gümüşhane'nin 6 ilçesinde plise perde üretimi yapıyoruz. <strong>Adını gümüş madenlerinden alan</strong> Gümüşhane, 1150 metre ortalama rakımla Karadeniz'in en yüksek iç kesim illerinden biridir; kış sıcaklıkları -20 dereceye iner ve kar örtüsü Kasım'dan Mayıs'a kadar kalabilir. Bu sert iklim için çift petekli honeycomb modelini varsayılan olarak öneriyoruz.",
+    seoTitle: "Gümüşhane Plise Perde - Yüksek Rakım Honeycomb & Kargo Gönderimi",
+    seoDescription: "Gümüşhane merkez, Kelkit, Şiran, Torul dahil 6 ilçeye Pendik üretimden plise perde. 1150 metre rakım ve -20 derece kış için çift petekli honeycomb modeli.",
     sections: [
       {
-        h2: "Gümüşhane'nin Gümüş Şehrinde Perde",
+        h2: "Gümüşhane'nin 1150 Metre Rakımında Çift Petekli Honeycomb Perde",
         paragraphs: [
-          "Gümüşhane, adını gümüş madenlerinden alır. Tarihi maden şehri, 1150 metre rakımda, Karadeniz Dağları'nın iç kesiminde yer alır. Kışları şiddetli soğuklar ve kar yağışı görülür. Bu nedenle <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz.",
-          "Gümüşhane merkezdeki tarihi Rum evlerinin pencerelerine özel ölçü üretim yapıyoruz. Torul ve Köse'nin dağlık kesimlerindeki yayla evlerinde honeycomb modeli öneriyoruz. Kelkit'in tarım ovasındaki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Şiran ve Kürtün'ün küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz. Zigana Dağı geçidi çevresindeki dinlenme tesisleri için de perde çözümleri mevcuttur.",
+          "Gümüşhane, tarihi gümüş madenleriyle kurulmuş bir şehirdir ve ortalama rakımı 1150 metredir. Karadeniz Dağları'nın iç kesiminde yer aldığı için kışlar şiddetli geçer; termometre -20 dereceye iner ve kar örtüsü altı ay kalabilir. Bu ekstrem koşullarda <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz; hücrelerin içinde hapsolmuş hava tabakası, pencereden gelen dondurucu havayı filtreleyerek oda sıcaklığını 2-3 derece yukarıda tutar.",
+          "Gümüşhane merkezdeki tarihi Rum evlerinin dar pencerelerine <em>pencere içine montajlı özel ölçü plise perde</em> üretiyoruz. Torul ve Köse'nin dağlık kesimlerindeki yayla evlerinde honeycomb modelini uyguluyor, Kelkit'in tarım ovasındaki geniş pencereli çiftlik evlerinde katlanır sistem kullanıyoruz. Şiran ve Kürtün'ün küçük ilçelerinde standart ölçülere hızlı üretim yapıyor, Zigana Dağı geçidi çevresindeki dinlenme tesisleri için dayanıklı kumaş ile toplu çözüm sunuyoruz.",
         ],
       },
       {
-        h2: "Gümüşhane'nin 6 İlçesinde Gümüş Şehri Gönderimi",
-        paragraphs: ["Gümüşhane'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretiminden Gümüşhane'nin Altı İlçesine Kargo Gönderimi",
+        paragraphs: ["Gümüşhane'nin altı ilçesine <strong>video keşif yöntemiyle</strong> hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıyor, Pendik'teki atölyemizde üretim yapıp kargo ile teslimat sağlıyoruz. Gümüşhane'nin yüksek rakım ve sert kış iklimi için çift petekli honeycomb modelini varsayılan olarak öneriyoruz."],
       },
     ],
     faqItems: [
-      { question: "Gümüşhane'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Gümüşhane'nin tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Gümüşhane kışın çok soğuk, hangi perde önerirsiniz?", answer: "Gümüşhane'nin 1150 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. Pencereden gelen dondurucu havayı filtreler, ısıtma giderlerini düşürür." },
+      { question: "Gümüşhane kışın -20 dereceye düşüyor, pencereden soğuk geliyor, ne önerirsiniz?", answer: "Gümüşhane'nin 1150 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. Hücrelerin içinde hapsolmuş hava tabakası, pencereden gelen dondurucu havayı filtreler ve oda sıcaklığını 2-3 derece yukarıda tutarak ısıtma giderlerini düşürür." },
+      { question: "Gümüşhane Torul'daki yayla evimin penceresine özel ölçü perde yapılır mı?", answer: "Yapılır. Torul'un dağlık kesimindeki yayla evlerinin standart dışı pencereleri için pencere içine montajlı özel ölçü plise perde üretiyoruz. Yüksek rakım için honeycomb modeli ile birlikte kargo ile teslimat yapıyoruz." },
     ],
   },
   {
@@ -1579,25 +1592,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Akçaabat", "Araklı", "Arsin", "Beşikdüzü", "Çarşıbaşı", "Çaykara", "Dernekpazarı", "Düzköy", "Hayrat", "Köprübaşı", "Maçka", "Of", "Ortahisar", "Sürmene", "Şalpazarı", "Tonya", "Vakfıkebir", "Yomra"],
-    intro: "Trabzon'un 18 ilçesinde plise perde hizmeti veriyoruz. Karadeniz'in inci şehrinde, <strong>yağışlı iklim için anti-nem kaplamalı kumaş modellerini</strong> öneriyoruz. Ortahisar ve Akçaabat merkez ilçelerindeki konutlar için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Trabzon Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Trabzon'un 18 ilçesinde plise perde: Ortahisar, Akçaabat, Maçka video keşif ve kargo. Karadeniz yağışlı iklimi için anti-nem modelleri.",
+    intro: "Trabzon'un 18 ilçesinde plise perde üretimi gerçekleştiriyoruz. Doğu Karadeniz'in ticaret başkentinde, <strong>neme ve tuzlu havaya dayanıklı özel kumaş seçenekleriyle</strong> konut ve işyerlerini donatıyoruz. Pendik İstanbul'daki atölyemizde üretip, Ortahisar başta olmak üzere tüm ilçelere kargo ile ulaştırıyoruz.",
+    seoTitle: "Trabzon Plise Perde - Pendik Üretim Kargo Gönderimi",
+    seoDescription: "Trabzon 18 ilçe plise perde: Ortahisar, Akçaabat, Çaykara için Pendik merkezli üretim. Nemli Karadeniz iklimine dayanıklı kumaş ve kargo teslimat.",
     sections: [
       {
-        h2: "Trabzon'un Tarihi Liman Şehrinde Perde",
+        h2: "Doğu Karadeniz Kıyısında Nem Perdesi Seçimi",
         paragraphs: [
-          "Trabzon, Karadeniz'in en büyük ticaret ve kültür merkezidir. Ortahisar ilçesindeki tarihi sur içi evlerin pencereleri standart dışıdır. Bu evlerin pencerelerine <strong>özel ölçü plise perde</strong> üretiyoruz. Ayasofya ve Atatürk Köşkü çevresindeki tarihi binalarda pencere içinde montaj ile kurulum yapıyoruz.",
-          "Trabzon'un yıllık 800 mm üzerindeki yağışlı ikliminde <strong>anti-nem kaplamalı kumaş</strong> öneriyoruz. Akçaabat ve Vakfıkebir sahil beldelerinde deniz nemine dayanıklı modeller kullanıyoruz. Çaykara ve Maçka'nın yüksek rakımlı yayla kesimlerinde (Uzungöl, Sumela) turizm tesisleri için honeycomb modeli öneriyoruz. Sürmene ve Of'un çay tarım bölgesindeki çiftlik evlerinde nem dayanımı yüksek kumaş kullanıyoruz.",
+          "Trabzon, yıl boyunca ortalama 800 mm yağış alan bir şehirdir. Sahil şeridindeki Akçaabat, Vakfıkebir ve Arsin ilçelerinde denizden gelen tuzlu nem, standart kumaşları kısa sürede yıpratır. Bu bölgedeki evler için <strong>tuzlu neme dirençli kaplamalı kumaş</strong> tercih ediyoruz. Pendik'teki üretim hattımızda, Karadeniz iklim koşullarına özel olarak hazırlanan bu kumaşlar 5 yıldan fazla dayanım gösterir.",
+          "Ortahisar'ın sur içi mahallelerinde yer alan tarihi yapıların pencereleri genellikle standart dışı boyutlara sahiptir. Bu evler için <em>pencere içine monte edilen</em> özel ölçü plise perde üretiyoruz; duvara delik açmaya gerek kalmaz. Çaykara'daki Uzungöl ve Maçka'daki Sumela Manastırı çevresindeki yayla tesislerinde ise rakımdan kaynaklanan soğuk için honeycomb hücreli modeli öneriyoruz. Sürmene ve Of ilçelerinin çay bahçeleri arasındaki kırsal konutlarda, sürekli nem altında kalan kumaşın formunu koruması için yoğun dokuma tiplerini kullanıyoruz.",
         ],
       },
       {
-        h2: "Trabzon'un 18 İlçesinde Tarihi Liman Teslimat Ağı",
-        paragraphs: ["Trabzon'un tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karadeniz iklimi bölgesi olduğundan anti-nem kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik'ten Trabzon'a Kargo Hattı ve Ölçü Alma Yöntemi",
+        paragraphs: ["Trabzon'un 18 ilçesinin her birine <strong>WhatsApp üzerinden video keşif</strong> uyguluyoruz. Pencere ölçülerinizi cep telefonu kamerasıyla birlikte belirleyip, Pendik atölyemizde üretimini tamamlıyoruz. Ardından kargo ile kapınıza teslim ediyoruz — Trabzon'a yerel ekip göndermemize gerek yoktur."],
       },
     ],
     faqItems: [
-      { question: "Trabzon'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Trabzon'un 18 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Uzungöl pansiyonum için perde yaptırabilir miyim?", answer: "Evet, Çaykara Uzungöl çevresindeki turizm tesisleri için honeycomb modeli öneriyoruz. Yüksek rakımda kış soğuklarına karşı ısı yalıtımı sağlar." },
+      { question: "Trabzon'da perdeyi kendi elimle mi takacağım, montaj ekibi geliyor mu?", answer: "Plise perde, pencere kasası içine takılan bir sistemdir ve montajı son derece basittir. Kargo ile gelen paketin içindeki talimatları izleyerek takabilirsiniz; ekibin gelmesine gerek yoktur." },
+      { question: "Çaykara Uzungöl'deki pansiyonum için hangi model uygun?", answer: "Uzungöl bölgesi rakımdan dolayı kışın sert soğuklar yaşar. Bu nedenle honeycomb hücreli ısı yalıtımlı modeli öneriyoruz; pencereden gelen soğuğu hücre yapısıyla engeller." },
     ],
   },
   {
@@ -1606,25 +1619,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Ardeşen", "Çamlıhemşin", "Çayeli", "Derepazarı", "Fındıklı", "Güneysu", "Hemşin", "İkizdere", "İyidere", "Kalkandere", "Pazar", "Rize merkez"],
-    intro: "Rize'nin 12 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin çay başkentinde, <strong>yıllık 2400 mm yağışla en nemli iklim için özel kaplamalı kumaş modellerini</strong> öneriyoruz. Rize merkez ve Çayeli konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Rize Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Rize'nin 12 ilçesinde plise perde: Çayeli, Ardeşen, Pazar video keşif ve kargo. Türkiye'nin en yağışlı iklimi için özel kaplamalı kumaş.",
+    intro: "Rize'nin 12 ilçesinde plise perde üretimi sunuyoruz. Türkiye'nin en çok yağış alan ili olan bu şehirde, <strong>aşırı neme karşı geliştirilmiş çift katmanlı kumaş teknolojisiyle</strong> konutları donatıyoruz. Pendik İstanbul'daki üretim tesisimizde hazırlayıp, Rize merkez dahil tüm ilçelere kargo ile ulaştırıyoruz.",
+    seoTitle: "Rize Plise Perde - Nem Dayanımlı Kumaş Pendik Üretim",
+    seoDescription: "Rize 12 ilçe plise perde: Çayeli, Ardeşen, Çamlıhemşin için Pendik merkezli üretim. Yıllık 2400 mm yağışa dayanıklı özel kumaş ve kargo teslimat.",
     sections: [
       {
-        h2: "Rize'nin Çay Bahçeleri İkliminde Perde",
+        h2: "Türkiye'nin En Yağışlı İlinde Kumaş Dayanımı",
         paragraphs: [
-          "Rize, Türkiye'nin en yağışlı ilidir. Yıllık 2400 mm üzerinde yağış alınır — bu, Türkiye ortalamasının üç katıdır. Bu aşırı nemli iklimde normal kumaşlar 1-2 yılda deformasya uğrar. Rize konutlarında <strong>özel anti-nem kaplamalı kumaş</strong> kullanıyoruz. Bu kumaşlar 5+ yıl dayanım sağlar.",
-          "Rize merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Çayeli ve Pazar'ın çay tarım bölgesindeki çiftlik evlerinde, nem dayanımı en yüksek kumaş tiplerini kullanıyoruz. Çamlıhemşin ve Hemşin'in yüksek rakımlı yayla kesimlerinde, kış soğuklarına karşı honeycomb modeli öneriyoruz. Ardeşen ve Fındıklı sahil şeridinde deniz nemine dayanıklı modeller kullanıyoruz. Ayder yaylası çevresindeki turizm tesisleri için katlanır sistem uyguluyoruz.",
+          "Rize, yılda ortalama 2400 mm yağış alır — bu rakam, Türkiye genel ortalamasının yaklaşık üç katıdır. Böylesi bir iklimde sıradan perde kumaşları 12-24 ay arasında küflenir, renk atması yapar ve yapısını yitirir. Rize evleri için <strong>çift katmanlı su itici kaplamalı kumaş</strong> uyguluyoruz. Bu kaplama, yağmur buharının kumaş liflerine nüfuz etmesini engeller ve 5 yıldan uzun süre formunu korur.",
+          "Çayeli ve Pazar ilçelerinin çay plantasyonları arasındaki evlerinde, sürekli yüksek nem altında çalışan kumaşların dayanımı kritiktir. Ardeşen ve Fındıklı'nın sahil kuşağında deniz suyu buharı ekstra bir yıpratıcı etken oluşturur; bu bölge için tuz dayanımlı kumaş varyantını öneriyoruz. Çamlıhemşin ve Hemşin'in yayla kuşağında rakım arttıkça sıcaklık düşer; Ayder kaplıcaları çevresindeki bungalov tesislerinde honeycomb hücreli modeli uygulayarak soğuk hava sızmasını kesiyoruz. İkizdere'nin dağ yamacındaki konutlarında ise rüzgar baskısına dayanıklı kalın dokuma tipini tercih ediyoruz.",
         ],
       },
       {
-        h2: "Rize'nin 12 İlçesinde Çay Bahçeleri Kargo Çözümü",
-        paragraphs: ["Rize'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Türkiye'nin en yağışlı iklim bölgesi olduğundan özel anti-nem kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretiminden Rize'ye Uzaktan Keşif Sistemi",
+        paragraphs: ["Rize'nin 12 ilçesinin tamamında <strong>akıllı telefon ile uzaktan keşif</strong> yöntemini uyguluyoruz. Pencere fotoğraflarınızı WhatsApp üzerinden gönderiyorsunuz, ekibimiz ölçüleri belirleyip Pendik'te üretimi başlatıyor. Tamamlanan perde kargo ile Rize'ye ulaştırılır; yerel bayi veya montaj ekibi süreci yoktur."],
       },
     ],
     faqItems: [
-      { question: "Rize'nin yağışlı ikliminde perde kumaşı dayanır mı?", answer: "Rize'de yıllık 2400 mm yağış alınır. Normal kumaşlar 1-2 yılda deformasya uğrar. Özel anti-nem kaplamalı kumaş kullanarak 5+ yıl dayanım sağlıyoruz." },
-      { question: "Rize'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Rize'nin 12 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Rize'de yıllık 2400 mm yağış var, perde kumaşı ne kadar dayanır?", answer: "Standart kumaşlar Rize ikliminde 1-2 yılda bozulur. Bizim kullandığımız çift katmanlı su itici kaplamalı kumaş, yağmur buharının liflere sızmasını engeller ve 5 yıldan fazla dayanım sağlar." },
+      { question: "Çamlıhemşin Ayder'deki bungalovum için perde nasıl ısmarlarım?", answer: "WhatsApp üzerinden pencere fotoğrafını göndermeniz yeterli. Ayder gibi yüksek rakımlı yayla bölgeleri için honeycomb hücreli ısı yalıtımlı modeli öneriyoruz; soğuk hava sızmasını keser." },
     ],
   },
   {
@@ -1633,25 +1646,25 @@ export const cities: CityData[] = [
     region: "Karadeniz",
     priority: false,
     districts: ["Ardanuç", "Arhavi", "Artvin merkez", "Borçka", "Hopa", "Kemalpaşa", "Murgul", "Şavşat", "Yusufeli"],
-    intro: "Artvin'in 9 ilçesinde plise perde hizmeti veriyoruz. Karadeniz'in en dağık ilinde, <strong>yüksek rakımlı orman iklimine uygun honeycomb ve anti-nem modellerini</strong> öneriyoruz. Artvin merkez ve Hopa konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Artvin Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Artvin'in 9 ilçesinde plise perde: Hopa, Borçka, Şavşat video keşif ve kargo. Yüksek rakım orman iklimi için honeycomb ve anti-nem modelleri.",
+    intro: "Artvin'in 9 ilçesinde plise perde üretimi yapıyoruz. Türkiye'nin en ormanlık ili olan bu dağlık şehirde, <strong>sahil nemine ve yayla soğuğuna ayrı çözümler sunan</strong> çift iklim yaklaşımıyla çalışıyoruz. Pendik İstanbul'daki atölyemizde üretip, Hopa'dan Şavşat'a tüm ilçelere kargo ile gönderiyoruz.",
+    seoTitle: "Artvin Plise Perde - Sahil ve Yayla İklim Çözümleri",
+    seoDescription: "Artvin 9 ilçe plise perde: Hopa, Borçka, Şavşat için Pendik merkezli üretim. Sahil nemine ve yayla soğuğuna özel kumaş, kargo teslimat.",
     sections: [
       {
-        h2: "Artvin'in Dağ ve Orman İkliminde Perde",
+        h2: "Sahilden Yaylaya İki Farklı İklim Kuşağı",
         paragraphs: [
-          "Artvin, Türkiye'nin en dağık ilidir. Yüzölçümünün yüzde 55'i ormanlarla kaplıdır. Sahil kesimde (Hopa, Arhavi) Karadeniz nemine dayanıklı <strong>anti-nem kaplamalı kumaş</strong> öneriyoruz. İç kesimde (Ardanuç, Şavşat, Yusufeli) yüksek rakımdan dolayı <strong>honeycomb hücreli ısı yalıtımlı modeli</strong> öneriyoruz.",
-          "Artvin merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Borçka ve Murgul'nün maden bölgesindeki işçi lojmanları için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz. Şavşat'ın Karagöl çevresindeki turizm tesislerinde katlanır sistem uyguluyoruz. Yusufeli'nin baraj gölü çevresindeki yeni yerleşim bölgelerinde standart modeller kullanıyoruz.",
+          "Artvin, Türkiye'nin yüzölçümü bakımından en ormanlık ilidir; topraklarının yüzde 55'i orman örtüsüyle kaplıdır. Şehir, birbirinden tamamen farklı iki iklim kuşağına sahiptir. Hopa ve Arhavi'nin bulunduğu sahilde Karadeniz'in nemli havası hüküm sürer; burada <strong>tuz buharına dirençli kaplamalı kumaş</strong> kullanıyoruz. Ardanuç, Şavşat ve Yusufeli'nin yer aldığı iç kesimde ise rakım 1500 metrenin üzerine çıkar ve kışın sıcaklık -20°C'ye iner; bu bölge için honeycomb hücreli ısı yalıtımlı modeli öneriyoruz.",
+          "Borçka ve Murgul ilçelerindeki bakır madeni işletmelerinin lojmanlarında, yangın güvenliği öncelikli olduğundan B1 sınıfı alev geciktirici kumaş ile toplu perde uygulaması yapıyoruz. Şavşat'ın Karagöl Milli Parkı çevresindeki konaklama tesislerinde, geniş cam yüzeyler için katlanır plise sistemini tercih ediyoruz. Yusufeli'nde baraj gölü nedeniyle yeni taşınan yerleşim birimlerinde, modern apartmanların standart pencerelerine hızlı üretim yapıyoruz. Artvin merkezinin yamacındaki evlerde ise eğimden kaynaklanan rüzgar baskısı için kalın dokuma kumaş kullanıyoruz.",
         ],
       },
       {
-        h2: "Artvin'in 9 İlçesinde Dağ ve Orman Bölgesi Gönderimi",
-        paragraphs: ["Artvin'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Dağlık orman iklimi bölgesi olduğundan honeycomb ve anti-nem modelleri öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Atölyesinden Artvin Dağlarına Kargo Ulaşımı",
+        paragraphs: ["Artvin'in 9 ilçesinin tamamına <strong>telefonla görüntülü keşif</strong> uyguluyoruz. Pencere ölçülerinizi WhatsApp üzerinden paylaşıyorsunuz, Pendik'teki üretim hattımızda perdenizi hazırlıyoruz. Kargo şirketiyle anlaşmalı olarak Artvin'in dağlık ilçelerine bile sorunsuz teslimat sağlıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Artvin'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Artvin'in 9 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Artvin Hopa sahilinde hangi perde önerirsiniz?", answer: "Hopa ve Arhavi sahil kesiminde Karadeniz nemine dayanıklı anti-nem kaplamalı kumaş öneriyoruz. İç kesimlerde ise honeycomb modeli daha uygun olur." },
+      { question: "Artvin'in iç kesimlerinde kış çok sert geçiyor, hangi perde modeli öneriyorsunuz?", answer: "Ardanuç, Şavşat ve Yusufeli gibi iç kesimlerde rakım yüksektir ve kışın sıcaklık -20°C'ye düşer. Bu bölge için honeycomb hücreli ısı yalıtımlı model öneriyoruz; hücre yapısı soğuk hava sızmasını engeller." },
+      { question: "Borçka maden lojmanlarına yangına dayanıklı perde yapılır mı?", answer: "Evet, Borçka ve Murgul maden bölgesindeki lojmanlar için B1 sınıfı alev geciktirici kumaş kullanıyoruz. Toplu perde çözümü olarak da bu kumaşı tercih ediyoruz." },
     ],
   },
   {
@@ -1688,25 +1701,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Aşkale", "Aziziye", "Çat", "Hınıs", "Horasan", "İspir", "Karaçoban", "Karayazı", "Köprüköy", "Narman", "Oltu", "Olur", "Pasinler", "Pazaryolu", "Şenkaya", "Tekman", "Tortum", "Uzundere", "Yakutiye", "Palandöken"],
-    intro: "Erzurum'un 20 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1953 metre rakımdaki şehrinde, <strong>Türkiye'nin en soğuk kışlarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Palandöken ve Yakutiye merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Erzurum Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Erzurum'un 20 ilçesinde plise perde: Palandöken, Oltu, Horasan video keşif ve kargo. 1953 metre rakımda -40°C kış için çift petekli honeycomb.",
+    intro: "Erzurum'un 20 ilçesinde plise perde üretimi sunuyoruz. 1953 metre rakımıyla Türkiye'nin en yüksek büyükşehirlerinden birinde, <strong>-40°C'ye varan ekstrem kış koşullarına yönelik çift petekli honeycomb sistemlerini</strong> uyguluyoruz. Pendik İstanbul'daki atölyemizde üretip, Palandöken ve Yakutiye dahil tüm ilçelere kargo ile ulaştırıyoruz.",
+    seoTitle: "Erzurum Plise Perde - -40°C Kış İçin Honeycomb Pendik Üretim",
+    seoDescription: "Erzurum 20 ilçe plise perde: Palandöken, Oltu, Horasan için Pendik merkezli üretim. 1953 metre rakımda -40°C kışa karşı çift petekli honeycomb, kargo teslimat.",
     sections: [
       {
-        h2: "Erzurum'un Sert Kış İkliminde Perde",
+        h2: "1953 Metre Rakımda Türkiye'nin En Sert Kışına Perde Üretimi",
         paragraphs: [
-          "Erzurum, 1953 metre rakımıyla Türkiye'nin en yüksek rakımlı büyük şehridir. Kışları -40°C'ye varan soğuklar ve 6 ay süren kar yağışı görülür. Bu aşırı soğukta pencere, ısı kaybının en büyük kaynaklarından biridir. Erzurum konutlarında <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Çift petek yapısı, pencereden gelen dondurucu havayı iki katmanlı filtreler ve ısıtma giderlerini yüzde 30'a kadar düşürür.",
-          "Palandöken kayak merkezi çevresindeki otel ve pansiyonlarda, karartma + honeycomb kombinasyonu uyguluyoruz. Yakutiye ve Aziziye merkez ilçelerindeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Oltu'nun Oltu taşı atölyelerinin bulunduğu sanayi bölgesinde, atölye pencereleri için güneşlik kumaş öneriyoruz. Tortum Şelalesi çevresindeki turizm tesislerinde katlanır sistem uyguluyoruz.",
+          "Erzurum, 1953 metrelik ortalama rakımıyla Türkiye'nin en yüksek büyükşehiridir. Kış mevsimi kasım ayında başlar ve mayısa kadar devam eder; bu süreçte sıcaklık -40°C'ye kadar düşebilir. Altı ay süren kar örtüsü altında, pencereler ısı kaybının yüzde 35'ini oluşturur. Erzurum konutları için <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> üretiyoruz. İki katmanlı petek yapısı, camdan gelen dondurucu havayı iki aşamada süzerek ısıtma giderlerinde yüzde 30'a varan tasarruf sağlar.",
+          "Palandöken kayak merkezinin eteklerindeki otel ve pansiyonlarda, karartma ve honeycomb katmanlarını birleştiren kompozit sistem uyguluyoruz; gündüz güneş ışığını keserken gece soğuğu engeller. Yakutiye ve Aziziye'nin apartmanlarında standart pencere ölçülerine hızlı üretim yapıyoruz. Oltu ilçesindeki Oltu taşı işleme atölyelerinin pencereleri için, güneş ışınını filtreleyen güneşlik kumaş tipini tercih ediyoruz. Tortum Şelalesi çevresindeki turizm işletmelerinde geniş cam yüzeyler için katlanır plise sistemini uyguluyoruz.",
         ],
       },
       {
-        h2: "Erzurum'un 20 İlçesinde Sert Kış İklimi Kargo Planı",
-        paragraphs: ["Erzurum'un tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Türkiye'nin en soğuk şehri olduğundan çift petekli honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik'ten Erzurum'a 20 İlçe Kargo Dağıtım Ağı",
+        paragraphs: ["Erzurum'un 20 ilçesinin tamamında <strong>WhatsApp görüntülü keşif</strong> yöntemini uyguluyoruz. Pencere fotoğraflarınızı gönderiyorsunuz, ekibimiz ölçüleri hesaplayıp Pendik atölyesinde üretimi başlatıyor. Kargo ile Erzurum'un en uzak ilçelerine bile teslimat sağlıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Erzurum'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Erzurum'un 20 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Erzurum kışın -40°C, hangi perde ısı yalıtımı sağlar?", answer: "Erzurum'un 1953 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. Çift petek yapısı pencereden gelen dondurucu havayı iki katmanlı filtreler, ısıtma giderlerini yüzde 30'a kadar düşürür." },
+      { question: "Erzurum'da kış -40°C'ye düşüyor, plise perde ısı yalıtımı ne kadar etkili?", answer: "Erzurum'un 1953 metre rakımında çift petekli honeycomb hücreli modeli öneriyoruz. İki katmanlı petek yapısı camdan gelen dondurucu havayı iki aşamada süzerek ısıtma giderlerinde yüzde 30'a varan tasarruf sağlar." },
+      { question: "Palandöken'deki otelim için perde ısmarlamak istiyorum, nasıl ilerleyebilirim?", answer: "Palandöken kayak merkezi çevresindeki otel ve pansiyonlar için karartma + honeycomb kompozit sistemini uyguluyoruz. WhatsApp üzerinden pencere fotoğraflarını göndermeniz yeterli; ölçü alıp Pendik'te üretim yapıyoruz." },
     ],
   },
   {
@@ -1715,25 +1728,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Çayırlı", "Erzincan merkez", "İliç", "Kemah", "Kemaliye", "Otlubeli", "Refahiye", "Tercan", "Üzümlü"],
-    intro: "Erzincan'ın 9 ilçesinde plise perde hizmeti sunuyoruz. Doğu Anadolu'nun 1185 metre rakımdaki deprem bölgesinde, <strong>kış soğuklarına karşı honeycomb ve deprem güvenli montaj sistemlerini</strong> öneriyoruz. Erzincan merkez ve Tercan konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Erzincan Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Erzincan'ın 9 ilçesinde plise perde: Tercan, Refahiye, Kemah video keşif ve kargo. Deprem güvenli montaj ve 1185 metre rakım için honeycomb.",
+    intro: "Erzincan'ın 9 ilçesinde plise perde üretimi yapıyoruz. 1185 metre rakımdaki bu deprem bölgesinde, <strong>hem kış soğuğuna karşı honeycomb hücreli modeli hem de sarsıntıya dayanıklı hafif montaj sistemini</strong> birlikte uyguluyoruz. Pendik İstanbul'daki atölyemizde üretip, Erzincan merkez ve tüm ilçelere kargo ile teslim ediyoruz.",
+    seoTitle: "Erzincan Plise Perde - Deprem Güvenli Hafif Montaj Pendik Üretim",
+    seoDescription: "Erzincan 9 ilçe plise perde: Tercan, Refahiye, Kemah için Pendik merkezli üretim. Deprem güvenli hafif montaj ve 1185 metre rakım için honeycomb, kargo teslimat.",
     sections: [
       {
-        h2: "Erzincan'ın Deprem Bölgesinde Güvenli Perde",
+        h2: "Deprem Kuşağında Hafif Perde Güvenliği ve Isı Yalıtımı",
         paragraphs: [
-          "Erzincan, 1939 ve 1992 depremlerinin merkez üssü olması nedeniyle deprem güvenliği konutta önceliklidir. Plise perde, pencere içinde 200-400 gram ağırlığıyla deprem anında düşme riski oluşturmaz. <strong>Vidalı veya yapışkanlı montaj</strong> ile sarsıntıya dayanıklı kurulur.",
-          "Erzincan'ın 1185 metre rakımındaki karasal ikliminde kışları -30°C'ye varan soğuklar görülür. Bu nedenle <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Erzincan merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Kemah ve Kemaliye'nin Fırat nehri vadisindeki konutlarında, vadi rüzgarına dayanıklı kumaş kullanıyoruz. Tercan ve Refahiye'nin yüksek rakımlı kesimlerinde çift petekli honeycomb öneriyoruz.",
+          "Erzincan, 1939 ve 1992 depremlerinin merkez üssü olması nedeniyle Türkiye'nin en aktif sismik kuşaklarından birinde yer alır. Bu nedenle konutlarda duvara asılan ağır perde sistemleri risk oluşturur. Plise perde, pencere kasası içine monte edilen ve toplam ağırlığı 200-400 gram arasında değişen bir üründür. <strong>Vidalı veya yapışkanlı pencere içi montaj</strong> ile sarsıntı anında düşme tehlikesi ortadan kalkar.",
+          "Erzincan'ın 1185 metre rakımındaki karasal ikliminde kışın sıcaklık -30°C'ye kadar iner. Bu soğukta honeycomb hücreli ısı yalıtımlı modeli öneriyoruz; hücre yapısı camdan sızan soğuk havayı hapseder. Kemah ve Kemaliye'nin Fırat Nehri vadisindeki evlerinde, vadi boyunca esen rüzgarın kumaşa uyguladığı sürekli baskı için yoğun dokuma tipini tercih ediyoruz. Tercan ve Refahiye'nin yüksek rakımlı kesimlerinde çift petekli honeycomb varyantını uyguluyoruz. Erzincan merkezinin yeni yapılmış deprem güvenli binalarında standart pencere ölçülerine hızlı üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Erzincan'ın 9 İlçesinde Deprem Bölgesi Teslimat Çözümü",
-        paragraphs: ["Erzincan'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Deprem bölgesi olduğundan hafif montaj sistemi öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretiminden Erzincan'a Uzaktan Keşif ve Kargo",
+        paragraphs: ["Erzincan'ın 9 ilçesine <strong>görüntülü telefon ile uzaktan keşif</strong> uyguluyoruz. Pencere fotoğraflarınızı WhatsApp üzerinden gönderiyorsunuz, ekibimiz ölçüleri belirleyip Pendik'te üretimi tamamlıyor. Kargo ile Erzincan'a teslimat yapıyoruz; deprem güvenli hafif montaj sistemi sayesinde takımı kendiniz kolayca yapabilirsiniz."],
       },
     ],
     faqItems: [
-      { question: "Erzincan deprem bölgesi için plise perde güvenli mi?", answer: "Evet, plise perde pencere içinde monte edilir ve 200-400 gram ağırlığındadır. Deprem anında düşme riski yoktur. Vidalı veya yapışkanlı montaj ile sarsıntıya dayanıklı kurulur." },
-      { question: "Erzincan'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Erzincan'ın tüm ilçelerine video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
+      { question: "Erzincan deprem bölgesi, plise perde sarsıntıda düşer mi?", answer: "Plise perde pencere kasası içine monte edilir ve ağırlığı 200-400 gram arasındadır. Vidalı veya yapışkanlı montaj ile sarsıntıya dayanıklı kurulur; deprem anında düşme riski yoktur." },
+      { question: "Kemah vadisindeki evim çok rüzgar alıyor, hangi kumaş dayanır?", answer: "Kemah ve Kemaliye'nin Fırat nehri vadisindeki evler için yoğun dokuma tipli kumaşı tercih ediyoruz. Vadi boyunca esen sürekli rüzgar baskısına karşı bu kumaş tipi daha uzun ömürlüdür." },
     ],
   },
   {
@@ -1742,25 +1755,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Ağrı merkez", "Diyadin", "Doğubayazıt", "Eleşkirt", "Hamur", "Patnos", "Taşlıçay", "Tutak"],
-    intro: "Ağrı'nın 8 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1632 metre rakımdaki şehrinde, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Ağrı merkez ve Doğubayazıt konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Ağrı Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Ağrı'nın 8 ilçesinde plise perde: Doğubayazıt, Patnos, Diyadin video keşif ve kargo. 1632 metre rakımda şiddetli kış için çift petekli honeycomb.",
+    intro: "Ağrı'nın 8 ilçesinde plise perde üretimi gerçekleştiriyoruz. Türkiye'nin en yüksek zirvesinin eteklerindeki 1632 metre rakımlı şehirde, <strong>-35°C'ye varan kış soğuğuna karşı çift petekli honeycomb sistemini</strong> uyguluyoruz. Pendik İstanbul'daki atölyemizde üretip, Doğubayazıt ve Patnos dahil tüm ilçelere kargo ile ulaştırıyoruz.",
+    seoTitle: "Ağrı Plise Perde - Ağrı Dağı Etekleri Honeycomb Pendik Üretim",
+    seoDescription: "Ağrı 8 ilçe plise perde: Doğubayazıt, Patnos, Diyadin için Pendik merkezli üretim. 1632 metre rakımda -35°C kışa karşı çift petekli honeycomb, kargo teslimat.",
     sections: [
       {
-        h2: "Ağrı Dağı Eteklerinde Perde Çözümleri",
+        h2: "Türkiye'nin En Yüksek Zirvesinin Gölgesinde Perde Sistemleri",
         paragraphs: [
-          "Ağrı, Türkiye'nin en yüksek dağı olan Ağrı Dağı'nın ev sahibidir. 1632 metre rakımda yer alan şehirde kışları -35°C'ye varan soğuklar görülür. Bu şiddetli kış koşullarında <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Çift petek yapısı, pencereden gelen dondurucu havayı iki katmanlı filtreler.",
-          "Doğubayazıt'taki İshak Paşa Sarayı çevresindeki tarihi binaların pencerelerine özel ölçü üretim yapıyoruz. Ağrı merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Patnos ve Diyadin'in tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Hamur ve Tutak'ın küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Ağrı, 5137 metrelik Ağrı Dağı'nın ev sahibidir. Şehir merkezi 1632 metre rakımda yer alır ve kışın sıcaklık -35°C'ye kadar düşer. Dağın etkisiyle oluşan soğuk hava kütlesi, kış boyunca ovaya iner ve pencerelerden içeri sızar. Ağrı konutları için <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> üretiyoruz. İki katmanlı hücre yapısı, dağdan gelen dondurucu havayı arka arkaya süzerek iç mekan sıcaklığını korur.",
+          "Doğubayazıt'taki İshak Paşa Sarayı'nın bulunduğu tarihi bölgedeki taş binaların pencereleri standart dışı boyutlardadır. Bu yapılar için <em>pencere kasasına göre özel ölçü</em> üretim yapıyoruz; pencere içi montaj sayesinde tarihi duvarlara zarar verilmez. Patnos ve Diyadin'in geniş tarım arazilerindeki çiftlik evlerinde, büyük pencere yüzeyleri için katlanır plise sistemini tercih ediyoruz. Hamur ve Tutak'ın küçük yerleşimlerinde standart ölçülere hızlı üretim uyguluyoruz. Eleşkirt'in yüksek rakımlı konutlarında çift petekli honeycomb varyantını öneriyoruz.",
         ],
       },
       {
-        h2: "Ağrı'nın 7 İlçesinde Dağ Etekleri Kargo Rotası",
-        paragraphs: ["Ağrı'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan çift petekli honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Atölyesinden Ağrı'ya 8 İlçe Kargo Hattı",
+        paragraphs: ["Ağrı'nın 8 ilçesine <strong>akıllı telefonla görüntülü keşif</strong> uyguluyoruz. Pencere fotoğraflarınızı WhatsApp üzerinden gönderiyorsunuz, ekibimiz ölçüleri hesaplayıp Pendik'te üretimi başlatıyor. Kargo şirketiyle Ağrı'nın dağlık ilçelerine teslimat sağlıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Ağrı'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Ağrı'nın 8 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Ağrı kışın -35°C, hangi perde önerirsiniz?", answer: "Ağrı'nın 1632 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. Çift petek yapısı, pencereden gelen dondurucu havayı iki katmanlı filtreler." },
+      { question: "Ağrı Dağı'nın eteklerindeki evim için hangi perde modelini tavsiye ediyorsunuz?", answer: "Ağrı'nın 1632 metre rakımında kışın -35°C'ye düşüldüğü için çift petekli honeycomb hücreli ısı yalıtımlı modeli öneriyoruz. Dağdan inen soğuk hava kütlesini iki katmanlı hücre yapısı süzerek iç mekan sıcaklığını korur." },
+      { question: "Doğubayazıt İshak Paşa Sarayı çevresindeki tarihi evimin pencereleri standart değil, çözüm var mı?", answer: "İshak Paşa Sarayı çevresindeki taş binaların pencereleri için pencere kasasına göre özel ölçü üretim yapıyoruz. Pencere içine monte edildiği için tarihi duvarlara zarar verilmez." },
     ],
   },
   {
@@ -1769,25 +1782,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Akyaka", "Arpaçay", "Digor", "Kağızman", "Kars merkez", "Sarıkamış", "Selim", "Susuz"],
-    intro: "Kars'ın 8 ilçesinde plise perde hizmeti sunuyoruz. Doğu Anadolu'nun 1768 metre rakımdaki tarihi şehrinde, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Kars merkez ve Sarıkamış konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kars Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kars'ın 8 ilçesinde plise perde: Sarıkamış, Kağızman, Arpaçay video keşif ve kargo. 1768 metre rakımda Baltık mimari binalar için özel çözümler.",
+    intro: "Kars'ın 8 ilçesinde plise perde üretimi sunuyoruz. 1768 metre rakımdaki bu tarihi şehirde, <strong>Rus dönemi Baltık mimarisinin yüksek pencerelerine özel ölçü üretim ve -35°C kışa karşı honeycomb sistemini</strong> birlikte uyguluyoruz. Pendik İstanbul'daki atölyemizde üretip, Sarıkamış ve Kağızman dahil tüm ilçelere kargo ile ulaştırıyoruz.",
+    seoTitle: "Kars Plise Perde - Baltık Mimari Özel Ölçü Pendik Üretim",
+    seoDescription: "Kars 8 ilçe plise perde: Sarıkamış, Kağızman, Arpaçay için Pendik merkezli üretim. Baltık mimari yüksek pencerelere özel ölçü ve -35°C kış için honeycomb, kargo teslimat.",
     sections: [
       {
-        h2: "Kars'ın Baltık Mimarisinde Perde",
+        h2: "Rus Dönemi Baltık Mimarisinin Yüksek Pencerelerine Özel Üretim",
         paragraphs: [
-          "Kars, Rus işgalinden kalan Baltık mimarisi tarzı tarihi binalarıyla Türkiye'nin benzersiz şehirlerinden biridir. Bu binaların yüksek pencereleri standart dışı boyutlardadır. Kars merkezdeki <strong>Baltık mimari binaların pencerelerine özel ölçü plise perde</strong> üretiyoruz. Tarihi taş binaların pencere içinde montaj ile duvara zarar vermeden kurulur.",
-          "Kars'ın 1768 metre rakımındaki ikliminde kışları -35°C'ye varan soğuklar görülür. Bu nedenle <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Sarıkamış kayak merkezi çevresindeki otel ve pansiyonlarda karartma + honeycomb kombinasyonu uyguluyoruz. Kağızman ve Digor'un tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Kars, 40 yıl süren Rus işgalinin izlerini taşıyan Baltık mimari tarzı tarihi binalarıyla Türkiye'nin eşsiz şehirlerinden biridir. Bu binaların pencereleri, standart Türk konutlarından farklı olarak 180-220 cm arasında değişen yüksekliklere sahiptir. Kars merkezdeki <strong>Baltık mimari binaların pencerelerine özel ölçü plise perde</strong> üretiyoruz. Pencere kasası içine monte edilen sistem, tarihi taş duvarlara delik açmadan kurulur.",
+          "Kars'ın 1768 metre rakımındaki ikliminde kışın sıcaklık -35°C'ye kadar düşer. Bu nedenle Baltık binaların yüksek pencerelerinde ısı kaybı daha da büyüktür; çift petekli honeycomb hücreli modeli uygulayarak cam yüzeyinden sızan soğuğu iki katmanlı süzüyoruz. Sarıkamış kayak merkezi çevresindeki otel ve pansiyonlarda karartma + honeycomb kompozit sistemini tercih ediyoruz; gündüz güneşi keserken gece soğuğu engeller. Kağızman ve Digor'un tarım arazilerindeki geniş pencereli çiftlik evlerinde katlanır plise sistemini uyguluyoruz. Arpaçay ve Akyaka'nın sınır bölgesi konutlarında ise çift petekli honeycomb varyantını öneriyoruz.",
         ],
       },
       {
-        h2: "Kars'ın 8 İlçesinde Baltık Mimari Bölgesi Teslimatı",
-        paragraphs: ["Kars'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Baltık mimari binalar için özel ölçü üretim yapıyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretiminden Kars'a Tarihi Şehir Kargo Hattı",
+        paragraphs: ["Kars'ın 8 ilçesine <strong>görüntülü telefonla uzaktan keşif</strong> uyguluyoruz. Baltık mimari binaların yüksek pencerelerinin fotoğraflarını WhatsApp üzerinden gönderiyorsunuz, ekibimiz özel ölçüleri hesaplayıp Pendik'te üretimi başlatıyor. Kargo ile Kars'ın tüm ilçelerine teslimat sağlıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Kars'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Kars'ın 8 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Kars Baltık mimari binaların pencerelerine perde yapılır mı?", answer: "Evet, Kars merkezdeki Baltık mimari binaların yüksek pencerelerine özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile tarihi taş binalara zarar vermeden kurulur." },
+      { question: "Kars'taki Rus dönemi Baltık binaların yüksek pencerelerine perde yapılıyor mu?", answer: "Evet, Kars merkezdeki Baltık mimari binaların 180-220 cm yüksekliğindeki pencerelerine özel ölçü plise perde üretiyoruz. Pencere kasası içine monte edildiği için tarihi taş duvarlara delik açmadan kurulur." },
+      { question: "Sarıkamış'taki otelim için perde ısmarlamak istiyorum, hangi model uygun?", answer: "Sarıkamış kayak merkezi çevresindeki otel ve pansiyonlar için karartma + honeycomb kompozit sistemini öneriyoruz. Gündüz güneş ışığını keserken gece soğuk havayı engeller; 1768 metre rakımda ısı yalıtımı sağlar." },
     ],
   },
   {
@@ -1796,25 +1809,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Aralık", "Iğdır merkez", "Karakoyunlu", "Tuzluca"],
-    intro: "Iğdır'ın 4 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun en alçak rakımlı ilinde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Iğdır merkez konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Iğdır Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Iğdır'ın 4 ilçesinde plise perde: Aralık, Tuzluca, Karakoyunlu video keşif ve kargo. Sıcak ova iklimi için gece-gündüz modelleri.",
+    intro: "Iğdır'ın 4 ilçesinde plise perde üretimi yapıyoruz. Doğu Anadolu'nun en alçak rakımlı (875 metre) ilinde, <strong>yazın +40°C sıcak ve kışın -20°C soğuğa karşı gece-gündüz çift katmanlı sistemini</strong> uyguluyoruz. Pendik İstanbul'daki atölyemizde üretip, Aralık ve Tuzluca dahil tüm ilçelere kargo ile teslim ediyoruz.",
+    seoTitle: "Iğdır Plise Perde - Gece Gündüz Çift Katman Pendik Üretim",
+    seoDescription: "Iğdır 4 ilçe plise perde: Aralık, Tuzluca, Karakoyunlu için Pendik merkezli üretim. Sıcak ova iklimi için gece-gündüz çift katmanlı model, kargo teslimat.",
     sections: [
       {
-        h2: "Iğdır'ın Sıcak Ovasında Perde",
+        h2: "Ermenistan Sınırında Uç Sıcaklık Farklarına Çift Katman Çözüm",
         paragraphs: [
-          "Iğdır, Doğu Anadolu'nun en alçak rakımlı (875 metre) ilidir. Ermenistan ve Nahçıvan sınırında yer alır. Yazları +40°C'ye varan sıcaklar, kışları -20°C'ye varan soğuklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz — gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller.",
-          "Iğdır merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Aralık ve Tuzluca'nın sınır bölgesi konutlarında, sert iklim nedeniyle karartma modeli öneriyoruz. Iğdır'ın kayısı ve şeftali bahçelerindeki çiftlik evlerinde, geniş pencere için katlanır sistem uyguluyoruz. Karakoyunlu'nun küçük ilçesinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Iğdır, 875 metre rakımıyla Doğu Anadolu'nun en alçak noktasında yer alır. Ermenistan ve Nahçıvan sınırındaki bu ovada yazın sıcaklık +40°C'ye tırmanır, kışın ise -20°C'ye düşer. 60 derecelik bu sıcaklık farkı, pencere kumaşına hem ısı hem ışık açısından aşırı yük bindirir. Iğdır konutları için <strong>gece-gündüz çift katmanlı plise perde sistemini</strong> üretiyoruz: gündüz katmanı güneş ışının yüzde 70'ini süzerek iç mekan sıcaklığını düşürür, gece katmanı ise tam karartma sağlayarak soğuk hava sızmasını engeller.",
+          "Iğdır merkezinin ova konutlarında standart pencere ölçülerine hızlı üretim yapıyoruz. Aralık ve Tuzluca'nın sınır bölgesi evlerinde, sert iklim koşulları nedeniyle karartma ağırlıklı gece-gündüz modelini tercih ediyoruz. Iğdır'ın kayısı ve şeftali bahçeleri arasındaki çiftlik evlerinde, geniş pencere yüzeyleri için katlanır plise sistemini uyguluyoruz. Karakoyunlu'nun küçük yerleşiminde standart ölçülere hızlı üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Iğdır'ın 4 İlçesinde Sıcak Ova Gönderim Çözümü",
-        paragraphs: ["Iğdır'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Sıcak ova iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Pendik Üretiminden Iğdır Ovasına Kargo Teslimat",
+        paragraphs: ["Iğdır'ın 4 ilçesine <strong>telefonla görüntülü keşif</strong> uyguluyoruz. Pencere fotoğraflarınızı WhatsApp üzerinden gönderiyorsunuz, ekibimiz ölçüleri belirleyip Pendik atölyesinde üretimi tamamlıyor. Kargo ile Iğdır'ın sınır ilçelerine bile sorunsuz teslimat sağlıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Iğdır'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Iğdır'ın 4 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Iğdır yazın çok sıcak, hangi perde önerirsiniz?", answer: "Iğdır'ın +40°C sıcaklarında güneşlik kumaş plise perde öneriyoruz. Güneş ışınınn yüzde 70'ini filtreler, iç mekan sıcaklığını düşürür. Karartma modeli de tam ışık kesisi sağlar." },
+      { question: "Iğdır yazın +40°C kışın -20°C, tek perdeyle her iki mevsimi çözebilir miyim?", answer: "Evet, Iğdır için gece-gündüz çift katmanlı plise perde sistemini öneriyoruz. Gündüz katmanı güneş ışının yüzde 70'ini süzerek sıcaklığı düşürür, gece katmanı tam karartma sağlayarak soğuk hava sızmasını engeller." },
+      { question: "Iğdır'ın kayısı bahçesindeki çiftlik evimin geniş pencereleri için perde yapılır mı?", answer: "Kayısı ve şeftali bahçeleri arasındaki çiftlik evlerinin geniş pencere yüzeyleri için katlanır plise sistemini uyguluyoruz. WhatsApp üzerinden pencere fotoğrafını göndermeniz yeterli." },
     ],
   },
   {
@@ -1823,25 +1836,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Ardahan merkez", "Çıldır", "Damal", "Göle", "Hanak", "Posof"],
-    intro: "Ardahan'ın 6 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin en soğuk illerinden birinde, 1900 metre rakımda, <strong>-40°C kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Ardahan merkez ve Göle konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Ardahan Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Ardahan'ın 6 ilçesinde plise perde: Çıldır, Göle, Posof video keşif ve kargo. 1900 metre rakımda -40°C kış için çift petekli honeycomb.",
+    intro: "Ardahan'ın altı ilçesinde plise perde üretimi ve sevkiyatı gerçekleştiriyoruz. Pendik İstanbul'daki atölyemizde, 1900 metre ortalama rakıma sahip bu sınır ilinin pencereleri için <strong>çift petekli honeycomb hücreli modeller</strong> hazırlıyoruz. Kışın eksi kırk dereceyi aşan dondurucu hava, camlardan içeri sızar; bu nedenle ısı yalıtımlı kumaş yapısı seçiyoruz. Çıldır, Göle ve Posof dahil tüm ilçelere kargo ile gönderim yapıyoruz.",
+    seoTitle: "Ardahan Plise Perde - Çift Petekli Honeycomb ve Kargo Gönderimi",
+    seoDescription: "Ardahan'ın 6 ilçesi için Pendik İstanbul üretim plise perde. 1900 metre rakımda eksi 40 derece kışa karşı çift petekli honeycomb hücreli ısı yalıtımlı modeller ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Ardahan'ın Sert Kış İkliminde Perde",
+        h2: "Ardahan'ın Dondurucu Kışlarında Pencere Yalıtımı",
         paragraphs: [
-          "Ardahan, Türkiye'nin en soğuk ilidir. 1900 metre rakımda, kışları -45°C'ye varan soğuklar ve 7 ay süren kar yağışı görülür. Bu aşırı soğukta pencere, ısı kaybının en büyük kaynaklarından biridir. Ardahan konutlarında <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Çift petek yapısı, pencereden gelen dondurucu havayı iki katmanlı filtreler.",
-          "Ardahan merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Çıldır Gölü çevresindeki balık restoranları ve pansiyonlarda, göl manzaralı pencereler için katlanır sistem uyguluyoruz. Posof'un Gürcistan sınır bölgesi konutlarında, sert iklim nedeniyle karartma + honeycomb kombinasyonu öneriyoruz. Göle ve Hanak'ın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Ardahan, Türkiye'nin en düşük sıcaklık ortalamasına sahip ilidir. Yüzölçümünün büyük bölümü bin dokuz yüz metrenin üzerinde yer alır ve kar örtüsü yedi ay boyunca erimeden kalır. Termometre eksi kırk beş dereceye kadar düşer; bu değerlerde cam yüzeyleri adeta bir soğuk radyatör gibi çalışır ve iç mekân sıcaklığını hızla sömürür. Pendik İstanbul'daki üretim hattımızda, bu ekstrem koşullar için <strong>çift petekli honeycomb hücreli plise perde</strong> dokuyoruz. İç içe geçen iki hücre katmanı, cam ile oda arasına bir hava yastığı örer ve dondurucu rüzgârın içeri sızmmasını engeller.",
+          "Çıldır Gölü kıyısındaki balıkçı lokantaları ve pansiyonlarda, buz tutan manzaraya bakan geniş pencereler için katlanır sistem tercih ediyoruz; böylece yaz aylarında göl manzarasını tamamen açmak mümkün olur. Posof'un Gürcistan sınırındaki konutlarında karartma ve honeycomb katmanını birleştiren <em>melez model</em> öneriyoruz: gündüz ışığı süzer, gece ise soğuğu tamamen keser. Göle ve Hanak ovalarındaki süt çiftliklerinde, ahşap doğramalı geniş pencereler için ölçüye özel üretim yapıyoruz. Damal'ın yüksek yamaçlarındaki evlerde ise rüzgâr geçirmez kumaş kaplaması seçiyoruz.",
         ],
       },
       {
-        h2: "Ardahan'ın 6 İlçesinde Sert Kış Bölgesi Kargo Planı",
-        paragraphs: ["Ardahan'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Türkiye'nin en soğuk ili olduğundan çift petekli honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Ardahan İlçelerine Uzaktan Keşif ve Kargo Sevkiyatı",
+        paragraphs: ["Ardahan'ın altı ilçesinin tamamına <strong>video keşif yöntemiyle</strong> hizmet götürüyoruz. Pendik İstanbul'dan kalkan kargo aracı, Çıldır, Damal, Göle, Hanak, Posof ve merkez ilçeye iki ilç üç iş günü içinde ulaşır. WhatsApp üzerinden çektiğiniz pencere fotoğraflarını inceleyip milimetre hassasiyetinde ölçü alıyor, üretimi tamamladıktan sonra kapınıza kadar gönderiyoruz. Eksi derecelerde kumaşın esnemesini önlemek için sevkiyat öncesi ısı yalıtımlı paketleme uyguluyoruz."],
       },
     ],
     faqItems: [
-      { question: "Ardahan'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Ardahan'ın 6 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Ardahan kışın -45°C, hangi perde önerirsiniz?", answer: "Ardahan'ın 1900 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. Çift petek yapısı, pencereden gelen dondurucu havayı iki katmanlı filtreler, ısıtma giderlerini yüzde 30'a kadar düşürür." },
+      { question: "Ardahan'a kargo ile gönderilen perde kaç günde elime ulaşır?", answer: "Pendik İstanbul'dan çıkan kargo, Ardahan merkez ve ilçelerine genellikle iki ilç üç iş günü içinde teslim edilir. Kış döneminde kar nedeniyle yollar kapansa bile kargo firması depoda bekletir, yol açılınca sevkiyatı tamamlar." },
+      { question: "Çift petekli honeycomb perde nedir, Ardahan'da neden gereklidir?", answer: "Çift petekli honeycomb, iç içe geçmiş iki altıgen hücre katmanından oluşan bir kumaş yapısıdır. İki katman arasındaki hava boşluğu, camdan gelen dondurucu soğuğu oda içine ulaşmadan kırar. Ardahan'ın eksi kırk derecelik kışında tek petek yeterli olmaz; çift petek ısı kaybını yüzde otuza kadar azaltır." },
     ],
   },
   {
@@ -1850,25 +1863,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Bulanık", "Hasköy", "Korkut", "Malazgirt", "Muş merkez", "Varto"],
-    intro: "Muş'un 6 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1400 metre rakımdaki ova şehrinde, <strong>kış soğuklarına ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. Muş merkez ve Malazgirt konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Muş Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Muş'un 6 ilçesinde plise perde: Malazgirt, Bulanık, Varto video keşif ve kargo. 1400 metre ova iklimi için gece-gündüz modelleri.",
+    intro: "Muş'un altı ilçesi için Pendik İstanbul merkezli üretim tesisimizde plise perde hazırlıyoruz. Bin dört yüz metre rakımdaki bu geniş ova şehrinde kışın eksi yirmi beş, yazın artı otuz beş dereceye varan sıcaklık oynamaları yaşanır; bu nedenle <strong>gece-gündüz çift katmanlı modelleri</strong> tavsiye ediyoruz. Bulanık, Malazgirt ve Varto dahil tüm ilçelere video keşif ve kargo sevkiyatı düzenliyoruz.",
+    seoTitle: "Muş Plise Perde - Gece Gündüz Katmanlı ve Kargo Gönderimi",
+    seoDescription: "Muş'un 6 ilçesi için Pendik İstanbul üretim plise perde. 1400 metre ova ikliminde eksi 25 artı 35 derece sıcaklık farkına karşı gece-gündüz çift katmanlı modeller ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Muş'un Geniş Ovasında Perde",
+        h2: "Muş Ovasının Aşırı Sıcaklık Farklarına Karşı Perde Çözümleri",
         paragraphs: [
-          "Muş, Doğu Anadolu'nun en geniş ovalarından birine sahiptir. 1400 metre rakımda, kışları -25°C soğuklar, yazları +35°C sıcaklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz — gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller.",
-          "Muş merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Malazgirt'teki 1071 Malazgirt Savaşı anıtı çevresindeki turizm tesislerinde katlanır sistem uyguluyoruz. Bulanık ve Hasköy'ün tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem öneriyoruz. Varto'nun dağlık kesiminde honeycomb modeli öneriyoruz.",
+          "Muş, Doğu Anadolu'nun en geniş düzlüklerinden birine yayılır. Bin dört yüz metrelik ortalama yükseklik, kışın sert bir karasal soğuk, yazın ise kavurucu bir güneş getirir. Gündüz ile gece arasaki fark otuz dereceyi bulur ve pencere camları bu salınımdan doğrudan etkilenir. Pendik İstanbul atölyemizde, bu iklim çelişkisi için <strong>gece-gündüz plise perde sistemini</strong> üretiyoruz: güneşli saatlerde ışık süzücü katman ısınmayı frenler, karanlıkta karartma katmanı soğuk hava akımını keser.",
+          "Malazgirt'teki 1071 zafer anıtı çevresindeki turizm işletmelerinde, geniş vitrin pencereleri için katlanır mekanizmalı modeller tercih ediyoruz. Bulanık ve Hasköy tarım alanlarındaki süt ve hayvancılık çiftliklerinde, ahşap doğramalı geniş pencerelere ölçüye özel üretim yapıyoruz. Varto'nun Munzur eteklerindeki dağ yamaçlarında konutlar daha sert rüzgâra maruz kalır; burada honeycomb hücreli kumaş öneriyoruz. Korkut'un küçük yerleşimlerinde ise standart ölçülere hızlı üretim uyguluyoruz.",
         ],
       },
       {
-        h2: "Muş'un 6 İlçesinde Geniş Ova Teslimat Ağı",
-        paragraphs: ["Muş'un tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Ova iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Muş'un Altı İlçesine Online Ölçü ve Kargo Dağıtımı",
+        paragraphs: ["Muş'un tüm ilçelerine <strong>video keşif yöntemiyle</strong> ölçü alıp, Pendik İstanbul'daki üretim hattımızda perdeyi hazırlıyor ve kargo ile gönderiyoruz. Bulanık, Hasköy, Korkut, Malazgirt, Muş merkez ve Varto adreslerine iki iş günü içinde teslimat sağlıyoruz. WhatsApp üzerinden çektiğiniz fotoğraflardan milimetre hassasiyetinde ölçü çıkarıyor, kışın yolu kapansa bile kargo firmasının depo bekletme hizmetiyle sevkiyatı güvence altına alıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Muş'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Muş'un 6 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Muş kışın soğuk yazın sıcak, hangi perde önerirsiniz?", answer: "Muş'un ova ikliminde gece-gündüz plise perde öneriyoruz. Gündüz katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller." },
+      { question: "Muş ovasında gece-gündüz perde nasıl çalışır, iki katman ne işe yarar?", answer: "Gece-gündüz modelinde iki ayrı kumaş katmanı üst üste çalışır. Gündüz katmanı güneş ışığını süzerek ovanın kavurucu sıcaklığını kırar; gece katmanı ise karartma özelliğiyle ova soğuğunun camdan içeri sızmasını engeller. Tek kumaşta bu iki işlevi birleştiren sistem, Muş'un otuz derecelik gece-gündüz farkına ideal uyum sağlar." },
+      { question: "Malazgirt'te turizm tesisleri için toplu perde üretimi yapıyor musunuz?", answer: "Evet, Malazgirt'teki 1071 anıtı çevresindeki pansiyon ve oteller için Pendik İstanbul atölyemizde toplu üretim yapıyoruz. Geniş vitrin pencerelerine katlanır mekanizmalı plise perde uyguluyor, yangın dayanımlı B1 sınıfı kumaş seçeneği sunuyoruz." },
     ],
   },
   {
@@ -1877,25 +1890,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Adilcevaz", "Ahlat", "Bitlis merkez", "Güroymak", "Hizan", "Mutki", "Tatvan"],
-    intro: "Bitlis'in 7 ilçesinde plise perde hizmeti sunuyoruz. Doğu Anadolu'nun 1700 metre rakımdaki tarihi şehrinde, <strong>kış soğuklarına karşı honeycomb modellerini</strong> öneriyoruz. Tatvan ve Ahlat konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Bitlis Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Bitlis'in 7 ilçesinde plise perde: Tatvan, Ahlat, Adilcevaz video keşif ve kargo. 1700 metre rakımda Van Gölü çevresi için honeycomb modelleri.",
+    intro: "Bitlis'in yedi ilçesi için Pendik İstanbul'daki üretim atölyemizde plise perde dokuyoruz. Van Gölü'nün batı yakasında, bin yedi yüz metre rakımda kurulu bu tarihi kervan şehrinde kışın eksi yirmi beş dereceye inen soğuklar hüküm sürer; bu yüzden <strong>honeycomb hücreli ısı yalıtımlı kumaş yapılarını</strong> tercih ediyoruz. Tatvan, Ahlat ve Adilcevaz başta olmak üzere tüm ilçelere video keşif ve kargo sevkiyatı sağlıyoruz.",
+    seoTitle: "Bitlis Plise Perde - Honeycomb Hücreli ve Van Gölü Çevresi Kargo",
+    seoDescription: "Bitlis'in 7 ilçesi için Pendik İstanbul üretim plise perde. 1700 metre rakımda Van Gölü batı kıyısında honeycomb hücreli ısı yalıtımlı modeller ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Bitlis'in Van Gölü Çevresinde Perde",
+        h2: "Bitlis'in Tarihi Kervan Yolunda Göl Kıyısı Perde Uygulamaları",
         paragraphs: [
-          "Bitlis, Van Gölü'nün batı kıyısında, 1700 metre rakımda yer alır. Kışları -25°C'ye varan soğuklar görülür. Bu nedenle Bitlis konutlarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Tatvan'daki Van Gölü iskelesi çevresindeki konutlarda, göl manzaralı pencereler için katlanır sistem uyguluyoruz.",
-          "Bitlis merkezdeki tarihi kervan yolu evlerinin pencerelerine özel ölçü üretim yapıyoruz. Ahlat'taki Selçuklu mezar taşları bölgesindeki pansiyonlarda karartma modeli öneriyoruz. Adilcevaz'ın Kef Kalesi çevresindeki tarihi binalarda özel ölçü üretim yapıyoruz. Hizan ve Mutki'nin dağlık kesimlerindeki köy evlerinde honeycomb modeli öneriyoruz.",
+          "Bitlis, İpek Yolu'nun önemli duraklarından biridir. Şehir merkezi, dar vadiler arasına sıkışmış tarihi kervan evleri ve taş mimarisiyle ünlüdür. Bin yedi yüz metrelik rakım, kış aylarında eksi yirmi beş dereceye varan soğuk getirir. Pendik İstanbul'daki üretim hattımızda, bu soğuk iklim için <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> hazırlıyoruz. Altıgen petek yapısı, cam ile oda arasına bir hava tamponu oluşturur ve soğuk hava sirkülasyonunu keser.",
+          "Tatvan'daki Van Gölü iskelesine yakın konutlarda, sabah güneşini göl yüzeyinden yansıtan pencereler için güneşlik kumaşlı katlanır sistem uyguluyoruz. Ahlat'taki Selçuklu mezar taşları müze bölgesindeki pansiyonlarda, turist konaklaması için karartma modeli öneriyoruz. Adilcevaz'ın Kef Kalesi yamacındaki tarihi taş evlerde, eski doğrama ölçülerine özel üretim yapıyoruz. Hizan ve Mutki'nin dağ yamaçlarındaki köylerinde, rüzgâr baskısına dayanıklı honeycomb kumaşı tercih ediyoruz. Güroymak ovasındaki tarım işletmelerinde ise geniş vitrinler için katlanır mekanizma kuruyoruz.",
         ],
       },
       {
-        h2: "Bitlis'in 7 İlçesinde Van Gölü Çevresi Gönderimi",
-        paragraphs: ["Bitlis'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Bitlis Yedi İlçesine Göl Çevresi Kargo Hattı",
+        paragraphs: ["Bitlis'in tüm ilçelerine <strong>video keşif yöntemiyle</strong> ölçü alıp, Pendik İstanbul'da üretimini tamamladığımız perdeleri kargo ile gönderiyoruz. Adilcevaz, Ahlat, Bitlis merkez, Güroymak, Hizan, Mutki ve Tatvan adreslerine iki ilç üç iş günü içinde teslimat sağlıyoruz. WhatsApp üzerinden çektiğiniz pencere fotoğraflarından milimetre hassasiyetinde ölçü çıkarıyor, tarihi taş doğramalar için özel montaj kılavuzu hazırlıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Bitlis'te video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Bitlis'in 7 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Bitlis kışın çok soğuk, hangi perde önerirsiniz?", answer: "Bitlis'in 1700 metre rakımında honeycomb hücreli ısı yalıtımlı plise perde öneriyoruz. Petek yapısı pencereden gelen soğuk havayı filtreler, ısıtma giderlerini düşürür." },
+      { question: "Tatvan'da Van Gölü manzaralı pencere için hangi perde tipi önerilir?", answer: "Tatvan'da göl yüzeyinden yansıyan sabah güneşi gözü yorar; bu nedenle güneşlik kumaşlı katlanır plise perde öneriyoruz. Işığı yüzde yetmiş süzer, manzarayı kapatmadan parıltıyı kırar. Akşam üzeri katlanarak tamamen açılır ve göl manzarasını serbest bırakır." },
+      { question: "Bitlis'in tarihi taş evlerinde özel ölçü perde üretiliyor mu?", answer: "Evet, Bitlis merkez ve Adilcevaz'daki tarihi kervan yolu evlerinin eski doğramalarına özel ölçü üretim yapıyoruz. WhatsApp üzerinden çektiğiniz fotoğraflardan doğrama ölçülerini çıkarıyor, Pendik İstanbul atölyemizde milimetre hassasiyetinde kesim uyguluyoruz." },
     ],
   },
   {
@@ -1904,25 +1917,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Adaklı", "Bingöl merkez", "Genç", "Karlıova", "Kiğı", "Solhan", "Yayladere", "Yedisu"],
-    intro: "Bingöl'ün 8 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1150 metre rakımdaki dağlık şehrinde, <strong>kış soğuklarına uygun honeycomb modellerini</strong> öneriyoruz. Bingöl merkez ve Solhan konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Bingöl Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Bingöl'ün 8 ilçesinde plise perde: Solhan, Genç, Karlıova video keşif ve kargo. 1150 metre dağlık iklim için honeycomb modelleri.",
+    intro: "Bingöl'ün sekiz ilçesi için Pendik İstanbul'daki üretim tesisimizde plise perde hazırlıyoruz. Adını bölgedeki sayısız krater gölünden alan bu dağlık şehir, bin yüz elli metre ortalama rakıma sahiptir; kışın kar yağışı bol, yazın ise yayla serinliği egemendir. Bu nedenle <strong>honeycomb hücreli ısı yalıtımlı kumaş yapılarını</strong> tavsiye ediyoruz. Solhan, Genç ve Karlıova dahil tüm ilçelere video keşif ve kargo sevkiyatı düzenliyoruz.",
+    seoTitle: "Bingöl Plise Perde - Honeycomb Hücreli ve Dağlık Bölge Kargo",
+    seoDescription: "Bingöl'ün 8 ilçesi için Pendik İstanbul üretim plise perde. 1150 metre dağlık yayla ikliminde honeycomb hücreli ısı yalıtımlı modeller ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Bingöl'ün Dağlık İkliminde Perde",
+        h2: "Bingöl'ün Bin Göl Bölgesinde Yayla İklimine Uygun Perde",
         paragraphs: [
-          "Bingöl, adını bölgedeki binlerce gölden (bin göl) alır. 1150 metre rakımda, dağlık bir topografyaya sahiptir. Kışları soğuk ve karlı geçer. Bingöl merkez konutlarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Dağlık kesimlerdeki yayla evlerinde ise çift petekli honeycomb modeli öneriyoruz.",
-          "Bingöl merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Solhan ve Genç'in tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Karlıova ve Kiğı'nın yüksek rakımlı kesimlerinde honeycomb modeli öneriyoruz. Yayladere ve Yedisu'nun küçük ilçelerinde standart ölçülere hızlı üretim yapıyoruz.",
+          "Bingöl ismini, bölgede dağ yamaçlarına dağılmış binlerce küçük gölden alır. Yüzölçümünün büyük bölümü bin yüz elli metrenin üzerinde yer alır ve dağ sıraları şehri kuşatır. Kışın kar kalınlığı uzun süre korunur, yazın ise yayla iklimi gece sıcaklığını düşürür. Bu zıtlık, pencere camlarında yoğuşma ve ısıl gerilim yaratır. Pendik İstanbul atölyemizde, bu koşullar için <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> üretiyoruz. Altıgen petek gözenekleri, cam ile oda arasında bir hava tabakası hapsederek sıcaklık salınımını dengeler.",
+          "Bingöl merkez apartmanlarında standart pencere ölçülerine hızlı üretim yapıyoruz. Solhan ve Genç ovalarındaki tarım çiftliklerinde, geniş ahşap doğramalar için katlanır mekanizmalı sistem kuruyoruz. Karlıova ve Kiğı'nın yüksek rakımlı yayla köylerinde, şiddetli kış soğuğuna karşı çift petekli honeycomb öneriyoruz. Yayladere ve Yedisu'nun dar vadi yerleşimlerinde, küçük pencere ölçülerine özel üretim uyguluyoruz. Adaklı'nın dağ yamacındaki evlerinde ise rüzgâr geçirmez kumaş kaplaması seçiyoruz.",
         ],
       },
       {
-        h2: "Bingöl'ün 8 İlçesinde Dağlık İklim Kargo Çözümü",
-        paragraphs: ["Bingöl'ün tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Dağlık iklim bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Bingöl Sekiz İlçesine Dağ Bölgesi Kargo Ağı",
+        paragraphs: ["Bingöl'ün tüm ilçelerine <strong>video keşif yöntemiyle</strong> ölçü alıp, Pendik İstanbul'da üretimini tamamladığımız perdeleri kargo ile gönderiyoruz. Adaklı, Bingöl merkez, Genç, Karlıova, Kiğı, Solhan, Yayladere ve Yedisu adreslerine iki ilç üç iş günü içinde teslimat sağlıyoruz. Dağ yollarının kışın kapanma ihtimaline karşı kargo firmasının depo bekletme hizmetini kullanıyor, yol açıldığında sevkiyatı tamamlıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Bingöl'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Bingöl'ün 8 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Bingöl kışın soğuk, hangi perde önerirsiniz?", answer: "Bingöl'ün 1150 metre rakımında honeycomb hücreli plise perde öneriyoruz. Petek yapısı pencereden gelen soğuk havayı filtreler, ısıtma giderlerini düşürür." },
+      { question: "Bingöl yayla evlerinde hangi perde tipi kullanılmalı, honeycomb neden önerilir?", answer: "Bingöl'ün yayla ikliminde gece sıcaklığı aniden düşer ve camlarda yoğuşma oluşur. Honeycomb hücreli plise perde, altıgen petek gözenekleri arasında hava tabakası hapsederek bu sıcaklık salınımını dengeler. Yayla evlerinde tek petek yeterli olabilir; yüksek rakımlı Karlıova ve Kiğı köylerinde çift petekli model öneriyoruz." },
+      { question: "Kiğı ve Karlıova'ya kışın perde kargosu ulaşır mı?", answer: "Evet, Kiğı ve Karlıova'ya kargo sevkiyatı yapıyoruz. Kışın dağ yolları kapanırsa kargo firması paketi depoda bekletir, yol açıldığında teslimatı tamamlar. WhatsApp üzerinden sevkiyat durumunu takip edebilirsiniz." },
     ],
   },
   {
@@ -1931,25 +1944,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Çemişgezek", "Hozat", "Mazgirt", "Nazmiye", "Ovacık", "Pertek", "Pülümür", "Tunceli merkez"],
-    intro: "Tunceli'nin 8 ilçesinde plise perde hizmeti sunuyoruz. Doğu Anadolu'nun dağlık ve ormanlık şehrinde, <strong>kış soğuklarına uygun honeycomb modellerini</strong> öneriyoruz. Tunceli merkez ve Pertek konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Tunceli Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Tunceli'nin 8 ilçesinde plise perde: Pertek, Ovacık, Hozat video keşif ve kargo. Munzur Dağları iklimi için honeycomb modelleri.",
+    intro: "Tunceli'nin sekiz ilçesi için Pendik İstanbul'daki üretim hattımızda plise perde hazırlıyoruz. Munzur Dağları'nın eteklerine serilen bu ormanlık ve vadili şehirde, mikro iklim kuşakları birbirinden farklı sıcaklık ve nem değerleri yaratır. Bu çeşitliliğe karşı <strong>orman nemine dayanıklı honeycomb hücreli kumaş yapılarını</strong> öneriyoruz. Pertek, Ovacık ve Hozat dahil tüm ilçelere video keşif ve kargo sevkiyatı düzenliyoruz.",
+    seoTitle: "Tunceli Plise Perde - Orman Nemi Dayanımlı ve Munzur Vadisi Kargo",
+    seoDescription: "Tunceli'nin 8 ilçesi için Pendik İstanbul üretim plise perde. Munzur Dağları vadisinde orman nemine dayanıklı honeycomb hücreli modeller ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Tunceli'nin Munzur Vadisinde Perde",
+        h2: "Tunceli'nin Munzur Vadisinde Orman Nemine Dayanıklı Perde Sistemleri",
         paragraphs: [
-          "Tunceli, Munzur Dağları ve Munzur Vadisi Milli Parkı ile ünlüdür. Bölgenin dağlık ve ormanlık yapısı, mikro iklimler oluşturur. Tunceli merkez konutlarında <strong>honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz. Munzur Vadisi çevresindeki doğa evlerinde, orman nemine dayanıklı kumaş kullanıyoruz.",
-          "Pertek'in Keban Baraj Gölü kıyısındaki konutlarında, göl manzaralı pencereler için katlanır sistem uyguluyoruz. Ovacık'ın yüksek rakımlı ovasında çift petekli honeycomb öneriyoruz. Çemişgezek'in tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Hozat ve Mazgirt'in dağlık kesimlerinde honeycomb modeli öneriyoruz.",
+          "Tunceli, Munzur Dağları ve Munzur Vadisi Milli Parkı ile çevrili bir şehirdir. Yoğun orman örtüsü, vadiler boyunca yüksek nem oranları üretir; bu değer kışın yüzde seksene ulaşır. Yüksek nem, standart kumaşlarda küflenme ve deformasyona yol açar. Pendik İstanbul atölyemizde, bu koşullar için <strong>anti-bakteriyel kaplamalı honeycomb hücreli plise perde</strong> üretiyoruz. Kumaş gözenekleri arasında hapsolmuş hava tabakası, hem ısıl yalıtım sağlar hem de nem sirkülasyonunu dengeler.",
+          "Pertek'in Keban Baraj Gölü kıyısındaki konutlarında, su yüzeyinden yansıyan ışık için güneşlik kumaşlı katlanır sistem uyguluyoruz. Ovacık'ın yüksek rakımlı düzlüğünde çift petekli honeycomb öneriyoruz; burada kış sıcaklığı vadi tabanından daha düşüktür. Çemişgezek'in meyve bahçeleri arasındaki çiftlik evlerinde, geniş pencereler için katlanır mekanizma kuruyoruz. Hozat ve Mazgirt'in dağ yamaçlarındaki köylerinde honeycomb modelini tercih ediyoruz. Pülümür vadisinin dar sokaklarındaki evlerinde ise küçük pencere ölçülerine özel üretim yapıyoruz. Nazmiye'nin orman içi yerleşimlerinde anti-bakteriyel kumaş kaplaması seçiyoruz.",
         ],
       },
       {
-        h2: "Tunceli'nin 8 İlçesinde Munzur Vadisi Teslimat Rotası",
-        paragraphs: ["Tunceli'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Dağlık iklim bölgesi olduğundan honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Tunceli Sekiz İlçesine Vadi Bölgesi Teslimat Hattı",
+        paragraphs: ["Tunceli'nin tüm ilçelerine <strong>video keşif yöntemiyle</strong> ölçü alıp, Pendik İstanbul'da üretimini tamamladığımız perdeleri kargo ile gönderiyoruz. Çemişgezek, Hozat, Mazgirt, Nazmiye, Ovacık, Pertek, Pülümür ve Tunceli merkez adreslerine iki ilç üç iş günü içinde teslimat sağlıyoruz. Vadi yollarının dar ve virajlı olması nedeniyle kargo firması küçük araçlarla sevkiyat yapıyor; WhatsApp üzerinden sevkiyat durumunu anlık takip edebilirsiniz."],
       },
     ],
     faqItems: [
-      { question: "Tunceli'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Tunceli'nin 8 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Tunceli Munzur Vadisi çevresinde perde yapılır mı?", answer: "Evet, Munzur Vadisi çevresindeki doğa evleri için orman nemine dayanıklı kumaş kullanıyoruz. Yüksek rakımda honeycomb modeli de öneriyoruz." },
+      { question: "Munzur Vadisi milli parkındaki doğa evlerine perde yapılıyor mu, orman nemi kumaşı bozar mı?", answer: "Evet, Munzur Vadisi çevresindeki doğa evlerine perde üretiyoruz. Orman nemi standart kumaşlarda küflenmeye yol açar; bu nedenle anti-bakteriyel kaplamalı honeycomb kumaş tercih ediyoruz. Kumaş gözenekleri arasındaki hava tabakası nem sirkülasyonunu dengeler ve küf oluşumunu engeller." },
+      { question: "Tunceli'de Pertek ve Ovacık arasındaki sıcaklık farkı perde seçimini nasıl etkiler?", answer: "Pertek, Keban Baraj Gölü kıyısında daha ılımandır; burada güneşlik kumaşlı katlanır sistem yeterlidir. Ovacık ise yüksek rakımlı düzlüktedir ve kış sıcaklığı daha düşüktür; bu yüzden çift petekli honeycomb öneriyoruz. İki ilçe arasındaki sıcaklık farkı, perde kumaş yapısını doğrudan belirler." },
     ],
   },
   {
@@ -1958,25 +1971,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Ağın", "Alacakaya", "Arıcak", "Baskil", "Elazığ merkez", "Karakoçan", "Keban", "Kovancılar", "Maden", "Palu", "Sivrice"],
-    intro: "Elazığ'ın 11 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1067 metre rakımdaki sanayi şehrinde, <strong>kış soğuklarına ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. Elazığ merkez ve Kovancılar konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Elazığ Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Elazığ'ın 11 ilçesinde plise perde: Kovancılar, Baskil, Sivrice video keşif ve kargo. Sanayi bölgesi ve Keban Baraj Gölü için çözümler.",
+    intro: "Elazığ'ın on bir ilçesi için Pendik İstanbul'daki üretim tesisimizde plise perde hazırlıyoruz. Bin altmış yedi metre rakımdaki bu sanayi ve üniversite şehrinde, karasal iklim kışın soğuk yazın sıcak getirir; bu yüzden <strong>gece-gündüz çift katmanlı modelleri</strong> tavsiye ediyoruz. Organize sanayi bölgesindeki fabrikalar için yangın dayanımlı B1 sınıfı kumaştan toplu üretim yapıyoruz. Kovancılar, Baskil ve Sivrice dahil tüm ilçelere video keşif ve kargo sevkiyatı düzenliyoruz.",
+    seoTitle: "Elazığ Plise Perde - Yangın Dayanımlı B1 ve Sanayi Bölgesi Kargo",
+    seoDescription: "Elazığ'ın 11 ilçesi için Pendik İstanbul üretim plise perde. 1067 metre karasal iklimde gece-gündüz modelleri, organize sanayi için yangın dayanımlı B1 kumaş ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Elazığ'ın Sanayi ve Baraj Gölü Çevresinde Perde",
+        h2: "Elazığ'ın Sanayi Bölgesinde Yangın Dayanımlı Toplu Perde Projeleri",
         paragraphs: [
-          "Elazığ, Doğu Anadolu'nun en gelişmiş sanayi şehirlerinden biridir. Organize sanayi bölgesindeki fabrika ve işçi lojmanları için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu perde çözümleri sunuyoruz. Elazığ merkez konutlarında karasal iklim nedeniyle gece-gündüz modeli öneriyoruz.",
-          "Keban Baraj Gölü kıyısındaki Sivrice ve Keban ilçelerinde, göl manzaralı pencereler için katlanır sistem uyguluyoruz. Baskil ve Arıcak'ın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem öneriyoruz. Karakoçan ve Maden'in dağlık kesimlerinde honeycomb modeli öneriyoruz. Harput tarihi mahallesinin evlerinin pencerelerine özel ölçü üretim yapıyoruz.",
+          "Elazığ, Doğu Anadolu'nun en güçlü sanayi altyapısına sahip illerinden biridir. Organize sanayi bölgesindeki fabrika binaları, işçi lojmanları ve idari ofisler, toplu perde ihtiyacının yoğunlaştığı alanlardır. Pendik İstanbul atölyemizde, bu yapılarda <strong>yangın dayanımlı B1 sınıfı kumaştan plise perde</strong> üretiyoruz. B1 kumaş, alev yayılımını geciktiren kimyasal kaplamaya sahiptir ve endüstriyel tesislerde güvenlik yönetmeliklerine uygunluk sağlar. Şehir merkezindeki apartman dairelerinde ise karasal iklimin sıcaklık oynamalarına karşı gece-gündüz modelini tercih ediyoruz.",
+          "Sivrice ve Keban'ın Keban Baraj Gölü kıyısındaki konutlarında, su yüzeyinden yansıyan ışık için güneşlik kumaşlı katlanır sistem uyguluyoruz. Baskil ve Arıcak'ın meyve bahçeleri arasındaki çiftlik evlerinde, geniş ahşap doğramalar için ölçüye özel üretim yapıyoruz. Karakoçan ve Maden'in dağlık kesimlerinde honeycomb hücreli model öneriyoruz. Harput tarihi mahallesinin taş evlerinde, eski doğrama ölçülerine özel üretim uyguluyoruz. Palu'nun vadideki konutlarında ise karartma katmanı ekliyoruz.",
         ],
       },
       {
-        h2: "Elazığ'ın 11 İlçesinde Baraj Gölü Çevresi Gönderimi",
-        paragraphs: ["Elazığ'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal iklim bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Elazığ On Bir İlçesine Baraj Gölü Çevresi Gönderim Düzeni",
+        paragraphs: ["Elazığ'ın tüm ilçelerine <strong>video keşif yöntemiyle</strong> ölçü alıp, Pendik İstanbul'da üretimini tamamladığımız perdeleri kargo ile gönderiyoruz. Ağın, Alacakaya, Arıcak, Baskil, Elazığ merkez, Karakoçan, Keban, Kovancılar, Maden, Palu ve Sivrice adreslerine iki iş günü içinde teslimat sağlıyoruz. Organize sanayi bölgesindeki fabrikalara toplu sevkiyat için özel kargo planlaması yapıyor, lojman blokları için montaj ekibi yönlendiriyoruz."],
       },
     ],
     faqItems: [
-      { question: "Elazığ'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Elazığ'ın 11 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Elazığ sanayi bölgesi için toplu perde yaptırabilir miyim?", answer: "Evet, Elazığ organize sanayi bölgesindeki fabrika ve işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz." },
+      { question: "Elazığ organize sanayide fabrikalar için yangın dayanımlı perde üretiyor musunuz?", answer: "Evet, Elazığ organize sanayi bölgesindeki fabrika, depo ve işçi lojmanları için yangın dayanımlı B1 sınıfı kumaştan plise perde üretiyoruz. B1 kumaş, alev yayılımını geciktiren kimyasal kaplamaya sahiptir ve endüstriyel tesis güvenlik yönetmeliklerine uygundur. Toplu siparişlerde özel fiyatlandırma uyguluyoruz." },
+      { question: "Harput'un tarihi taş evlerine özel ölçü perde mümkün mü, eski doğramaya uyum sağlar mı?", answer: "Evet, Harput tarihi mahallesinin taş evlerindeki eski doğramalar için özel ölçü üretim yapıyoruz. WhatsApp üzerinden çektiğiniz fotoğraflardan doğrama ölçülerini çıkarıyor, Pendik İstanbul atölyemizde milimetre hassasiyetinde kesim uyguluyoruz. Eski ahşap doğramaya zarar vermeyecek montaj profili seçiyoruz." },
     ],
   },
   {
@@ -1985,25 +1998,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Akçadağ", "Arapgir", "Arguvan", "Battalgazi", "Darende", "Doğanşehir", "Doğanyol", "Hekimhan", "Kale", "Kuluncak", "Pütürge", "Yazıhan", "Yeşilyurt"],
-    intro: "Malatya'nın 13 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin kayısı başkentinde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Battalgazi ve Yeşilyurt merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Malatya Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Malatya'nın 13 ilçesinde plise perde: Battalgazi, Yeşilyurt, Hekimhan video keşif ve kargo. Sıcak-karışık iklim ve kayısı çiftlikleri için çözümler.",
+    intro: "Malatya'nın on üç ilçesi için Pendik İstanbul'daki üretim atölyemizde plise perde dokuyoruz. Dünyanın kayısı başkenti olarak bilinen bu şehirde yazın artı kırk dereceye varan sıcaklar, kışın ise eksi on beş dereceye inen soğuklar yaşanır; bu uç farklar için <strong>gece-gündüz çift katmanlı modelleri</strong> öneriyoruz. Hekimhan demir madeni bölgesindeki işçi lojmanları için yangın dayanımlı B1 kumaştan toplu üretim yapıyoruz. Battalgazi, Yeşilyurt ve Pütürge dahil tüm ilçelere video keşif ve kargo sevkiyatı düzenliyoruz.",
+    seoTitle: "Malatya Plise Perde - Kayısı Şehri Gece Gündüz ve Maden Lojmanı Kargo",
+    seoDescription: "Malatya'nın 13 ilçesi için Pendik İstanbul üretim plise perde. Artı 40 eksi 15 derece iklim farkına karşı gece-gündüz modelleri, Hekimhan maden lojmanları için B1 kumaş ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Malatya'nın Kayısı Şehrinde Perde",
+        h2: "Malatya'nın Kayısı Bahçeleri Arasında Sıcak İklim Perde Tercihleri",
         paragraphs: [
-          "Malatya, dünyanın kayısı üretim merkezidir. Yazları +40°C'ye varan sıcaklar, kışları -15°C'ye varan soğuklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz — gündüz güneşlik katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller.",
-          "Battalgazi ve Yeşilyurt merkez ilçelerindeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Aslantepe höyüğü çevresindeki tarihi bölge evlerinin pencerelerine özel ölçü üretim yapıyoruz. Hekimhan'ın demir madeni bölgesindeki işçi lojmanları için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz. Pütürge ve Doğanşehir'in kayısı bahçelerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Malatya, kayısı üretiminin dünya merkezidir. Yaz aylarında termometre artı kırk dereceye tırmanır ve güneş ışını yoğunluğu zirveye çıkar. Kışın ise eksi on beş dereceye inen soğuk, karasal iklimin sertliğini hatırlatır. Bu zıtlık, pencere camlarını hem ısınma hem soğuma kaynağına dönüştürür. Pendik İstanbul'daki üretim hattımızda, bu iklim çelişkisi için <strong>gece-gündüz plise perde sistemini</strong> hazırlıyoruz. Gündüz katmanı, kayısı bahçelerinden yansıyan güneşi süzerek iç mekân sıcaklığını kırar; gece karartma katmanı, kış soğuğunun camdan içeri sızmasını engeller.",
+          "Battalgazi ve Yeşilyurt merkez ilçelerindeki apartman dairelerinde standart pencere ölçülerine hızlı üretim yapıyoruz. Aslantepe höyüğü çevresindeki arkeolojik sit alanına yakın evlerin pencerelerine özel ölçü üretim uyguluyoruz. Hekimhan'ın demir madeni bölgesindeki işçi lojmanları için yangın dayanımlı B1 sınıfı kumaştan toplu perde üretiyoruz. Pütürge ve Doğanşehir'in kayısı bahçeleri arasındaki çiftlik evlerinde, geniş veranda pencereleri için katlanır mekanizmalı sistem kuruyoruz. Darende ve Akçadağ'ın vadi yerleşimlerinde honeycomb modelini tercih ediyoruz. Arapgir ve Yazıhan'ın küçük ilçelerinde ise standart ölçülere hızlı üretim yapıyoruz.",
         ],
       },
       {
-        h2: "Malatya'nın 14 İlçesinde Kayısı Şehri Teslimat Ağı",
-        paragraphs: ["Malatya'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal-sıcak geçiş iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Malatya'nın İlçelerine Kayısı Şehri Kargo Sevkiyatı",
+        paragraphs: ["Malatya'nın tüm ilçelerine <strong>video keşif yöntemiyle</strong> ölçü alıp, Pendik İstanbul'da üretimini tamamladığımız perdeleri kargo ile gönderiyoruz. Akçadağ, Arapgir, Arguvan, Battalgazi, Darende, Doğanşehir, Doğanyol, Hekimhan, Kale, Kuluncak, Pütürge, Yazıhan ve Yeşilyurt adreslerine iki iş günü içinde teslimat sağlıyoruz. Hekimhan maden bölgesine toplu sevkiyat için özel kargo planlaması yapıyor, lojman blokları için montaj kılavuzu hazırlıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Malatya'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Malatya'nın 13 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Malatya yazın çok sıcak, hangi perde önerirsiniz?", answer: "Malatya'nın +40°C sıcaklarında güneşlik kumaş plise perde öneriyoruz. Güneş ışınınn yüzde 70'ini filtreler, iç mekan sıcaklığını düşürür. Karartma modeli de tam ışık kesisi sağlar." },
+      { question: "Malatya'da kayısı kurutma tesislerine ve bahçe evlerine perde takılıyor mu, güneşlik kumaş işe yarar mı?", answer: "Evet, Pütürge ve Doğanşehir'deki kayısı bahçeleri arasındaki çiftlik evlerine perde üretiyoruz. Güneşlik kumaşlı katlanır sistem, kayısı kurutma alanlarındaki yoğun güneşi süzer ve iç mekân sıcaklığını düşürür. Bahçe verandasındaki geniş pencereler için katlanır mekanizma tercih ediyoruz." },
+      { question: "Hekimhan demir madeni lojmanları için yangın dayanımlı perde üretiyor musunuz?", answer: "Evet, Hekimhan'ın demir madeni bölgesindeki işçi lojmanları için yangın dayanımlı B1 sınıfı kumaştan toplu plise perde üretiyoruz. B1 kumaş, alev yayılımını geciktiren kimyasal kaplamaya sahiptir ve maden lojmanı güvenlik yönetmeliklerine uygundur. Toplu siparişlerde özel fiyatlandırma uyguluyoruz." },
     ],
   },
   {
@@ -2012,25 +2025,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Bahçesaray", "Başkale", "Çaldıran", "Çatak", "Edremit", "Erciş", "Gevaş", "Gürpınar", "İpekyolu", "Muradiye", "Özalp", "Saray", "Tuşba"],
-    intro: "Van'ın 13 ilçesinde plise perde hizmeti veriyoruz. Doğu Anadolu'nun 1727 metre rakımdaki Van Gölü şehrinde, <strong>kış soğuklarına ve yaz sıcaklarına karşı gece-gündüz modellerini</strong> öneriyoruz. İpekyolu ve Tuşba merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Van Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Van'ın 13 ilçesinde plise perde: İpekyolu, Tuşba, Erciş video keşif ve kargo. 1727 metre rakımda Van Gölü çevresi için gece-gündüz modelleri.",
+    intro: "Van'ın on üç ilçesi için Pendik İstanbul'daki üretim tesisimizde plise perde hazırlıyoruz. Türkiye'nin en büyük gölü olan Van Gölü kıyısında, bin yedi yüz yirmi yedi metre rakımda kurulu bu şehirde kışın eksi yirmi beş, yazın artı otuz beş dereceye varan sıcaklık oynamaları yaşanır; bu uç farklar için <strong>gece-gündüz çift katmanlı modelleri</strong> tavsiye ediyoruz. Gölün alkali su buharı sahil kesimde kumaş seçimini belirler; bu bölgede anti-alkali kaplamalı kumaş kullanıyoruz. İpekyolu, Tuşba ve Erciş dahil tüm ilçelere video keşif ve kargo sevkiyatı düzenliyoruz.",
+    seoTitle: "Van Plise Perde - Anti-alkali Kumaş ve Van Gölü Çevresi Kargo",
+    seoDescription: "Van'ın 13 ilçesi için Pendik İstanbul üretim plise perde. 1727 metre rakımda Van Gölü alkali buharına karşı anti-alkali kaplamalı kumaş, gece-gündüz modelleri ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Van'ın Gölü ve Dağları Arasında Perde",
+        h2: "Van Gölünün Alkali Buharına Dayanıklı Sahil Perde Kumaşları",
         paragraphs: [
-          "Van, Türkiye'nin en büyük gölü olan Van Gölü'nün kıyısında, 1727 metre rakımda yer alır. Kışları -25°C'ye varan soğuklar, yazları +35°C'ye varan sıcaklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz. Van Gölü'nün alkali su buharı, sahil kesimde kumaş seçimini etkiler; bu bölgede anti-alkali kaplamalı kumaş kullanıyoruz.",
-          "İpekyolu ve Tuşba merkez ilçelerindeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Erciş'in tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Edremit sahil beldesinde, göl manzaralı pencereler için güneşlik kumaş öneriyoruz. Başkale ve Çaldıran'ın yüksek rakımlı sınır bölgelerinde honeycomb modeli öneriyoruz. Van Kalesi çevresindeki tarihi binaların pencerelerine özel ölçü üretim yapıyoruz.",
+          "Van Gölü, dünyanın en büyük alkali göllerinden biridir. Suyun pH değeri dokuz buçuk civarındadır ve sahil kesimde buharlaşan su, havaya alkali partiküller yayalar. Bu partiküller, standart kumaş liflerine yapışarak zamanla deformasyon, renk solması ve doku bozukluğu yaratır. Pendik İstanbul atölyemizde, sahil ilçeler için <strong>anti-alkali kaplamalı plise perde kumaşı</strong> kullanıyoruz. Kaplama, alkali partiküllerin liflere tutunmasını engeller ve kumaş ömrünü önemli ölçüde uzatır. İç kesimlerde ise gece-gündüz çift katmanlı modeli tercih ediyoruz: gündüz katmanı güneşi süzer, gece karartma katmanı soğuğu keser.",
+          "İpekyolu ve Tuşba merkez ilçelerindeki apartman dairelerinde standart pencere ölçülerine hızlı üretim yapıyoruz. Erciş ovasındaki tarım çiftliklerinde, geniş ahşap doğramalar için katlanır mekanizmalı sistem kuruyoruz. Edremit sahil beldesinde, göl manzaralı pencereler için anti-alkali kaplamalı güneşlik kumaş öneriyoruz. Başkale ve Çaldıran'ın yüksek rakımlı sınır bölgelerinde honeycomb hücreli model tercih ediyoruz. Van Kalesi yamacındaki tarihi binaların pencerelerine özel ölçü üretim uyguluyoruz. Gevaş ve Gürpınar'ın vadideki yerleşimlerinde ise karartma katmanı ekliyoruz. Muradiye şelalesi çevresindeki pansiyonlarda katlanır sistem kuruyor, Bahçesaray ve Saray'ın dağ köylerinde honeycomb modelini seçiyoruz.",
         ],
       },
       {
-        h2: "Van'ın 13 İlçesinde Göl ve Dağ Bölgesi Kargo Planı",
-        paragraphs: ["Van'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Van Gölü çevresi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Van'ın İlçelerine Göl Çevresi Dağıtım Ağı",
+        paragraphs: ["Van'ın tüm ilçelerine <strong>video keşif yöntemiyle</strong> ölçü alıp, Pendik İstanbul'da üretimini tamamladığımız perdeleri kargo ile gönderiyoruz. Bahçesaray, Başkale, Çaldıran, Çatak, Edremit, Erciş, Gevaş, Gürpınar, İpekyolu, Muradiye, Özalp, Saray ve Tuşba adreslerine iki ilç üç iş günü içinde teslimat sağlıyoruz. Sınır bölgesi olan Başkale ve Çaldıran'a kışın yol kapanma ihtimaline karşı kargo firmasının depo bekletme hizmetini kullanıyoruz."],
       },
     ],
     faqItems: [
-      { question: "Van'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Van'ın 13 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Van Gölü sahilinde kumaş seçimi nasıl olmalı?", answer: "Van Gölü'nün alkali su buharı sahil kesimde kumaşı etkiler. Bu bölgede anti-alkali kaplamalı kumaş kullanıyoruz. Normal kumaşlar alkali buhardan dolayı daha hızlı deformasya uğrar." },
+      { question: "Van Gölü sahilinde kumaş neden anti-alkali olmalı, standart kumaş ne olur?", answer: "Van Gölü'nün suyu alkali yapısındadır ve sahil kesimde buharlaşan su havaya alkali partiküller yayar. Bu partiküller standart kumaş liflerine yapışarak renk solması, doku bozukluğu ve ömür kısalması yaratır. Anti-alkali kaplamalı kumaş, partiküllerin liflere tutunmasını engeller ve kumaş ömrünü önemli ölçüde uzatır. Edremit ve Gevaş gibi sahil ilçelerinde bu kaplama zorunludur." },
+      { question: "Erciş ovasında geniş pencere için hangi sistem önerilir, katlanır mekanizma uygun mu?", answer: "Erciş ovasındaki tarım çiftliklerinde geniş ahşap doğramalar için katlanır mekanizmalı plise perde öneriyoruz. Mekanizma, perdeyi yana doğru katlayarak geniş pencere açıklığını tamamen serbest bırakır. Ovanın yaz sıcaklığına karşı güneşlik kumaş, kış soğuğuna karşı ise honeycomb alt katman ekleyebiliyoruz." },
     ],
   },
   {
@@ -2039,25 +2052,25 @@ export const cities: CityData[] = [
     region: "Doğu Anadolu",
     priority: false,
     districts: ["Çukurca", "Derecik", "Hakkari merkez", "Şemdinli", "Yüksekova"],
-    intro: "Hakkari'nin 5 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin en yüksek rakımlı illerinden birinde, 1700 metrede, <strong>şiddetli kış soğuklarına karşı çift petekli honeycomb modellerini</strong> öneriyoruz. Hakkari merkez ve Yüksekova konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Hakkari Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Hakkari'nin 5 ilçesinde plise perde: Yüksekova, Şemdinli, Çukurca video keşif ve kargo. 1700 metre dağlık sınır bölgesi için çift petekli honeycomb.",
+    intro: "Hakkari'nin beş ilçesi için Pendik İstanbul'daki üretim hattımızda plise perde hazırlıyoruz. Türkiye'nin en dağlık ve en yüksek rakımlı illerinden birinde, bin yedi yüz metre ortalama yükseklikte, Cilo ve Sat sıradağlarının eteklerinde kışın eksi otuz dereceye varan soğuklar ve aylarca süren kar örtüsü hüküm sürer. Bu şiddetli kış koşullarına karşı <strong>çift petekli honeycomb hücreli ısı yalıtımlı modelleri</strong> öneriyoruz. Yüksekova, Şemdinli ve Çukurca dahil tüm ilçelere video keşif ve kargo sevkiyatı düzenliyoruz.",
+    seoTitle: "Hakkari Plise Perde - Çift Petekli Honeycomb ve Sıradağlar Kargo",
+    seoDescription: "Hakkari'nin 5 ilçesi için Pendik İstanbul üretim plise perde. 1700 metre Cilo-Sat sıradağlarında eksi 30 derece kışa karşı çift petekli honeycomb hücreli ısı yalıtımlı modeller ve kargo sevkiyatı.",
     sections: [
       {
-        h2: "Hakkari'nin Sıradağlarında Perde",
+        h2: "Hakkari'nin Cilo-Sat Sıradağlarında Buz Devri Perde Yalıtımı",
         paragraphs: [
-          "Hakkari, Türkiye'nin en dağık ve en yüksek rakımlı illerinden biridir. Cilo ve Sat dağlarının eteklerinde, 1700 metre rakımda yer alır. Kışları -30°C'ye varan soğuklar ve aylarca süren kar yağışı görülür. Bu şiddetli kış koşullarında <strong>çift petekli honeycomb hücreli ısı yalıtımlı plise perde</strong> öneriyoruz.",
-          "Hakkari merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Yüksekova'nın geniş ovasındaki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Şemdinli'nin Irak sınır bölgesi konutlarında, sert iklim nedeniyle karartma + honeycomb kombinasyonu öneriyoruz. Çukurca ve Derecik'in dağlık kesimlerinde honeycomb modeli öneriyoruz.",
+          "Hakkari, Türkiye'nin en sarp ve en yüksek dağ silsilelerine ev sahipliği yapar. Cilo ve Sat sıradağları, yılın büyük bölümünde karla kaplı kalır ve yerleşim yerleri bu dağların dar vadilerine sıkışır. Bin yedi yüz metrelik ortalama rakım, kışın eksi otuz dereceye varan soğuklar getirir; kar örtüsü bazen altı ayı aşar. Bu koşullarda pencere camları, ısı kaybının en kritik noktalarıdır. Pendik İstanbul atölyemizde, bu buz devri iklimi için <strong>çift petekli honeycomb hücreli plise perde</strong> üretiyoruz. İç içe geçen iki altıgen hücre katmanı, cam ile oda arasında çift hava yastığı örer ve dondurucu rüzgârın içeri sızmasını iki katmanlı olarak kırar.",
+          "Hakkari merkez konutlarında standart pencere ölçülerine hızlı üretim yapıyoruz. Yüksekova'nın geniş ovasındaki hayvancılık çiftliklerinde, geniş ahşap doğramalar için katlanır mekanizmalı sistem kuruyoruz. Şemdinli'nin Irak sınırındaki konutlarında, sert iklim ve güvenlik gereği karartma ile honeycomb katmanını birleştiren <em>melez model</em> öneriyoruz: gündüz ışığı süzer, gece hem soğuğu hem görüşü keser. Çukurca ve Derecik'in dağ yamaçlarındaki köylerinde, rüzgâr baskısına dayanıklı çift petekli honeycomb tercih ediyoruz. Derecik'in sarp vadi yerleşimlerinde ise küçük pencere ölçülerine özel üretim uyguluyoruz.",
         ],
       },
       {
-        h2: "Hakkari'nin 4 İlçesinde Sıradağlar Gönderim Çözümü",
-        paragraphs: ["Hakkari'nin tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Yüksek rakım bölgesi olduğundan çift petekli honeycomb modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Hakkari Beş İlçesine Sınır Bölgesi Kargo Hattı",
+        paragraphs: ["Hakkari'nin tüm ilçelerine <strong>video keşif yöntemiyle</strong> ölçü alıp, Pendik İstanbul'da üretimini tamamladığımız perdeleri kargo ile gönderiyoruz. Çukurca, Derecik, Hakkari merkez, Şemdinli ve Yüksekova adreslerine iki ilç dört iş günü içinde teslimat sağlıyoruz. Sınır bölgesi olması ve dağ yollarının kışın kapanma ihtimali nedeniyle kargo firmasının depo bekletme hizmetini kullanıyor, yol açıldığında sevkiyatı tamamlıyoruz. WhatsApp üzerinden sevkiyat durumunu anlık takip edebilirsiniz."],
       },
     ],
     faqItems: [
-      { question: "Hakkari'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Hakkari'nin 5 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Hakkari kışın -30°C, hangi perde önerirsiniz?", answer: "Hakkari'nin 1700 metre rakımında çift petekli honeycomb hücreli plise perde öneriyoruz. Çift petek yapısı, pencereden gelen dondurucu havayı iki katmanlı filtreler." },
+      { question: "Hakkari'de kışın karartma perde ısıyı korur mu, honeycomb ile farkı nedir?", answer: "Karartma perde ışığı tamamen keser ancak ısı yalıtımı sınırlıdır. Honeycomb hücreli kumaş ise altıgen petek gözenekleri arasında hava tabakası hapsederek ısıl yalıtım sağlar. Hakkari'nin eksi otuz derecelik kışında karartma tek başına yetmez; çift petekli honeycomb, ısı kaybını yüzde otuza kadar azaltır. Şemdinli gibi sınır bölgelerinde ikisini birleştiren melez model öneriyoruz." },
+      { question: "Yüksekova ovasında rüzgâra karşı hangi perde önerilir, kumaş yırtılır mı?", answer: "Yüksekova ovasında kış rüzgârı şiddetli eser ve kumaş yüzeyine baskı uygular. Pendik İstanbul atölyemizde, rüzgâr baskısına dayanıklı çift petekli honeycomb kumaş tercih ediyoruz. Kumaşın altıgen hücre yapısı, rüzgâr basıncını yüzey boyunca dağıtarak yırtılma riskini azaltır. Geniş ahşap doğramalar için katlanır mekanizma ekliyoruz." },
     ],
   },
   // --- GÜNEYDOĞU ANADOLU BÖLGESİ ---
@@ -2067,25 +2080,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Araban", "İslahiye", "Karkamış", "Nizip", "Nurdağı", "Oğuzeli", "Şahinbey", "Şehitkamil", "Yavuzeli"],
-    intro: "Gaziantep'in 9 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin gastronomi şehrinde, <strong>sıcak yaz iklimine uygun güneşlik ve karartma modellerini</strong> öneriyoruz. Şahinbey ve Şehitkamil merkez ilçelerindeki apartman daireleri için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Gaziantep Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Gaziantep'in 9 ilçesinde plise perde: Şahinbey, Şehitkamil, Nizip video keşif ve kargo. Sıcak iklim için güneşlik ve karartma modelleri.",
+    intro: "Gaziantep'in 9 ilçesine Pendik merkezli üretim tesisimizden plise perde gönderiyoruz. <em>Gastronomi başkenti</em> olarak bilinen şehirde yazın +40°C'yi aşan kavurucu sıcaklar hüküm sürer; bu nedenle <strong>güneş filtreli ve tam karartma kumaş seçeneklerini</strong> öne çıkarıyoruz. Şahinbey ile Şehitkamil'deki apartman konutlarından Nizip'in fıstık bahçelerine kadar video keşif ve kargo teslimatı uyguluyoruz.",
+    seoTitle: "Gaziantep Plise Perde - Pendik Üretim & Kargo Teslimat",
+    seoDescription: "Gaziantep 9 ilçe plise perde: Şahinbey, Şehitkamil, Nizip, İslahiye. +40°C yaz sıcağı için güneşlik ve karartma. Pendik üretim, video keşif, kargo.",
     sections: [
       {
-        h2: "Gaziantep'in Sıcak İkliminde Perde",
+        h2: "Antep Fıstığı Bahçelerinden Basalt Evlere Plise Perde Çözümleri",
         paragraphs: [
-          "Gaziantep, Türkiye'nin gastronomi başkentidir. Yazları +40°C'ye varan sıcaklar görülür. Bu sıcak iklimde <strong>güneşlik kumaş plise perde</strong> öneriyoruz — güneş ışının yüzde 70'ini filtreler, iç mekan sıcaklığını düşürür. Karartma modeli de tam ışık kesisi sağlar.",
-          "Şahinbey ve Şehitkamil merkez ilçelerindeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Gaziantep'in tarihi bakırcılar çarşısı çevresindeki tarihi evlerin pencerelerine özel ölçü üretim yapıyoruz. Nizip ve Oğuzeli'nin zeytin ve fıstık bahçelerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. İslahiye ve Nurdağı'nın sınır bölgesi konutlarında karartma modeli öneriyoruz. Organize sanayi bölgesindeki fabrika ve lojmanlar için yangın dayanımlı B1 kumaş ile toplu perde çözümleri sunuyoruz.",
+          "Gaziantep, yaklaşık 1050 metre rakımıyla yüksek düzlük üzerinde kurulu bir ılıman-sıcak şehirdir. Temmuz ve Ağustos aylarında termometre +40°C bandına tırmanır; bu değer, pencere camından içeri sızan güneş enerjisini ciddi bir ısınma kaynağına dönüştürür. Şahinbey ve Şehitkamil'deki betonarme apartmanlarda <strong>güneş filtreli plise kumaş</strong> tercih ederek içeri gelen ışınımın yaklaşık yüzde 70'ini dışarı atmak mümkündür; böylece klima yükü belirgin ölçüde azalır.",
+          "Tarihi bakırcılar çarşısı ve Zeugma Mozaik Müzesi çevresindeki basalt taş yapıların pencereleri genellikle standart dışı boyutlardadır. Bu yapılar için <em>özel ölçü üretim</em> yapıyor, pencere içine monte edilen profil sistemiyle taş duvara tek bir vida bile değmeden kurulum sağlıyoruz. Nizip ve Oğuzeli'nin fıstık ve zeytin bahçeleri arasındaki çiftlik evlerinde geniş açılır pencereler için katlanır honeycomb sistemini, İslahiye ve Nurdağı'nın sınır hattındaki konutlarda ise tam karartma modelini öneriyoruz. Organize sanayi bölgesindeki fabrika lojmanları ve idari binalar için yangın dayanımlı B1 sınıfı kumaşla toplu çözümler üretiyoruz.",
         ],
       },
       {
-        h2: "Gaziantep'in 9 İlçesinde Sıcak İklim Teslimat Ağı",
-        paragraphs: ["Gaziantep'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Sıcak iklim bölgesi olduğundan güneşlik modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Gastronomi Şehrinin 9 İlçesine Pendik'ten Üretim",
+        paragraphs: ["Tüm üretim İstanbul Pendik'teki atölyemizde yapılır; Gaziantep'in 9 ilçesine <strong>video keşif</strong> sonrası kargo ile sevk ediyoruz. Şahinbey, Şehitkamil, Nizip, Oğuzeli, İslahiye, Nurdağı, Karkamış, Araban ve Yavuzeli'nin tamamına ulaşım sağlıyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim onayı sonrası kargo takip numarası iletilir."],
       },
     ],
     faqItems: [
-      { question: "Gaziantep'te video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Gaziantep'in 9 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Gaziantep yazın çok sıcak, hangi perde önerirsiniz?", answer: "Gaziantep'in +40°C sıcaklarında güneşlik kumaş plise perde öneriyoruz. Güneş ışının yüzde 70'ini filtreler, iç mekan sıcaklığını düşürür." },
+      { question: "Antep'in basalt taş evlerinde perde montajı nasıl yapılıyor?", answer: "Tarihi basalt yapıların pencerelerine pencere içi profil sistemiyle monte ediyoruz; duvara delik açmadan, taş yüzeye zarar vermeden kurulum tamamlanır. Özel ölçü üretim sayesinde standart dışı pencere boyutları sorunsuz kapanır." },
+      { question: "Nizip'teki fıstık bahçesindeki çiftlik evim için hangi kumaş uygun?", answer: "Geniş açılır pencereli çiftlik evlerinde katlanır honeycomb sistemini öneriyoruz. Honeycomb hücre yapısı, bahçe yönünden gelen güneşi filtrelerken panoramik manzarayı korur; +40°C yaz sıcağında iç mekan serin kalır." },
     ],
   },
   {
@@ -2094,25 +2107,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Akçakale", "Birecik", "Bozova", "Ceylanpınar", "Eyyübiye", "Halfeti", "Haliliye", "Harran", "Hilvan", "Karaköprü", "Siverek", "Suruç", "Viranşehir"],
-    intro: "Şanlıurfa'nın 13 ilçesinde plise perde hizmeti veriyoruz. Türkiye'nin en sıcak şehrinde, <strong>+45°C yaz sıcaklarına karşı güneşlik ve karartma modellerini</strong> öneriyoruz. Eyyübiye ve Haliliye merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Şanlıurfa Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Şanlıurfa'nın 13 ilçesinde plise perde: Eyyübiye, Haliliye, Siverek video keşif ve kargo. +45°C sıcak iklim için güneşlik ve karartma.",
+    intro: "Şanlıurfa'nın 13 ilçesi için Pendik atölyemizde ürettiğimiz plise perdeleri kargoyla ulaştırıyoruz. <em>Peygamberler şehri</em> olarak anılan kentte yazın +45°C'yi gören kavurucu sıcaklık, pencere seçimini doğrudan etkiler; bu yüzden <strong>güneş filtreli ve tam karartma kumaş kombinasyonunu</strong> öneriyoruz. Eyyübiye ve Haliliye merkez ilçelerinden Siverek ve Viranşehir'e kadar video keşif ile ölçü alıyoruz.",
+    seoTitle: "Şanlıurfa Plise Perde - Pendik Üretim & Kargo",
+    seoDescription: "Şanlıurfa 13 ilçe plise perde: Eyyübiye, Haliliye, Siverek, Harran. +45°C aşırı sıcak için güneşlik ve karartma. Pendik üretim, video keşif, kargo.",
     sections: [
       {
-        h2: "Şanlıurfa'nın Sıcak İkliminde Perde",
+        h2: "Balıklıgöl Çevresinden Harran Ovasına Plise Perde Üretimi",
         paragraphs: [
-          "Şanlıurfa, Türkiye'nin en sıcak ilidir. Yazları +45°C'ye varan sıcaklar görülür. Bu aşırı sıcakta pencere, iç mekan ısısını en çok etkileyen faktördür. Şanlıurfa konutlarında <strong>güneşlik kumaş plise perde</strong> öneriyoruz — güneş ışının yüzde 70'ini filtreler, iç mekan sıcaklığını 5-8°C düşürür. Karartma modeli de tam ışık kesisi ve maksimum ısı kontrolü sağlar.",
-          "Eyyübiye ve Haliliye merkez ilçelerindeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Şanlıurfa'nın tarihi Halilurrahman Camii çevresindeki tarihi evlerin pencerelerine özel ölçü üretim yapıyoruz. Harran'nın UNESCO Dünya Mirası konik evleri çevresindeki konutlarda özel ölçü üretim yapıyoruz. Siverek ve Viranşehir'in tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Halfeti'nin Fırat nehri kıyısındaki evlerinde, nehir manzaralı pencereler için güneşlik kumaş öneriyoruz.",
+          "Şanlıurfa, Türkiye'nin termal rekorlarına imza atan en sıcak ilidir. Haziran ve Eylül arası +45°C seviyesi sıkça ölçülür ve bu durum, cam yüzeylerden içeri giren güneş enerjisini konutların birincil ısınma kaynağı yapar. Eyyübiye ve Haliliye'deki modern apartmanlarda <strong>güneş filtreli plise kumaş</strong> kullanarak içeri gelen radyasyonun yaklaşık yüzde 70'ini engellemek; iç mekan sıcaklığını 5-8°C düşürmek mümkündür. Tam karartma modeli ise gündüz uykusu ve karanlık ortam gereksinimleri için yüzde 100 ışık kesisi sağlar.",
+          "Halilurrahman Camii ve Balıklıgöl çevresindeki tarihi konutların pencereleri çoğunlukla standart dışıdır; bu evlere <em>özel ölçü üretim</em> yapıyoruz. Harran'ın UNESCO konik kubbeli evleri bölgesindeki yapılar için pencere içi profilli sistemle zarar vermeden montaj uyguluyoruz. Siverek ve Viranşehir'in geniş tarım arazilerindeki çiftlik evlerinde katlanır honeycomb sistemini, Halfeti'nin Fırat kıyısındaki yarı batık evlerinde ise nehir manzarasını koruyan güneşlik kumaşı tercih ediyoruz. Ceylanpınar ve Akçakale sınır hattındaki konutlarda karartma modeli öneriyoruz.",
         ],
       },
       {
-        h2: "Şanlıurfa'nın 13 İlçesinde Sıcak İklim Kargo Rotası",
-        paragraphs: ["Şanlıurfa'nın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Türkiye'nin en sıcak şehri olduğundan güneşlik ve karartma modelleri öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Peygamberler Şehrinin 13 İlçesine Kargo Dağıtımı",
+        paragraphs: ["Üretim Pendik'teki tesisimizde gerçekleşir; Şanlıurfa'nın 13 ilçesine <strong>video keşif</strong> ardından kargo ile gönderim yapıyoruz. Eyyübiye, Haliliye, Karaköprü, Siverek, Viranşehir, Birecik, Suruç, Akçakale, Ceylanpınar, Bozova, Hilvan, Halfeti ve Harran'ın tamamına ulaşım sağlanır. WhatsApp üzerinden ölçü alınıp, üretim sonrası kargo takip numarası paylaşılır."],
       },
     ],
     faqItems: [
-      { question: "Şanlıurfa'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Şanlıurfa'nın 13 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Şanlıurfa yazın +45°C, hangi perde önerirsiniz?", answer: "Şanlıurfa'nın aşırı sıcaklarında güneşlik kumaş plise perde öneriyoruz. Güneş ışının yüzde 70'ini filtreler, iç mekan sıcaklığını 5-8°C düşürür. Karartma modeli de maksimum ısı kontrolü sağlar." },
+      { question: "Urfa'da kargo ile perde teslimatı kaç günde ulaşır?", answer: "Video keşif sonrası Pendik'te üretim başlar; kargo ile Şanlıurfa merkez ilçelere tipik olarak 2-3 iş günü, Siverek ve Viranşehir gibi uzak ilçelere 3-4 iş günü içinde teslimat gerçekleşir. Kargo takip numarası WhatsApp üzerinden iletilir." },
+      { question: "Harran ovasındaki serin evimde karartma perde gerekiyor mu?", answer: "Harran ovasında gece sıcaklık düşse de gündüz +45°C baskısı nedeniyle karartma modeli öneriyoruz. Karartma kumaş, gündüz uykusu için tam karanlık sağlar ve pencereden gelen ısı yükünü maksimum düzeyde keser." },
     ],
   },
   {
@@ -2121,25 +2134,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Adıyaman merkez", "Besni", "Çelikhan", "Gerger", "Gölbaşı", "Kahta", "Samsat", "Sincik", "Tut"],
-    intro: "Adıyaman'ın 9 ilçesinde plise perde hizmeti sunuyoruz. Nemrut Dağı'nın ev sahibi şehirde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Adıyaman merkez ve Kahta konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Adıyaman Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Adıyaman'ın 9 ilçesinde plise perde: Kahta, Besni, Gölbaşı video keşif ve kargo. Nemrut Dağı ve Atatürk Barajı çevresi için gece-gündüz modelleri.",
+    intro: "Adıyaman'ın 9 ilçesi için İstanbul Pendik'teki üretim hattımızdan plise perde sevk ediyoruz. <em>Kommagene Krallığı</em> mirasına ev sahipliği yapan şehirde yazın +40°C, kışın -10°C arasında değişen geniş termik aralık söz konusudur; bu nedenle <strong>gece-gündüz çift katmanlı sistemini</strong> öneriyoruz. Adıyaman merkez ve Kahta başta olmak üzere tüm ilçelere video keşif ve kargo teslimatı sağlıyoruz.",
+    seoTitle: "Adıyaman Plise Perde - Pendik Üretim & Kargo",
+    seoDescription: "Adıyaman 9 ilçe plise perde: Kahta, Besni, Gölbaşı, Çelikhan. Nemrut Dağı ve Atatürk Barajı çevresi için gece-gündüz. Pendik üretim, video keşif, kargo.",
     sections: [
       {
-        h2: "Adıyaman'ın Nemrut ve Baraj Çevresinde Perde",
+        h2: "Nemrut'un Zirvesinden Atatürk Barajı Kıyısına Perde Sistemleri",
         paragraphs: [
-          "Adıyaman, UNESCO Dünya Mirası Nemrut Dağı'nın ev sahibidir. Kahta ilçesindeki Nemrut Dağı çevresindeki pansiyon ve turizm tesislerinde, <strong>karartma plise perde</strong> öneriyoruz. Turistlerin dinlenmesi için tam karanlık ortam sağlar.",
-          "Adıyaman'ın karasal-sıcak geçiş ikliminde yazları +40°C sıcaklar, kışları -10°C soğuklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz. Adıyaman merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Atatürk Baraj Gölü kıyısındaki Gölbaşı ve Samsat ilçelerinde, göl manzaralı pencereler için katlanır sistem uyguluyoruz. Besni ve Çelikhan'ın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem öneriyoruz.",
+          "Adıyaman, Kommagene uygarlığının merkezi ve UNESCO Dünya Mirası Nemrut Dağı'nın kapısıdır. Kahta ilçesindeki Nemrut yolu üzerindeki pansiyon ve turizm tesislerinde konaklayan ziyaretçiler, güneşin doğuşunu izlemek için sabah erken saatlerde uyanır; bu nedenle <strong>karartma plise perde</strong> ile gündüz dinlenme saatlerinde tam karanlık ortam sağlanması kritik önem taşır.",
+          "Adıyaman'ın karasal-sıcak geçiş ikliminde yazın +40°C, kışın ise -10°C ölçülür. Bu geniş sıcaklık salınımı için <em>gece-gündüz çift katmanlı plise perde sistemini</em> öneriyoruz: gündüz katmanı sıcaklığı filtreler, gece katmanı soğuğu engeller. Adıyaman merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Atatürk Baraj Gölü kıyısındaki Gölbaşı ve Samsat'ta göl manzaralı geniş pencereler için katlanır sistem, Besni ve Çelikhan'ın tarım arazilerindeki çiftlik evlerinde honeycomb modeli uyguluyoruz. Sincik ve Gerger'in dağlık kesimlerinde çift petekli honeycomb ile soğuk yalıtımı sağlıyoruz.",
         ],
       },
       {
-        h2: "Adıyaman'ın 9 İlçesinde Nemrut ve Baraj Bölgesi Gönderimi",
-        paragraphs: ["Adıyaman'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal-sıcak geçiş iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Kommagene Ülkesinin 9 İlçesine Uzaktan Keşif",
+        paragraphs: ["Pendik'teki atölyemizde üretilen perdeler, Adıyaman'ın 9 ilçesine <strong>video keşif</strong> sonrası kargoyla gönderilir. Adıyaman merkez, Kahta, Besni, Çelikhan, Gerger, Gölbaşı, Samsat, Sincik ve Tut'un tamamına ulaşım sağlıyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim onayı ardından kargo takip numarası iletiyoruz."],
       },
     ],
     faqItems: [
-      { question: "Adıyaman'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Adıyaman'ın 9 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Nemrut Dağı çevresindeki pansiyonum için perde var mı?", answer: "Evet, Kahta'daki Nemrut Dağı çevresindeki pansiyonlar için karartma plise perde öneriyoruz. Turistlerin dinlenmesi için tam karanlık ortam sağlar." },
+      { question: "Nemrut'a çıkan turistler için pansiyonumda ne önerirsiniz?", answer: "Kahta'daki Nemrut güzergahındaki pansiyonlar için karartma plise perde öneriyoruz. Turistler sabah gün doğumu için erken kalktığından, gündüz dinlenme saatlerinde tam karanlık ortam sağlanması konfor açısından önemlidir." },
+      { question: "Atatürk Barajı kıyısında nemli iklim perdeyi etkiler mi?", answer: "Gölbaşı ve Samsat'taki baraj gölü kıyısında nem oranı yüksektir; bu nedenle anti-nem kumaşlı model öneriyoruz. Kumaş, yüksek nemde deformasyona uğramaz ve uzun ömürlü kullanım sağlar." },
     ],
   },
   {
@@ -2148,25 +2161,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Bağlar", "Bismil", "Çınar", "Çüngüş", "Dicle", "Ergani", "Hani", "Hazro", "Kayapınar", "Kocaköy", "Kulp", "Lice", "Silvan", "Sur", "Yenişehir"],
-    intro: "Diyarbakır'ın 15 ilçesinde plise perde hizmeti veriyoruz. Surların çevrelediği tarihi şehirde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Bağlar, Kayapınar ve Yenişehir merkez ilçelerine video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Diyarbakır Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Diyarbakır'ın 15 ilçesinde plise perde: Bağlar, Kayapınar, Sur video keşif ve kargo. Sıcak-karışık iklim için gece-gündüz modelleri.",
+    intro: "Diyarbakır'ın 15 ilçesi için Pendik üretim tesisimizden plise perde gönderiyoruz. <em>Surlar şehri</em> olarak bilinen kentte yazın +40°C, kışın -10°C arasında salınan karasal-sıcak geçiş iklimi hüküm sürer; bu yüzden <strong>gece-gündüz çift katmanlı sistemini</strong> öne çıkarıyoruz. Bağlar, Kayapınar ve Yenişehir merkez ilçelerinden Sur'un tarihi yapılarına kadar video keşif ve kargo teslimatı uyguluyoruz.",
+    seoTitle: "Diyarbakır Plise Perde - Pendik Üretim & Kargo",
+    seoDescription: "Diyarbakır 15 ilçe plise perde: Bağlar, Kayapınar, Sur, Bismil. Surlar içi basalt evler için özel ölçü. Pendik üretim, video keşif, kargo.",
     sections: [
       {
-        h2: "Diyarbakır'ın Surlar Şehrinde Perde",
+        h2: "Surlar İçi Basalt Evlerden Dicle Kıyısına Plise Perde",
         paragraphs: [
-          "Diyarbakır, UNESCO Dünya Mirası listesindeki 5 km uzunluğundaki tarihi surlarıyla ünlüdür. Sur ilçesindeki tarihi surlar içi evlerin pencereleri standart dışıdır. Bu evlerin pencerelerine <strong>özel ölçü plise perde</strong> üretiyoruz. Pencere içinde montaj ile tarihi taş binalara zarar vermeden kurulur.",
-          "Diyarbakır'ın karasal-sıcak geçiş ikliminde yazları +40°C sıcaklar, kışları -10°C soğuklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz. Bağlar, Kayapınar ve Yenişehir merkez ilçelerindeki apartman dairelerinde standart ölçülere hızlı üretim yapıyoruz. Bismil ve Çınar'ın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz. Lice ve Hani'nin dağlık kesimlerinde honeycomb modeli öneriyoruz.",
+          "Diyarbakır, UNESCO Dünya Mirası listesinde yer alan yaklaşık 5,5 kilometrelik tarihi surlarıyla dünyanın en uzun sur sistemlerinden birine sahiptir. Sur ilçesindeki surlar içi mahallelerdeki basalt taş evlerin pencereleri çoğunlukla standart dışı boyutlardadır; bu yapılar için <strong>özel ölçü plise perde</strong> üretiyoruz. Pencere içine monte edilen profil sistemiyle, tarihi taş duvara tek vida açmadan kurulum tamamlanır.",
+          "Diyarbakır'ın karasal-sıcak geçiş ikliminde Temmuz'da +40°C, Ocak'ta -10°C ölçülür. Bu geniş termik salınım için <em>gece-gündüz çift katmanlı sistemini</em> öneriyoruz: gündüz katmanı sıcaklığı filtreler, gece katmanı soğuğu engeller. Bağlar, Kayapınar ve Yenişehir'deki modern apartmanlarda standart ölçülere hızlı üretim yapıyoruz. Bismil ve Çınar'ın Dicle havzasındaki tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem, Lice ve Hani'nin yüksek rakımlı dağlık kesimlerinde çift petekli honeycomb modeli uyguluyoruz. Ergani ve Çüngüş'ün kuzey ilçelerinde soğuk yalıtımı için honeycomb tercih ediyoruz.",
         ],
       },
       {
-        h2: "Diyarbakır'ın 17 İlçesinde Surlar Şehri Teslimat Çözümü",
-        paragraphs: ["Diyarbakır'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal-sıcak geçiş iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Kara Amet Zindanlarından Bağlar'a Teslimat Ağı",
+        paragraphs: ["İstanbul Pendik'teki atölyemizde üretilen perdeler, Diyarbakır'ın 15 ilçesine <strong>video keşif</strong> ardından kargoyla sevk edilir. Bağlar, Kayapınar, Yenişehir, Sur, Bismil, Çınar, Çüngüş, Dicle, Ergani, Hani, Hazro, Kocaköy, Kulp, Lice ve Silvan'ın tamamına ulaşım sağlıyoruz. WhatsApp üzerinden ölçü alıp, kargo takip numarası iletiyoruz."],
       },
     ],
     faqItems: [
-      { question: "Diyarbakır'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Diyarbakır'ın 15 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Diyarbakır Sur içindeki tarihi evime perde yapılır mı?", answer: "Evet, Sur ilçesindeki tarihi surlar içi evlerin standart dışı pencerelerine özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile tarihi taş binalara zarar vermeden kurulur." },
+      { question: "Sur içindeki dar pencereye özel ölçü perde yapılır mı?", answer: "Evet, Sur ilçesindeki surlar içi basalt taş evlerin standart dışı pencerelerine özel ölçü plise perde üretiyoruz. Pencere içi profil sistemiyle tarihi taş duvara zarar vermeden, tek vida açmadan montaj yapılır." },
+      { question: "Diyarbakır'ın yaz sıcağı ve kış soğuğu için tek perde yeter mi?", answer: "Tek katmanlı perde bu geniş sıcaklık aralığını karşılamaz; bu yüzden gece-gündüz çift katmanlı sistem öneriyoruz. Gündüz katmanı +40°C sıcaklığı filtreler, gece karartma katmanı -10°C soğuğu engeller." },
     ],
   },
   {
@@ -2175,25 +2188,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Artuklu", "Dargeçit", "Derik", "Kızıltepe", "Mazıdağı", "Midyat", "Nusaybin", "Ömerli", "Savur", "Yeşilli"],
-    intro: "Mardin'in 10 ilçesinde plise perde hizmeti sunuyoruz. Taş mimarisiyle ünlü şehirde, <strong>sıcak yazlara uygun güneşlik ve karartma modellerini</strong> öneriyoruz. Artuklu ve Kızıltepe konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Mardin Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Mardin'in 10 ilçesinde plise perde: Artuklu, Midyat, Nusaybin video keşif ve kargo. Taş mimari şehri için güneşlik ve karartma modelleri.",
+    intro: "Mardin'in 10 ilçesi için İstanbul Pendik'teki üretim hattımızdan plise perde sevk ediyoruz. <em>Taş mimari müzesi</em> olarak anılan kentte yazın +40°C'ye varan sıcaklık, Mezopotamya ovasından yansıyan güneşle birleşince pencere seçimini belirler; bu nedenle <strong>güneş filtreli ve tam karartma kumaş seçeneklerini</strong> öneriyoruz. Artuklu ve Kızıltepe başta olmak üzere tüm ilçelere video keşif ve kargo teslimatı sağlıyoruz.",
+    seoTitle: "Mardin Plise Perde - Pendik Üretim & Kargo",
+    seoDescription: "Mardin 10 ilçe plise perde: Artuklu, Midyat, Nusaybin, Kızıltepe. Taş evler için özel ölçü. Pendik üretim, video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Mardin'in Taş Şehrinde Perde",
+        h2: "Mezopotamya Ovasına Bakan Taş Evlere Plise Perde",
         paragraphs: [
-          "Mardin, Mezopotamya ovasına bakan tarihi taş evleriyle dünya çapında ünlüdür. Artuklu ilçesindeki tarihi taş evlerin pencereleri standart dışı boyutlardadır. Bu evlerin pencerelerine <strong>özel ölçü plise perde</strong> üretiyoruz. Pencere içinde montaj ile tarihi taş binalara zarar vermeden kurulur. Ova manzaralı pencereler için güneşlik kumaş öneriyoruz.",
-          "Mardin'in sıcak ikliminde yazları +40°C'ye varan sıcaklar görülür. Bu sıcakta <strong>güneşlik kumaş plise perde</strong> öneriyoruz. Midyat'ın Süryani tarihi mahallesinin evlerinin pencerelerine özel ölçü üretim yapıyoruz. Nusaybin ve Kızıltepe'nin sınır bölgesi konutlarında karartma modeli öneriyoruz. Dargeçit ve Savur'un dağlık kesimlerinde honeycomb modeli öneriyoruz.",
+          "Mardin, Mezopotamya ovasına bakan yamaçtaki teraslamalı taş evleriyle dünya çapında tanınır. Artuklu ilçesindeki tarihi taş konutların pencereleri çoğunlukla standart dışı boyutlardadır ve ovaya bakan cephelerde geniş açıklıklar bulunur. Bu yapılar için <strong>özel ölçü plise perde</strong> üretiyoruz; pencere içi profil sistemiyle taş duvara zarar vermeden kurulum yapıyoruz. Ova manzaralı geniş pencerelerde güneş filtreli kumaş tercih ediyoruz.",
+          "Mardin'in sıcak ikliminde yazın +40°C ölçülür; ovadan yansıyan güneş enerjisi cam yüzeyleri bir ısınma kaynağına dönüştürür. <em>Güneş filtreli plise kumaş</em>, içeri gelen ışınımın yaklaşık yüzde 70'ini engeller. Midyat'ın Süryani tarihi mahallesinin taş evlerinin pencerelerine özel ölçü üretim yapıyoruz. Nusaybin ve Kızıltepe'nin sınır hattındaki konutlarında tam karartma modeli, Dargeçit ve Savur'un dağlık kesimlerinde çift petekli honeycomb modeli öneriyoruz. Mazıdağı ve Ömerli'nin kırsal konutlarında katlanır sistem uyguluyoruz.",
         ],
       },
       {
-        h2: "Mardin'in 10 İlçesinde Taş Şehir Gönderim Ağı",
-        paragraphs: ["Mardin'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Sıcak iklim bölgesi olduğundan güneşlik modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Müze Şehrin 10 İlçesine Pendik Çıkışlı Gönderi",
+        paragraphs: ["Pendik'teki atölyemizde üretilen perdeler, Mardin'in 10 ilçesine <strong>video keşif</strong> sonrası kargoyla gönderilir. Artuklu, Dargeçit, Derik, Kızıltepe, Mazıdağı, Midyat, Nusaybin, Ömerli, Savur ve Yeşilli'nin tamamına ulaşım sağlıyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim onayı ardından kargo takip numarası iletilir."],
       },
     ],
     faqItems: [
-      { question: "Mardin'de video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Mardin'in 10 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Mardin taş evimin penceresine perde yapılır mı?", answer: "Evet, Mardin'in tarihi taş evlerinin standart dışı pencerelerine özel ölçü plise perde üretiyoruz. Pencere içinde montaj ile tarihi taş binalara zarar vermeden kurulur." },
+      { question: "Mardin taş evimin kemerli penceresine perde sığar mı?", answer: "Evet, Artuklu'daki tarihi taş evlerin kemerli ve standart dışı pencerelerine özel ölçü plise perde üretiyoruz. Pencere içi profil sistemiyle kemerli açıklığa zarar vermeden, taş duvara delik açmadan montaj yapılır." },
+      { question: "Mezopotamya manzaralı geniş pencere için güneşlik yeterli mi?", answer: "Ovaya bakan geniş pencerelerde güneş filtreli kumaş öneriyoruz. Işınımın yaklaşık yüzde 70'ini engellerken manzarayı korur; +40°C yaz sıcağında iç mekan sıcaklığını belirgin ölçüde düşürür." },
     ],
   },
   {
@@ -2202,25 +2215,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Batman merkez", "Beşiri", "Gercüş", "Hasankeyf", "Kozluk", "Sason"],
-    intro: "Batman'ın 6 ilçesinde plise perde hizmeti veriyoruz. Petrol şehrinde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Batman merkez ve Kozluk konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Batman Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Batman'ın 6 ilçesinde plise perde: Kozluk, Beşiri, Gercüş video keşif ve kargo. Petrol şehri ve Hasankeyf için gece-gündüz modelleri.",
+    intro: "Batman'ın 6 ilçesi için Pendik üretim tesisimizden plise perde gönderiyoruz. <em>Petrol şehri</em> olarak bilinen kentte karasal-sıcak geçiş iklimi hüküm sürer; yazın +40°C, kışın -10°C arasında değişen sıcaklık için <strong>gece-gündüz çift katmanlı sistemini</strong> öneriyoruz. Batman merkez ve Kozluk başta olmak üzere tüm ilçelere video keşif ve kargo teslimatı sağlıyoruz.",
+    seoTitle: "Batman Plise Perde - Pendik Üretim & Kargo",
+    seoDescription: "Batman 6 ilçe plise perde: Kozluk, Beşiri, Gercüş, Hasankeyf. Petrol lojmanları için B1 yangın dayanımlı. Pendik üretim, video keşif, kargo.",
     sections: [
       {
-        h2: "Batman'ın Petrol Şehrinde Perde",
+        h2: "Petrol Kuyularından Hasankeyf Mağaralarına Perde Üretimi",
         paragraphs: [
-          "Batman, Türkiye'nin ilk petrol üretim merkezidir. Petrol rafinerisi ve BOTAŞ tesisleri çevresindeki işçi lojmanları için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu plise perde çözümleri sunuyoruz. Batman merkez konutlarında karasal-sıcak geçiş iklimi nedeniyle gece-gündüz modeli öneriyoruz.",
-          "Hasankeyf, Tigris nehri kıyısındaki binlerce yıllık tarihi mağara evleriyle ünlüdür. Hasankeyf'teki tarihi mağara evlerinin pencerelerine <strong>özel ölçü plise perde</strong> üretiyoruz. Gercüş'ün tarihi Süryani evlerinin pencerelerine de özel ölçü üretim yapıyoruz. Sason'un dağlık kesimlerinde honeycomb modeli öneriyoruz.",
+          "Batman, Türkiye'nin ilk petrol üretim merkezidir ve rafineri ile BOTAŞ tesisleri çevresinde yoğun bir endüstriyel yerleşim bulunur. Bu tesislerin işçi lojmanları ve idari binaları için <strong>yangın dayanımlı B1 sınıfı kumaş</strong> ile toplu plise perde çözümleri üretiyoruz. B1 kumaş, alev yayılımını engeller ve endüstriyel güvenlik standartlarına uygundur. Batman merkez konutlarında karasal-sıcak geçiş iklimi nedeniyle gece-gündüz çift katmanlı sistem öneriyoruz.",
+          "Hasankeyf, Dicle nehri kıyısındaki binlerce yıllık tarihi mağara evleriyle ünlüdür ve büyük bölümü baraj gölü altında kalmıştır. Kalan tarihi yapıların pencerelerine <em>özel ölçü plise perde</em> üretiyoruz; pencere içi profil sistemiyle mağara ve taş yapıya zarar vermeden kurulum yapılır. Gercüş'ün Süryani tarihi evlerinin pencerelerine de özel ölçü üretim uyguluyoruz. Sason'un yüksek rakımlı dağlık kesiminde çift petekli honeycomb modeli, Beşiri'nin Dicle kıyısındaki konutlarında katlanır sistem öneriyoruz.",
         ],
       },
       {
-        h2: "Batman'ın 6 İlçesinde Petrol Şehri Kargo Planı",
-        paragraphs: ["Batman'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Petrol tesisleri için B1 kumaş öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Karadoğan Şehrinin 6 İlçesine Lojistik Çözüm",
+        paragraphs: ["İstanbul Pendik'teki atölyemizde üretilen perdeler, Batman'ın 6 ilçesine <strong>video keşif</strong> ardından kargoyla sevk edilir. Batman merkez, Beşiri, Gercüş, Hasankeyf, Kozluk ve Sason'un tamamına ulaşım sağlıyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim onayı sonrası kargo takip numarası iletilir."],
       },
     ],
     faqItems: [
-      { question: "Batman'da video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Batman'ın 6 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Batman petrol lojmanları için yangın dayanımlı perde var mı?", answer: "Evet, Batman petrol rafinerisi ve BOTAŞ tesisleri çevresindeki işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz." },
+      { question: "Petrol rafinerisi lojmanı için yangına dayanıklı perde var mı?", answer: "Evet, Batman petrol rafinerisi ve BOTAŞ tesisleri çevresindeki işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş ile toplu plise perde üretimi yapıyoruz. B1 kumaş, alev yayılımını engeller ve endüstriyel güvenlik standartlarına uygundur." },
+      { question: "Hasankeyf mağara evimin küçük penceresine perde takılır mı?", answer: "Evet, Hasankeyf'teki tarihi mağara ve taş yapıların standart dışı pencerelerine özel ölçü plise perde üretiyoruz. Pencere içi profil sistemiyle yapıya zarar vermeden, delik açmadan montaj yapılır." },
     ],
   },
   {
@@ -2229,25 +2242,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Baykan", "Eruh", "Kurtalan", "Pervari", "Siirt merkez", "Şirvan"],
-    intro: "Siirt'in 6 ilçesinde plise perde hizmeti sunuyoruz. Botan nehri vadisindeki şehirde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Siirt merkez ve Kurtalan konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Siirt Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Siirt'in 6 ilçesinde plise perde: Kurtalan, Baykan, Pervari video keşif ve kargo. Botan nehri vadisi iklimi için gece-gündüz modelleri.",
+    intro: "Siirt'in 6 ilçesi için İstanbul Pendik'teki üretim hattımızdan plise perde gönderiyoruz. <em>Botan nehri vadisi</em> boyunca uzanan kentte karasal-sıcak geçiş iklimi hüküm sürer; yazın +40°C, kışın -10°C arasında salınan sıcaklık için <strong>gece-gündüz çift katmanlı sistemini</strong> öneriyoruz. Siirt merkez ve Kurtalan başta olmak üzere tüm ilçelere video keşif ve kargo teslimatı sağlıyoruz.",
+    seoTitle: "Siirt Plise Perde - Pendik Üretim & Kargo",
+    seoDescription: "Siirt 6 ilçe plise perde: Kurtalan, Baykan, Pervari, Şirvan. Botan vadisi iklimi için gece-gündüz. Pendik üretim, video keşif, kargo.",
     sections: [
       {
-        h2: "Siirt'in Botan Vadisinde Perde",
+        h2: "Botan Vadisinden Garzan Dağlarına Plise Perde Seçenekleri",
         paragraphs: [
-          "Siirt, Botan nehri vadisinde yer alır. Yazları +40°C sıcaklar, kışları -10°C soğuklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz. Siirt merkez konutlarında standart ölçülere hızlı üretim yapıyoruz.",
-          "Siirt'in tarihi medrese ve cami çevresindeki evlerin pencerelerine özel ölçü üretim yapıyoruz. Baykan'ın maden bölgesindeki işçi lojmanları için yangın dayanımlı B1 kumaş öneriyoruz. Pervari ve Şirvan'ın dağlık kesimlerinde honeycomb modeli öneriyoruz. Kurtalan'ın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Siirt, Botan nehri vadisinde yer alır ve vadi tabanından çevre dağlarına doğru belirgin rakım farkları gösterir. Yazın +40°C, kışın -10°C ölçülen geniş termik salınım, pencere seçimini doğrudan etkiler. Bu uç sıcaklık farkları için <strong>gece-gündüz çift katmanlı plise perde sistemini</strong> öneriyoruz: gündüz katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller. Siirt merkez konutlarında standart ölçülere hızlı üretim yapıyoruz.",
+          "Siirt'in tarihi medrese ve cami çevresindeki konutların pencerelerine <em>özel ölçü üretim</em> yapıyoruz. Baykan'ın maden bölgesindeki işçi lojmanları için yangın dayanımlı B1 sınıfı kumaş öneriyoruz; maden tesisleri çevresinde alev yayılımını engellemek güvenlik açısından kritiktir. Pervari ve Şirvan'ın yüksek rakımlı dağlık kesimlerinde çift petekli honeycomb modeli ile soğuk yalıtımı sağlıyoruz. Kurtalan'ın tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem, Eruh'un vadi yamacındaki konutlarında güneş filtreli kumaş uyguluyoruz.",
         ],
       },
       {
-        h2: "Siirt'in 7 İlçesinde Botan Vadisi Teslimat Rotası",
-        paragraphs: ["Siirt'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Karasal-sıcak geçiş iklimi bölgesi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Fıstık Şehrinin 6 İlçesine Online Keşif",
+        paragraphs: ["Pendik'teki atölyemizde üretilen perdeler, Siirt'in 6 ilçesine <strong>video keşif</strong> sonrası kargoyla gönderilir. Siirt merkez, Baykan, Eruh, Kurtalan, Pervari ve Şirvan'ın tamamına ulaşım sağlıyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim onayı ardından kargo takip numarası iletilir."],
       },
     ],
     faqItems: [
-      { question: "Siirt'te video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Siirt'in 6 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Siirt yazın sıcak kışın soğuk, hangi perde önerirsiniz?", answer: "Siirt'in Botan vadisi ikliminde gece-gündüz plise perde öneriyoruz. Gündüz katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller." },
+      { question: "Siirt fıstığı işletmemin vitrin penceresi için ne önerirsiniz?", answer: "Vitrin penceresi için güneş filtreli plise kumaş öneriyoruz. Işınımın yaklaşık yüzde 70'ini engellerken vitrin içeriğinin görünür kalmasını sağlar; +40°C yaz sıcağında ürünlerin güneşten zarar görmesini önler." },
+      { question: "Pervari'nin yüksek rakımında honeycomb perde donar mı?", answer: "Hayır, çift petekli honeycomb modeli yüksek rakımda donmayı engeller. Hücre yapısı, pencereden gelen soğuk havayı iki katmanlı filtreler ve -10°C kış şartlarında iç mekan sıcaklığını korur." },
     ],
   },
   {
@@ -2256,25 +2269,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Beytüşşebap", "Cizre", "Güçlükonak", "İdil", "Silopi", "Şırnak merkez", "Uludere"],
-    intro: "Şırnak'ın 7 ilçesinde plise perde hizmeti veriyoruz. Cudi Dağı'nın eteklerindeki şehirde, <strong>sıcak yazlara ve soğuk kışlara uygun gece-gündüz modellerini</strong> öneriyoruz. Şırnak merkez ve Cizre konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Şırnak Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Şırnak'ın 7 ilçesinde plise perde: Cizre, Silopi, İdil video keşif ve kargo. Cudi Dağı sınır bölgesi için gece-gündüz modelleri.",
+    intro: "Şırnak'ın 7 ilçesi için Pendik üretim tesisimizden plise perde gönderiyoruz. <em>Cudi Dağı'nın eteklerinde</em> Suriye ve Irak sınırına yaslanan kentte yazın +42°C, kışın -15°C arasında değişen sert iklim hüküm sürer; bu yüzden <strong>gece-gündüz çift katmanlı sistemini</strong> öneriyoruz. Şırnak merkez ve Cizre başta olmak üzere tüm ilçelere video keşif ve kargo teslimatı sağlıyoruz.",
+    seoTitle: "Şırnak Plise Perde - Pendik Üretim & Kargo",
+    seoDescription: "Şırnak 7 ilçe plise perde: Cizre, Silopi, İdil, Uludere. Cudi Dağı sınır bölgesi için gece-gündüz. Pendik üretim, video keşif, kargo.",
     sections: [
       {
-        h2: "Şırnak'ın Cudi Dağı Eteklerinde Perde",
+        h2: "Cudi'nin Eteklerinden Gabar'ın Zirvesine Perde Sistemleri",
         paragraphs: [
-          "Şırnak, Cudi Dağı'nın eteklerinde, Suriye ve Irak sınırında yer alır. Yazları +42°C sıcaklar, kışları -15°C soğuklar görülür. Bu uç sıcaklık farkları için <strong>gece-gündüz plise perde sistemini</strong> öneriyoruz. Şırnak merkez konutlarında standart ölçülere hızlı üretim yapıyoruz.",
-          "Cizre ve Silopi'nin sınır bölgesi konutlarında, sert iklim nedeniyle karartma modeli öneriyoruz. İdil ve Beytüşşebap'ın dağlık kesimlerinde honeycomb modeli öneriyoruz. Uludere'nin vadi kesimindeki köy evlerinde katlanır sistem uyguluyoruz. Gabar Dağı çevresindeki kırsal konutlarda anti-nem kumaş kullanıyoruz.",
+          "Şırnak, Cudi Dağı'nın eteklerinde, Suriye ve Irak sınırının kesiştiği noktada yer alır. Bölgenin sert ikliminde yazın +42°C, kışın -15°C ölçülür; bu geniş termik salınım pencere seçimini belirler. <strong>Gece-gündüz çift katmanlı plise perde sistemini</strong> öneriyoruz: gündüz katmanı sıcaklığı filtreler, gece karartma katmanı soğuğu engeller. Şırnak merkez konutlarında standart ölçülere hızlı üretim yapıyoruz.",
+          "Cizre ve Silopi'nin sınır hattındaki konutlarında sert iklim nedeniyle tam karartma modeli öneriyoruz; tam ışık kesisi ve maksimum ısı kontrolü sağlar. İdil ve Beytüşşebap'ın dağlık kesimlerinde çift petekli honeycomb modeli ile soğuk yalıtımı uyguluyoruz. Uludere'nin vadi kesimindeki köy evlerinde geniş pencere için katlanır sistem, Güçlükonak'ın kırsal konutlarında anti-nem kumaş tercih ediyoruz. Gabar Dağı çevresindeki yüksek rakımlı kırsal yerleşimlerde honeycomb modeli öneriyoruz.",
         ],
       },
       {
-        h2: "Şırnak'ın 7 İlçesinde Cudi Dağı Etekleri Gönderimi",
-        paragraphs: ["Şırnak'ın tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Sınır bölgesi iklimi olduğundan gece-gündüz modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Sınır Şehrinin 7 İlçesine Kurye Teslimat",
+        paragraphs: ["İstanbul Pendik'teki atölyemizde üretilen perdeler, Şırnak'ın 7 ilçesine <strong>video keşif</strong> ardından kargoyla sevk edilir. Şırnak merkez, Beytüşşebap, Cizre, Güçlükonak, İdil, Silopi ve Uludere'nin tamamına ulaşım sağlıyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim onayı sonrası kargo takip numarası iletilir."],
       },
     ],
     faqItems: [
-      { question: "Şırnak'ta video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Şırnak'ın 7 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Şırnak Cizre sınır bölgesi için hangi perde önerirsiniz?", answer: "Cizre ve Silopi'nin sınır bölgesi konutlarında karartma modeli öneriyoruz. Sert iklimde tam ışık kesisi ve maksimum ısı kontrolü sağlar." },
+      { question: "Cizre'nin aşırı sıcağında perde kumaşı bozulur mu?", answer: "Hayır, kullandığımız kumaşlar yüksek sıcaklıkta deformasyona uğramaz. +42°C yaz sıcağında güneş filtreli ve tam karartma kumaşlar performansını korur; UV dayanımlı yapı sayesinde renk solması olmaz." },
+      { question: "Gabar Dağı çevresindeki köy evime kargo gelir mi?", answer: "Evet, Gabar Dağı çevresindeki kırsal yerleşimler dahil Şırnak'ın 7 ilçesinin tamamına kargo ile teslimat yapıyoruz. Video keşif sonrası ölçü alınıp, üretim ardından kargo takip numarası WhatsApp üzerinden iletilir." },
     ],
   },
   {
@@ -2283,25 +2296,25 @@ export const cities: CityData[] = [
     region: "Güneydoğu Anadolu",
     priority: false,
     districts: ["Elbeyli", "Kilis merkez", "Musabeyli", "Polateli"],
-    intro: "Kilis'in 4 ilçesinde plise perde hizmeti sunuyoruz. Türkiye'nin en küçük ilinde, <strong>sıcak yazlara uygun güneşlik ve karartma modellerini</strong> öneriyoruz. Kilis merkez konutları için video keşif ve kargo ile teslimat yapıyoruz.",
-    seoTitle: "Kilis Plise Perde - Video Keşif & Kargo",
-    seoDescription: "Kilis'in 4 ilçesinde plise perde: Elbeyli, Musabeyli, Polateli video keşif ve kargo. Sıcak sınır şehri için güneşlik ve karartma modelleri.",
+    intro: "Kilis'in 4 ilçesi için İstanbul Pendik'teki üretim hattımızdan plise perde sevk ediyoruz. <em>Anadolu'nun en küçük ili</em> olarak bilinen kent, Suriye sınırında yer alır ve yazın +42°C'ye tırmanan sıcaklıkla karakterize edilir; bu yüzden <strong>güneş filtreli ve tam karartma kumaş seçeneklerini</strong> öne çıkarıyoruz. Kilis merkez başta olmak üzere tüm ilçelere video keşif ve kargo teslimatı sağlıyoruz.",
+    seoTitle: "Kilis Plise Perde - Pendik Üretim & Kargo",
+    seoDescription: "Kilis 4 ilçe plise perde: Elbeyli, Musabeyli, Polateli. Sıcak sınır şehri için güneşlik ve karartma. Pendik üretim, video keşif, kargo teslimat.",
     sections: [
       {
-        h2: "Kilis'in Sınır Şehrinde Perde",
+        h2: "Zeytinliklerden Sınır Kapısına Plise Perde Üretimi",
         paragraphs: [
-          "Kilis, Türkiye'nin en küçük ilidir. Suriye sınırında yer alır. Yazları +42°C'ye varan sıcaklar görülür. Bu sıcak iklimde <strong>güneşlik kumaş plise perde</strong> öneriyoruz — güneş ışının yüzde 70'ini filtreler, iç mekan sıcaklığını düşürür. Karartma modeli de tam ışık kesisi sağlar.",
-          "Kilis merkez konutlarında standart ölçülere hızlı üretim yapıyoruz. Kilis'in tarihi çarşı çevresindeki evlerin pencerelerine özel ölçü üretim yapıyoruz. Elbeyli ve Polateli'nin sınır bölgesi konutlarında karartma modeli öneriyoruz. Musabeyli'nin tarım arazilerindeki çiftlik evlerinde geniş pencere için katlanır sistem uyguluyoruz.",
+          "Kilis, Türkiye'nin yüzölçümü en küçük ilidir ve Suriye sınırına sıfır noktasında yer alır. Yazın +42°C'ye varan sıcaklık, sınır düzlüğünden gelen güneşle birleşince pencere camlarını bir ısınma kaynağına dönüştürür. Kilis merkez konutlarında <strong>güneş filtreli plise kumaş</strong> tercih ederek içeri gelen ışınımın yaklaşık yüzde 70'ini engellemek; iç mekan sıcaklığını belirgin ölçüde düşürmek mümkündür. Tam karartma modeli ise gündüz uykusu ve karanlık ortam gereksinimleri için yüzde 100 ışık kesisi sağlar.",
+          "Kilis'in tarihi çarşı ve bedesten çevresindeki konutların pencerelerine <em>özel ölçü üretim</em> yapıyoruz. Elbeyli ve Polateli'nin sınır hattındaki konutlarında sert iklim nedeniyle tam karartma modeli öneriyoruz. Musabeyli'nin zeytinlikler arasındaki çiftlik evlerinde geniş pencere için katlanır honeycomb sistemini uyguluyoruz. Kilis'in zeytin işleme tesislerinin idari binaları için güneş filtreli kumaşla toplu çözümler üretiyoruz.",
         ],
       },
       {
-        h2: "Kilis'in 4 İlçesinde Sınır Şehri Teslimat Çözümü",
-        paragraphs: ["Kilis'in tüm ilçelerine <strong>video keşif</strong> ile hizmet veriyoruz. Sıcak iklim bölgesi olduğundan güneşlik modeli öneriyoruz. WhatsApp üzerinden ölçü alıp, kargo ile teslimat yapıyoruz."],
+        h2: "Anadolu'nun En Küçük İlinin 4 İlçesine Gönderi",
+        paragraphs: ["Pendik'teki atölyemizde üretilen perdeler, Kilis'in 4 ilçesine <strong>video keşif</strong> sonrası kargoyla gönderilir. Kilis merkez, Elbeyli, Musabeyli ve Polateli'nin tamamına ulaşım sağlıyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, üretim onayı ardından kargo takip numarası iletilir."],
       },
     ],
     faqItems: [
-      { question: "Kilis'te video keşif ile perde ısmarlayabilir miyim?", answer: "Evet, Kilis'in 4 ilçesinin tamamına video keşif ile hizmet veriyoruz. WhatsApp üzerinden pencere ölçülerinizi alıp, kargo ile teslimat yapıyoruz." },
-      { question: "Kilis yazın çok sıcak, hangi perde önerirsiniz?", answer: "Kilis'in +42°C sıcaklarında güneşlik kumaş plise perde öneriyoruz. Güneş ışının yüzde 70'ini filtreler, iç mekan sıcaklığını düşürür. Karartma modeli de tam ışık kesisi sağlar." },
+      { question: "Kilis'ten Suriye sınırındaki köyüme perde gönderilir mi?", answer: "Evet, Elbeyli ve Polateli'nin sınır hattındaki köyleri dahil Kilis'in 4 ilçesinin tamamına kargo ile teslimat yapıyoruz. Video keşif sonrası ölçü alınıp, üretim ardından kargo takip numarası WhatsApp üzerinden iletilir." },
+      { question: "Zeytin işleme tesisimin penceresi için hangi model uygun?", answer: "Zeytin işleme tesislerinin idari binaları için güneş filtreli plise kumaş öneriyoruz. +42°C yaz sıcağında iç mekan sıcaklığını düşürürken, tesis içi görünümü engellemez; UV dayanımlı yapı uzun ömürlü kullanım sağlar." },
     ],
   },
 ];
