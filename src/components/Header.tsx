@@ -115,6 +115,8 @@ export default function Header() {
               <img
                 src="/logo.webp"
                 alt="Plise Perde"
+                width={1920}
+                height={438}
                 className="h-9 w-auto"
               />
             </Link>

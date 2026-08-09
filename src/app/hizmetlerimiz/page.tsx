@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: { absolute: "Hizmetlerimiz — Plise Perde" },
   description:
-    "Montaj, ölçü alma, ücretsiz keşif ve fiyat hesaplama hizmetleri.",
+    "Plise perde montaj, ücretsiz keşif, ölçü alma, fiyat hesaplama ve özel üretim hizmetleri. İstanbul Pendik merkezli, Türkiye geneli teslimat.",
   keywords: ["hizmetlerimiz"],
   alternates: { canonical: "/hizmetlerimiz/" },
 };

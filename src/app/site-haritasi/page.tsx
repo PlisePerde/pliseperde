@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Site Haritası",
-  description: "Plise Perde site haritası. Tüm sayfalar ve kategoriler.",
+  description: "Plise Perde site haritası — ürünler, modeller, sistemler, hizmetler, karşılaştırmalar, şehirler ve tüm sayfaların kategorilere göre listesi.",
   alternates: { canonical: "/site-haritasi/" },
   keywords: ["site haritası"],
 };

@@ -13,6 +13,8 @@ export default function Footer() {
             <img
               src="/logo.webp"
               alt="Plise Perde"
+              width={1920}
+              height={438}
               className="h-8 w-auto mb-2"
             />
             <p className="text-sm text-brand-text-light leading-relaxed mb-3">

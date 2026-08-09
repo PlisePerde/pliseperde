@@ -143,9 +143,9 @@ export default function KarsilastirmalarPage() {
               </div>
               <div className="p-5">
                 <div className="flex items-start justify-between gap-3">
-                  <h3 className="font-semibold text-brand-text group-hover:text-brand transition-colors">
+                  <h2 className="font-semibold text-brand-text group-hover:text-brand transition-colors">
                     {c.title}
-                  </h3>
+                  </h2>
                   <svg
                     className="w-5 h-5 text-brand-text-light group-hover:text-brand transition-colors flex-shrink-0"
                     fill="none"

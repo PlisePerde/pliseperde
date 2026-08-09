@@ -68,6 +68,8 @@ export default function OfflinePage() {
           <img
             src="/logo.webp"
             alt="Plise Perde"
+            width={1920}
+            height={438}
             className="h-12 md:h-16 w-auto mx-auto mb-4"
           />
         </div>

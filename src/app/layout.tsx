@@ -57,6 +57,7 @@ export const metadata: Metadata = {
     },
     languages: {
       "tr-TR": "/",
+      "x-default": "/",
     },
   },
   openGraph: {
