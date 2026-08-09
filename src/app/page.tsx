@@ -106,6 +106,86 @@ export default function Home() {
           ),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "Plise Perde Ürünleri",
+            description: "Plise perde, honeycomb perde ve düet perde ürünleri.",
+            url: `${siteConfig.url}/`,
+            inLanguage: "tr-TR",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                item: {
+                  "@type": "Product",
+                  name: "Plise Perdeler",
+                  description: "Harmonika katlamalı polyester kumaş pencere perdesi. Tül, güneşlik, karartma — 5 ışık seviyesi.",
+                  category: "Pencere Perdesi",
+                  url: `${siteConfig.url}/plise-perde/`,
+                  brand: { "@type": "Brand", name: "PlisePerde" },
+                  image: `${siteConfig.url}/mega-menu/plise-perdeler.webp`,
+                },
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                item: {
+                  "@type": "Product",
+                  name: "Honeycomb Perdeler",
+                  description: "Petek hücreli yapı, ısı yalıtımı ve ses azaltması. U-değeri <2.0 W/m²K.",
+                  category: "Pencere Perdesi",
+                  url: `${siteConfig.url}/honeycomb-perde/`,
+                  brand: { "@type": "Brand", name: "PlisePerde" },
+                  image: `${siteConfig.url}/mega-menu/honeycomb-perdeler.webp`,
+                },
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                item: {
+                  "@type": "Product",
+                  name: "Düet Perdeler",
+                  description: "Çift hücreli yapı, gündüz ışık + gece karartma tek profilde.",
+                  category: "Pencere Perdesi",
+                  url: `${siteConfig.url}/duet-perde/`,
+                  brand: { "@type": "Brand", name: "PlisePerde" },
+                  image: `${siteConfig.url}/mega-menu/duet-perdeler.webp`,
+                },
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                item: {
+                  "@type": "Product",
+                  name: "Plise Perde Aparatları",
+                  description: "Montaj aparatları, kontrol kolları, uzatma profilleri ve aksesuarlar.",
+                  category: "Aksesuar",
+                  url: `${siteConfig.url}/plise-perde-aparatlari/`,
+                  brand: { "@type": "Brand", name: "PlisePerde" },
+                  image: `${siteConfig.url}/mega-menu/plise-perde-aparatlarimiz.webp`,
+                },
+              },
+              {
+                "@type": "ListItem",
+                position: 5,
+                item: {
+                  "@type": "Product",
+                  name: "Plise Perde Yedek Parça",
+                  description: "Profil, kumaş, ip, motor ve aksesuar yedekleri.",
+                  category: "Yedek Parça",
+                  url: `${siteConfig.url}/plise-perde-yedek-parca/`,
+                  brand: { "@type": "Brand", name: "PlisePerde" },
+                  image: `${siteConfig.url}/mega-menu/plise-perde-yedek-parcalar.webp`,
+                },
+              },
+            ],
+          }),
+        }}
+      />
       <Header />
       <main className="flex-1 pb-14 md:pb-0">
         {/* Hero */}
@@ -342,12 +422,12 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Products */}
-        <section className="bg-white py-10 md:py-12">
+        {/* Ürünlerimiz — Product Showcase */}
+        <section aria-label="Ürünlerimiz" className="bg-brand-bg py-10 md:py-12">
           <div className="mx-auto max-w-[1536px] px-4 md:px-6">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-lg md:text-xl font-semibold text-brand-text">
-                Plise Perde Modelleri
+                Ürünlerimiz
               </h2>
               <Link
                 href="/urunlerimiz"
@@ -356,50 +436,129 @@ export default function Home() {
                 Tümü <ChevronRight size={14} />
               </Link>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              {productCards.map((p) => (
-                <article key={p.label} className="p-4 bg-white border border-brand-border rounded-lg">
-                  <h3 className="text-sm font-medium text-brand-text mb-1">
-                    {p.label}
-                  </h3>
-                  <p className="text-xs text-brand-text-light">{p.desc}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <article className="bg-white border border-brand-border rounded-lg overflow-hidden hover:border-brand transition-colors group">
+                <Link href="/plise-perde/" className="block">
+                  <div className="aspect-[4/3] overflow-hidden bg-brand-bg">
+                    <img
+                      src="/mega-menu/plise-perdeler.webp"
+                      alt="Plise Perdeler — harmonika katlamalı pencere perdesi"
+                      width={400}
+                      height={300}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-base font-semibold text-brand-text mb-2">Plise Perdeler</h3>
+                    <p className="text-sm text-brand-text-light mb-3 leading-relaxed">
+                      Harmonika katlamalı, polyester kumaş. Tül, güneşlik, karartma — 5 ışık seviyesi. Özel ölçü üretim.
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-sm font-medium text-brand">
+                      İncele <ChevronRight size={14} />
+                    </span>
+                  </div>
+                </Link>
+              </article>
 
-        {/* Services */}
-        <section className="bg-brand-bg py-10 md:py-12">
-          <div className="mx-auto max-w-[1536px] px-4 md:px-6">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-lg md:text-xl font-semibold text-brand-text">
-                Hizmetlerimiz
-              </h2>
-              <Link
-                href="/hizmetlerimiz"
-                className="flex items-center gap-1 text-sm text-brand hover:text-brand-dark transition-colors"
-              >
-                Tümü <ChevronRight size={14} />
-              </Link>
+              <article className="bg-white border border-brand-border rounded-lg overflow-hidden hover:border-brand transition-colors group">
+                <Link href="/honeycomb-perde/" className="block">
+                  <div className="aspect-[4/3] overflow-hidden bg-brand-bg">
+                    <img
+                      src="/mega-menu/honeycomb-perdeler.webp"
+                      alt="Honeycomb Perdeler — petek hücreli ısı yalıtımlı pencere perdesi"
+                      width={400}
+                      height={300}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-base font-semibold text-brand-text mb-2">Honeycomb Perdeler</h3>
+                    <p className="text-sm text-brand-text-light mb-3 leading-relaxed">
+                      Petek hücreli yapı, ısı yalıtımı ve ses azaltması. U-değeri &lt;2.0 W/m²K. Enerji tasarrufu sağlar.
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-sm font-medium text-brand">
+                      İncele <ChevronRight size={14} />
+                    </span>
+                  </div>
+                </Link>
+              </article>
+
+              <article className="bg-white border border-brand-border rounded-lg overflow-hidden hover:border-brand transition-colors group">
+                <Link href="/duet-perde/" className="block">
+                  <div className="aspect-[4/3] overflow-hidden bg-brand-bg">
+                    <img
+                      src="/mega-menu/duet-perdeler.webp"
+                      alt="Düet Perdeler — çift hücreli ışık ve gizlilik dengeli pencere perdesi"
+                      width={400}
+                      height={300}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-base font-semibold text-brand-text mb-2">Düet Perdeler</h3>
+                    <p className="text-sm text-brand-text-light mb-3 leading-relaxed">
+                      Çift hücreli yapı, gündüz ışık + gece karartma tek profilde. İki katmanlı, esnek kullanım.
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-sm font-medium text-brand">
+                      İncele <ChevronRight size={14} />
+                    </span>
+                  </div>
+                </Link>
+              </article>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {serviceCards.map((s) => (
-                <article key={s.href}>
-                  <Link
-                    href={s.href}
-                    className="flex items-start gap-3 p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors"
-                  >
-                    <s.icon size={20} className="text-brand mt-0.5 shrink-0" />
-                    <div>
-                      <h3 className="text-sm font-medium text-brand-text mb-0.5">
-                        {s.label}
-                      </h3>
-                      <p className="text-xs text-brand-text-light">{s.desc}</p>
-                    </div>
-                  </Link>
-                </article>
-              ))}
+
+            {/* Aparat ve Yedek Parça — 2 kart */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              <article className="bg-white border border-brand-border rounded-lg overflow-hidden hover:border-brand transition-colors group">
+                <Link href="/plise-perde-aparatlari/" className="block">
+                  <div className="aspect-[4/3] overflow-hidden bg-brand-bg">
+                    <img
+                      src="/mega-menu/plise-perde-aparatlarimiz.webp"
+                      alt="Plise Perde Aparatları — montaj ve kontrol aparatları"
+                      width={400}
+                      height={300}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-base font-semibold text-brand-text mb-2">Plise Perde Aparatları</h3>
+                    <p className="text-sm text-brand-text-light mb-3 leading-relaxed">
+                      Montaj aparatları, kontrol kolları, uzatma profilleri ve aksesuarlar. Tüm plise perde sistemleri için uyumlu.
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-sm font-medium text-brand">
+                      İncele <ChevronRight size={14} />
+                    </span>
+                  </div>
+                </Link>
+              </article>
+
+              <article className="bg-white border border-brand-border rounded-lg overflow-hidden hover:border-brand transition-colors group">
+                <Link href="/plise-perde-yedek-parca/" className="block">
+                  <div className="aspect-[4/3] overflow-hidden bg-brand-bg">
+                    <img
+                      src="/mega-menu/plise-perde-yedek-parcalar.webp"
+                      alt="Plise Perde Yedek Parça — profil, kumaş ve motor yedekleri"
+                      width={400}
+                      height={300}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-base font-semibold text-brand-text mb-2">Plise Perde Yedek Parça</h3>
+                    <p className="text-sm text-brand-text-light mb-3 leading-relaxed">
+                      Profil, kumaş, ip, motor ve aksesuar yedekleri. 2 yıl garanti kapsamı dışı parçalar için orijinal yedek.
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-sm font-medium text-brand">
+                      İncele <ChevronRight size={14} />
+                    </span>
+                  </div>
+                </Link>
+              </article>
             </div>
           </div>
         </section>
