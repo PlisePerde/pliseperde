@@ -12,6 +12,7 @@ import {
   Search,
   Sparkles,
   MapPin,
+  BookOpen,
 } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 
@@ -56,6 +57,11 @@ export default function TopBar() {
             Türkiye ve Avrupa'nın Plise Perde Üreticisi!
           </span>
           <div className="flex items-center gap-2 flex-shrink-0">
+            <Link href="/plise-perde-katalog" className="hidden sm:flex items-center gap-1 text-white/90 hover:text-white transition-colors font-medium touch-reset">
+              <BookOpen size={13} className="flex-shrink-0" />
+              Katalog
+            </Link>
+            <div className="hidden sm:block h-3 w-px bg-white/30" />
             <Link href="/hizmet-bolgeleri" className="hidden sm:flex items-center gap-1 text-white/90 hover:text-white transition-colors font-medium touch-reset">
               <MapPin size={13} className="flex-shrink-0" />
               Hizmet Bölgeleri
