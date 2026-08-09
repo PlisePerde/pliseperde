@@ -142,7 +142,7 @@ export default function Home() {
                 <a
                   href={siteConfig.whatsapp}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-3 text-sm md:text-base font-semibold border-2 border-white/80 text-white rounded-lg hover:bg-white/10 transition-colors"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">

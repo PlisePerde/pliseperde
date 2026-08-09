@@ -323,7 +323,7 @@ async function BlogPostView({ slug }: { slug: string }) {
                 <a
                   href={`https://wa.me/?text=${encodeURIComponent(post.title + " - " + siteConfig.url + "/" + post.slug + "/")}`}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-brand-bg border border-brand-border hover:border-brand transition-colors"
                   aria-label="WhatsApp ile paylaş"
                 >
@@ -334,7 +334,7 @@ async function BlogPostView({ slug }: { slug: string }) {
                 <a
                   href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(siteConfig.url + "/" + post.slug + "/")}`}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-brand-bg border border-brand-border hover:border-brand transition-colors"
                   aria-label="Facebook ile paylaş"
                 >
@@ -345,7 +345,7 @@ async function BlogPostView({ slug }: { slug: string }) {
                 <a
                   href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(siteConfig.url + "/" + post.slug + "/")}`}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-brand-bg border border-brand-border hover:border-brand transition-colors"
                   aria-label="X ile paylaş"
                 >
@@ -356,7 +356,7 @@ async function BlogPostView({ slug }: { slug: string }) {
                 <a
                   href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(siteConfig.url + "/" + post.slug + "/")}&description=${encodeURIComponent(post.title)}`}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-brand-bg border border-brand-border hover:border-brand transition-colors"
                   aria-label="Pinterest ile paylaş"
                 >
