@@ -9,7 +9,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "İletişim",
+  title: "İletişim — Telefon, WhatsApp, Adres & Keşif",
   description:
     "Plise Perde iletişim. Telefon, WhatsApp, e-posta, adres. Pendik İstanbul. Ücretsiz keşif için hemen ulaşın.",
   slug: "iletisim",
