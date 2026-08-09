@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Jaluzi Perde — Karşılaştırma",
   description:
-    "Plise perde vs jaluzi perde karşılaştırması. Ahşap jaluzi, alüminyum jaluzi ve plise perde fiyat, ışık kontrolü, montaj, temizlik, dayanıklılık. Hangisi sizin için uygun?",
+    "Plise perde vs jaluzi perde: ahşap ve alüminyum jaluzi ile fiyat, ışık kontrolü, montaj, temizlik ve dayanıklılık karşılaştırması. Hangisi uygun?",
   slug: "plise-perde-vs-jaluzi-perde",
 });
 

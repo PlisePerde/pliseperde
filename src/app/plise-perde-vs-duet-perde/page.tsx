@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Düet Perde — Karşılaştırma",
   description:
-    "Plise perde ve düet perde arasındaki farklar: katman yapısı, aydınlatma çeşitliliği, fiyat performansı, montaj detayları, temizlik gereksinimleri ve dekoratif etki. Doğru seçim için detaylı analiz.",
+    "Plise perde ve düet perde farkları: katman yapısı, aydınlatma, fiyat, montaj, temizlik ve dekoratif etki. Doğru seçim için detaylı analiz.",
   slug: "plise-perde-vs-duet-perde",
 });
 

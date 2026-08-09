@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde Fiyatları 2026 — Güncel Fiyat Listesi (m² KDV Dahil)",
   description:
-    "Plise perde fiyatları 2026: Diamond, Tulle, Blackout, Honeycomb ve 13 kumaş modeli. Metrekare fiyat tablosu, vidalı montaj ücretsiz, KDV dahil, 2 yıl garanti. Online fiyat hesaplama, ücretsiz keşif.",
+    "Plise perde fiyatları 2026: Diamond, Tulle, Blackout, Honeycomb ve 13 kumaş modeli. m² fiyat tablosu, vidalı montaj ücretsiz, KDV dahil, 2 yıl garanti.",
   slug: "plise-perde-fiyatlari",
 });
 

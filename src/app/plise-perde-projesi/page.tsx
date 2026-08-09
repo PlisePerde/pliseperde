@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Proje ve Toplu Üretim — Plise Perde",
   description:
-    "Proje ve toplu üretim hizmeti. Otel, rezidans, ofis, hastane, okul ve ticari projeler için plise perde üretim ve montaj. Mimari çözümler, özel ölçü, toplu fiyat.",
+    "Proje ve toplu üretim: otel, rezidans, ofis, hastane, okul ve ticari projeler için plise perde üretim ve montaj. Mimari çözümler, özel ölçü, toplu fiyat.",
   slug: "plise-perde-projesi",
 });
 

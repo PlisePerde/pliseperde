@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Karartma Perde — Karşılaştırma",
   description:
-    "Plise perde ve karartma (blackout) perde karşılaştırması. Işık kesme oranı, uyku verimliliği, kumaş esnekliği, fiyat ve bakım farkları. Doğru seçim için rehber.",
+    "Plise perde ve karartma (blackout) perde: ışık kesme, uyku verimliliği, kumaş esnekliği, fiyat ve bakım farkları. Doğru seçim rehberi.",
   slug: "plise-perde-vs-karartma-perde",
 });
 

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Hastane Plise Perde — Anti-Bakteriyel, Hijyenik, Tam Karartma",
   description:
-    "Hastane için plise perde: anti-bakteriyel kumaş, hijyenik, kolay silme, tam karartma, dayanıklı mekanizma. Kurumsal proje çözümleri. Montaj dahil, 2 yıl garanti.",
+    "Hastane için plise perde: anti-bakteriyel kumaş, hijyenik, kolay silme, tam karartma, dayanıklı mekanizma. Kurumsal proje, montaj dahil, 2 yıl garanti.",
   slug: "hastane-plise-perde",
 });
 

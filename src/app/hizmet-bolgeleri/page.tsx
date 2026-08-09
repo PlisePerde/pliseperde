@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: { absolute: "Plise Perde Hizmet Bölgeleri — Plise Perde" },
   description:
-    "Plise perde hizmet bölgeleri: Türkiye 81 il ve Avrupa'da 6 ülkede (Almanya, Hollanda, Fransa, Belçika, İsviçre, Avusturya) plise perde tedarik ve montaj. Ücretsiz keşif, profesyonel montaj, haftalık Avrupa sevkiyatı.",
+    "Plise perde hizmet bölgeleri: Türkiye 81 il ve Avrupa'da 6 ülkede tedarik ve montaj. Ücretsiz keşif, profesyonel montaj, haftalık Avrupa sevkiyatı.",
   alternates: { canonical: "/hizmet-bolgeleri/" },
   keywords: ["hizmet bölgeleri", "plise perde almanya", "plise perde hollanda", "plise perde avrupa", "plise perde fransa", "plise perde belçika", "plise perde isviçre", "plise perde avusturya"],
   openGraph: {

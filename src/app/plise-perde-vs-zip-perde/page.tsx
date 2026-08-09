@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Zip Perde — Karşılaştırma",
   description:
-    "Plise perde ile zip perde arasındaki farklar: iç mekan ve dış cephe kullanımı, rüzgar performansı, bütçe, güneş süzme ve takma işlemi. Doğru tercihi öğrenin.",
+    "Plise perde ile zip perde farkları: iç-dış mekan kullanımı, rüzgar performansı, bütçe, güneş süzme ve montaj. Doğru tercihi öğrenin.",
   slug: "plise-perde-vs-zip-perde",
 });
 

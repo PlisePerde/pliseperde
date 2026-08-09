@@ -29,7 +29,7 @@ import {
 export const metadata: Metadata = generatePageMetadata({
   title: "Kurumsal — Plise Perde Üretici",
   description:
-    "Plise Perde kurumsal sayfası. Şirket bilgileri, üretim süreci, referanslar, sürdürülebilirlik, politikalar, sözleşmeler, garanti ve iletişim. 2022'den beri üretici.",
+    "Plise Perde kurumsal: şirket bilgileri, üretim süreci, referanslar, sürdürülebilirlik, politikalar, garanti ve iletişim. 2022'den beri üretici.",
   slug: "kurumsal",
   keywords: [
     "plise perde kurumsal",

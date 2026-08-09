@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde Kullanım Alanları — Ev, Ofis, Ticari ve Kurumsal",
   description:
-    "Plise perde kullanım alanları: mutfak, salon, yatak odası, ofis, otel, kafe, hastane, okul, karavan, tekne. Her mekan için özel plise perde çözümleri. 2 yıl garanti.",
+    "Plise perde kullanım alanları: mutfak, salon, yatak odası, ofis, otel, kafe, hastane, okul, karavan ve tekne. Her mekan için özel çözüm, 2 yıl garanti.",
   slug: "plise-perde-kullanim-alanlari",
 });
 

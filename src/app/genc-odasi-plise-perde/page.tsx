@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Genç Odası Plise Perde — Modern Tasarım, Renk Seçenekleri",
   description:
-    "Genç odası için plise perde: modern tasarım, renk seçenekleri, çalışma ve dinlenme dengesi, güneşlik ile ekran parlaması önleme. Montaj dahil, 2 yıl garanti.",
+    "Genç odası için plise perde: modern tasarım, renk seçenekleri, çalışma-dinlenme dengesi, ekran parlaması önleme. Montaj dahil, 2 yıl garanti.",
   slug: "genc-odasi-plise-perde",
 });
 

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Mutfak Plise Perde — Nem Dayanımlı, Pencere İçi Montaj",
   description:
-    "Mutfak için plise perde: nem dayanımlı kumaş, pencere içi montaj ile tezgaha engel olmaz. Yağ buharı dayanımı, kolay temizlik, ışık kontrolü. 2 yıl garanti.",
+    "Mutfak için plise perde: nem dayanımlı kumaş, pencere içi montaj ile tezgaha engel olmaz. Yağ buharı dayanımı, kolay temizlik. 2 yıl garanti.",
   slug: "mutfak-plise-perde",
 });
 

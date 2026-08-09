@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Dikey Perde — Karşılaştırma",
   description:
-    "Plise perde ve dikey perde arasındaki farklar: sistem mimarisi, pencere uyumu, güneş açısı yönetimi, maliyet, montaj, temizlik ve görsel dil. Doğru tercih için detaylı analiz.",
+    "Plise perde ve dikey perde farkları: sistem mimarisi, pencere uyumu, güneş yönetimi, maliyet, montaj, temizlik ve görsel dil. Detaylı analiz.",
   slug: "plise-perde-vs-dikey-perde",
 });
 

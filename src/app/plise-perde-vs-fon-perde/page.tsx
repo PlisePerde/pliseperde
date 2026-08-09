@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde vs Fon Perde — Karşılaştırma",
   description:
-    "Plise perde ve fon perde arasındaki farklar: hareket mekanizması, aydınlatma, mahremiyet, dekoratif etki, maliyet, kurulum ve bakım. Doğru seçim için detaylı analiz.",
+    "Plise perde ve fon perde farkları: hareket mekanizması, aydınlatma, mahremiyet, dekoratif etki, maliyet, kurulum ve bakım. Detaylı analiz.",
   slug: "plise-perde-vs-fon-perde",
 });
 

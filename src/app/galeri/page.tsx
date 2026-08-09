@@ -17,7 +17,7 @@ import { galleryCategories, allGalleryImages } from "@/data/gallery";
 export const metadata: Metadata = generatePageMetadata({
   title: "Galeri — Plise Perde, Honeycomb ve Düet Perde Uygulama Fotoğrafları",
   description:
-    "Plise perde, honeycomb perde ve düet perde uygulama fotoğrafları. Gerçek projelerden montaj örnekleri: salon, yatak odası, cam balkon, mutfak, ofis. Plise Perde kalitesiyle uygulanan perde modellerini inceleyin.",
+    "Plise perde, honeycomb ve düet perde uygulama fotoğrafları. Gerçek projelerden salon, yatak odası, cam balkon, mutfak ve ofis montaj örnekleri.",
   slug: "galeri",
   ogImage: "/galeri.webp",
   ogImageAlt: "Plise Perde Galeri — Uygulama Fotoğrafları",

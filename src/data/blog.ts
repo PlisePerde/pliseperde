@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-nedir",
     title: "Plise Perde Nedir?",
     description:
-      "Plise perde nedir, nasıl çalışır, hangi malzemelerden üretilir? Uzman gözüyle plise perde teknolojisini, tarihçesini ve avantajlarını tüm detaylarıyla anlatıyoruz.",
+      "Plise perde nedir, nasıl çalışır ve hangi malzemelerden üretilir? Teknolojisi, tarihçesi ve avantajlarıyla kapsamlı rehber.",
     author: "Plise Perde Uzmanı",
     datePublished: "2026-07-10",
     readingTime: 8,
@@ -67,7 +67,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-nasil-yapilir",
     title: "Plise Perde Nasıl Yapılır? Plise Perde Yapımı Adım Adım",
     description:
-      "Plise perde yapımı ve üretim süreci adım adım: kumaş hazırlama, kıvrımlama, profil kesimi, kordon montajı ve kalite kontrol. Profesyonel plise perde yapımı teknikleri.",
+      "Plise perde yapımı ve üretim süreci adım adım: kumaş hazırlama, kıvrımlama, profil kesimi, kordon montajı ve kalite kontrol.",
     author: "Plise Perde Üretim Uzmanı",
     datePublished: "2026-07-13",
     readingTime: 9,
@@ -119,7 +119,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-montaji-nasil-yapilir",
     title: "Plise Perde Montajı Nasıl Yapılır?",
     description:
-      "Plise perde takma ve montajı adım adım: vidalı ve yapışkanlı sistem. Hangi araçlar gerekir? Plise perde nasıl takılır? Profesyonel plise perde takma teknikleri ve dikkat edilmesi gerekenler.",
+      "Plise perde montajı adım adım: vidalı ve yapışkanlı sistem. Hangi araçlar gerekir, perde nasıl takılır ve dikkat edilecek profesyonel püf noktaları.",
     author: "Plise Perde Montaj Ekibi",
     datePublished: "2026-07-19",
     readingTime: 10,
@@ -148,7 +148,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-nasil-cikarilir",
     title: "Plise Perde Nasıl Çıkarılır?",
     description:
-      "Vidalı ve yapışkanlı plise perde nasıl çıkarılır? Temizlik, değişim veya taşınma için perdeyi güvenle sökme rehberi. Her sistem için adım adım çıkarma işlemi.",
+      "Plise perde nasıl çıkarılır? Vidalı ve yapışkanlı sistemlerde temizlik, değişim veya taşınma için güvenli sökme adımları.",
     author: "Plise Perde Servis Ekibi",
     datePublished: "2026-07-22",
     readingTime: 6,
@@ -173,7 +173,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-temizligi-nasil-yapilir",
     title: "Plise Perde Temizliği Nasıl Yapılır?",
     description:
-      "Plise perde nasıl temizlenir ve nasıl yıkanır? Günlük bakımdan derin temizliğe, kumaş türüne göre yıkama yöntemlerinden sıkça yapılan hatalara kadar kapsamlı temizlik rehberi.",
+      "Plise perde temizliği nasıl yapılır? Günlük bakımdan derin temizliğe, kumaş türüne göre yıkama yöntemleri ve sık yapılan hatalar.",
     author: "Plise Perde Bakım Uzmanı",
     datePublished: "2026-07-25",
     readingTime: 7,
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-malzemeleri-nelerdir",
     title: "Plise Perde Malzemeleri Nelerdir?",
     description:
-      "Plise perde malzemeleri nelerdir? Kumaş, alüminyum profil, kordon, aksesuar ve montaj elemanları detaylı inceleme. Plise perde yapımında kullanılan tüm malzemeler ve teknik özellikleri.",
+      "Plise perde malzemeleri nelerdir? Kumaş, alüminyum profil, kordon, aksesuar ve montaj elemanları detaylı inceleme: teknik özellikleriyle.",
     author: "Plise Perde Üretim Uzmanı",
     datePublished: "2026-08-02",
     readingTime: 11,
@@ -257,7 +257,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-mekanizmasi-nasil-calisir",
     title: "Plise Perde Mekanizması Nasıl Çalışır?",
     description:
-      "Plise perde mekanizması nasıl çalışır? Kordon sistemi, kıvrım yapısı, açma-kapama prensibi ve motorlu mekanizma detayları. Plise perde hareket mekanizmasının tüm teknik sırları.",
+      "Plise perde mekanizması nasıl çalışır? Kordon sistemi, kıvrım yapısı, açma-kapama prensibi ve motorlu mekanizma detayları.",
     author: "Plise Perde Mühendislik Ekibi",
     datePublished: "2026-08-02",
     readingTime: 10,
@@ -287,7 +287,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-kumasi-nasil-secilir",
     title: "Plise Perde Kumaşı Nasıl Seçilir?",
     description:
-      "Plise perde kumaşı nasıl seçilir? Tül, güneşlik, yarı karartma ve blackout kumaş türleri, ışık geçirgenliği, renk seçimi, honeycomb petek yapı ve odaya göre kumaş seçimi rehberi.",
+      "Plise perde kumaşı nasıl seçilir? Tül, güneşlik, yarı karartma ve blackout türleri, ışık geçirgenliği, renk ve odaya göre seçim rehberi.",
     author: "Plise Perde Uzmanı",
     datePublished: "2026-08-02",
     readingTime: 12,
@@ -321,7 +321,7 @@ export const blogPosts: BlogPost[] = [
     slug: "plise-perde-ipi-nasil-degistirilir",
     title: "Plise Perde İpi Nasıl Değiştirilir?",
     description:
-      "Plise perde ipi nasıl değiştirilir? Kopan, gevşeyen veya yıpranan plise perde kordonunu adım adım değiştirme rehberi. Hangi ip kullanılır, hangi aletler gerekir, profesyonel ip değişimi teknikleri.",
+      "Plise perde ipi nasıl değiştirilir? Kopan veya yıpranan kordonu adım adım değiştirme rehberi: doğru ip seçimi, gerekli aletler ve profesyonel teknikler.",
     author: "Plise Perde Servis Ekibi",
     datePublished: "2026-08-02",
     readingTime: 10,
