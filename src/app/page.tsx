@@ -207,9 +207,9 @@ export default function Home() {
                 </p>
                 <Link
                   href="/plise-perde-nedir"
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-brand hover:text-brand-dark transition-colors"
+                  className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
                 >
-                  Detaylı bilgi için: Plise Perde Nedir?
+                  Devamını Oku
                   <ChevronRight size={16} />
                 </Link>
               </div>
