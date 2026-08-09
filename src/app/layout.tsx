@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "motorlu plise perde",
     "karartma plise perde",
     "tül plise perde",
-    "vidasız plise perde",
+    "braketli plise perde",
     "plise perde istanbul",
     "plise perde kocaeli",
     "plise perde sakarya",

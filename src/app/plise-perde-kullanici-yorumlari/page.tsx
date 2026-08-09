@@ -82,7 +82,7 @@ export default function MusteriYorumlariPage() {
               "\"Cam balkona honeycomb taktırdık, kışın bile kullanıyoruz.\" — 5/5",
               "\"Sineklik modeli ile camı açık tutabiliyoruz.\" — 5/5",
               "\"Pile katlı yapı balkonda hiç yer kaplamıyor.\" — 5/5",
-              "\"Vidasız montaj ile çerçeveye zarar vermeden takıldı.\" — 4/5",
+              "\"Yapışkanlı montaj ile çerçeveye zarar vermeden takıldı.\" — 4/5",
               "\"Güneşlik modeli balkon güneşini mükemmel filtreliyor.\" — 5/5",
             ],
           },

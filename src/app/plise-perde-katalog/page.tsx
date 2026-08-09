@@ -183,7 +183,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "Katalogda kaç model var?",
-    answer: "Katalogda 10+ model mevcuttur: plise perde, honeycomb, düet, blackout, gece gündüz, motorlu, vidasız, kancalı, desenli ve düz modeller.",
+    answer: "Katalogda 10+ model mevcuttur: plise perde, honeycomb, düet, blackout, gece gündüz, motorlu, braketli, kancalı, desenli ve düz modeller.",
   },
   {
     question: "Hangi modeli seçeceğimi bilemiyorum, yardımcı olur musunuz?",
@@ -429,7 +429,7 @@ export default function PlisePerdeKatalogPage() {
                 </tr>
                 <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                   <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Montaj</th>
-                  <td className="px-3 py-2 text-brand-text-light">Vidalı, yapışkanlı, portrayli, vidasız, kancalı</td>
+                  <td className="px-3 py-2 text-brand-text-light">Vidalı, yapışkanlı, kancalı, portrayli, braketli, motorlu</td>
                 </tr>
                 <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                   <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Garanti</th>

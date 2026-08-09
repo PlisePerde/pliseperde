@@ -26,7 +26,7 @@ const features = [
     icon: Wrench,
     title: "Profesyonel Montaj",
     desc: "Deneyimli montaj ekibi.",
-    tooltip: "Deneyimli ve uzman montaj ekibimizle plise perde montajınızı profesyonelce yapıyoruz. Vidalı, vidasız ve portrayli montaj seçenekleriyle her pencere tipine uygun çözüm sunuyoruz.",
+    tooltip: "Deneyimli ve uzman montaj ekibimizle plise perde montajınızı profesyonelce yapıyoruz. Vidalı, yapışkanlı, kancalı, portrayli, braketli ve motorlu montaj seçenekleriyle her pencere tipine uygun çözüm sunuyoruz.",
   },
   {
     icon: Phone,

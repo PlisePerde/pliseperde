@@ -29,7 +29,7 @@ export default function KesifPage() {
           h2: "Ücretsiz Keşif ve Danışmanlık Nedir?",
           paragraphs: [
             "Ücretsiz keşif ve danışmanlık, <strong>profesyonel ekibin adresinize gelmesi</strong> ile başlar. Pencere ölçüleri alınır, çerçeve tipi kontrol edilir ve uygun montaj tipi belirlenir. <em>Net fiyat teklifi</em> sunulur.",
-            "Danışmanlık kısmında; hangi <u>plise perde modeli</u> (düz, blackout, gece gündüz, desenli), hangi <u>sistem</u> (vidalı, vidasız, yapışkanlı, kancalı, portrayli) ve hangi <u>kumaş</u> (honeycomb, düet, standart) size uygun olduğunu birlikte karar veririz. Karar tamamen sizin — biz sadece profesyonel rehberlik sunarız.",
+            "Danışmanlık kısmında; hangi <u>plise perde modeli</u> (düz, blackout, gece gündüz, desenli), hangi <u>sistem</u> (vidalı, yapışkanlı, kancalı, portrayli, braketli, motorlu) ve hangi <u>kumaş</u> (honeycomb, düet, standart) size uygun olduğunu birlikte karar veririz. Karar tamamen sizin — biz sadece profesyonel rehberlik sunarız.",
             "Keşif sonrası <u>sipariş zorunluluğu yoktur</u>. Net fiyat ile karar verirsiniz. Sürpriz maliyet, gizli ücret yoktur.",
           ],
           table: {
@@ -70,7 +70,7 @@ export default function KesifPage() {
             headers: ["Karar", "Seçenekler", "Kriter"],
             rows: [
               ["Model", "Düz, Blackout, Gece Gündüz, Desenli, Baskılı", "Oda kullanımı ve ışık ihtiyacı"],
-              ["Sistem", "Vidalı, Vidasız, Yapışkanlı, Kancalı, Portrayli", "Çerçeve yapısı ve sökülebilirlik"],
+              ["Sistem", "Vidalı, Yapışkanlı, Kancalı, Portrayli, Braketli, Motorlu", "Çerçeve yapısı ve sökülebilirlik"],
               ["Kumaş", "Standart, Honeycomb, Düet", "Yalıtım ve enerji tasarrufu"],
               ["Montaj", "Vidalı, Yapışkanlı, Kancalı", "Kumaş ağırlığı ve çerçeve"],
             ],

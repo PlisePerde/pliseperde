@@ -56,7 +56,7 @@ const faqItems: FAQItem[] = [
   {
     question: "Cam balkon için hangi perde tipi uygun?",
     answer:
-      "Cam balkon için honeycomb perde (ısı yalıtımı) ve sineklik kombinasyonu idealdir. Az yer kaplayan modeller cam balkonda avantaj sağlar. Vidasız montaj seçeneği ile kiracı dostu çözümler de mevcuttur.",
+      "Cam balkon için honeycomb perde (ısı yalıtımı) ve sineklik kombinasyonu idealdir. Az yer kaplayan modeller cam balkonda avantaj sağlar. Yapışkanlı montaj seçeneği ile kiracı dostu çözümler de mevcuttur.",
   },
   {
     question: "Galeri fotoğraflarını indirebilir miyim?",

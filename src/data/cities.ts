@@ -147,9 +147,9 @@ export const cities: CityData[] = [
     region: "Marmara",
     priority: true,
     districts: ["Akçakoca", "Cumayeri", "Çilimli", "Düzce merkez", "Gölyaka", "Gümüşova", "Kaynaşlı", "Yığılca"],
-    intro: "Düzce'nin 8 ilçesinde plise perde montajı yapıyoruz. <strong>Karadeniz'in serin orman havası</strong> ve Akçakoca'nın tuzlu sahili, bu ilde iki farklı kumaş ihtiyacı yaratır. 1999 depreminden yeniden inşa edilen Düzce'de, modern pencerelere uygun vidasız klik sistemli hafif montaj uyguluyoruz.",
+    intro: "Düzce'nin 8 ilçesinde plise perde montajı yapıyoruz. <strong>Karadeniz'in serin orman havası</strong> ve Akçakoca'nın tuzlu sahili, bu ilde iki farklı kumaş ihtiyacı yaratır. 1999 depreminden yeniden inşa edilen Düzce'de, modern pencerelere uygun delmesiz klik sistemli hafif montaj uyguluyoruz.",
     seoTitle: "Düzce Plise Perde | Akçakoca, Düzce Merkez Yerinde Keşif",
-    seoDescription: "Düzce'nin 8 ilçesinde plise perde: Akçakoca sahili için nem dirençli kumaş, orman bölgesi için nefes alabilen kumaş. Deprem güvenli vidasız klik montaj.",
+    seoDescription: "Düzce'nin 8 ilçesinde plise perde: Akçakoca sahili için nem dirençli kumaş, orman bölgesi için nefes alabilen kumaş. Deprem güvenli delmesiz klik montaj.",
     sections: [
       {
         h2: "Yeşil Düzce'nin Yüksek Nemli Orman İkliminde Kumaş Tercihi",
@@ -167,7 +167,7 @@ export const cities: CityData[] = [
     ],
     faqItems: [
       { question: "Akçakoca'daki yazlığımızın nemli havasında plise perde ne kadar dayanır?", answer: "Akçakoca'nın Karadeniz ikliminde yıllık nem %70'in üzerindedir. Standart kumaşlar 2-3 yılda sararırken, bizim önerdiğimiz nem dirençli kaplamalı dokuma 5+ yıl dayanır. Sahil bölgesinde bu kumaşı ilk sıraya koyuyoruz." },
-      { question: "Düzce deprem bölgesi, pencereye perde monte etmek güvenli mi?", answer: "Evet, plise perde 200-400 gram arası hafif bir sistemdir ve pencere kasası içine monte edilir. Düzce'nin yeni binalarında vidasız klik sistemiyle delmeden, eski binalarda vidalı veya bantlı montajla sarsıntıya dayanıklı kurulum yapıyoruz." },
+      { question: "Düzce deprem bölgesi, pencereye perde monte etmek güvenli mi?", answer: "Evet, plise perde 200-400 gram arası hafif bir sistemdir ve pencere kasası içine monte edilir. Düzce'nin yeni binalarında delmesiz klik sistemiyle delmeden, eski binalarda vidalı veya bantlı montajla sarsıntıya dayanıklı kurulum yapıyoruz." },
     ],
   },
   {
@@ -271,7 +271,7 @@ export const cities: CityData[] = [
         h2: "Boğaz ve Adaların Tuzlu Havasında Özel Kumaş Çözümleri",
         paragraphs: [
           "Çanakkale Boğazı'nın iki yakasındaki konutlar, <strong>yıl boyu esen tuzlu deniz rüzgarına</strong> maruz kalır. Bozcaada ve Gökçeada'da bu etki daha da yoğundur. Adalardaki yazlık evler için <strong>anti-tuz kaplamalı kumaş</strong> üretiyoruz; tuz kristalleri kumaş gözeneklerini tıkamaz ve 5+ yıl dayanır. Sezonluk (Mayıs-Eylül) planlı keşif günleri ile adalara feribot ile ulaşıyoruz.",
-          "Gelibolu ve Eceabat'taki <strong>tarihi binalar</strong>, standart dışı pencere ölçülerine sahiptir. Her pencere için ayrı ölçü alıp özel üretim yapıyoruz; pencere kasası içine montaj ile tarihi cepheye zarar vermeden kurulum tamamlıyoruz. Biga ve Çan'daki sanayi tesisleri için yangın dayanımlı B1 sınıfı kumaş ile kurumsal çözümler sunuyoruz. Ayvacık ve Bayramiç'teki köy evlerinde ise geleneksel pencere tiplerine uygun <strong>vidasız klik sistemi</strong> uyguluyoruz.",
+          "Gelibolu ve Eceabat'taki <strong>tarihi binalar</strong>, standart dışı pencere ölçülerine sahiptir. Her pencere için ayrı ölçü alıp özel üretim yapıyoruz; pencere kasası içine montaj ile tarihi cepheye zarar vermeden kurulum tamamlıyoruz. Biga ve Çan'daki sanayi tesisleri için yangın dayanımlı B1 sınıfı kumaş ile kurumsal çözümler sunuyoruz. Ayvacık ve Bayramiç'teki köy evlerinde ise geleneksel pencere tiplerine uygun <strong>delmesiz klik sistemi</strong> uyguluyoruz.",
         ],
       },
       {

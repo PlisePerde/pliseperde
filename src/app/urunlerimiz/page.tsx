@@ -76,7 +76,7 @@ const independentCategories: MainCategory[] = [
   {
     name: "Plise Perde Sistemleri",
     url: "/plise-perde-sistemleri/",
-    description: "Montaj sistemlerine göre plise perde: vidalı, vidasız, yapışkanlı, kancalı, motorlu.",
+    description: "Montaj sistemlerine göre plise perde: vidalı, yapışkanlı, kancalı, portrayli, braketli, motorlu.",
     subItems: [
       { name: "Vidalı Plise Perde", url: "/vidali-plise-perde/" },
       

@@ -31,7 +31,7 @@ const productCards = [
   { label: "Blackout Plise Perde", desc: "Tam karanlık, maksimum gizlilik" },
   { label: "Gece Gündüz Plise Perde", desc: "İki katman, esnek kullanım" },
   { label: "Motorlu Plise Perde", desc: "Uzaktan kumanda, akıllı ev" },
-  { label: "Vidasız Plise Perde", desc: "Delmesiz montaj" },
+  { label: "Braketli Plise Perde", desc: "Esnek ve sökülebilir montaj" },
   { label: "Kancalı Plise Perde", desc: "Pratik takılır çıkarılır" },
   { label: "Desenli Plise Perde", desc: "Dekoratif görünüm" },
   { label: "Düz Plise Perde", desc: "Sade, minimalist tasarım" },
@@ -47,7 +47,7 @@ const serviceCards = [
 const faqs = [
   {
     question: "Plise perde nedir?",
-    answer: "Plise perde, harmonika şeklinde katlanan polyester kumaştan üretilen pencere perdesidir. Işık kontrolü, gizlilik ve ısı yalıtımı sağlar. Tül, güneşlik, karartma, honeycomb, motorlu ve vidasız modelleriyle cam balkon, yatak odası, mutfak ve ofis gibi alanlarda kullanılır.",
+    answer: "Plise perde, harmonika şeklinde katlanan polyester kumaştan üretilen pencere perdesidir. Işık kontrolü, gizlilik ve ısı yalıtımı sağlar. Tül, güneşlik, karartma, honeycomb, motorlu ve braketli modelleriyle cam balkon, yatak odası, mutfak ve ofis gibi alanlarda kullanılır.",
   },
   {
     question: "Plise perde teslimat süresi ne kadar?",
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "Plise perde montajı nasıl yapılır?",
-    answer: "Plise perde montajı vidalı, vidasız (yapışkanlı) ve portrayli montaj tipleriyle yapılır. Vidasız montaj delmesiz, pratik bir çözümdür. Profesyonel montaj ekibimizle ücretsiz keşif ve montaj hizmeti sunuyoruz.",
+    answer: "Plise perde montajı vidalı, yapışkanlı, kancalı, portrayli, braketli ve motorlu montaj tipleriyle yapılır. Delmesiz montaj için yapışkanlı veya kancalı tercih edilir. Profesyonel montaj ekibimizle ücretsiz keşif ve montaj hizmeti sunuyoruz.",
   },
   {
     question: "Plise perde garanti süresi ne kadar?",
@@ -136,7 +136,7 @@ export default function Home() {
                 pliseperde.com — Türkiye'nin Plise Perde Üreticisi
               </p>
               <p className="hero-description text-sm md:text-lg text-white/90 leading-relaxed mb-8">
-                Plise perde, harmonika şeklinde katlanan polyester kumaştan üretilen pencere perdesidir. Işık kontrolü, gizlilik ve ısı yalıtımı sağlar. Tül, güneşlik, karartma, honeycomb, motorlu ve vidasız modelleriyle cam balkon, yatak odası, mutfak ve ofis gibi alanlarda kullanılır. Özel ölçü üretim, 3-7 iş gününde teslimat.
+                Plise perde, harmonika şeklinde katlanan polyester kumaştan üretilen pencere perdesidir. Işık kontrolü, gizlilik ve ısı yalıtımı sağlar. Tül, güneşlik, karartma, honeycomb, motorlu ve braketli modelleriyle cam balkon, yatak odası, mutfak ve ofis gibi alanlarda kullanılır. Özel ölçü üretim, 3-7 iş gününde teslimat.
               </p>
               <div className="grid grid-cols-3 sm:flex sm:flex-row items-center gap-2 sm:gap-3 mb-8">
                 <Link
@@ -207,7 +207,7 @@ export default function Home() {
                   Plise Perde Nedir? Özet ve Özellikleri
                 </h2>
                 <p className="text-sm md:text-base text-brand-text-light leading-relaxed mb-6">
-                  Plise perde, polyester kumaşın harmonika şeklinde katlanarak açılıp kapanan pencere perdesidir. Üst ve alt alüminyum profil arasındaki ip sistemiyle kontrol edilir; kumaş katmanı pencere boyunca düzenli pililer halinde daralır ve genişler. 2022&apos;den bu yana İstanbul Pendik&apos;teki üretim tesisimizde özel ölçü üretilen plise perdeler; tül, güneşlik, yarı karartma, tam karartma ve honeycomb olmak üzere 5 farklı ışık kontrol seviyesinde sunulur. Vidalı, yapışkanlı, portrayli, vidasız ve kancalı montaj seçenekleriyle her pencere tipine uyum sağlar.
+                  Plise perde, polyester kumaşın harmonika şeklinde katlanarak açılıp kapanan pencere perdesidir. Üst ve alt alüminyum profil arasındaki ip sistemiyle kontrol edilir; kumaş katmanı pencere boyunca düzenli pililer halinde daralır ve genişler. 2022&apos;den bu yana İstanbul Pendik&apos;teki üretim tesisimizde özel ölçü üretilen plise perdeler; tül, güneşlik, yarı karartma, tam karartma ve honeycomb olmak üzere 5 farklı ışık kontrol seviyesinde sunulur. Vidalı, yapışkanlı, kancalı, portrayli, braketli ve motorlu montaj seçenekleriyle her pencere tipine uyum sağlar.
                 </p>
 
                 <ul className="grid grid-cols-2 gap-3 mb-6">
@@ -225,8 +225,8 @@ export default function Home() {
                       <Wrench size={16} className="text-brand" />
                     </span>
                     <div>
-                      <p className="text-sm font-medium text-brand-text">5 Montaj Seçeneği</p>
-                      <p className="text-xs text-brand-text-light">Vidalı, yapışkanlı, portrayli, vidasız ve kancalı — her pencere tipine uyum</p>
+                      <p className="text-sm font-medium text-brand-text">6 Montaj Seçeneği</p>
+                      <p className="text-xs text-brand-text-light">Vidalı, yapışkanlı, kancalı, portrayli, braketli ve motorlu — her pencere tipine uyum</p>
                     </div>
                   </li>
                   <li className="flex items-center gap-3 p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors">
@@ -307,8 +307,8 @@ export default function Home() {
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Montaj</th>
-                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Vidalı, yapışkanlı, portrayli, vidasız, kancalı</td>
-                      <td className="px-3 py-2"><Link href="/montaj/" className="text-brand hover:underline">Montaj →</Link></td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Vidalı, yapışkanlı, kancalı, portrayli, braketli, motorlu</td>
+                      <td className="px-3 py-2"><Link href="/plise-perde-montaji/" className="text-brand hover:underline">Montaj →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Kumaş</th>

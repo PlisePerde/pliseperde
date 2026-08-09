@@ -49,7 +49,7 @@ export default function CocukGuvenligiPage() {
             items: [
               "Motorlu — ip yok, en güvenli seçenek",
               "Kancalı — perde sökülüp yüksek yere takılır",
-              "Vidasız — çerçeveye zarar vermeden sökülebilir",
+              "Delmesiz — çerçeveye zarar vermeden sökülebilir",
               "Tam karartma — bebek odası için uyku düzeni",
               "Honeycomb — ısıl konfor için çocuk odası",
             ],
@@ -90,13 +90,13 @@ export default function CocukGuvenligiPage() {
         {
           h2: "Montaj Güvenliği",
           paragraphs: [
-            "Kancalı montaj ile perde <strong>sökülebilir</strong>. Çocuğun erişebileceği yükseklikteki pencerelerde perdeyi çıkarabilirsiniz. <em>Vidasız montaj</em> ile çerçevede keskin kenar oluşmaz.",
+            "Kancalı montaj ile perde <strong>sökülebilir</strong>. Çocuğun erişebileceği yükseklikteki pencerelerde perdeyi çıkarabilirsiniz. <em>Delmesiz montaj</em> ile çerçevede keskin kenar oluşmaz.",
           ],
           list: {
             type: "ul",
             items: [
               "Kancalı — perde sökülür, çocuğun erişemeyeceği yere konur",
-              "Vidasız — çerçevede keskin vida ucu yok",
+              "Delmesiz — çerçevede keskin vida ucu yok",
               "Motorlu — ip yok, uzaktan kumanda",
               "Profil köşeleri — yuvarlatılmış, keskin değil",
               "Kumaş — yırtılma dirençli, parçalanmaz",
@@ -123,7 +123,7 @@ export default function CocukGuvenligiPage() {
         },
         {
           question: "Plise perde kancalı montaj nasıl güvenlik sağlar?",
-          answer: "Kancalı montaj ile perde sökülüp takılabilir. Çocuğun erişebileceği yükseklikteki pencerede perdeyi çıkarabilirsiniz. Vidasız montaj ile çerçevede keskin vida ucu oluşmaz.",
+          answer: "Kancalı montaj ile perde sökülüp takılabilir. Çocuğun erişebileceği yükseklikteki pencerede perdeyi çıkarabilirsiniz. Delmesiz montaj ile çerçevede keskin vida ucu oluşmaz.",
         },
       ]}
     />
