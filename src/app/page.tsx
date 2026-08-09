@@ -265,45 +265,55 @@ export default function Home() {
                   <thead>
                     <tr className="bg-brand text-white">
                       <th scope="col" className="px-3 py-2 text-left font-medium border-r border-brand-border/30">Özellik</th>
-                      <th scope="col" className="px-3 py-2 text-left font-medium">Değer</th>
+                      <th scope="col" className="px-3 py-2 text-left font-medium border-r border-brand-border/30">Değer</th>
+                      <th scope="col" className="px-3 py-2 text-left font-medium">Detay</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Malzeme</th>
-                      <td className="px-3 py-2 text-brand-text-light">Polyester %100, antistatik opsiyonel</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Polyester %100, antistatik opsiyonel</td>
+                      <td className="px-3 py-2"><Link href="/plise-perde-kumasi-nasil-secilir/" className="text-brand hover:underline">Kumaş Seçimi →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Işık geçirgenlik</th>
-                      <td className="px-3 py-2 text-brand-text-light">%0 (Blackout) – %85 (Tül)</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">%0 (Blackout) – %85 (Tül)</td>
+                      <td className="px-3 py-2"><Link href="/blackout-plise-perde/" className="text-brand hover:underline">Blackout →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">U-değeri</th>
-                      <td className="px-3 py-2 text-brand-text-light">&lt;2.0 W/m²K (Honeycomb)</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">&lt;2.0 W/m²K (Honeycomb)</td>
+                      <td className="px-3 py-2"><Link href="/honeycomb-perde/" className="text-brand hover:underline">Honeycomb →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Ses yalıtımı</th>
-                      <td className="px-3 py-2 text-brand-text-light">Honeycomb&apos;da %30-45 ses azaltması</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Honeycomb&apos;da %30-45 ses azaltması</td>
+                      <td className="px-3 py-2"><Link href="/honeycomb-perde/" className="text-brand hover:underline">Honeycomb →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Özel form</th>
-                      <td className="px-3 py-2 text-brand-text-light">Üçgen, kemerli, yamuk — özel ölçü</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Üçgen, kemerli, yamuk — özel ölçü</td>
+                      <td className="px-3 py-2"><Link href="/plise-perde-cesitleri/" className="text-brand hover:underline">Çeşitler →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Garanti</th>
-                      <td className="px-3 py-2 text-brand-text-light">2 yıl (profil + kumaş)</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">2 yıl (profil + kumaş)</td>
+                      <td className="px-3 py-2"><Link href="/garanti-ve-satis-sonrasi-destek/" className="text-brand hover:underline">Garanti →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Teslimat</th>
-                      <td className="px-3 py-2 text-brand-text-light">3-7 iş günü</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">3-7 iş günü</td>
+                      <td className="px-3 py-2"><Link href="/teslimat-ve-kargo/" className="text-brand hover:underline">Teslimat →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Montaj</th>
-                      <td className="px-3 py-2 text-brand-text-light">Vidalı, yapışkanlı, portrayli, vidasız, kancalı</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Vidalı, yapışkanlı, portrayli, vidasız, kancalı</td>
+                      <td className="px-3 py-2"><Link href="/montaj/" className="text-brand hover:underline">Montaj →</Link></td>
                     </tr>
                     <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
                       <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Kumaş</th>
-                      <td className="px-3 py-2 text-brand-text-light">Yıkanabilir, antistatik (toz tutmaz)</td>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Yıkanabilir, antistatik (toz tutmaz)</td>
+                      <td className="px-3 py-2"><Link href="/plise-perde-temizligi-nasil-yapilir/" className="text-brand hover:underline">Temizlik →</Link></td>
                     </tr>
                   </tbody>
                 </table>
