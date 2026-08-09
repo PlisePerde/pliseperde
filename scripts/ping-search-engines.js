@@ -1,10 +1,9 @@
 /**
- * IndexNow + Google/Bing sitemap ping
- * Build sonrası otomatik çalışır (postbuild)
- * Tüm arama motorlarına sitemap güncellendi sinyali gönderir
+ * IndexNow ping — build sonrası otomatik çalışır (postbuild)
+ * Bing, Yandex, Naver ve Seznam'e sitemap güncellendi sinyali gönderir
+ * Google: Search Console'dan sitemap'i kendisi çeker — ping gerekmez
  */
 const https = require("https");
-const http = require("http");
 
 const SITE_URL = "https://pliseperde.com";
 const INDEXNOW_KEY = "abba96238a336a6d70b7c6f2cd7408be";
@@ -20,38 +19,7 @@ const sitemaps = [
   `${SITE_URL}/sitemap-legal.xml`,
 ];
 
-function fetchUrl(url) {
-  return new Promise((resolve) => {
-    const mod = url.startsWith("https") ? https : http;
-    mod
-      .get(url, (res) => {
-        let body = "";
-        res.on("data", (chunk) => (body += chunk));
-        res.on("end", () => resolve({ status: res.statusCode, body }));
-      })
-      .on("error", (err) => resolve({ status: 0, error: err.message }));
-  });
-}
-
-async function pingGoogle() {
-  for (const sitemap of sitemaps) {
-    const result = await fetchUrl(
-      `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemap)}`
-    );
-    console.log(`  Google: ${sitemap} → ${result.status}`);
-  }
-}
-
-async function pingBing() {
-  for (const sitemap of sitemaps) {
-    const result = await fetchUrl(
-      `https://www.bing.com/ping?sitemap=${encodeURIComponent(sitemap)}`
-    );
-    console.log(`  Bing: ${sitemap} → ${result.status}`);
-  }
-}
-
-async function pingIndexNow() {
+function pingIndexNow() {
   const body = JSON.stringify({
     host: "pliseperde.com",
     key: INDEXNOW_KEY,
@@ -85,12 +53,7 @@ async function pingIndexNow() {
 }
 
 (async () => {
-  console.log("=== Sitemap Ping ===");
-  await pingGoogle();
-  await pingBing();
-
   console.log("=== IndexNow ===");
   await pingIndexNow();
-
   console.log("Ping tamamlandı.");
 })();
