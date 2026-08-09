@@ -15,7 +15,7 @@ export default function PlisePerdeProjesiPage() {
       description="Proje ve toplu üretim hizmeti. Otel, rezidans, ofis, hastane, okul ve ticari projeler için plise perde üretim ve montaj."
       slug="plise-perde-projesi"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz" }, { name: "Proje ve Toplu Üretim", url: "/plise-perde-projesi" }]}
-      h1="Proje ve Toplu Üretim — Plise Perde"
+      h1="Proje ve Toplu Üretim"
       intro="Proje ve toplu üretim hizmeti ile otel, rezidans, ofis, hastane, okul ve ticari projeleriniz için plise perde üretimi ve montajı yapıyoruz. Mimari projelere özel çözümler sunar, özel ölçü üretim yapar ve toplu fiyat avantajı sağlarız. Müteahhit, mimar ve iç mimarlarla çalışırız. Projeye özel kumaş, renk ve sistem seçenekleri ile teslimden montaja kadar uçtan uca hizmet. Referans projelerimiz ve tecrübemiz ile güvenli teslimat."
       schemaType="service"
       schemaData={{
