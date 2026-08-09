@@ -494,7 +494,7 @@ export default function PlisePerdeKatalogPage() {
       {/* SSS */}
       <section className="bg-white py-10 md:py-12 border-t border-brand-border" aria-labelledby="faq-heading">
         <div className="mx-auto max-w-[1536px] px-4 md:px-6">
-          <div className="max-w-4xl">
+          <div className="py-6 md:py-8">
             <h2 id="faq-heading" className="text-lg md:text-xl font-semibold text-brand-text mb-4">
               Sıkça Sorulan Sorular
             </h2>
