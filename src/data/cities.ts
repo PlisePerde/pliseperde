@@ -1577,7 +1577,7 @@ export const cities: CityData[] = [
         ],
       },
       {
-        h2: "Esenyalı'daki Üretim Tesisimizden Gümüşhane'nin Altı İlçesine Sevkiyatla Gönderim",
+        h2: "Gümüşhane'ye Sevkiyatlı Gönderim",
         paragraphs: ["Gümüşhane'nin beldelerin hepsine <strong>iletişim tabanlı keşif</strong> yöntemiyle hizmet veriyoruz. Telefonla pencere ölçülerinizi aldığımızda Esenyalı'daki üretim tesisimizde üretim yapıp sevkiyatla yolluyoruz. Gümüşhane'nin yüksek rakım ve sert kış iklimi için çift petekli honeycomb modelini varsayılan olarak öneriyoruz."],
       },
     ],

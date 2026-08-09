@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Satıcı Bilgileri",
-  description: "Plise Perde satıcı bilgileri. Şirket, adres, iletişim, sicil bilgileri.",
+  description: "Plise Perde satıcı bilgileri: şirket unvanı, adres, iletişim, sicil ve MERSİS numarası. 6502 kapsamında tüketiciye sunulan bilgiler.",
   slug: "satici-bilgileri",
 });
 
@@ -11,7 +11,7 @@ export default function SaticiBilgileriPage() {
   return (
     <PageTemplate
       title="Satıcı Bilgileri"
-      description="Plise Perde satıcı bilgileri. Şirket, adres, iletişim, sicil bilgileri."
+      description="Plise Perde satıcı bilgileri: şirket unvanı, adres, iletişim, sicil ve MERSİS numarası. 6502 kapsamında tüketiciye sunulan bilgiler."
       slug="satici-bilgileri"
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Satıcı Bilgileri", url: "/satici-bilgileri" }]}
       h1="Satıcı Bilgileri"
