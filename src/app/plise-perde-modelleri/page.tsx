@@ -40,6 +40,11 @@ const models = [
     title: "Baskılı Plise Perde",
     desc: "Özel dijital baskı ile kişiselleştirilmiş kumaş. Logo, fotoğraf, sanat eseri. Kurumsal ve kişisel kullanım.",
   },
+  {
+    slug: "plise-perde-sineklik",
+    title: "Plise Perde + Sineklik",
+    desc: "Çift katmanlı sistem: bir taraf plise perde, diğer taraf plise sineklik. Sinek koruması + ışık kontrolü tek profilde.",
+  },
 ];
 
 export default function ModellerPage() {
@@ -61,7 +66,7 @@ export default function ModellerPage() {
         breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri/" }]}
         title="Modellerimiz — Plise Perde Modelleri"
         description="Plise perde modelleri mekan tasarımınıza ve ihtiyacınıza göre değişir. Düz, blackout, gece gündüz, desenli ve baskılı modeller arasından size uygun olanı seçin. Her model özel ölçü üretim, profesyonel montaj ve 2 yıl garanti ile gelir."
-        highlight="Düz · Blackout · Gece Gündüz · Desenli · Baskılı"
+        highlight="Düz · Blackout · Gece Gündüz · Desenli · Baskılı · Sineklik"
       />
       <div className="mx-auto max-w-[1536px] px-4 md:px-6">
         <div className="py-6 md:py-8">
