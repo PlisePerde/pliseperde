@@ -58,7 +58,7 @@ type CardCategory = {
 
 const categories: CardCategory[] = [
   {
-    title: "Şirket Bilgileri",
+    title: "Kurumsal Şirket Bilgileri",
     subtitle: "Biz kimiz, ne yapıyoruz?",
     items: [
       {

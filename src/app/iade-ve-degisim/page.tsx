@@ -20,7 +20,7 @@ export default function IadeDegisimPage() {
       schemaData={{ headline: "İade ve Değişim", description: "Koşullar, süreç, geri ödeme." }}
       sections={[
         {
-          h2: "İade Koşulları",
+          h2: "İade ve Değişim Koşulları",
           paragraphs: ["İade için <strong>şu koşullar</strong> geçerlidir."],
           list: { type: "ul", items: ["Üretim hatası — ücretsiz iade", "Özel üretim — iade yok", "Hasarsız — kullanılmamış", "Orijinal paket — korunmuş", "Fatura — iade ile"] },
         },

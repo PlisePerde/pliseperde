@@ -36,7 +36,7 @@ export default function PlisePerdePage() {
       }}
       beforeContent={
         <nav aria-label="İlgili kategoriler" className="mb-8">
-          <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-3">İlgili Kategoriler</h2>
+          <p className="text-lg md:text-xl font-semibold text-brand-text mb-3">İlgili Kategoriler</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
             {relatedCategories.map((item) => (
               <Link

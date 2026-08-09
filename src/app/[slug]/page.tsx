@@ -245,9 +245,9 @@ async function BlogPostView({ slug }: { slug: string }) {
           )}
           {post.sections.length > 0 && (
             <nav className="mb-8 p-5 bg-brand-bg border border-brand-border rounded-lg lg:hidden" aria-label="İçindekiler">
-              <h2 className="text-sm font-semibold text-brand-text mb-3">
+              <p className="text-sm font-semibold text-brand-text mb-3">
                 İçindekiler
-              </h2>
+              </p>
               <ol className="space-y-1.5">
                 {post.sections.map((section, index) => {
                   const sectionId = slugifyHeading(section.heading);

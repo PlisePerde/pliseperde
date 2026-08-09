@@ -20,12 +20,12 @@ export default function SaticiBilgileriPage() {
       schemaData={{ headline: "Satıcı Bilgileri", description: "Şirket bilgileri." }}
       sections={[
         {
-          h2: "Şirket Bilgileri",
+          h2: "Satıcı Şirket Bilgileri",
           paragraphs: ["Satıcı <strong>şirket bilgileri</strong> aşağıda."],
           table: { headers: ["Bilgi", "Değer"], rows: [["Ünvan", "Plise Perde"], ["Adres", "Esenyalı Mah. Edebali Cad. No:13/C Pendik/İstanbul"], ["Telefon", "0540 336 38 73"], ["E-Posta", "info@pliseperde.com"], ["Web", "pliseperde.com"], ["Kuruluş", "2022"]] },
         },
         {
-          h2: "İletişim",
+          h2: "Satıcı İletişim Kanalları",
           paragraphs: ["İletişim <strong>kanalları</strong>:"],
           list: { type: "ul", items: ["Telefon — 0540 336 38 73", "WhatsApp — 0540 336 38 73 (7/24)", "E-Posta — info@pliseperde.com", "Adres — Pendik/İstanbul", "Çalışma — Pzt-Cmt 08:00-18:00, Ölçü 08:00-21:00"] },
         },

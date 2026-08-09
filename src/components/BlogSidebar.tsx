@@ -31,9 +31,9 @@ export default function BlogSidebar({ currentPost, otherPosts }: BlogSidebarProp
         {/* İçindekiler */}
         {currentPost.sections.length > 0 && (
           <nav className="p-5 bg-white border border-brand-border rounded-lg" aria-label="İçindekiler">
-            <h2 className="text-sm font-semibold text-brand-text mb-3">
+            <p className="text-sm font-semibold text-brand-text mb-3">
               İçindekiler
-            </h2>
+            </p>
             <ol className="space-y-2">
               {currentPost.sections.map((section, index) => {
                 const sectionId = slugifyHeading(section.heading);
@@ -58,9 +58,9 @@ export default function BlogSidebar({ currentPost, otherPosts }: BlogSidebarProp
         {/* Diğer Yazılar */}
         {otherPosts.length > 0 && (
           <div className="p-5 bg-white border border-brand-border rounded-lg">
-            <h2 className="text-sm font-semibold text-brand-text mb-3">
+            <p className="text-sm font-semibold text-brand-text mb-3">
               Diğer Yazılar
-            </h2>
+            </p>
             <ul className="space-y-3">
               {otherPosts.map((post) => (
                 <li key={post.slug}>
@@ -101,9 +101,9 @@ export default function BlogSidebar({ currentPost, otherPosts }: BlogSidebarProp
 
         {/* Hızlı Linkler */}
         <div className="p-5 bg-brand-bg border border-brand-border rounded-lg">
-          <h2 className="text-sm font-semibold text-brand-text mb-3">
+          <p className="text-sm font-semibold text-brand-text mb-3">
             Hızlı Erişim
-          </h2>
+          </p>
           <ul className="space-y-2">
             {quickLinks.map((link) => {
               const Icon = link.icon;

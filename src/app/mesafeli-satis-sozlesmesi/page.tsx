@@ -33,7 +33,7 @@ export default function MesafeliSatisPage() {
           },
         },
         {
-          h2: "Cayma Hakkı",
+          h2: "Sözleşmede Cayma Hakkı",
           paragraphs: ["Tüketici <strong>14 gün içinde</strong> cayma hakkına sahiptir."],
           list: { type: "ul", items: ["14 gün cayma hakkı — sipariş tesliminden itibaren", "Özel üretim — cayma hakkı yok (özel ölçü)", "İade — ürün hasarsız ve kullanılmamış", "Geri ödeme — 14 gün içinde", "Kargo — tüketici karşılar"] },
         },
