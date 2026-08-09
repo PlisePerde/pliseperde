@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useRef, useEffect, useCallback } from "react";
-import { Menu, X, Calculator, Phone, ChevronRight, ChevronDown, Tag, MoreHorizontal } from "lucide-react";
+import { Menu, X, Calculator, Phone, ChevronRight, ChevronDown, Tag, MoreHorizontal, Wrench } from "lucide-react";
 import { navItems, type NavItem, type NavChild } from "@/data/navigation";
 import { usePathname } from "next/navigation";
 import TopBar from "./TopBar";
@@ -213,7 +213,7 @@ export default function Header() {
                             </Link>
                           ))}
                         </div>
-                        <div className="grid grid-cols-2 gap-3 mt-3 pt-3 border-t border-brand-border">
+                        <div className="grid grid-cols-3 gap-3 mt-3 pt-3 border-t border-brand-border">
                           <Link
                             href="/plise-perde-cesitleri"
                             className={`flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium rounded-lg border transition-colors ${
@@ -235,6 +235,17 @@ export default function Header() {
                           >
                             <Tag size={16} />
                             Plise Perde Özellikleri
+                          </Link>
+                          <Link
+                            href="/plise-perde-montaji"
+                            className={`flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium rounded-lg border transition-colors ${
+                              isActive("/plise-perde-montaji")
+                                ? "bg-brand text-white border-brand"
+                                : "bg-brand-bg text-brand border-brand-border hover:border-brand hover:bg-brand-light/30"
+                            }`}
+                          >
+                            <Wrench size={16} />
+                            Plise Perde Montaj Tipleri
                           </Link>
                         </div>
                       </div>

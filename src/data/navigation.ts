@@ -98,19 +98,6 @@ export const navItems: NavItem[] = [
     ],
   },
   {
-    label: "Montaj",
-    href: "/plise-perde-montaji",
-    children: [
-      { label: "Vidalı Plise Perde", href: "/vidali-plise-perde" },
-      { label: "Vidasız Plise Perde", href: "/vidasiz-plise-perde" },
-      { label: "Yapışkanlı Plise Perde", href: "/yapiskanli-plise-perde" },
-      { label: "Kancalı Plise Perde", href: "/kancali-plise-perde" },
-      { label: "Portrayli Plise Perde", href: "/portrayli-plise-perde" },
-      { label: "Braketli Plise Perde", href: "/braketli-plise-perde" },
-      { label: "Motorlu Plise Perde", href: "/motorlu-plise-perde" },
-    ],
-  },
-  {
     label: "Sistemlerimiz",
     href: "/plise-perde-sistemleri",
   },
