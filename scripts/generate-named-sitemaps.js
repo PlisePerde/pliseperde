@@ -5,330 +5,307 @@ const SITE_URL = "https://pliseperde.com";
 const TODAY = new Date().toISOString().split("T")[0];
 const OUT_DIR = path.join(process.cwd(), "out");
 const PUBLIC_DIR = path.join(process.cwd(), "public");
+const APP_DIR = path.join(process.cwd(), "src", "app");
 
-const sitemaps = {
-  pages: [
-    { slug: "", priority: 1.0, changefreq: "weekly" },
-    { slug: "urunlerimiz", priority: 0.9, changefreq: "monthly" },
-    { slug: "plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "honeycomb-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "duet-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "plise-perde-aparatlari", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-yedek-parca", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-modelleri", priority: 0.9, changefreq: "monthly" },
-    { slug: "duz-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "blackout-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "gece-gunduz-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "desenli-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "baskili-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "plise-perde-sistemleri", priority: 0.9, changefreq: "monthly" },
-    { slug: "vidali-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "vidasiz-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "yapiskanli-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "kancali-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "portray-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "braketli-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "motorlu-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "plise-perde-cesitleri", priority: 0.9, changefreq: "monthly" },
-    { slug: "plise-perde-ozellikleri", priority: 0.8, changefreq: "monthly" },
-    { slug: "plise-perde-fiyatlari", priority: 0.9, changefreq: "weekly" },
-    { slug: "plise-perde-kullanim-alanlari", priority: 0.8, changefreq: "monthly" },
-    { slug: "mutfak-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "salon-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "yatak-odasi-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "cocuk-odasi-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "calisma-odasi-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "banyo-wc-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "genc-odasi-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "cam-balkon-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "villa-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "karavan-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "tekne-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "magaza-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "ofis-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "kafe-restoran-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "otel-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "hastane-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "klinik-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "spor-salonu-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "anaokulu-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "laboratuvar-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "prefabrik-ev-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "hizmetlerimiz", priority: 0.9, changefreq: "monthly" },
-    { slug: "hizmet-bolgeleri", priority: 0.9, changefreq: "monthly" },
-    { slug: "referanslarimiz", priority: 0.8, changefreq: "monthly" },
-    { slug: "iletisim", priority: 0.7, changefreq: "yearly" },
-    { slug: "plise-perde-bayilik", priority: 0.8, changefreq: "monthly" },
-    { slug: "plise-perde-fiyat-hesaplama", priority: 0.9, changefreq: "weekly" },
-    { slug: "site-haritasi", priority: 0.6, changefreq: "weekly" },
-    { slug: "hakkimizda", priority: 0.7, changefreq: "yearly" },
-    { slug: "surdurulebilirlik", priority: 0.5, changefreq: "yearly" },
-    { slug: "cocuk-guvenligi", priority: 0.6, changefreq: "yearly" },
-    { slug: "galeri", priority: 0.5, changefreq: "monthly" },
-    { slug: "sikca-sorulan-sorular", priority: 0.6, changefreq: "monthly" },
-    { slug: "plise-perde-kullanici-yorumlari", priority: 0.6, changefreq: "monthly" },
-    { slug: "blog", priority: 0.8, changefreq: "weekly" },
-    { slug: "plise-perde-nedir", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-olcusu-nasil-alinir", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-montaji-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-nasil-cikarilir", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-temizligi-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-tamiri-nasil-yapilir", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-malzemeleri-nelerdir", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-mekanizmasi-nasil-calisir", priority: 0.7, changefreq: "monthly" },
-  ],
-  models: [
-    { slug: "vidali-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "yapiskanli-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "portray-plise-perde", priority: 0.7, changefreq: "monthly" },
-  ],
-  services: [
-    { slug: "montaj", priority: 0.8, changefreq: "monthly" },
-    { slug: "olcu-alma-destegi", priority: 0.8, changefreq: "monthly" },
-    { slug: "kesif", priority: 0.8, changefreq: "monthly" },
-    { slug: "numune", priority: 0.8, changefreq: "monthly" },
-    { slug: "plise-perde-projesi", priority: 0.8, changefreq: "monthly" },
-  ],
-  regions: [
-    { slug: "istanbul-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "kocaeli-plise-perde", priority: 0.8, changefreq: "monthly" },
-    { slug: "sakarya-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "yalova-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "duzce-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "bilecik-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "bursa-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "balikesir-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "canakkale-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "edirne-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kirklareli-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "tekirdag-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "izmir-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "aydin-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "mugla-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "manisa-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "afyonkarahisar-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kutahya-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "denizli-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "usak-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "antalya-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "adana-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "mersin-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "isparta-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "burdur-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "osmaniye-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "hatay-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "ankara-plise-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "konya-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kayseri-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "eskisehir-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "sivas-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kirsehir-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "aksaray-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "nigde-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "nevsehir-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kirikkale-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "cankiri-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "karabuk-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "amasya-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "tokat-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "corum-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "yozgat-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "karaman-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "zonguldak-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "bartin-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "bolu-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kastamonu-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "sinop-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "samsun-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "ordu-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "giresun-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "gumushane-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "trabzon-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "rize-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "artvin-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "bayburt-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "erzurum-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "erzincan-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "agri-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kars-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "igdir-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "ardahan-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "mus-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "bitlis-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "bingol-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "tunceli-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "elazig-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "malatya-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "van-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "hakkari-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "gaziantep-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "sanliurfa-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "adiyaman-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "diyarbakir-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "mardin-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "batman-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "siirt-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "sirnak-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kilis-plise-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "kahramanmaras-plise-perde", priority: 0.6, changefreq: "monthly" },
-  ],
-  comparisons: [
-    { slug: "plise-perde-vs-zebra-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-jaluzi-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-stor-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-tul-perde", priority: 0.6, changefreq: "monthly" },
-    { slug: "plise-perde-vs-honeycomb-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-duet-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-zip-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-karartma-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-japon-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-fon-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-dikey-perde", priority: 0.7, changefreq: "monthly" },
-    { slug: "plise-perde-vs-screen-perde", priority: 0.7, changefreq: "monthly" },
-  ],
-  legal: [
-    { slug: "sozlesmelerimiz", priority: 0.5, changefreq: "yearly" },
-    { slug: "siparis-ve-ozel-uretim-sartlari", priority: 0.5, changefreq: "yearly" },
-    { slug: "uyelik-sozlesmesi", priority: 0.5, changefreq: "yearly" },
-    { slug: "montaj-ve-uygulama-sartlari", priority: 0.5, changefreq: "yearly" },
-    { slug: "olcu-alma-bilgilendirmesi", priority: 0.5, changefreq: "yearly" },
-    { slug: "mesafeli-satis-sozlesmesi", priority: 0.5, changefreq: "yearly" },
-    { slug: "on-bilgilendirme-formu", priority: 0.5, changefreq: "yearly" },
-    { slug: "kullanim-kosullari", priority: 0.5, changefreq: "yearly" },
-    { slug: "politikalarimiz", priority: 0.5, changefreq: "yearly" },
-    { slug: "iade-degisim-ve-cayma-hakki", priority: 0.5, changefreq: "yearly" },
-    { slug: "yurt-disi-teslimat-ve-gumruk", priority: 0.5, changefreq: "yearly" },
-    { slug: "odeme-ve-taksit-secenekleri", priority: 0.5, changefreq: "yearly" },
-    { slug: "banka-ve-havale-bilgileri", priority: 0.5, changefreq: "yearly" },
-    { slug: "garanti-ve-satis-sonrasi-destek", priority: 0.5, changefreq: "yearly" },
-    { slug: "satici-bilgileri", priority: 0.5, changefreq: "yearly" },
-    { slug: "cerez-politikasi", priority: 0.5, changefreq: "yearly" },
-    { slug: "acik-riza-metni", priority: 0.5, changefreq: "yearly" },
-    { slug: "ticari-elektronik-ileri-onayi", priority: 0.5, changefreq: "yearly" },
-    { slug: "teslimat-ve-kargo", priority: 0.5, changefreq: "yearly" },
-    { slug: "iade-ve-degisim", priority: 0.5, changefreq: "yearly" },
-    { slug: "gizlilik-politikasi", priority: 0.5, changefreq: "yearly" },
-    { slug: "kvkk-aydinlatma-metni", priority: 0.5, changefreq: "yearly" },
-  ],
-  images: [
-    { slug: "honeycomb-perde", images: [
-      { loc: "/images/honeycomb-perde-salon.webp", title: "Honeycomb Perde — Salon", caption: "Honeycomb petek yapısı ile enerji tasarrufu sağlayan perde" },
-      { loc: "/images/honeycomb-perde-detay.webp", title: "Honeycomb Perde — Detay", caption: "Petek yapı detay görünümü" },
-    ]},
-    { slug: "galeri", images: [
-      // Plise Perde (21)
-      { loc: "/gallery/plise-perde/Plise-Perde-1.webp", title: "Plise Perde — Salon Beyaz Düz", caption: "Geniş salon penceresinde beyaz plise perde uygulaması" },
-      { loc: "/gallery/plise-perde/Plise-Perde-2.webp", title: "Plise Perde — Yatak Odası Blackout", caption: "Yatak odasında tam karartma plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-3.webp", title: "Plise Perde — Cam Balkon", caption: "Cam balkonda plise perde uygulaması" },
-      { loc: "/gallery/plise-perde/Plise-Perde-4.webp", title: "Plise Perde — Mutfak Tül", caption: "Mutfak penceresinde tül plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-5.webp", title: "Plise Perde — Ofis Güneşlik", caption: "Ofis ortamında güneşlik plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-6.webp", title: "Plise Perde — Salon Gece Gündüz", caption: "Salonda gece gündüz plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-7.webp", title: "Plise Perde — Yatak Odası Krem", caption: "Yatak odasında krem renk plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-8.webp", title: "Plise Perde — Çocuk Odası", caption: "Çocuk odasında kordsuz plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-9.webp", title: "Plise Perde — Villa Motorlu", caption: "Villada yüksek pencere motorlu plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-10.webp", title: "Plise Perde — Kış Bahçesi", caption: "Kış bahçesinde plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-11.webp", title: "Plise Perde — Çalışma Odası", caption: "Çalışma odasında güneşlik plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-12.webp", title: "Plise Perde — Salon Antrasit", caption: "Salonda antrasit renk plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-13.webp", title: "Plise Perde — Detay Görünüm", caption: "Plise perde kumaş ve profil detayı" },
-      { loc: "/gallery/plise-perde/Plise-Perde-14.webp", title: "Plise Perde — Banyo", caption: "Banyoda nem dayanımlı plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-15.webp", title: "Plise Perde — Fransız Balkon", caption: "Fransız balkonda plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-16.webp", title: "Plise Perde — Salon Çift Pencere", caption: "Salonda çift pencerede plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-17.webp", title: "Plise Perde — Yatak Odası Gece Gündüz", caption: "Yatak odasında gece gündüz plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-18.webp", title: "Plise Perde — Ofis Toplantı Odası", caption: "Toplantı odasında plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-19.webp", title: "Plise Perde — Mutfak Desenli", caption: "Mutfakta desenli plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-20.webp", title: "Plise Perde — Salon Baskılı", caption: "Salonda baskılı plise perde" },
-      { loc: "/gallery/plise-perde/Plise-Perde-21.webp", title: "Plise Perde — Villa Geniş Pencere", caption: "Villada geniş pencerede motorlu plise perde" },
-      // Honeycomb Perde (12)
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-1.webp", title: "Honeycomb Perde — Salon Beyaz", caption: "Geniş pencerede beyaz honeycomb petek perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-2.webp", title: "Honeycomb Perde — Yatak Odası Antrasit", caption: "Yatak odasında antrasit honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-3.webp", title: "Honeycomb Perde — Cam Balkon", caption: "Cam balkonda honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-4.webp", title: "Honeycomb Perde — Petek Detay", caption: "Honeycomb perde petek yapısı detayı" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-5.webp", title: "Honeycomb Perde — Mutfak Beyaz", caption: "Mutfak penceresinde beyaz honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-6.webp", title: "Honeycomb Perde — Ofis", caption: "Ofis ortamında honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-7.webp", title: "Honeycomb Perde — Salon Geniş Pencere", caption: "Geniş salon penceresinde honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-8.webp", title: "Honeycomb Perde — Yatak Odası Krem", caption: "Yatak odasında krem honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-9.webp", title: "Honeycomb Perde — Villa Yüksek Pencere", caption: "Villada yüksek pencere honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-11.webp", title: "Honeycomb Perde — Çocuk Odası", caption: "Çocuk odasında honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-12.webp", title: "Honeycomb Perde — Çalışma Odası", caption: "Çalışma odasında honeycomb perde" },
-      { loc: "/gallery/honeycomb-perde/Honeycomb-Perde-13.webp", title: "Honeycomb Perde — Salon Çift Petek", caption: "Salonda çift petek honeycomb perde" },
-      // Düet Perde (18)
-      { loc: "/gallery/duet-perde/Duet-Perde-1.webp", title: "Düet Perde — Salon", caption: "Salonda düet perde, üst tül alt blackout" },
-      { loc: "/gallery/duet-perde/Duet-Perde-2.webp", title: "Düet Perde — Yatak Odası", caption: "Yatak odasında düet perde, gece gündüz kullanım" },
-      { loc: "/gallery/duet-perde/Duet-Perde-3.webp", title: "Düet Perde — Cam Balkon", caption: "Cam balkonda düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-4.webp", title: "Düet Perde — Mutfak", caption: "Mutfakta düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-5.webp", title: "Düet Perde — Ofis", caption: "Ofis ortamında düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-6.webp", title: "Düet Perde — Salon Geniş Pencere", caption: "Geniş salon penceresinde düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-7.webp", title: "Düet Perde — Yatak Odası Krem", caption: "Yatak odasında krem düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-8.webp", title: "Düet Perde — Detay Görünüm", caption: "Düet perde tül ve blackout kumaş detayı" },
-      { loc: "/gallery/duet-perde/Duet-Perde-9.webp", title: "Düet Perde — Villa", caption: "Villada yüksek pencere düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-10.webp", title: "Düet Perde — Kış Bahçesi", caption: "Kış bahçesinde düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-11.webp", title: "Düet Perde — Çalışma Odası", caption: "Çalışma odasında düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-12.webp", title: "Düet Perde — Salon Antrasit", caption: "Salonda antrasit düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-13.webp", title: "Düet Perde — Çocuk Odası", caption: "Çocuk odasında düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-14.webp", title: "Düet Perde — Banyo", caption: "Banyoda nem dayanımlı düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-15.webp", title: "Düet Perde — Fransız Balkon", caption: "Fransız balkonda düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-16.webp", title: "Düet Perde — Salon Çift Pencere", caption: "Salonda çift pencerede düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-17.webp", title: "Düet Perde — Yatak Odası Gece Gündüz", caption: "Yatak odasında gece gündüz düet perde" },
-      { loc: "/gallery/duet-perde/Duet-Perde-18.webp", title: "Düet Perde — Ofis Toplantı Odası", caption: "Toplantı odasında düet perde" },
-    ]},
-    { slug: "referanslarimiz", images: [
-      { loc: "/logos/turk-telekom.webp", title: "Türk Telekom — Plise Perde Kurumsal Müşterisi", caption: "Türk Telekom — Plise Perde kurumsal referansı" },
-      { loc: "/logos/a101.webp", title: "A101 — Plise Perde Kurumsal Müşterisi", caption: "A101 — Plise Perde kurumsal referansı" },
-      { loc: "/logos/acibadem-saglik-grubu.webp", title: "Acıbadem Sağlık Grubu — Plise Perde Kurumsal Müşterisi", caption: "Acıbadem Sağlık Grubu — Plise Perde kurumsal referansı" },
-      { loc: "/logos/amazon.webp", title: "Amazon — Plise Perde Kurumsal Müşterisi", caption: "Amazon — Plise Perde kurumsal referansı" },
-      { loc: "/logos/aselsan.webp", title: "Aselsan — Plise Perde Kurumsal Müşterisi", caption: "Aselsan — Plise Perde kurumsal referansı" },
-      { loc: "/logos/benthin.webp", title: "Benthin — Plise Perde Kurumsal Müşterisi", caption: "Benthin — Plise Perde kurumsal referansı" },
-      { loc: "/logos/bim.webp", title: "BİM — Plise Perde Kurumsal Müşterisi", caption: "BİM — Plise Perde kurumsal referansı" },
-      { loc: "/logos/bol.webp", title: "Bol — Plise Perde Kurumsal Müşterisi", caption: "Bol — Plise Perde kurumsal referansı" },
-      { loc: "/logos/cosiflor.webp", title: "Cosiflor — Plise Perde Kurumsal Müşterisi", caption: "Cosiflor — Plise Perde kurumsal referansı" },
-      { loc: "/logos/enka.webp", title: "Enka — Plise Perde Kurumsal Müşterisi", caption: "Enka — Plise Perde kurumsal referansı" },
-      { loc: "/logos/erfal.webp", title: "Erfal — Plise Perde Kurumsal Müşterisi", caption: "Erfal — Plise Perde kurumsal referansı" },
-      { loc: "/logos/espressolab.webp", title: "Espressolab — Plise Perde Kurumsal Müşterisi", caption: "Espressolab — Plise Perde kurumsal referansı" },
-      { loc: "/logos/garanti-bankasi.webp", title: "Garanti Bankası — Plise Perde Kurumsal Müşterisi", caption: "Garanti Bankası — Plise Perde kurumsal referansı" },
-      { loc: "/logos/gebze-belediyesi.webp", title: "Gebze Belediyesi — Plise Perde Kurumsal Müşterisi", caption: "Gebze Belediyesi — Plise Perde kurumsal referansı" },
-      { loc: "/logos/hepsiburada.webp", title: "Hepsiburada — Plise Perde Kurumsal Müşterisi", caption: "Hepsiburada — Plise Perde kurumsal referansı" },
-      { loc: "/logos/honeywell.webp", title: "Honeywell — Plise Perde Kurumsal Müşterisi", caption: "Honeywell — Plise Perde kurumsal referansı" },
-      { loc: "/logos/hunter-douglas.webp", title: "Hunter Douglas — Plise Perde Kurumsal Müşterisi", caption: "Hunter Douglas — Plise Perde kurumsal referansı" },
-      { loc: "/logos/ikea.webp", title: "IKEA — Plise Perde Kurumsal Müşterisi", caption: "IKEA — Plise Perde kurumsal referansı" },
-      { loc: "/logos/istanbul-buyuksehir-belediyesi.webp", title: "İstanbul Büyükşehir Belediyesi — Plise Perde Kurumsal Müşterisi", caption: "İBB — Plise Perde kurumsal referansı" },
-      { loc: "/logos/jysk.webp", title: "JYSK — Plise Perde Kurumsal Müşterisi", caption: "JYSK — Plise Perde kurumsal referansı" },
-      { loc: "/logos/kadeco.webp", title: "Kadeco — Plise Perde Kurumsal Müşterisi", caption: "Kadeco — Plise Perde kurumsal referansı" },
-      { loc: "/logos/kocaeli-buyuksehir-belediyesi.webp", title: "Kocaeli Büyükşehir Belediyesi — Plise Perde Kurumsal Müşterisi", caption: "KBB — Plise Perde kurumsal referansı" },
-      { loc: "/logos/luxaflex.webp", title: "Luxaflex — Plise Perde Kurumsal Müşterisi", caption: "Luxaflex — Plise Perde kurumsal referansı" },
-      { loc: "/logos/maersk.webp", title: "Maersk — Plise Perde Kurumsal Müşterisi", caption: "Maersk — Plise Perde kurumsal referansı" },
-      { loc: "/logos/medicana.webp", title: "Medicana — Plise Perde Kurumsal Müşterisi", caption: "Medicana — Plise Perde kurumsal referansı" },
-      { loc: "/logos/medipol.webp", title: "Medipol — Plise Perde Kurumsal Müşterisi", caption: "Medipol — Plise Perde kurumsal referansı" },
-      { loc: "/logos/memorial.webp", title: "Memorial — Plise Perde Kurumsal Müşterisi", caption: "Memorial — Plise Perde kurumsal referansı" },
-      { loc: "/logos/mhz-hachtel.webp", title: "MHZ Hachtel — Plise Perde Kurumsal Müşterisi", caption: "MHZ Hachtel — Plise Perde kurumsal referansı" },
-      { loc: "/logos/migros.webp", title: "Migros — Plise Perde Kurumsal Müşterisi", caption: "Migros — Plise Perde kurumsal referansı" },
-      { loc: "/logos/neher.webp", title: "Neher — Plise Perde Kurumsal Müşterisi", caption: "Neher — Plise Perde kurumsal referansı" },
-      { loc: "/logos/nevada-coffee.webp", title: "Nevada Coffee — Plise Perde Kurumsal Müşterisi", caption: "Nevada Coffee — Plise Perde kurumsal referansı" },
-      { loc: "/logos/opet.webp", title: "Opet — Plise Perde Kurumsal Müşterisi", caption: "Opet — Plise Perde kurumsal referansı" },
-      { loc: "/logos/pegasus.webp", title: "Pegasus — Plise Perde Kurumsal Müşterisi", caption: "Pegasus — Plise Perde kurumsal referansı" },
-      { loc: "/logos/pendik-belediyesi.webp", title: "Pendik Belediyesi — Plise Perde Kurumsal Müşterisi", caption: "Pendik Belediyesi — Plise Perde kurumsal referansı" },
-      { loc: "/logos/petkim.webp", title: "Petkim — Plise Perde Kurumsal Müşterisi", caption: "Petkim — Plise Perde kurumsal referansı" },
-      { loc: "/logos/san-deco.webp", title: "San Deco — Plise Perde Kurumsal Müşterisi", caption: "San Deco — Plise Perde kurumsal referansı" },
-      { loc: "/logos/socar.webp", title: "Socar — Plise Perde Kurumsal Müşterisi", caption: "Socar — Plise Perde kurumsal referansı" },
-      { loc: "/logos/trendyol.webp", title: "Trendyol — Plise Perde Kurumsal Müşterisi", caption: "Trendyol — Plise Perde kurumsal referansı" },
-      { loc: "/logos/tupras.webp", title: "Tüpraş — Plise Perde Kurumsal Müşterisi", caption: "Tüpraş — Plise Perde kurumsal referansı" },
-      { loc: "/logos/turkcell.webp", title: "Turkcell — Plise Perde Kurumsal Müşterisi", caption: "Turkcell — Plise Perde kurumsal referansı" },
-      { loc: "/logos/turkish-airlines.webp", title: "Turkish Airlines — Plise Perde Kurumsal Müşterisi", caption: "Turkish Airlines — Plise Perde kurumsal referansı" },
-      { loc: "/logos/turkiye-is-bankasi.webp", title: "Türkiye İş Bankası — Plise Perde Kurumsal Müşterisi", caption: "Türkiye İş Bankası — Plise Perde kurumsal referansı" },
-      { loc: "/logos/tuzla-belediyesi.webp", title: "Tuzla Belediyesi — Plise Perde Kurumsal Müşterisi", caption: "Tuzla Belediyesi — Plise Perde kurumsal referansı" },
-      { loc: "/logos/vestel.webp", title: "Vestel — Plise Perde Kurumsal Müşterisi", caption: "Vestel — Plise Perde kurumsal referansı" },
-      { loc: "/logos/warema.webp", title: "Warema — Plise Perde Kurumsal Müşterisi", caption: "Warema — Plise Perde kurumsal referansı" },
-      { loc: "/logos/yildiz-teknik-universitesi.webp", title: "Yıldız Teknik Üniversitesi — Plise Perde Kurumsal Müşterisi", caption: "YTÜ — Plise Perde kurumsal referansı" },
-    ]},
-  ],
-  videos: [
-    { slug: "montaj", videos: [
-      { thumbnail: "/video/montaj-thumb.jpg", title: "Plise Perde Montajı", description: "Plise perde montaj adımları ve ipuçları.", content: "/video/montaj.mp4", duration: "225", date: "2026-01-01T00:00:00+03:00" },
-    ]},
-  ],
-};
+const SKIP_DIRS = ["api", "offline"];
+const SKIP_FILES = [
+  "robots.txt", "manifest.json", "ai.txt", "llms.txt", "llms-full.txt",
+  "favicon.ico", "og-image.webp", "sw.js", "workbox-*.js",
+  "indexnow-*.txt", "icon-*.png", "apple-icon.png",
+];
+const IMAGE_EXTS = [".webp", ".jpg", ".jpeg", ".png", ".avif"];
+const VIDEO_EXTS = [".mp4", ".webm", ".mov"];
 
-function generateStandardSitemap(name, pages) {
+/* ---------- PAGE DISCOVERY (scan src/app/ directory) ---------- */
+
+function discoverPages() {
+  const pages = [];
+
+  function scanDir(dir, prefix) {
+    const items = fs.readdirSync(dir, { withFileTypes: true });
+    for (const item of items) {
+      if (item.isDirectory()) {
+        if (SKIP_DIRS.includes(item.name)) continue;
+        if (item.name.startsWith("[") && item.name.endsWith("]")) {
+          // Dynamic route — scan for generateStaticParams output in .next/
+          // For now, skip; these pages are discovered via site-pages.ts data
+          continue;
+        }
+        const fullPath = path.join(dir, item.name);
+        const hasPage = fs.existsSync(path.join(fullPath, "page.tsx")) || fs.existsSync(path.join(fullPath, "page.ts"));
+        if (hasPage) {
+          const slug = prefix ? `${prefix}/${item.name}` : item.name;
+          pages.push(slug);
+        }
+        scanDir(fullPath, prefix ? `${prefix}/${item.name}` : item.name);
+      }
+    }
+  }
+
+  // Homepage
+  if (fs.existsSync(path.join(APP_DIR, "page.tsx")) || fs.existsSync(path.join(APP_DIR, "page.ts"))) {
+    pages.push("");
+  }
+
+  scanDir(APP_DIR, "");
+
+  // Add dynamic [slug] pages from site-pages.ts data
+  // These are pages generated via generateStaticParams (blog posts, city pages, etc.)
+  try {
+    const sitePagesPath = path.join(process.cwd(), "src", "data", "site-pages.ts");
+    if (fs.existsSync(sitePagesPath)) {
+      const content = fs.readFileSync(sitePagesPath, "utf-8");
+      // Extract slugs from cityPages and blogPages
+      const citySlugMatches = content.matchAll(/slug:\s*["'`]([^"'`]+)["'`]/g);
+      // Also check for blog post slugs
+      const blogPath = path.join(process.cwd(), "src", "data", "blog.ts");
+      if (fs.existsSync(blogPath)) {
+        const blogContent = fs.readFileSync(blogPath, "utf-8");
+        const blogSlugMatches = blogContent.matchAll(/slug:\s*["'`]([^"'`]+)["'`]/g);
+        for (const match of blogSlugMatches) {
+          if (!pages.includes(match[1])) pages.push(match[1]);
+        }
+      }
+      // Extract city slugs from cities.ts
+      const citiesPath = path.join(process.cwd(), "src", "data", "cities.ts");
+      if (fs.existsSync(citiesPath)) {
+        const citiesContent = fs.readFileSync(citiesPath, "utf-8");
+        const citySlugMatches = citiesContent.matchAll(/slug:\s*["'`]([^"'`]+)["'`]/g);
+        for (const match of citySlugMatches) {
+          if (!pages.includes(match[1])) pages.push(match[1]);
+        }
+      }
+    }
+  } catch (e) {
+    console.warn("Warning: Could not read dynamic page slugs:", e.message);
+  }
+
+  return pages.sort();
+}
+
+/* ---------- PAGE CATEGORIZATION ---------- */
+
+function categorizePage(slug) {
+  // Homepage
+  if (slug === "") return { sitemap: "pages", priority: 1.0, changefreq: "weekly" };
+
+  // Main product categories
+  if (slug === "urunlerimiz") return { sitemap: "pages", priority: 0.9, changefreq: "monthly" };
+  if (/^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$/.test(slug))
+    return { sitemap: "pages", priority: 0.8, changefreq: "monthly" };
+
+  // Models
+  if (slug === "plise-perde-modelleri") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };
+  if (/^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$/.test(slug))
+    return { sitemap: "models", priority: 0.8, changefreq: "monthly" };
+
+  // Systems
+  if (slug === "plise-perde-sistemleri") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };
+  if (/^vidali-plise-perde$|^vidasiz-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portray-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$/.test(slug))
+    return { sitemap: "models", priority: 0.8, changefreq: "monthly" };
+
+  // Varieties
+  if (slug === "plise-perde-cesitleri") return { sitemap: "pages", priority: 0.9, changefreq: "monthly" };
+
+  // Features
+  if (slug === "plise-perde-ozellikleri") return { sitemap: "pages", priority: 0.8, changefreq: "monthly" };
+
+  // Prices
+  if (slug === "plise-perde-fiyatlari") return { sitemap: "pages", priority: 0.9, changefreq: "weekly" };
+  if (slug === "plise-perde-fiyat-hesaplama") return { sitemap: "services", priority: 0.8, changefreq: "monthly" };
+
+  // Usage areas hub
+  if (slug === "plise-perde-kullanim-alanlari") return { sitemap: "pages", priority: 0.8, changefreq: "monthly" };
+
+  // Individual usage area pages
+  if (/^(mutfak|salon|yatak-odasi|cocuk-odasi|calisma-odasi|banyo-wc|genc-odasi|cam-balkon|villa|karavan|tekne|magaza|ofis|kafe-restoran|otel|hastane|klinik|laboratuvar|spor-salonu|anaokulu|prefabrik-ev)-plise-perde$/.test(slug))
+    return { sitemap: "pages", priority: 0.7, changefreq: "monthly" };
+
+  // Services
+  if (slug === "hizmetlerimiz") return { sitemap: "services", priority: 0.8, changefreq: "monthly" };
+  if (/^montaj$|^olcu-alma-destegi$|^ucretsiz-kesif$|^kesif$|^numune$|^plise-perde-projesi$/.test(slug))
+    return { sitemap: "services", priority: 0.7, changefreq: "monthly" };
+
+  // Service regions
+  if (slug === "hizmet-bolgeleri") return { sitemap: "pages", priority: 0.7, changefreq: "monthly" };
+
+  // City pages (regions)
+  if (/^[a-z]+-plise-perde$/.test(slug) && ![
+    "plise-perde", "honeycomb-perde", "duet-perde",
+    ...["mutfak","salon","yatak-odasi","cocuk-odasi","calisma-odasi","banyo-wc","genc-odasi","cam-balkon","villa","karavan","tekne","magaza","ofis","kafe-restoran","otel","hastane","klinik","laboratuvar","spor-salonu","anaokulu","prefabrik-ev"].map(s => `${s}-plise-perde`)
+  ].includes(slug))
+    return { sitemap: "regions", priority: 0.6, changefreq: "monthly" };
+
+  // Comparisons
+  if (slug === "karsilastirmalar") return { sitemap: "comparisons", priority: 0.7, changefreq: "monthly" };
+  if (slug.startsWith("plise-perde-vs-")) return { sitemap: "comparisons", priority: 0.6, changefreq: "monthly" };
+
+  // Blog posts
+  if (slug === "blog") return { sitemap: "blog", priority: 0.8, changefreq: "weekly" };
+  if (/^plise-perde-(nedir|nasil|olcusu|montaji|temizligi|tamiri|malzemeleri|mekanizmasi)/.test(slug))
+    return { sitemap: "blog", priority: 0.7, changefreq: "monthly" };
+  if (slug === "salon-icin-plise-perde-secimi") return { sitemap: "blog", priority: 0.7, changefreq: "monthly" };
+
+  // Corporate
+  if (["hakkimizda", "surdurulebilirlik", "cocuk-guvenligi", "galeri", "sikca-sorulan-sorular", "plise-perde-kullanici-yorumlari", "plise-perde-bayilik", "kurumsal", "referanslarimiz"].includes(slug))
+    return { sitemap: "pages", priority: 0.6, changefreq: "monthly" };
+
+  // Contact
+  if (slug === "iletisim") return { sitemap: "pages", priority: 0.6, changefreq: "monthly" };
+
+  // Legal / contracts
+  if (["sozlesmelerimiz", "siparis-ve-ozel-uretim-sartlari", "uyelik-sozlesmesi", "montaj-ve-uygulama-sartlari", "olcu-alma-bilgilendirmesi", "mesafeli-satis-sozlesmesi", "on-bilgilendirme-formu", "kullanim-kosullari"].includes(slug))
+    return { sitemap: "legal", priority: 0.5, changefreq: "yearly" };
+
+  // Policies
+  if (["politikalarimiz", "iade-degisim-ve-cayma-hakki", "yurt-disi-teslimat-ve-gumruk", "odeme-ve-taksit-secenekleri", "banka-ve-havale-bilgileri", "garanti-ve-satis-sonrasi-destek", "satici-bilgileri", "cerez-politikasi", "acik-riza-metni", "ticari-elektronik-ileri-onayi", "teslimat-ve-kargo", "iade-ve-degisim", "gizlilik-politikasi", "kvkk-aydinlatma-metni"].includes(slug))
+    return { sitemap: "legal", priority: 0.5, changefreq: "yearly" };
+
+  // Site map page
+  if (slug === "site-haritasi") return { sitemap: "pages", priority: 0.4, changefreq: "monthly" };
+
+  // Default
+  return { sitemap: "pages", priority: 0.6, changefreq: "monthly" };
+}
+
+/* ---------- IMAGE DISCOVERY (scan public/ directory) ---------- */
+
+function shouldSkipFile(filename) {
+  return SKIP_FILES.some(pattern => {
+    if (pattern.includes("*")) {
+      const regex = new RegExp("^" + pattern.replace(/\*/g, ".*") + "$");
+      return regex.test(filename);
+    }
+    return filename === pattern;
+  });
+}
+
+function titleFromFilename(filepath) {
+  const dir = path.dirname(filepath).split("/").pop();
+  const name = path.basename(filepath, path.extname(filepath));
+  const prettyName = name.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  const prettyDir = dir ? dir.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase()) : "";
+  if (prettyDir && prettyDir !== ".") {
+    return `${prettyDir} — ${prettyName}`;
+  }
+  return prettyName;
+}
+
+function captionFromFilename(filepath) {
+  const name = path.basename(filepath, path.extname(filepath));
+  return name.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function discoverImages() {
+  const imagePages = {};
+
+  function addImage(pageSlug, imgPath) {
+    if (!imagePages[pageSlug]) imagePages[pageSlug] = [];
+    imagePages[pageSlug].push({
+      loc: imgPath,
+      title: titleFromFilename(imgPath),
+      caption: captionFromFilename(imgPath),
+    });
+  }
+
+  function scanDir(dir, prefix) {
+    const items = fs.readdirSync(dir, { withFileTypes: true });
+    for (const item of items) {
+      const fullPath = path.join(dir, item.name);
+      const relPath = prefix ? `${prefix}/${item.name}` : item.name;
+
+      if (item.isDirectory()) {
+        scanDir(fullPath, relPath);
+      } else if (item.isFile()) {
+        if (shouldSkipFile(item.name)) continue;
+        const ext = path.extname(item.name).toLowerCase();
+        if (!IMAGE_EXTS.includes(ext)) continue;
+
+        // Map images to pages based on directory
+        if (relPath.startsWith("gallery/")) {
+          addImage("galeri", `/${relPath}`);
+        } else if (relPath.startsWith("logos/")) {
+          addImage("referanslarimiz", `/${relPath}`);
+        } else if (relPath.startsWith("images/")) {
+          // Try to match image to a page by filename
+          const name = path.basename(item.name, ext);
+          addImage(name, `/${relPath}`);
+        } else if (relPath.startsWith("mega-menu/")) {
+          // Skip mega menu images from sitemap
+          continue;
+        } else if (relPath.startsWith("kullanim-alanlari/")) {
+          addImage("plise-perde-kullanim-alanlari", `/${relPath}`);
+        } else if (relPath.startsWith("karsilastirmalar/")) {
+          addImage("karsilastirmalar", `/${relPath}`);
+        } else if (relPath.startsWith("blog/")) {
+          addImage("blog", `/${relPath}`);
+        } else {
+          // Root-level images (og-image, favicon, etc.) — skip
+          continue;
+        }
+      }
+    }
+  }
+
+  if (fs.existsSync(PUBLIC_DIR)) {
+    scanDir(PUBLIC_DIR, "");
+  }
+
+  return Object.entries(imagePages).map(([slug, images]) => ({ slug, images }));
+}
+
+/* ---------- VIDEO DISCOVERY (scan public/video/ if exists) ---------- */
+
+function discoverVideos() {
+  const videoDir = path.join(PUBLIC_DIR, "video");
+  const videoPages = {};
+
+  if (!fs.existsSync(videoDir)) return [];
+
+  function scanDir(dir, prefix) {
+    const items = fs.readdirSync(dir, { withFileTypes: true });
+    for (const item of items) {
+      const fullPath = path.join(dir, item.name);
+      const relPath = prefix ? `${prefix}/${item.name}` : item.name;
+
+      if (item.isDirectory()) {
+        scanDir(fullPath, relPath);
+      } else if (item.isFile()) {
+        const ext = path.extname(item.name).toLowerCase();
+        if (!VIDEO_EXTS.includes(ext)) continue;
+
+        const name = path.basename(item.name, ext);
+        // Map video to page by filename (e.g., montaj.mp4 → /montaj/)
+        const pageSlug = name.replace(/-thumb$/, "").replace(/-video$/, "");
+        if (!videoPages[pageSlug]) videoPages[pageSlug] = [];
+
+        // Check for thumbnail (same name with -thumb.jpg)
+        const thumbBase = path.join(videoDir, name);
+        const thumbJpg = `${thumbBase}-thumb.jpg`;
+        const thumbWebp = `${thumbBase}-thumb.webp`;
+        let thumbnail = "";
+        if (fs.existsSync(thumbJpg)) thumbnail = `/video/${name}-thumb.jpg`;
+        else if (fs.existsSync(thumbWebp)) thumbnail = `/video/${name}-thumb.webp`;
+
+        videoPages[pageSlug].push({
+          thumbnail,
+          title: titleFromFilename(relPath),
+          description: captionFromFilename(relPath),
+          content: `/${relPath}`,
+          duration: "0",
+          date: `${TODAY}T00:00:00+03:00`,
+        });
+      }
+    }
+  }
+
+  scanDir(videoDir, "");
+  return Object.entries(videoPages).map(([slug, videos]) => ({ slug, videos }));
+}
+
+/* ---------- SITEMAP GENERATORS ---------- */
+
+function generateStandardSitemap(pages) {
   const urls = pages.map((p) => {
     const loc = p.slug === "" ? SITE_URL + "/" : `${SITE_URL}/${p.slug}/`;
     return `  <url>
@@ -367,6 +344,13 @@ ${urls}
 }
 
 function generateVideoSitemap(pages) {
+  if (pages.length === 0) {
+    return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+</urlset>`;
+  }
+
   const urls = pages.map((p) => {
     const loc = `${SITE_URL}/${p.slug}/`;
     const videos = p.videos.map((v) => `    <video:video>
@@ -394,6 +378,8 @@ ${urls}
 </urlset>`;
 }
 
+/* ---------- MAIN ---------- */
+
 const hasOutDir = fs.existsSync(OUT_DIR);
 
 function writeSitemap(filename, content) {
@@ -403,43 +389,47 @@ function writeSitemap(filename, content) {
   }
 }
 
+// Discover all pages from out/ directory
+const allSlugs = discoverPages();
+const categorizedPages = allSlugs.map(slug => ({ slug, ...categorizePage(slug) }));
+
+// Group pages by sitemap name
+const sitemapGroups = {};
+for (const page of categorizedPages) {
+  if (!sitemapGroups[page.sitemap]) sitemapGroups[page.sitemap] = [];
+  sitemapGroups[page.sitemap].push(page);
+}
+
+// Generate standard sitemaps
 const standardSitemaps = ["pages", "models", "services", "regions", "comparisons", "legal"];
-
-standardSitemaps.forEach((name) => {
-  const content = generateStandardSitemap(name, sitemaps[name]);
+for (const name of standardSitemaps) {
+  const pages = sitemapGroups[name] || [];
+  const content = generateStandardSitemap(pages);
   writeSitemap(`sitemap-${name}.xml`, content);
-  console.log(`Generated: sitemap-${name}.xml (${sitemaps[name].length} URLs)`);
-});
+  console.log(`Generated: sitemap-${name}.xml (${pages.length} URLs)`);
+}
 
-// Blog sitemap — blog page + individual blog posts
-const blogPosts = sitemaps.pages.filter((p) =>
-  p.slug.startsWith("plise-perde-nedir") ||
-  p.slug.startsWith("plise-perde-nasil") ||
-  p.slug.startsWith("plise-perde-olcusu") ||
-  p.slug.startsWith("plise-perde-montaji") ||
-  p.slug.startsWith("plise-perde-temizligi") ||
-  p.slug.startsWith("plise-perde-tamiri") ||
-  p.slug.startsWith("plise-perde-malzemeleri") ||
-  p.slug.startsWith("plise-perde-mekanizmasi")
-);
-const blogSitemapPages = [
-  { slug: "blog", priority: 0.8, changefreq: "weekly" },
-  ...blogPosts,
-];
-const blogContent = generateStandardSitemap("blog", blogSitemapPages);
+// Blog sitemap
+const blogPages = sitemapGroups["blog"] || [];
+const blogContent = generateStandardSitemap(blogPages);
 writeSitemap("sitemap-blog.xml", blogContent);
-console.log(`Generated: sitemap-blog.xml (${blogSitemapPages.length} URLs)`);
+console.log(`Generated: sitemap-blog.xml (${blogPages.length} URLs)`);
 
-const imageContent = generateImageSitemap(sitemaps.images);
+// Image sitemap — dynamically discovered from public/
+const imagePages = discoverImages();
+const imageContent = generateImageSitemap(imagePages);
 writeSitemap("sitemap-images.xml", imageContent);
-console.log("Generated: sitemap-images.xml");
+console.log(`Generated: sitemap-images.xml (${imagePages.length} pages, ${imagePages.reduce((sum, p) => sum + p.images.length, 0)} images)`);
 
-const videoContent = generateVideoSitemap(sitemaps.videos);
+// Video sitemap — dynamically discovered from public/video/
+const videoPages = discoverVideos();
+const videoContent = generateVideoSitemap(videoPages);
 writeSitemap("sitemap-videos.xml", videoContent);
-console.log("Generated: sitemap-videos.xml");
+console.log(`Generated: sitemap-videos.xml (${videoPages.length} pages)`);
 
 console.log("All named sitemaps generated successfully.");
 
+// Sitemap index
 const indexEntries = [
   "sitemap-pages.xml",
   "sitemap-blog.xml",
