@@ -176,3 +176,33 @@ export function faqPageSchema(faqs: { question: string; answer: string }[]) {
     })),
   };
 }
+
+export function articleSchema(headline: string, description: string, url: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": ["WebPage", "Article"],
+    "@id": `${siteConfig.url}${url}#article`,
+    headline,
+    description,
+    url: `${siteConfig.url}${url}`,
+    isPartOf: {
+      "@type": "WebSite",
+      "@id": `${siteConfig.url}/#website`,
+    },
+    author: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}/logo.webp`,
+      },
+    },
+    inLanguage: "tr-TR",
+  };
+}

@@ -18,7 +18,7 @@ import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 import HeroCallbackForm from "@/components/HeroCallbackForm";
 import TrustBar from "@/components/TrustBar";
 import { siteConfig } from "@/lib/site-config";
-import { organizationSchema, localBusinessSchema, websiteSchema, speakableSchema, faqPageSchema, breadcrumbSchema } from "@/lib/schema";
+import { organizationSchema, localBusinessSchema, websiteSchema, speakableSchema, faqPageSchema, breadcrumbSchema, articleSchema } from "@/lib/schema";
 
 const productCards = [
   { label: "Plise Perde", desc: "Özel ölçü üretim" },
@@ -89,6 +89,18 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: "Ana Sayfa", url: "/" }])) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            articleSchema(
+              "Plise Perde Nedir? Özet ve Özellikleri",
+              "Plise perde, polyester kumaşın harmonika şeklinde katlanmasıyla oluşan pencere perdesidir. Tül, güneşlik, karartma ve honeycomb modelleriyle farklı ışık kontrol seviyeleri sunar.",
+              "/"
+            )
+          ),
+        }}
       />
       <Header />
       <main className="flex-1 pb-14 md:pb-0">
@@ -180,6 +192,78 @@ export default function Home() {
 
         {/* Trust Bar — kayar güven rozetleri */}
         <TrustBar />
+
+        {/* Plise Perde Nedir? — Featured Snippet Hedefi */}
+        <section aria-label="Plise Perde Nedir" className="bg-white py-10 md:py-12">
+          <div className="mx-auto max-w-[1536px] px-4 md:px-6">
+            <div className="max-w-4xl">
+              <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-4">
+                Plise Perde Nedir? Özet ve Özellikleri
+              </h2>
+              <p className="text-sm md:text-base text-brand-text-light leading-relaxed mb-6">
+                Plise perde, polyester kumaşın harmonika şeklinde katlanmasıyla oluşan pencere perdesidir. Üst ve alt profil arasındaki ip sistemiyle açılıp kapanır. Tül, güneşlik, yarı karartma, tam karartma ve honeycomb modelleriyle farklı ışık kontrol seviyeleri sunar. Vidalı, yapışkanlı, portrayli, vidasız ve kancalı montaj seçenekleriyle her pencere tipine uyum sağlar.
+              </p>
+
+              <div className="overflow-x-auto mb-6">
+                <table className="w-full text-sm border border-brand-border rounded-lg overflow-hidden">
+                  <caption className="sr-only">Plise Perde Teknik Özellikleri</caption>
+                  <thead>
+                    <tr className="bg-brand-bg">
+                      <th scope="col" className="text-left px-4 py-3 font-semibold text-brand-text border-b border-brand-border">Özellik</th>
+                      <th scope="col" className="text-left px-4 py-3 font-semibold text-brand-text border-b border-brand-border">Değer</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-brand-border">
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Malzeme</th>
+                      <td className="px-4 py-3 text-brand-text-light">Polyester %100, antistatik opsiyonel</td>
+                    </tr>
+                    <tr className="border-b border-brand-border bg-brand-bg/30">
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Işık geçirgenlik</th>
+                      <td className="px-4 py-3 text-brand-text-light">%0 (Blackout) – %85 (Tül)</td>
+                    </tr>
+                    <tr className="border-b border-brand-border">
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">U-değeri</th>
+                      <td className="px-4 py-3 text-brand-text-light">&lt;2.0 W/m²K (Honeycomb)</td>
+                    </tr>
+                    <tr className="border-b border-brand-border bg-brand-bg/30">
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Ses yalıtımı</th>
+                      <td className="px-4 py-3 text-brand-text-light">Honeycomb&apos;da %30-45 ses azaltması</td>
+                    </tr>
+                    <tr className="border-b border-brand-border">
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Özel form</th>
+                      <td className="px-4 py-3 text-brand-text-light">Üçgen, kemerli, yamuk — özel ölçü</td>
+                    </tr>
+                    <tr className="border-b border-brand-border bg-brand-bg/30">
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Garanti</th>
+                      <td className="px-4 py-3 text-brand-text-light">2 yıl (profil + kumaş)</td>
+                    </tr>
+                    <tr className="border-b border-brand-border">
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Teslimat</th>
+                      <td className="px-4 py-3 text-brand-text-light">3-7 iş günü</td>
+                    </tr>
+                    <tr className="border-b border-brand-border bg-brand-bg/30">
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Montaj</th>
+                      <td className="px-4 py-3 text-brand-text-light">Vidalı, yapışkanlı, portrayli, vidasız, kancalı</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Kumaş</th>
+                      <td className="px-4 py-3 text-brand-text-light">Yıkanabilir, antistatik (toz tutmaz)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <Link
+                href="/plise-perde-nedir"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-brand hover:text-brand-dark transition-colors"
+              >
+                Detaylı bilgi için: Plise Perde Nedir?
+                <ChevronRight size={16} />
+              </Link>
+            </div>
+          </div>
+        </section>
 
         {/* Products */}
         <section className="bg-white py-10 md:py-12">
