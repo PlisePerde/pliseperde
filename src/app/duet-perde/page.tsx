@@ -1,5 +1,7 @@
 import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
+import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Düet Perde Ürünleri — Gece Gündüz Sistemi",
@@ -7,6 +9,12 @@ export const metadata: Metadata = generatePageMetadata({
     "Düet perde ürünleri: iki katmanlı gece-gündüz sistemidir. Gündüz ışık geçirgen, gece tam karartma. Tek perdede iki fonksiyon. 2 yıl garanti.",
   slug: "duet-perde",
 });
+
+const relatedCategories = [
+  { name: "Plise Perde Ürünleri", url: "/plise-perde/", description: "Klasik katlanır plise perde" },
+  { name: "Honeycomb Perde Ürünleri", url: "/honeycomb-perde/", description: "Petek hücreli ısı yalıtımlı" },
+  { name: "Plise Perde vs Düet Perde", url: "/plise-perde-vs-duet-perde/", description: "Karşılaştırma" },
+];
 
 export default function DuetPerdePage() {
   return (
@@ -17,11 +25,33 @@ export default function DuetPerdePage() {
       breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Düet Perde Ürünleri", url: "/duet-perde" }]}
       h1="Düet Perde Ürünleri"
       intro="Düet perde ürünleri kategorisinde iki farklı kumaş katmanını tek perdede birleştiren modeller sunuyoruz. Üst katman ışık geçirgen (tül/güneşlik), alt katman tam karartmadır. Gündüz üst katmanı kullanarak ışık alırsınız, gece alt katmanı indirerek tam karanlık sağlarsınız. Tek perdede iki fonksiyon — yerden tasarruf. 2 yıl garanti ile üretilir."
-      schemaType="product"
+      schemaType="collectionpage"
       schemaData={{
         name: "Düet Perde Ürünleri",
         description: "İki katmanlı gece-gündüz perde ürünleri. Işık ve karartma tek perdede.",
+        url: "/duet-perde/",
+        items: relatedCategories,
       }}
+      beforeContent={
+        <nav aria-label="İlgili kategoriler" className="mb-8">
+          <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-3">İlgili Kategoriler</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            {relatedCategories.map((item) => (
+              <Link
+                key={item.url}
+                href={item.url}
+                className="block p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors"
+              >
+                <span className="text-sm font-medium text-brand-text">{item.name}</span>
+                <span className="block text-xs text-brand-text-light mt-1">{item.description}</span>
+                <span className="flex items-center gap-1 text-xs text-brand mt-2">
+                  İncele <ChevronRight size={12} />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </nav>
+      }
       sections={[
         {
           h2: "Düet Perde Nedir?",
