@@ -315,6 +315,26 @@ export default function Home() {
                       <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Yıkanabilir, antistatik (toz tutmaz)</td>
                       <td className="px-3 py-2"><Link href="/plise-perde-temizligi-nasil-yapilir/" className="text-brand hover:underline">Temizlik →</Link></td>
                     </tr>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Genişlik aralığı</th>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">30 cm – 300 cm (özel ölçü)</td>
+                      <td className="px-3 py-2"><Link href="/olcu-alma-destegi/" className="text-brand hover:underline">Ölçü Alma →</Link></td>
+                    </tr>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Yükseklik aralığı</th>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">40 cm – 280 cm (özel ölçü)</td>
+                      <td className="px-3 py-2"><Link href="/olcu-alma-destegi/" className="text-brand hover:underline">Ölçü Alma →</Link></td>
+                    </tr>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Motor</th>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Tubular motor, uzaktan kumanda, akıllı ev uyumlu</td>
+                      <td className="px-3 py-2"><Link href="/motorlu-plise-perde/" className="text-brand hover:underline">Motorlu →</Link></td>
+                    </tr>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Renk seçenekleri</th>
+                      <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Beyaz, bej, gri, ekru, antrasit — 20+ renk</td>
+                      <td className="px-3 py-2"><Link href="/plise-perde-renkleri/" className="text-brand hover:underline">Renkler →</Link></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
