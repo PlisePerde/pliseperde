@@ -56,13 +56,6 @@ export default function PlisePerdePage() {
       }
       sections={[
         {
-          h2: "Plise Perde Nedir?",
-          paragraphs: [
-            "Plise perde, kumaşın <strong>akordeon gibi katlanarak</strong> açılıp kapanan bir perde sistemidir. Üst ve alt kanallar arasında gerilen kumaş, ip mekanizması ile hareket eder. Açıldığında kat kat toplanır, kapandığında pencereyi tam örter.",
-            "Diğer perde türlerinden farkı: <em>hafif olması, az yer kaplaması ve pencere içinde montaj</em> yapılmasıdır. Stor ve zebra perdelere göre daha yumuşak bir görünüm sunar.",
-          ],
-        },
-        {
           h2: "Kumaş Seçenekleri",
           paragraphs: [
             "Plise perde kumaşı <strong>ihtiyacınıza göre</strong> seçilir. Odanın fonksiyonu, ışık ihtiyacı ve gizlilik beklentisi belirleyicidir.",
