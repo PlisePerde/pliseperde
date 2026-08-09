@@ -14,7 +14,7 @@ export default function YapiskanliPlisePerdePage() {
       title="Yapışkanlı Plise Perde"
       description="Yapışkanlı plise perde: çift taraflı bant ile delmesiz montaj. Kiracı dostu, iz bırakmaz."
       slug="yapiskanli-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sistemlerimiz", url: "/plise-perde-sistemleri" }, { name: "Yapışkanlı Plise Perde", url: "/yapiskanli-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }, { name: "Yapışkanlı Plise Perde", url: "/yapiskanli-plise-perde" }]}
       h1="Yapışkanlı Plise Perde"
       intro="Yapışkanlı plise perde, profilin pencere çerçevesine yüksek kaliteli çift taraflı bant ile yapıştırıldığı montaj sistemidir. <em><strong>Yapıştırmalı plise perde</strong></em> olarak da bilinir — delme yapmadan, vidalamadan perdeyi sabitler. Kiracılar için en pratik çözümdür. PVC, alüminyum ve ahşap çerçevelere uygulanır. Söküldüğünde iz bırakmaz. 2 yıl garanti ile gelir."
       schemaType="product"

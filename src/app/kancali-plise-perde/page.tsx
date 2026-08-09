@@ -14,7 +14,7 @@ export default function KancaliPlisePerdePage() {
       title="Kancalı Plise Perde"
       description="Kancalı plise perde: kanca-profil sistemi ile sökülüp takılabilen montaj. Temizlik için pratik, delmesiz."
       slug="kancali-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sistemlerimiz", url: "/plise-perde-sistemleri" }, { name: "Kancalı Plise Perde", url: "/kancali-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }, { name: "Kancalı Plise Perde", url: "/kancali-plise-perde" }]}
       h1="Kancalı Plise Perde"
       intro="Kancalı plise perde, pencere çerçevesine takılan kanca profili ve perdenin üzerindeki kanca sistemi ile çalışan bir montaj tipidir. Perde saniyeler içinde sökülüp takılır — temizlik için en pratik çözümdür. Delme yapılmaz, vida kullanılmaz. Kiracılar için idealdir. Hafif ve orta ağırlıktaki kumaşlar için uygundur. 2 yıl garanti ile gelir."
       schemaType="product"

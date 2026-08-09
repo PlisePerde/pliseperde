@@ -2,24 +2,24 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Portray Plise Perde — İnce Profil Estetik Sistem",
+  title: "Portrayli Plise Perde — İnce Profil Estetik Montaj",
   description:
-    "Portray plise perde: ince profil ile estetik montaj sistemi. Minimal görünüm, pencere içinde gizli profil. Modern tasarım. 2 yıl garanti.",
-  slug: "portray-plise-perde",
+    "Portrayli plise perde: ince profil ile estetik montaj sistemi. Minimal görünüm, pencere içinde gizli profil. Modern tasarım. 2 yıl garanti.",
+  slug: "portrayli-plise-perde",
 });
 
-export default function PortrayPlisePerdePage() {
+export default function PortrayliPlisePerdePage() {
   return (
     <PageTemplate
-      title="Portray Plise Perde"
-      description="Portray plise perde: ince profil ile estetik montaj sistemi. Minimal görünüm, pencere içinde gizli profil."
-      slug="portray-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sistemlerimiz", url: "/plise-perde-sistemleri" }, { name: "Portray Plise Perde", url: "/portray-plise-perde" }]}
-      h1="Portray Plise Perde"
-      intro="Portray plise perde, standart plise perdeden daha ince profil ile monte edilen estetik odaklı bir sistemdir. Profil pencere içinde neredeyse görünmez — sadece kumaş görünür. Modern ve minimal tasarım sevenler için ideal. İnce profile rağmen sağlamlık korunur. Vidalı veya yapışkanlı montaj ile uygulanır. 2 yıl garanti ile gelir."
+      title="Portrayli Plise Perde"
+      description="Portrayli plise perde: ince profil ile estetik montaj sistemi. Minimal görünüm, pencere içinde gizli profil."
+      slug="portrayli-plise-perde"
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }, { name: "Portrayli Plise Perde", url: "/portrayli-plise-perde" }]}
+      h1="Portrayli Plise Perde"
+      intro="Portrayli plise perde, standart plise perdeden daha ince profil ile monte edilen estetik odaklı bir montaj sistemidir. Profil pencere içinde neredeyse görünmez — sadece kumaş görünür. Modern ve minimal tasarım sevenler için ideal. İnce profile rağmen sağlamlık korunur. Vidalı veya yapışkanlı montaj ile uygulanır. 2 yıl garanti ile gelir."
       schemaType="product"
       schemaData={{
-        name: "Portray Plise Perde",
+        name: "Portrayli Plise Perde",
         description: "İnce profil ile estetik montaj sistemi. Minimal görünüm, gizli profil.",
       }}
       sections={[

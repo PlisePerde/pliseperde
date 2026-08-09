@@ -14,7 +14,7 @@ export default function VidasizPlisePerdePage() {
       title="Vidasız Plise Perde"
       description="Vidasız plise perde: delme olmadan monte edilen sistem. Yapışkanlı veya kancalı montaj ile kiracı dostu."
       slug="vidasiz-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sistemlerimiz", url: "/plise-perde-sistemleri" }, { name: "Vidasız Plise Perde", url: "/vidasiz-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }, { name: "Vidasız Plise Perde", url: "/vidasiz-plise-perde" }]}
       h1="Vidasız Plise Perde"
       intro="Vidasız plise perde, pencere çerçevesine delme yapılmadan monte edilen sistemdir. Yapışkanlı veya kancalı montaj ile uygulanır. Kiracılar için ideal — pencerede iz bırakmaz, söküldüğünde çerçeve temiz kalır. Hafif ve orta ağırlıktaki kumaşlar için uygundur. 2 yıl garanti ile gelir."
       schemaType="product"

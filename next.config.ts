@@ -64,6 +64,16 @@ const nextConfig: NextConfig = {
         destination: "/kesif/",
         permanent: true,
       },
+      {
+        source: "/portray-plise-perde",
+        destination: "/portrayli-plise-perde",
+        permanent: true,
+      },
+      {
+        source: "/portray-plise-perde/",
+        destination: "/portrayli-plise-perde/",
+        permanent: true,
+      },
     ];
   },
 };

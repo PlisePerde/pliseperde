@@ -14,7 +14,7 @@ export default function MotorluPlisePerdePage() {
       title="Motorlu Plise Perde"
       description="Motorlu plise perde: uzaktan kumanda, akıllı ev entegrasyonu, otomasyon. Sessiz motor, zamanlayıcı, güneş sensörü."
       slug="motorlu-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sistemlerimiz", url: "/plise-perde-sistemleri" }, { name: "Motorlu Plise Perde", url: "/motorlu-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }, { name: "Motorlu Plise Perde", url: "/motorlu-plise-perde" }]}
       h1="Motorlu Plise Perde"
       intro="Motorlu plise perde, perdenin açılıp kapanmasını elektrikli motor ile sağlayan otomasyon sistemidir. Uzaktan kumanda, akıllı telefon veya sesli komut ile kontrol edilir. Zamanlayıcı ve güneş sensörü ile otomatik çalışır. Sessiz motor teknolojisi ile rahatsız etmez. Geniş pencereler, yüksek tavanlar ve erişimi zor pencereler için ideal. 2 yıl garanti ile gelir."
       schemaType="product"

@@ -14,7 +14,7 @@ export default function VidaliPlisePerdePage() {
       title="Vidalı Plise Perde"
       description="Vidalı plise perde montajı: vidalı profil ile pencereye en sağlam sabitleme. Ağır kumaşlar için ideal."
       slug="vidali-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sistemlerimiz", url: "/plise-perde-sistemleri" }, { name: "Vidalı Plise Perde", url: "/vidali-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }, { name: "Vidalı Plise Perde", url: "/vidali-plise-perde" }]}
       h1="Vidalı Plise Perde"
       intro="Vidalı plise perde, profilin pencere çerçevesine vidalar ile sabitlendiği montaj sistemidir. En sağlam ve dayanıklı montaj tipidir. Ağır kumaşlar (honeycomb, tam karartma, motorlu) için idealdir. Vidalı montaj ile perde yıllar boyu yerinden oynamaz. Profesyonel montaj ekibimiz tarafından uygulanır, 2 yıl garanti ile gelir."
       schemaType="product"
