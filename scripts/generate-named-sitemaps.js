@@ -91,17 +91,17 @@ function categorizePage(slug) {
 
   // Main product categories
   if (slug === "urunlerimiz") return { sitemap: "pages", priority: 0.9, changefreq: "monthly" };
-  if (/^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$/.test(slug))
+  if (/^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$|^plise-perde-katalog$|^plise-perde-renkleri$/.test(slug))
     return { sitemap: "pages", priority: 0.8, changefreq: "monthly" };
 
   // Models
   if (slug === "plise-perde-modelleri") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };
-  if (/^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$/.test(slug))
+  if (/^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$|^plise-perde-sineklik$/.test(slug))
     return { sitemap: "models", priority: 0.8, changefreq: "monthly" };
 
   // Systems
-  if (slug === "plise-perde-sistemleri") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };
-  if (/^vidali-plise-perde$|^vidasiz-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portray-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$/.test(slug))
+  if (slug === "plise-perde-sistemleri" || slug === "plise-perde-montaji") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };
+  if (/^vidali-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portrayli-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$|^yatay-plise-perde$|^dikey-plise-perde$|^tavan-plise-perde$|^kasali-plise-perde$|^ucgen-plise-perde$|^egimli-plise-perde$|^acili-plise-perde$|^yuvarlak-plise-perde$|^oval-plise-perde$/.test(slug))
     return { sitemap: "models", priority: 0.8, changefreq: "monthly" };
 
   // Varieties
@@ -132,7 +132,9 @@ function categorizePage(slug) {
   // City pages (regions)
   if (/^[a-z]+-plise-perde$/.test(slug) && ![
     "plise-perde", "honeycomb-perde", "duet-perde",
-    ...["mutfak","salon","yatak-odasi","cocuk-odasi","calisma-odasi","banyo-wc","genc-odasi","cam-balkon","villa","karavan","tekne","magaza","ofis","kafe-restoran","otel","hastane","klinik","laboratuvar","spor-salonu","anaokulu","prefabrik-ev"].map(s => `${s}-plise-perde`)
+    ...["mutfak","salon","yatak-odasi","cocuk-odasi","calisma-odasi","banyo-wc","genc-odasi","cam-balkon","villa","karavan","tekne","magaza","ofis","kafe-restoran","otel","hastane","klinik","laboratuvar","spor-salonu","anaokulu","prefabrik-ev"].map(s => `${s}-plise-perde`),
+    ...["duz","blackout","gece-gunduz","desenli","baskili","vidali","yapiskanli","kancali","portrayli","braketli","motorlu","yatay","dikey","tavan","kasali","ucgen","egimli","acili","yuvarlak","oval"].map(s => `${s}-plise-perde`),
+    "plise-perde-sineklik"
   ].includes(slug))
     return { sitemap: "regions", priority: 0.6, changefreq: "monthly" };
 
