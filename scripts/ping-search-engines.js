@@ -40,6 +40,7 @@ function pingIndexNow() {
       },
       (res) => {
         console.log(`  IndexNow: ${res.statusCode}`);
+        res.resume();
         resolve();
       }
     );
@@ -56,4 +57,5 @@ function pingIndexNow() {
   console.log("=== IndexNow ===");
   await pingIndexNow();
   console.log("Ping tamamlandı.");
+  process.exit(0);
 })();
