@@ -211,7 +211,7 @@ export default function Home() {
                 </p>
 
                 <ul className="grid grid-cols-2 gap-3 mb-6">
-                  <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-3 p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors">
                     <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
                       <Sun size={16} className="text-brand" />
                     </span>
@@ -220,7 +220,7 @@ export default function Home() {
                       <p className="text-xs text-brand-text-light">Tül (%85) → güneşlik → yarı karartma → tam karartma (%0) → honeycomb</p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-3 p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors">
                     <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
                       <Wrench size={16} className="text-brand" />
                     </span>
@@ -229,7 +229,7 @@ export default function Home() {
                       <p className="text-xs text-brand-text-light">Vidalı, yapışkanlı, portrayli, vidasız ve kancalı — her pencere tipine uyum</p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-3 p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors">
                     <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
                       <Ruler size={16} className="text-brand" />
                     </span>
@@ -238,7 +238,7 @@ export default function Home() {
                       <p className="text-xs text-brand-text-light">Üçgen, kemerli, yamuk ve standart dışı pencere formlarında özel üretim</p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-3 p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors">
                     <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
                       <Shield size={16} className="text-brand" />
                     </span>
