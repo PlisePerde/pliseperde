@@ -117,6 +117,7 @@ Allow: /
 User-agent: *
 Allow: /
 Allow: /sitemap*.xml
+Allow: /manifest.json
 Disallow: /admin/
 Disallow: /api/
 Disallow: /404

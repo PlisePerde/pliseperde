@@ -196,71 +196,74 @@ export default function Home() {
         {/* Plise Perde Nedir? — Featured Snippet Hedefi */}
         <section aria-label="Plise Perde Nedir" className="bg-white py-10 md:py-12">
           <div className="mx-auto max-w-[1536px] px-4 md:px-6">
-            <div className="max-w-4xl">
-              <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-4">
-                Plise Perde Nedir? Özet ve Özellikleri
-              </h2>
-              <p className="text-sm md:text-base text-brand-text-light leading-relaxed mb-6">
-                Plise perde, polyester kumaşın harmonika şeklinde katlanmasıyla oluşan pencere perdesidir. Üst ve alt profil arasındaki ip sistemiyle açılıp kapanır. Tül, güneşlik, yarı karartma, tam karartma ve honeycomb modelleriyle farklı ışık kontrol seviyeleri sunar. Vidalı, yapışkanlı, portrayli, vidasız ve kancalı montaj seçenekleriyle her pencere tipine uyum sağlar.
-              </p>
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+              {/* Sol: Tanım */}
+              <div>
+                <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-4">
+                  Plise Perde Nedir? Özet ve Özellikleri
+                </h2>
+                <p className="text-sm md:text-base text-brand-text-light leading-relaxed mb-6">
+                  Plise perde, polyester kumaşın harmonika şeklinde katlanmasıyla oluşan pencere perdesidir. Üst ve alt profil arasındaki ip sistemiyle açılıp kapanır. Tül, güneşlik, yarı karartma, tam karartma ve honeycomb modelleriyle farklı ışık kontrol seviyeleri sunar. Vidalı, yapışkanlı, portrayli, vidasız ve kancalı montaj seçenekleriyle her pencere tipine uyum sağlar.
+                </p>
+                <Link
+                  href="/plise-perde-nedir"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-brand hover:text-brand-dark transition-colors"
+                >
+                  Detaylı bilgi için: Plise Perde Nedir?
+                  <ChevronRight size={16} />
+                </Link>
+              </div>
 
-              <div className="overflow-x-auto mb-6">
-                <table className="w-full text-sm border border-brand-border rounded-lg overflow-hidden">
+              {/* Sağ: Teknik Tablo */}
+              <div className="overflow-x-auto border border-brand rounded-lg">
+                <table className="w-full text-sm">
                   <caption className="sr-only">Plise Perde Teknik Özellikleri</caption>
                   <thead>
-                    <tr className="bg-brand-bg">
-                      <th scope="col" className="text-left px-4 py-3 font-semibold text-brand-text border-b border-brand-border">Özellik</th>
-                      <th scope="col" className="text-left px-4 py-3 font-semibold text-brand-text border-b border-brand-border">Değer</th>
+                    <tr className="bg-brand text-white">
+                      <th scope="col" className="px-3 py-2 text-left font-medium border-r border-brand-border/30">Özellik</th>
+                      <th scope="col" className="px-3 py-2 text-left font-medium">Değer</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="border-b border-brand-border">
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Malzeme</th>
-                      <td className="px-4 py-3 text-brand-text-light">Polyester %100, antistatik opsiyonel</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Malzeme</th>
+                      <td className="px-3 py-2 text-brand-text-light">Polyester %100, antistatik opsiyonel</td>
                     </tr>
-                    <tr className="border-b border-brand-border bg-brand-bg/30">
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Işık geçirgenlik</th>
-                      <td className="px-4 py-3 text-brand-text-light">%0 (Blackout) – %85 (Tül)</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Işık geçirgenlik</th>
+                      <td className="px-3 py-2 text-brand-text-light">%0 (Blackout) – %85 (Tül)</td>
                     </tr>
-                    <tr className="border-b border-brand-border">
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">U-değeri</th>
-                      <td className="px-4 py-3 text-brand-text-light">&lt;2.0 W/m²K (Honeycomb)</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">U-değeri</th>
+                      <td className="px-3 py-2 text-brand-text-light">&lt;2.0 W/m²K (Honeycomb)</td>
                     </tr>
-                    <tr className="border-b border-brand-border bg-brand-bg/30">
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Ses yalıtımı</th>
-                      <td className="px-4 py-3 text-brand-text-light">Honeycomb&apos;da %30-45 ses azaltması</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Ses yalıtımı</th>
+                      <td className="px-3 py-2 text-brand-text-light">Honeycomb&apos;da %30-45 ses azaltması</td>
                     </tr>
-                    <tr className="border-b border-brand-border">
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Özel form</th>
-                      <td className="px-4 py-3 text-brand-text-light">Üçgen, kemerli, yamuk — özel ölçü</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Özel form</th>
+                      <td className="px-3 py-2 text-brand-text-light">Üçgen, kemerli, yamuk — özel ölçü</td>
                     </tr>
-                    <tr className="border-b border-brand-border bg-brand-bg/30">
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Garanti</th>
-                      <td className="px-4 py-3 text-brand-text-light">2 yıl (profil + kumaş)</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Garanti</th>
+                      <td className="px-3 py-2 text-brand-text-light">2 yıl (profil + kumaş)</td>
                     </tr>
-                    <tr className="border-b border-brand-border">
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Teslimat</th>
-                      <td className="px-4 py-3 text-brand-text-light">3-7 iş günü</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Teslimat</th>
+                      <td className="px-3 py-2 text-brand-text-light">3-7 iş günü</td>
                     </tr>
-                    <tr className="border-b border-brand-border bg-brand-bg/30">
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Montaj</th>
-                      <td className="px-4 py-3 text-brand-text-light">Vidalı, yapışkanlı, portrayli, vidasız, kancalı</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Montaj</th>
+                      <td className="px-3 py-2 text-brand-text-light">Vidalı, yapışkanlı, portrayli, vidasız, kancalı</td>
                     </tr>
-                    <tr>
-                      <th scope="row" className="text-left px-4 py-3 font-medium text-brand-text">Kumaş</th>
-                      <td className="px-4 py-3 text-brand-text-light">Yıkanabilir, antistatik (toz tutmaz)</td>
+                    <tr className="border-b border-brand-border last:border-b-0 hover:bg-brand-bg transition-colors">
+                      <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Kumaş</th>
+                      <td className="px-3 py-2 text-brand-text-light">Yıkanabilir, antistatik (toz tutmaz)</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-
-              <Link
-                href="/plise-perde-nedir"
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-brand hover:text-brand-dark transition-colors"
-              >
-                Detaylı bilgi için: Plise Perde Nedir?
-                <ChevronRight size={16} />
-              </Link>
             </div>
           </div>
         </section>
