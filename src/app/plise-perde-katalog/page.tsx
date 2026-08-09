@@ -102,15 +102,6 @@ const models = [
     icon: Cpu,
   },
   {
-    name: "Vidasız Plise Perde",
-    slug: "vidasiz-plise-perde",
-    image: "/mega-menu/plise-perdeler.webp",
-    desc: "Delmesiz montaj, yapışkanlı — kiracılar için ideal",
-    light: "%0-85",
-    tags: ["Delmesiz", "Yapışkanlı"],
-    icon: Wrench,
-  },
-  {
     name: "Kancalı Plise Perde",
     slug: "kancali-plise-perde",
     image: "/mega-menu/plise-perdeler.webp",
@@ -179,9 +170,9 @@ const fabricTypes = [
 
 const montajTypes = [
   { name: "Vidalı Montaj", slug: "vidali-plise-perde", desc: "En sağlam, kalıcı çözüm — vidalarla profile sabitlenir", icon: Wrench },
-  { name: "Yapışkanlı Montaj", slug: "vidasiz-plise-perde", desc: "Delmesiz, çift taraflı bant — kiracılar için ideal", icon: Wrench },
-  { name: "Portrayli Montaj", slug: "portray-plise-perde", desc: "Pencere kapağı arasına sıkışır — delmesiz, pratik", icon: Wrench },
-  { name: "Vidasız Montaj", slug: "vidasiz-plise-perde", desc: "Delmesiz, sökülebilir — kiralık mekanlar için", icon: Wrench },
+  { name: "Yapışkanlı Montaj", slug: "yapiskanli-plise-perde", desc: "Delmesiz, çift taraflı bant — kiracılar için ideal", icon: Wrench },
+  { name: "Portrayli Montaj", slug: "portrayli-plise-perde", desc: "Pencere kapağı arasına sıkışır — delmesiz, pratik", icon: Wrench },
+  { name: "Braketli Montaj", slug: "braketli-plise-perde", desc: "Sağlam ve esnek — sökülüp temizlenebilir", icon: Wrench },
   { name: "Kancalı Montaj", slug: "kancali-plise-perde", desc: "Takılır çıkarır — temizlik ve değişim için kolay", icon: Wrench },
 ];
 

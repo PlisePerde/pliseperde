@@ -28,7 +28,7 @@ import { generatePageMetadata } from "@/lib/seo";
 export const metadata: Metadata = generatePageMetadata({
   title: "Plise Perde Montajı — Tipleri, Çeşitleri & Fiyatları",
   description:
-    "Plise perde montajı: vidalı, vidasız, yapışkanlı, kancalı, portrayli, braketli ve motorlu montaj tipleri. Her pencere tipine uygun montaj. Profesyonel montaj, 2 yıl garanti.",
+    "Plise perde montajı: vidalı, yapışkanlı, kancalı, portrayli, braketli ve motorlu montaj tipleri. Her pencere tipine uygun montaj. Profesyonel montaj, 2 yıl garanti.",
   slug: "plise-perde-montaji",
   keywords: ["plise perde montajı", "plise perde montaj tipleri", "plise perde montaj çeşitleri"],
 });
@@ -40,13 +40,6 @@ const montajTipleri = [
     desc: "En sağlam montaj. Profil vidalar ile çerçeveye sabitlenir. Ağır kumaş ve motorlu sistemler için ideal.",
     icon: Wrench,
     features: ["Kalıcı", "En sağlam", "Ağır kumaş uyumlu"],
-  },
-  {
-    name: "Vidasız Plise Perde",
-    slug: "vidasiz-plise-perde",
-    desc: "Delmesiz montaj. Yapışkanlı veya kancalı sistem ile kiracı dostu. Hafif kumaşlar için uygun.",
-    icon: Shield,
-    features: ["Delmesiz", "Kiracı dostu", "Sökülebilir"],
   },
   {
     name: "Yapışkanlı Plise Perde",
@@ -86,7 +79,7 @@ const montajTipleri = [
 ];
 
 const stats = [
-  { icon: Wrench, value: "7", label: "Montaj Tipi" },
+  { icon: Wrench, value: "6", label: "Montaj Tipi" },
   { icon: Factory, value: "Üretici", label: "Profesyonel Montaj" },
   { icon: Shield, value: "2 Yıl", label: "Garanti" },
   { icon: Truck, value: "81 İl", label: "Türkiye Geneli" },
@@ -95,7 +88,7 @@ const stats = [
 const faqs: FAQItem[] = [
   {
     question: "Plise perde montajı kaç tipi var?",
-    answer: "Plise perde montajında 7 tip mevcuttur: vidalı, vidasız, yapışkanlı, kancalı, portrayli, braketli ve motorlu. Her tip farklı ihtiyaça cevap verir — kalıcı, delmesiz, pratik veya otomatik.",
+    answer: "Plise perde montajında 6 tip mevcuttur: vidalı, yapışkanlı, kancalı, portrayli, braketli ve motorlu. Her tip farklı ihtiyaça cevap verir — kalıcı, delmesiz, pratik veya otomatik.",
   },
   {
     question: "Hangi montaj tipi en sağlam?",
@@ -103,7 +96,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "Kiracı isem hangi montaj tipi uygun?",
-    answer: "Kiracılar için vidasız, yapışkanlı veya kancalı montaj önerilir. Bu tipler delmesizdir — pencere çerçevesine zarar vermez. Taşınırken perde sökülüp yeni eve götürülebilir.",
+    answer: "Kiracılar için yapışkanlı veya kancalı montaj önerilir. Bu tipler delmesizdir — pencere çerçevesine zarar vermez. Taşınırken perde sökülüp yeni eve götürülebilir.",
   },
   {
     question: "Plise perde montajı ücretli mi?",
@@ -127,12 +120,12 @@ export default function PlisePerdeMontajiPage() {
           createBreadcrumbJsonLd(["Ana Sayfa", "Plise Perde Montajı"]),
           createWebPageSchema({
             name: "Plise Perde Montajı",
-            description: "Plise perde montaj tipleri: vidalı, vidasız, yapışkanlı, kancalı, portrayli, braketli, motorlu.",
+            description: "Plise perde montaj tipleri: vidalı, yapışkanlı, kancalı, portrayli, braketli, motorlu.",
             url: "/plise-perde-montaji",
           }),
           createCollectionPageSchema({
             name: "Plise Perde Montajı",
-            description: "7 montaj tipi — vidalı, vidasız, yapışkanlı, kancalı, portrayli, braketli, motorlu.",
+            description: "6 montaj tipi — vidalı, yapışkanlı, kancalı, portrayli, braketli, motorlu.",
             url: "/plise-perde-montaji",
             items: montajTipleri.map((m) => ({ name: m.name, url: `/${m.slug}` })),
           }),
@@ -142,9 +135,9 @@ export default function PlisePerdeMontajiPage() {
 
       <PageHeading
         title="Plise Perde Montajı"
-        description="Plise perde montajı, pencere tipinize ve ihtiyacınıza göre değişir. Vidalı, vidasız, yapışkanlı, kancalı, portrayli, braketli ve motorlu montaj tipleri arasından size uygun olanı seçin. Her tip üretici garantisi ve profesyonel montaj ile gelir."
+        description="Plise perde montajı, pencere tipinize ve ihtiyacınıza göre değişir. Vidalı, yapışkanlı, kancalı, portrayli, braketli ve motorlu montaj tipleri arasından size uygun olanı seçin. Her tip üretici garantisi ve profesyonel montaj ile gelir."
         breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }]}
-        highlight="Vidalı · Vidasız · Yapışkanlı · Kancalı · Portrayli · Braketli · Motorlu"
+        highlight="Vidalı · Yapışkanlı · Kancalı · Portrayli · Braketli · Motorlu"
       />
 
       {/* Stats Bar */}
@@ -218,13 +211,6 @@ export default function PlisePerdeMontajiPage() {
                   <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Yüksek</td>
                   <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Zor</td>
                   <td className="px-3 py-2 text-brand-text-light">Tüm kumaşlar</td>
-                </tr>
-                <tr className="border-b border-brand-border last:border-b-0 hover:bg-white transition-colors">
-                  <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Vidasız</th>
-                  <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Hayır</td>
-                  <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">İyi</td>
-                  <td className="px-3 py-2 text-brand-text-light border-r border-brand-border">Kolay</td>
-                  <td className="px-3 py-2 text-brand-text-light">Hafif-orta</td>
                 </tr>
                 <tr className="border-b border-brand-border last:border-b-0 hover:bg-white transition-colors">
                   <th scope="row" className="px-3 py-2 text-left font-medium text-brand-text border-r border-brand-border">Yapışkanlı</th>

@@ -74,6 +74,16 @@ const nextConfig: NextConfig = {
         destination: "/portrayli-plise-perde/",
         permanent: true,
       },
+      {
+        source: "/vidasiz-plise-perde",
+        destination: "/yapiskanli-plise-perde",
+        permanent: true,
+      },
+      {
+        source: "/vidasiz-plise-perde/",
+        destination: "/yapiskanli-plise-perde/",
+        permanent: true,
+      },
     ];
   },
 };
