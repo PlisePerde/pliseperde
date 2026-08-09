@@ -9,6 +9,10 @@ import {
   ChevronRight,
   Clock,
   Tag,
+  Sun,
+  Layers,
+  Ruler,
+  Award,
 } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -203,8 +207,48 @@ export default function Home() {
                   Plise Perde Nedir? Özet ve Özellikleri
                 </h2>
                 <p className="text-sm md:text-base text-brand-text-light leading-relaxed mb-6">
-                  Plise perde, polyester kumaşın harmonika şeklinde katlanmasıyla oluşan pencere perdesidir. Üst ve alt profil arasındaki ip sistemiyle açılıp kapanır. Tül, güneşlik, yarı karartma, tam karartma ve honeycomb modelleriyle farklı ışık kontrol seviyeleri sunar. Vidalı, yapışkanlı, portrayli, vidasız ve kancalı montaj seçenekleriyle her pencere tipine uyum sağlar.
+                  Plise perde, polyester kumaşın harmonika şeklinde katlanarak açılıp kapanan pencere perdesidir. Üst ve alt alüminyum profil arasındaki ip sistemiyle kontrol edilir; kumaş katmanı pencere boyunca düzenli pililer halinde daralır ve genişler. 2022&apos;den bu yana İstanbul Pendik&apos;teki üretim tesisimizde özel ölçü üretilen plise perdeler; tül, güneşlik, yarı karartma, tam karartma ve honeycomb olmak üzere 5 farklı ışık kontrol seviyesinde sunulur. Vidalı, yapışkanlı, portrayli, vidasız ve kancalı montaj seçenekleriyle her pencere tipine uyum sağlar.
                 </p>
+
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start gap-3">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
+                      <Sun size={16} className="text-brand" />
+                    </span>
+                    <div>
+                      <p className="text-sm font-medium text-brand-text">5 Işık Kontrol Seviyesi</p>
+                      <p className="text-xs text-brand-text-light">Tül (%85) → güneşlik → yarı karartma → tam karartma (%0) → honeycomb</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
+                      <Wrench size={16} className="text-brand" />
+                    </span>
+                    <div>
+                      <p className="text-sm font-medium text-brand-text">5 Montaj Seçeneği</p>
+                      <p className="text-xs text-brand-text-light">Vidalı, yapışkanlı, portrayli, vidasız ve kancalı — her pencere tipine uyum</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
+                      <Ruler size={16} className="text-brand" />
+                    </span>
+                    <div>
+                      <p className="text-sm font-medium text-brand-text">Özel Ölçü Üretim</p>
+                      <p className="text-xs text-brand-text-light">Üçgen, kemerli, yamuk ve standart dışı pencere formlarında özel üretim</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
+                      <Shield size={16} className="text-brand" />
+                    </span>
+                    <div>
+                      <p className="text-sm font-medium text-brand-text">2 Yıl Üretici Garantisi</p>
+                      <p className="text-xs text-brand-text-light">Profil ve kumaşta 2 yıl, motorlu modellerde motor 5 yıl garanti</p>
+                    </div>
+                  </li>
+                </ul>
+
                 <Link
                   href="/plise-perde-nedir"
                   className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
