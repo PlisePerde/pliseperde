@@ -100,6 +100,17 @@ export const navItems: NavItem[] = [
   {
     label: "Sistemlerimiz",
     href: "/plise-perde-sistemleri",
+    children: [
+      { label: "Yatay Plise Perde", href: "/yatay-plise-perde" },
+      { label: "Dikey Plise Perde", href: "/dikey-plise-perde" },
+      { label: "Tavan Plise Perde", href: "/tavan-plise-perde" },
+      { label: "Kasalı Plise Perde", href: "/kasali-plise-perde" },
+      { label: "Üçgen Plise Perde", href: "/ucgen-plise-perde" },
+      { label: "Eğimli Plise Perde", href: "/egimli-plise-perde" },
+      { label: "Açılı Plise Perde", href: "/acili-plise-perde" },
+      { label: "Yuvarlak Plise Perde", href: "/yuvarlak-plise-perde" },
+      { label: "Oval Plise Perde", href: "/oval-plise-perde" },
+    ],
   },
   {
     label: "Kullanım Alanları",
