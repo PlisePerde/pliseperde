@@ -30,7 +30,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Adalar", "Arnavutköy", "Ataşehir", "Avcılar", "Bağcılar", "Bahçelievler", "Bakırköy", "Başakşehir", "Bayrampaşa", "Beşiktaş", "Beykoz", "Beylikdüzü", "Beyoğlu", "Büyükçekmece", "Çatalca", "Çekmeköy", "Esenler", "Esenyurt", "Eyüpsultan", "Fatih", "Gaziosmanpaşa", "Güngören", "Kadıköy", "Kağıthane", "Kartal", "Küçükçekmece", "Maltepe", "Pendik", "Sancaktepe", "Sarıyer", "Silivri", "Sultanbeyli", "Sultangazi", "Şile", "Şişli", "Tuzla", "Ümraniye", "Üsküdar", "Zeytinburnu"],
     intro: "Esenyalı'daki üretim tesisimizden <strong>İstanbul'un 39 ilçesinin tamamına</strong> kapıdan kapıya plise perde servisi götürüyoruz. Megaşehirin her köşesinde — Boğaz sırtlarından Silivri son durağına, Adalar'dan Şile'nin kumsallarına kadar — yerinde inceleme ve profesyonel montaj gerçekleştiriyoruz.",
-    seoTitle: "İstanbul Plise Perde | 39 İlçe Yerinde Keşif ve Aynı Gün Montaj",
+    seoTitle: "İstanbul Plise Perde | 39 İlçe Keşif & Montaj",
     seoDescription: "Esenyalı merkezli üretimden İstanbul'un 39 ilçesine plise perde: yerinde inceleme, aynı gün Anadolu yakası montaj, ertesi gün Avrupa yakası servis.",
     sections: [
       {
@@ -90,7 +90,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Adapazarı", "Akyazı", "Arifiye", "Erenler", "Ferizli", "Geyve", "Hendek", "Karapürçek", "Karasu", "Kaynarca", "Kocaali", "Pamukova", "Sapanca", "Serdivan", "Söğütlü", "Taraklı"],
     intro: "Sakarya'nın 16 ilçesinde plise perde uygulamaları yapıyoruz. <strong>Adapazarı, Serdivan, Erenler</strong> merkez üçgenine ertesi gün montaj, Sapanca göl havzasındaki villalara özel inceleme günleri düzenliyoruz. 1999 depreminin yara izlerini taşıyan bu topraklarda hafif ve esnek montaj sistemleriyle güvenli perde çözümleri sunuyoruz.",
-    seoTitle: "Sakarya Plise Perde | Adapazarı, Serdivan, Sapanca Yerinde Keşif",
+    seoTitle: "Sakarya Plise Perde | Adapazarı, Serdivan Keşif",
     seoDescription: "Sakarya plise perde: 16 ilçe, deprem güvenli hafif montaj, Sapanca villa projeleri, Karasu sahili için nem dayanımlı kumaş, ertesi gün servis.",
     sections: [
       {
@@ -206,7 +206,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Büyükorhan", "Gemlik", "Gürsu", "Harmancık", "İnegöl", "İznik", "Karacabey", "Keles", "Kestel", "Mudanya", "Mustafakemalpaşa", "Nilüfer", "Osmangazi", "Orhangazi", "Yıldırım", "Yenişehir"],
     intro: "Bursa'nın 16 ilçesinde plise perde çözümleri sunuyoruz. <strong>Uludağ'ın zirvesinden Gemlik Körfezi'nin sahiline</strong> uzanan bu geniş coğrafyada, 1.500 metre rakımdan deniz seviyesine kadar farklı iklim kuşaklarına uygun perde modelleri uyguluyoruz. Osmangazi, Nilüfer ve Yıldırım merkez üçgenine ertesi gün montaj yapıyoruz.",
-    seoTitle: "Bursa Plise Perde | Nilüfer, Osmangazi, Yıldırım Ücretsiz Keşif",
+    seoTitle: "Bursa Plise Perde | Nilüfer, Osmangazi, Yıldırım Keşif",
     seoDescription: "Bursa plise perde: 16 ilçe, Uludağ villaları için honeycomb ısı yalıtımı, Gemlik sahili için anti-nem kumaş, İnegöl için kurumsal çözümler.",
     sections: [
       {
@@ -235,7 +235,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Altıeylül", "Ayvalık", "Balya", "Bandırma", "Bigadiç", "Burhaniye", "Dursunbey", "Edremit", "Erdek", "Gömeç", "Gönen", "Havran", "İvrindi", "Karesi", "Kepsut", "Manyas", "Marmara", "Savaştepe", "Sındırgı", "Susurluk"],
     intro: "Balıkesir'in 20 ilçesinde plise perde hizmeti veriyoruz. <strong>Türkiye'nin hem Ege hem Marmara kıyısına sahip tek ili</strong> olan Balıkesir'de, Edremit Körfezi'nin zeytinlik evlerinden Bandırma'nın sanayi konutlarına kadar iki farklı iklim kuşağına uygun perde çözümleri sunuyoruz.",
-    seoTitle: "Balıkesir Plise Perde | Ayvalık, Edremit, Bandırma Ücretsiz Keşif",
+    seoTitle: "Balıkesir Plise Perde | Ayvalık, Edremit Keşif",
     seoDescription: "Balıkesir plise perde: 20 ilçe, Edremit Körfezi yazlıkları için güneşlik, iç kesim karasal iklim için honeycomb, Bandırma için anti-nem.",
     sections: [
       {
@@ -264,7 +264,7 @@ export const cities: CityData[] = [
     priority: true,
     districts: ["Ayvacık", "Bayramiç", "Biga", "Bozcaada", "Çan", "Çanakkale merkez", "Eceabat", "Ezine", "Gelibolu", "Gökçeada", "Lapseki", "Yenice"],
     intro: "Çanakkale'nin 12 ilçesinde plise perde montajı yapıyoruz. <strong>İki kıtayı bağlayan boğazın</strong> iki yakasında, Gelibolu Yarımadası'ndan Biga Ovası'na kadar geniş bir alana hizmet veriyoruz. Bozcaada ve Gökçeada adalarına Mayıs-Eylül arası sezonluk keşif günleri düzenliyoruz.",
-    seoTitle: "Çanakkale Plise Perde | Gelibolu, Eceabat, Biga Ücretsiz Keşif",
+    seoTitle: "Çanakkale Plise Perde | Gelibolu, Eceabat Keşif",
     seoDescription: "Çanakkale'nin 12 ilçesinde plise perde: Bozcaada ve Gökçeada'ya sezonluk keşif, Gelibolu tarihi binalar için özel ölçü, Biga sanayisi için B1 kumaş.",
     sections: [
       {
@@ -468,7 +468,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ahmetli", "Akhisar", "Alaşehir", "Demirci", "Gölmarmara", "Gördes", "Kırkağaç", "Köprübaşı", "Kula", "Manisa merkez", "Salihli", "Sarıgöl", "Saruhanlı", "Selendi", "Soma", "Turgutlu", "Yunusemre", "Şehzadeler"],
     intro: "Manisa'nın 17 ilçesinde plise perde üretip teslim ediyoruz. Gediz Nehri'nin suladığı bu ovada <strong>Soma, Akhisar, Turgutlu</strong> sanayi bölgelerindeki fabrika ve lojmanlara kurumsal çözümler sunuyor, Manisa merkez ve Alaşehir konutlarına ekran üzerinden keşif ve ulaştırma ile ulaşıyoruz. Pendik'teki imalathanemizden her bir ilçeye ulaştırma ile sevkiyat yapıyoruz.",
-    seoTitle: "Manisa Plise Perde - Ekran Üzerinden Keşif & Ulaştırma Teslimat",
+    seoTitle: "Manisa Plise Perde | Ekran Üzerinden Keşif & Teslimat",
     seoDescription: "Manisa'nın 17 ilçesine plise perde: Soma maden lojmanlarına B1 kumaş, Alaşehir bağ evlerine güneşlik. Pendik'teki imalathaneden üretim, ulaştırma teslimat.",
     sections: [
       {
@@ -497,7 +497,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Afyonkarahisar merkez", "Başmakçı", "Bayat", "Bolvadin", "Çay", "Çobanlar", "Dazkırı", "Dinar", "Emirdağ", "Evciler", "Hocalar", "İhsaniye", "İscehisar", "Kızılören", "Sandıklı", "Sincanlı", "Sultandağı", "Şuhut"],
     intro: "Afyonkarahisar'ın 18 ilçesinde plise perde üretip gönderiyoruz. İç Ege'nin karasal iklim kuşağında kışın -15 dereceye inen donlara karşı <strong>ısı tutucu honeycomb modellerini</strong> öneriyoruz. Afyon merkez ve Sandıklı konutlarına görüntülü keşif ve kurye ile, termal otellere özel kumaşla ulaşıyoruz. Esenyalı'daki üretim tesisimizden her beldeye sevkiyat yapıyoruz.",
-    seoTitle: "Afyonkarahisar Plise Perde - Görüntülü Keşif & Kurye Teslimat",
+    seoTitle: "Afyonkarahisar Plise Perde | Görüntülü Keşif & Kurye",
     seoDescription: "Afyonkarahisar'ın 18 ilçesine plise perde: termal otellere anti-buhar kumaş, Sandıklı konutlarına honeycomb. Esenyalı merkezli üretim, kurye teslimat.",
     sections: [
       {
@@ -646,7 +646,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aladağ", "Ceyhan", "Çukurova", "Feke", "İmamoğlu", "Karaisalı", "Karataş", "Kozan", "Pozantı", "Saimbeyli", "Sarıçam", "Seyhan", "Tufanbeyli", "Yumurtalık", "Yüreğir"],
     intro: "Adana'nın 15 ilçesine Pendik üretim merkezimizden plise perde hazırlayıp teslimat ile ulaştırıyoruz. Çukurova'nın <strong>+45°C'yi bulan yaz sıcaklarında</strong> iç mekanda klima yükünü azaltmak için güneşlik ve karartma modellerini öne çıkarıyoruz. Seyhan, Çukurova, Yüreğir ve Sarıçam merkez ilçelerindeki konutlar için dijital keşif yaparak ölçü alıyoruz.",
-    seoTitle: "Adana Plise Perde - Çukurova Sıcağına Karşı Güneşlik ve Karartma",
+    seoTitle: "Adana Plise Perde | Çukurova Sıcağına Karartma",
     seoDescription: "Adana plise perde: 15 ilçe, +45°C yaz sıcaklığı için güneşlik ve karartma modelleri. Klima giderlerini azaltan ısı filtreli kumaş, dijital keşif.",
     sections: [
       {
@@ -736,7 +736,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ağlasun", "Altınyayla", "Bucak", "Burdur merkez", "Çavdır", "Çeltikçi", "Gölhisar", "Karamanlı", "Kemer", "Tefenni", "Yeşilova"],
     intro: "Burdur'un 11 ilçesine Pendik'teki imalathaneden plise perde hazırlayıp dağıtım ile ulaştırıyoruz. İç Akdeniz'in karasal kuşağında bulunan ilde <strong>kış donlarına karşı honeycomb ve karartma kombinasyonunu</strong> öne çıkarıyoruz. Burdur Gölü çevresindeki konutlar ve Bucak mobilya sanayi bölgesi için ekran üzerinden keşif yaparak çözümler sunuyoruz.",
-    seoTitle: "Burdur Plise Perde - Karasal Göl İklimi için Isı Yalıtımlı Modeller",
+    seoTitle: "Burdur Plise Perde | Karasal Göl İklimi, Isı Yalıtımı",
     seoDescription: "Burdur plise perde: 11 ilçe, karasal kış donlarına karşı honeycomb ve karartma. Bucak mobilya sanayi için toplu çözümler, ekran üzerinden keşif, dağıtım.",
     sections: [
       {
@@ -766,7 +766,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bahçe", "Düziçi", "Hasanbeyli", "Kadirli", "Osmaniye merkez", "Sumbas", "Toprakkale"],
     intro: "Osmaniye'nin 7 ilçesine Marmara üretim hattımızdan plise perde üretip dağıtım ile teslim ediyoruz. Çukurova'nın doğu kapısı konumundaki ilde <strong>yaz kavuruculuğuna karşı güneşlik ve karartma modellerini</strong> öne çıkarıyoruz. Osmaniye merkez ve Kadirli konutları için dijital keşif ile ölçü alıp, ilçelerin tamamına gönderim yapıyoruz.",
-    seoTitle: "Osmaniye Plise Perde - Çukurova Doğusunda Sıcaklık Filtreli Modeller",
+    seoTitle: "Osmaniye Plise Perde | Çukurova Sıcaklık Filtreli",
     seoDescription: "Osmaniye plise perde: 7 ilçe, Çukurova doğu kapısında yaz sıcaklığına karşı güneşlik ve karartma. Düziçi Demir Çelik için B1 kumaş, video keşif, kargo.",
     sections: [
       {
@@ -796,7 +796,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Altınözü", "Antakya", "Arsuz", "Belen", "Defne", "Dörtyol", "Erzin", "Hassa", "İskenderun", "Kırıkhan", "Kumlu", "Payas", "Reyhanlı", "Samandağ", "Yayladağı"],
     intro: "Hatay'ın 15 ilçesine İstanbul'daki fabrikamızdan plise perde üretip nakliye ile teslim ediyoruz. Akdeniz, Güneydoğu Anadolu ve Orta Doğu'nun kavşak noktasındaki ilde <strong>sıcak nemli sahilden serin dağlık iç kesime kadar farklı iklim kuşaklarına uygun modeller</strong> sunuyoruz. Antakya ve İskenderun merkez konutları için mesafeli keşif ile ölçü alıyoruz.",
-    seoTitle: "Hatay Plise Perde - Tarihi Pencerelere ve Sahil Nemine Özel Çözüm",
+    seoTitle: "Hatay Plise Perde | Sahil Nemine Özel, Tarihi Çözüm",
     seoDescription: "Hatay plise perde: 15 ilçe, Antakya tarihi evlerinin dar pencerelerine özel ölçü, İskenderun Körfezi nemine anti-nem kumaş. Video keşif, kargo teslimat.",
     sections: [
       {
@@ -826,7 +826,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Afşin", "Andırın", "Çağlayancerit", "Dulkadiroğlu", "Ekinözü", "Elbistan", "Göksun", "Nurhak", "Onikişubat", "Pazarcık", "Türkoğlu"],
     intro: "Kahramanmaraş'ın 11 ilçesi için Pendik'teki atölyemizde plise perde hazırlıyoruz. Sıçandağı eteklerinde Akdeniz ile karasal kuşağın buluştuğu bu şehirde <strong>yazın kavurucu, kışın dondurucu</strong> iklim şartlarına dayanıklı gece-gündüz ve honeycomb seçeneklerini öneriyoruz. Onikişubat, Dulkadiroğlu, Elbistan ve Afşin'den başlayarak 11 ilçenin tamamında görüntülü keşif uyguluyor, kurye gönderimini planlıyoruz.",
-    seoTitle: "Kahramanmaraş Plise Perde - Pendik Atölyemizden Kurye Gönderimi",
+    seoTitle: "Kahramanmaraş Plise Perde | Pendik Atölye, Kurye",
     seoDescription: "Kahramanmaraş plise perde: 11 ilçe, geçiş iklimi için gece-gündüz ve honeycomb, görüntülü keşif, kurye gönderimi.",
     sections: [
       {
@@ -1059,7 +1059,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bahşılı", "Balışeyh", "Çelebi", "Delice", "Karakeçili", "Keskin", "Kırıkkale merkez", "Sulakyurt", "Yahşihan"],
     intro: "Kırıkkale'nin 9 ilçesi için Pendik'teki imalathanemizde plise perde hazırlıyoruz. Ankara'nın doğusundaki bu sanayi şehrinde 700 metre rakımda step iklimi hüküm sürer; Kızılırmak'ın geçtiği vadide kışın -12°C'ye düşen sıcaklık, sanayi bölgesinde ise <strong>yangın güvenliği</strong> öncelik kazanır. Kırıkkale merkez, Keskin, Delice ve Sulakyurt başta olmak üzere ilçelerin tamamına sanal keşif ve sevkiyatla teslimat yapıyoruz.",
-    seoTitle: "Kırıkkale Plise Perde - Pendik İmalathane & Sevkiyat Gönderimi",
+    seoTitle: "Kırıkkale Plise Perde | Pendik İmalathane, Sevkiyat",
     seoDescription: "Kırıkkale plise perde: 9 ilçe, sanayi bölgesi için B1 yangın dayanımlı kumaş, sanal keşif, sevkiyat teslimat.",
     sections: [
       {
@@ -1233,7 +1233,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Amasya merkez", "Göynücek", "Gümüşhacıköy", "Hamamözü", "Merzifon", "Suluova", "Taşova", "Tercan"],
     intro: "Amasya'nın 7 ilçesi için Marmara üretim hattımızda plise perde hazırlıyoruz. Yeşilırmak'ın iki yamacına serpilmiş tarihi şehirde, <strong>Osmanlı dönemi ahşap pencereli evlere özel ölçü üretim</strong> yapıyoruz. Amasya merkez ve Merzifon başta olmak üzere ilçelerin tamamına sanal keşif ve dağıtım ile gönderim sağlıyoruz.",
-    seoTitle: "Amasya Plise Perde - Yeşilırmak Vadisi İçin Özel Üretim & Dağıtım",
+    seoTitle: "Amasya Plise Perde | Yeşilırmak Vadisi, Özel Üretim",
     seoDescription: "Amasya plise perde: 7 ilçe, tarihi Osmanlı evlerine özel ölçü ve Yeşilırmak nemine dayanıklı modeller, sanal keşif ile dağıtım.",
     sections: [
       {
@@ -1262,7 +1262,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Alpu", "Beylikova", "Çifteler", "Günyüzü", "Han", "İnönü", "Mahmudiye", "Mihalgazi", "Mihalıççık", "Odunpazarı", "Sarıcakaya", "Seyitgazi", "Sivrihisar", "Tepebaşı"],
     intro: "Eskişehir'in 14 ilçesi için Pendik'teki imalathanemizde plise perde hazırlıyoruz. İki büyük üniversitenin genç nüfusuyla hareketli olan şehirde, <strong>öğrenci evleri için ekonomik güneşlik modelleri ve karasal iklim için honeycomb seçeneklerini</strong> birlikte sunuyoruz. Odunpazarı ve Tepebaşı merkez ilçelerine ekran üzerinden keşif ve ulaştırma ile teslimat yapıyoruz.",
-    seoTitle: "Eskişehir Plise Perde - Öğrenci Şehri İçin Üretim & Ulaştırma",
+    seoTitle: "Eskişehir Plise Perde | Öğrenci Şehri Üretim",
     seoDescription: "Eskişehir plise perde: 14 ilçe, öğrenci evlerine ekonomik güneşlik, Odunpazarı tarihi evlerine özel ölçü ve B1 sanayi modelleri, ekran keşif ile ulaştırma.",
     sections: [
       {
@@ -1321,7 +1321,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Eflani", "Eskipazar", "Karabük merkez", "Ovacık", "Safranbolu", "Yenice"],
     intro: "Karabük'ün 6 ilçesi için Esenyalı'daki üretim tesisimizde plise perde hazırlıyoruz. Demir çelik sanayinin kalbi olan şehirde, <strong>Kardemir fabrika lojmanlarına yangına dayanıklı B1 kumaş</strong> ile toplu çözümler sunuyoruz. Safranbolu'nun UNESCO Dünya Mirası tarihi Türk evleri için özel ölçü üretim yapıyoruz.",
-    seoTitle: "Karabük Plise Perde - Demir Çelik ve Safranbolu İçin Üretim & Sevkiyatla",
+    seoTitle: "Karabük Plise Perde | Demir Çelik, Safranbolu Üretim",
     seoDescription: "Karabük plise perde: 6 ilçe, Kardemir lojmanlarına B1 yangın dayanımlı, Safranbolu UNESCO evlerine özel ölçü modeller, iletişim tabanlı keşif ile sevkiyat.",
     sections: [
       {
@@ -1377,7 +1377,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bolu merkez", "Dörtdivan", "Gerede", "Göynük", "Kıbrıscık", "Mengen", "Mudurnu", "Seben", "Yeniçağa"],
     intro: "Bolu'nun 9 ilçesinde plise perde üretimi yapıyoruz. <strong>Orman örtüsü en yoğun il</strong> olan Bolu'da kış sıcaklıkları -15 dereceye kadar düşer; bu yüzden honeycomb hücreli ısı yalıtımlı modeller başta tercih edilir. Abant, Gölköy ve Yedigöller çevresindeki turizm işletmeleri için Esenyalı'daki üretim tesisimizden özel çözümler yolluyoruz.",
-    seoTitle: "Bolu Plise Perde - Honeycomb Isı Yalıtımı & Sevkiyat Gönderimi",
+    seoTitle: "Bolu Plise Perde | Honeycomb Isı Yalıtımı & Sevkiyat",
     seoDescription: "Bolu plise perde: 9 ilçe, karlı yayla iklimi için honeycomb ısı yalıtımlı modeller, sevkiyat teslimat.",
     sections: [
       {
@@ -1404,7 +1404,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Abana", "Ağlı", "Araç", "Azdavay", "Bozkurt", "Cide", "Çatalzeytin", "Daday", "Devrekani", "Doğanyurt", "Hanönü", "İhsangazi", "İnebolu", "Kastamonu merkez", "Küre", "Pınarbaşı", "Seydiler", "Şenpazar", "Taşköprü", "Tosya"],
     intro: "Kastamonu'nun 20 ilçesinde plise perde üretimi yapıyoruz. <strong>Sahil şeridiyle iç kesim arasında 1000 metre rakım farkı</strong> bulunan Kastamonu'da, ilçenin konumuna göre kumaş tipini ayrı ayrı belirliyoruz. İnebolu ve Cide gibi sahil beldelerinde anti-nem, Tosya ve Araç gibi iç kesimlerde honeycomb modelini öneriyoruz.",
-    seoTitle: "Kastamonu Plise Perde - Sahil ve İç Kesim Çözümleri & Teslimat",
+    seoTitle: "Kastamonu Plise Perde | Sahil ve İç Kesim Teslimat",
     seoDescription: "Kastamonu plise perde: 20 ilçe, İnebolu sahil için anti-nem, Tosya iç kesim için honeycomb modeli, online keşif ve teslimat.",
     sections: [
       {
@@ -1458,7 +1458,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["19 Mayıs", "Alaçam", "Asarcık", "Atakum", "Ayvacık", "Bafra", "Canik", "Çarşamba", "Havza", "İlkadım", "Kavak", "Ladik", "Salıpazarı", "Tekkeköy", "Terme", "Vezirköprü", "Yakakent"],
     intro: "Samsun'un 17 ilçesinde plise perde üretimi yapıyoruz. <strong>Karadeniz'in en büyük ticaret limanına</strong> ev sahipliği yapan Samsun'da, İlkadım ve Atakum gibi merkez ilçelerde apartman daireleri için standart ölçü hızlı üretim, Çarşamba ve Terme gibi vadi ilçelerinde ise nehir nemine dayanıklı kumaş tercih ediyoruz. İstanbul atölyemizden nakliye ile ulaştırıyoruz.",
-    seoTitle: "Samsun Plise Perde - Liman Şehri Çözümleri & Nakliye Gönderimi",
+    seoTitle: "Samsun Plise Perde | Liman Şehri, Nakliye Gönderimi",
     seoDescription: "Samsun plise perde: 17 ilçe, Yeşilırmak vadisi nemine dayanıklı kumaş, mesafeli keşif ve nakliye teslimat.",
     sections: [
       {
@@ -1539,7 +1539,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Alucra", "Bulancak", "Çamoluk", "Çanakçı", "Dereli", "Doğankent", "Espive", "Eynesil", "Giresun merkez", "Görele", "Güce", "Keşap", "Piraziz", "Şebinkarahisar", "Tirebolu", "Yağlıdere"],
     intro: "Giresun'un 16 ilçesinde plise perde üretimi yapıyoruz. <strong>Karadeniz Dağları'nın denize dik inmesiyle</strong> oluşan dik topografyada, sahil ile iç kesim yaylaları arasında belirgin iklim farkı vardır; sahil ilçelerinde anti-nem, iç kesim yaylalarında honeycomb modelini öneriyoruz. Pendik'teki atölyemizden kargoyla ulaştırıyoruz.",
-    seoTitle: "Giresun Plise Perde - Dağlık Sahil ve Yayla Çözümleri & Kargoyla Gönderim",
+    seoTitle: "Giresun Plise Perde | Dağlık Sahil & Yayla Gönderim",
     seoDescription: "Giresun plise perde: 16 ilçe, sahil için anti-nem, yayla için honeycomb modeli. Fotoğraf üzerinden keşif ve kargoyla teslimat.",
     sections: [
       {
@@ -1566,7 +1566,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Gümüşhane merkez", "Kelkit", "Köse", "Kürtün", "Şiran", "Torul"],
     intro: "Gümüşhane'nin 6 ilçesinde plise perde üretimi yapıyoruz. <strong>Adını gümüş madenlerinden alan</strong> Gümüşhane, 1150 metre ortalama rakımla Karadeniz'in en yüksek iç kesim illerinden biridir; kış sıcaklıkları -20 dereceye iner ve kar örtüsü Kasım'dan Mayıs'a kadar kalabilir. Bu sert iklim için çift petekli honeycomb modelini varsayılan olarak öneriyoruz.",
-    seoTitle: "Gümüşhane Plise Perde - Yüksek Rakım Honeycomb & Sevkiyatla Gönderim",
+    seoTitle: "Gümüşhane Plise Perde | Rakım Honeycomb & Sevkiyat",
     seoDescription: "Gümüşhane plise perde: 6 ilçe, 1150m rakım ve -20°C kış için çift petekli honeycomb modeli, sevkiyat teslimat.",
     sections: [
       {
@@ -1702,7 +1702,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aşkale", "Aziziye", "Çat", "Hınıs", "Horasan", "İspir", "Karaçoban", "Karayazı", "Köprüköy", "Narman", "Oltu", "Olur", "Pasinler", "Pazaryolu", "Şenkaya", "Tekman", "Tortum", "Uzundere", "Yakutiye", "Palandöken"],
     intro: "Erzurum'un 20 ilçesinde plise perde üretimi sunuyoruz. 1953 metre rakımıyla Türkiye'nin en yüksek büyükşehirlerinden birinde, <strong>-40°C'ye varan ekstrem kış koşullarına yönelik çift petekli honeycomb sistemlerini</strong> uyguluyoruz. İstanbul atölyesinde üretip, Palandöken ve Yakutiye dahil ilçe bazında tamamına nakliye ile ulaştırıyoruz.",
-    seoTitle: "Erzurum Plise Perde - -40°C Kış İçin Honeycomb İstanbul Üretim",
+    seoTitle: "Erzurum Plise Perde | -40°C Kış, Honeycomb Üretim",
     seoDescription: "Erzurum plise perde: 20 ilçe, 1953m rakımda -40°C kışa karşı çift petekli honeycomb, nakliye teslimat.",
     sections: [
       {
@@ -1729,7 +1729,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Çayırlı", "Erzincan merkez", "İliç", "Kemah", "Kemaliye", "Otlubeli", "Refahiye", "Tercan", "Üzümlü"],
     intro: "Erzincan'ın 9 ilçesinde plise perde üretimi yapıyoruz. 1185 metre rakımdaki bu deprem bölgesinde, <strong>hem kış soğuğuna karşı honeycomb hücreli modeli hem de sarsıntıya dayanıklı hafif montaj sistemini</strong> birlikte uyguluyoruz. Marmara üretim hattında hazırlayıp, Erzincan merkez ve her ilçesine dağıtım ile teslim ediyoruz.",
-    seoTitle: "Erzincan Plise Perde - Deprem Güvenli Hafif Montaj Marmara Üretim",
+    seoTitle: "Erzincan Plise Perde | Deprem Güvenli, Hafif Montaj",
     seoDescription: "Erzincan plise perde: 9 ilçe, deprem güvenli hafif montaj ve 1185m rakım için honeycomb, dağıtım teslimat.",
     sections: [
       {
@@ -1756,7 +1756,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ağrı merkez", "Diyadin", "Doğubayazıt", "Eleşkirt", "Hamur", "Patnos", "Taşlıçay", "Tutak"],
     intro: "Ağrı'nın 8 ilçesinde plise perde üretimi gerçekleştiriyoruz. Türkiye'nin en yüksek zirvesinin eteklerindeki 1632 metre rakımlı şehirde, <strong>-35°C'ye varan kış soğuğuna karşı çift petekli honeycomb sistemini</strong> uyguluyoruz. Pendik'teki imalathanede üretip, Doğubayazıt ve Patnos dahil ilçelerinin her birine ulaştırma ile gönderiyoruz.",
-    seoTitle: "Ağrı Plise Perde - Ağrı Dağı Etekleri Honeycomb Pendik İmalathane",
+    seoTitle: "Ağrı Plise Perde | Ağrı Dağı Honeycomb, Pendik İmalat",
     seoDescription: "Ağrı plise perde: 8 ilçe, 1632m rakımda -35°C kışa karşı çift petekli honeycomb, ulaştırma teslimat.",
     sections: [
       {
@@ -1810,7 +1810,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Aralık", "Iğdır merkez", "Karakoyunlu", "Tuzluca"],
     intro: "Iğdır'ın 4 ilçesinde plise perde üretimi yapıyoruz. Doğu Anadolu'nun en alçak rakımlı (875 metre) ilinde, <strong>yazın +40°C sıcak ve kışın -20°C soğuğa karşı gece-gündüz çift katmanlı sistemini</strong> uyguluyoruz. Esenyalı'daki imalathanede hazırlayıp, Aralık ve Tuzluca dahil yerleşim birimlerinin tamamına sevkiyatla teslim ediyoruz.",
-    seoTitle: "Iğdır Plise Perde - Gece Gündüz Çift Katman Esenyalı İmalathane",
+    seoTitle: "Iğdır Plise Perde | Gece Gündüz Çift Katman, Esenyalı",
     seoDescription: "Iğdır plise perde: 4 ilçe, sıcak ova iklimi için gece-gündüz çift katmanlı model, sevkiyatla teslimat.",
     sections: [
       {
@@ -1837,7 +1837,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ardahan merkez", "Çıldır", "Damal", "Göle", "Hanak", "Posof"],
     intro: "Ardahan'ın altı ilçesinde plise perde üretimi ve sevkiyatı gerçekleştiriyoruz. Pendik'teki atölyemizde, 1900 metre ortalama rakıma sahip bu sınır ilinin pencereleri için <strong>çift petekli honeycomb hücreli modeller</strong> hazırlıyoruz. Kışın eksi kırk dereceyi aşan dondurucu hava, camlardan içeri sızar; bu nedenle ısı yalıtımlı kumaş yapısı seçiyoruz. Çıldır, Göle ve Posof dahil ilçelerin tamamına kurye ile gönderim yapıyoruz.",
-    seoTitle: "Ardahan Plise Perde - Çift Petekli Honeycomb ve Kurye Gönderimi",
+    seoTitle: "Ardahan Plise Perde | Çift Petek Honeycomb & Kurye",
     seoDescription: "Ardahan plise perde: 6 ilçe, 1900m rakımda -40°C kışa karşı çift petekli honeycomb ısı yalıtımlı modeller, kurye sevkiyatı.",
     sections: [
       {
@@ -1891,7 +1891,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Adilcevaz", "Ahlat", "Bitlis merkez", "Güroymak", "Hizan", "Mutki", "Tatvan"],
     intro: "Bitlis'in yedi ilçesi için İstanbul'daki fabrikamızda plise perde dokuyoruz. Van Gölü'nün batı yakasında, bin yedi yüz metre rakımda kurulu bu tarihi kervan şehrinde kışın eksi yirmi beş dereceye inen soğuklar hüküm sürer; bu yüzden <strong>honeycomb hücreli ısı yalıtımlı kumaş yapılarını</strong> tercih ediyoruz. Tatvan, Ahlat ve Adilcevaz başta olmak üzere ilçe sınırlarının tümüne online keşif ve teslimat ile gönderim sağlıyoruz.",
-    seoTitle: "Bitlis Plise Perde - Honeycomb Hücreli ve Van Gölü Çevresi Teslimat",
+    seoTitle: "Bitlis Plise Perde | Honeycomb, Van Gölü Teslimat",
     seoDescription: "Bitlis plise perde: 7 ilçe, 1700m rakımda Van Gölü batı kıyısında honeycomb ısı yalıtımlı modeller, teslimat ile sevkiyat.",
     sections: [
       {
@@ -1918,7 +1918,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Adaklı", "Bingöl merkez", "Genç", "Karlıova", "Kiğı", "Solhan", "Yayladere", "Yedisu"],
     intro: "Bingöl'ün sekiz ilçesi için Pendik üretim merkezinde plise perde hazırlıyoruz. Adını bölgedeki sayısız krater gölünden alan bu dağlık şehir, bin yüz elli metre ortalama rakıma sahiptir; kışın kar yağışı bol, yazın ise yayla serinliği egemendir. Bu nedenle <strong>honeycomb hücreli ısı yalıtımlı kumaş yapılarını</strong> tavsiye ediyoruz. Solhan, Genç ve Karlıova dahil beldelerin hepsine dijital keşif ve gönderim ile sevkiyat düzenliyoruz.",
-    seoTitle: "Bingöl Plise Perde - Honeycomb Hücreli ve Dağlık Bölge Gönderim",
+    seoTitle: "Bingöl Plise Perde | Honeycomb, Dağlık Bölge Gönderim",
     seoDescription: "Bingöl plise perde: 8 ilçe, 1150m dağlık yayla ikliminde honeycomb ısı yalıtımlı modeller, gönderim ile teslimat.",
     sections: [
       {
@@ -1945,7 +1945,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Çemişgezek", "Hozat", "Mazgirt", "Nazmiye", "Ovacık", "Pertek", "Pülümür", "Tunceli merkez"],
     intro: "Tunceli'nin sekiz ilçesi için İstanbul atölyesinde plise perde hazırlıyoruz. Munzur Dağları'nın eteklerine serilen bu ormanlık ve vadili şehirde, mikro iklim kuşakları birbirinden farklı sıcaklık ve nem değerleri yaratır. Bu çeşitliliğe karşı <strong>orman nemine dayanıklı honeycomb hücreli kumaş yapılarını</strong> öneriyoruz. Pertek, Ovacık ve Hozat dahil ilçe bazında tamamına mesafeli keşif ve nakliye ile sevkiyat düzenliyoruz.",
-    seoTitle: "Tunceli Plise Perde - Orman Nemi Dayanımlı ve Munzur Vadisi Nakliye",
+    seoTitle: "Tunceli Plise Perde | Orman Nemi, Munzur Nakliye",
     seoDescription: "Tunceli plise perde: 8 ilçe, Munzur Dağları vadisinde orman nemine dayanıklı honeycomb modeller, nakliye ile teslimat.",
     sections: [
       {
@@ -1972,7 +1972,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ağın", "Alacakaya", "Arıcak", "Baskil", "Elazığ merkez", "Karakoçan", "Keban", "Kovancılar", "Maden", "Palu", "Sivrice"],
     intro: "Elazığ'ın on bir ilçesi için Marmara üretim hattında plise perde hazırlıyoruz. Bin altmış yedi metre rakımdaki bu sanayi ve üniversite şehrinde, karasal iklim kışın soğuk yazın sıcak getirir; bu yüzden <strong>gece-gündüz çift katmanlı modelleri</strong> tavsiye ediyoruz. Organize sanayi bölgesindeki fabrikalar için yangın dayanımlı B1 sınıfı kumaştan toplu üretim yapıyoruz. Kovancılar, Baskil ve Sivrice dahil ilçelerin tamamına sanal keşif ve dağıtım ile sevkiyat düzenliyoruz.",
-    seoTitle: "Elazığ Plise Perde - Yangın Dayanımlı B1 ve Sanayi Bölgesi Dağıtım",
+    seoTitle: "Elazığ Plise Perde | Yangın Dayanımlı B1, Dağıtım",
     seoDescription: "Elazığ plise perde: 11 ilçe, 1067m karasal iklimde gece-gündüz modelleri, organize sanayi için yangın dayanımlı B1 kumaş, dağıtım ile teslimat.",
     sections: [
       {
@@ -1999,7 +1999,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Akçadağ", "Arapgir", "Arguvan", "Battalgazi", "Darende", "Doğanşehir", "Doğanyol", "Hekimhan", "Kale", "Kuluncak", "Pütürge", "Yazıhan", "Yeşilyurt"],
     intro: "Malatya'nın on üç ilçesi için Pendik'teki imalathanede plise perde dokuyoruz. Dünyanın kayısı başkenti olarak bilinen bu şehirde yazın artı kırk dereceye varan sıcaklar, kışın ise eksi on beş dereceye inen soğuklar yaşanır; bu uç farklar için <strong>gece-gündüz çift katmanlı modelleri</strong> öneriyoruz. Hekimhan demir madeni bölgesindeki işçi lojmanları için yangın dayanımlı B1 kumaştan toplu üretim yapıyoruz. Battalgazi, Yeşilyurt ve Pütürge dahil her ilçeye ekran üzerinden keşif ve ulaştırma ile sevkiyat düzenliyoruz.",
-    seoTitle: "Malatya Plise Perde - Kayısı Şehri Gece Gündüz ve Maden Lojmanı Ulaştırma",
+    seoTitle: "Malatya Plise Perde | Kayısı Şehri, Gece Gündüz",
     seoDescription: "Malatya plise perde: 13 ilçe, +40 -15 derece iklim farkına karşı gece-gündüz modelleri. Hekimhan maden lojmanları için B1 kumaş, ulaştırma ile teslimat.",
     sections: [
       {
@@ -2026,7 +2026,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bahçesaray", "Başkale", "Çaldıran", "Çatak", "Edremit", "Erciş", "Gevaş", "Gürpınar", "İpekyolu", "Muradiye", "Özalp", "Saray", "Tuşba"],
     intro: "Van'ın on üç ilçesi için Pendik'teki atölyemizde plise perde hazırlıyoruz. Türkiye'nin en büyük gölü olan Van Gölü kıyısında, bin yedi yüz yirmi yedi metre rakımda kurulu bu şehirde kışın eksi yirmi beş, yazın artı otuz beş dereceye varan sıcaklık oynamaları yaşanır; bu uç farklar için <strong>gece-gündüz çift katmanlı modelleri</strong> tavsiye ediyoruz. Gölün alkali su buharı sahil kesimde kumaş seçimini belirler; bu bölgede anti-alkali kaplamalı kumaş kullanıyoruz. İpekyolu, Tuşba ve Erciş dahil ilçe sınırlarının tümüne fotoğraf üzerinden keşif ve kargoyla sevkiyat düzenliyoruz.",
-    seoTitle: "Van Plise Perde - Anti-alkali Kumaş ve Van Gölü Çevresi Kargoyla Teslimat",
+    seoTitle: "Van Plise Perde | Anti-Alkali Kumaş, Van Gölü Teslimat",
     seoDescription: "Van plise perde: 13 ilçe, 1727m rakımda Van Gölü alkali buharına karşı anti-alkali kaplamalı kumaş, gece-gündüz modelleri, kargoyla sevkiyat.",
     sections: [
       {
@@ -2053,7 +2053,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Çukurca", "Derecik", "Hakkari merkez", "Şemdinli", "Yüksekova"],
     intro: "Hakkari'nin beş ilçesi için Esenyalı'daki üretim tesisimizde plise perde hazırlıyoruz. Türkiye'nin en dağlık ve en yüksek rakımlı illerinden birinde, bin yedi yüz metre ortalama yükseklikte, Cilo ve Sat sıradağlarının eteklerinde kışın eksi otuz dereceye varan soğuklar ve aylarca süren kar örtüsü hüküm sürer. Bu şiddetli kış koşullarına karşı <strong>çift petekli honeycomb hücreli ısı yalıtımlı modelleri</strong> öneriyoruz. Yüksekova, Şemdinli ve Çukurca dahil beldelerin hepsine iletişim tabanlı keşif ve sevkiyatla gönderim düzenliyoruz.",
-    seoTitle: "Hakkari Plise Perde - Çift Petekli Honeycomb ve Sıradağlar Sevkiyatla",
+    seoTitle: "Hakkari Plise Perde | Çift Petekli Honeycomb & Sevkiyat",
     seoDescription: "Hakkari plise perde: 5 ilçe, 1700m Cilo-Sat sıradağlarında -30°C kışa karşı çift petekli honeycomb ısı yalıtımlı modeller, sevkiyatla teslimat.",
     sections: [
       {

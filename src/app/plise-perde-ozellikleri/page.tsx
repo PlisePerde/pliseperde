@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Plise Perde Özellikleri — Isı Yalıtımı, UV Koruma, Antibakteriyel",
+  title: "Plise Perde Özellikleri — Isı Yalıtımı & UV Koruma",
   description:
     "Plise perde özellikleri: ısı yalıtımlı, enerji tasarruflu, UV korumalı, güneş kırıcı, ışık kontrollü, nem dayanımlı, kolay temizlik, antibakteriyel.",
   slug: "plise-perde-ozellikleri",

@@ -15,7 +15,7 @@ import { generatePageMetadata } from "@/lib/seo";
 import { galleryCategories, allGalleryImages } from "@/data/gallery";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Galeri — Plise Perde, Honeycomb ve Düet Perde Uygulama Fotoğrafları",
+  title: "Galeri — Plise Perde & Honeycomb Uygulama Fotoğrafları",
   description:
     "Plise perde, honeycomb ve düet perde uygulama fotoğrafları. Gerçek projelerden salon, yatak odası, cam balkon, mutfak ve ofis montaj örnekleri.",
   slug: "galeri",

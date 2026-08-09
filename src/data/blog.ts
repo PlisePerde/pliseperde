@@ -65,7 +65,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "plise-perde-nasil-yapilir",
-    title: "Plise Perde Nasıl Yapılır? Plise Perde Yapımı Adım Adım",
+    title: "Plise Perde Nasıl Yapılır?",
     description:
       "Plise perde yapımı ve üretim süreci adım adım: kumaş hazırlama, kıvrımlama, profil kesimi, kordon montajı ve kalite kontrol.",
     author: "Plise Perde Üretim Uzmanı",

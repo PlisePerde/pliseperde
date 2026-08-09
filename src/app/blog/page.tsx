@@ -14,7 +14,7 @@ import {
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Blog — Plise Perde Rehberi, Dekorasyon & Montaj İpuçları",
+  title: "Blog — Plise Perde Rehberi & İpuçları",
   description:
     "Plise perde hakkında her şey. Uzman rehberleri, montaj ve bakım bilgileri, dekorasyon ipuçları. Plise perde dünyasını keşfedin.",
   keywords: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/blog/" },
   openGraph: {
-    title: "Blog — Plise Perde Rehberi, Dekorasyon & Montaj İpuçları",
+    title: "Blog — Plise Perde Rehberi & İpuçları",
     description:
       "Plise perde hakkında her şey. Uzman rehberleri, montaj ve bakım bilgileri, dekorasyon ipuçları.",
     url: `${siteConfig.url}/blog/`,
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog — Plise Perde Rehberi, Dekorasyon & Montaj İpuçları",
+    title: "Blog — Plise Perde Rehberi & İpuçları",
     description:
       "Plise perde hakkında her şey. Uzman rehberleri, montaj ve bakım bilgileri, dekorasyon ipuçları.",
     images: ["/og-image.webp"],

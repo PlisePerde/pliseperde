@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Karavan Plise Perde — Dar Pencere, Hafif Kumaş, Yapışkanlı Montaj",
+  title: "Karavan Plise Perde — Dar Pencere, Yapışkanlı Montaj",
   description:
     "Karavan için plise perde: dar pencere, hafif kumaş, yapışkanlı montaj ile delmeden takma, sarsıntı dayanımı, az yer kaplama. Montaj dahil, 2 yıl garanti.",
   slug: "karavan-plise-perde",

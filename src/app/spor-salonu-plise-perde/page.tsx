@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Spor Salonu Plise Perde — Nem Dayanımlı, Hafif, Geniş Pencere",
+  title: "Spor Salonu Plise Perde — Nem Dayanımlı, Hafif",
   description:
     "Spor salonu için plise perde: nem dayanımlı kumaş, hafif yapı, geniş pencere için motorlu seçenek, UV koruma. Montaj dahil, 2 yıl garanti.",
   slug: "spor-salonu-plise-perde",

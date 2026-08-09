@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Laboratuvar Plise Perde — Kimyasal Dayanımlı, Toz Geçirmez, Hassas Işık",
+  title: "Laboratuvar Plise Perde — Kimyasal Dayanımlı, Hijyenik",
   description:
     "Laboratuvar için plise perde: kimyasal dayanımlı kumaş, toz geçirmez, hassas ışık kontrolü, anti-bakteriyel. Montaj dahil, 2 yıl garanti.",
   slug: "laboratuvar-plise-perde",

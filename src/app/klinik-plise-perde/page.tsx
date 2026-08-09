@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Klinik Plise Perde — Muayene Gizlilik, Bekleme Işık Kontrolü, Hijyenik",
+  title: "Klinik Plise Perde — Muayene Gizliliği, Hijyenik",
   description:
     "Klinik için plise perde: muayene odası gizlilik, bekleme alanı ışık kontrolü, hijyenik kumaş, kolay temizlik. Montaj dahil, 2 yıl garanti.",
   slug: "klinik-plise-perde",

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     },
   },
   title: {
-    default: "Plise Perde | Özel Ölçü Üretim | Hızlı Teslimat - 2 Yıl Garanti",
+    default: "Plise Perde | Özel Ölçü Üretim & 2 Yıl Garanti",
     template: "%s — Plise Perde",
   },
   description:
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: "Plise Perde | Özel Ölçü Üretim | Hızlı Teslimat - 2 Yıl Garanti",
+    title: "Plise Perde | Özel Ölçü Üretim & 2 Yıl Garanti",
     description:
       "Plise Perde — Türkiye'nin plise perde üreticisi. Özel ölçü üretim, ücretsiz keşif, ölçülendirme ve montaj hizmetiyle yaşam alanlarınıza taşır.",
     images: [
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Plise Perde | Özel Ölçü Üretim | Hızlı Teslimat - 2 Yıl Garanti",
+    title: "Plise Perde | Özel Ölçü Üretim & 2 Yıl Garanti",
     description:
       "Plise Perde — Türkiye'nin plise perde üreticisi. Özel ölçü üretim, ücretsiz keşif, ölçülendirme ve montaj hizmetiyle yaşam alanlarınıza taşır.",
     images: ["/og-image.webp"],

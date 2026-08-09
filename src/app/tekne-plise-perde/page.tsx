@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Tekne ve Yat Plise Perde — Tuzlu Su Dayanımı, Eğimli Pencere, Özel Ölçü",
+  title: "Tekne & Yat Plise Perde — Tuzlu Su Dayanımı",
   description:
     "Tekne, yat, yelkenli ve gemi için plise perde: tuzlu su dayanımı, eğimli pencere, rüzgar direnci, özel ölçü, hafif kumaş. Montaj dahil, 2 yıl garanti.",
   slug: "tekne-plise-perde",

@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Cam Balkon Plise Perde — Geniş Cam Yüzey, Rüzgar ve Güneş Kontrolü",
+  title: "Cam Balkon Plise Perde — Rüzgar & Güneş Kontrolü",
   description:
     "Cam balkon için plise perde: geniş cam yüzeylere katlanır sistem, rüzgar dayanımı, güneş kontrolü, honeycomb ile ısı yalıtımı. Montaj dahil, 2 yıl garanti.",
   slug: "cam-balkon-plise-perde",

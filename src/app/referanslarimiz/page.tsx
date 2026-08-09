@@ -18,7 +18,7 @@ import { partners, customers, allReferences, referenceStats } from "@/data/refer
 import { CheckCircle, Building, Calendar, ThumbsUp, Globe } from "lucide-react";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Referanslarımız — Plise Perde Projeleri ve Kurumsal Müşterilerimiz",
+  title: "Referanslarımız — Plise Perde Projeleri & Kurumsal",
   description:
     "Plise Perde referansları: otel, ofis, okul, hastane ve konut projeleri. 2000+ proje, 500+ kurumsal müşteri. Toplu plise perde montaj çözümleri.",
   slug: "referanslarimiz",

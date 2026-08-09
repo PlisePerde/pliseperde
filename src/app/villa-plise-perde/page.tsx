@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Villa Plise Perde — Yüksek Pencere, Çatı Penceresi, Motorlu Seçenek",
+  title: "Villa Plise Perde — Yüksek Pencere, Motorlu Seçenek",
   description:
     "Villa için plise perde: yüksek pencere, çatı penceresi, motorlu seçenek, honeycomb ile ısı yalıtımı, prestijli görünüm. Montaj dahil, 2 yıl garanti.",
   slug: "villa-plise-perde",

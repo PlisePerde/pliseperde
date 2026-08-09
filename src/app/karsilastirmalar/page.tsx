@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Plise Perde Karşılaştırmaları — Tüm Perde Türleri ile Karşılaştır",
+  title: "Plise Perde Karşılaştırmaları — Tüm Perde Türleri",
   description:
     "Plise perde vs zebra, stor, jaluzi, tül, honeycomb, duet, fon, japon, screen, zip, karartma ve dikey perde karşılaştırmaları. Fiyat, ışık, montaj.",
   slug: "karsilastirmalar",

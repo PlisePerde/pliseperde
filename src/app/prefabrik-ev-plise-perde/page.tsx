@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Prefabrik Ev Plise Perde — Hafif Yapı, Yapışkanlı Montaj, Isı Yalıtımı",
+  title: "Prefabrik Ev Plise Perde — Hafif, Yapışkanlı Montaj",
   description:
     "Prefabrik ev için plise perde: hafif yapı, yapışkanlı montaj ile delmeden takma, honeycomb ile ısı yalıtımı, ekonomik fiyat. Montaj dahil, 2 yıl garanti.",
   slug: "prefabrik-ev-plise-perde",

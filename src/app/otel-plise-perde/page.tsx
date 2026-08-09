@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Otel Plise Perde — Misafir Konforu, Blackout, Motorlu, Toplu Proje",
+  title: "Otel Plise Perde — Blackout, Motorlu, Misafir Konforu",
   description:
     "Otel için plise perde: blackout ile misafir uyku konforu, motorlu seçenek, toplu proje çözümleri, dayanıklı mekanizma. Montaj dahil, 2 yıl garanti.",
   slug: "otel-plise-perde",

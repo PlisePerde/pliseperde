@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Ofis Plise Perde — Ekran Parlaması Önleme, Profesyonel Görünüm",
+  title: "Ofis Plise Perde — Ekran Parlaması Önleme",
   description:
     "Ofis için plise perde: güneşlik ile ekran parlaması önleme, toplantı odası karartma, motorlu seçenek, profesyonel görünüm. Montaj dahil, 2 yıl garanti.",
   slug: "ofis-plise-perde",

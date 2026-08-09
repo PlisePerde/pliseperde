@@ -2,7 +2,7 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Kafe ve Restoran Plise Perde — Atmosfer Kontrolü, Dekoratif Seçenekler",
+  title: "Kafe & Restoran Plise Perde — Atmosfer Kontrolü",
   description:
     "Kafe ve restoran için plise perde: atmosfer kontrolü, dış mekan oturma alanı, dekoratif kumaş, güneşlik ile müşteri konforu. Montaj dahil, 2 yıl garanti.",
   slug: "kafe-restoran-plise-perde",
