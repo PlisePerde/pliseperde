@@ -1431,7 +1431,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Ayancık", "Boyabat", "Dikmen", "Durağan", "Erfelek", "Gerze", "Sinop merkez", "Türkeli"],
     intro: "Sinop'un 8 ilçesinde plise perde üretimi yapıyoruz. <strong>Türkiye'nin en kuzey ucundaki il</strong> olan Sinop'ta İnceburun yarımadası yıl boyu sert rüzgar ve nem alır; bu yüzden kumaş seçiminde rüzgar direnci ve nem bariyeri birlikte değerlendirilir. Pendik üretim merkezimizden Sinop merkez, Boyabat ve Gerze'ye gönderim ile ulaştırıyoruz.",
-    seoTitle: "Sinop Plise Perde - Rüzgar ve Nem Dayanımlı Kumaş & Gönderim",
+    seoTitle: "Sinop Plise Perde | Nem Dayanımlı & Gönderim",
     seoDescription: "Sinop plise perde: 8 ilçe, İnceburun rüzgarına dayanıklı özel kaplamalı kumaş, dijital keşif ve gönderim teslimat.",
     sections: [
       {
@@ -1485,7 +1485,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Alaca", "Bayat", "Boğazkale", "Çorum merkez", "Dodurga", "İskilip", "Kargı", "Mecitözü", "Oğuzlar", "Ortaköy", "Osmancık", "Sungurlu", "Uğurludağ"],
     intro: "Çorum'un 13 ilçesinde plise perde üretimi yapıyoruz. <strong>İç Anadolu bozkırı ile Karadeniz ormanları arasındaki geçiş kuşağında</strong> yer alan Çorum'da, gece-gündüz sıcaklık farkı 20 dereceyi bulur; bu nedenle gece-gündüz plise perde sistemini öneriyoruz. Boğazkale'deki Hattuşaş antik kenti çevresindeki pansiyonlar için karartma modelleri mevcuttur.",
-    seoTitle: "Çorum Plise Perde - Gece-Gündüz Sistemi & Dağıtım Gönderimi",
+    seoTitle: "Çorum Plise Perde | Gece-Gündüz & Gönderim",
     seoDescription: "Çorum plise perde: 13 ilçe, bozkır-orman geçiş iklimi için gece-gündüz modelleri, sanal keşif ve dağıtım teslimat.",
     sections: [
       {
@@ -1864,7 +1864,7 @@ export const cities: CityData[] = [
     priority: false,
     districts: ["Bulanık", "Hasköy", "Korkut", "Malazgirt", "Muş merkez", "Varto"],
     intro: "Muş'un altı ilçesi için Esenyalı'daki üretim tesisimizde plise perde hazırlıyoruz. Bin dört yüz metre rakımdaki bu geniş ova şehrinde kışın eksi yirmi beş, yazın artı otuz beş dereceye varan sıcaklık oynamaları yaşanır; bu nedenle <strong>gece-gündüz çift katmanlı modelleri</strong> tavsiye ediyoruz. Bulanık, Malazgirt ve Varto dahil her ilçeye uzaktan keşif ve sevkiyat ile gönderim düzenliyoruz.",
-    seoTitle: "Muş Plise Perde - Gece Gündüz Katmanlı ve Sevkiyat Gönderimi",
+    seoTitle: "Muş Plise Perde | Gece-Gündüz & Sevkiyat",
     seoDescription: "Muş plise perde: 6 ilçe, 1400m ova ikliminde -25 +35 derece sıcaklık farkına karşı gece-gündüz çift katmanlı modeller, sevkiyat ile teslimat.",
     sections: [
       {
