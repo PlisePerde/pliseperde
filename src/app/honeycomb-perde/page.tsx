@@ -2,25 +2,25 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Honeycomb Plise Perde — Isı Yalıtımlı",
+  title: "Honeycomb Perde Ürünleri — Isı Yalıtımlı",
   description:
-    "Honeycomb plise perde, petek hücreli yapısıyla ısı yalıtımı sağlar. Enerji tasarrufu, ses azaltma, tam karartma seçenekleri. 2 yıl garanti.",
+    "Honeycomb perde ürünleri: petek hücreli yapısıyla ısı yalıtımı sağlar. Enerji tasarrufu, ses azaltma, tam karartma. 2 yıl garanti.",
   slug: "honeycomb-perde",
 });
 
 export default function HoneycombPerdePage() {
   return (
     <PageTemplate
-      title="Honeycomb Plise Perde"
-      description="Honeycomb plise perde, petek hücreli yapısıyla ısı yalıtımı sağlar. Enerji tasarrufu, ses azaltma, tam karartma seçenekleri."
+      title="Honeycomb Perde Ürünleri"
+      description="Honeycomb perde ürünleri: petek hücreli yapısıyla ısı yalıtımı sağlar. Enerji tasarrufu, ses azaltma, tam karartma."
       slug="honeycomb-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Honeycomb Plise Perde", url: "/honeycomb-perde" }]}
-      h1="Honeycomb Plise Perde"
-      intro="Honeycomb plise perde, petek hücreli (arı kovanı) yapısıyla standart plise perdeden farklıdır. Hücrelerin içinde hava hapsolur, bu da ısı yalıtımı sağlar. Kışın sıcak havayı içeride tutar, yazın sıcak havayı dışarıda bırakır. Enerji tasarrufu sağlayan tek perde sistemidir. 2 yıl garanti ile üretilir."
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Honeycomb Perde Ürünleri", url: "/honeycomb-perde" }]}
+      h1="Honeycomb Perde Ürünleri"
+      intro="Honeycomb perde ürünleri kategorisinde petek hücreli (arı kovanı) yapısıyla standart plise perdeden farklı modeller sunuyoruz. Hücrelerin içinde hava hapsolur, bu da ısı yalıtımı sağlar. Kışın sıcak havayı içeride tutar, yazın sıcak havayı dışarıda bırakır. Enerji tasarrufu sağlayan tek perde sistemidir. 2 yıl garanti ile üretilir."
       schemaType="product"
       schemaData={{
-        name: "Honeycomb Plise Perde",
-        description: "Petek hücreli, ısı yalıtımlı honeycomb plise perde. Enerji tasarrufu sağlar.",
+        name: "Honeycomb Perde Ürünleri",
+        description: "Petek hücreli, ısı yalıtımlı honeycomb perde ürünleri. Enerji tasarrufu sağlar.",
       }}
       sections={[
         {

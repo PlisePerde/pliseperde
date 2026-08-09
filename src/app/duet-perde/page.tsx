@@ -2,25 +2,25 @@ import PageTemplate, { generatePageMetadata } from "@/components/PageTemplate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Düet Plise Perde — Gece Gündüz Sistemi",
+  title: "Düet Perde Ürünleri — Gece Gündüz Sistemi",
   description:
-    "Düet plise perde, iki katmanlı gece-gündüz sistemidir. Gündüz ışık geçirgen, gece tam karartma. Tek perdede iki fonksiyon. 2 yıl garanti.",
+    "Düet perde ürünleri: iki katmanlı gece-gündüz sistemidir. Gündüz ışık geçirgen, gece tam karartma. Tek perdede iki fonksiyon. 2 yıl garanti.",
   slug: "duet-perde",
 });
 
 export default function DuetPerdePage() {
   return (
     <PageTemplate
-      title="Düet Plise Perde"
-      description="Düet plise perde, iki katmanlı gece-gündüz sistemidir. Gündüz ışık geçirgen, gece tam karartma."
+      title="Düet Perde Ürünleri"
+      description="Düet perde ürünleri: iki katmanlı gece-gündüz sistemidir. Gündüz ışık geçirgen, gece tam karartma."
       slug="duet-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Düet Plise Perde", url: "/duet-perde" }]}
-      h1="Düet Plise Perde"
-      intro="Düet plise perde, iki farklı kumaş katmanını tek perdede birleştirir. Üst katman ışık geçirgen (tül/güneşlik), alt katman tam karartmadır. Gündüz üst katmanı kullanarak ışık alırsınız, gece alt katmanı indirerek tam karanlık sağlarsınız. Tek perdede iki fonksiyon — yerden tasarruf. 2 yıl garanti ile üretilir."
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Düet Perde Ürünleri", url: "/duet-perde" }]}
+      h1="Düet Perde Ürünleri"
+      intro="Düet perde ürünleri kategorisinde iki farklı kumaş katmanını tek perdede birleştiren modeller sunuyoruz. Üst katman ışık geçirgen (tül/güneşlik), alt katman tam karartmadır. Gündüz üst katmanı kullanarak ışık alırsınız, gece alt katmanı indirerek tam karanlık sağlarsınız. Tek perdede iki fonksiyon — yerden tasarruf. 2 yıl garanti ile üretilir."
       schemaType="product"
       schemaData={{
-        name: "Düet Plise Perde",
-        description: "İki katmanlı gece-gündüz plise perde sistemi. Işık ve karartma tek perdede.",
+        name: "Düet Perde Ürünleri",
+        description: "İki katmanlı gece-gündüz perde ürünleri. Işık ve karartma tek perdede.",
       }}
       sections={[
         {

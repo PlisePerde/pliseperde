@@ -79,9 +79,9 @@ export const navItems: NavItem[] = [
     href: "/urunlerimiz",
     megaWithImages: true,
     children: [
-      { label: "Plise Perde", href: "/plise-perde", description: "Klasik plise perde modelleri", image: "/mega-menu/plise-perdeler.webp" },
-      { label: "Honeycomb Plise Perde", href: "/honeycomb-perde", description: "Petek hücreli enerji tasarruflu", image: "/mega-menu/honeycomb-perdeler.webp" },
-      { label: "Düet Plise Perde", href: "/duet-perde", description: "Çift katmanlı gece gündüz", image: "/mega-menu/duet-perdeler.webp" },
+      { label: "Plise Perde Ürünleri", href: "/plise-perde", description: "Klasik plise perde modelleri", image: "/mega-menu/plise-perdeler.webp" },
+      { label: "Honeycomb Perde Ürünleri", href: "/honeycomb-perde", description: "Petek hücreli enerji tasarruflu", image: "/mega-menu/honeycomb-perdeler.webp" },
+      { label: "Düet Perde Ürünleri", href: "/duet-perde", description: "Çift katmanlı gece gündüz", image: "/mega-menu/duet-perdeler.webp" },
       { label: "Plise Perde Aparatları", href: "/plise-perde-aparatlari", description: "Tüm plise perde aparatları", image: "/mega-menu/plise-perde-aparatlarimiz.webp" },
       { label: "Plise Perde Yedek Parça", href: "/plise-perde-yedek-parca", description: "Orijinal yedek parçalar", image: "/mega-menu/plise-perde-yedek-parcalar.webp" },
     ],
