@@ -101,7 +101,7 @@ function categorizePage(slug) {
 
   // Systems
   if (slug === "plise-perde-sistemleri" || slug === "plise-perde-montaji") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };
-  if (/^vidali-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portrayli-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$|^yatay-plise-perde$|^dikey-plise-perde$|^tavan-plise-perde$|^kasali-plise-perde$|^ucgen-plise-perde$|^egimli-plise-perde$|^acili-plise-perde$|^yuvarlak-plise-perde$|^oval-plise-perde$/.test(slug))
+  if (/^vidali-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portrayli-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$|^yatay-plise-perde$|^dikey-plise-perde$|^tavan-plise-perde$|^kasali-plise-perde$|^ucgen-plise-perde$|^egimli-plise-perde$|^acili-plise-perde$|^yuvarlak-plise-perde$|^oval-plise-perde$|^cift-cam-arasi-plise-perde$/.test(slug))
     return { sitemap: "models", priority: 0.8, changefreq: "monthly" };
 
   // Varieties
@@ -133,7 +133,7 @@ function categorizePage(slug) {
   if (/^[a-z]+-plise-perde$/.test(slug) && ![
     "plise-perde", "honeycomb-perde", "duet-perde",
     ...["mutfak","salon","yatak-odasi","cocuk-odasi","calisma-odasi","banyo-wc","genc-odasi","cam-balkon","villa","karavan","tekne","magaza","ofis","kafe-restoran","otel","hastane","klinik","laboratuvar","spor-salonu","anaokulu","prefabrik-ev"].map(s => `${s}-plise-perde`),
-    ...["duz","blackout","gece-gunduz","desenli","baskili","vidali","yapiskanli","kancali","portrayli","braketli","motorlu","yatay","dikey","tavan","kasali","ucgen","egimli","acili","yuvarlak","oval"].map(s => `${s}-plise-perde`),
+    ...["duz","blackout","gece-gunduz","desenli","baskili","vidali","yapiskanli","kancali","portrayli","braketli","motorlu","yatay","dikey","tavan","kasali","ucgen","egimli","acili","yuvarlak","oval","cift-cam-arasi"].map(s => `${s}-plise-perde`),
     "plise-perde-sineklik"
   ].includes(slug))
     return { sitemap: "regions", priority: 0.6, changefreq: "monthly" };

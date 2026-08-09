@@ -111,6 +111,7 @@ export const navItems: NavItem[] = [
       { label: "Açılı Plise Perde", href: "/acili-plise-perde" },
       { label: "Yuvarlak Plise Perde", href: "/yuvarlak-plise-perde" },
       { label: "Oval Plise Perde", href: "/oval-plise-perde" },
+      { label: "Çift Cam Arası Plise Perde", href: "/cift-cam-arasi-plise-perde" },
     ],
   },
   {

@@ -9,6 +9,7 @@ import {
   MoveUpRight,
   Circle,
   Egg,
+  Layers,
   ChevronRight,
 } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
@@ -87,6 +88,12 @@ const sistemler = [
     desc: "Oval formda özel üretim plise perde. Kemerli pencere ve estetik mimari için ideal.",
     icon: Egg,
   },
+  {
+    name: "Çift Cam Arası Plise Perde",
+    slug: "cift-cam-arasi-plise-perde",
+    desc: "İki cam arasında monte edilen özel sistem. Tozsuz, sessiz, korunmalı. Çift cam pencereler için ideal.",
+    icon: Layers,
+  },
 ];
 
 const faqs: FAQItem[] = [
@@ -140,7 +147,7 @@ export default function SistemlerimizPage() {
         breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }]}
         title="Plise Perde Sistemleri"
         description="Plise perde sistemleri, pencere formuna ve uygulama yerine göre değişir. Yatay, dikey, tavan, kasalı, üçgen, eğimli, açılı, yuvarlak ve oval sistemler arasından size uygun olanı seçin. Her sistem özel ölçü üretim ve 2 yıl garanti ile gelir."
-        highlight="Yatay · Dikey · Tavan · Kasalı · Üçgen · Eğimli · Açılı · Yuvarlak · Oval"
+        highlight="Yatay · Dikey · Tavan · Kasalı · Üçgen · Eğimli · Açılı · Yuvarlak · Oval · Çift Cam Arası"
       />
 
       {/* Sistem Kartları */}
