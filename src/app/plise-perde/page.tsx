@@ -11,22 +11,11 @@ export const metadata: Metadata = generatePageMetadata({
   keywords: ["plise perde ürünleri", "plise perde kategorisi"],
 });
 
-const categoryModels = [
-  { name: "Düz Plise Perde", url: "/duz-plise-perde/" },
-  { name: "Blackout Plise Perde", url: "/blackout-plise-perde/" },
-  { name: "Gece Gündüz Plise Perde", url: "/gece-gunduz-plise-perde/" },
-  { name: "Desenli Plise Perde", url: "/desenli-plise-perde/" },
-  { name: "Baskılı Plise Perde", url: "/baskili-plise-perde/" },
-];
-
-const categorySystems = [
-  { name: "Vidalı Plise Perde", url: "/vidali-plise-perde/" },
-  { name: "Vidasız Plise Perde", url: "/vidasiz-plise-perde/" },
-  { name: "Yapışkanlı Plise Perde", url: "/yapiskanli-plise-perde/" },
-  { name: "Kancalı Plise Perde", url: "/kancali-plise-perde/" },
-  { name: "Portray Plise Perde", url: "/portray-plise-perde/" },
-  { name: "Braketli Plise Perde", url: "/braketli-plise-perde/" },
-  { name: "Motorlu Plise Perde", url: "/motorlu-plise-perde/" },
+const relatedCategories = [
+  { name: "Honeycomb Perde Ürünleri", url: "/honeycomb-perde/", description: "Petek hücreli ısı yalıtımlı" },
+  { name: "Düet Perde Ürünleri", url: "/duet-perde/", description: "İki katmanlı gece gündüz" },
+  { name: "Plise Perde Aparatları", url: "/plise-perde-aparatlari/", description: "Tüm aparatlar" },
+  { name: "Plise Perde Yedek Parça", url: "/plise-perde-yedek-parca/", description: "Orijinal yedek parçalar" },
 ];
 
 export default function PlisePerdePage() {
@@ -43,43 +32,25 @@ export default function PlisePerdePage() {
         name: "Plise Perde Ürünleri",
         description: "Özel ölçü plise perde ürünleri kategorisi. Tül, güneşlik, karartma kumaş seçenekleri.",
         url: "/plise-perde/",
-        items: [...categoryModels, ...categorySystems],
+        items: relatedCategories,
       }}
       beforeContent={
-        <nav aria-label="Kategori içeriği" className="mb-8 space-y-6">
-          <div>
-            <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-3">Plise Perde Modelleri</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-              {categoryModels.map((item) => (
-                <Link
-                  key={item.url}
-                  href={item.url}
-                  className="block p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors"
-                >
-                  <span className="text-sm font-medium text-brand-text">{item.name}</span>
-                  <span className="flex items-center gap-1 text-xs text-brand mt-1">
-                    İncele <ChevronRight size={12} />
-                  </span>
-                </Link>
-              ))}
-            </div>
-          </div>
-          <div>
-            <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-3">Plise Perde Sistemleri</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-              {categorySystems.map((item) => (
-                <Link
-                  key={item.url}
-                  href={item.url}
-                  className="block p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors"
-                >
-                  <span className="text-sm font-medium text-brand-text">{item.name}</span>
-                  <span className="flex items-center gap-1 text-xs text-brand mt-1">
-                    İncele <ChevronRight size={12} />
-                  </span>
-                </Link>
-              ))}
-            </div>
+        <nav aria-label="İlgili kategoriler" className="mb-8">
+          <h2 className="text-lg md:text-xl font-semibold text-brand-text mb-3">İlgili Kategoriler</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+            {relatedCategories.map((item) => (
+              <Link
+                key={item.url}
+                href={item.url}
+                className="block p-4 bg-white border border-brand-border rounded-lg hover:border-brand transition-colors"
+              >
+                <span className="text-sm font-medium text-brand-text">{item.name}</span>
+                <span className="block text-xs text-brand-text-light mt-1">{item.description}</span>
+                <span className="flex items-center gap-1 text-xs text-brand mt-2">
+                  İncele <ChevronRight size={12} />
+                </span>
+              </Link>
+            ))}
           </div>
         </nav>
       }
