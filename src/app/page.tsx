@@ -210,7 +210,7 @@ export default function Home() {
                   Plise perde, polyester kumaşın harmonika şeklinde katlanarak açılıp kapanan pencere perdesidir. Üst ve alt alüminyum profil arasındaki ip sistemiyle kontrol edilir; kumaş katmanı pencere boyunca düzenli pililer halinde daralır ve genişler. 2022&apos;den bu yana İstanbul Pendik&apos;teki üretim tesisimizde özel ölçü üretilen plise perdeler; tül, güneşlik, yarı karartma, tam karartma ve honeycomb olmak üzere 5 farklı ışık kontrol seviyesinde sunulur. Vidalı, yapışkanlı, portrayli, vidasız ve kancalı montaj seçenekleriyle her pencere tipine uyum sağlar.
                 </p>
 
-                <ul className="space-y-3 mb-6">
+                <ul className="grid grid-cols-2 gap-3 mb-6">
                   <li className="flex items-start gap-3">
                     <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand/10 shrink-0">
                       <Sun size={16} className="text-brand" />
