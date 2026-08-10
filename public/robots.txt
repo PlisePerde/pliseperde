@@ -65,7 +65,6 @@ Allow: /llms.txt
 
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 0
 
 User-agent: Googlebot-Image
 Allow: /
@@ -77,14 +76,12 @@ Allow: /video/
 
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 1
 
 User-agent: BingPreview
 Allow: /
 
 User-agent: YandexBot
 Allow: /
-Crawl-delay: 1
 
 User-agent: YandexImages
 Allow: /
@@ -98,7 +95,6 @@ Allow: /
 
 User-agent: Baiduspider
 Allow: /
-Crawl-delay: 2
 
 User-agent: facebookexternalhit
 Allow: /
@@ -124,9 +120,6 @@ Disallow: /404
 Disallow: /offline
 Disallow: /*.json$
 Disallow: /llms-full.txt
-
-# --- Crawl-delay (Global) ---
-Crawl-delay: 1
 
 # --- Sitemap Referansları ---
 Sitemap: https://pliseperde.com/sitemap.xml
