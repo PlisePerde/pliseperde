@@ -144,7 +144,7 @@ function categorizePage(slug) {
 
   // Blog posts
   if (slug === "blog") return { sitemap: "blog", priority: 0.8, changefreq: "weekly" };
-  if (/^plise-perde-(nedir|nasil|olcusu|montaji|temizligi|tamiri|malzemeleri|mekanizmasi)/.test(slug))
+  if (/^plise-perde-(nedir|nasil|olcusu|montaji|temizligi|tamiri|malzemeleri|mekanizmasi|ipi-nasil-degistirilir|kumasi-nasil-secilir)/.test(slug))
     return { sitemap: "blog", priority: 0.7, changefreq: "monthly" };
   if (slug === "salon-icin-plise-perde-secimi") return { sitemap: "blog", priority: 0.7, changefreq: "monthly" };
 
