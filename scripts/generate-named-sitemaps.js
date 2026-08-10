@@ -91,8 +91,10 @@ function categorizePage(slug) {
 
   // Main product categories
   if (slug === "urunlerimiz") return { sitemap: "products", priority: 0.9, changefreq: "monthly" };
-  if (/^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$|^plise-perde-katalog$|^plise-perde-renkleri$/.test(slug))
+  if (/^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$/.test(slug))
     return { sitemap: "products", priority: 0.8, changefreq: "monthly" };
+  if (/^plise-perde-katalog$|^plise-perde-renkleri$/.test(slug))
+    return { sitemap: "pages", priority: 0.8, changefreq: "monthly" };
 
   // Models
   if (slug === "plise-perde-modelleri") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };

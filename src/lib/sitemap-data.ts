@@ -86,7 +86,7 @@ export const montagePages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
 );
 
 export const productPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
-  /^urunlerimiz$|^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$|^plise-perde-katalog$|^plise-perde-renkleri$/.test(e.slug)
+  /^urunlerimiz$|^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$/.test(e.slug)
 );
 
 export const usageAreaPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
