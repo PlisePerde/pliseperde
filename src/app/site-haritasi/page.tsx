@@ -18,6 +18,7 @@ export default function SiteHaritasiPage() {
     { key: "Ürünlerimiz", title: "Ürünler" },
     { key: "Modellerimiz", title: "Modeller" },
     { key: "Sistemlerimiz", title: "Sistemler" },
+    { key: "Plise Perde Montajı", title: "Plise Perde Montajı" },
     { key: "Çeşitlerimiz", title: "Çeşitler" },
     { key: "Özellikler", title: "Özellikler" },
     { key: "Fiyatlarımız", title: "Fiyatlar" },
