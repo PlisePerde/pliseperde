@@ -74,7 +74,11 @@ const allDiscoveredRoutes = discoverAppRoutes().filter(
 );
 
 export const modelPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
-  /^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$|^plise-perde-sineklik$|^yatay-plise-perde$|^dikey-plise-perde$|^tavan-plise-perde$|^kasali-plise-perde$|^ucgen-plise-perde$|^egimli-plise-perde$|^acili-plise-perde$|^yuvarlak-plise-perde$|^oval-plise-perde$|^cift-cam-arasi-plise-perde$/.test(e.slug)
+  /^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$|^plise-perde-sineklik$/.test(e.slug)
+);
+
+export const systemPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
+  /^plise-perde-sistemleri$|^yatay-plise-perde$|^dikey-plise-perde$|^tavan-plise-perde$|^kasali-plise-perde$|^ucgen-plise-perde$|^egimli-plise-perde$|^acili-plise-perde$|^yuvarlak-plise-perde$|^oval-plise-perde$|^cift-cam-arasi-plise-perde$/.test(e.slug)
 );
 
 export const montagePages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
@@ -94,13 +98,14 @@ export const legalPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
 );
 
 const modelSlugs = new Set(modelPages.map((e) => e.slug));
+const systemSlugs = new Set(systemPages.map((e) => e.slug));
 const montageSlugs = new Set(montagePages.map((e) => e.slug));
 const serviceSlugs = new Set(servicePages.map((e) => e.slug));
 const comparisonSlugs = new Set(comparisonPages.map((e) => e.slug));
 const legalSlugs = new Set(legalPages.map((e) => e.slug));
 
 export const staticPages: SitemapEntry[] = allDiscoveredRoutes.filter(
-  (e) => !modelSlugs.has(e.slug) && !montageSlugs.has(e.slug) && !serviceSlugs.has(e.slug) && !comparisonSlugs.has(e.slug) && !legalSlugs.has(e.slug) && e.slug !== "blog"
+  (e) => !modelSlugs.has(e.slug) && !systemSlugs.has(e.slug) && !montageSlugs.has(e.slug) && !serviceSlugs.has(e.slug) && !comparisonSlugs.has(e.slug) && !legalSlugs.has(e.slug) && e.slug !== "blog"
 );
 
 export function buildUrl(slug: string): string {

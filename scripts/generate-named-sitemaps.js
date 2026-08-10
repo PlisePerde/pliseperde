@@ -100,9 +100,9 @@ function categorizePage(slug) {
     return { sitemap: "models", priority: 0.8, changefreq: "monthly" };
 
   // Systems
-  if (slug === "plise-perde-sistemleri") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };
+  if (slug === "plise-perde-sistemleri") return { sitemap: "systems", priority: 0.9, changefreq: "monthly" };
   if (/^yatay-plise-perde$|^dikey-plise-perde$|^tavan-plise-perde$|^kasali-plise-perde$|^ucgen-plise-perde$|^egimli-plise-perde$|^acili-plise-perde$|^yuvarlak-plise-perde$|^oval-plise-perde$|^cift-cam-arasi-plise-perde$/.test(slug))
-    return { sitemap: "models", priority: 0.8, changefreq: "monthly" };
+    return { sitemap: "systems", priority: 0.8, changefreq: "monthly" };
 
   // Montage (separate sitemap)
   if (slug === "plise-perde-montaji") return { sitemap: "montage", priority: 0.9, changefreq: "monthly" };
@@ -441,6 +441,7 @@ const indexEntries = [
   "sitemap-pages.xml",
   "sitemap-blog.xml",
   "sitemap-models.xml",
+  "sitemap-systems.xml",
   "sitemap-montage.xml",
   "sitemap-services.xml",
   "sitemap-regions.xml",
