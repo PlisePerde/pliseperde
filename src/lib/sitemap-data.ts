@@ -85,6 +85,14 @@ export const montagePages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
   /^plise-perde-montaji$|^vidali-plise-perde$|^yapiskanli-plise-perde$|^kancali-plise-perde$|^portrayli-plise-perde$|^braketli-plise-perde$|^motorlu-plise-perde$/.test(e.slug)
 );
 
+export const productPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
+  /^urunlerimiz$|^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$|^plise-perde-katalog$|^plise-perde-renkleri$/.test(e.slug)
+);
+
+export const usageAreaPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
+  /^plise-perde-kullanim-alanlari$|^(mutfak|salon|yatak-odasi|cocuk-odasi|calisma-odasi|banyo-wc|genc-odasi|cam-balkon|villa|karavan|tekne|magaza|ofis|kafe-restoran|otel|hastane|klinik|laboratuvar|spor-salonu|anaokulu|prefabrik-ev)-plise-perde$/.test(e.slug)
+);
+
 export const servicePages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
   /^montaj$|^olcu-alma-destegi$|^kesif$|^numune$|^plise-perde-projesi$/.test(e.slug)
 );
@@ -100,12 +108,14 @@ export const legalPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
 const modelSlugs = new Set(modelPages.map((e) => e.slug));
 const systemSlugs = new Set(systemPages.map((e) => e.slug));
 const montageSlugs = new Set(montagePages.map((e) => e.slug));
+const productSlugs = new Set(productPages.map((e) => e.slug));
+const usageAreaSlugs = new Set(usageAreaPages.map((e) => e.slug));
 const serviceSlugs = new Set(servicePages.map((e) => e.slug));
 const comparisonSlugs = new Set(comparisonPages.map((e) => e.slug));
 const legalSlugs = new Set(legalPages.map((e) => e.slug));
 
 export const staticPages: SitemapEntry[] = allDiscoveredRoutes.filter(
-  (e) => !modelSlugs.has(e.slug) && !systemSlugs.has(e.slug) && !montageSlugs.has(e.slug) && !serviceSlugs.has(e.slug) && !comparisonSlugs.has(e.slug) && !legalSlugs.has(e.slug) && e.slug !== "blog"
+  (e) => !modelSlugs.has(e.slug) && !systemSlugs.has(e.slug) && !montageSlugs.has(e.slug) && !productSlugs.has(e.slug) && !usageAreaSlugs.has(e.slug) && !serviceSlugs.has(e.slug) && !comparisonSlugs.has(e.slug) && !legalSlugs.has(e.slug) && e.slug !== "blog"
 );
 
 export function buildUrl(slug: string): string {

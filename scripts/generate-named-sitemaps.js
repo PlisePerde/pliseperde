@@ -90,9 +90,9 @@ function categorizePage(slug) {
   if (slug === "") return { sitemap: "pages", priority: 1.0, changefreq: "weekly" };
 
   // Main product categories
-  if (slug === "urunlerimiz") return { sitemap: "pages", priority: 0.9, changefreq: "monthly" };
+  if (slug === "urunlerimiz") return { sitemap: "products", priority: 0.9, changefreq: "monthly" };
   if (/^plise-perde$|^honeycomb-perde$|^duet-perde$|^plise-perde-aparatlari$|^plise-perde-yedek-parca$|^plise-perde-katalog$|^plise-perde-renkleri$/.test(slug))
-    return { sitemap: "pages", priority: 0.8, changefreq: "monthly" };
+    return { sitemap: "products", priority: 0.8, changefreq: "monthly" };
 
   // Models
   if (slug === "plise-perde-modelleri") return { sitemap: "models", priority: 0.9, changefreq: "monthly" };
@@ -120,11 +120,11 @@ function categorizePage(slug) {
   if (slug === "plise-perde-fiyat-hesaplama") return { sitemap: "services", priority: 0.8, changefreq: "monthly" };
 
   // Usage areas hub
-  if (slug === "plise-perde-kullanim-alanlari") return { sitemap: "pages", priority: 0.8, changefreq: "monthly" };
+  if (slug === "plise-perde-kullanim-alanlari") return { sitemap: "usage-areas", priority: 0.8, changefreq: "monthly" };
 
   // Individual usage area pages
   if (/^(mutfak|salon|yatak-odasi|cocuk-odasi|calisma-odasi|banyo-wc|genc-odasi|cam-balkon|villa|karavan|tekne|magaza|ofis|kafe-restoran|otel|hastane|klinik|laboratuvar|spor-salonu|anaokulu|prefabrik-ev)-plise-perde$/.test(slug))
-    return { sitemap: "pages", priority: 0.7, changefreq: "monthly" };
+    return { sitemap: "usage-areas", priority: 0.7, changefreq: "monthly" };
 
   // Services
   if (slug === "hizmetlerimiz") return { sitemap: "services", priority: 0.8, changefreq: "monthly" };
@@ -439,13 +439,15 @@ console.log("All named sitemaps generated successfully.");
 // Sitemap index
 const indexEntries = [
   "sitemap-pages.xml",
-  "sitemap-blog.xml",
+  "sitemap-products.xml",
   "sitemap-models.xml",
   "sitemap-systems.xml",
   "sitemap-montage.xml",
+  "sitemap-usage-areas.xml",
   "sitemap-services.xml",
   "sitemap-regions.xml",
   "sitemap-comparisons.xml",
+  "sitemap-blog.xml",
   "sitemap-legal.xml",
   "sitemap-images.xml",
   "sitemap-videos.xml",
