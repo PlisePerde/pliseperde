@@ -58,7 +58,7 @@ export default function ModellerPage() {
           createWebPageSchema({
             name: "Modellerimiz",
             description: "Plise perde modelleri — düz, blackout, gece gündüz, desenli, baskılı.",
-            url: "/plise-perde-modelleri",
+            url: "/plise-perde-modelleri/",
           }),
         ]}
       />

@@ -14,7 +14,7 @@ export default function PliseVsZebraPage() {
       title="Plise Perde vs Zebra Perde"
       description="Plise perde ile zebra perde arasındaki farklar: kumaş katmanı, maliyet unsurları, gündüz ışığı yönetimi, kurulum ve temizlik."
       slug="plise-perde-vs-zebra-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Zebra", url: "/plise-perde-vs-zebra-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Zebra", url: "/plise-perde-vs-zebra-perde/" }]}
       h1="Plise Perde vs Zebra Perde — Hangisi Daha İyi?"
       intro="Plise perde ve zebra perde, çağdaş pencere çözümlerinin öne çıkan iki ismidir. Her ikisi de pileli bir kumaşa dayansa da işleyiş biçimleri ayrışır: plise perde tek katmanlı kumaşı dikey yönde katlayarak toplanırken, zebra perde çift katmanlı şeritli kumaşı birbirinin üstünde kaydırarak açık-kapalı geçiş sağlar. Bu yazıda kumaş katmanı, maliyet unsurları, gündüz ışığı yönetimi, kurulum ve temizlik ile karar kriterlerini masaya yatıracağız."
       schemaType="article"

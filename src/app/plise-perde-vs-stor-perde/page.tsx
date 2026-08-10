@@ -14,7 +14,7 @@ export default function PliseVsStorPage() {
       title="Plise Perde vs Stor Perde"
       description="Plise perde ve stor perde arasındaki farklar: mekanizma, fiyat, ışık yönetimi, yer kaplama ve kullanım alanları."
       slug="plise-perde-vs-stor-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Stor", url: "/plise-perde-vs-stor-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Stor", url: "/plise-perde-vs-stor-perde/" }]}
       h1="Plise Perde vs Stor Perde — Aradaki Farklar"
       intro="Plise perde ile stor perde, evlerde ve iş yerlerinde en çok tercih edilen iki pencere çözümüdür. Birincisi kumaşı akordion gibi katlayarak çalışır, ikincisi ise kumaşı bir silindirin etrafına sararak toplar. <strong>Mekanizma yapısı</strong>, <em>yer kaplama miktarı</em> ve <u>ışık yönetimi</u> açısından belirgin ayrılıklar gösterirler. Aşağıda bu iki sistemi beş farklı başlık altında ele alıyor, avantaj ve dezavantajlarını net biçimde ortaya koyuyoruz."
       schemaType="article"

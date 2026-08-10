@@ -14,7 +14,7 @@ export default function MagazaPlisePerdePage() {
       title="Mağaza Plise Perde"
       description="Mağaza için plise perde: vitrin UV koruma, ürün renk koruması, motorlu kontrol."
       slug="magaza-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Mağaza", url: "/magaza-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Mağaza", url: "/magaza-plise-perde/" }]}
       h1="Mağaza Plise Perde"
       intro="Mağaza vitrinlerinde <strong>güneş UV ışınları</strong>, sergilenen ürünlerin rengini solmasına, kumaşın yıpranmasına ve elektronik cihazların zarar görmesine neden olur. Ayrıca gün batımında vitrin camına vuran güneş, içeriyi görünmez kılar ve potansiyel müşterinin dikkati dağılır. Plise perde, <strong>UV koruma kaplamalı kumaş</strong> ile ürünleri güneşten korur, motorlu seçenek ile vitrin perdesini uzaktan kumandayla açıp kapatır ve mağaza açılış/kapanış saatlerinde pratik kontrol sağlar."
       schemaType="service"

@@ -14,7 +14,7 @@ export default function LaboratuvarPlisePerdePage() {
       title="Laboratuvar Plise Perde"
       description="Laboratuvar için kimyasal dayanımlı, toz geçirmez, hassas ışık kontrolü plise perde."
       slug="laboratuvar-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Laboratuvar", url: "/laboratuvar-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Laboratuvar", url: "/laboratuvar-plise-perde/" }]}
       h1="Laboratuvar Plise Perde"
       intro="Laboratuvar ortamında <strong>kimyasal dayanım, toz kontrolü ve hassas ışık ayarı</strong> kritik faktörlerdir. Standart perde sistemleri toz tutar, kimyasal buharından etkilenir ve ışık kontrolü yetersizdir. Plise perde, <strong>kimyasal dayanımlı kumaş, toz geçirmez yapı ve pencere içi montaj</strong> ile laboratuvar için ideal çözüm sunar. Mikroskop ve hassas ölçüm cihazları için kontrollü ışık, steril ortam için toz geçirmez kumaş ve kimyasal buharına dayanıklı yapı ile uzun ömürlü kullanım sağlar."
       schemaType="service"

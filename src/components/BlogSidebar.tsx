@@ -90,7 +90,7 @@ export default function BlogSidebar({ currentPost, otherPosts }: BlogSidebarProp
               ))}
             </ul>
             <Link
-              href="/blog"
+              href="/blog/"
               className="mt-4 inline-flex items-center gap-1 text-xs text-brand hover:text-brand-dark transition-colors font-medium"
             >
               Tüm Yazılar

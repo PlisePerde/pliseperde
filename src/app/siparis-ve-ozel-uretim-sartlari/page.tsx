@@ -13,7 +13,7 @@ export default function SiparisOzelUretimPage() {
       title="Sipariş ve Özel Üretim Şartları"
       description="Plise perde sipariş ve özel üretim şartları. Özel ölçü, üretim süreci, teslimat."
       slug="siparis-ve-ozel-uretim-sartlari"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz" }, { name: "Sipariş ve Özel Üretim", url: "/siparis-ve-ozel-uretim-sartlari" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz/" }, { name: "Sipariş ve Özel Üretim", url: "/siparis-ve-ozel-uretim-sartlari/" }]}
       h1="Sipariş ve Özel Üretim Şartları"
       intro="Bu sayfa, plise perde siparişi ve özel üretim süreçlerine dair şartları açıklar. Özel ölçü üretim, sipariş onayı, üretim süresi, teslimat ve değişiklik koşulları burada detaylandırılır. Sipariş vererek bu şartları kabul etmiş sayılırsınız."
       schemaType="article"

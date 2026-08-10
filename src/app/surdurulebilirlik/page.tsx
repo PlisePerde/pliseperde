@@ -14,7 +14,7 @@ export default function SurdurulebilirlikPage() {
       title="Sürdürülebilirlik"
       description="Plise perde sürdürülebilirlik politikası. Geri dönüştürülebilir malzeme, enerji tasarrufu, azaltılmış atık."
       slug="surdurulebilirlik"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/kurumsal" }, { name: "Sürdürülebilirlik", url: "/surdurulebilirlik" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kurumsal", url: "/kurumsal/" }, { name: "Sürdürülebilirlik", url: "/surdurulebilirlik/" }]}
       h1="Sürdürülebilirlik — Çevre Politikamız"
       intro="Sürdürülebilirlik, üretim felsefemizin temelidir. Plise perde üretiminde geri dönüştürülebilir malzemeler kullanıyor, atığı en aza indiriyor ve enerji tasarrufu sağlayan modeller geliştiriyoruz. Honeycomb petek modeli ile kullanıcılarımıza %40'a varan enerji tasarrufu sağlıyoruz. Çevre dostu üretim ile gelecek nesillere temiz bir çevre bırakmayı hedefliyoruz."
       schemaType="article"

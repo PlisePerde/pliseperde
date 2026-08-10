@@ -14,7 +14,7 @@ export default function PliseVsTulPage() {
       title="Plise Perde vs Tül Perde"
       description="Plise perde ile tül perde arasındaki farklar: görsel karakter, ışık yönetimi, asma sistemi, bakım pratikliği ve bütçe etkisi."
       slug="plise-perde-vs-tul-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Tül", url: "/plise-perde-vs-tul-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Tül", url: "/plise-perde-vs-tul-perde/" }]}
       h1="Plise Perde vs Tül Perde — Hangisi Daha İyi?"
       intro="Plise perde ve tül perde, pencereyi örtmenin iki ayrı yolunu temsil eder. Birincisi katlanarak toplanan pileli bir kumaşla düz bir hat çizer; ikincisi kornişe asılan dalgalı bir tülle mekanın havasını yumuşatır. Bu yazıda görsel karakter, ışık yönetimi, asma sistemi, bakım pratikliği ve bütçe etkisi başlıkları altında her iki seçeneği adım adım ele alacağız."
       schemaType="article"

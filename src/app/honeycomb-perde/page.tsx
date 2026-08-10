@@ -22,7 +22,7 @@ export default function HoneycombPerdePage() {
       title="Honeycomb Perde Ürünleri"
       description="Honeycomb perde ürünleri: petek hücreli yapısıyla ısı yalıtımı sağlar. Enerji tasarrufu, ses azaltma, tam karartma."
       slug="honeycomb-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Honeycomb Perde Ürünleri", url: "/honeycomb-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz/" }, { name: "Honeycomb Perde Ürünleri", url: "/honeycomb-perde/" }]}
       h1="Honeycomb Perde Ürünleri"
       intro="Honeycomb perde ürünleri kategorisinde petek hücreli (arı kovanı) yapısıyla standart plise perdeden farklı modeller sunuyoruz. Hücrelerin içinde hava hapsolur, bu da ısı yalıtımı sağlar. Kışın sıcak havayı içeride tutar, yazın sıcak havayı dışarıda bırakır. Enerji tasarrufu sağlayan tek perde sistemidir. 2 yıl garanti ile üretilir."
       schemaType="collectionpage"

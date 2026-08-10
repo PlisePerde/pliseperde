@@ -121,12 +121,12 @@ export default function PlisePerdeMontajiPage() {
           createWebPageSchema({
             name: "Plise Perde Montajı",
             description: "Plise perde montaj tipleri: vidalı, yapışkanlı, kancalı, portrayli, braketli, motorlu.",
-            url: "/plise-perde-montaji",
+            url: "/plise-perde-montaji/",
           }),
           createCollectionPageSchema({
             name: "Plise Perde Montajı",
             description: "6 montaj tipi — vidalı, yapışkanlı, kancalı, portrayli, braketli, motorlu.",
-            url: "/plise-perde-montaji",
+            url: "/plise-perde-montaji/",
             items: montajTipleri.map((m) => ({ name: m.name, url: `/${m.slug}` })),
           }),
           createFAQSchema(faqs),
@@ -136,7 +136,7 @@ export default function PlisePerdeMontajiPage() {
       <PageHeading
         title="Plise Perde Montajı"
         description="Plise perde montajı, pencere tipinize ve ihtiyacınıza göre değişir. Vidalı, yapışkanlı, kancalı, portrayli, braketli ve motorlu montaj tipleri arasından size uygun olanı seçin. Her tip üretici garantisi ve profesyonel montaj ile gelir."
-        breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }]}
+        breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji/" }]}
         highlight="Vidalı · Yapışkanlı · Kancalı · Portrayli · Braketli · Motorlu"
       />
 

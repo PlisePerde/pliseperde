@@ -14,7 +14,7 @@ export default function NumunePage() {
       title="Ücretsiz Numune / Kumaş"
       description="Ücretsiz numune ve kumaş gönderimi. Plise perde kumaş dokusunu, rengini ve ışık geçirgenliğini evinizde görerek karar verin."
       slug="numune"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz" }, { name: "Ücretsiz Numune / Kumaş", url: "/numune" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz/" }, { name: "Ücretsiz Numune / Kumaş", url: "/numune/" }]}
       h1="Ücretsiz Numune / Kumaş"
       intro="Ücretsiz numune ve kumaş gönderimi ile plise perde kumaş dokusunu, rengini ve ışık geçirgenliğini evinizde görerek karar verirsiniz. Ekran renkleri gerçeği yansıtmaz — dokunun, ışık altında inceleyin, sonra karar verin. Türkiye geneli ücretsiz kargo ile adresinize gönderilir. Numune talebi için WhatsApp veya telefondan ulaşmanız yeterli. Karar sonrası sipariş vermek zorunda değilsiniz."
       schemaType="service"

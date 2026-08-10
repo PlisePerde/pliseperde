@@ -31,7 +31,7 @@ export default function HizmetlerPage() {
           createWebPageSchema({
             name: "Hizmetlerimiz",
             description: "Plise perde hizmetleri — montaj, keşif, bakım, fiyat hesaplama.",
-            url: "/hizmetlerimiz",
+            url: "/hizmetlerimiz/",
           }),
         ]}
       />

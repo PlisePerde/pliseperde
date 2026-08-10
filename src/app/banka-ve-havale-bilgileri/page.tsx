@@ -13,7 +13,7 @@ export default function BankaHavalePage() {
       title="Banka ve Havale Bilgileri"
       description="Plise Perde banka ve havale bilgileri. Banka hesap bilgileri ve havale yöntemi."
       slug="banka-ve-havale-bilgileri"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Banka ve Havale", url: "/banka-ve-havale-bilgileri" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Banka ve Havale", url: "/banka-ve-havale-bilgileri/" }]}
       h1="Banka ve Havale Bilgileri"
       intro="Bu sayfa, plise perde siparişlerinde havale ödeme için banka hesap bilgilerini içerir. Havale ödeme sonrası dekont WhatsApp'tan gönderilir. Sipariş, dekont alındıktan sonra başlar. Güvenli ve hızlı ödeme yöntemidir."
       schemaType="article"

@@ -14,7 +14,7 @@ export default function AnaokuluPlisePerdePage() {
       title="Anaokulu Plise Perde"
       description="Anaokulu için çocuk güvenli, renkli, eğlenceli plise perde."
       slug="anaokulu-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Anaokulu", url: "/anaokulu-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Anaokulu", url: "/anaokulu-plise-perde/" }]}
       h1="Anaokulu Plise Perde"
       intro="Anaokullarında <strong>çocuk güvenliği</strong> en üst önceliktir. Klasik perde sistemlerindeki ip ve kordon mekanizmaları, küçük çocuklar için strangülasyon riski taşır. Ayrıca anaokulu pencereleri sık sık kirlenir — çocuklar pencereye dokunur, el izi bırakır ve boya/cam boyası ile perdeyi kirletir. Plise perde, <strong>ip mekanizması kullanmaz</strong>, renkli ve eğlenceli kumaş seçenekleri ile sınıf atmosferini iyileştirir, nem dayanımlı ve kolay silinebilir kumaş ile hijyenik kalır."
       schemaType="service"

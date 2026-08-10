@@ -216,7 +216,7 @@ export default function PlisePerdeKatalogPage() {
         createCollectionPageSchema({
           name: "Plise Perde Katalog",
           description: "10+ model, 20+ renk, 5 montaj tipi — özel ölçü üretim.",
-          url: "/plise-perde-katalog",
+          url: "/plise-perde-katalog/",
           items: models.map((m) => ({ name: m.name, url: `/${m.slug}` })),
         }),
       ]} />
@@ -224,7 +224,7 @@ export default function PlisePerdeKatalogPage() {
       <PageHeading
         title="Plise Perde Katalog"
         description="Tüm modeller, kumaş tipleri, montaj seçenekleri ve renkler tek sayfada. Özel ölçü üretim, 2 yıl garanti, 3-7 iş gününde teslimat."
-        breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Katalog", url: "/plise-perde-katalog" }]}
+        breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Katalog", url: "/plise-perde-katalog/" }]}
       />
 
       {/* Stats Bar */}
@@ -264,7 +264,7 @@ export default function PlisePerdeKatalogPage() {
         <div className="mx-auto max-w-[1536px] px-4 md:px-6">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-lg md:text-xl font-semibold text-brand-text">Plise Perde Modelleri</h2>
-            <Link href="/plise-perde-modelleri" className="text-sm text-brand hover:underline flex items-center gap-1">
+            <Link href="/plise-perde-modelleri/" className="text-sm text-brand hover:underline flex items-center gap-1">
               Tümü <ChevronRight size={16} />
             </Link>
           </div>
@@ -367,7 +367,7 @@ export default function PlisePerdeKatalogPage() {
                 Plise perde renkleri iki bileşenden oluşur: <strong>profil rengi</strong> (alüminyum profil — 7 renk) ve <strong>kumaş rengi</strong> (kumaş tipine göre 5-8 renk). Toplam 20+ renk kombinasyonu mümkündür. Numune talep ederek gerçek aydınlatmada karar verebilirsiniz.
               </p>
               <Link
-                href="/plise-perde-renkleri"
+                href="/plise-perde-renkleri/"
                 className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
               >
                 Renkleri İncele

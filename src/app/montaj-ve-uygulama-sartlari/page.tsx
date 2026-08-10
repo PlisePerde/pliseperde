@@ -13,7 +13,7 @@ export default function MontajUygulamaPage() {
       title="Montaj ve Uygulama Şartları"
       description="Plise perde montaj ve uygulama şartları. Montaj süreci, garanti, sorumluluk."
       slug="montaj-ve-uygulama-sartlari"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz" }, { name: "Montaj ve Uygulama", url: "/montaj-ve-uygulama-sartlari" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz/" }, { name: "Montaj ve Uygulama", url: "/montaj-ve-uygulama-sartlari/" }]}
       h1="Montaj ve Uygulama Şartları"
       intro="Bu sayfa, plise perde montaj ve uygulama şartlarını açıklar. Montaj süreci, yerinde uygulama koşulları, garanti ve sorumluluklar burada detaylandırılır. Montaj hizmeti alarak bu şartları kabul etmiş sayılırsınız."
       schemaType="article"

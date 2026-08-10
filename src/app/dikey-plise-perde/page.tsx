@@ -15,7 +15,7 @@ export default function DikeyPlisePerdePage() {
       title="Dikey Plise Perde"
       description="Dikey plise perde: yana açılan sistem. Uzun pencereler, katlanır cam ve cam balkon için ideal."
       slug="dikey-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Dikey Plise Perde", url: "/dikey-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Dikey Plise Perde", url: "/dikey-plise-perde/" }]}
       h1="Dikey Plise Perde"
       intro="Dikey plise perde, kumaşın soldan sağa veya sağdan sola açıldığı bir sistemdir. Yan profilden çekildiğinde kumaş yana toplanır, bırakıldığında pencere tamamen kapanır. Uzun pencereler, katlanır cam sistemleri ve cam balkonlar için en uygun çözümdür. Geniş pencere yüzeylerinde pratik ışık kontrolü sağlar. Özel ölçü üretim ve 2 yıl garanti ile gelir."
       schemaType="product"

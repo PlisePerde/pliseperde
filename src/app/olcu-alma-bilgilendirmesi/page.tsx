@@ -13,7 +13,7 @@ export default function OlcuAlmaBilgilendirmesiPage() {
       title="Ölçü Alma Bilgilendirmesi"
       description="Plise perde ölçü alma bilgilendirmesi. Ölçü yöntemi, tolerans, sorumluluk."
       slug="olcu-alma-bilgilendirmesi"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz" }, { name: "Ölçü Alma Bilgilendirmesi", url: "/olcu-alma-bilgilendirmesi" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz/" }, { name: "Ölçü Alma Bilgilendirmesi", url: "/olcu-alma-bilgilendirmesi/" }]}
       h1="Ölçü Alma Bilgilendirmesi"
       intro="Bu sayfa, plise perde ölçü alma sürecine dair bilgilendirmeyi içerir. Ölçü alma yöntemi, toleranslar, sorumluluk alanları ve dikkat edilmesi gereken noktalar burada detaylandırılır. Doğru ölçü, ürünün doğru oturması için kritiktir."
       schemaType="article"

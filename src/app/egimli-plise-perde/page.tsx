@@ -15,7 +15,7 @@ export default function EgimliPlisePerdePage() {
       title="Eğimli Plise Perde"
       description="Eğimli plise perde: eğimli yüzeylere özel sistem. Çatı, merdiven boşluğu ve eğimli pencereler için ideal."
       slug="egimli-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Eğimli Plise Perde", url: "/egimli-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Eğimli Plise Perde", url: "/egimli-plise-perde/" }]}
       h1="Eğimli Plise Perde"
       intro="Eğimli plise perde, dik olmayan eğimli yüzeylere özel üretilen bir sistemdir. Çatı pencereleri, merdiven boşlukları ve eğimli cam yüzeyler için idealdir. Standart plise perde eğimli yüzeye uymaz — özel profil ve kumaş tutucu sistem ile eğimli yüzeye tam uyum sağlanır. Kumaş eğimde kaymaz, yerçekimine karşı sabitlenir. Özel ölçü üretim ve 2 yıl garanti ile gelir."
       schemaType="product"

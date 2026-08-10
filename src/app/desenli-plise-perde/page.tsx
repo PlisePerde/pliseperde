@@ -14,7 +14,7 @@ export default function DesenliPlisePerdePage() {
       title="Desenli Plise Perde"
       description="Desenli plise perde: dokuma veya figür desenli kumaş. Çizgili, noktalı, geometrik, doğal motifler. Dekoratif ve şık."
       slug="desenli-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri" }, { name: "Desenli Plise Perde", url: "/desenli-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri/" }, { name: "Desenli Plise Perde", url: "/desenli-plise-perde/" }]}
       h1="Desenli Plise Perde"
       intro="Desenli plise perde, kumaş yüzeyinde dokuma veya figür deseni bulunan plise perde modelidir. Çizgili, noktalı, geometrik, doğal motifler ve daha fazla desen seçeneği mevcuttur. Düz kumaşa göre daha dekoratif ve karakter katar. Mekan tasarımına renk ve hareket getirir. Işık geçirgen, güneşlik ve karartma kumaş seçenekleri ile üretilir. 2 yıl garanti ile gelir."
       schemaType="product"

@@ -14,7 +14,7 @@ export default function MutfakPlisePerdePage() {
       title="Mutfak Plise Perde"
       description="Mutfak için nem dayanımlı plise perde: pencere içi montaj, yağ buharı dayanımı, kolay temizlik."
       slug="mutfak-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Mutfak", url: "/mutfak-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Mutfak", url: "/mutfak-plise-perde/" }]}
       h1="Mutfak Plise Perde"
       intro="Mutfak, evin en çok nem, yağ buharı ve ısıya maruz kalan alanıdır. Standart perde sistemleri mutfakta hızla kirlenir, nemden dolayı şekil bozukluğu yaşar ve tezgah üstünde yer kaplayarak kullanımı zorlaştırır. Plise perde, <strong>pencere profili içine montaj</strong> yapılması sayesinde tezgaha engel olmaz, nem dayanımlı kumaş seçenekleri ile yağ buharına direnç gösterir ve pencere içinde katlanarak tamamen görünmez olur."
       bgImage="/kullanim-alanlari/mutfak-plise-perde.webp"

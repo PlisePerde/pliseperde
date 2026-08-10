@@ -14,7 +14,7 @@ export default function MontajPage() {
       title="Ücretsiz Montaj"
       description="Ücretsiz plise perde montaj hizmeti. Deneyimli montaj ekibi, vidalı/yapışkanlı/kancalı montaj. 2 yıl garanti."
       slug="montaj"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz" }, { name: "Ücretsiz Montaj", url: "/montaj" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz/" }, { name: "Ücretsiz Montaj", url: "/montaj/" }]}
       h1="Ücretsiz Montaj — Plise Perde Montaj Hizmeti"
       intro="Plise perde montajı, deneyimli montaj ekibimiz tarafından profesyonel şekilde yapılır. Vidalı, yapışkanlı ve kancalı montaj tiplerinden pencere yapısına uygun olanı seçeriz. Her montaj 2 yıl garanti ile gelir. İstanbul merkezli ekibimiz Türkiye geneli hizmet verir. Tek pencere veya tüm ev, her ölçekte montaj yapılır."
       schemaType="service"

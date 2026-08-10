@@ -14,20 +14,20 @@ export default function PlisePerdeCesitleriPage() {
       title="Plise Perde Çeşitleri"
       description="Plise perde çeşitleri: tül, güneşlik, yarı karartma, tam karartma, honeycomb, düet, motorlu. Her ihtiyaç ve mekan için uygun çeşit."
       slug="plise-perde-cesitleri"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Çeşitlerimiz", url: "/plise-perde-cesitleri" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Çeşitlerimiz", url: "/plise-perde-cesitleri/" }]}
       h1="Plise Perde Çeşitleri"
       intro="Plise perde çeşitleri, kumaş yapısına, ışık geçirgenliğine ve fonksiyonuna göre farklılaşır. Tül, güneşlik, yarı karartma, tam karartma, honeycomb, düet ve motorlu çeşitler arasından ihtiyacınıza uygun olanı seçin. Her çeşit özel ölçü üretim, profesyonel montaj ve 2 yıl garanti ile gelir. Türkiye geneli hizmet."
       schemaType="collectionpage"
       schemaData={{
         name: "Plise Perde Çeşitleri",
         description: "Tül, güneşlik, karartma, honeycomb, düet, motorlu plise perde çeşitleri.",
-        url: "/plise-perde-cesitleri",
+        url: "/plise-perde-cesitleri/",
         items: [
-          { name: "Tül Plise Perde", url: "/plise-perde" },
-          { name: "Honeycomb Plise Perde", url: "/honeycomb-perde" },
-          { name: "Düet Plise Perde", url: "/duet-perde" },
-          { name: "Blackout Plise Perde", url: "/blackout-plise-perde" },
-          { name: "Motorlu Plise Perde", url: "/motorlu-plise-perde" },
+          { name: "Tül Plise Perde", url: "/plise-perde/" },
+          { name: "Honeycomb Plise Perde", url: "/honeycomb-perde/" },
+          { name: "Düet Plise Perde", url: "/duet-perde/" },
+          { name: "Blackout Plise Perde", url: "/blackout-plise-perde/" },
+          { name: "Motorlu Plise Perde", url: "/motorlu-plise-perde/" },
         ],
       }}
       sections={[

@@ -131,13 +131,13 @@ export default function Footer() {
             © {new Date().getFullYear()} {siteConfig.name}. Tüm hakları saklıdır.
           </p>
           <div className="flex items-center gap-4">
-            <Link href="/site-haritasi" className="text-xs text-brand-text-light hover:text-brand transition-colors">
+            <Link href="/site-haritasi/" className="text-xs text-brand-text-light hover:text-brand transition-colors">
               Site Haritası
             </Link>
-            <Link href="/gizlilik-politikasi" className="text-xs text-brand-text-light hover:text-brand transition-colors">
+            <Link href="/gizlilik-politikasi/" className="text-xs text-brand-text-light hover:text-brand transition-colors">
               Gizlilik Politikası
             </Link>
-            <Link href="/kullanim-kosullari" className="text-xs text-brand-text-light hover:text-brand transition-colors">
+            <Link href="/kullanim-kosullari/" className="text-xs text-brand-text-light hover:text-brand transition-colors">
               Kullanım Koşulları
             </Link>
           </div>

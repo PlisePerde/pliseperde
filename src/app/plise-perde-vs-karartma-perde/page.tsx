@@ -14,7 +14,7 @@ export default function PliseVsKarartmaPage() {
       title="Plise Perde vs Karartma Perde"
       description="Plise perde ve karartma (blackout) perde karşılaştırması. Işık kesme, uyku, kumaş esnekliği, fiyat, bakım."
       slug="plise-perde-vs-karartma-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Karartma", url: "/plise-perde-vs-karartma-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Karartma", url: "/plise-perde-vs-karartma-perde/" }]}
       h1="Plise Perde ile Karartma Perde Arasındaki Farklar Nelerdir?"
       intro="Karartma perde (blackout), ışığın neredeyse tamamını durdurmak üzere tasarlanmış tek işlevli bir üründür; plise perde ise tül, güneşlik ve blackout dahil birden fazla kumaşla çalışabilen çok yönlü bir sistemdir. Biri karanlık odaklı, diğeri esneklik odaklıdır. Bu yazıda ışık geçirgenliği, uyku düzeni, bütçe, kurulum ve görsel tarz başlıklarını karşılaştırarak ihtiyacınıza uygun tarafı belirlemenize yardımcı oluyoruz."
       schemaType="article"

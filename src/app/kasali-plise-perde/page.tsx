@@ -15,7 +15,7 @@ export default function KasaliPlisePerdePage() {
       title="Kasalı Plise Perde"
       description="Kasalı plise perde: alüminyum kasa içinde gizli sistem. Estetik, korumalı, modern görünüm."
       slug="kasali-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Kasalı Plise Perde", url: "/kasali-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Kasalı Plise Perde", url: "/kasali-plise-perde/" }]}
       h1="Kasalı Plise Perde"
       intro="Kasalı plise perde, kumaşın alüminyum kasa içinde gizlendiği bir sistemdir. Perde kullanılmadığında kumaş kasa içinde kaybolur — sadece kasa görünür. Kumaş toz ve hasardan korunur, mekanın estetiği bozulmaz. Modern ve minimalist tasarım arayanlar için ideal çözümdür. Özel ölçü üretim ve 2 yıl garanti ile gelir."
       schemaType="product"

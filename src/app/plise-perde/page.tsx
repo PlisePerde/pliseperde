@@ -24,7 +24,7 @@ export default function PlisePerdePage() {
       title="Plise Perde Ürünleri"
       description="Plise perde ürünleri kategorisi: tül, güneşlik, karartma kumaş seçenekleri. Özel ölçü üretim, 2 yıl garanti, ücretsiz keşif, montaj."
       slug="plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Plise Perde Ürünleri", url: "/plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz/" }, { name: "Plise Perde Ürünleri", url: "/plise-perde/" }]}
       h1="Plise Perde Ürünleri"
       intro="Plise perde ürünleri kategorisinde katlanır kumaş yapısıyla pencerede şık ve pratik gölgeleme çözümleri sunuyoruz. Özel ölçü üretim yaparız — her pencere boyutuna uygun. Tül, güneşlik, yarı karartma ve tam karartma kumaş seçenekleri mevcuttur. 2022'den beri üretici olarak hizmet veriyoruz. 2 yıl garanti, ücretsiz keşif ve profesyonel montaj ile Türkiye geneli hizmet."
       schemaType="collectionpage"

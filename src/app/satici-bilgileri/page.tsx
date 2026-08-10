@@ -13,7 +13,7 @@ export default function SaticiBilgileriPage() {
       title="Satıcı Bilgileri"
       description="Plise Perde satıcı bilgileri: şirket unvanı, adres, iletişim, sicil ve MERSİS numarası. 6502 kapsamında tüketiciye sunulan bilgiler."
       slug="satici-bilgileri"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Satıcı Bilgileri", url: "/satici-bilgileri" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Satıcı Bilgileri", url: "/satici-bilgileri/" }]}
       h1="Satıcı Bilgileri"
       intro="Bu sayfa, Plise Perde satıcı bilgilerini içerir. Şirket unvanı, adres, iletişim ve sicil bilgileri burada listelenir. 6502 sayılı kanun kapsamında tüketiciye sunulması gereken satıcı bilgileridir."
       schemaType="article"

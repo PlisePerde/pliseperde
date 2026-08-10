@@ -14,7 +14,7 @@ export default function KaravanPlisePerdePage() {
       title="Karavan Plise Perde"
       description="Karavan için plise perde: dar pencere, hafif kumaş, yapışkanlı montaj, sarsıntı dayanımı."
       slug="karavan-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Karavan", url: "/karavan-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Karavan", url: "/karavan-plise-perde/" }]}
       h1="Karavan Plise Perde"
       intro="Karavanlarda pencere ölçüleri <strong>standart dışı ve küçük</strong> olur. Araç hareket halindeyken sarsıntı, titreşim ve darbe vardır. Standart perde sistemleri karavanda savrulur, yer kaplar ve sarsıntıdan dolayı zarar görür. Plise perde, <strong>yapışkanlı montaj</strong> ile pencere profiline delmeden takılır, pencere içinde sabit kalır, sarsıntıdan etkilenmez ve hafif kumaş ile araca ek ağırlık eklemez. Karavan yaşamı için en uygun perde sistemidir."
       schemaType="service"

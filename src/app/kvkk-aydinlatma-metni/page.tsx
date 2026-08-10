@@ -13,7 +13,7 @@ export default function KvkkPage() {
       title="KVKK Aydınlatma Metni"
       description="Plise Perde KVKK aydınlatma metni. Kişisel verilerin işlenmesine dair bilgilendirme."
       slug="kvkk-aydinlatma-metni"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "KVKK Aydınlatma", url: "/kvkk-aydinlatma-metni" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "KVKK Aydınlatma", url: "/kvkk-aydinlatma-metni/" }]}
       h1="KVKK Aydınlatma Metni"
       intro="Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında kişisel verilerinizin işlenmesine dair sizi bilgilendirmek amacıyla hazırlanmıştır. Veri sorumlusu olarak Plise Perde, kişisel verilerinizi yasalara uygun olarak işler ve korur."
       schemaType="article"

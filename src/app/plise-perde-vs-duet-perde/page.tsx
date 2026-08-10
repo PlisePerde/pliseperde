@@ -14,7 +14,7 @@ export default function PliseVsDuetPage() {
       title="Plise Perde vs Düet Perde"
       description="Plise perde ve düet perde karşılaştırması: katman yapısı, aydınlatma çeşitliliği, fiyat performansı, montaj, temizlik ve dekoratif etki."
       slug="plise-perde-vs-duet-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Düet", url: "/plise-perde-vs-duet-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Düet", url: "/plise-perde-vs-duet-perde/" }]}
       h1="Plise Perde vs Düet Perde — Hangisi Daha İyi?"
       intro="Plise perde ile düet perde, esnek aydınlatma arayanların önündeki iki güçlü alternatiftir; ancak çalışma mantıkları kökten ayrılır. Düet perde (Duette perde olarak da bilinir), tek bir sistem içinde iki farklı kumaşı yan yana getirir — genellikle bir tarafta tül veya güneşlik, diğer tarafta blackout. Böylece gündüz ve gece ihtiyacını tek perdede çözer. Plise perde ise yalnızca tek kumaş katmanını pile yaparak çalışır ve daha sade bir mekanizmaya sahiptir. Bu yazıda katman yapısı, aydınlatma çeşitliliği, fiyat performansı, montaj detayları, temizlik gereksinimleri ve dekoratif etki başlıklarını ele alacağız."
       schemaType="article"

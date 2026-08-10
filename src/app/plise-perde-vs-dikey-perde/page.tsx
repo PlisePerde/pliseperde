@@ -14,7 +14,7 @@ export default function PliseVsDikeyPage() {
       title="Plise Perde vs Dikey Perde"
       description="Plise perde ve dikey perde karşılaştırması: sistem mimarisi, pencere uyumu, ışık yönetimi, maliyet, montaj, temizlik ve görsel dil."
       slug="plise-perde-vs-dikey-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Dikey", url: "/plise-perde-vs-dikey-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Dikey", url: "/plise-perde-vs-dikey-perde/" }]}
       h1="Plise Perde vs Dikey Perde — Hangisi Daha İyi?"
       intro="Plise perde ile dikey perde, birbirinden tamamen farklı iki mühendislik yaklaşımının ürünüdür. Dikey perde, yanlara kayarak açılan ve 180 derece dönebilen lamelleriyle geniş cam yüzeyleri, cam balkonlar ve yüksek tavanlı mekanlar için tasarlanmıştır. Plise perde ise pile katlanan kumaşı dikey eksende hareket ettirerek standart ev pencerelerinde esnek bir aydınlatma kontrolü sunar. Bu karşılaştırmada sistem mimarisi, pencere uyumu, güneş açısı yönetimi, maliyet etkileri, montaj prosedürü, temizlik adımları ve görsel dil başlıklarını inceleyeceğiz."
       schemaType="article"

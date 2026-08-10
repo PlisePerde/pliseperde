@@ -13,7 +13,7 @@ export default function OdemeTaksitPage() {
       title="Ödeme ve Taksit Seçenekleri"
       description="Plise perde ödeme ve taksit seçenekleri. Nakit, kredi kartı, taksit, havale."
       slug="odeme-ve-taksit-secenekleri"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Ödeme ve Taksit", url: "/odeme-ve-taksit-secenekleri" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Ödeme ve Taksit", url: "/odeme-ve-taksit-secenekleri/" }]}
       h1="Ödeme ve Taksit Seçenekleri"
       intro="Bu sayfa, plise perde siparişlerindeki ödeme ve taksit seçeneklerini açıklar. Nakit, kredi kartı, taksit ve havale yöntemleri mevcuttur. Nakit ödemede %5 indirim vardır. Taksit 3-6 ay arası yapılandırılabilir. Tüm ödemeler güvenli SSL şifreleme ile yapılır."
       schemaType="article"

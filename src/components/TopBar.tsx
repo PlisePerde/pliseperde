@@ -57,12 +57,12 @@ export default function TopBar() {
             Türkiye ve Avrupa'nın Plise Perde Üreticisi!
           </span>
           <div className="flex items-center gap-2 flex-shrink-0">
-            <Link href="/plise-perde-katalog" className="hidden sm:flex items-center gap-1 text-white/90 hover:text-white transition-colors font-medium touch-reset">
+            <Link href="/plise-perde-katalog/" className="hidden sm:flex items-center gap-1 text-white/90 hover:text-white transition-colors font-medium touch-reset">
               <BookOpen size={13} className="flex-shrink-0" />
               Katalog
             </Link>
             <div className="hidden sm:block h-3 w-px bg-white/30" />
-            <Link href="/hizmet-bolgeleri" className="hidden sm:flex items-center gap-1 text-white/90 hover:text-white transition-colors font-medium touch-reset">
+            <Link href="/hizmet-bolgeleri/" className="hidden sm:flex items-center gap-1 text-white/90 hover:text-white transition-colors font-medium touch-reset">
               <MapPin size={13} className="flex-shrink-0" />
               Hizmet Bölgeleri
             </Link>
@@ -94,7 +94,7 @@ export default function TopBar() {
       >
         <div className="px-4 h-10 flex items-center justify-center gap-2 md:gap-3">
           <Link
-            href="/plise-perde-fiyat-hesaplama"
+            href="/plise-perde-fiyat-hesaplama/"
             className="flex items-center gap-1.5 px-3 py-1.5 text-xs md:text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
           >
             <Calculator size={14} />
@@ -109,14 +109,14 @@ export default function TopBar() {
             WhatsApp
           </a>
           <Link
-            href="/kesif"
+            href="/kesif/"
             className="flex items-center gap-1.5 px-3 py-1.5 text-xs md:text-sm font-medium border border-brand-border text-brand-text rounded-md hover:bg-brand-bg transition-colors"
           >
             <Search size={14} />
             Ücretsiz Keşif
           </Link>
           <Link
-            href="/kesif"
+            href="/kesif/"
             className="hidden md:flex items-center gap-1.5 px-3 py-1.5 text-xs md:text-sm font-medium border border-brand-border text-brand-text rounded-md hover:bg-brand-bg transition-colors"
           >
             <Sparkles size={14} />

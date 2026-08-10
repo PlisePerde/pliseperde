@@ -13,7 +13,7 @@ export default function TicariElektronikPage() {
       title="Ticari Elektronik İleti Onayı"
       description="Plise Perde ticari elektronik ileti onayı. SMS, e-posta, WhatsApp pazarlama izni."
       slug="ticari-elektronik-ileri-onayi"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Ticari Elektronik İleti", url: "/ticari-elektronik-ileri-onayi" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Ticari Elektronik İleti", url: "/ticari-elektronik-ileri-onayi/" }]}
       h1="Ticari Elektronik İleti Onayı"
       intro="Bu onay metni, 6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun kapsamında ticari elektronik ileti gönderimine dair izninizi açıklar. SMS, e-posta ve WhatsApp üzerinden ürün bilgilendirme, kampanya ve duyuru gönderilebilir. İzninizi istediğiniz zaman geri çekebilirsiniz."
       schemaType="article"

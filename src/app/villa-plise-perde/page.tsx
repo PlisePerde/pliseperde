@@ -14,7 +14,7 @@ export default function VillaPlisePerdePage() {
       title="Villa Plise Perde"
       description="Villa için plise perde: yüksek pencere, çatı penceresi, motorlu, honeycomb ısı yalıtımı."
       slug="villa-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Villa", url: "/villa-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Villa", url: "/villa-plise-perde/" }]}
       h1="Villa Plise Perde"
       intro="Villalarda pencere mimarisi <strong>standart evlerden farklıdır</strong> — yüksek tavanlar, geniş cam yüzeyler, çatı pencereleri, köşe pencereler ve katlı pencere sistemleri bulunur. Bu çeşitlilik, tek tip perde çözümünü imkansız kılar. Plise perde, <strong>her pencere tipine özel ölçü</strong> yapılması, motorlu seçenek ile yüksek pencereleri uzaktan kumandayla kontrol etme ve honeycomb kumaş ile geniş cam yüzeylerde ısı yalıtımı sağlama özellikleri ile villa projeleri için en uygun perde sistemidir."
       schemaType="service"

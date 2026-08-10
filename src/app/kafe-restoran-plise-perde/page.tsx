@@ -14,7 +14,7 @@ export default function KafeRestoranPlisePerdePage() {
       title="Kafe ve Restoran Plise Perde"
       description="Kafe ve restoran için plise perde: atmosfer kontrolü, dekoratif seçenekler, müşteri konforu."
       slug="kafe-restoran-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Kafe ve Restoran", url: "/kafe-restoran-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Kafe ve Restoran", url: "/kafe-restoran-plise-perde/" }]}
       h1="Kafe ve Restoran Plise Perde"
       intro="Kafe ve restoranlarda <strong>atmosfer, müşteri deneyiminin</strong> temelidir. Güneş ışığının kontrol edilememesi, öğle saatlerinde aşırı parlama veya akşamüstü batan güneşin müşteri gözüne batması, deneyimi olumsuz etkiler. Plise perde, <strong>güneşlik kumaş ile ışığı filtreler</strong>, kademeli açma ile manzara korunurken güneş engellenir ve dekoratif kumaş seçenekleri ile mekana karakter katar. Dış mekan oturma alanlarında da rüzgar dayanımı ile pratik çözüm sunar."
       schemaType="service"

@@ -14,7 +14,7 @@ export default function PliseVsJaluziPage() {
       title="Plise Perde vs Jaluzi Perde"
       description="Plise perde ile alüminyum ve ahşap jaluzi perde arasındaki farklar: mekanizma, ışık yönlendirme, temizlik, nem dayanımı ve fiyat."
       slug="plise-perde-vs-jaluzi-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Jaluzi", url: "/plise-perde-vs-jaluzi-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Jaluzi", url: "/plise-perde-vs-jaluzi-perde/" }]}
       h1="Plise Perde vs Jaluzi Perde — Detaylı İnceleme"
       intro="Plise perde, tek parça kumaşı akordion biçiminde katlayarak çalışır; jaluzi perde ise <strong>yatay lamellerin</strong> açı değiştirmesiyle ışık ve görünüş ayarlar. Jaluzi ailesi iki ana malzemeden üretilir: <em>alüminyum lamel</em> hafif, ekonomik ve nem dayanımlıdır; <u>ahşap lamel</u> ise doğal dokusuyla sıcak bir atmosfer yaratır ancak ıslak ortamlara uygun değildir. Bu sayfada her üç seçeneği de beş başlık altında karşılaştırıyoruz."
       schemaType="article"

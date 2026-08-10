@@ -14,7 +14,7 @@ export default function TeknePlisePerdePage() {
       title="Tekne ve Yat Plise Perde"
       description="Tekne, yat, yelkenli ve gemi için plise perde: tuzlu su dayanımı, özel ölçü."
       slug="tekne-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Tekne ve Yat", url: "/tekne-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Tekne ve Yat", url: "/tekne-plise-perde/" }]}
       h1="Tekne ve Yat Plise Perde"
       intro="Tekne, yat, yelkenli ve gemilerde perde seçimi <strong>karada kullanılan perde sistemlerinden tamamen farklıdır</strong>. Tuzlu su, yüksek nem, sürekli hareket (yalpa), rüzgar ve dar özel ölçü pencereler standart perde sistemlerini kullanılamaz kılar. Plise perde, <strong>paslanmaz alüminyum profil, tuzlu su dayanımlı kumaş ve pencere içi montaj</strong> ile deniz araçları için en uygun perde sistemidir. Eğimli ve farklı açılı pencerelere birebir uyum sağlar."
       schemaType="service"

@@ -15,7 +15,7 @@ export default function TavanPlisePerdePage() {
       title="Tavan Plise Perde"
       description="Tavan plise perde: tavan montajlı sistem. Vitrin, kış bahçesi, cam balkon ve yüksek tavanlar için ideal."
       slug="tavan-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Tavan Plise Perde", url: "/tavan-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Tavan Plise Perde", url: "/tavan-plise-perde/" }]}
       h1="Tavan Plise Perde"
       intro="Tavan plise perde, profilin pencere çerçevesine değil doğrudan tavana monte edildiği bir sistemdir. Vitrinler, kış bahçeleri, cam balkonlar ve yüksek tavanlı mekanlarda ışık kontrolü ve gizlilik sağlar. Tavan montajı ile pencere çerçevesi boş kalır, geniş cam yüzeylerde kesintisiz örtü oluşturur. Özel ölçü üretim ve 2 yıl garanti ile gelir."
       schemaType="product"

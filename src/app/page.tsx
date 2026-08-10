@@ -220,7 +220,7 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-3 sm:flex sm:flex-row items-center gap-2 sm:gap-3 mb-8">
                 <Link
-                  href="/plise-perde-fiyatlari"
+                  href="/plise-perde-fiyatlari/"
                   className="flex items-center gap-2 px-5 py-3 text-sm md:text-base font-semibold border-2 border-white/80 text-white rounded-lg hover:bg-white/10 transition-colors"
                 >
                   <Tag size={18} />
@@ -228,7 +228,7 @@ export default function Home() {
                   <span className="hidden sm:inline">Fiyatlarımız</span>
                 </Link>
                 <Link
-                  href="/plise-perde-fiyat-hesaplama"
+                  href="/plise-perde-fiyat-hesaplama/"
                   className="flex items-center gap-2 px-6 py-3 text-sm md:text-base font-semibold bg-brand text-white rounded-lg hover:bg-brand-dark transition-colors"
                 >
                   <Calculator size={18} />
@@ -330,7 +330,7 @@ export default function Home() {
                 </ul>
 
                 <Link
-                  href="/plise-perde-nedir"
+                  href="/plise-perde-nedir/"
                   className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
                 >
                   Devamını Oku
@@ -430,7 +430,7 @@ export default function Home() {
                 Ürünlerimiz
               </h2>
               <Link
-                href="/urunlerimiz"
+                href="/urunlerimiz/"
                 className="flex items-center gap-1 text-sm text-brand hover:text-brand-dark transition-colors"
               >
                 Tümü <ChevronRight size={14} />
@@ -591,7 +591,7 @@ export default function Home() {
               <h2 className="text-lg md:text-xl font-semibold text-brand-text">
                 Hizmet Bölgeleri
               </h2>
-              <Link href="/hizmet-bolgeleri" className="text-sm text-brand hover:underline flex items-center gap-1">
+              <Link href="/hizmet-bolgeleri/" className="text-sm text-brand hover:underline flex items-center gap-1">
                 Tümünü Gör <ChevronRight size={16} />
               </Link>
             </div>
@@ -628,7 +628,7 @@ export default function Home() {
               <h2 className="text-lg md:text-xl font-semibold text-brand-text">
                 Plise Perde Karşılaştırmaları
               </h2>
-              <Link href="/karsilastirmalar" className="text-sm text-brand hover:underline flex items-center gap-1">
+              <Link href="/karsilastirmalar/" className="text-sm text-brand hover:underline flex items-center gap-1">
                 Tümünü Gör <ChevronRight size={16} />
               </Link>
             </div>
@@ -669,7 +669,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                 <Link
-                  href="/kesif"
+                  href="/kesif/"
                   className="px-4 py-2.5 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
                 >
                   Ücretsiz Keşif Talep Et

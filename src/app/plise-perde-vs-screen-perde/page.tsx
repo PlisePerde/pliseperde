@@ -14,7 +14,7 @@ export default function PliseVsScreenPage() {
       title="Plise Perde vs Screen Perde"
       description="Plise perde ve screen (güneşlik) perde karşılaştırması. UV süzme, ışık filtreleme, cephe uyumu, fiyat, bakım."
       slug="plise-perde-vs-screen-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Screen", url: "/plise-perde-vs-screen-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Screen", url: "/plise-perde-vs-screen-perde/" }]}
       h1="Plise Perde mi Screen Güneşlik Perde mi? Detaylı İnceleme"
       intro="Screen perde, polyester ve PVC karışımı özel dokumasıyla güneş ışığını süzerek UV ışınlarını durdurur ve dışarıdan içeriyi zor gördürür; plise perde ise tül, güneşlik ve blackout dahil farklı kumaşlarla geniş bir kullanım yelpazesi sunar. Biri güneş cephesine odaklı, diğeri mekana göre şekillenen bir çözümdür. Aşağıda dokuma teknolojisi, UV performansı, cephe uyumu, maliyet, kurulum ve tasarım katkısını karşılaştırıyoruz."
       schemaType="article"

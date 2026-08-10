@@ -15,7 +15,7 @@ export default function UcgenPlisePerdePage() {
       title="Üçgen Plise Perde"
       description="Üçgen plise perde: üçgen formda özel üretim. Çatı pencereleri ve beşik çatı için ideal."
       slug="ucgen-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Üçgen Plise Perde", url: "/ucgen-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Üçgen Plise Perde", url: "/ucgen-plise-perde/" }]}
       h1="Üçgen Plise Perde"
       intro="Üçgen plise perde, üçgen formdaki pencereler için özel üretilen bir sistemdir. Çatı pencereleri, beşik çatı pencereleri ve mimari üçgen formlar için idealdir. Standart plise perde üçgen pencereye uymaz — özel profil kesimi ve kumaş şekillendirme ile üçgen forma tam uyum sağlanır. Her üçgen pencere ölçüsüne göre özel üretim yapılır. 2 yıl garanti ile gelir."
       schemaType="product"

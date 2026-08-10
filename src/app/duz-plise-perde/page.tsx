@@ -14,7 +14,7 @@ export default function DuzPlisePerdePage() {
       title="Düz Plise Perde"
       description="Düz plise perde: sade ve klasik kumaş yapısı. Düz renk, desensiz, her mekana uyumlu."
       slug="duz-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri" }, { name: "Düz Plise Perde", url: "/duz-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri/" }, { name: "Düz Plise Perde", url: "/duz-plise-perde/" }]}
       h1="Düz Plise Perde"
       intro="Düz plise perde, desensiz ve sade kumaş yapısı ile en klasik plise perde modelidir. Tek renk, düz yüzey — her mekan tasarımına uyum sağlar. Minimal estetik arayanlar için ideal. Işık geçirgen tül, güneşlik, yarı karartma ve tam karartma kumaş seçenekleri ile üretilir. 2 yıl garanti, özel ölçü üretim ve profesyonel montaj ile gelir."
       schemaType="product"

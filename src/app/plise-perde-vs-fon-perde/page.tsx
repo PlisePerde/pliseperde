@@ -14,7 +14,7 @@ export default function PliseVsFonPage() {
       title="Plise Perde vs Fon Perde"
       description="Plise perde ve fon perde arasındaki temel farklar: mekanizma, aydınlatma, mahremiyet, dekoratif etki, maliyet, kurulum ve bakım."
       slug="plise-perde-vs-fon-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Fon", url: "/plise-perde-vs-fon-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Fon", url: "/plise-perde-vs-fon-perde/" }]}
       h1="Plise Perde vs Fon Perde — Hangisi Daha İyi?"
       intro="Plise perde ile fon perde, evlerde en sık karşılaşılan iki pencere giydirme seçeneğidir; ancak birbirinden tamamen ayrı iki felsefeyle üretilirler. Fon perde, ince tül dokusuyla pencere önünde süzülen yumuşak bir ışık perdesi oluşturur ve klasik dekorasyon anlayışının temel taşıdır. Plise perde ise alüminyum profil içinde pile katlanan kumaş yapısıyla hem pencere içine monte edilir hem de tül, güneşlik ve blackout seçenekleriyle tek üründe birden fazla ihtiyacı karşılar. Bu yazıda iki sistemi hareket tarzı, doğal aydınlatma, mahremiyet, dekoratif etki, bütçe, kurulum ve bakım başlıkları altında ele alacağız."
       schemaType="article"

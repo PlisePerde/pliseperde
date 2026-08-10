@@ -36,7 +36,7 @@ export default function PolitikalarimizPage() {
       <JsonLd
         schemas={[
           createBreadcrumbJsonLd(["Ana Sayfa", "Politikalarımız"]),
-          createWebPageSchema({ name: "Politikalarımız", description: "Plise Perde politikaları.", url: "/politikalarimiz" }),
+          createWebPageSchema({ name: "Politikalarımız", description: "Plise Perde politikaları.", url: "/politikalarimiz/" }),
         ]}
       />
       <PageHeading

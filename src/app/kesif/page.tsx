@@ -14,7 +14,7 @@ export default function KesifPage() {
       title="Ücretsiz Keşif ve Danışmanlık"
       description="Ücretsiz keşif ve danışmanlık hizmeti. Profesyonel ekip pencere ölçüsü alır, montaj tipi belirler, net fiyat teklifi sunar."
       slug="kesif"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz" }, { name: "Ücretsiz Keşif ve Danışmanlık", url: "/kesif" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz/" }, { name: "Ücretsiz Keşif ve Danışmanlık", url: "/kesif/" }]}
       h1="Ücretsiz Keşif ve Danışmanlık"
       intro="Ücretsiz keşif ve danışmanlık hizmeti ile profesyonel ekibimiz adresinize gelir, pencere ölçülerinizi alır, uygun montaj tipini belirler ve net fiyat teklifi sunar. İstanbul ve çevre şehirlerde tamamen ücretsizdir. Keşif sonrası ürün siparişi vermek zorunda değilsiniz. Net fiyat ile karar verirsiniz, sürpriz maliyet yoktur. Danışmanlık desteği ile hangi model, hangi sistem ve hangi kumaşın size uygun olduğunu birlikte belirleriz."
       schemaType="service"

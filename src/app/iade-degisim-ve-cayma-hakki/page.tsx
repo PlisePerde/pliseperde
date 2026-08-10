@@ -13,7 +13,7 @@ export default function IadeDegisimCaymaPage() {
       title="İade, Değişim ve Cayma Hakkı"
       description="Plise perde iade, değişim ve cayma hakkı. Koşullar, süreç, geri ödeme."
       slug="iade-degisim-ve-cayma-hakki"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "İade, Değişim ve Cayma", url: "/iade-degisim-ve-cayma-hakki" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "İade, Değişim ve Cayma", url: "/iade-degisim-ve-cayma-hakki/" }]}
       h1="İade, Değişim ve Cayma Hakkı"
       intro="Bu sayfa, plise perde iade, değişim ve cayma hakkı koşullarını açıklar. 6502 sayılı kanun kapsamında tüketici hakları korunur. Özel üretim ürünlerde cayma hakkı sınırlaması vardır. İade ve değişim koşulları, süreci ve geri ödeme detayları burada belirtilir."
       schemaType="article"

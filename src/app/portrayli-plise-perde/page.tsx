@@ -14,7 +14,7 @@ export default function PortrayliPlisePerdePage() {
       title="Portrayli Plise Perde"
       description="Portrayli plise perde: ince profil ile estetik montaj sistemi. Minimal görünüm, pencere içinde gizli profil."
       slug="portrayli-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }, { name: "Portrayli Plise Perde", url: "/portrayli-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji/" }, { name: "Portrayli Plise Perde", url: "/portrayli-plise-perde/" }]}
       h1="Portrayli Plise Perde"
       intro="Portrayli plise perde, standart plise perdeden daha ince profil ile monte edilen estetik odaklı bir montaj sistemidir. Profil pencere içinde neredeyse görünmez — sadece kumaş görünür. Modern ve minimal tasarım sevenler için ideal. İnce profile rağmen sağlamlık korunur. Vidalı veya yapışkanlı montaj ile uygulanır. 2 yıl garanti ile gelir."
       schemaType="product"

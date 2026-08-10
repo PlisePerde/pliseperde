@@ -313,7 +313,7 @@ async function BlogPostView({ slug }: { slug: string }) {
           <div className="mt-10 pt-6 border-t border-brand-border">
             <div className="flex flex-wrap items-center justify-between gap-4">
               <Link
-                href="/blog"
+                href="/blog/"
                 className="inline-flex items-center gap-2 text-sm text-brand hover:text-brand-dark transition-colors"
               >
                 <ArrowLeft size={16} />

@@ -13,7 +13,7 @@ export default function GizlilikPolitikasiPage() {
       title="Gizlilik Politikası"
       description="Plise Perde gizlilik politikası. Kişisel veriler, çerezler, veri güvenliği."
       slug="gizlilik-politikasi"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Gizlilik Politikası", url: "/gizlilik-politikasi" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Gizlilik Politikası", url: "/gizlilik-politikasi/" }]}
       h1="Gizlilik Politikası"
       intro="Bu gizlilik politikası, pliseperde.com web sitesi üzerinden toplanan kişisel verilerin nasıl işlendiğini açıklar. 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında veri güvenliği sağlanır. Bu politika, web sitemizi ziyaret eden tüm kullanıcılar için geçerlidir."
       schemaType="article"

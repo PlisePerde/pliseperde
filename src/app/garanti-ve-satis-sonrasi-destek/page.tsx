@@ -13,7 +13,7 @@ export default function GarantiDestekPage() {
       title="Garanti ve Satış Sonrası Destek"
       description="Plise perde garanti ve satış sonrası destek. 2 yıl ürün, 5 yıl motor, servis."
       slug="garanti-ve-satis-sonrasi-destek"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Garanti ve Destek", url: "/garanti-ve-satis-sonrasi-destek" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Garanti ve Destek", url: "/garanti-ve-satis-sonrasi-destek/" }]}
       h1="Garanti ve Satış Sonrası Destek"
       intro="Bu sayfa, plise perde garanti koşullarını ve satış sonrası destek hizmetlerini açıklar. Ürün ve montaj 2 yıl, motor 5 yıl garanti ile gelir. Garanti içinde servis ve parça değişimi ücretsizdir. Yedek parça 5+ yıl tedarik edilir."
       schemaType="article"

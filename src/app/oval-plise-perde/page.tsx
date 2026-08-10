@@ -15,7 +15,7 @@ export default function OvalPlisePerdePage() {
       title="Oval Plise Perde"
       description="Oval plise perde: oval formda özel üretim. Kemerli pencere ve estetik mimari için ideal."
       slug="oval-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Oval Plise Perde", url: "/oval-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Oval Plise Perde", url: "/oval-plise-perde/" }]}
       h1="Oval Plise Perde"
       intro="Oval plise perde, oval formdaki pencereler için özel üretilen bir sistemdir. Kemerli pencereler, oval cam yüzeyler ve estetik mimari formlar için idealdir. Standart plise perde oval pencereye uymaz — özel profil büküm ve kumaş şekillendirme ile oval forma tam uyum sağlanır. Her oval pencere ölçüsüne göre özel üretim yapılır. 2 yıl garanti ile gelir."
       schemaType="product"

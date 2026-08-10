@@ -14,7 +14,7 @@ export default function PlisePerdeAparatlariPage() {
       title="Plise Perde Aparatları"
       description="Plise perde aparatları: profil, kanal, ip mekanizması, tutucu, klips. Yedek aparat tedariki."
       slug="plise-perde-aparatlari"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Plise Perde Aparatları", url: "/plise-perde-aparatlari" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz/" }, { name: "Plise Perde Aparatları", url: "/plise-perde-aparatlari/" }]}
       h1="Plise Perde Aparatları"
       intro="Plise perde aparatları, perdenin düzgün çalışması için gereken tüm parçaları kapsar. Profil, kanal, ip mekanizması, tutucu, klips ve daha fazlası. Yedek aparat tedariki yapıyoruz — perdenizi söküp atmanıza gerek yok. Uyumlu aparat ile perdenizi yeniden çalışır hale getiririz. Türkiye geneli kargo ile gönderim yapılır."
       schemaType="product"

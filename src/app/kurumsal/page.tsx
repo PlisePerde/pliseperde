@@ -198,7 +198,7 @@ export default function KurumsalPage() {
           createWebPageSchema({
             name: "Kurumsal — Plise Perde",
             description: "Plise Perde kurumsal sayfası.",
-            url: "/kurumsal",
+            url: "/kurumsal/",
           }),
         ]}
       />

@@ -14,7 +14,7 @@ export default function OlcuAlmaDestegiPage() {
       title="Ücretsiz Ölçü Alma Desteği"
       description="Ücretsiz plise perde ölçü alma desteği. Doğru ölçü alma adımları, yaygın hatalar, özel form pencereler için ölçü."
       slug="olcu-alma-destegi"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz" }, { name: "Ücretsiz Ölçü Alma Desteği", url: "/olcu-alma-destegi" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Hizmetlerimiz", url: "/hizmetlerimiz/" }, { name: "Ücretsiz Ölçü Alma Desteği", url: "/olcu-alma-destegi/" }]}
       h1="Ücretsiz Ölçü Alma Desteği — Plise Perde"
       intro="Plise perde ölçü alma, doğru montaj için ilk ve en önemli adımdır. Milimetrik hassasiyet gerektirir. Ölçü alma desteği hizmetimiz ile profesyonel ekiplerimiz pencerenizi ölçer veya size rehberlik eder. Yanlış ölçü, perdenin pencereye oturmamasına ve maliyet kaybına yol açar. Doğru ölçü için bu rehberi takip edin veya ücretsiz keşif talep edin."
       schemaType="service"

@@ -78,7 +78,7 @@ export default function GaleriPage() {
   const schemas: object[] = [
     createBreadcrumbJsonLd([
       { name: "Ana Sayfa", url: "/" },
-      { name: "Galeri", url: "/galeri" },
+      { name: "Galeri", url: "/galeri/" },
     ]),
     createWebPageSchema({
       name: "Galeri — Plise Perde Uygulama Fotoğrafları",
@@ -110,7 +110,7 @@ export default function GaleriPage() {
       <PageHeading
         breadcrumb={[
           { name: "Ana Sayfa", url: "/" },
-          { name: "Galeri", url: "/galeri" },
+          { name: "Galeri", url: "/galeri/" },
         ]}
         title="Galeri — Plise Perde Uygulamaları"
         description="Plise perde, honeycomb perde ve düet perde uygulamalarımızın fotoğraflarını inceleyin. Gerçek projelerden montaj örnekleri: salon, yatak odası, cam balkon, mutfak, ofis ve daha fazlası. Tüm fotoğraflar Plise Perde tarafından uygulanan gerçek montajları gösterir."

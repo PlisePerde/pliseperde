@@ -15,7 +15,7 @@ export default function CiftCamArasiPlisePerdePage() {
       title="Çift Cam Arası Plise Perde"
       description="Çift cam arası plise perde: çift camlı pencereler için özel üretim. İki cam arasında montaj."
       slug="cift-cam-arasi-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Çift Cam Arası Plise Perde", url: "/cift-cam-arasi-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Çift Cam Arası Plise Perde", url: "/cift-cam-arasi-plise-perde/" }]}
       h1="Çift Cam Arası Plise Perde"
       intro="Çift cam arası plise perde, <strong>iki cam panzuru arasında</strong> monte edilen özel bir sistemdir. Çift camlı pencerelerde camlar arasındaki boşluğa plise perde yerleştirilir — perde cam arasında kalır, dışarıdan görünmez ve tozlanmaz. Isıcam sistemleri için ideal çözümdür. Özel ölçü üretim ve 2 yıl garanti ile gelir."
       schemaType="product"

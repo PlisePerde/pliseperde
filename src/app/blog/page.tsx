@@ -91,7 +91,7 @@ export default function BlogPage() {
             name: "Plise Perde Blog",
             description:
               "Plise perde hakkında rehberler, dekorasyon ipuçları, montaj ve bakım bilgileri, sektör haberleri.",
-            url: "/blog",
+            url: "/blog/",
             posts: posts.map((p) => ({
               title: p.title,
               url: `/${p.slug}`,

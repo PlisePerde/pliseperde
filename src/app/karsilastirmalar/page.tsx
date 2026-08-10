@@ -105,7 +105,7 @@ export default function KarsilastirmalarPage() {
       title="Plise Perde Karşılaştırmaları"
       description="Plise perde vs tüm perde türleri. Fiyat, ışık kontrolü, montaj, temizlik ve dayanıklılık açısından detaylı karşılaştırmalar."
       slug="karsilastirmalar"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }]}
       h1="Plise Perde Karşılaştırmaları"
       intro="Plise perde mi yoksa başka bir perde türü mü? Doğru perde seçimi, mekanınızın estetiği, ışık kontrolü ve bütçeniz için kritik öneme sahiptir. Aşağıda plise perdeyi tüm popüler perde türleriyle detaylıca karşılaştırdık. Her karşılaştırmada fiyat, ışık kontrolü, montaj, temizlik ve dayanıklılık açısından objektif bir inceleme bulacaksınız."
       schemaType="collectionpage"

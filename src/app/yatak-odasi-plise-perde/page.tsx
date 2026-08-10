@@ -14,7 +14,7 @@ export default function YatakOdasiPlisePerdePage() {
       title="Yatak Odası Plise Perde"
       description="Yatak odası için tam karartma plise perde: blackout kumaş, pencere içi montaj, sessiz çalışma."
       slug="yatak-odasi-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Yatak Odası", url: "/yatak-odasi-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Yatak Odası", url: "/yatak-odasi-plise-perde/" }]}
       h1="Yatak Odası Plise Perde"
       intro="Yatak odasında en kritik ihtiyaç <strong>kesintisiz uyku</strong> için tam karanlıktır. Sabah güneşi, sokak lambası veya araç farları uykuyu bölebilir. Tam karartma (blackout) plise perde, 3 katmanlı kumaş yapısı ile ışığın %0'ını geçirir ve odayı tam karanlık yapar. Pencere profili içine takıldığı için yatak odasında yer kaplamaz, dekoratif perde dökümü ile mekan daralmaz."
       bgImage="/kullanim-alanlari/yatak-odasi-plise-perde.webp"

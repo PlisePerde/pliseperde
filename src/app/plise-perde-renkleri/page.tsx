@@ -14,17 +14,17 @@ export default function PlisePerdeRenkleriPage() {
       title="Plise Perde Renkleri"
       description="Plise perde renkleri: profil renkleri (beyaz, bej, antrasit, ahşap görünümlü) ve kumaş renkleri (tül, güneşlik, karartma). 20+ renk seçeneği, özel ölçü üretim."
       slug="plise-perde-renkleri"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Renkleri", url: "/plise-perde-renkleri" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Renkleri", url: "/plise-perde-renkleri/" }]}
       h1="Plise Perde Renkleri"
       intro="Plise perde renk seçimi, mekanın atmosferini belirleyen en önemli karardır. Plise perdelerde <strong>iki ayrı renk bileşeni</strong> vardır: alüminyum profil rengi ve kumaş rengi. Profil rengi pencere çerçevesiyle uyumlu olmalı, kumaş rengi ise odanın ışık ihtiyacına ve dekorasyonuna göre seçilmelidir. Bu sayfada her iki renk grubunu inceleyebilir, mekanınıza uygun kombinasyonu belirleyebilirsiniz."
       schemaType="collectionpage"
       schemaData={{
         name: "Plise Perde Renkleri",
         description: "Profil ve kumaş renk seçenekleri — 20+ renk, özel ölçü üretim.",
-        url: "/plise-perde-renkleri",
+        url: "/plise-perde-renkleri/",
         items: [
-          { name: "Profil Renkleri", url: "/plise-perde-renkleri" },
-          { name: "Kumaş Renkleri", url: "/plise-perde-renkleri" },
+          { name: "Profil Renkleri", url: "/plise-perde-renkleri/" },
+          { name: "Kumaş Renkleri", url: "/plise-perde-renkleri/" },
         ],
       }}
       sections={[

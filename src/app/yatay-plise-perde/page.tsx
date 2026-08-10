@@ -15,7 +15,7 @@ export default function YatayPlisePerdePage() {
       title="Yatay Plise Perde"
       description="Yatay plise perde: üstten alt açılan sistem. Mutfak, banyo ve dar alanlar için ideal."
       slug="yatay-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Yatay Plise Perde", url: "/yatay-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Yatay Plise Perde", url: "/yatay-plise-perde/" }]}
       h1="Yatay Plise Perde"
       intro="Yatay plise perde, kumaşın üst profilden aşağı doğru açıldığı bir sistemdir. Üstten çekildiğinde kumaş yukarı toplanır, aşağı bırakıldığında tamamen açılır. Mutfak, banyo ve dar pencere alanları için en pratik çözümdür. Pencere önünde yer kaplamaz, temizlik kolaylığı sağlar. Özel ölçü üretim ve 2 yıl garanti ile gelir."
       schemaType="product"

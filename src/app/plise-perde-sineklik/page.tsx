@@ -15,7 +15,7 @@ export default function PlisePerdeSineklikPage() {
       title="Plise Perde + Sineklik"
       description="Plise perde + sineklik: çift katmanlı sistem. Bir taraf plise perde, diğer taraf plise sineklik."
       slug="plise-perde-sineklik"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri" }, { name: "Plise Perde + Sineklik", url: "/plise-perde-sineklik" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri/" }, { name: "Plise Perde + Sineklik", url: "/plise-perde-sineklik/" }]}
       h1="Plise Perde + Sineklik"
       intro="Plise perde + sineklik, <strong>çift katmanlı bir modeldir</strong>. Bir tarafı plise perde veya honeycomb kumaş, diğer tarafı plise sineklik tül olarak üretilir. Tek profilde iki fonksiyon: sinek koruması + ışık ve gizlilik kontrolü. Sıcak aylarda pencere açıkken sinekleri engeller, aynı zamanda ışık kontrolü sağlar. Özel ölçü üretim ve 2 yıl garanti ile gelir."
       schemaType="product"

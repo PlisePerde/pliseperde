@@ -13,7 +13,7 @@ export default function IadeDegisimPage() {
       title="İade ve Değişim"
       description="Plise perde iade ve değişim. Koşullar, süreç, geri ödeme."
       slug="iade-ve-degisim"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "İade ve Değişim", url: "/iade-ve-degisim" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "İade ve Değişim", url: "/iade-ve-degisim/" }]}
       h1="İade ve Değişim"
       intro="Bu sayfa, plise perde iade ve değişim koşullarını açıklar. Özel üretim ürünlerde iade sınırlaması vardır. Üretim hatası durumunda ücretsiz değişim yapılır. İade ve değişim süreci, koşulları ve geri ödeme detayları burada belirtilir."
       schemaType="article"

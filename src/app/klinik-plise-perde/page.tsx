@@ -14,7 +14,7 @@ export default function KlinikPlisePerdePage() {
       title="Klinik Plise Perde"
       description="Klinik için plise perde: muayene gizlilik, bekleme ışık kontrolü, hijyenik."
       slug="klinik-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Klinik", url: "/klinik-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Klinik", url: "/klinik-plise-perde/" }]}
       h1="Klinik Plise Perde"
       intro="Klinik ve muayenehanelerde <strong>hasta gizliliği ve hijyen</strong> en kritik iki faktördür. Muayene odasında dışarıdan görünmemek, bekleme alanında rahatlatıcı ışık ve tüm mekanda kolay temizlik gereklidir. Plise perde, <strong>tam karartma kumaş ile muayene odasında tam gizlilik</strong>, bekleme alanında güneşlik ile soft ışık ve hijyenik kumaş ile kolay dezenfeksiyon sağlar. Pencere içine takıldığı için klinikte dar alan yaratmaz, tıbbi ekipmana engel olmaz."
       schemaType="service"

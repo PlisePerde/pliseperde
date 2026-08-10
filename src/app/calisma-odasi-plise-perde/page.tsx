@@ -14,7 +14,7 @@ export default function CalismaOdasiPlisePerdePage() {
       title="Çalışma Odası Plise Perde"
       description="Çalışma odası için plise perde: ekran parlaması önleme, ışık kontrolü, odaklanma."
       slug="calisma-odasi-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Çalışma Odası", url: "/calisma-odasi-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Çalışma Odası", url: "/calisma-odasi-plise-perde/" }]}
       h1="Çalışma Odası Plise Perde"
       intro="Çalışma odasında <strong>ekran parlaması</strong>, odaklanmayı bozan en büyük sorundur. Güneş ışığı bilgisayar ekranına veya monitöre vurduğunda görünürlük düşer, göz yorgunluğu artar ve verimlilik azalır. Plise perde, <strong>güneşlik kumaş</strong> ile ışığı filtreler — ekran parlamasını önlerken odayı tamamen karartmaz. Pencere içine takıldığı için çalışma masasına engel olmaz, az yer kaplar."
       schemaType="service"

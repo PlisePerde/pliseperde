@@ -215,7 +215,7 @@ export default function Header() {
                         </div>
                         <div className="grid grid-cols-3 gap-3 mt-3 pt-3 border-t border-brand-border">
                           <Link
-                            href="/plise-perde-cesitleri"
+                            href="/plise-perde-cesitleri/"
                             className={`flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium rounded-lg border transition-colors ${
                               isActive("/plise-perde-cesitleri")
                                 ? "bg-brand text-white border-brand"
@@ -226,7 +226,7 @@ export default function Header() {
                             Plise Perde Çeşitleri
                           </Link>
                           <Link
-                            href="/plise-perde-ozellikleri"
+                            href="/plise-perde-ozellikleri/"
                             className={`flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium rounded-lg border transition-colors ${
                               isActive("/plise-perde-ozellikleri")
                                 ? "bg-brand text-white border-brand"
@@ -237,7 +237,7 @@ export default function Header() {
                             Plise Perde Özellikleri
                           </Link>
                           <Link
-                            href="/plise-perde-montaji"
+                            href="/plise-perde-montaji/"
                             className={`flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium rounded-lg border transition-colors ${
                               isActive("/plise-perde-montaji")
                                 ? "bg-brand text-white border-brand"
@@ -397,14 +397,14 @@ export default function Header() {
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-2 shrink-0">
             <Link
-              href="/plise-perde-fiyatlari"
+              href="/plise-perde-fiyatlari/"
               className="flex items-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium hover:bg-brand/20"
             >
               <Tag size={16} />
               Fiyatlarımız
             </Link>
             <Link
-              href="/plise-perde-fiyat-hesaplama"
+              href="/plise-perde-fiyat-hesaplama/"
               className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium bg-brand text-white rounded-md hover:bg-brand-dark transition-colors"
             >
               <Calculator size={16} />
@@ -515,7 +515,7 @@ export default function Header() {
             ))}
             <div className="pt-2 space-y-2">
               <Link
-                href="/plise-perde-fiyatlari"
+                href="/plise-perde-fiyatlari/"
                 className="flex items-center justify-center gap-1.5 px-3 py-2 text-sm rounded-md transition-colors bg-brand/10 text-brand font-medium hover:bg-brand/20"
                 onClick={() => setMobileOpen(false)}
               >
@@ -523,7 +523,7 @@ export default function Header() {
                 Fiyatlarımız
               </Link>
               <Link
-                href="/plise-perde-fiyat-hesaplama"
+                href="/plise-perde-fiyat-hesaplama/"
                 className="flex items-center justify-center gap-1.5 px-3 py-2 text-sm font-medium bg-brand text-white rounded-md"
                 onClick={() => setMobileOpen(false)}
               >

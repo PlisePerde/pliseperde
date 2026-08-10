@@ -75,7 +75,7 @@ export default function ReferanslarimizPage() {
   const schemas: object[] = [
     createBreadcrumbJsonLd([
       { name: "Ana Sayfa", url: "/" },
-      { name: "Referanslarımız", url: "/referanslarimiz" },
+      { name: "Referanslarımız", url: "/referanslarimiz/" },
     ]),
     createWebPageSchema({
       name: "Referanslarımız — Plise Perde Projeleri",
@@ -127,8 +127,8 @@ export default function ReferanslarimizPage() {
       <PageHeading
         breadcrumb={[
           { name: "Ana Sayfa", url: "/" },
-          { name: "Kurumsal", url: "/kurumsal" },
-          { name: "Referanslarımız", url: "/referanslarimiz" },
+          { name: "Kurumsal", url: "/kurumsal/" },
+          { name: "Referanslarımız", url: "/referanslarimiz/" },
         ]}
         title="Referanslarımız — Plise Perde Projeleri ve Müşterilerimiz"
         description="2022'den beri binlerce proje tamamladık. Kurumsal müşterilerimiz, iş ortaklarımız ve bireysel müşterilerimizin güvenini kazandık. Bu sayfada tamamladığımız önemli projeleri, kurumsal referanslarımızı ve başarı hikayelerimizi bulabilirsiniz."

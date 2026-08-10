@@ -14,7 +14,7 @@ export default function PrefabrikEvPlisePerdePage() {
       title="Prefabrik Ev Plise Perde"
       description="Prefabrik ev için hafif yapı, yapışkanlı montaj, honeycomb ısı yalıtımı plise perde."
       slug="prefabrik-ev-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Prefabrik Ev", url: "/prefabrik-ev-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Prefabrik Ev", url: "/prefabrik-ev-plise-perde/" }]}
       h1="Prefabrik Ev Plise Perde"
       intro="Prefabrik evlerde <strong>hafif yapı ve ısı yalıtımı</strong> en kritik faktörlerdir. Prefabrik duvarlar standart evlerden daha incedir, pencere profilleri farklıdır ve yapıya delme yapılmak istenmez. Standart perde sistemleri prefabrik eve ağır gelir, montaj için delme gerektirir ve ısı yalıtımı sağlamaz. Plise perde, <strong>yapışkanlı montaj ile delmeden takılır, hafif kumaş ile yapıya yük bindirmez ve honeycomb kumaş ile ısı yalıtımı</strong> sağlar. Prefabrik ev yaşamı için en uygun perde sistemidir."
       schemaType="service"

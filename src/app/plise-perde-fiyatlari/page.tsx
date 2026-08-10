@@ -14,7 +14,7 @@ export default function PlisePerdeFiyatlariPage() {
       title="Plise Perde Fiyatları 2026"
       description="Plise perde fiyatları 2026: Diamond, Tulle, Blackout, Honeycomb ve 13 kumaş modeli. Metrekare fiyat, vidalı montaj ücretsiz, KDV dahil, 2 yıl garanti."
       slug="plise-perde-fiyatlari"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Fiyatlarımız", url: "/plise-perde-fiyatlari" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Fiyatlarımız", url: "/plise-perde-fiyatlari/" }]}
       h1="Plise Perde Fiyatları 2026"
       intro="Plise perde fiyatları; kumaş tipine, pencere ölçüsüne, montaj tipine ve ek özelliklere göre değişir. Bu sayfada <strong>2026 yılı güncel m² fiyatlarını</strong> bulabilirsiniz. Tüm fiyatlar <strong>KDV dahil ve 2 yıl garanti</strong> ile gelir. Vidalı montaj ücretsizdir, diğer montaj tipleri ₺280/adet eklenir. Net fiyat için online fiyat hesaplama aracımızı kullanabilir veya ücretsiz keşif talep edebilirsiniz. Üretici olarak doğrudan tüketiciye hizmet veriyoruz — ara katman maliyeti yok."
       highlight="Üretici fiyatı · Vidalı montaj ücretsiz · KDV dahil · 2 yıl garanti · Türkiye geneli ücretsiz keşif"

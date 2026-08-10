@@ -14,7 +14,7 @@ export default function OfisPlisePerdePage() {
       title="Ofis Plise Perde"
       description="Ofis için plise perde: ekran parlaması önleme, profesyonel görünüm, toplantı odası karartma."
       slug="ofis-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Ofis", url: "/ofis-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Ofis", url: "/ofis-plise-perde/" }]}
       h1="Ofis Plise Perde"
       intro="Ofis ortamında <strong>çalışan verimliliği</strong>, doğru ışık kontrolü ile doğrudan ilişkilidir. Güneş ışığının monitöre vurması ekran parlaması yaratır, göz yorgunluğu ve baş ağrısına neden olur. Toplantı odalarında projeksiyon ve sunum için tam karanlık gerekir. Açık ofis düzeninde geniş cam yüzeyler ısı ve parlama sorunu yaratır. Plise perde, <strong>güneşlik kumaş ile ekran parlamasını önler</strong>, toplantı odasında karartma sağlar ve motorlu seçenek ile geniş cam yüzeyleri pratik şekilde kontrol eder."
       schemaType="service"

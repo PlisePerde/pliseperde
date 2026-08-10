@@ -14,7 +14,7 @@ export default function BanyoWCPlisePerdePage() {
       title="Banyo ve WC Plise Perde"
       description="Banyo ve WC için nem dayanımlı, tam gizlilik plise perde."
       slug="banyo-wc-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Banyo ve WC", url: "/banyo-wc-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Banyo ve WC", url: "/banyo-wc-plise-perde/" }]}
       h1="Banyo ve WC Plise Perde"
       intro="Banyo ve WC, evin <strong>en nemli ve en özel</strong> alanlarıdır. Banyo pencereleri genellikle küçük, yüksek ve dışarıdan görünme riski yüksek konumdadır. Standart perde sistemleri nemden dolayı küflenir, şekil bozukluğu yaşar ve banyoda yer kaplar. Plise perde, <strong>nem dayanımlı polyester kumaş</strong> ve pencere içi montaj ile banyo için ideal çözüm sunar — küflenmez, yer kaplamaz ve tam gizlilik sağlar."
       schemaType="service"

@@ -13,7 +13,7 @@ export default function OnBilgilendirmePage() {
       title="Ön Bilgilendirme Formu"
       description="Plise Perde ön bilgilendirme formu. Tüketici ön bilgilendirme yükümlülükleri."
       slug="on-bilgilendirme-formu"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz" }, { name: "Ön Bilgilendirme", url: "/on-bilgilendirme-formu" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz/" }, { name: "Ön Bilgilendirme", url: "/on-bilgilendirme-formu/" }]}
       h1="Ön Bilgilendirme Formu"
       intro="Bu ön bilgilendirme formu, 6502 sayılı Tüketicinin Korunması Hakkında Kanun kapsamında tüketiciye yapılması gereken bilgilendirmeyi içerir. Ürün, fiyat, teslimat, garanti ve cayma hakkı bilgileri burada detaylandırılır."
       schemaType="article"

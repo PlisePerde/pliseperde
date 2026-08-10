@@ -13,7 +13,7 @@ export default function TeslimatKargoPage() {
       title="Teslimat ve Kargo"
       description="Plise perde teslimat ve kargo. Kargo süreci, paketleme, teslimat süresi."
       slug="teslimat-ve-kargo"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Teslimat ve Kargo", url: "/teslimat-ve-kargo" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Teslimat ve Kargo", url: "/teslimat-ve-kargo/" }]}
       h1="Teslimat ve Kargo"
       intro="Bu sayfa, plise perde teslimat ve kargo koşullarını açıklar. Montaj veya kargo ile teslimat yapılır. Kargo paketleme korumalıdır ve sigortalıdır. Teslimat süresi, kargo süreci ve hasar durumunda yapılacaklar burada detaylandırılır."
       schemaType="article"

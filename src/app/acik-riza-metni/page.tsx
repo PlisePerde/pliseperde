@@ -13,7 +13,7 @@ export default function AcikRizaPage() {
       title="Açık Rıza Metni"
       description="Plise Perde açık rıza metni. KVKK kapsamında kişisel veri işleme rıza."
       slug="acik-riza-metni"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Açık Rıza Metni", url: "/acik-riza-metni" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Açık Rıza Metni", url: "/acik-riza-metni/" }]}
       h1="Açık Rıza Metni"
       intro="Bu açık rıza metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında kişisel verilerinizin işlenmesine dair rızanızı açıklar. Verilerinizi işlerken açık rızanız çerçevesinde hareket ederiz. Bu metni okuyarak rızanızı verebilir veya reddedebilirsiniz."
       schemaType="article"

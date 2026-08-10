@@ -15,7 +15,7 @@ export default function YuvarlakPlisePerdePage() {
       title="Yuvarlak Plise Perde"
       description="Yuvarlak plise perde: dairesel formda özel üretim. Yuvarlak pencere ve mimari özellikler için ideal."
       slug="yuvarlak-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Yuvarlak Plise Perde", url: "/yuvarlak-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Yuvarlak Plise Perde", url: "/yuvarlak-plise-perde/" }]}
       h1="Yuvarlak Plise Perde"
       intro="Yuvarlak plise perde, dairesel formdaki pencereler için özel üretilen bir sistemdir. Yuvarlak pencereler, mimari özellikler ve dekoratif formlar için idealdir. Standart plise perde yuvarlak pencereye uymaz — özel profil büküm ve kumaş şekillendirme ile dairesel forma tam uyum sağlanır. Her yuvarlak pencere ölçüsüne göre özel üretim yapılır. 2 yıl garanti ile gelir."
       schemaType="product"

@@ -14,7 +14,7 @@ export default function OtelPlisePerdePage() {
       title="Otel Plise Perde"
       description="Otel için plise perde: blackout misafir konforu, motorlu, toplu proje çözümleri."
       slug="otel-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Otel", url: "/otel-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Otel", url: "/otel-plise-perde/" }]}
       h1="Otel Plise Perde"
       intro="Otellerde <strong>misafir uyku konforu</strong>, müşteri memnuniyetinin ve tekrar ziyaret oranının en kritik faktörüdür. Yatak odasında tam karanlık sağlanamaması, sabah güneşi ile erken uyanma ve dışarıdan görünme endişesi misafir deneyimini olumsuz etkiler. Plise perde, <strong>blackout kumaş ile %0 ışık geçirgenliği</strong>, motorlu seçenek ile yataktan kumanda, ve toplu proje çözümleri ile tüm otel odalarında standart kalite sağlar. Ticari dayanıklılıkta mekanizma ile uzun ömürlü kullanım sunar."
       schemaType="service"

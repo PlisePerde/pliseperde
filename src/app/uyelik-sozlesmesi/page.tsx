@@ -13,7 +13,7 @@ export default function UyelikSozlesmesiPage() {
       title="Üyelik Sözleşmesi"
       description="Plise Perde üyelik sözleşmesi. Web sitesi üyelik şartları, kullanıcı yükümlülükleri."
       slug="uyelik-sozlesmesi"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz" }, { name: "Üyelik Sözleşmesi", url: "/uyelik-sozlesmesi" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Sözleşmelerimiz", url: "/sozlesmelerimiz/" }, { name: "Üyelik Sözleşmesi", url: "/uyelik-sozlesmesi/" }]}
       h1="Üyelik Sözleşmesi"
       intro="Bu üyelik sözleşmesi, pliseperde.com web sitesi üyelik şartlarını ve kullanıcı yükümlülüklerini açıklar. Üye olarak bu sözleşmeyi kabul etmiş sayılırsınız. Sözleşme, üyelik süreci, kullanıcı hakları, yükümlülükler ve fesih koşullarını kapsar."
       schemaType="article"

@@ -22,7 +22,7 @@ export default function DuetPerdePage() {
       title="Düet Perde Ürünleri"
       description="Düet perde ürünleri: iki katmanlı gece-gündüz sistemidir. Gündüz ışık geçirgen, gece tam karartma."
       slug="duet-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Düet Perde Ürünleri", url: "/duet-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz/" }, { name: "Düet Perde Ürünleri", url: "/duet-perde/" }]}
       h1="Düet Perde Ürünleri"
       intro="Düet perde ürünleri kategorisinde iki farklı kumaş katmanını tek perdede birleştiren modeller sunuyoruz. Üst katman ışık geçirgen (tül/güneşlik), alt katman tam karartmadır. Gündüz üst katmanı kullanarak ışık alırsınız, gece alt katmanı indirerek tam karanlık sağlarsınız. Tek perdede iki fonksiyon — yerden tasarruf. 2 yıl garanti ile üretilir."
       schemaType="collectionpage"

@@ -14,7 +14,7 @@ export default function BlackoutPlisePerdePage() {
       title="Blackout Plise Perde"
       description="Blackout plise perde: %100 ışık geçirmeyen tam karartma kumaş. Yatak odası, sinema odası için ideal."
       slug="blackout-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri" }, { name: "Blackout Plise Perde", url: "/blackout-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri/" }, { name: "Blackout Plise Perde", url: "/blackout-plise-perde/" }]}
       h1="Blackout Plise Perde"
       intro="Blackout plise perde, %100 ışık geçirmeyen tam karartma kumaşı ile pencereyi tamamen karanlık yapabilen plise perde modelidir. Kumaş arkasında özel kaplama tabakası vardır — ışığı, sızıntıyı ve dış manzarayı tamamen keser. Yatak odası, sinema odası, gece çalışanlar ve gündüz uykusu için ideal. 2 yıl garanti ile üretilir."
       schemaType="product"

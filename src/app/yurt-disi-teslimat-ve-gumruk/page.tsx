@@ -13,7 +13,7 @@ export default function YurtDisiPage() {
       title="Yurt Dışı Teslimat ve Gümrük"
       description="Plise perde yurt dışı teslimat ve gümrük. Kargo, gümrük, teslimat koşulları."
       slug="yurt-disi-teslimat-ve-gumruk"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Yurt Dışı Teslimat", url: "/yurt-disi-teslimat-ve-gumruk" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Yurt Dışı Teslimat", url: "/yurt-disi-teslimat-ve-gumruk/" }]}
       h1="Yurt Dışı Teslimat ve Gümrük"
       intro="Bu sayfa, plise perde yurt dışı teslimat ve gümrük koşullarını açıklar. Kargo süreci, gümrük vergileri, teslimat süresi ve sorumluluklar burada detaylandırılır. Yurt dışı siparişlerde ek gümrük vergileri ve kargo ücretleri olabilir."
       schemaType="article"

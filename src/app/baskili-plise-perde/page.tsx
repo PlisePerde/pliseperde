@@ -14,7 +14,7 @@ export default function BaskiliPlisePerdePage() {
       title="Baskılı Plise Perde"
       description="Baskılı plise perde: özel baskı teknolojisi ile kişiselleştirilmiş kumaş. Logo, fotoğraf, sanat eseri baskısı."
       slug="baskili-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri" }, { name: "Baskılı Plise Perde", url: "/baskili-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri/" }, { name: "Baskılı Plise Perde", url: "/baskili-plise-perde/" }]}
       h1="Baskılı Plise Perde"
       intro="Baskılı plise perde, kumaş üzerine dijital baskı teknolojisi ile istenilen görüntünün basıldığı plise perde modelidir. Logo, fotoğraf, sanat eseri, manzara veya grafik tasarım — hayal gücünüz sınırdır. Kurumsal mekanlar için marka kimliği, evler için kişisel dokunuş. UV dayanımlı baskı ile renkler yıllar boyu canlı kalır. 2 yıl garanti ile üretilir."
       schemaType="product"

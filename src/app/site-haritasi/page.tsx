@@ -50,7 +50,7 @@ export default function SiteHaritasiPage() {
           createWebPageSchema({
             name: "Site Haritası",
             description: "Plise Perde site haritası.",
-            url: "/site-haritasi",
+            url: "/site-haritasi/",
           }),
         ]}
       />

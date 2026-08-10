@@ -15,7 +15,7 @@ export default function AciliPlisePerdePage() {
       title="Açılı Plise Perde"
       description="Açılı plise perde: açılı formda özel üretim. Köşe pencere ve dikdörtgen olmayan yüzeyler için ideal."
       slug="acili-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }, { name: "Açılı Plise Perde", url: "/acili-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }, { name: "Açılı Plise Perde", url: "/acili-plise-perde/" }]}
       h1="Açılı Plise Perde"
       intro="Açılı plise perde, dikdörtgen olmayan açılı formlardaki pencereler için özel üretilen bir sistemdir. Köşe pencereleri, beşik çatı açılı formları ve dikdörtgen olmayan mimari pencereler için idealdir. Standart plise perde açılı pencereye uymaz — özel profil kesimi ve kumaş şekillendirme ile açılı forma tam uyum sağlanır. Her açılı pencere ölçüsüne göre özel üretim yapılır. 2 yıl garanti ile gelir."
       schemaType="product"

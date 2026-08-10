@@ -14,7 +14,7 @@ export default function PlisePerdeYedekParcaPage() {
       title="Plise Perde Yedek Parça"
       description="Plise perde yedek parça: kumaş, profil, ip mekanizması, kanal, klips. Orijinal ve uyumlu parça tedarimi."
       slug="plise-perde-yedek-parca"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz" }, { name: "Plise Perde Yedek Parça", url: "/plise-perde-yedek-parca" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Ürünlerimiz", url: "/urunlerimiz/" }, { name: "Plise Perde Yedek Parça", url: "/plise-perde-yedek-parca/" }]}
       h1="Plise Perde Yedek Parça"
       intro="Plise perde yedek parça tedariki yapıyoruz. Kumaş, profil, ip mekanizması, kanal, klips ve tüm bileşenler için orijinal ve uyumlu seçenekler mevcuttur. Perdenizi yenilemenize gerek yok — sadece değişen parçayı tedarik ederek perdenizi yeniden çalışır hale getiririz. Türkiye geneli kargo ile gönderim yapılır. 2 yıl garanti."
       schemaType="product"

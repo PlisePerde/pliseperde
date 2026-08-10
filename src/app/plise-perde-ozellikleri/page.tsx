@@ -14,7 +14,7 @@ export default function PlisePerdeOzellikleriPage() {
       title="Plise Perde Özellikleri"
       description="Plise perde özellikleri: ısı yalıtımı, enerji tasarrufu, UV koruma, güneş kırma, ışık kontrolü, nem dayanımı, temizlik, alev geciktirici, antibakteriyel."
       slug="plise-perde-ozellikleri"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Özellikler", url: "/plise-perde-ozellikleri" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Özellikler", url: "/plise-perde-ozellikleri/" }]}
       h1="Plise Perde Özellikleri"
       intro="Plise perde, sadece bir perde değil; pencere ile mekan arasında <strong>çok katmanlı bir bariyer</strong> oluşturan teknik bir sistemdir. Isı yalıtımından UV korumaya, nem dayanımından antibakteriyel kumaşa kadar 9 temel özellik, plise perdeyi diğer perde sistemlerinden ayırır. Bu sayfada her özelliği detaylı inceleyebilir, ihtiyacınıza uygun kumaş ve modeli seçebilirsiniz."
       schemaType="webpage"

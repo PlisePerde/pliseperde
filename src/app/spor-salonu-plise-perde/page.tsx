@@ -14,7 +14,7 @@ export default function SporSalonuPlisePerdePage() {
       title="Spor Salonu Plise Perde"
       description="Spor salonu için nem dayanımlı, hafif, geniş pencere plise perde."
       slug="spor-salonu-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Spor Salonu", url: "/spor-salonu-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Spor Salonu", url: "/spor-salonu-plise-perde/" }]}
       h1="Spor Salonu Plise Perde"
       intro="Spor salonlarında <strong>yüksek nem, ter buharı ve sürekli hareket</strong> perde seçimini zorlaştırır. Standart perde sistemleri nemden dolayı küflenir, ağır kumaş hava akışını engeller ve geniş cam yüzeylerde manuel kontrol impratik olur. Plise perde, <strong>nem dayanımlı polyester kumaş, hafif yapı ve motorlu seçenek</strong> ile spor salonu için ideal çözüm sunar. Geniş cam cephelerde motorlu kumanda ile tüm perdeleri tek komutla kontrol edebilir, UV korumalı kumaş ile spor ekipmanlarını güneşten koruyabilirsiniz."
       schemaType="service"

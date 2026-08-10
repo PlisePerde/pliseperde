@@ -14,7 +14,7 @@ export default function GencOdasiPlisePerdePage() {
       title="Genç Odası Plise Perde"
       description="Genç odası için modern plise perde: renk seçenekleri, çalışma-dinlenme dengesi."
       slug="genc-odasi-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Genç Odası", url: "/genc-odasi-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Genç Odası", url: "/genc-odasi-plise-perde/" }]}
       h1="Genç Odası Plise Perde"
       intro="Genç odası, <strong>çalışma ve dinlenmenin</strong> aynı mekanda olduğu çok fonksiyonel bir alandır. Gençler burada ders çalışar, bilgisayar kullanır, müzik dinler ve uyur. Bu çoklu kullanım, farklı ışık ihtiyaçları yaratır — ders çalışırken ekran parlamasını önleyecek filtreleme, dinlenirken soft ışık, uyurken tam karanlık. Plise perde, <strong>düet kumaş</strong> ile tek profilde bu üç ihtiyacı da karşılar. Modern tasarımı ve geniş renk yelpazesi ile gençin tarzına uyum sağlar."
       schemaType="service"

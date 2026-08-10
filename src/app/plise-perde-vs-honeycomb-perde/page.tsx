@@ -14,7 +14,7 @@ export default function PliseVsHoneycombPage() {
       title="Plise Perde vs Honeycomb Perde"
       description="Plise perde ve honeycomb petek perde arasındaki yapısal, ısıl ve fiyat farkları."
       slug="plise-perde-vs-honeycomb-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar" }, { name: "Plise vs Honeycomb", url: "/plise-perde-vs-honeycomb-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Karşılaştırmalar", url: "/karsilastirmalar/" }, { name: "Plise vs Honeycomb", url: "/plise-perde-vs-honeycomb-perde/" }]}
       h1="Plise Perde mi Honeycomb Petek Perde mi? İşte Ayrıntılar"
       intro="Pencere kenarında plise perde ile honeycomb (petek) perde sıkça birbirine karıştırılır; oysa birinin pile katlanan tek katmanı, diğerinin hava dolu petek hücreleri vardır. Honeycomb, hücre içine hapsedilen havayla bir yalıtım bariyeri kurarken plise perde ağırlığı ve kalınlığı düşük tutarak pratik kullanım hedefler. Aşağıda bu iki sistemin yapı, yalıtım, bütçe, aydınlatma, kurulum ve karar kriterlerini tek tek ele aldık."
       schemaType="article"

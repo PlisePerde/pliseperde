@@ -14,7 +14,7 @@ export default function HastanePlisePerdePage() {
       title="Hastane Plise Perde"
       description="Hastane için anti-bakteriyel, hijyenik, tam karartma plise perde."
       slug="hastane-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Hastane", url: "/hastane-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Hastane", url: "/hastane-plise-perde/" }]}
       h1="Hastane Plise Perde"
       intro="Hastane ortamında <strong>hijyen birinci önceliktir</strong>. Standart perde sistemleri toz tutar, yıkanması zordur ve bakteri üretimine zemin hazırlar. Hastane odalarında hastanın dinlenmesi için tam karanlık, ameliyathanelerde kontrollü ışık ve yoğun bakımda monitör parlamasını önleme gereklidir. Plise perde, <strong>anti-bakteriyel kumaş, kolay silinebilir yüzey ve pencere içi montaj</strong> ile hastane ortamı için ideal hijyenik çözüm sunar. Kumaş toz tutmaz, nemli bezle dezenfekte edilir ve pencere içinde yer kaplamaz."
       schemaType="service"

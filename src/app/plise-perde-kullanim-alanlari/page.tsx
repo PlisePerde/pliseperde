@@ -14,14 +14,14 @@ export default function PlisePerdeKullanimAlanlariPage() {
       title="Plise Perde Kullanım Alanları"
       description="Plise perde kullanım alanları: ev, ofis, ticari, kurumsal, mobil. Her mekan için uygun plise perde çözümleri."
       slug="plise-perde-kullanim-alanlari"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }]}
       h1="Plise Perde Kullanım Alanları"
       intro="Plise perde, pencere içinde montaj yapılması ve az yer kaplaması sayesinde <strong>her mekan tipine</strong> uygundur. Evlerden ofislere, otellerden hastanelere, karavanlardan yatlara kadar geniş bir kullanım yelpazesi sunar. Aşağıda kullanım alanlarını kategorilere göre inceleyebilir, ilgilendiğiniz mekan için detaylı sayfaya ulaşabilirsiniz."
       schemaType="collectionpage"
       schemaData={{
         name: "Plise Perde Kullanım Alanları",
         description: "Plise perde kullanım alanları: ev, ofis, ticari, kurumsal ve mobil yaşam.",
-        url: "/plise-perde-kullanim-alanlari",
+        url: "/plise-perde-kullanim-alanlari/",
         items: [
           "/mutfak-plise-perde/",
           "/salon-plise-perde/",

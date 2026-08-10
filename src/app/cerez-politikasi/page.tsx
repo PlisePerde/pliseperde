@@ -13,7 +13,7 @@ export default function CerezPolitikasiPage() {
       title="Çerez Politikası"
       description="Plise Perde çerez politikası. Çerez türleri, amaçları, yönetimi."
       slug="cerez-politikasi"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz" }, { name: "Çerez Politikası", url: "/cerez-politikasi" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Politikalarımız", url: "/politikalarimiz/" }, { name: "Çerez Politikası", url: "/cerez-politikasi/" }]}
       h1="Çerez Politikası"
       intro="Bu çerez politikası, pliseperde.com web sitesinde kullanılan çerezleri açıklar. Çerezler, site deneyimini iyileştirmek ve site performansını ölçmek için kullanılır. Çerez türleri, amaçları ve yönetim seçenekleri bu sayfada detaylıca açıklanır."
       schemaType="article"

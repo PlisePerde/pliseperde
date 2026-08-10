@@ -27,7 +27,7 @@ export default function SozlesmelerimizPage() {
       <JsonLd
         schemas={[
           createBreadcrumbJsonLd(["Ana Sayfa", "Sözleşmelerimiz"]),
-          createWebPageSchema({ name: "Sözleşmelerimiz", description: "Plise Perde sözleşmeleri.", url: "/sozlesmelerimiz" }),
+          createWebPageSchema({ name: "Sözleşmelerimiz", description: "Plise Perde sözleşmeleri.", url: "/sozlesmelerimiz/" }),
         ]}
       />
       <PageHeading

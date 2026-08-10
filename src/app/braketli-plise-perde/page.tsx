@@ -14,7 +14,7 @@ export default function BraketliPlisePerdePage() {
       title="Braketli Plise Perde"
       description="Braketli plise perde: bracket ile pencere çerçevesine sabitlenen montaj sistemi. Sağlam, esnek, her çerçeve tipine uygun."
       slug="braketli-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji" }, { name: "Braketli Plise Perde", url: "/braketli-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Montajı", url: "/plise-perde-montaji/" }, { name: "Braketli Plise Perde", url: "/braketli-plise-perde/" }]}
       h1="Braketli Plise Perde"
       intro="Braketli plise perde, perde profilinin pencere çerçevesine bracket (köşebent) ile sabitlendiği montaj sistemidir. Bracket'lar çerçevenin iç yüzeyine vidalanır veya yapıştırılır, ardından perde profili bracket'lara oturtulur. Sağlamlık ve esneklik dengesi sunar — vidalı montaj kadar sağlam, kancalı montaj kadar esnektir. Her çerçeve tipine uygulanabilir. 2 yıl garanti ile gelir."
       schemaType="product"

@@ -14,7 +14,7 @@ export default function CocukOdasiPlisePerdePage() {
       title="Çocuk Odası Plise Perde"
       description="Çocuk odası için güvenli plise perde: ip mekanizması yok, soft ışık, renkli seçenekler."
       slug="cocuk-odasi-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Çocuk Odası", url: "/cocuk-odasi-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Çocuk Odası", url: "/cocuk-odasi-plise-perde/" }]}
       h1="Çocuk Odası Plise Perde"
       intro="Çocuk odasında <strong>güvenlik birinci önceliktir</strong>. Klasik perde sistemlerinde bulunan ip ve kordon mekanizmaları, çocuklar için strangülasyon (boğulma) riski taşır. Plise perde, <strong>ip mekanizması kullanmaz</strong> — kordon yerine el ile itme/çekme veya teleskopik kolla çalışır. Bu sayede çocuk odasında güvenlik standartları tam sağlanır. Ayrıca yarı karartma kumaş ile odaya soft ışık girer, çocuğun gözünü yormaz."
       schemaType="service"

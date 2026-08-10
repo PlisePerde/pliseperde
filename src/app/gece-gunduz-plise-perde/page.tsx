@@ -14,7 +14,7 @@ export default function GeceGunduzPlisePerdePage() {
       title="Gece Gündüz Plise Perde"
       description="Gece gündüz plise perde: ışık geçirgen ve tam karartma iki katman tek perdede. Gündüz ışık, gece karanlık."
       slug="gece-gunduz-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri" }, { name: "Gece Gündüz Plise Perde", url: "/gece-gunduz-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Modellerimiz", url: "/plise-perde-modelleri/" }, { name: "Gece Gündüz Plise Perde", url: "/gece-gunduz-plise-perde/" }]}
       h1="Gece Gündüz Plise Perde"
       intro="Gece gündüz plise perde, iki farklı kumaş katmanını tek perdede birleştiren modeldir. Üst katman ışık geçirgen (tül/güneşlik), alt katman tam karartmadır. Gündüz üst katmanı kullanarak ışık alırsınız, gece alt katmanı indirerek tam karanlık sağlarsınız. İki ayrı perde yerine tek perde — yer tasarrufu ve estetik. 2 yıl garanti ile üretilir."
       schemaType="product"

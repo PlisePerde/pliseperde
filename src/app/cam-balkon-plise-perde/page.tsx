@@ -15,7 +15,7 @@ export default function CamBalkonPlisePerdePage() {
       title="Cam Balkon Plise Perde"
       description="Cam balkon için plise perde: geniş cam yüzey, rüzgar dayanımı, güneş ve ısı kontrolü."
       slug="cam-balkon-plise-perde"
-      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari" }, { name: "Cam Balkon", url: "/cam-balkon-plise-perde" }]}
+      breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Kullanım Alanları", url: "/plise-perde-kullanim-alanlari/" }, { name: "Cam Balkon", url: "/cam-balkon-plise-perde/" }]}
       h1="Cam Balkon Plise Perde"
       intro="Cam balkonlar, <strong>geniş cam yüzeyler</strong> sayesinde bol ışık ve manzara sunar ancak yaz aylarında aşırı ısınma, kış aylarında ısı kaybı ve gün batımında rüzgar ile birlikte gelen toz/güneş sorunu yaratır. <strong>Katlanır cam sistemlerinde</strong> her kanat ayrı açıldığı için perde montajı zordur. Katlanır cam plise perde, <strong>her cam kanadına ayrı ölçü</strong> yapılması ve pencere profili içine takılması sayesinde cam balkon için en uygun perde sistemidir."
       schemaType="service"

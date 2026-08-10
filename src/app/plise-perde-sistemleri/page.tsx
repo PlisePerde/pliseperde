@@ -132,19 +132,19 @@ export default function SistemlerimizPage() {
           createWebPageSchema({
             name: "Plise Perde Sistemleri",
             description: "9 plise perde sistemi: yatay, dikey, tavan, kasalı, üçgen, eğimli, açılı, yuvarlak, oval.",
-            url: "/plise-perde-sistemleri",
+            url: "/plise-perde-sistemleri/",
           }),
           createCollectionPageSchema({
             name: "Plise Perde Sistemleri",
             description: "9 plise perde sistemi — her pencere formuna uygun.",
-            url: "/plise-perde-sistemleri",
+            url: "/plise-perde-sistemleri/",
             items: sistemler.map((s) => ({ name: s.name, url: `/${s.slug}` })),
           }),
           createFAQSchema(faqs),
         ]}
       />
       <PageHeading
-        breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri" }]}
+        breadcrumb={[{ name: "Ana Sayfa", url: "/" }, { name: "Plise Perde Sistemleri", url: "/plise-perde-sistemleri/" }]}
         title="Plise Perde Sistemleri"
         description="Plise perde sistemleri, pencere formuna ve uygulama yerine göre değişir. Yatay, dikey, tavan, kasalı, üçgen, eğimli, açılı, yuvarlak ve oval sistemler arasından size uygun olanı seçin. Her sistem özel ölçü üretim ve 2 yıl garanti ile gelir."
         highlight="Yatay · Dikey · Tavan · Kasalı · Üçgen · Eğimli · Açılı · Yuvarlak · Oval · Çift Cam Arası"
