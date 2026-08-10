@@ -380,7 +380,7 @@ export default function ReferanslarimizPage() {
         title="Kurumsal Teklif Alın"
         description="Projeniz için ücretsiz keşif ve özel kurumsal fiyat teklifi alın. İstanbul ve Türkiye geneli hizmet."
         primaryLabel="Ücretsiz Keşif Talep Et"
-        primaryHref="/kesif"
+        primaryHref="/kesif/"
       />
     </PageLayout>
   );

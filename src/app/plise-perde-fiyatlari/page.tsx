@@ -555,7 +555,7 @@ export default function PlisePerdeFiyatlariPage() {
       ctaTitle="Net Fiyat İçin Hesaplayın veya Keşif Talep Edin"
       ctaDescription="Online fiyat hesaplama aracımız ile 30 saniyede tahmini fiyat alın, veya ücretsiz keşif talep ederek net fiyat öğrenin. Türkiye geneli hizmet."
       ctaPrimaryLabel="Fiyat Hesapla"
-      ctaPrimaryHref="/plise-perde-fiyat-hesaplama"
+      ctaPrimaryHref="/plise-perde-fiyat-hesaplama/"
     />
   );
 }

@@ -13,7 +13,7 @@ export default function CTASection({
   title = "Ücretsiz Keşif ve Fiyat Teklifi",
   description = "Plise perde ihtiyacınız için hemen iletişime geçin. İstanbul ve Türkiye geneli ücretsiz keşif hizmeti.",
   primaryLabel = "Ücretsiz Keşif Talep Et",
-  primaryHref = "/kesif",
+  primaryHref = "/kesif/",
 }: CTASectionProps) {
   return (
     <section className="bg-white py-10 md:py-12">

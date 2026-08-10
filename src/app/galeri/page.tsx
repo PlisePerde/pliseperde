@@ -173,7 +173,7 @@ export default function GaleriPage() {
         title="Beğendiğiniz Modeli Uygulatalım"
         description="Galeride beğendiğiniz perde modelini seçin, ücretsiz keşif talebi oluşturun. İstanbul ve Türkiye geneli ücretsiz keşif ve montaj hizmeti."
         primaryLabel="Ücretsiz Keşif Talep Et"
-        primaryHref="/kesif"
+        primaryHref="/kesif/"
       />
     </PageLayout>
   );

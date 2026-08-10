@@ -38,10 +38,10 @@ const productCards = [
 ];
 
 const serviceCards = [
-  { label: "Montaj", href: "/montaj", icon: Wrench, desc: "Profesyonel montaj hizmeti" },
-  { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi", icon: Calculator, desc: "Ücretsiz ölçü danışmanlığı" },
-  { label: "Ücretsiz Keşif ve Danışmanlık", href: "/kesif", icon: Phone, desc: "Yerinde keşif ve teklif" },
-  { label: "Fiyat Hesaplama", href: "/plise-perde-fiyat-hesaplama", icon: Calculator, desc: "Online fiyat hesaplama" },
+  { label: "Montaj", href: "/montaj/", icon: Wrench, desc: "Profesyonel montaj hizmeti" },
+  { label: "Ölçü Alma Desteği", href: "/olcu-alma-destegi/", icon: Calculator, desc: "Ücretsiz ölçü danışmanlığı" },
+  { label: "Ücretsiz Keşif ve Danışmanlık", href: "/kesif/", icon: Phone, desc: "Yerinde keşif ve teklif" },
+  { label: "Fiyat Hesaplama", href: "/plise-perde-fiyat-hesaplama/", icon: Calculator, desc: "Online fiyat hesaplama" },
 ];
 
 const faqs = [

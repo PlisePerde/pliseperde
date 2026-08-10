@@ -196,7 +196,7 @@ export default function KarsilastirmalarPage() {
       ctaTitle="Hangi Perde Sizin İçin Uygun?"
       ctaDescription="Karşılaştırmaları incelediniz ama hâlâ kararsız mısınız? Uzman ekibimiz size en uygun perde türünü belirlemenize yardımcı olsun."
       ctaPrimaryLabel="Ücretsiz Keşif Talep Et"
-      ctaPrimaryHref="/kesif"
+      ctaPrimaryHref="/kesif/"
     />
   );
 }

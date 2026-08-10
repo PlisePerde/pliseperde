@@ -217,7 +217,7 @@ export default function Header() {
                           <Link
                             href="/plise-perde-cesitleri/"
                             className={`flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium rounded-lg border transition-colors ${
-                              isActive("/plise-perde-cesitleri")
+                              isActive("/plise-perde-cesitleri/")
                                 ? "bg-brand text-white border-brand"
                                 : "bg-brand-bg text-brand border-brand-border hover:border-brand hover:bg-brand-light/30"
                             }`}
@@ -228,7 +228,7 @@ export default function Header() {
                           <Link
                             href="/plise-perde-ozellikleri/"
                             className={`flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium rounded-lg border transition-colors ${
-                              isActive("/plise-perde-ozellikleri")
+                              isActive("/plise-perde-ozellikleri/")
                                 ? "bg-brand text-white border-brand"
                                 : "bg-brand-bg text-brand border-brand-border hover:border-brand hover:bg-brand-light/30"
                             }`}
@@ -239,7 +239,7 @@ export default function Header() {
                           <Link
                             href="/plise-perde-montaji/"
                             className={`flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium rounded-lg border transition-colors ${
-                              isActive("/plise-perde-montaji")
+                              isActive("/plise-perde-montaji/")
                                 ? "bg-brand text-white border-brand"
                                 : "bg-brand-bg text-brand border-brand-border hover:border-brand hover:bg-brand-light/30"
                             }`}
