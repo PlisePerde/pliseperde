@@ -131,11 +131,15 @@ Crawl-delay: 1
 # --- Sitemap Referansları ---
 Sitemap: https://pliseperde.com/sitemap.xml
 Sitemap: https://pliseperde.com/sitemap-pages.xml
-Sitemap: https://pliseperde.com/sitemap-blog.xml
+Sitemap: https://pliseperde.com/sitemap-products.xml
 Sitemap: https://pliseperde.com/sitemap-models.xml
+Sitemap: https://pliseperde.com/sitemap-systems.xml
+Sitemap: https://pliseperde.com/sitemap-montage.xml
+Sitemap: https://pliseperde.com/sitemap-usage-areas.xml
 Sitemap: https://pliseperde.com/sitemap-services.xml
 Sitemap: https://pliseperde.com/sitemap-regions.xml
 Sitemap: https://pliseperde.com/sitemap-comparisons.xml
+Sitemap: https://pliseperde.com/sitemap-blog.xml
 Sitemap: https://pliseperde.com/sitemap-legal.xml
 Sitemap: https://pliseperde.com/sitemap-images.xml
 Sitemap: https://pliseperde.com/sitemap-videos.xml
