@@ -73,6 +73,22 @@ const allDiscoveredRoutes = discoverAppRoutes().filter(
   (e) => !citySlugs.has(e.slug) && !blogSlugs.has(e.slug)
 );
 
+export const subSitemaps = [
+  "sitemap-pages.xml",
+  "sitemap-products.xml",
+  "sitemap-models.xml",
+  "sitemap-systems.xml",
+  "sitemap-montage.xml",
+  "sitemap-usage-areas.xml",
+  "sitemap-services.xml",
+  "sitemap-regions.xml",
+  "sitemap-comparisons.xml",
+  "sitemap-blog.xml",
+  "sitemap-legal.xml",
+  "sitemap-images.xml",
+  "sitemap-videos.xml",
+] as const;
+
 export const modelPages: SitemapEntry[] = allDiscoveredRoutes.filter((e) =>
   /^duz-plise-perde$|^blackout-plise-perde$|^gece-gunduz-plise-perde$|^desenli-plise-perde$|^baskili-plise-perde$|^plise-perde-sineklik$/.test(e.slug)
 );
